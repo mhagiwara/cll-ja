@@ -1,0 +1,73 @@
+第１章：本書について
+
+（原題：Lojban As We Mangle It In Lojbanistan: About This Book）
+→ “Lojban As We Mangle It In Lojbanistan: About This Book)
+1. ロジバンとは何か
+
+ログラン (James Cooke Brown がプロジェクトを始める)が前身 1955年にスタート
+SF小説 “The Moon Is A Harsh Mistress”
+1987年からは、Logical Language Group (LLG=この本の出版元) がロジバンの開発を牽引
+
+特徴： 文化的に中立　述語理論がベース　曖昧性が無い　柔軟 1300の語幹(gismu)をベース スペルと音が一致　音→単語が一致
+応用： 人間・コンピュータのコミュニケーション 理論・科学　翻訳・文学 etc.
+2. 本書の内容
+
+この本は、説明ではなく記述　文法をカバーする「参照文法」
+ロジバンは特定の個人やグループによって発明されたものではない　作者による変更はもう無い
+その用法が理解される前に文法機能が導入される　→　後に用法を「発見」
+
+第2章で文法の概要　第21章で形式的な構造を解説
+
+本書の出版時において文法は完成している
+ロジバンの進化 → 実用に耐える語彙を作り出すこと
+いわゆる「言語専門家」による「改造」の心配無く学べる
+
+段階的に作られている　構成要素→全体
+各章のタイトル（＋言葉遊び）
+本章は “English As We Speak It in Ireland” のもじり
+3. 本書の表記方法
+
+本書が独学用と参考用として使えるように特徴的な表記を取っている
+
+    1.1) mi klama le zarci
+    　　　　I go-to that-which-I-describe-as-a store.
+    　　　　(私 ～へ行く 私が～と呼ぶ 店)
+    　　　　I go to the store.
+    　　　　(私は店へ行く) 
+
+1行目：ロジバン（２文以上の同一の意味のものも含む）
+2行目：逐語訳・直訳
+3行目：通常の訳
+角括弧で囲まれた語：省略可 （IPAを表す時にも使う）
+
+表の構成：ロジバンの単語、文法カテゴリ（大文字）、語義・意味
+「ロジバン用語」→ 第２章にて解説（末尾にリストがある）
+4. 免責事項
+
+本書で使用している例は実際の人物・場所・組織とは関係ない
+
+gismu, lujvo の定義や配列構造は、英ロジ辞書（未出版）のものを優先する
+5. 謝辞
+
+作者： John Cowan
+Bob LeChevalier, Nora Tansky LeChevalier (絵を描いた) Chuck Barton Clark Nelson
+6. 参考文献
+
+“Loglan 1: A Logical Language” by James Cooke Brown （ただし、Lojban の存在そのものを否定している）
+“Word and Object” by W. v.O. Quine (1960, M.I.T. Press)
+“The Natural History of Negation” by Larry Horn
+教科書（本書）　英ロジ辞書　ロジバンについての一般的な本　が出版（予定？）
+7. 絵のキャプション
+
+（省略）
+8. ライセンス表示
+
+Copyright © 1997 by The Logical Language Group, Inc.
+
+本書の複製・再配布は、この著作権およびライセンスを表示する限り認められる。
+
+本書を改変し配布することは、この著作権およびライセンスを表示、変更点を明示し、全体を同じライセンスの元で配布する限り認められる。
+
+本書の翻訳の配布についても上記の改変と同じ条件であるが、本ライセンスを LLG によって認められた翻訳によって表示しても良い点が異なる。
+
+第21章の内容はパブリック・ドメインである。
