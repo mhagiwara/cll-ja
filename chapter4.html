@@ -1,0 +1,746 @@
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="Author" content="guskant"> 
+<title>CLL 第4章：ロジバンの形態論</title> 
+
+<style type="text/css">
+<!--
+body {color: #000000; }
+p    {color: #A0A0A0; font-size: 10pt; margin: 2px; display: none;}
+-->
+</style>
+
+</head>
+<body>
+
+<p>Chapter 4: The Shape Of Words To Come: Lojban Morphology</p>
+
+<h1>第4章：ロジバンの形態論</h1>
+
+<p>1. Introductory</p>
+
+<h2>1. はじめに</h2>
+
+<p>Morphology is the part of grammar that deals with the form of
+words. Lojban's morphology is fairly simple compared to that of many
+languages, because Lojban words don't change form depending on how
+they are used. English has only a small number of such changes
+compared to languages like Russian, but we do have changes like
+“boys” as the plural of “boy”, or “walked” as the past-tense
+form of “walk”. To make plurals or past tenses in Lojban, you add
+separate words to the sentence that express the number of boys, or the
+  time when the walking was going on.</p>
+
+形態論とは、語の形を扱うルール・文法のことである。英語は、複数形や時制
+で単語が変形するが、ロジバンは変形しないため、ロジバンの形態論はかなり
+単純である。たとえば、ものの数を表す時には、数を表す語を加える、時制に
+ついても同じ、等。
+
+<p>However, Lojban does have what is called “derivational morphology”:
+the capability of building new words from old words. In addition, the
+form of words tells us something about their grammatical uses, and
+sometimes about the means by which they entered the language.  Lojban
+has very orderly rules for the formation of words of various types,
+both the words that already exist and new words yet to be created by
+  speakers and writers.</p>
+
+しかし「派生」はある。既存の語から新しい語を作る。語の形成が規則的なの
+で、語の形を見ると、使い方、タイプ、由来が分かる　（例：ルジュボ）
+
+<p>A stream of Lojban sounds can be uniquely broken up into its component
+words according to specific rules. These so-called “morphology rules”
+are summarized in this chapter. (However, a detailed algorithm for
+breaking sounds into words has not yet been fully debugged, and so is
+not presented in this book.) First, here are some conventions used to
+  talk about groups of Lojban letters, including vowels and consonants.</p>
+
+ロジバンの音は、ルールによって語に分解することができる。以下に示すのは、
+ロジバンの文字の慣例である。
+
+<ul>
+<p>1) V represents any single Lojban vowel except “y”; that is, it
+  represents “a”, “e”, “i”, “o”, or “u”.</p>
+
+<li> 1) V: 母音 a e i o u “y” は除く </li>
+
+<p>2) VV represents either a diphthong, one of the following:
+ai ei oi au
+or a two-syllable vowel pair with an apostrophe separating the vowels, one of the
+following:
+  a'a a'e a'i a'o a'u e'a e'e e'i e'o e'u i'a i'e i'i i'o i'u o'a o'e o'i o'o o'u u'a u'e u'i u'o u'u </p>
+
+<li> 2) VV: 二重母音 ai ei oi au もしくはアポストロフィで分けられた母音の連続 [a, e, i, o, u] ＋ ‘ + [a, e, i, o, u]</li>
+
+<p>3) C represents a single Lojban consonant, not including the
+apostrophe, one of “b”, “c”, “d”, “f”, “g”, “j”, “k”,
+“l”, “m”, “n”, “p”, “r”, “s”, “t”, “v”, “x”, or
+“z”. Syllabic “l”, “m”, “n”, and “r” always count as
+  consonants for the purposes of this chapter.</p>
+
+<li> 3) C: 子音 b c d f g j k l m n p r s t v x z</li>
+
+<p>4) CC represents two adjacent consonants of type C which constitute
+one of the 48 permissible initial consonant pairs: bl br cf ck cl cm
+cn cp cr ct dj dr dz fl fr gl gr jb jd jg jm jv kl kr ml mr pl pr sf
+  sk sl sm sn sp sr st tc tr ts vl vr xl xr zb zd zg zm zv</p>
+
+<li>4) CC: 開頭二重子音 （bl br cf ck cl cm cn cp cr ct dj dr dz fl fr gl gr jb jd jg jm jv kl kr ml mr pl pr sf sk sl sm sn sp sr st tc tr ts vl vr xl xr zb zd zg zm zv）</li>
+
+<p>5) C/C represents two adjacent consonants which constitute one of the
+permissible consonant pairs (not necessarily a permissible initial
+consonant pair). The permissible consonant pairs are explained in
+Chapter 3. In brief, any consonant pair is permissible unless it
+contains: two identical letters, both a voiced (excluding “r”,
+“l”, “m”, “n”) and and an unvoiced consonant, or is one of
+  certain specified forbidden pairs.</p>
+
+<li>5) C/C: 許可二重子音 （第３章） 同じ子音 有声・無声どうし（r, l, m, nを除く）、ある禁止ペア以外</li>
+
+<p>6) C/CC represents a consonant triple. The first two consonants must
+constitute a permissible consonant pair; the last two consonants must
+  constitute a permissible initial consonant pair.</p>
+
+<li>6) C/CC: 最初の２つが許可二重子音、次の２つが開頭二重子音 </li>
+
+</ul>
+
+<p>Lojban has three basic word classes --- parts of speech --- in
+contrast to the eight that are traditional in English. These three
+classes are called cmavo, brivla, and cmene. Each of these classes has
+uniquely identifying properties --- an arrangement of letters that
+allows the word to be uniquely and unambiguously recognized as a
+separate word in a string of Lojban, upon either reading or hearing,
+  and as belonging to a specific word-class.</p>
+
+ロジバンには３つの基本的な語クラス（品詞）がある。英語は８個品詞がある
+と言われる。これらは文字の並びから識別できるようになっている。
+
+<p>They are also functionally different: cmavo are the structure words,
+corresponding to English words like “and”, “if”, “the” and
+“to”; brivla are the content words, corresponding to English words
+like “come”, “red”, “doctor”, and “freely”; cmene are proper
+names, corresponding to English “James”, “Afghanistan”, and “Pope
+  John Paul II”.</p>
+
+<ul>
+  <li> シマヴォ (cmavo): 機能語 and, if, the, to </li>
+  <li> ブリヴラ (brivla): 内容語 come, red, doctor, freely</li>
+  <li> シメネ (cmene): 固有名 James, Afghanistan, Pope John Paul II </li>
+</ul>
+
+<p>2. cmavo</p>
+
+<h2>2. シマヴォ (cmavo)</h2>
+
+<p>The first group of Lojban words discussed in this chapter are the
+cmavo. They are the structure words that hold the Lojban language
+together. They often have no semantic meaning in themselves, though
+they may affect the semantics of brivla to which they are
+attached. The cmavo include the equivalent of English articles,
+conjunctions, prepositions, numbers, and punctuation marks. There are
+over a hundred subcategories of cmavo, known as “selma'o”, each
+having a specifically defined grammatical usage. The various selma'o
+are discussed throughout Chapters 5 to 19 and summarized in Chapter
+  20.</p>
+
+シマヴォは、機能語 （英語の冠詞, 接続詞, 前置詞, 数, 句読点, etc. に相
+当）である。100個以上のサブカテゴリ(セルマホ)がある。これらは 5～19章で
+扱い、20章でまとめる。
+
+Standard cmavo occur in four forms defined by their word
+structure. Here are some examples of the various forms:
+
+語の構造によって、４つの形式がある：
+
+<pre>
+V形 .a .e .i .o .u
+CV形 ba ce di fo gu
+VV形 .au .ei .ia .o'u .u'e
+CVV形 ki'a pei mi'o coi cu'u
+</pre>
+
+<p>In addition, there is the cmavo “.y.” (remember that “y” is not a
+  V), which must have pauses before and after it.</p>
+
+<p>A simple cmavo thus has the property of having only one or two vowels,
+or of having a single consonant followed by one or two vowels. Words
+consisting of three or more vowels in a row, or a single consonant
+followed by three or more vowels, are also of cmavo form, but are
+reserved for experimental use: a few examples are “ku'a'e”,
+“sau'e”, and “bai'ai”. All CVV cmavo beginning with the letter
+“x” are also reserved for experimental use. In general, though, the
+  form of a cmavo tells you little or nothing about its grammatical use.</p>
+
+VVV+, CVVV+ の形、および、 "x" で始まるものは、実験用に予約してある
+（例： ku’a'e sau’e bai’hai “x”+VV）
+
+<p>“Experimental use” means that the language designers will not assign
+any standard meaning or usage to these words, and words and usages
+coined by Lojban speakers will not appear in official dictionaries for
+the indefinite future. Experimental-use words provide an escape hatch
+for adding grammatical mechanisms (as opposed to semantic concepts)
+  the need for which was not foreseen.</p>
+
+実験用とは、正式な仕様、辞書には入っておらず、話者により使用される、文
+法拡張用の”非常口”である。
+
+<p>The cmavo of VV-form include not only the diphthongs and vowel pairs
+  listed in Section 1, but also the following ten additional diphthongs:</p>
+
+VVは、１節の二重母音にプラスして、以下の１０個の二重母音が可能：
+
+<pre>
+    .ia .ie .ii .io .iu
+    .ua .ue .ui .uo .uu 
+</pre>
+
+<p>In addition, cmavo can have the form “Cy”, a consonant followed by
+the letter “y”. These cmavo represent letters of the Lojban
+  alphabet, and are discussed in detail in Chapter 17.</p>
+
+Cyの形は、ロジバンのアルファベットを表す（17章）。
+
+<p>Compound cmavo are sequences of cmavo attached together to form a
+single written word. A compound cmavo is always identical in meaning
+and in grammatical use to the separated sequence of simple cmavo from
+which it is composed. These words are written in compound form merely
+to save visual space, and to ease the reader's burden in identifying
+  when the component cmavo are acting together.</p>
+
+複合シマヴォは、２つ以上シマヴォを連結したものであり、分割した時と意味
+は同じ。
+
+<p>Compound cmavo, while not visually short like their components, can be
+readily identified by two characteristics: 1) They have no consonant
+  pairs or clusters, and 2) They end in a vowel.</p>
+
+二重子音がなく、母音で終わるという特徴から、簡単に特定できる。(例:
+2.1, 2.2, 2.3)
+
+<pre>
+    2.1) .iseci’i
+         .i se ci’i
+    2.2) punaijecanai
+         pu nai je ca nai
+    2.3) ki’e.u’e
+         ki’e .u’e 
+</pre>
+
+<p>The cmavo “.u'e” begins with a vowel, and like all words beginning
+with a vowel, requires a pause (represented by “.”) before it. This
+pause cannot be omitted simply because the cmavo is incorporated into
+  a compound cmavo. On the other hand,</p>
+
+母音で始まる語は、全てポーズ “.” が語頭に必要。
+
+<pre>
+2.4) ki'e'u'e
+</pre>
+
+<p>is a single cmavo reserved for experimental purposes: it has four vowels.</p>
+
+は、実験用の４母音シマヴォである。
+
+<pre>
+2.5) cy.ibu.abu
+     cy. .ibu .abu
+</pre>
+
+<p>Again the pauses are required (see Section 9); the pause after “cy.” merges with the pause before “.ibu”.</p>
+
+では、前後の語のポーズがくっついている。
+
+<p>There is no particular stress required in cmavo or their
+compounds. Some conventions do exist that are not mandatory. For
+two-syllable cmavo, for example, stress is typically placed on the
+  first vowel; an example is</p>
+
+シマヴォ, 複合シマヴォには強調が不要。２音節シマヴォでは、普通最初の母音につける。
+
+<pre>
+2.6) .e'o ko ko kurji
+     .E'o ko ko KURji
+</pre>
+
+<p>This convention results in a consistent rhythm to the language, since
+brivla are required to have penultimate stress; some find this
+  esthetically pleasing.</p>
+
+<p>ブリヴラは最後から２番目が強調される（聞いた時に美しいため）。
+
+<p>If the final syllable of one word is stressed, and the first syllable
+of the next word is stressed, you must insert a pause or glottal stop
+  between the two stressed syllables. Thus</p>
+
+ある語の最後と、次の語の最初の音節を強調する場合、その間に声門閉鎖を入れる。
+
+<pre>
+2.7) le re nanmu （”２人の男”）
+</pre>
+
+の場合、
+
+<pre>
+2.8) LE re NANmu　→　OK
+2.9) le RE. NANmu → ポーズを挿入すればOK
+2.10) le re NANmu → OK （最も一般的）
+</pre>
+
+<p>3. brivla</p>
+
+<h2>3. ブリヴラ (brivla)</h2>
+
+<p>Predicate words, called “brivla”, are at the core of Lojban. They
+carry most of the semantic information in the language. They serve as
+the equivalent of English nouns, verbs, adjectives, and adverbs, all
+  in a single part of speech.</p>
+
+ブリヴラはロジバンの核となる命題語であり、名詞, 動詞, 形容詞, 副詞など
+をすべて包含したものである。
+
+<p>Every brivla belongs to one of three major subtypes. These subtypes
+are defined by the form, or morphology, of the word --- all words of a
+particular structure can be assigned by sight or sound to a particular
+type (cmavo, brivla, or cmene) and subtype. Knowing the type and
+subtype then gives you, the reader or listener, significant clues to
+the meaning and the origin of the word, even if you have never heard
+  the word before.</p>
+
+ギスム（語根）、ルジヴォ(複合語)、フヒヴラ(借用語)の3つのサブタイプがあ
+り、これらは形態論によって定義できる。
+
+<p>The same principle allows you, when speaking or writing, to invent new
+brivla for new concepts “on the fly”; yet it offers people that you
+are trying to communicate with a good chance to figure out your
+meaning. In this way, Lojban has a flexible vocabulary which can be
+  expanded indefinitely.</p>
+
+新しい概念をブリヴラとして「その場」で作れ、ロジバンの語彙を拡張できる。
+
+<p>All brivla have the following properties: 1) always end in a vowel; 2)
+always contain a consonant pair in the first five letters, where “y”
+and apostrophe are not counted as letters for this purpose. (See
+Section 6.)  3) always are stressed on the next-to-the-last
+(penultimate) syllable; this implies that they have two or more
+  syllables.</p>
+
+全てのブリヴラの特長　1) 母音で終わる　2) 最初の５文字（y と ' は除く）に二重子音を含む 3) 最後から２番目の音節にアクセントがある。
+
+<p>The presence of a consonant pair distinguishes brivla from cmavo and
+their compounds. The final vowel distinguishes brivla from cmene,
+which always end in a consonant. Thus “da'amei” must be a compound
+cmavo because it lacks a consonant pair; “lojban.” must be a name
+  because it lacks a final vowel.</p>
+
+二重子音があることから、シマヴォからは区別され、最後が母音で終わること
+から、シメーネとも区別される。
+
+<p>Thus, “bisycla” has the consonant pair “sc” in the first five
+non-“y” letters even though the “sc” actually appears in the form
+of “syc”. Similarly, the word “ro'inre'o” contains “nr” in the
+first five letters because the apostrophes are not counted for this
+  purpose.</p>
+
+<p>(省略)</p>
+
+<p>1) gismu, the Lojban primitive roots from which all other brivla
+are built; 2) lujvo, the compounds of two or more gismu; and 3)
+fu'ivla (literally “copy-word”), the specialized words that are not
+Lojban primitives or natural compounds, and are therefore borrowed
+from other languages.</p>
+
+<p>(省略)</p>
+
+<p>4. gismu </p>
+
+<h2>4. ギスム(gismu)</h2>
+
+<p>The gismu, or Lojban root words, are those brivla representing
+concepts most basic to the language. The gismu were chosen for various
+reasons: some represent concepts that are very familiar and basic;
+some represent concepts that are frequently used in other languages;
+some were added because they would be helpful in constructing more
+complex words; some because they represent fundamental Lojban concepts
+  (like “cmavo” and “gismu” themselves).</p>
+
+ロジバンの根語であり言語に基本的な概念を表す。基本的な概念、他の言語で
+頻出する概念、複合語を構成するのに便利な概念、ロジバンの概念、等が含ま
+れる。
+
+<p>The gismu do not represent any sort of systematic partitioning of
+semantic space. Some gismu may be superfluous, or appear for
+historical reasons: the gismu list was being collected for almost 35
+years and was only weeded out once. Instead, the intention is that the
+gismu blanket semantic space: they make it possible to talk about the
+  entire range of human concerns.</p>
+
+ギスムは、意味空間の分割を表すわけではない。歴史的経緯、冗長なものもある。
+
+<p>There are about 1350 gismu. In learning Lojban, you need only to
+learn most of these gismu and their combining forms (known as
+“rafsi”) as well as perhaps 200 major cmavo, and you will be able to
+communicate effectively in the language. This may sound like a lot,
+but it is a small number compared to the vocabulary needed for similar
+  communications in other languages.</p>
+
+全部で 1350のギスムがある。これらのほとんどと、接続形（ラフシ）と、200
+の主なシマヴォを覚えれば言語でうまくコミュニケーションができる（他の自
+然言語よりも少ない！）。
+
+<p>All gismu have very strong form restrictions. Using the conventions
+defined in Section 1, all gismu are of the forms CVC/CV or CCVCV. They
+must meet the rules for all brivla given in Section 3; furthermore,
+  they:</p>
+
+ギスムの形式には強い制限がある。<p>
+
+<p>1) always have five letters; 2) always start with a consonant and end
+with a single vowel; 3) always contain exactly one consonant pair,
+which is a permissible initial pair (CC) if it's at the beginning of
+the gismu, but otherwise only has to be a permissible pair (C/C); 4)
+are always stressed on the first syllable (since that is penultimate).
+The five letter length distinguishes gismu from lujvo and fu'ivla. (It
+is possible to have fu'ivla like “spa'i” that are five letters long,
+  but they must have “”'; no gismu contains “”'.)</p>
+
+<p>1) 5文字（CVC/CV, CCVCV）であり、 2) 子
+音で始まり、短母音で終わる 3) CC か C/C を一つ持つ 4) 最初の音節を強調
+  するという特徴がある。</p>
+
+<p>With the exception of five special brivla variables, “broda”,
+“brode”, “brodi”, “brodo”, and “brodu”, no two gismu differ
+only in the final vowel. Furthermore, the set of gismu was
+specifically designed to reduce the likelihood that two similar
+sounding gismu could be confused. For example, because “gismu” is in
+the set of gismu, “kismu”, “xismu”, “gicmu”, “gizmu”, and
+  “gisnu” cannot be.</p>
+
+"broda" などの例を除いて、最後の母音だけが異なるようなギスム対は無い。
+また、お互いに音がなるべく似ないように設計されている（例： kismu,
+xismu, gisnu, gizmuなどは無い)。
+
+<p>Almost all Lojban gismu are constructed from pieces of words drawn
+from other languages, specifically Chinese, English, Hindi, Spanish,
+Russian, and Arabic, the six most widely spoken natural languages. For
+a given concept, words in the six languages that represent that
+concept were written in Lojban phonetics. Then a gismu was selected to
+maximize the recognizability of the Lojban word for speakers of the
+six languages by weighting the inclusion of the sounds drawn from each
+language by the number of speakers of that language. See Section 14
+  for a full explanation of the algorithm.</p>
+
+ギスムは、中英ヒンディー西露アラビア各言語の語の部分から構成されている。
+各語をロジバンの音韻で書きそれを各言語の話者数で重み付けサンプリングす
+る。このアルゴリズムは14章に説明されている。
+
+<p>3.1) creka shirt 3.2) lijda religion 3.3) blanu blue 3.4) mamta mother
+  3.5) cukta book 3.6) patfu father 3.7) nanmu man 3.8) ninmu woman</p>
+
+例：3.1) creka シャツ 3.2) lijda 宗教  3.3) blanu 青 3.4) mamta 母
+  3.5) cukta 本 3.6) patfu 父 3.7) nanmu 男性 3.8) ninmu 女性
+
+<p>5. ルジヴォ (lujvo)</p>
+
+<h2>5. ルジヴォ (lujvo)</h2>
+
+<p>When specifying a concept that is not found among the gismu (or, more
+specifically, when the relevant gismu seems too general in meaning), a
+Lojbanist generally attempts to express the concept as a tanru. Lojban
+tanru are an elaboration of the concept of “metaphor” used in
+English. In Lojban, any brivla can be used to modify another
+brivla. The first of the pair modifies the second. This modification
+is usually restrictive --- the modifying brivla reduces the broader
+sense of the modified brivla to form a more narrow, concrete, or
+specific concept. Modifying brivla may thus be seen as acting like
+  English adverbs or adjectives. For example,</p>
+
+ブリヴラ で ブリヴラ を修飾してできた語。意味が広すぎるときに意味を限定
+する。最初のものが次のものを収束する。形容詞や副詞のような役割を果たす。
+
+<pre>
+5.1) skami pilno
+     コンピューターのユーザー 
+</pre>
+
+<p>The simplest Lojban tanru are pairings of two concepts or ideas. Such
+tanru take two simpler ideas that can be represented by gismu and
+combine them into a single more complex idea.  Two-part tanru may then
+be recombined in pairs with other tanru, or with individual gismu, to
+  form more complex or more specific ideas, and so on.</p>
+
+さらに３つ以上をつなげて複雑な概念を表すこともできる。
+
+<p>The meaning of a tanru is usually at least partly ambiguous: “skami
+pilno” could refer to a computer that is a user, or to a user of
+computers. There are a variety of ways that the modifier component can
+be related to the modified component. It is also possible to use cmavo
+within tanru to provide variations (or to prevent ambiguities) of
+  meaning.</p>
+
+タンルの構文は曖昧ではないが、意味は曖昧である可能性がある。例："skami
+pilno"は「コンピューターのユーザー」か「コンピューターであるユーザー」
+か分からない。
+
+<p>Making tanru is essentially a poetic or creative act, not a
+science. While the syntax expressing the grouping relationships within
+tanru is unambiguous, tanru are still semantically ambiguous, since
+the rules defining the relationships between the gismu are
+flexible. The process of devising a new tanru is dealt with in detail
+  in Chapter 5.</p>
+
+タンルを作るのは、科学というよりは詩・創造的に近い。作り方は５章で説明
+する。
+
+
+<pre>
+5.2) barda bloti
+     大きなボート（＝船）
+5.3) patfu mamta
+     父方の祖母
+5.4) mamta patfu
+     母方の祖父　（「母の性質を持った父」にも解釈され得る）
+</pre>
+
+<p>The possibility of semantic ambiguity can easily be seen in the last
+case. To interpret Example 5.4, the listener must determine what type
+of motherliness pertains to the father being referred to. In an
+appropriate context, “mamta patfu” could mean not “grandfather”
+but simply “father with some motherly attributes”, depending on the
+culture. If absolute clarity is required, there are ways to expand
+upon and explain the exact interrelationship between the components;
+  but such detail is usually not needed.</p>
+
+<p>When a concept expressed in a tanru proves useful, or is frequently
+expressed, it is desirable to choose one of the possible meanings of
+the tanru and assign it to a new brivla. For Example 5.1, we would
+  probably choose “user of computers”, and form the new word</p>
+
+あるタンルの概念が有用であり、頻繁に表現される場合は、意味を一つ選び新
+しいブリヴラとして定義した方がいい。これらはルジヴォと呼ばれる。
+
+<pre>
+5.5) sampli
+     コンピューターのユーザー
+5.6) bralo'i (← barda bloti) 
+     船
+</pre>
+
+<p>The lujvo representing a given tanru is built from units representing
+the component gismu.  These units are called “rafsi” in Lojban. Each
+rafsi represents only one gismu. The rafsi are attached together in
+the order of the words in the tanru, occasionally inserting so-called
+“hyphen” letters to ensure that the pieces stick together as a
+single word and cannot accidentally be broken apart into cmavo, gismu,
+or other word forms. As a result, each lujvo can be readily and
+accurately recognized, allowing a listener to pick out the word from a
+string of spoken Lojban, and if necessary, unambiguously decompose the
+word to a unique source tanru, thus providing a strong clue to its
+  meaning.</p>
+
+ルジヴォは、ギスムの「概念」を表す単位「ラフシ」から構成される。１つが
+１つのギスムに相当する。シマヴォやギスムと勘違いされないように、“ハイフ
+ン文字”が必要なこともある。
+
+<p>The lujvo that can be built from the tanru “mamta patfu” in
+Example 5.4 is</p>
+
+<pre>
+5.7) mampa'u （← mamta (man-) ＋ patfu (-pa'u) ）
+     母方の祖母 
+</pre>
+
+<p>which refers specifically to the concept “maternal grandfather”. The
+two gismu that constitute the tanru are represented in “mampa'u” by
+the rafsi “mam-” and “-pa'u”, respectively; these two rafsi are
+  then concatenated together to form “mampa'u”.</p>
+
+<p>Like gismu, lujvo have only one meaning. When a lujvo is formally
+entered into a dictionary of the language, a specific definition will
+be assigned based on one particular interrelationship between the
+terms. (See Chapter 12 for how this has been done.) Unlike gismu,
+lujvo may have more than one form. This is because there is no
+difference in meaning between the various rafsi for a gismu when they
+are used to build a lujvo. A long rafsi may be used, especially in
+noisy environments, in place of a short rafsi; the result is
+considered the same lujvo, even though the word is spelled and
+pronounced differently. Thus the word “brivla”, built from the tanru
+“bridi valsi”, is the same lujvo as “brivalsi”, “bridyvla”, and
+  “bridyvalsi”, each of which uses a different combination of rafsi.</p>
+
+ルジヴォは意味を１つだけ持つが、複数の形を持つ場合がある。それらに意味
+の違いはない。ギスムに対するラフシは複数あるため、単一の意味を表す
+lujvo は複数あり得る。例えば、bridi valsi は、 brivla brivalsi
+bridyvla bridyvalsi のいずれにもなり得る。
+
+<p>When assembling rafsi together into lujvo, the rules for valid brivla
+must be followed: a consonant cluster must occur in the first five
+letters (excluding “y” and “”'), and the lujvo must end in a
+  vowel.</p>
+
+二重母音が最初の５字に入っている、母音で終わる、という規則を満たす必要がある。
+
+<p>A “y” (which is ignored in determining stress or consonant clusters)
+is inserted in the middle of the consonant cluster to glue the word
+together when the resulting cluster is either not permissible or the
+word is likely to break up. There are specific rules describing these
+  conditions, detailed in Section 6.</p>
+
+二重子音が許可されてない、もしくは、単語を分割してしまう誤解がある場合、
+"y" を挿入する。
+
+<p>An “r” (in some cases, an “n”) is inserted when a CVV-form rafsi
+attaches to the beginning of a lujvo in such a way that there is no
+  consonant cluster. For example, in the lujvo</p>
+
+二重子音が出現しない場合には、"r" を挿入する。
+
+<pre>
+5.8) soirsai
+     sonci (soi-) sanmi (-sai)
+     兵士の　食事
+     軍用食糧 
+</pre>
+
+<p>the rafsi “soi-” and “-sai” are joined, with the additional “r”
+making up the “rs” consonant pair needed to make the word a
+brivla. Without the “r”, the word would break up into “soi sai”,
+two cmavo. The pair of cmavo have no relation to their rafsi
+lookalikes; they will either be ungrammatical (as in this case), or
+  will express a different meaning from what was intended.</p>
+
+(この場合、"r"が無いと soi sai という２つのシマヴォに分割されてしまう)
+
+<p>Learning rafsi and the rules for assembling them into lujvo is clearly
+  seen to be necessary for fully using the potential Lojban vocabulary.</p>
+
+<p>Most important, it is possible to invent new lujvo while you speak or
+write in order to represent a new or unfamiliar concept, one for which
+you do not know any existing Lojban word. As long as you follow the
+rules for building these compounds, there is a good chance that you
+  will be understood without explanation.</p>
+
+ルジヴォの重要な点は、書いている・話している時に作ることができることで
+あり、ルールに沿っていれば、おそらく通じるだろう。
+
+<p>6. rafsi</p>
+
+<h2>6. ラフシ (rafsi)</h2>
+
+<p>Every gismu has from two to five rafsi, each of a different form, but
+each such rafsi represents only one gismu. It is valid to use any of
+the rafsi forms in building lujvo --- whichever the reader or listener
+will most easily understand, or whichever is most pleasing --- subject
+to the rules of lujvo making. There is a scoring algorithm which is
+intended to determine which of the possible and legal lujvo forms will
+  be the standard dictionary form (see Section 12).</p>
+
+ギスムには2個から5個のラフシがあるが、各ラフシは必ず1個のギスムに対応す
+る。ルジヴォの作り方に沿っていればどれを使ってもいい。どれを辞書標準形
+にするか、という並び替えアルゴリズムがある (12節を参照)
+
+<p>Each gismu always has at least two rafsi forms; one is the gismu
+itself (used only at the end of a lujvo), and one is the gismu without
+its final vowel (used only at the beginning or middle of a
+lujvo). These forms are represented as -CVC/CV or -CCVCV (called “the
+5-letter rafsi”), and -CVC/C- or -CCVC- (called “the 4-letter
+rafsi”) respectively. The dashes in these rafsi form representations
+show where other rafsi may be attached to form a valid lujvo. When
+lujvo are formed only from 4-letter and 5-letter rafsi, known
+  collectively as “long rafsi”, they are called “unreduced lujvo”.</p>
+
+ギスムには必ず２つ以上の rafsi がある。これは、-CVC/CV or -CCVCV
+(gismu そのもの、5文字 rafsi) と、-CVC/C- or -CCVC- (4文字 rafsi) であ
+る。（ハイフンはどの位置で他の rafsi とくっつくかを表したもの）４・５文
+字 rafsi から作られた lujvo は、「長い lujvo」もしくは「非縮退 lujvo」
+と呼ばれる。
+
+<pre>
+6.1) mamtypatfu ← mamta patfu
+     母　の　父　→　母方の祖母
+6.2) lerfyliste　← lerfu liste
+     文字リスト　→　アルファベット文字
+6.3) nancyprali　← nanca prali
+     年　の　利益　→　年収
+6.4) prunyplipe　← pruni plipe
+    弾力性　のある　ジャンプ　→　ばね
+6.5) vancysanmi　← vanci sanmi
+    夜　の　食事　→　夕食 
+</pre>
+
+<p>In addition to these two forms, each gismu may have up to three
+additional short rafsi, three letters long. All short rafsi have one
+of the forms -CVC-, -CCV-, or -CVV-. The total number of rafsi forms
+that are assigned to a gismu depends on how useful the gismu is, or is
+presumed to be, in making lujvo, when compared to other gismu that
+  could be assigned the rafsi.</p>
+
+短いラフシ -CVC- -CCV- -CVV- を最高３つ持つ可能性がある。gismu が持つ
+rafsi の数は、「lujvo を作る上でどのぐらい役に立つ可能性があるか」によ
+る。
+
+<p>For example, “zmadu” (“more than”) has the two short rafsi
+“-zma-” and “-mau-” (in addition to its unreduced rafsi “-zmad-”
+and “-zmadu”), because a vast number of lujvo have been created
+based on “zmadu”, corresponding in general to English comparative
+adjectives ending in “-er” such as “whiter” (Lojban
+“labmau”). On the other hand, “bakri” (“chalk”) has no short
+  rafsi and few lujvo.</p>
+
+zmadu (～以上）　は、英語の “-er” を作る上で役に立つので、 -zma-
+-mau- の２つのラフシがある　（例： labmau “より白い”)。
+
+<p>There are at most one CVC-form, one CCV-form, and one CVV-form rafsi
+per gismu. In fact, only a tiny handful of gismu have both a CCV-form
+and a CVV-form rafsi assigned, and still fewer have all three forms of
+short rafsi. However, gismu with both a CVC-form and another short
+rafsi are fairly common, partly because more possible CVC-form rafsi
+exist. Yet CVC-form rafsi, even though they are fairly easy to
+remember, cannot be used at the end of a lujvo (because lujvo must end
+in vowels), so justifying the assignment of an additional short rafsi
+  to many gismu.</p>
+
+-CVC形, -CCV形, -CVV形は、ギスムに対して最大１個ずつしかない。-CCV- と
+-CVV- の両方を持つものはまれであり、-CVC- も含めた３つを持つものはもっ
+とまれである。-CVC- と、CCV, CVVのどちらか、を持つものは多い。
+
+<p>The intention was to use the available “rafsi space” --- the set of
+all possible short rafsi forms --- in the most efficient way possible;
+the goal is to make the most-used lujvo as short as possible (thus
+maximizing the use of short rafsi), while keeping the rafsi very
+recognizable to anyone who knows the source gismu. For this reason,
+the letters in a rafsi have always been chosen from among the five
+letters of the corresponding gismu. As a result, there are a limited
+set of short rafsi available for assignment to each gismu. At most
+seven possible short rafsi are available for consideration (of which
+  at most three can be used, as explained above).</p>
+
+３文字しかないので、「短い rafsi 空間」を有効に使う必要がある。しかも認
+識しやすいように文字はすべて元となるギスムから取る。
+
+<p>Here are the only short rafsi forms that can possibly exist for gismu of the form CVC/CV, like
+“sakli”. The digits in the second column represent the gismu letters used to form the rafsi.
+CVC 123 -sak-
+CVC 124 -sal-
+CVV 12'5 -sa'i-
+CVV 125 -sai-
+CCV 345 -kli-
+CCV 132 -ska-
+  (The only actual short rafsi for “sakli” is “-sal-”.)</p>
+
+CVC/CV 型のギスムである sakli に対して、-sak-, -sal-, -sa'i- ... などがあるが、実際の短いラフシは -sal- だけである。
+
+<p>For gismu of the form CCVCV, like “blaci”, the only short rafsi forms that can exist are:
+CVC 134 -bac-
+CVC 234 -lac
+CVV 13'5 -ba'i-
+CVV 135 -bai-
+CVV 23'5 -la'i-
+CVV 235 -lai-
+CCV 123 -bla-
+(In fact, “blaci” has none of these short rafsi; they are all assigned to other gismu. Lojban
+speakers are not free to reassign any of the rafsi; the tables shown here are to help understand
+  how the rafsi were chosen in the first place.)</p>
+
+CCVCV 型のギスムである blaci に対して、-bac-, -lac-, -ba'i- などがあるが、これらは他のギスムに割り当てられており、実際のラフシはこの中には無い（ラフシは自由に割り当てることはできない）。
+

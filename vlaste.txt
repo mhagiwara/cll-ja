@@ -23,4 +23,4 @@ tanru	タンル
 tense	間制
 unspecified value	（zo'eの意味）不特定項
 utterance	発話
-
+cmene	シメーネ
