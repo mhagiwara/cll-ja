@@ -4,6 +4,7 @@ attitudinal indicator	心態詞
 bridi	ブリディ
 brivla	ブリヴラ
 cmavo	シマヴォ
+cmene	シメネ
 convert, conversion	（SE 類の機能）転換
 described	（LE 類の意味）記述された
 description sumti	描写スムティ
@@ -14,6 +15,7 @@ fu'ivla	フヒヴラ
 gismu	ギスム
 lujvo	ルジヴォ
 observative	観察文
+place structure	場所構造 # あるいは PS?
 rafsi	ラフシ
 root word	根語
 selbri	セルブリ
@@ -23,5 +25,4 @@ tanru	タンル
 tense	間制
 unspecified value	（zo'eの意味）不特定項
 utterance	発話
-cmene	シメネ
-place structure	場所構造
+
