@@ -1,0 +1,29 @@
+左端の数字の意味
+0: 担当者未定
+1: 準備中（担当者は決まっているが未公開）
+2: 進行中（公開しているが未訳部分あり）
+3: 修正中（未訳部分は無いが、要修正）
+4: 完成（修正しても良いが、大きな変更は不要）
+
+3	Chapter 1	mhagiwara
+3	Chapter 2	hatthin
+3	Chapter 3	guskant
+3	Chapter 4	mhagiwara
+2	Chapter 5	hatthin
+3	Chapter 6	guskant
+1	Chapter 7	mhagiwara
+1	Chapter 8	hatthin
+1	Chapter 9	guskant
+1	Chapter 10	mhagiwara
+1	Chapter 11	ento
+0	Chapter 12	
+0	Chapter 13	
+0	Chapter 14	
+0	Chapter 15	
+0	Chapter 16	
+0	Chapter 17	
+0	Chapter 18	
+0	Chapter 19	
+0	Chapter 20	
+0	Chapter 21	
+
