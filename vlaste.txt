@@ -1,28 +1,52 @@
+abstraction	抽象化
+abstraction selbri	抽象化セルブリ
+abstractor	抽象詞
+activity	活動
+amount	量
 argument	項
 aspect	相制
 attitudinal indicator	心態詞
 bridi	ブリディ
 brivla	ブリヴラ
+connection	接続
 cmavo	シマヴォ
 cmene	シメネ
-convert, conversion	（SE 類の機能）転換
-described	（LE 類の意味）記述された
+conversion	転換 # （SE 類の機能）
+convert	転換 # （SE 類の機能）
+described	記述された # （LE 類の意味）
 description sumti	描写スムティ
+description	描写
 descriptor	 描写型の冠詞
 discursive	談話系
+elidable	省略可能な
 evidential	明察系 # 検討中
+event	出来事
+event contour	事象線
 fu'ivla	フヒヴラ
 gismu	ギスム
+gloss word	見出し語
 lujvo	ルジヴォ
+lojban	ロジバン
 observative	観察文
 place structure	場所構造 # あるいは PS?
+point event	瞬間的出来事
+predicate	命題
+predication	断言
+process	過程
+property	属性
+quality	質
+quantity	量
 rafsi	ラフシ
 root word	根語
 selbri	セルブリ
 selma'o	セルマホ
+sentence	文
+state	状態
 sumti	スムティ
+sumti raising	スムティ昇格
 tanru	タンル
 tense	間制
-unspecified value	（zo'eの意味）不特定項
+terminator	終端詞
+truth value	真偽値
+unspecified value	不特定項 # （zo'eの意味）
 utterance	発話
-
