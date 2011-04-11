@@ -55,111 +55,81 @@ NU類の1つ、nuを使った{%_ abstraction%}に変換するには
 [第1節](#s1)の例では、{%_ abstractor%}として最も一般的なnuを使った。その役割は、{%_ bridi%}全体で表される出来事や状態を1つの枠に収めることにある。ここで、nu{%_ abstractor%}を用いたle{%_ description_sumti%}と、leのみを用いた{%_ description_sumti%}を混同しないように注意したい。以下の{%_ sumti%}はそれぞれ違う意味になる:
 
     2.1) le klama
-        the comer, that which comes
+        その行く者、その行くところのもの
 {#e2d1}
 
     2.2) le se klama
-        the destination
+        その行き先
 {#e2d2}
 
     2.3)   le te klama
-        the origin
+        その出発したところ
 {#e2d3}
 
     2.4)   le ve klama
-        the route
+        その経路
 {#e2d4}
 
     2.5)   le xe klama
-        the means of transportation
+        その移動手段
 {#e2d5}
 
     2.6)   le nu klama
-        the event of someone coming to somewhere
-          from somewhere by some route using some means
+        誰かが何処かに何処かから何らかの経路で何らかの手段で行く{%_ event%}
 {#e2d6}
 
-Examples 2.1 through [2.5](#e2d5) are descriptions that isolate the five individual sumti places of the selbri ''klama''. [Example 2.6](#e2d6) describes something associated
-with the bridi as a whole: the event of it. 
+[例2.1](#e2d1)から[2.5](#e2d5)までは{%_ selbri%}(klama)の5つの{%_ sumti place%}をそれぞれ取り出した{%_ description%}である。[例2.6](#e2d6)は、{%_ bridi%}全体に対応する物事、つまりその{%_ event%}を描写している。
 
-In {%_ lojban%}, the term ''event'' is divorced from its ordinary
-English sense of something that happens over a short period of
-time. The description:
+{%_ lojban%}で「{%_ event%}」と言う場合の意味と、「短期間に起こる何か」という日常生活で使われる意味合いとの間にはギャップがあることに注意したい。以下の{%_ description%}は
 
     2.7)  le nu mi vasxu
-        the event-of my breathing
+        私が息をする{%_ event%}
 {#e2d7}
 
-is an event which lasts for the whole of my life (under normal
-circumstances). On the other hand, 
+私が生きている限り継続する{%_ event%}である (通常の場合は)。一方、
 
     2.8)  le nu la djan. cinba la djein.
-        the event-of John kissing Jane
+        ジョンがジェーンにキスする{%_ event%}
 {#e2d8}
 
-is relatively brief by comparison (again, under normal
-circumstances). 
+は比較的短い (これもまた通常の場合は)。
 
-We can see from [Examples 2.6](#e2d6) through
-[2.8](#e2d8) that ellipsis of sumti is valid in the
-bridi of abstraction selbri, just as in the main bridi of a
-sentence. Any sumti may be ellipsized if the listener will be
-able to figure out from context what the proper value of it is,
-or else to recognize that the proper value is unimportant. It
-is extremely common for ''nu'' abstractions in descriptions to
-have the x1 place ellipsized:
+[例2.6](#e2d6)から[2.8](#e2d8)で分かるように、{%_ abstraction selbri%}の中の{%_ bridi%}においても{%_ ellipsis of sumti%}は有効である。相手が文脈から{%_ sumti%}の内容を読み取れるか、もしくは実際何なのかは重要ではないと読み取れる場合は、{%_ sumti%}は{%_ ellipsize%}することができる。{%_ description%}の中のnu{%_ abstraction%}で、x1の{%_ place%}が省略されることはごく普通である:
 
     2.9)  mi nelci le nu limna
-        I like the event-of swimming.
-        I like swimming.
+        私は泳ぐことが好きだ。
 {#e2d9}
 
-is elliptical, and most probably means: 
+は{%_ elliptical%}であり、ほぼ間違いなく以下を意味している:
 
     2.10)    mi nelci le nu mi limna
-        I like the event-of I swim.
+        私は私が泳ぐところの出来事が好きだ。
 {#e2d10}
 
-In the proper context, of course, [Example 2.9](#e2d9) could refer to the event of somebody else swimming. Its
-English equivalent, ''I like swimming'', can't be interpreted
-as ''I like Frank's swimming''; this is a fundamental
-distinction between English and {%_ lojban%}. In {%_ lojban%}, an omitted
-sumti can mean whatever the context indicates that it should
-mean.
+もちろん、文脈さえ許せば、[例2.9](#e2d9)は他の誰かが泳ぐという出来事かもしれない。日本語では「私は泳ぐのが好きだ」と言った場合、「私はフランクの泳ぐのが好きだ」と解釈することはできない。これは{%_ lojban%}と日本語の根本的な違いである。{%_ lojban%}では、省略された{%_ sumti%}は文脈上指示されるべきどんな内容でも指すことができる。
 
-Note that the lack of an explicit NU cmavo in a sumti can
-sometimes hide an implicit abstraction. In the context of [Example 2.10](#e2d10), the appearance of ''le se
-nelci'' (''that which is liked'') is in effect an
-abstraction:
+{%_ sumti%}内にNU類の{%_ cmavo%}が明示されていない場合、{%_ abstraction%}が暗黙に含まれている可能性があることに注意したい。[例2.10](#e2d10)の文脈の中でle se nelci(「好かれているもの」)と言った場合、これは事実上の{%_ abstraction%}である:
 
     2.11)    le se nelci cu cafne
-        The liked-thing is-frequent.
-        The thing which I like happens often.
+        私が好きなことはよく起こる。
 {#e2d11}
 
-which in this context means 
+それはこの文脈では以下を意味する
 
-> My swimming happens often.
+> 私が泳ぐことはよく起こる。
 
-Event descriptions with ''le nu'' are commonly used to fill
-the ''under conditions...'' places, among others, of gismu and
-lujvo place structures:
+le nuを使った{%_ event%}の{%_ description%}はよく、{%_ gismu%}や{%_ lujvo%}の{%_ place structure%}のうち、「...の条件で」となっている{%_ place%}を埋めるのにも使われる。
 
-   2.12)    la lojban. cu frili mi
+    2.12)    la lojban. cu frili mi
            le nu mi tadni [kei]
-       {%_ lojban%} is-easy for-me
-           under-conditions-the event-of I study
-       {%_ lojban%} is easy for me when I study.
+       勉強している時は、{%_ lojban%}は私にとって簡単だ。
 {#e2d12}
 
-(The ''when'' of the English would also be appropriate for a
-construction involving a {%_ lojban%} tense, but the {%_ lojban%} sentence
-says more than that the studying is concurrent with the ease.) 
+(訳中の「時」は{%_ lojban%}の{%_ tense%}に関わる文についても使われるが、上記の原文では勉強と簡単さが同時並行して起こるということ以上の内容を述べている。) 
 
-The place structure of a ''nu'' abstraction selbri is
-simply:
+nuを用いた{%_ abstraction selbri%}の{%_ place structure%}は単純に:
 
-> x1 is an event of (the bridi)
+> x1 は{%_ bridi%}の{%_ event%}である
 
 ### 3. 出来事の様々な側面を{%_ abstraction%}する {#s3}
 
