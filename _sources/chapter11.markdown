@@ -42,7 +42,7 @@ NU類の1つ、nuを使った{%_ abstraction%}に変換するには
 
 {%_ abstraction%}を含む{%_ description%}は多くの場合{%_ bridi%}の終わりか、主体となる{%_ selbri%}とそのcuの直前に置くことになる。このどちらの場合でも、keiは通常省略可能になる。
 
-{%_ abstraction selbri%}の{%_ place structure%}は使われている{%_ abstractor%}によって異なる。詳しくは後で個々の{%_ abstractor%}と一緒に説明しよう。
+{%_ abstraction selbri%}の{%_ place structure%}は、使われている{%_ abstractor%}によって異なる。詳しくは後で個々の{%_ abstractor%}と一緒に説明しよう。
 
 注: {%_ abstraction%}の中の{%_ bridi%}については、訳語の文法をそれと分かるように変えている。そのため、[例1.2](#e1d2)では「私はその店に行く」ではなく「私がその店に行くという{%_ event%}」となる。同様に、[例1.3](#e1d3)と[例1.4](#e1d4)でも「兵隊である」ではなく「兵隊であること」となっている。この訳し方は、より分かりやすい訳をという意図の反映であり、{%_ lojban%}側の文法上の違いを示すものではない。{%_ bridi%}は{%_ bridi%}であり、{%_ abstraction selbri%}の中であっても変化することはない。
 
@@ -52,7 +52,7 @@ NU類の1つ、nuを使った{%_ abstraction%}に変換するには
 
     nu  NU  {%_ event%}の{%_ abstractor%}
 
-[第1節](#s1)の例では、{%_ abstractor%}として最も一般的なnuを使った。その役割は、{%_ bridi%}全体で表される出来事や状態を1つの枠に収めることにある。ここで、nu{%_ abstractor%}を用いたle{%_ description_sumti%}と、leのみを用いた{%_ description_sumti%}を混同しないように注意したい。以下の{%_ sumti%}はそれぞれ違う意味になる:
+[第1節](#s1)の例では、{%_ abstractor%}として最も一般的なnuを使った。その役割は、{%_ bridi%}全体で表される出来事や状態を1つの枠に収めることにある。ここで、nu{%_ abstractor%}を用いたle{%_ description sumti%}と、leのみを用いた{%_ description sumti%}を混同しないように注意したい。以下の{%_ sumti%}はそれぞれ違う意味になる:
 
     2.1) le klama
         その行く者、その行くところのもの
@@ -129,7 +129,7 @@ le nuを使った{%_ event%}の{%_ description%}はよく、{%_ gismu%}や{%_ lu
 
 nuを用いた{%_ abstraction selbri%}の{%_ place structure%}は単純に:
 
-> x1 は{%_ bridi%}の{%_ event%}である
+> x1 は({%_ bridi%}の内容)という{%_ event%}である
 
 ### 3. 出来事の様々な側面を{%_ abstraction%}する {#s3}
 
@@ -140,98 +140,67 @@ nuを用いた{%_ abstraction selbri%}の{%_ place structure%}は単純に:
         zu'o    NU  {%_ activity%}の{%_ abstractor%}
         za'i    NU  {%_ state%}の{%_ abstractor%}
 
-Event abstractions with ''nu'' suffice to express all kinds
-of events, whether long, short, unique, repetitive, or
-whatever. {%_ lojban%} also has more finely discriminating machinery
-for talking about events, however. There are four other
-abstractors of selma'o NU for talking about four specific types
-of events, or four ways of looking at the same event.
+nuを用いた{%_ event%}の{%_ abstraction%}の仕組みがあれば、どんな{%_ event%}であれ、長いものも短いものも、1回きりのものも繰り返し起こるものも、表現することができる。しかし、{%_ lojban%}ではさらに細かな粒度で{%_ event%}を描写する仕組みを備えている。NU類の{%_ selma'o%}にはさらに4つの{%_ abstractor%}があり、4つの{%_ event%}の種類を描写するのにそれぞれ特化している。これは同じ{%_ event%}を4つの視点から見るということでもある。
 
-An event considered as a point in time is called a
-''point-event'', or sometimes an ''achievement''. (This latter
-word should be divorced, in this context, from all connotations
-of success or triumph.) A point-event can be extended in
-duration, but it is still a point-event if it is thought of as
-unitary, having no internal structure. The abstractor ''mu'e''
-means ''point-event-of'':
+時間軸上の点として考えた場合の{%_ event%}は{%_ point event%}、時に{%_ achievement%}と呼ばれる。(後者はここでは成功や勝利といった意味合いとは切り離して考えるべきである。){%_ point event%}は長さを持っていてもいいが、内部構造を持たない単一のものとしてとらえた場合にはやはり{%_ point event%}となる。{%_ point event%}を意味する{%_ abstractor%}はmu'eである:
 
     3.1)  le mu'e la djan. catra la djim. cu zekri
-        the point-event-of (John kills Jim) is-a-crime
-        John's killing Jim (considered as a point in time)
-            is a crime.
+        ジョンがジムを殺す (時間軸上の一点と見なされる)
+            のは犯罪だ。
 {#e3d1}
 
-An event considered as extended in time, and structured with a
-beginning, a middle containing one or more stages, and an end,
-is called a ''process''. The abstractor ''pu'u'' means
-''process-of'': 
+時間軸上で幅をもち、始め・1つ以上の段階を含む中間・終わりの構造をもっていると見なした場合の{%_ event%}は「{%_ process%}」と呼ぶ。「〜の{%_ process%}の」を意味する{%_ abstractor%}はpu'uである:
 
     3.2)  ca'o le pu'u le latmo balje'a
             cu porpi kei
             so'i je'atru cu selcatra
-        [continuitive] the process-of( the Latin great-state
-            breaking-up )
-            many state-rulers were-killed
-        During the fall of the Roman Empire,
-            many Emperors were killed.
+        ローマ帝国の衰亡期の間、多くの皇帝が殺された。
 {#e3d2}
 
-An event considered as extended in time and cyclic or
-repetitive is called an ''activity''. The abstractor ''zu'o''
-means ''activity-of'': 
+時間軸上で幅をもち、周期的あるいは反復的と見なした場合の{%_ event%}は「{%_ activity%}」と呼ぶ。「〜の{%_ activity%}の」を意味する{%_ abstractor%}はzu'oである:
 
     3.3)  mi tatpi ri'a le zu'o mi plipe
-        I am-tired because-of the activity-of (I jump)
-        I am tired because I jump.
+        私が疲れているのは私がジャンプしているからだ。
 {#e3d3}
 
-An event considered as something that is either happening or
-not happening, with sharp boundaries, is called a ''state''.
-The abstractor ''za'i'' means ''state-of'': 
+起こっているか、起こっていないかをくっきりと分けることができるものとして考えた場合の{%_ event%}は、「{%_ state%}」と呼ぶ。「〜の{%_ state%}の」を意味する{%_ abstractor%}はza'iである:
 
     3.4)  le za'i mi jmive cu ckape do
-        the state-of (I am-alive) is-dangerous-to you
-        My being alive is dangerous to you.
+        私が生きているというのは君にとっては危険だ。
 {#e3d4}
+ 
+[例3.1](#e3d1)から[3.4](#e3d4)の{%_ abstractor%}は、少し正確さを犠牲にすれば、すべてnuで代用することができる。{%_ lojban%}ではどんな{%_ event%}も、これらの4つの視点からとらえなおせることに注意しよう:
 
-The abstractors in [Examples 3.1](#e3d1) through
-[3.4](#e3d4) could all have been replaced by ''nu'',
-with some loss of precision. Note that {%_ lojban%} allows every sort
-of event to be viewed in any of these four ways: 
+> 「走るという{%_ state%}」は走者がスタートした時に始まり、
+> 走者が止まった時に終わる。
 
-> the ''state of running'' begins when the runner starts
-> and ends when the runner stops;
+> 「走るという{%_ activity%}」は以下の繰り返しである: 脚を上げ、
+> 踏み出し、脚を下ろし、もう一方の脚を上げ、...。(この1つ1つの動作は
+> {%_ process%}だが、{%_ activity%}はこの一連の動作の繰り返しで構成される。
 
-> the ''activity of running'' consists of the cycle ''lift
-> leg, step forward, drop leg, lift other leg...'' (each such
-> cycle is a process, but the activity consists in the
-> repetition of the cycle);
+> 「走るという{%_ process%}」は、初めのスパート、途中の安定したスピード、
+>  そして最後の減速に注目する。
 
-> the ''process of running'' puts emphasis on the initial
->  sprint, the steady speed, and the final slowdown;</dd>
+> 「走るという{%_ achievement%}」は日本語ではほとんどなじみの無い概念だが、
+> 走るという{%_ event%}を分割できない1つのものとして見たものである。
+> 例として「フェイディピデスはマラトンからアテネに走る」(一番最初のマラソン)がある。
 
-> the ''achievement of running'' is most alien to English,
-> but sees the event of running as a single indivisible thing,
-> like ''Pheidippides' run from Marathon to Athens'' (the
-> original marathon).
+{%_ event%}の種類については[セクション12](#s12)でさらに詳しく述べる。
 
-Further information on types of events can be found in [Section 12](#s12).
-
-The four event type abstractors have the following place
-structures:
+{%_ event%}の種類をあらわす4つの{%_ abstractor%}はそれぞれ以下の{%_ place structure%}を持つ:
 
 
 ''mu'e''
-:   x1 is a point event of (the bridi)
+: x1は({%_ bridi%}の内容)という{%_ point event%}である
 
 ''pu'u''
-:   x1 is a process of (the bridi) with stages x2
+: x1は({%_ bridi%}の内容)という{%_ process%}で、x2の(複数の)段階を踏む
 
 ''za'i''
-: x1 is a continuous state of (the bridi) being true
+: x1は({%_ bridi%}の内容)が真であるという連続した{%_ state%}である
 
 ''zu'o''
-: x1 is an activity of (the bridi) consisting of repeated actions x2
+: x1は({%_ bridi%}の内容)という{%_ activity%}で、x2という一連の動作の繰り返しで構成される
 
 
 ### 4. {%_ property%}の{%_ abstraction%} {#s4}
@@ -241,174 +210,129 @@ structures:
        ka  NU  {%_ property%}の{%_ abstractor%}
         ce'u    KOhA    
 
-The things described by ''le nu'' descriptions (or, to put
-it another way, the things of which ''nu'' selbri may correctly
-be predicated) are only moderately ''abstract''. They are still
-closely tied to happenings in space and time. Properties,
-however, are much more ethereal. What is ''the property of
-being blue'', or ''the property of being a go-er''? They are
-what logicians call ''intensions''. If John has a heart, then
-''the property of having a heart'' is an abstract object which,
-when applied to John, is true. In fact,
+le nu{%_ description%}で描写される物事は (もしくは、別の言い方をすれば、nu{%_ selbri%}に変換しても正しい表現になる物事は)、抽象度でいえばまだ中くらいである。まだ時空間上の出来事に限定されている。しかし、{%_ property%}の{%_ abstraction%}の場合はより超越的である。「青くあるという{%_ property%}」とは、あるいは「行くものであるという{%_ property%}」とは一体何だろうか? これは論理学者であれば「内包」と呼ぶものになる。もしジョンが心臓をもっているとすると、その場合「心臓をもっているという{%_ property%}」は、ジョンに適用すると真となる抽象的なモノである。実際、
 
     4.1)  la djan. cu se risna zo'e
-        John has-as-heart something-unspecified.
-        John has a heart.
+        ジョンは心臓をもっている。
 {#e4d1}
 
-has the same truth conditions as 
+は以下と同じ条件で真あるいは偽となる:
 
     4.2)  la djan. cu ckaji
             le ka se risna [zo'e] [kei]
-        John has-the-property
-            the property-of having-as-heart something.
-        John has the property of having a heart.
+        ジョンは心臓をもっているという{%_ property%}をもっている。
 {#e4d2}
 
-(The English word ''have'' frequently appears in any discussion
-of {%_ lojban%} properties: things are said to ''have'' properties,
-but this is not the same sense of ''have'' as in ''I have
-money'', which is possession.) 
+(「もっている」という言い方は、{%_ lojban%}で{%_ property%}の議論をするときにはよく出てくる。物事はある{%_ property%}を「もっている」と表現されるのだが、これは「私はお金をもっている」と言う時の「もつ」、つまり所有とは違った意味になる。)
 
-Property descriptions, like event descriptions, are often
-wanted to fill places in brivla place structures:
+{%_ property%}の{%_ description%}は、{%_ event%}の{%_ description%}と同じように、{%_ brivla%}の{%_ place%}を埋めるのによく使われる:
 
     4.3)  do cnino mi
             le ka xunre [kei]
-        You are-new to-me
-            in-the-quality-of-the property-of being-red.
-        You are new to me in redness.
+        あなたは私にとって赤さの点で新しい。
 {#e4d3}
 
-(The English suffix ''-ness'' often signals a property
-abstraction, as does the suffix ''-ity''.) 
+(「~さ」は{%_ property%}の{%_ abstraction%}であることが多い。)
 
-We can also move the property description to the x1 place of
-[Example 4.3](#e4d3), producing:
+{%_ property%}の{%_ description%}を[例4.3](#e4d3)のx1の場所にもってくることもできる:
 
     4.4)  le ka do xunre [kei] cu cnino mi
-        The property-of your being-red is-new to me.
-        Your redness is new to me.
+        あなたの赤さは私にとって新しい。
 {#e4d4}
 
-It would be suitable to use [Examples 4.3](#e4d3)
-and [4.4](#e4d4) to someone who has returned from
-the beach with a sunburn. 
+[例4.3](#e4d3)と[4.4](#e4d4)は、ビーチから日焼けして戻ってきた人に向かって言うのにぴったりだろう。
 
-There are several different properties that can be extracted
-from a bridi, depending on which place of the bridi is
-''understood'' as being specified externally. Thus:
+{%_ bridi%}から抽出できる{%_ property%}は複数あり、どの{%_ property%}が実際抽出されるかは、{%_ bridi%}の{%_ place%}のうち、どれが外側で定義されていると「思われる」かによってくる。つまり、以下の例は
 
     4.5)  ka mi prami [zo'e] [kei]
-        a-property-of me loving something-unspecified
+        私が{%_ something-unspecified%}を愛するという性質
 {#e4d5}
 
-is quite different from 
+以下の例とはかなり違う意味になる。
 
     4.6)  ka [zo'e] prami mi [kei]
-        a-property-of something-unspecified loving me
+        {%_ something-unspecified%}が私を愛するという性質
 {#e4d6}
 
-In particular, sentences like [Example 4.7](#e4d7) and [Example 4.8](#e4d8) are quite different
-in meaning:
+特に、[例4.7](#e4d7)と[例4.8](#e4d8)のような文はかなり違う意味になる:
 
     4.7)  la djan. cu zmadu la djordj. le ka mi prami
-        John exceeds George in-the property-of (I love X)
-        I love John more than I love George.
+        ジョンは、(私がXを愛する)という性質の上でジョージを超えている。
+        私がジョージを愛するよりももっと私はジョンを愛している。
 {#e4d7}
 
     4.8)   la djan. cu zmadu la djordj. le ka prami mi
-        John exceeds George in the property of (X loves me).
-        John loves me more than George loves me.
+        ジョンは、(Xが私を愛する)という性質の上でジョージを超えている。
+        ジョージが私を愛するよりももっとジョンは私を愛している。
 {#e4d8}
 
-The ''X'' used in the glosses of [Examples 4.7](#e4d7) through [4.8](#e4d8) as a place-holder
-cannot be represented only by ellipsis in {%_ lojban%}, because
-ellipsis means that there must be a specific value that can
-fill the ellipsis, as mentioned in [Section 2](#s2).
-Instead, the cmavo ''ce'u'' of selma'o KOhA is employed when an
-explicit sumti is wanted. (The form ''X'' will be used in
-literal translations.)
+[例4.7](#e4d7)と[4.8](#e4d8)の{%_ gloss%}ではXを{%_ place-holder%}として使っている。このXは{%_ lojban%}では{%_ ellipsis%}として表現することはできない。{%_ ellipsis%}を使う場合、[セクション2](#s2)でも触れたように、特定の指示する対象が存在しなければいけないからである。代わりに、KOhA類の{%_ selma'o%}の1つである{%_ cmavo%}、ce'uを使って{%_ sumti%}を明示する。(逐語訳ではXをあてている。)
 
-Therefore, an explicit equivalent of [Example 4.7](#e4d7), with no ellipsis, is:
+よって[例4.7](#e4d7)を、{%_ ellipsis%}ではなくより明示的な表現を使った場合は:
 
     4.9)  la djan. cu zmadu la djordj. le ka mi prami ce'u
-        John exceeds George in-the property-of (I love X).
+        ジョンは、(私がXを愛する)という性質の上でジョージを超えている。
 {#e4d9}
 
-and of [Example 4.8](#e4d8) is: 
+そして[例4.8](#e4d8)は:
 
     4.10)    la djan. cu zmadu la djordj. le ka ce'u prami mi
-        John exceeds George in-the property-of (X loves me).
+        ジョンは、(Xが私を愛する)という性質の上でジョージを超えている。
 {#e4d10}
 
-This convention allows disambiguation of cases like:
+この仕組みで、以下のような場合にあいまいさを回避することができる:
 
     4.11)    le ka [zo'e] dunda le xirma [zo'e] [kei]
-        the property-of giving the horse
+        その馬を与えるという{%_ property%}
 {#e4d11}
 
-into 
+1つの解釈は:
 
     4.12)    le ka ce'u dunda le xirma
             [zo'e] [kei]
-        the property-of (X is-a-giver of-the horse
-            to someone-unspecified)
-        the property of being a giver of the horse
+        (Xはその馬を不特定の誰かに与える)という{%_ property%}
+        その馬を誰かに与える者という{%_ property%}
 {#e4d12}
 
-which is the most natural interpretation of [Example 4.11](#e4d11), versus 
+これは[例4.11](#e4d11)の最も自然な解釈である。それに対して:
 
     4.13)    le ka [zo'e] dunda
             le xirma ce'u [kei]
-        the property-of (someone-unspecified
-            is-a-giver of-the horse to X)
-        the property of being one to whom the horse is given
+        (不特定の誰かがその馬をXに与える)という{%_ property%}
+        その馬を与えられる者という{%_ property%}
 {#e4d13}
 
-which is also a possible interpretation. 
+これも解釈の1つとして可能である。
 
-It is also possible to have more than one ''ce'u'' in a
-''ka'' abstraction, which transforms it from a property
-abstraction into a relationship abstraction, a resource of the
-language that has not yet been explored.
+ka{%_ abstraction%}内に2つ以上のce'uをおくこともできる。その場合、{%_ property%}の{%_ abstraction%}から{%_ relationship%}の{%_ abstraction%}に変わることになるが、この仕組みが持つ言語上の可能性はまだ検証され尽くしていない。
 
-The place structure of ''ka'' abstraction selbri is
-simply:
+ka{%_ abstraction%}の{%_ place structure%}は単純に:
 
-> x1 is a property of (the bridi)
+> x1は({%_ bridi%}の内容)という{%_ property%}である
 
 ### 5. {%_ amount%}の{%_ abstraction%} {#s5}
 
 この節では以下の{%_ cmavo%}を解説する:
 
-       ni  NU  amount abstraction
+       ni  NU  {%_ amount%}の{%_ abstraction%}
 
-Amount abstractions are far more limited than event or
-property abstractions. They really make sense only if the
-selbri of the abstracted bridi is subject to measurement of
-some sort. Thus we can speak of:
+{%_ amount%}の{%_ abstraction%}で表現できる内容は、{%_ event%}や{%_ property%}より遥かに限定的である。{%_ abstraction%}された{%_ bridi%}の{%_ selbri%}について、何らかの測定をすることができる場合にしか意味をなさない。つまり以下のような文は自然である:
 
     5.1)  le ni le pixra cu blanu [kei]
-        the amount-of (the picture being-blue)
-        the amount of blueness in the picture
+        その絵に含まれる青さの量
 {#e5d1}
 
-because ''blueness'' could be measured with a colorimeter or a
-similar device. However, 
+「青さ」は色彩計やその他の機器で計測することができるからである。しかし、
 
     5.2)  le ni la djein. cu mamta [kei]
-        the amount-of (Jane being-a-mother)
-        the amount of Jane's mother-ness (?)
-        the amount of mother-ness in Jane (?)
+        (ジェーンが母親であること)の量
+        ジェーンの母親らしさの量(?)
+        ジェーンに含まれる母親らしさの量(?)
 {#e5d2}
 
-makes very little sense in either {%_ lojban%} or English. We simply
-do not have any sort of measurement scale for being a mother. 
+という文は{%_ lojban%}でも日本語でもほとんど意味をなさない。母親であることについて、計測しうるような尺度がないのである。
 
-Semantically, a sumti with ''le ni'' is a number; however,
-it cannot be treated grammatically as a quantifier in {%_ lojban%}
-unless prefixed by the mathematical cmavo ''mo'e'':
+意味の上では、le niの付いた{%_ sumti%}は数をあらわす。しかし、{%_ lojban%}の文法上でこれを数量として扱うには、mo'eという{%_ cmavo%}を前に付けなければいけない:
 
     5.3)  li pa vu'u mo'e
             le ni le pixra cu blanu [kei]
@@ -417,43 +341,32 @@ unless prefixed by the mathematical cmavo ''mo'e'':
         1 - B, where B = blueness of the picture
 {#e5d3}
 
-Mathematical {%_ lojban%} is beyond the scope of this chapter, and
-is explained more fully in <a href="chapter18.html">Chapter
-18</a>.
+{%_ lojban%}における数学の表現はこの章で扱う範囲を越えているので、<a href="chapter18.html">第18章</a>で詳しく取り上げる。
 
-There are contexts where either property or amount
-abstractions make sense, and in such constructions, amount
-abstractions can make use of ''ce'u'' just like property
-abstractors. Thus,
+文脈によっては、{%_ property%}、{%_ amount%}のどちらの{%_ abstraction%}も考えられる場合がある。そうした文では、{%_ amount%}の{%_ abstraction%}内でも、{%_ property%}の{%_ abstraction%}と同じように、ce'uを使うことができる。つまり、
 
     5.4)  le pixra cu cenba le ka ce'u blanu [kei]
-        the picture varies in-the property-of (X is blue)
-        The picture varies in being blue.
-        The picture varies in blueness.
+        その絵は青いことの点で変化する。
+        その絵は青さが変化する。
 {#e5d4}
 
-is not the same as 
+は下の例とは別の意味合いになる。
 
     5.5)  le pixra cu cenba le ni ce'u blanu [kei]
         the picture varies in-the amount-of (X is blue)
-        The picture varies in how blue it is.
-        The picture varies in blueness.
+        その絵はどれくらい青いかの点で変化する。
+        その絵は青さが変化する。
 {#e5d5}
 
-[Example 5.4](#e5d4) conveys that the blueness comes
-and goes, whereas [Example 5.5](#e5d5) conveys that
-its quantity changes over time. 
+[例5.4](#e5d4)では青さが現れたり消えたりすることを表現しており、[例5.5](#e5d5)ではその量が時間と共に変わることを表現している。
 
-Whenever we talk of measurement of an amount, there is some
-sort of scale, and so the place structure of ''ni'' abstraction
-selbri is:
+何らかの量を計測する、という時には尺度が必要である。そこでni{%_ abstraction%}の{%_ selbri%}の{%_ place structure%}は:
 
-> x1 is the amount of (the bridi) on scale x2
+> x1 は ({%_ bridi%}の内容) を x2 の尺度で測った時の{%_ amount%}である
 
-Note: the best way to express the x2 places of abstract sumti
-is to use something like ''le ni ... kei be''. See [Example 9.5](#e9d5) for the use of this construction. 
+注: {%_ abstract sumti%}のx2の{%_ place%}を表現するには、「le ni ... kei be」のような言い方が最も適当である。[例9.5](#e9d5)ではこれが使われている。
 
-### 6. {%_ truth_value%}の{%_ abstraction%}: jei {#s6}
+### 6. {%_ truth value%}の{%_ abstraction%}: jei {#s6}
 
 The ''blueness of the picture'' discussed in [Section 5](#s5) refers to the measurable amount of
 blue pigment (or other source of blueness), not to the degree

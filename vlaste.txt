@@ -1,3 +1,4 @@
+abstract sumti	抽象スムティ
 abstraction	抽象化
 abstraction selbri	抽象化セルブリ
 abstractor	抽象詞
@@ -27,14 +28,16 @@ descriptor	 描写型の冠詞
 discursive	談話系
 elidable	省略可能な
 ellipsize	省略
+ellipsis	省略
 ellipsis of sumti	スムティの省略
 elliptical	省略的
 evidential	明察系 # 検討中
 event	出来事
-event contour	事象線
+event contour	事象線 # 検討中
 forethought	前置
 fu'ivla	フヒヴラ
 gismu	ギスム
+gloss	逐語訳
 gloss word	見出し語
 incidental relative phrase	付随関係句
 interval   範囲
@@ -46,6 +49,7 @@ modal place 法制場所
 modifier	限定詞
 observative	観察文
 place	場所
+place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
 point event	瞬間的出来事
 polar opposite	正反対
@@ -53,16 +57,18 @@ predicate	命題
 predication	断言
 prefix	接頭辞
 process	過程
-property	属性
+property	性質
 quality	質
 quantity	量
 rafsi	ラフシ
+relationship	関係
 restrictive relative phrase	限定関係句
 root word	根語
 scalar negation	段階否定
 selbri	セルブリ
 selma'o	セルマホ
 sentence	文
+something-unspecified	不特定の何か
 spatial tense	空間制
 state	状態
 stickiness	貼り付き # （ki の意味）

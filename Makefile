@@ -20,7 +20,7 @@ OBJS := $(patsubst %.markdown,%.html,$(notdir $(SRCS)))
 
 all: $(OBJS)
 
-%.html: $(SRC_DIR)/%.markdown
+%.html: $(SRC_DIR)/%.markdown vlaste.txt
 	jekyll --pygments $(SRC_DIR) $(DST_DIR)
 	cp $(DST_DIR)/$@ $@
 
