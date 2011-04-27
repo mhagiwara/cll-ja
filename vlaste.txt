@@ -31,6 +31,7 @@ ellipsize	省略
 ellipsis	省略
 ellipsis of sumti	スムティの省略
 elliptical	省略的
+epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中

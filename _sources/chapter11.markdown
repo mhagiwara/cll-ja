@@ -185,7 +185,7 @@ nuを用いた{%_ event%}の{%_ abstraction%}の仕組みがあれば、どん�
 > 走るという{%_ event%}を分割できない1つのものとして見たものである。
 > 例として「フェイディピデスはマラトンからアテネに走る」(一番最初のマラソン)がある。
 
-{%_ event%}の種類については[セクション12](#s12)でさらに詳しく述べる。
+{%_ event%}の種類については[第12節](#s12)でさらに詳しく述べる。
 
 {%_ event%}の種類をあらわす4つの{%_ abstractor%}はそれぞれ以下の{%_ place structure%}を持つ:
 
@@ -266,7 +266,7 @@ le nu{%_ description%}で描写される物事は (もしくは、別の言い�
         ジョージが私を愛するよりももっとジョンは私を愛している。
 {#e4d8}
 
-[例4.7](#e4d7)と[4.8](#e4d8)の{%_ gloss%}ではXを{%_ place-holder%}として使っている。このXは{%_ lojban%}では{%_ ellipsis%}として表現することはできない。{%_ ellipsis%}を使う場合、[セクション2](#s2)でも触れたように、特定の指示する対象が存在しなければいけないからである。代わりに、KOhA類の{%_ selma'o%}の1つである{%_ cmavo%}、ce'uを使って{%_ sumti%}を明示する。(逐語訳ではXをあてている。)
+[例4.7](#e4d7)と[4.8](#e4d8)の{%_ gloss%}ではXを{%_ place-holder%}として使っている。このXは{%_ lojban%}では{%_ ellipsis%}として表現することはできない。{%_ ellipsis%}を使う場合、[第2節](#s2)でも触れたように、特定の指示する対象が存在しなければいけないからである。代わりに、KOhA類の{%_ selma'o%}の1つである{%_ cmavo%}、ce'uを使って{%_ sumti%}を明示する。(逐語訳ではXをあてている。)
 
 よって[例4.7](#e4d7)を、{%_ ellipsis%}ではなくより明示的な表現を使った場合は:
 
@@ -368,53 +368,32 @@ ka{%_ abstraction%}の{%_ place structure%}は単純に:
 
 ### 6. {%_ truth value%}の{%_ abstraction%}: jei {#s6}
 
-The ''blueness of the picture'' discussed in [Section 5](#s5) refers to the measurable amount of
-blue pigment (or other source of blueness), not to the degree
-of truth of the claim that blueness is present. That
-abstraction is expressed in {%_ lojban%} using ''jei'', which is
-closely related semantically to ''ni''. In the simplest cases,
-''le jei'' produces not a number but a truth value:
+[第5節](#s5)で取り上げた「絵の青さ」は、青色の色素 (や、その他の青さの素) の{%_ amount%}を指しており、青さが存在することの正しさではない。後者の{%_ abstraction%}は{%_ lojban%}ではjeiを使って表現される。これは意味の上でniと関連が深い。単純な使い方では、le jeiは数のかわりに{%_ truth value%}を表す:
 
     6.1)  le jei li re su'i re du li vo [kei]
-        the truth-value-of the-number 2 + 2 = the-number 4
-        the truth of 2 + 2 being 4
+        2 + 2が4であることの正しさ
 {#e6d1}
 
-is equivalent to ''truth'', and 
+これは「真」と等しく、
 
     6.2)  le jei li re su'i re du li mu [kei]
-        the truth-value-of the-number 2 + 2 = the-number 5
-        the truth of 2 + 2 being 5
+        2 + 2が5であることの正しさ
 {#e6d2}
 
-is equivalent to ''falsehood''. 
+こちらは「偽」と等しい。
 
-However, not everything in life (or even in {%_ lojban%}) is
-simply true or false. There are shades of gray even in truth
-value, and ''jei'' is {%_ lojban%}'s mechanism for indicating the
-shade of grey intended:
+しかし、世の中の全ては ({%_ lojban%}においてさえ) 単に正しいか正しくないかの二通りではない。正しさにも度合いがあるものである。{%_ lojban%}ではjeiを使って、どの程度の正しさを意図しているかを表現することができる:
 
     6.3)  mi ba jdice le jei
             la djordj. cu zekri gasnu [kei]
-        I [future] decide the truth-value of
-            (George being-a-(crime doer)).
-        I will decide whether George is a criminal.
+        私はジョージが犯罪者かどうかを今後判断する。
 {#e6d3}
 
-[Example 6.3](#e6d3) does not imply that George is,
-or is not, definitely a criminal. Depending on the legal system
-I am using, I may make some intermediate decision. As a result,
-''jei'' requires an x2 place analogous to that of ''ni'': 
+[例6.3](#e6d3)ではジョージが犯罪者であることは確定的なのか、そうでないのかは示唆されていない。私が判断の基盤とする法的システムによっては、中間的な結論を下すことも考えられる。こうしたことから、jeiはniのそれと同じように、x2の{%_ place%}が必要となる:
 
-> x1 is the truth value of (the bridi) under epistemology x2
+> x1 は({%_ bridi%}の内容) についての、x2の{%_ epistemology%}上での{%_ truth value%}である
 
-Abstractions using ''jei'' are the mechanism for fuzzy logic in
-{%_ lojban%}; the ''jei'' abstraction refers to a number between 0
-and 1 inclusive (as distinct from ''ni'' abstractions, which
-are often on open-ended scales). The detailed conventions for
-using ''jei'' in fuzzy-logic contexts have not yet been
-established. 
-
+jeiを使った{%_ abstraction%}は、{%_ lojban%}であいまいな値を扱うための仕組みである。jei{%_ abstraction%}は、両端を含む0から1までの数値を指す (これとは違い、ni{%_ abstraction%}では、範囲が限定されない尺度を使うことが多い)。あいまいな値を表現する場面で、どのようにjeiを使うかの詳しい取り決めは、まだ確立されていない。
 
 
 ### 7. {%_ predication%}/{%_ sentence%}の{%_ abstraction%} {#s7}
