@@ -400,102 +400,68 @@ jeiを使った{%_ abstraction%}は、{%_ lojban%}であいまいな値を扱う
 
 この節では以下の{%_ cmavo%}を解説する:
 
-       du'u    NU  predication abstraction
+       du'u    NU  {%_ predication%}の{%_ abstraction%}
 
-There are some selbri which demand an entire predication as a
-sumti; they make claims about some predication considered as a
-whole. Logicians call these the ''propositional attitudes'',
-and they include (in English) things like knowing, believing,
-learning, seeing, hearing, and the like. Consider the English
-sentence: 
+{%_ selbri%}の中には、一つの{%_ predication%}全体を{%_ sumti%}にとるものがある。{%_ predication%}を1つのものとして考え、それについて何らかの主張をするのである。論理学では、これらは命題的態度と呼ばれるもので、(日本語では) 知っている、信じる、知る、見る、聞く、などが含まれる。次の日本語の文を考えてみよう:
 
-    7.1)  I know that Frank is a fool.
+    7.1)  私はフランクが馬鹿な奴だと知っている。
 {#e7d1}
 
-How's that in {%_ lojban%}? Let us try:
+これは{%_ lojban%}ではどう表現すればいいだろうか? やってみよう:
 
     7.2)  mi djuno le nu la frank. cu bebna [kei]
-        I know the event of Frank being a fool.
+        私はフランクが馬鹿な奴であるという{%_ event%}を知っている。
 {#e7d2}
 
-Not quite right. Events are actually or potentially physical,
-and can't be contained inside one's mind, except for events of
-thinking, feeling, and the like; [Example 7.2](#e7d2) comes close to claiming that Frank's being-a-fool is
-purely a mental activity on the part of the speaker. (In fact,
-[Example 7.2](#e7d2) is an instance of improperly
-marked ''sumti raising'', a concept discussed further in [Section 10](#s10)). 
+これは少し違う。{%_ event%}は、既に起こったものにせよ、これから起こるものにせよ、物理的なものである。考える、感じるといった{%_ event%}でなければ、頭の中にだけ存在することはできない。[例7.2](#e7d2)はほとんど、フランクが馬鹿な奴であるということは、話し手がそう考えたに過ぎないと言っているのに近い。 (実のところ、[例7.2](#e7d2)は言葉足らずな「{%_ sumti raising%}」の例である。これについては[第10章](#s10)で詳しく説明しよう。)
 
-Try again:
+もう一度やってみよう:
 
     7.3)  mi djuno le jei la frank. cu bebna [kei]
-        I know the truth-value of Frank being a fool.
+        私はフランクが馬鹿な奴であるということの{%_ truth value%}を知っている。
 {#e7d3}
 
-Closer. [Example 7.3](#e7d3) says that I know
-whether or not Frank is a fool, but doesn't say that he is one,
-as [Example 7.1](#e7d1) does. To catch that nuance,
-we must say:
+さっきよりはよくなった。[例7.3](#e7d3)は私はフランクが馬鹿な奴かどうかを知っていると述べているが、[例7.1](#e7d1)のように実際そうだとは言っていない。この意味合いを表現するには、こう言わなければいけない:
 
     7.4)  mi djuno le du'u la frank. cu bebna [kei]
-        I know the predication that Frank is a fool.
+        私はフランクが馬鹿な奴だという{%_ predication%}を知っている。
 {#e7d4}
 
-Now we have it. Note that the implied assertion ''Frank is a
-fool'' is not a property of ''le du'u'' abstraction, but of
-''djuno''; we can only know what is in fact true. (As a result,
-''djuno'' like ''jei'' has a place for epistemology, which
-specifies how we know.) [Example 7.5](#e7d5) has no
-such implied assertion:
+これでぴったりの表現に辿り着いた。この文に暗黙に含まれている「フランクは馬鹿な奴である」という主張は、le du'u{%_ abstraction%}ではなく、djunoに起因するものであることに注意したい。私達が知っていると言えるのは、実際に真実のことだけだからだ。(だから、djunoには、jeiのように{%_ epistemology%}のための場所があり、どのようにして知っているのかを言い表せる。) 次の[例7.5](#e7d5)ではそうした暗黙の主張はない:
 
     7.5)  mi kucli le du'u la frank. cu bebna [kei]
-        I am curious about whether Frank is a fool.
+        私はフランクが馬鹿な奴であるかどうかに興味がある。
 {#e7d5}
 
-and here ''du'u'' could probably be replaced by ''jei'' without
-much change in meaning: 
+恐らく、この文のdu'uをjeiに置き換えてもほとんど意味は変わらない:
 
     7.6)  mi kucli le jei la frank. cu bebna [kei]
-        I am curious about how true it is
-            that Frank is a fool.
+        私はフランクが馬鹿な奴であるというのがどれくらい正しいかに興味がある。
 {#e7d6}
 
-As a matter of convenience rather than logical necessity,
-''du'u'' has been given an x2 place, which is a sentence (piece
-of language) expressing the bridi: 
+du'uにはx2の場所が設けられており、{%_ bridi%}を表現する文 (何らかの句) を置くことができる。これは論理的な必要性というより、便宜上の理由からである:
 
-> x1 is the predication (the bridi), expressed in sentence x2
+> x1は({%_ bridi%}の内容)の{%_ predication%}で、x2で表現されている
 
-and ''le se du'u ...'' is very useful in filling places of
-selbri which refer to speaking, writing, or other linguistic
-behavior regarding bridi: 
+le se du'uという言い回しは、話す・書くなどの、{%_ bridi%}に対する言語活動に関する{%_ selbri%}の場所を埋めるのに大変便利である:
 
     7.6.5)  la djan. cusku
             le se du'u
                 la djordj. klama le zarci [kei]
-        John expresses
-            the sentence-expressing-that
-                George goes-to the store
-        John says that George goes to the store.
+        ジョンは「ジョージが店に行く」という内容を表現する文を述べる。
+        ジョンは、ジョージは店に行くと言う。
 {#e7d6.5}
 
-[Example 7.6](#e7d6) differs from 
+[例7.6](#e7d6)は次の例とは異なる:
 
     7.7)  la djan cusku
             lu la djordj. klama le zarci li'u
-        John expresses,
-            quote, George goes to the store, unquote.
-        John says ''George goes to the store''.
+        ジョンは、「ジョージは店に行く」と言う。
 {#e7d7}
 
-because [Example 7.7](#e7d7) claims that John
-actually said the quoted words, whereas [Example 7.6](#e7d6) claims only that he said some words or other which were
-to the same purpose. 
+というのも、[例7.7](#e7d7)では、ジョンは引用された文を実際に発言したと述べているが、[例7.6](#e7d6)では、ただ同様の内容を表す何らかの語句を発言した、としか述べていない。
 
-''le se du'u'' is much the same as ''lu'e le du'u'', a
-symbol for the predication, but ''se du'u'' can be used as a
-selbri, whereas ''lu'e'' is ungrammatical in a selbri. (See <a href="chapter5.html">Chapter 5</a> for a discussion of
-''lu'e''.)
-
+le se du'uは、{%_ predication%}を表す言葉という点では、lu'e le du'uとほぼ同じだが、se du'uは{%_ selbri%}として使えるのに対して、lu'eは{%_ selbri%}内では非文法的である。(<a href="chapter5.html">第5章</a>にlu'eの詳しい説明がある。)
 
 
 ### 8. 遠回しの質問 {#s8}

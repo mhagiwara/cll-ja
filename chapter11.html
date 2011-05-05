@@ -380,71 +380,66 @@
 
 <p>jeiを使った抽象化は、ロジバンであいまいな値を扱うための仕組みである。jei抽象化は、両端を含む0から1までの数値を指す (これとは違い、ni抽象化では、範囲が限定されない尺度を使うことが多い)。あいまいな値を表現する場面で、どのようにjeiを使うかの詳しい取り決めは、まだ確立されていない。</p>
 
-<h3 id='s7'>7. 断言/文の抽象化</h3>
+<h3 id='s7'>7. 命題/文の抽象化</h3>
 
 <p>この節では以下のシマヴォを解説する:</p>
 
-<pre><code>   du&#39;u    NU  predication abstraction</code></pre>
+<pre><code>   du&#39;u    NU  命題の抽象化</code></pre>
 
-<p>There are some selbri which demand an entire predication as a sumti; they make claims about some predication considered as a whole. Logicians call these the &#8221;propositional attitudes&#8221;, and they include (in English) things like knowing, believing, learning, seeing, hearing, and the like. Consider the English sentence:</p>
+<p>セルブリの中には、一つの命題全体をスムティにとるものがある。命題を1つのものとして考え、それについて何らかの主張をするのである。論理学では、これらは命題的態度と呼ばれるもので、(日本語では) 知っている、信じる、知る、見る、聞く、などが含まれる。次の日本語の文を考えてみよう:</p>
 
-<pre id='e7d1'><code>7.1)  I know that Frank is a fool.</code></pre>
+<pre id='e7d1'><code>7.1)  私はフランクが馬鹿な奴だと知っている。</code></pre>
 
-<p>How&#8217;s that in ロジバン? Let us try:</p>
+<p>これはロジバンではどう表現すればいいだろうか? やってみよう:</p>
 
 <pre id='e7d2'><code>7.2)  mi djuno le nu la frank. cu bebna [kei]
-    I know the event of Frank being a fool.</code></pre>
+    私はフランクが馬鹿な奴であるという出来事を知っている。</code></pre>
 
-<p>Not quite right. Events are actually or potentially physical, and can&#8217;t be contained inside one&#8217;s mind, except for events of thinking, feeling, and the like; <a href='#e7d2'>Example 7.2</a> comes close to claiming that Frank&#8217;s being-a-fool is purely a mental activity on the part of the speaker. (In fact, <a href='#e7d2'>Example 7.2</a> is an instance of improperly marked &#8221;sumti raising&#8221;, a concept discussed further in <a href='#s10'>Section 10</a>).</p>
+<p>これは少し違う。出来事は、既に起こったものにせよ、これから起こるものにせよ、物理的なものである。考える、感じるといった出来事でなければ、頭の中にだけ存在することはできない。<a href='#e7d2'>例7.2</a>はほとんど、フランクが馬鹿な奴であるということは、話し手がそう考えたに過ぎないと言っているのに近い。 (実のところ、<a href='#e7d2'>例7.2</a>は言葉足らずな「スムティ昇格」の例である。これについては<a href='#s10'>第10章</a>で詳しく説明しよう。)</p>
 
-<p>Try again:</p>
+<p>もう一度やってみよう:</p>
 
 <pre id='e7d3'><code>7.3)  mi djuno le jei la frank. cu bebna [kei]
-    I know the truth-value of Frank being a fool.</code></pre>
+    私はフランクが馬鹿な奴であるということの真偽値を知っている。</code></pre>
 
-<p>Closer. <a href='#e7d3'>Example 7.3</a> says that I know whether or not Frank is a fool, but doesn&#8217;t say that he is one, as <a href='#e7d1'>Example 7.1</a> does. To catch that nuance, we must say:</p>
+<p>さっきよりはよくなった。<a href='#e7d3'>例7.3</a>は私はフランクが馬鹿な奴かどうかを知っていると述べているが、<a href='#e7d1'>例7.1</a>のように実際そうだとは言っていない。この意味合いを表現するには、こう言わなければいけない:</p>
 
 <pre id='e7d4'><code>7.4)  mi djuno le du&#39;u la frank. cu bebna [kei]
-    I know the predication that Frank is a fool.</code></pre>
+    私はフランクが馬鹿な奴だという命題を知っている。</code></pre>
 
-<p>Now we have it. Note that the implied assertion &#8221;Frank is a fool&#8221; is not a property of &#8221;le du&#8217;u&#8221; abstraction, but of &#8221;djuno&#8221;; we can only know what is in fact true. (As a result, &#8221;djuno&#8221; like &#8221;jei&#8221; has a place for epistemology, which specifies how we know.) <a href='#e7d5'>Example 7.5</a> has no such implied assertion:</p>
+<p>これでぴったりの表現に辿り着いた。この文に暗黙に含まれている「フランクは馬鹿な奴である」という主張は、le du&#8217;u抽象化ではなく、djunoに起因するものであることに注意したい。私達が知っていると言えるのは、実際に真実のことだけだからだ。(だから、djunoには、jeiのように認識論のための場所があり、どのようにして知っているのかを言い表せる。) 次の<a href='#e7d5'>例7.5</a>ではそうした暗黙の主張はない:</p>
 
 <pre id='e7d5'><code>7.5)  mi kucli le du&#39;u la frank. cu bebna [kei]
-    I am curious about whether Frank is a fool.</code></pre>
+    私はフランクが馬鹿な奴であるかどうかに興味がある。</code></pre>
 
-<p>and here &#8221;du&#8217;u&#8221; could probably be replaced by &#8221;jei&#8221; without much change in meaning:</p>
+<p>恐らく、この文のdu&#8217;uをjeiに置き換えてもほとんど意味は変わらない:</p>
 
 <pre id='e7d6'><code>7.6)  mi kucli le jei la frank. cu bebna [kei]
-    I am curious about how true it is
-        that Frank is a fool.</code></pre>
+    私はフランクが馬鹿な奴であるというのがどれくらい正しいかに興味がある。</code></pre>
 
-<p>As a matter of convenience rather than logical necessity, &#8221;du&#8217;u&#8221; has been given an x2 place, which is a sentence (piece of language) expressing the bridi:</p>
+<p>du&#8217;uにはx2の場所が設けられており、ブリディを表現する文 (何らかの句) を置くことができる。これは論理的な必要性というより、便宜上の理由からである:</p>
 
 <blockquote>
-<p>x1 is the predication (the bridi), expressed in sentence x2</p>
+<p>x1は(ブリディの内容)の命題で、x2で表現されている</p>
 </blockquote>
 
-<p>and &#8221;le se du&#8217;u &#8230;&#8221; is very useful in filling places of selbri which refer to speaking, writing, or other linguistic behavior regarding bridi:</p>
+<p>le se du&#8217;uという言い回しは、話す・書くなどの、ブリディに対する言語活動に関するセルブリの場所を埋めるのに大変便利である:</p>
 
 <pre id='e7d6.5'><code>7.6.5)  la djan. cusku
         le se du&#39;u
             la djordj. klama le zarci [kei]
-    John expresses
-        the sentence-expressing-that
-            George goes-to the store
-    John says that George goes to the store.</code></pre>
+    ジョンは「ジョージが店に行く」という内容を表現する文を述べる。
+    ジョンは、ジョージは店に行くと言う。</code></pre>
 
-<p><a href='#e7d6'>Example 7.6</a> differs from</p>
+<p><a href='#e7d6'>例7.6</a>は次の例とは異なる:</p>
 
 <pre id='e7d7'><code>7.7)  la djan cusku
         lu la djordj. klama le zarci li&#39;u
-    John expresses,
-        quote, George goes to the store, unquote.
-    John says &#39;&#39;George goes to the store&#39;&#39;.</code></pre>
+    ジョンは、「ジョージは店に行く」と言う。</code></pre>
 
-<p>because <a href='#e7d7'>Example 7.7</a> claims that John actually said the quoted words, whereas <a href='#e7d6'>Example 7.6</a> claims only that he said some words or other which were to the same purpose.</p>
+<p>というのも、<a href='#e7d7'>例7.7</a>では、ジョンは引用された文を実際に発言したと述べているが、<a href='#e7d6'>例7.6</a>では、ただ同様の内容を表す何らかの語句を発言した、としか述べていない。</p>
 
-<p>&#8221;le se du&#8217;u&#8221; is much the same as &#8221;lu&#8217;e le du&#8217;u&#8221;, a symbol for the predication, but &#8221;se du&#8217;u&#8221; can be used as a selbri, whereas &#8221;lu&#8217;e&#8221; is ungrammatical in a selbri. (See <a href='chapter5.html'>Chapter 5</a> for a discussion of &#8221;lu&#8217;e&#8221;.)</p>
+<p>le se du&#8217;uは、命題を表す言葉という点では、lu&#8217;e le du&#8217;uとほぼ同じだが、se du&#8217;uはセルブリとして使えるのに対して、lu&#8217;eはセルブリ内では非文法的である。(<a href='chapter5.html'>第5章</a>にlu&#8217;eの詳しい説明がある。)</p>
 
 <h3 id='s8'>8. 遠回しの質問</h3>
 
