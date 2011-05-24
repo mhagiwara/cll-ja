@@ -402,7 +402,7 @@ jeiを使った{%_ abstraction%}は、{%_ lojban%}であいまいな値を扱う
 
        du'u    NU  {%_ predication%}の{%_ abstraction%}
 
-{%_ selbri%}の中には、一つの{%_ predication%}全体を{%_ sumti%}にとるものがある。{%_ predication%}を1つのものとして考え、それについて何らかの主張をするのである。論理学では、これらは命題的態度と呼ばれるもので、(日本語では) 知っている、信じる、知る、見る、聞く、などが含まれる。次の日本語の文を考えてみよう:
+{%_ selbri%}の中には、一つの{%_ predication%}全体を{%_ sumti%}にとるものがある。{%_ predication%}を1つのものとして考え、それについて何らかの主張をするのである。論理学では、これらは{%_ propositional attitude%}と呼ばれるもので、(日本語では) 知っている、信じる、知る、見る、聞く、などが含まれる。次の日本語の文を考えてみよう:
 
     7.1)  私はフランクが馬鹿な奴だと知っている。
 {#e7d1}
@@ -464,109 +464,71 @@ le se du'uという言い回しは、話す・書くなどの、{%_ bridi%}に�
 le se du'uは、{%_ predication%}を表す言葉という点では、lu'e le du'uとほぼ同じだが、se du'uは{%_ selbri%}として使えるのに対して、lu'eは{%_ selbri%}内では非文法的である。(<a href="chapter5.html">第5章</a>にlu'eの詳しい説明がある。)
 
 
-### 8. 遠回しの質問 {#s8}
+### 8. {%_ indirect question%} {#s8}
 
 この節では以下の{%_ cmavo%}を解説する:
 
-       kau UI  indirect question marker
+       kau UI  {%_ indirect question%}の{%_ marker%}
 
-There is an alternative type of sentence involving ''du'u'' and
-a selbri expressing a propositional attitude. In addition to
-sentences like 
+du'u及び{%_ propositional attitude%}を表す{%_ selbri%}を使って、別のアングルから物事を表現することが可能である。以下の文は、前節で取り上げた形式の文である:
 
-    8.1)  I know that John went to the store.
+    8.1)  私はジョンが店に行ったと知っている。
 {#e8d1}
 
-we can also say things like 
+そうではなく、こうした表現方法を考えてみよう:
 
-    8.2)  I know who went to the store.
+    8.2)  私は誰が店に行ったのか知っている。
 {#e8d2}
 
-This form is called an ''indirect question'' in English because
-the embedded English sentence is a question: ''Who went to the
-store?'' A person who says [Example 8.2](#e8d2) is
-claiming to know the answer to this question. Indirect
-questions can occur with many other English verbs as well: I
-can wonder, or doubt, or see, or hear, as well as know who went
-to the store. 
+これは英文法では「{%_ indirect question%}」と呼ばれる。内側にある文「誰が店に行ったのか」が疑問文になっているためである。[例8.2](#e8d2)のように発言した人は、この質問への答えを知っていると表明している。{%_ indirect question%}は他の動詞でも可能である: 私は誰が店に行ったのかを知っているかもしれないし、「疑問に思う」「見た」「聞いた」かもしれない。
 
-To express indirect questions in {%_ lojban%}, we use a ''le
-du'u'' abstraction, but rather than using a question word like
-''who'' (''ma'' in {%_ lojban%}), we use any word that will fit
-grammatically and mark it with the suffix particle ''kau''.
-This cmavo belongs to selma'o UI, so grammatically it can
-appear anywhere. The simplest {%_ lojban%} translation of [Example 8.2](#e8d2) is therefore:
+{%_ lojban%}で{%_ indirect question%}を表現するには、le du'u{%_ abstraction%}を使う。ただし、「誰」のような疑問詞 ({%_ lojban%}ではma)は使わず、文法的に許容される単語を何か一つあてはめ、それに{%_ suffix%}kauをつけることで表現する。この{%_ cmavo%}の{%_ selma'o%}はUI類であり、文法的にはどこに入れてもよい。これを踏まえると、[例8.2](#e8d2)のもっともシンプルな{%_ lojban%}訳は、こうなる:
 
     8.3)  mi djuno le du'u
             makau pu klama le zarci
-        I know the predication-of
-            X [indirect question] [past] going to the store.
+        私はX[{%_ indirect question%}][過去]が店に行くという{%_ predication%}を知っている。
 {#e8d3}
 
-In [Example 8.3](#e8d3), we have chosen to use
-''ma'' as the word marked by ''kau''. In fact, any other sumti
-would have done as well: ''zo'e'' or ''da'' or even ''la
-djan.''. Using ''la djan.'' would suggest that it was John who
-I knew had gone to the store, however: 
+[例8.3](#e8d3)では、maを置き、それにkauをつけたが、他のどんな{%_ sumti%}でも問題ないのである: zo'eやda、それにla djanでさえも問題ない。ここでla djanを使った場合は、私が店に行ったと知っている人物はジョンだということをほのめかす文になる:
 
     8.4)  mi djuno le du'u
             la djan. kau pu
                 klama le zarci
-        I know the predication-of/fact-that
-            John [indirect question] [past]
-                going to the store.
-        I know who went to the store, namely John.
-        I know that it was John who went to the store.
+        私はジョン[{%_ indirect question%}][過去]が店に行くという{%_ predication%}を知っている。
+        私は誰が店に行ったのか知っており、それはジョンである。
+        私は店に行ったのはジョンだと知っている。
 {#e8d4}
 
-Using one of the indefinite pro-sumti such as ''ma'',
-''zo'e'', or ''da'' does not suggest any particular value.
+ma、zo'e、daなどの{%_ indefinite%}{%_ pro-sumti%}を使った場合は、特定の内容を示唆することはない。
 
-Why does {%_ lojban%} require the ''kau'' marker, rather than
-using ''ma'' as English and Chinese and many other languages
-do? Because ''ma'' always signals a direct question, and so
+{%_ lojban%}ではmaを使わず、kau{%_ marker%}を導入しているのは何故だろうか? 英語や中国語や、その他の多くの言語ではmaのような疑問詞を使う方式なのに。それは、maは常に{%_ direct question%}を意味するからである。つまり、
 
     8.5)  mi djuno le du'u
             ma pu klama le zarci
-        I know the predication-of
-            [what sumti?] [past] goes-to the store
+        私は[どの{%_ sumti%}か?][過去]が店に行くという{%_ predication%}を知っている。
 {#e8d5}
 
-means 
+の意味は
 
-    8.6)  Who is it that I know goes to the store?
+    8.6)  私が店に行くと知っているのは誰か?
 {#e8d6}
 
-It is actually not necessary to use ''le du'u'' and ''kau'' at
-all if the indirect question involves a sumti; there is
-generally a paraphrase of the type: 
+になる。{%_ indirect question%}の対象が{%_ sumti%}の場合は、実はle du'uとkauを使わずに表現することも可能である。ほとんどの場合、以下のような言い換えができる:
 
     8.7)  mi djuno fi le pu klama be le zarci
-        I know about the [past] goer to-the store.
-        I know something about the one who went to the store
-            (namely, his identity).
+        私は、店に行った者について、あることを知っている (具体的には、誰であるかについて)。
 {#e8d7}
 
-because the x3 place of ''djuno'' is the subject of knowledge,
-as opposed to the fact that is known. But when the questioned
-point is not a sumti, but (say) a logical connection, then
-there is no good alternative to ''kau'': 
+djunoのx3は知られている事柄の主題であり、知られている事柄そのものではないため、こうした表現ができる。しかし、疑問の対象が{%_ sumti%}ではない場合、例えば{%_ logical connection%}の場合、kauを使う以外の方法はない:
 
     8.8)  mi ba zgana le du'u
             la djan. jikau la djordj.
                 cu zvati le panka
-        I [future] observe the predication-of/fact-that
-            John [connective indirect question] George
-                is-at the park.
-        I will see whether John or George (or both)
-            is at the park.
+        私はジョン[{%_ logical connection%}の{%_ indirect question%}]ジョージが公園にいるという{%_ predication%}を[未来]観測する。
+        私はジョンもしくはジョージ(それとも両方が)公園にいることをこれから見るだろう。
 {#e8d8}
 
-In addition, [Example 8.7](#e8d7) is only a loose
-paraphrase of [Example 8.3](#e8d3), because it is
-left to the listener's insight to realize that what is known
-about the goer-to-the-store is his identity rather than some
-other of his attributes.
+さらに付け加えると、[例8.7](#e8d7)は[例8.3](#e8d3)のおおよその言い換えでしかない。というのも、店に行った者について知られている事柄が、それが誰であるかということで、他の何らかの属性ではないということを、聞き手の側で汲み取らなければいけないからである。
 
 
 ### 9. あまり使われない{%_ abstraction%} {#s9}
@@ -849,7 +811,6 @@ point-events; the spans of time may constitute processes or
 activities. Therefore, {%_ lojban%} allows us to express processes
 within processes, activities within states, and many other
 complicated abstract things.
-
 
 
 ### 12. {%_ abstractor%}の{%_ connection%} {#s12}

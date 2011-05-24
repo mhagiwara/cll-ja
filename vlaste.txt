@@ -25,6 +25,7 @@ described	記述された # （LE 類の意味）
 description sumti	描写スムティ
 description	描写
 descriptor	 描写型の冠詞
+direct question	直接疑問
 discursive	談話系
 elidable	省略可能な
 ellipsize	省略
@@ -41,10 +42,14 @@ gismu	ギスム
 gloss	逐語訳
 gloss word	見出し語
 incidental relative phrase	付随関係句
+indefinite	不定の
+indirect question	間接疑問
 interval   範囲
+logical connection	論理接続
 logical entailment	論理的前提
 lojban	ロジバン
 lujvo	ルジヴォ
+marker	マーカー
 modal	法制
 modal place 法制場所
 modifier	限定詞
@@ -57,8 +62,10 @@ polar opposite	正反対
 predicate	命題
 predication	断言
 prefix	接頭辞
+pro-sumti	代スムティ
 process	過程
 property	性質
+propositional attitude	命題的態度
 quality	質
 quantity	量
 rafsi	ラフシ
@@ -74,6 +81,7 @@ spatial tense	空間制
 state	状態
 stickiness	貼り付き # （ki の意味）
 sticky	貼り付く # （ki の意味）
+suffix	接尾辞
 sumti	スムティ
 sumti place	スムティの場所
 sumti raising	スムティ昇格
