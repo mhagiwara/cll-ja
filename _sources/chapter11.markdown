@@ -535,89 +535,74 @@ djunoのx3は知られている事柄の主題であり、知られている事�
 
 この節では以下の{%_ cmavo%}を解説する:
 
-       li'i    NU  experience abstractor
-        si'o    NU  concept abstractor
-        su'u    NU  general abstractor
+       li'i    NU  経験の{%_ abstractor%}
+       si'o    NU  概念の{%_ abstractor%}
+       su'u    NU  汎用的{%_ abstractor%}
 
-There are three more abstractors in {%_ lojban%}, all of them little
-used so far. The abstractor ''li'i'' expresses experience: 
+{%_ lojban%}にはさらに以上の3つの{%_ abstractor%}があるが、これらは今のところあまり使われていない。li'i{%_ abstractor%}は経験を表す:
 
     9.1)  mi morji le li'i mi verba
-        I remember the experience-of (my being-a-child)
+        私は(私が子供である)という経験を思い出す
 {#e9d1}
 
-The abstractor ''si'o'' expresses a mental image, a concept, an
-idea: 
+si'o{%_ abstractor%}は心の中で思い描いたイメージや、概念、考えを表す:
 
     9.2)  mi nelci le si'o la lojban. cu mulno
-        I enjoy the concept-of {%_ lojban%} being-complete.
+        私は{%_ lojban%}が完全になるという概念が好きだ。
 {#e9d2}
 
-Finally, the abstractor ''su'u'' is a vague abstractor, whose
-meaning must be grasped from context: 
+su'uは特定の意味のない{%_ abstractor%}で、具体的な意味は文脈から読み取る必要がある:
 
     9.3)  ko zgana le su'u
             le ci smacu cu bajra
-        you [imperative] observe the abstract-nature-of
-            the three mice running
-        See how the three mice run!
+        あなたは3匹のねずみが走ることの抽象的性質を[命令]見る
+        3匹のネズミだ、ごらん、あんなに走るのを！
 {#e9d3}
 
-All three of these abstractors have an x2 place. An experience
-requires an experiencer, so the place structure of ''li'i'' is:
+ # Three Blind Miceというイギリスの伝承童謡より。
 
-> x1 is the experience of (the bridi) as experienced by x2
+これらの3つの{%_ abstractor%}にはすべてx2の{%_ place%}がある。経験には経験する者が必要なので、li'iの{%_ place structure%}は以下のようになっている:
 
-Similarly, an idea requires a mind to hold it, so the place
-structure of ''si'o'' is: 
+> x1は、x2によって経験される、({%_ bridi%}の内容)という経験である
 
-> x1 is the idea/concept of (the bridi) in the mind of x2
+同様に、考えは、それを考える精神が必要である。そこでsi'oの{%_ place structure%}は:
 
-Finally, there needs to be some way of specifying just what
-sort of abstraction ''su'u'' is representing, so its place
-structure is: 
+> x1は、x2の精神における({%_ bridi%}の内容)という考え/概念である
 
-> x1 is an abstract nature of (the bridi) of type x2
+最後に、su'uによる{%_ abstraction%}がどういう種類のものかを指定できるようにするため、その{%_ place structure%}は:
 
-The x2 place of ''su'u'' allows it to serve as a substitute for
-any of the other abstractors, or as a template for creating new
-ones. For example, 
+> x1は、({%_ bridi%}の内容)ということの抽象的性質で、x2の種類のものである
+
+su'uのx2の{%_ place%}を活用することで、他の{%_ abstractor%}の代わりにしたり、新しい{%_ abstractor%}を作ったりすることができる。例えば、
 
     9.4)  le nu mi klama
-        the event-of my going
+        私が行くという{%_ event%}
 {#e9d4}
 
-can be paraphrased as 
+は、次のように言い換えることができる:
 
     9.5)  le su'u mi klama kei be lo fasnu
-        the abstract-nature-of (my going) of-type an event
+        (私が行く)ということの抽象的性質で、{%_ event%}の種類のもの
 {#e9d5}
 
-and there is a book whose title might be rendered in {%_ lojban%} as:
+また、とある本の題名を{%_ lojban%}に訳すと以下のようになる:
 
     9.6)  le su'u la .iecuas. kuctra
             selcatra kei
             be lo sao'rdzifa'a
             ke nalmatma'e sutyterjvi
-        the abstract-nature-of (Jesus is-an-intersect-shape
-            type-of-killed-one)
-            of-type a slope-low-direction
-            type-of non-motor-vehicle speed-competition
-        The Crucifixion of Jesus Considered As A
-            Downhill Bicycle Race
+        (イエスが十字様式で殺される)ということの抽象的性質で、下り坂的な非自動車のスピード競争の種類のもの
+        ダウンヒル自転車レースと見なした時のキリストの磔刑
 {#e9d6}
 
-Note the importance of using ''kei'' after ''su'u'' when the
-x2 of ''su'u'' (or any other abstractor) is being specified;
-otherwise, the ''be lo'' ends up inside the abstraction
-bridi.
+su'u(やその他の{%_ abstractor%})のx2を指定する際に、su'uの後にkeiを置いていることに注意しよう。keiが無ければ、be loが{%_ abstraction%}{%_ bridi%}の中に取り込まれてしまうので、このkeiの役割は大きい。
 
 ### 10. {%_ lojban%}の{%_ sumti raising%}の仕組み {#s10}
 
 この節では以下の{%_ cmavo%}を解説する:
 
        tu'a    LAhE    an abstraction involving
-        jai JAI abstraction conversion
+       jai JAI abstraction conversion
 
 It is sometimes inconvenient, in a situation where an abstract
 description is logically required, to express the abstraction.
