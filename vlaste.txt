@@ -11,6 +11,8 @@ brivla	ブリヴラ
 connection	接続
 cmavo	シマヴォ
 cmene	シメネ
+complex	複合
+compound	合成
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
 described	記述された # （LE 類の意味）
@@ -28,14 +30,17 @@ event contour	事象線
 fu'ivla	フヒヴラ
 gismu	ギスム
 gloss word	見出し語
-lujvo	ルジヴォ
+logical entailment	論理的前提
 lojban	ロジバン
+lujvo	ルジヴォ
+modal	法制
 observative	観察文
 place	場所
 place structure	場所構造 # あるいは PS?
 point event	瞬間的出来事
 predicate	命題
 predication	断言
+prefix	接頭辞
 process	過程
 property	属性
 quality	質
