@@ -2,17 +2,21 @@ abstraction	抽象化
 abstraction selbri	抽象化セルブリ
 abstractor	抽象詞
 activity	活動
+afterthought	後置
 amount	量
 argument	項
 aspect	相制
 attitudinal indicator	心態詞
 bridi	ブリディ
+bridi-tail	ブリディ末端
 brivla	ブリヴラ
 connection	接続
 cmavo	シマヴォ
 cmene	シメネ
 complex	複合
 compound	合成
+connection	接続
+contradictory negation	対義否定
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
 described	記述された # （LE 類の意味）
@@ -27,13 +31,17 @@ elliptical	省略的
 evidential	明察系 # 検討中
 event	出来事
 event contour	事象線
+forethought	前置
 fu'ivla	フヒヴラ
 gismu	ギスム
 gloss word	見出し語
+incidental relative phrase	付随関係句
 logical entailment	論理的前提
 lojban	ロジバン
 lujvo	ルジヴォ
 modal	法制
+modal place 法制場所
+modifier	限定詞
 observative	観察文
 place	場所
 place structure	場所構造 # あるいは PS?
@@ -46,17 +54,24 @@ property	属性
 quality	質
 quantity	量
 rafsi	ラフシ
+restrictive relative phrase	限定関係句
 root word	根語
+scalar negation	段階否定
 selbri	セルブリ
 selma'o	セルマホ
 sentence	文
 state	状態
+stickiness	貼り付き # （ki の意味）
+sticky	貼り付く # （ki の意味）
 sumti	スムティ
 sumti place	スムティの場所
 sumti raising	スムティ昇格
+tag	タグ
 tanru	タンル
 tense	間制
 terminator	終端詞
+term	名辞
+termset	名辞組
 truth value	真偽値
-unspecified value	不特定項 # （zo'eの意味）
+unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
