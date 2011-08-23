@@ -36,6 +36,7 @@ fu'ivla	フヒヴラ
 gismu	ギスム
 gloss word	見出し語
 incidental relative phrase	付随関係句
+interval   範囲
 logical entailment	論理的前提
 lojban	ロジバン
 lujvo	ルジヴォ
@@ -46,6 +47,7 @@ observative	観察文
 place	場所
 place structure	場所構造 # あるいは PS?
 point event	瞬間的出来事
+polar opposite	正反対
 predicate	命題
 predication	断言
 prefix	接頭辞
@@ -60,6 +62,7 @@ scalar negation	段階否定
 selbri	セルブリ
 selma'o	セルマホ
 sentence	文
+spatial tense	空間制
 state	状態
 stickiness	貼り付き # （ki の意味）
 sticky	貼り付く # （ki の意味）
@@ -68,6 +71,7 @@ sumti place	スムティの場所
 sumti raising	スムティ昇格
 tag	タグ
 tanru	タンル
+temporal tense	時間制
 tense	間制
 terminator	終端詞
 term	名辞

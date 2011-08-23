@@ -14,10 +14,10 @@
 3	Chapter 4	mhagiwara
 2	Chapter 5	hatthin
 3	Chapter 6	guskant
-1	Chapter 7	mhagiwara
+3	Chapter 7	mhagiwara
 1	Chapter 8	hatthin
 1	Chapter 9	guskant
-1	Chapter 10	mhagiwara
+2	Chapter 10	mhagiwara
 1	Chapter 11	ento
 0	Chapter 12	
 0	Chapter 13	
