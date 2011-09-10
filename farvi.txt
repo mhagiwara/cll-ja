@@ -5,7 +5,7 @@
 3: 修正中（未訳部分は無いが、要修正）
 4: 完成（修正しても良いが、大きな変更は不要）
 
-12章以降の訳を始める前に下の表に名前を書き込んでください。
+12章以降の訳を始める前に下の表に名前を書き込んでください。（敬称略）
 デフォルトでは4人のローテーションになりますが、特に担当したい章があれば早い者勝ちということでお願いします。
 
 3	Chapter 1	mhagiwara
@@ -19,14 +19,13 @@
 1	Chapter 9	guskant
 2	Chapter 10	mhagiwara
 1	Chapter 11	ento
-0	Chapter 12	
-0	Chapter 13	
-0	Chapter 14	
+1	Chapter 12	guskant
+1	Chapter 13	limna
+1	Chapter 14	mhagiwara
 0	Chapter 15	
-0	Chapter 16	
+1	Chapter 16	nalteo
 0	Chapter 17	
 0	Chapter 18	
 0	Chapter 19	
 0	Chapter 20	
 0	Chapter 21	
-

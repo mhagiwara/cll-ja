@@ -5,6 +5,7 @@ activity	活動
 afterthought	後置
 amount	量
 argument	項
+argument tag	項タグ
 aspect	相制
 attitudinal indicator	心態詞
 bridi	ブリディ
@@ -69,6 +70,7 @@ sticky	貼り付く # （ki の意味）
 sumti	スムティ
 sumti place	スムティの場所
 sumti raising	スムティ昇格
+sumti tcita	法制スムティ
 tag	タグ
 tanru	タンル
 temporal tense	時間制
