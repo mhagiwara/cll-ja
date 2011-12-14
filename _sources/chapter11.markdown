@@ -595,7 +595,7 @@ su'uのx2の{%_ place%}を活用することで、他の{%_ abstractor%}の代�
         ダウンヒル自転車レースと見なした時のキリストの磔刑
 {#e9d6}
 
-su'u(やその他の{%_ abstractor%})のx2を指定する際に、su'uの後にkeiを置いていることに注意しよう。keiが無ければ、be loが{%_ abstraction%}{%_ bridi%}の中に取り込まれてしまうので、このkeiの役割は大きい。
+su'u(やその他の{%_ abstractor%})のx2を指定する際に、su'uの後にkeiを置いていることに注意しよう。keiが無ければ、be loが{%_ abstraction%}{%_ bridi%}の中に取り込まれてしまうので、このkeiはなくてはならないものである。
 
 ### 10. {%_ lojban%}の{%_ sumti raising%}の仕組み {#s10}
 
@@ -781,7 +781,7 @@ knows what uses it may eventually have.
 以下の表に
 {%_ abstractor%}、
 日本語による{%_ gloss word%}、
-関連する{%_ gismu%} (覚えやすくするために対になる{%_ gismu%}が関連付けられているだけで、何らかの因果関係を示唆するものではない)、
+関連する{%_ gismu%} (覚えやすくするために対になる{%_ gismu%}を載せているだけで、何らかの因果関係を示唆するものではない)、
 その{%_ rafsi%}、
 そして (続く行に) {%_ place structure%}
 を一覧にした。
