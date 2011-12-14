@@ -601,130 +601,85 @@ su'u(やその他の{%_ abstractor%})のx2を指定する際に、su'uの後にk
 
 この節では以下の{%_ cmavo%}を解説する:
 
-       tu'a    LAhE    an abstraction involving
-       jai JAI abstraction conversion
+       tu'a    LAhE    -に関する何らかの{%_ abstraction%}
+       jai JAI {%_ abstraction%}の{%_ conversion%}
 
-It is sometimes inconvenient, in a situation where an abstract
-description is logically required, to express the abstraction.
-In English we can say: 
+{%_ abstract description%}が要求される場面であっても、時には{%_ abstraction%}の形式では表現しづらいこともある。
+日本語ではこういう表現が可能だ:
 
-    10.1)    I try to open the door.
+    10.1)    私はドアが開かないか試してみる。
 {#e10d1}
 
-which in {%_ lojban%} is: 
+これは{%_ lojban%}では: 
 
     10.2)    mi troci le nu
             [mi] gasnu le nu
                 le vorme cu karbi'o
-        I try the event-of
-            (I am-agent-in the event-of
-                (the door open-becomes)).
+        私は
+            (私は
+                (ドアが開いた状態になる)
+            という{%_ event%}の{%_ agent%}である)
+        という{%_ event%}を試す。
 {#e10d2}
 
-which has an abstract description within an abstract
-description, quite a complex structure. In English (but not in
-all other languages), we may also say: 
+{%_ abstract description%}の中にさらに{%_ abstract description%}が含まれるという、かなり複雑な構造になってしまう。日本語では、こう言うこともできるが (他の言語でも可能とは限らない): 
 
-    10.3)    I try the door.
+    10.3)    私はドアを試す。
 {#e10d3}
 
 
-where it is understood that what I try is actually not the door
-itself, but the act of opening it. The same simplification can
-be done in {%_ lojban%}, but it must be marked explicitly using a
-cmavo. The relevant cmavo is ''tu'a'', which belongs to selma'o
-LAhE. The {%_ lojban%} equivalent of [Example 10.3](#e10d3) is: 
+暗黙の理解として、ここで試されているのはドアそのものではなく、開けるという行為なのである。{%_ lojban%}でも同じような簡略化した表現が可能だが、特別な{%_ cmavo%}で明示する必要がある。それが{%_ selma'o%}LAhEに属する{%_ cmavo%}、tu'aである。[例10.3](#e10d3)は{%_ lojban%}では以下のようになる: 
 
     10.4)    mi troci tu'a le vorme
-        I try some-action-to-do-with the door.
+        私はドアについての何らかの行為を試す。
 {#e10d4}
 
-The term ''sumti-raising'', as in the title of this section,
-signifies that a sumti which logically belongs within an
-abstraction (or even within an abstraction which is itself
-inside an intermediate abstraction) is ''raised'' to the main
-bridi level. This transformation from [Example 10.2](#e10d2) to [Example 10.4](#e10d4) loses
-information: nothing except convention tells us what the
-abstraction was. 
+この節の題名にも使われている、{%_ sumti raising%}という呼称は、本来は{%_ abstraction%}の中に属する(あるいはさらに別の{%_ abstraction%}の中にある{%_ abstraction%}に属する{%_ sumti%})が、文の中心となる{%_ bridi%}のレベルにまで「引き上げられる」ことを意味している。[例10.2](#e10d2)から[例10.4](#e10d4)に言い換えることで、失われてしまう情報もある。実際の{%_ abstraction%}が何だったのかを知る手がかりは、文脈と常識を頼るしかないのだ。
 
-Using ''tu'a'' is a kind of laziness: it makes speaking
-easier at the possible expense of clarity for the listener. The
-speaker must be prepared for the listener to respond something
-like:
+tu'aを使うのは、ある意味手間を抜いているともいえる。話す内容が簡単になるが、それと引き換えに、聞き手にとっては内容の明解さが犠牲になる。話し手は、聞き手がこんな風に応じてくるのを覚悟しなければならない:
 
     10.5)    tu'a le vorme lu'u ki'a
-        something-to-do-with the door [terminator] [confusion!]
+        ドアにまつわる何か [{%_ terminator%}] [混乱!]
 {#e10d5}
 
-which indicates that ''tu'a le vorme'' cannot be understood.
-(The terminator for ''tu'a'' is ''lu'u'', and is used in [Example 10.5](#e10d5) to make clear just what is being
-questioned: the sumti-raising, rather than the word ''vorme''
-as such.) An example of a confusing raised sumti might be: 
+つまり、「tu'a le vorme」が何のことか分からない、と。
+([例10.5](#e10d5)ではtu'aの{%_ terminator%}、lu'uを使うことで、何が不明なのかを明確にしている。もしこれが無ければ、vormeという言葉が問題かもしれないし、{%_ sumti raising%}かもしれない。) 以下は本当に意味の取りようのない{%_ sumti raising%}の例である:
 
     10.6)    tu'a la djan. cu cafne
-        something-to-do-with John frequently-occurs
+        ジョンに関する何かは頻繁に起こる。
 {#e10d6}
 
-This must mean that something which John does, or which
-happens to John, occurs frequently: but without more context
-there is no way to figure out what. Note that without the
-''tu'a'', [Example 10.6](#e10d6) would mean that
-John considered as an event frequently occurs --- in other
-words, that John has some sort of on-and-off existence!
-Normally we do not think of people as events in English, but
-the x1 place of ''cafne'' is an event, and if something that
-does not seem to be an event is put there, the {%_ lojban%}ic
-listener will attempt to construe it as one. (Of course, this
-analysis assumes that ''djan.'' is the name of a person, and
-not the name of some event.)
+これはおそらく、ジョンがやる何か、あるいはジョンに起こる何かが頻繁である、という意味に違いない。だが、より詳しい文脈が無い以上、本当は何なのかを知る手がかりはない。
 
-Logically, a counterpart of some sort is needed to ''tu'a''
-which transposes an abstract sumti into a concrete one. This is
-achieved at the selbri level by the cmavo ''jai'' (of selma'o
-JAI). This cmavo has more than one function, discussed in <a href="chapter9.html">Chapter 9</a> and <a href="chapter11.html">Chapter 11</a>; for the purposes of this
-chapter, it operates as a conversion of selbri, similarly to
-the cmavo of selma'o SE. This conversion changes
+ここでもしtu'aが無かった場合、[例10.6](#e10d6)は、{%_ event%}としてのジョンは頻繁に起こる、という意味になる。つまり、ジョンは存在したり存在しなかったりする何ものか、ということになる! 日本語では人のことを{%_ event%}としてとらえることは無いが、cafneのx1の{%_ place%}が{%_ event%}である以上、{%_ event%}らしくないものがそこに入っていても、{%_ lojban%}的思考の聞き手は何とかそのように解釈しようとする。(もちろん上の解釈は、djan.は人の名前であり、何らかの{%_ event%}の名前ではないことを前提にしている。)
+
+整合性を考えると、tu'aを補うもの、つまり{%_ abstract sumti%}をさらに具体的なものに転換する仕組みが必要である。これは{%_ selbri%}のレベルで、{%_ selma'o%}JAIに属する{%_ cmavo%}、jaiを用いることで実現される。この{%_ cmavo%}には複数の機能があり、詳しくは<a href="chapter9.html">第9章</a>と<a href="chapter10.html">第10章</a>で述べている。この章では、{%_ selbri%}の{%_ conversion%}をおこなうものとしての役割に注目しよう。この{%_ conversion%}はSE類と似ており、例えば以下の文を
 
     10.7)    tu'a mi rinka
             le nu do morsi
-        something-to-do-with me causes
-            the event-of you are-dead
-        My action causes your death.
+        私の行為があなたの死を引き起こす。
 {#e10d7}
 
-    into 
+以下の文に{%_ conversion%}する:
 
     10.8)    mi jai rinka le nu do morsi
-        I am-associated-with causing the event-of your death.
-        I cause your death.
+        私があなたの死を引き起こす。
 {#e10d8}
 
-In English, the subject of ''cause'' can either be the
-actual cause (an event), or else the agent of the cause (a
-person, typically); not so in {%_ lojban%}, where the x1 of ''rinka''
-is always an event. [Example 10.7](#e10d7) and [Example 10.8](#e10d8) look equally convenient (or
-inconvenient), but in making descriptions, [Example 10.8](#e10d8) can be altered to:
+日本語では「引き起こす」の主語を、直接の原因({%_ event%})としてもよいし、その原因の{%_ agent%}(多くの場合は人)としてもよい。だが{%_ lojban%}ではrinkaのx1は常に{%_ event%}である必要がある。その表現方法としては、[例10.7](#e10d7)と[例10.8](#e10d8)はどちらも同じくらい簡便(もしくは同じくらい複雑)にみえるが、{%_ description%}を表現しようと思った場合、[例10.8](#e10d8)であれば以下のように言い換えることができる:
 
     10.9)    le jai rinka
             be le nu do morsi
-        that-which-is associated-with causing
-            (the event-of your death)
-        the one who caused your death
+        あなたの死を引き起こした者
 {#e10d9}
 
-because ''jai'' modifies the selbri and can be incorporated
-into the description --- not so for ''tu'a''. 
+jaiが{%_ selbri%}自体を{%_ conversion%}しているので、そのまま{%_ description%}に組み入れることができるのである。tu'aの場合はそうはいかない。
 
-The weakness of ''jai'' used in descriptions in this way is
-that it does not specify which argument of the implicit
-abstraction is being raised into the x1 place of the
-description selbri. One can be more specific by using the modal
-form of ''jai'' explained in <a href="chapter9.html">Chapter 9</a>:
+jaiを{%_ description%}の中で使う場合の弱点は、{%_ description selbri%}のx1の{%_ place%}が、元々あった{%_ abstraction%}のうちどの{%_ argument%}を引き上げたものかが不明確な点である。これを明示したい場合は、<a href="chapter9.html">第9章</a>で登場する、jaiの{%_ modal%}形式を利用することができる:
 
     10.10)  le jai gau rinka
             be le nu do morsi
-        that-which-is agent-in causing
-            (the event-of your death)
+        (あなたの死という{%_ event%})の{%_ agent%}であるもの
 {#e10d10}
 
 ### 11. {%_ event%}系{%_ abstractor%}と{%_ event contour%}の{%_ tense%} {#s11}

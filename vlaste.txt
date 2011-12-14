@@ -1,9 +1,11 @@
+abstract description	抽象的描写
 abstract sumti	抽象スムティ
 abstraction	抽象化
 abstraction selbri	抽象化セルブリ
 abstractor	抽象詞
 activity	活動
 afterthought	後置
+agent	動作主
 amount	量
 argument	項
 argument tag	項タグ
@@ -23,6 +25,7 @@ conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
 described	記述された # （LE 類の意味）
 description sumti	描写スムティ
+description selbri	描写セルブリ
 description	描写
 descriptor	 描写型の冠詞
 direct question	直接疑問
