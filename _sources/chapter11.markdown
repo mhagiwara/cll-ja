@@ -718,65 +718,46 @@ mu'eを{%_ abstractor%}とし、{%_ point event%}として見た場合の{%_ eve
 
 ### 12. {%_ abstractor%}の{%_ connection%} {#s12}
 
-An abstractor may be replaced by two or more abstractors
-joined by logical or non-logical connectives. Connectives are
-explained in detail in <a href="chapter14.html">Chapter 14</a>.
-The connection can be expanded to one between two bridi which
-differ only in abstraction marker. [Example 13.1](#e13d1) and [Example 13.2](#e13d2) are equivalent
-in meaning:
+{%_ abstractor%}は、2つ以上の{%_ abstractor%}を{%_ logical%}または{%_ non-logical%}{%_ connective%}でつないだもので置き換えることができる。{%_ connective%}については、<a href="chapter14.html">第14章</a>で詳しく解説している。この{%_ connection%}表現は、{%_ abstractor%}のみが違う複数の{%_ bridi%}を{%_ connective%}でつないだものに書き下すことができる。[例13.1](#e13d1)と[例13.2](#e13d2)は同じ意味である。
 
     13.1)    le ka la frank. ciska cu xlali
             .ije le ni la frank. ciska cu xlali
-        The quality-of Frank's writing is bad,
-            and the quantity of Frank's writing is bad.
+        フランクの作文の質はよくない、
+            そしてフランクの作文の量はよくない。
 {#e13d1}
 
     13.2) le ka je ni la frank. ciska cu xlali
-        The quality and quantity of Frank's writing is bad.
+        フランクの作文の質と量はよくない。
 {#e13d2}
 
-This feature of {%_ lojban%} has hardly ever been used, and nobody
-knows what uses it may eventually have.
-
+この表現方法は滅多に使われておらず、どんな利用ができそうかについても白紙の状態である。
 
 ### 13. {%_ abstractor%}の一覧 {#s13}
 
-以下の表に
-{%_ abstractor%}、
-日本語による{%_ gloss word%}、
-関連する{%_ gismu%} (覚えやすくするために対になる{%_ gismu%}を載せているだけで、何らかの因果関係を示唆するものではない)、
-その{%_ rafsi%}、
-そして (続く行に) {%_ place structure%}
-を一覧にした。
+以下の表に{%_ abstractor%}と日本語による{%_ gloss%}、関連する{%_ gismu%} (何らかの関連がある、というほどのもので、直接的な関係があるわけではない。ここに出しているのは覚えやすさのためと思ってほしい)、その{%_ rafsi%}、そして (続く行に) {%_ place structure%}を一覧にした。
 
-    nu event of    fasnu       nun
-            x1 is an event of (the bridi)
-    ka  property of ckaji       kam
-            x1 is a property of (the bridi)
-    ni  amount of   klani       nil
-            x1 is an amount of (the bridi)
-                measured on scale x2
-    jei truth-value of  jetnu       jez
-            x1 is a truth-value of (the bridi)
-                under epistemology x2
-    li'i    experience of   lifri       liz
-            x1 is an experience of (the bridi)
-                to experiencer x2
-    si'o    idea of     sidbo       siz
-            x1 is an idea/concept of (the bridi)
-                in the mind of x2
-    du'u    predication of  -----       dum
-            x1 is the bridi (the bridi)
-                expressed by sentence x2
-    su'u    abstraction of  sucta       sus
-            x1 is an abstract nature of (the bridi)
-    za'i    state of    zasti       zam
-            x1 is a state of (the bridi)
-    zu'o    activity of zukte       zum
-            x1 is an activity of (the bridi)
-    pu'u    process of  pruce       pup
-            x1 is a process of (the bridi)
-    mu'e    point-event of  mulno       mub
-            x1 is a point-event/achievement
-                of (the bridi)
+    nu -という{%_ event%}    fasnu       nun
+            x1 は({%_ bridi%}の内容)という{%_ event%}である
+    ka  -という{%_ property%} ckaji       kam
+            x1 は({%_ bridi%}の内容)という{%_ property%}である
+    ni  -という{%_ amount%}   klani       nil
+            x1 は x2 の物差しで測った場合の({%_ bridi%}の内容)の{%_ amount%}である
+    jei -という{%_ truth value%}  jetnu       jez
+            x1 は x2 の {%_ epistemology%}における({%_ bridi%}の内容)の{%_ truth value%}である
+    li'i    -という経験   lifri       liz
+            x1 は x2 という経験者にとって({%_ bridi%}の内容)という経験である
+    si'o    -という概念     sidbo       siz
+            x1 は x2 の意識にとって({%_ bridi%}の内容)という考え/概念である
+    du'u    -という{%_ predication%}  -----       dum
+            x1 は x2 の文によって表現された({%_ bridi%}の内容)という{%_ bridi%}である
+    su'u    -という{%_ abstraction%}  sucta       sus
+            x1 は({%_ bridi%}の内容)という抽象的性質である
+    za'i    -という{%_ state%}    zasti       zam
+            x1 は({%_ bridi%}の内容)という{%_ state%}である
+    zu'o    -という{%_ activity%} zukte       zum
+            x1 は({%_ bridi%}の内容)という{%_ activity%}である
+    pu'u    -という{%_ process%}  pruce       pup
+            x1 は({%_ bridi%}の内容)という{%_ process%}である
+    mu'e    -という{%_ point event%}  mulno       mub
+            x1 は({%_ bridi%}の内容)という{%_ point event%}/到達点である
 
