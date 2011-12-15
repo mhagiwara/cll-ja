@@ -684,73 +684,36 @@ jaiを{%_ description%}の中で使う場合の弱点は、{%_ description selbr
 
 ### 11. {%_ event%}系{%_ abstractor%}と{%_ event contour%}の{%_ tense%} {#s11}
 
-This section is a logical continuation of [Section 3](#s3).
+この節は、[第3節](#s3)に出てきた内容の続きである。
 
-There exists a relationship between the four types of events
-explained in [Section 3](#s3) and the event contour
-tense cmavo of selma'o ZAhO. The specific cmavo of NU and of
-ZAhO are mutually interdefining; the ZAhO contours were chosen
-to fit the needs of the NU event types and vice versa. Event
-contours are explained in full in <a href="chapter10.html">Chapter
-10</a>, and only summarized here.
+[第3節](#s3)で登場した、{%_ event%}の4つの種類と、{%_ selma'o%}ZAhOに属する{%_ event contour%}の{%_ tense%}{%_ cmavo%}はお互いに関係している。NUの{%_ cmavo%}と、ZAhOの{%_ cmavo%}はお互いを意識した定義となっているのである。ZAhOの{%_ event contour%}はNUの{%_ event%}の分類とうまく協調するように選ばれているし、逆もまた然り、となっている。{%_ event contour%}については<a href="chapter10.html">第10章</a>で詳しく解説されているので、ここでは要約にとどめる。
 
-The purpose of ZAhO cmavo is to represent the natural
-portions of an event, such as the beginning, the middle, and
-the end. They fall into several groups:
+ZAhOの{%_ cmavo%}の目的は、{%_ event%}の特定の局面を自然なかたちで表現することである。例えば、始まり、その最中、終わりなど。大きく分けると以下のようになる:
 
 
-> The cmavo ''pu'o'', ''ca'o'', and ''ba'o'' represent
-> spans of time: before an event begins, while it is going on,
-> and after it is over, respectively.
+> pu'o、ca'o、ba'oは広がりのある時間を表し、それぞれ{%_ event%}が始まる前、
+> {%_ event%}が起こっている間、{%_ event%}が終わった後を示す。
 
-> The cmavo ''co'a'', ''de'a'', ''di'a'', and ''co'u''
-> represent points of time: the start of an event, the
-> temporary stopping of an event, the resumption of an event
-> after a stop, and the end of an event, respectively. Not all
-> events can have breaks in them, in which case ''de'a'' and
-> ''di'a'' do not apply.
+> co'a、de'a、di'a、co'uは時間軸上の一点を表し、それぞれ{%_ event%}の開始時点、
+> {%_ event%}が中断した時点、{%_ event%}が再開した時点、
+> {%_ event%}が終了した時点を示す。全ての{%_ event%}が中断するわけではないので、
+> de'aとdi'aはあてはまらない場合もある。
 
-> The cmavo ''mo'u'' and ''za'o'' correspond to ''co'u''
-> and ''ba'o'' respectively, in the case of those events which
-> have a natural ending point that may not be the same as the
-> actual ending point: ''mo'u'' refers to the natural ending
-> point, and ''za'o'' to the time between the natural ending
-> point and the actual ending point (the ''excessive'' or
-> ''superfective'' part of the event).
+> mo'uとza'oはそれぞれco'uとba'oと対になるもので、「自然な終了」の時点と
+> 実際の終了時点が異なる{%_ event%}で使うことができる。mo'uは「自然な終了」時点を
+> 指し、za'oは「自然な終了」時点と「実際の終了」時点の間の時間(「超過」している時間)を指す。
 
-> The cmavo ''co'i'' represents an entire event considered
-> as a point-event or achievement.
+> co'iは{%_ event%}全体を{%_ point event%}あるいは到達点として表現する。
 
-All these cmavo are applicable to events seen as processes and
-abstracted with ''pu'u''. Only processes have enough internal
-structure to make all these points and spans of time
-meaningful. 
+これらの{%_ cmavo%}はすべて、pu'uを{%_ abstractor%}とし、{%_ process%}としてとらえた場合の{%_ event%}に適用することができる。{%_ process%}として見た場合にのみ、色々な「時点」や「広がりをもった時間」が意味を持ってくるからだ。
 
-For events seen as states and abstracted with ''za'i'', the
-meaningful event contours are the spans ''pu'o'', ''ca'o'', and
-''ba'o''; the starting and ending points ''co'a'' and ''co'u'',
-and the achievement contour ''co'i''. States do not have
-natural endings distinct from their actual ending. (It is an
-open question whether states can be stopped and resumed.)
+za'iを{%_ abstractor%}とし、{%_ state%}として見た場合の{%_ event%}に適用可能な{%_ event contour%}は、広がりのある時間、pu'oとca'o、ba'o、および開始点と完了点、co'aとco'u、そして到達線co'iである。{%_ state%}では実際の終了と「自然な終了」は区別されない。({%_ state%}を中断したり再開したりできるものかは議論の余地がある。)
 
-For events seen as activities and abstracted with ''zu'o'',
-the meaningful event contours are the spans ''pu'o'', ''ca'o'',
-and ''ba'o'', and the achievement contour ''co'i''. Because
-activities are inherently cyclic and repetitive, the beginning
-and ending points are not well-defined: you do not know whether
-an activity has truly begun until it begins to repeat.
+zu'oを{%_ abstractor%}とし、{%_ activity%}として見た場合の{%_ event%}に適用可能な{%_ event contour%}は、広がりのある時間、pu'oとca'o、ba'o、および到達線co'iである。というのも、{%_ activity%}は本質的にいって周期的に繰り返されるものであり、開始と終了が明確に定義できないからである。{%_ activity%}が本当に始まったのかは、繰り返され始めるまではわからないのだ。
 
-For events seen as point-events and abstracted with
-''mu'e'', the meaningful event contours are the spans ''pu'o''
-and ''ba'o'' but not ''ca'o'' (a point-event has no duration),
-and the achievement contour ''co'i''.
+mu'eを{%_ abstractor%}とし、{%_ point event%}として見た場合の{%_ event%}に適用可能な{%_ event contour%}は、広がりのある時間、pu'oとba'o ({%_ point event%}には長さがないのでca'oは含まれない)、それに到達線co'iである。
 
-Note that the parts of events are themselves events, and may
-be treated as such. The points in time may be seen as ''mu'e''
-point-events; the spans of time may constitute processes or
-activities. Therefore, {%_ lojban%} allows us to express processes
-within processes, activities within states, and many other
-complicated abstract things.
+{%_ event%}の一部分自体を{%_ event%}として扱えることに注意しよう。時間軸上の一点はmu'eで表現される{%_ point event%}として見ることができるし、広がりのある時間はまるまる一つの{%_ process%}や{%_ activity%}であるかもしれない。それゆえ、{%_ lojban%}では{%_ process%}に含まれる{%_ process%}を表現したり、{%_ state%}の中の{%_ activity%}といったさらに複雑な抽象的なものごとを表現できるようになっている。
 
 
 ### 12. {%_ abstractor%}の{%_ connection%} {#s12}
