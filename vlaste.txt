@@ -1,9 +1,12 @@
+abstract description	抽象的描写
 abstract sumti	抽象スムティ
 abstraction	抽象化
 abstraction selbri	抽象化セルブリ
 abstractor	抽象詞
+achievement	到達点
 activity	活動
 afterthought	後置
+agent	動作主
 amount	量
 argument	項
 argument tag	項タグ
@@ -18,11 +21,13 @@ cmene	シメネ
 complex	複合
 compound	合成
 connection	接続
+connective	接続詞
 contradictory negation	対義否定
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
 described	記述された # （LE 類の意味）
 description sumti	描写スムティ
+description selbri	描写セルブリ
 description	描写
 descriptor	 描写型の冠詞
 direct question	直接疑問
@@ -45,6 +50,7 @@ incidental relative phrase	付随関係句
 indefinite	不定の
 indirect question	間接疑問
 interval   範囲
+logical	論理的
 logical connection	論理接続
 logical entailment	論理的前提
 lojban	ロジバン
@@ -53,6 +59,7 @@ marker	マーカー
 modal	法制
 modal place 法制場所
 modifier	限定詞
+non-logical	非論理的
 observative	観察文
 place	場所
 place-holder	穴埋め語
