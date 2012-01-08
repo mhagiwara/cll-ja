@@ -14,22 +14,6 @@
     <!-- <body background="lalojbana2.jpg"> -->
   </head>
   <body>
-<div class="nav">
-<div class="nav-prev">
-<div class="nav-section-link-prev"><a href="chapter10.html">まえ</a></div>
-<div class="nav-section-name">第10章</div>
-
-</div>
-<div class="nav-next">
-<div class="nav-section-link-next"><a href="chapter12.html">つぎ</a></div>
-<div class="nav-section-name">第12章</div>
-</div>
-<div class="nav-title">
-<div class="nav-title-title">第11章 出来事、質、量やその他のあいまいな言葉: ロジバンにおける抽象化について</div>
-<div class="nav-title-link"><a href="../">目次</a></div>
-</div>
-</div>
-<hr />
     <div class="main">
     <img alt='[Cartoon]' height='405' src='./images/chapter11.gif' width='405' />
 <h2 id='11__'>第11章: 出来事、質、量やその他のあいまいな言葉: ロジバンにおける抽象化について</h2>
@@ -732,21 +716,5 @@ pu&#39;u    -という過程  pruce       pup
 mu&#39;e    -という瞬間的出来事  mulno       mub
         x1 は(ブリディの内容)という瞬間的出来事/到達点である</code></pre>
     </div>
-<hr />
-<div class="nav">
-<div class="nav-prev">
-<div class="nav-section-link-prev"><a href="chapter10.html">まえ</a></div>
-<div class="nav-section-name">第10章</div>
-
-</div>
-<div class="nav-next">
-<div class="nav-section-link-next"><a href="chapter12.html">つぎ</a></div>
-<div class="nav-section-name">第12章</div>
-</div>
-<div class="nav-title">
-<div class="nav-title-title">第11章 出来事、質、量やその他のあいまいな言葉: ロジバンにおける抽象化について</div>
-<div class="nav-title-link"><a href="../">目次</a></div>
-</div>
-</div>
   </body>
 </html>

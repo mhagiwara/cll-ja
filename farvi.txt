@@ -16,16 +16,16 @@
 3	Chapter 6	guskant
 3	Chapter 7	mhagiwara
 1	Chapter 8	hatthin
-3	Chapter 9	guskant
+4	Chapter 9	guskant
 2	Chapter 10	mhagiwara
-1	Chapter 11	ento
-1	Chapter 12	guskant
+3	Chapter 11	ento
+2	Chapter 12	guskant
 1	Chapter 13	limna
 1	Chapter 14	mhagiwara
-0	Chapter 15	
+1	Chapter 15	guskant
 1	Chapter 16	nalteo
 0	Chapter 17	
-0	Chapter 18	
+1	Chapter 18	guskant
 0	Chapter 19	
 0	Chapter 20	
 0	Chapter 21	
