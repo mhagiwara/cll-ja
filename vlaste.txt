@@ -13,6 +13,7 @@ argument tag	項タグ
 aspect	相制
 attitudinal indicator	心態詞
 bridi	ブリディ
+bridi-schema	ブリディ構成
 bridi-tail	ブリディ末端
 brivla	ブリヴラ
 connection	接続
@@ -82,6 +83,7 @@ root word	根語
 scalar negation	段階否定
 selbri	セルブリ
 selma'o	セルマホ
+semantic primitives	意味素
 sentence	文
 something-unspecified	不特定の何か
 spatial tense	空間制
