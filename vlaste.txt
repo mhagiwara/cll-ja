@@ -54,7 +54,8 @@ interval   範囲
 logical	論理的
 logical connection	論理接続
 logical entailment	論理的前提
-lojban	ロジバン
+Lojban	ロジバン
+Lojbanist	ロジバン話者
 lujvo	ルジヴォ
 marker	マーカー
 modal	法制
