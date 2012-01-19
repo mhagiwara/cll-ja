@@ -24,7 +24,7 @@ pre a { font-family: monospace; }
 
 hr { border: 0; border-top: 1px solid gray; }
 
-a { text-decoration: none; }
+/*a { text-decoration: none; }*/
 a:link { color: #006699; }
 a:visited { color: #663399; }
 
@@ -51,6 +51,7 @@ div.nav-title-link { font-style:italic; font-size:small; }
 div.nav-section-name { font-style:italic; }
 div.nav-section-link-next{ text-align:right; }
 
+.notci { background-color:#ffeeee; }
 /*TOC*/
 #toc .chapter .chtitle {
   font-weight:bold;

@@ -26,6 +26,7 @@ connective	接続詞
 contradictory negation	対義否定
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
+dependent place	依存する場所
 described	記述された # （LE 類の意味）
 description sumti	描写スムティ
 description selbri	描写セルブリ
