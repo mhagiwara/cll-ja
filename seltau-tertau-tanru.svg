@@ -45,7 +45,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer2"
      fit-margin-top="5"
      fit-margin-left="5"
      fit-margin-right="5"
@@ -728,7 +728,7 @@
          sodipodi:role="line"
          id="tspan3092"
          x="342.11209"
-         y="462.02182">tanru の場所の指示対象</tspan></text>
+         y="462.02182">tanru の場所に入るもの</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -740,7 +740,7 @@
          sodipodi:role="line"
          id="tspan3096"
          x="104.41083"
-         y="539.7746">seltau の場所の指示対象 </tspan></text>
+         y="539.7746">seltau の場所に入るもの </tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -751,6 +751,6 @@
          sodipodi:role="line"
          id="tspan3100"
          x="309.2338"
-         y="328.14932">tertau の場所の指示対象</tspan></text>
+         y="328.14932">tertau の場所に入るもの</tspan></text>
   </g>
 </svg>

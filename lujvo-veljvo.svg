@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -100,12 +100,12 @@
          y="486.64792">veljvo を構成する </tspan><tspan
          sodipodi:role="line"
          x="174.28572"
-         y="536.64789"
+         y="536.64795"
          id="tspan4123">gismu (seltau, tertau) </tspan><tspan
          sodipodi:role="line"
          x="174.28572"
-         y="590.77789"
-         id="tspan4125">の場所の指示対象</tspan></text>
+         y="590.77795"
+         id="tspan4125">の場所に入るもの</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -114,12 +114,12 @@
        id="text3839"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3841"
          x="305.71429"
-         y="789.50507">lujvo の場所の</tspan><tspan
+         y="789.50507"
+         id="tspan3843">lujvo の場所に</tspan><tspan
          sodipodi:role="line"
          x="305.71429"
          y="843.63507"
-         id="tspan3843">指示対象</tspan></text>
+         id="tspan2995">入るもの</tspan></text>
   </g>
 </svg>
