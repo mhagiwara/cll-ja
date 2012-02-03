@@ -48,6 +48,7 @@ fu'ivla	フヒヴラ
 gismu	ギスム
 gloss	逐語訳
 gloss word	見出し語
+implicit-abstraction lujvo		暗黙抽象ルジヴォ
 incidental relative phrase	付随関係句
 indefinite	不定の
 indirect question	間接疑問
