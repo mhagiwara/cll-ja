@@ -24,7 +24,7 @@
 1	Chapter 14	mhagiwara
 1	Chapter 15	guskant
 1	Chapter 16	nalteo
-0	Chapter 17	
+1	Chapter 17	ento
 1	Chapter 18	guskant
 0	Chapter 19	
 0	Chapter 20	
