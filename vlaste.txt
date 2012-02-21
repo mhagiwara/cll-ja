@@ -54,6 +54,7 @@ indefinite	不定の
 indirect question	間接疑問
 interval   範囲
 logical	論理的
+logical assertion 論理的表明
 logical connection	論理接続
 logical entailment	論理的前提
 Lojban	ロジバン
