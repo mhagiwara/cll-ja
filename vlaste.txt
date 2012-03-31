@@ -72,6 +72,7 @@ place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
 point event	瞬間的出来事
+positive assertion  肯定文
 polar opposite	正反対
 predicate	命題
 predication	断言
