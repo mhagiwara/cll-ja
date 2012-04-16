@@ -110,6 +110,7 @@ terminator	終端詞
 term	名辞
 termset	名辞組
 truth value	真偽値
+truth function	真偽関数
 unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
 vague  漠然とした
