@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>願っただけで馬が手に入るなら： ロジバンの接続システム - The Lojban Reference Grammar</title>
+<link rel="stylesheet" type="text/css" href="cll-ja.css" />
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+</head>
+<body>
+<div class="nav">
+<div class="nav-prev">
+<div class="nav-section-link-prev"><a href="chapter13.html">まえ</a></div>
+<div class="nav-section-name">第13章</div>
+
+</div>
+<div class="nav-next">
+<div class="nav-section-link-next"><a href="chapter15.html">つぎ</a></div>
+<div class="nav-section-name">第15章</div>
+</div>
+<div class="nav-title">
+<div class="nav-title-title">第14章 願っただけで馬が手に入るなら： ロジバンの接続システム</div>
+<div class="nav-title-link"><a href="../">目次</a></div>
+</div>
+</div>
+<hr />
+<h2>第14章<br />
+願っただけで馬が手に入るなら： ロジバンの接続システム
+</h2>
+<h3>1. 論理接続と真偽表</h3>
+<p>その名が示すように、ロジバンは論理的な言語である。通常の論理学では、真偽値を表明する「文」（もしくは「命題」）と、文をつないで新たな文を作る「真偽関数」がある。この文の真偽値は個々の文の真偽値のみから求められる。例えば：</p>
+<pre>
+<a id="e1" name="e1">1.1)</a>   ジョンは男性、もしくは、ジェームズは女性。
+</pre>
+ここで、「ジョンは男性」もしくは「ジェームズは女性」が成り立てば、上記の文は真となる。
+<p>文を否定する、ということは、その真偽値を逆転させることである。英語であれば、”It is false that...”「というのは真ではない」を文頭に付けるか、“not”を正しい場所に挿入することで否定できる。</p>
+<p>「もしくは」のような単語は「論理接続詞」と呼ばれ、ロジバンにはたくさんある。英語にも “and”“and/or”“if”“only if”“whether or not”などの接続詞があるが、これらが全て論理接続詞に対応するわけではない。論理接続詞ではない用法は、ロジバンの他の接続構造によってサポートされる。</p>
+<p>ロジバンの接続詞は、章のタイトル通り規則的な「システム」を構成しているが、自然言語の場合そうではなく、規則的ではなく予測不可能な面がある。</p>
+<p>可能な真偽関数には１６種類ある。以下は“or”の真偽表である：</p>
+<table class="or">
+<tr>
+<th>引数１</th>
+<th>引数２</th>
+<th>結果</th>
+</tr>
+<tr>
+<td>真</td>
+<td>真</td>
+<td>真</td>
+</tr>
+<tr>
+<td>真</td>
+<td>偽</td>
+<td>真</td>
+</tr>
+<tr>
+<td>偽</td>
+<td>真</td>
+<td>真</td>
+</tr>
+<tr>
+<td>偽</td>
+<td>偽</td>
+<td>偽</td>
+</tr>
+</table>
+<p>この表（の最初の行）が意味するのは、１個目の文が真であり２個目の文も真であれば論理関数の結果も真となるということである。両方の文が偽である場合を除き、同様に結果は真となる。</p>
+<p>「ジョンは男性である」が真であり (つまり「ジョンは男性ではない」は偽)、「ジェームズは女性である」が偽である (つまり「ジェームズは女性ではない」が真)とすると、</p>
+<pre>
+       「ジョンは男性である, もしくは ジェームズは女性ではない」    (真, 真 )  →真
+       「ジョンは男性である, もしくは ジェームズは女性である」      (真, 偽 )  →真
+       「ジョンは男性ではない, もしくは ジェームズは女性ではない」  (偽, 真 )  →真
+       「ジョンは男性ではない, もしくは ジェームズは女性である」    (偽, 偽 )  →偽
+</pre>
+実は、この表で表されている「もしくは」“or”は、正式な英語で言うところの“and/or”である。「AかBのどちらか、ただし、両方ではない」を表す「もしくは」“or”はまた別の表になる。
+<p>スペースの節約のために、以降はこの真偽表を短く書き表す。真=T、偽=Fと書き、表の２文の真偽値の順番は必ず: TT, TF, FT, FF とすると、結果の列の４つの文字を書くだけで良いことになる。よって、真偽関数「もしくは」の真偽表は TTTF となる。以下は、可能な１６種類の真偽関数の一覧である：</p>
+<pre>
+    TTTT    いつも真
+    TTTF    第１文が真 もしくは 第２文が真。
+    TTFT    もし第２文が真なら、第１文が真。
+    TTFF    第２文が真か偽かに関わらず、第１文が真。
+    TFTT    第２文が真の時に限って、第１文が真。
+    TFTF    第１文が真か偽かに関わらず、第２文が真。
+    TFFT    第１文が真ならば、またその時に限って、第２文が真。
+    TFFF    第１文が真 かつ 第２文が真。
+
+    FTTT    第１文と第２文が同時に真ではない。
+    FTTF    第１文か第２文が真であるが、同時に真ではない。
+    FTFT    第１文が真か偽かに関わらず、第２文が偽。
+    FTFF    第１文が真 かつ 第２文が偽。
+    FFTT    第２文が真かどうかに関わらず、第１文が偽。
+    FFTF    第１文が偽 かつ 第２文が真。
+    FFFT    第１文も第２文も真ではない。
+    FFFF    いつも偽。
+</pre>
+※訳注：章タイトルの「願っただけで馬が手に入るなら」は、「願っただけで馬が手に入るなら、乞食が馬に乗る (If If wishes were horses, beggars would ride）」、すなわち望むだけなら何でもできる、という意味の英語のことわざから来ている。
+<hr />
+<div class="nav">
+<div class="nav-prev">
+<div class="nav-section-link-prev"><a href="chapter13.html">まえ</a></div>
+<div class="nav-section-name">第13章</div>
+</div>
+<div class="nav-next">
+<div class="nav-section-link-next"><a href="chapter15.html">つぎ</a></div>
+<div class="nav-section-name">第15章</div>
+</div>
+<div class="nav-title">
+<div class="nav-title-title">第14章 願っただけで馬が手に入るなら： ロジバンの接続システム</div>
+<div class="nav-title-link"><a href="./">目次</a></div> 
+</div>
+</div>
+</body>
+</html>

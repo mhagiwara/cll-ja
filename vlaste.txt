@@ -7,6 +7,7 @@ achievement	到達点
 activity	活動
 afterthought	後置
 agent	動作主
+ambiguous  曖昧な
 amount	量
 argument	項
 argument tag	項タグ
@@ -53,6 +54,7 @@ incidental relative phrase	付随関係句
 indefinite	不定の
 indirect question	間接疑問
 interval   範囲
+lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
 logical connection	論理接続
@@ -70,6 +72,7 @@ place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
 point event	瞬間的出来事
+positive assertion  肯定文
 polar opposite	正反対
 predicate	命題
 predication	断言
@@ -107,5 +110,7 @@ terminator	終端詞
 term	名辞
 termset	名辞組
 truth value	真偽値
+truth function	真偽関数
 unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
+vague  漠然とした
