@@ -12,11 +12,14 @@ amount	量
 argument	項
 argument tag	項タグ
 aspect	相制
+assert	表明
 attitudinal indicator	心態詞
 bridi	ブリディ
+bridi negation	ブリディ否定
 bridi-schema	ブリディ構成
 bridi-tail	ブリディ末端
 brivla	ブリヴラ
+claim	言明
 connection	接続
 cmavo	シマヴォ
 cmene	シメネ
@@ -27,6 +30,7 @@ connective	接続詞
 contradictory negation	矛盾否定
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
+declare	述べる
 dependent place	依存する場所
 described	記述された # （LE 類の意味）
 description sumti	描写スムティ
@@ -52,7 +56,9 @@ gloss word	見出し語
 implicit-abstraction lujvo	暗黙抽象ルジヴォ
 incidental relative phrase	付随関係句
 indefinite	不定の
+indicator	指標
 indirect question	間接疑問
+internal bridi negation	内部ブリディ否定
 interval   範囲
 lexing  字句解析
 logical	論理的
@@ -61,20 +67,25 @@ logical connection	論理接続
 logical entailment	論理的前提
 Lojban	ロジバン
 Lojbanist	ロジバン話者
+Logical Assertions	論理的表明
 lujvo	ルジヴォ
 marker	マーカー
 modal	法制
 modal place 法制場所
 modifier	限定詞
+natural language negation	自然言語否定
 non-logical	非論理的
 observative	観察文
 place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
+plausible	納得できる（回答の選択肢として）
 point event	瞬間的出来事
 positive assertion  肯定文
+polar negation	対義否定
 polar opposite	正反対
-predicate	命題
+pragmatic	語用論上の
+predicate	述語
 predication	断言
 prefix	接頭辞
 pro-sumti	代スムティ
@@ -84,10 +95,13 @@ propositional attitude	命題的態度
 quality	質
 quantity	量
 rafsi	ラフシ
+range within the scale	段階上の範囲
 relationship	関係
 restrictive relative phrase	限定関係句
 root word	根語
+scale	段階
 scalar negation	段階否定
+scope	（文中で）掛かる範囲
 selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
@@ -109,6 +123,7 @@ tense	間制
 terminator	終端詞
 term	名辞
 termset	名辞組
+tri-valued logic	3値論理
 truth value	真偽値
 truth function	真偽関数
 unspecified value	不特定項 # （zo'e の意味）
