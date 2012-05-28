@@ -64,12 +64,14 @@ lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
 logical connection	論理接続
+logical connective	論理接続詞
 logical entailment	論理的前提
 Lojban	ロジバン
 Lojbanist	ロジバン話者
 Logical Assertions	論理的表明
 lujvo	ルジヴォ
 marker	マーカー
+material conditional	論理包含
 modal	法制
 modal place 法制場所
 modifier	限定詞
