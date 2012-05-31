@@ -27,5 +27,5 @@
 1	Chapter 17	ento
 2	Chapter 18	guskant
 0	Chapter 19	mhagiwara
-0	Chapter 20	
+0	Chapter 20	iocikun.juj
 1	Chapter 21	guskant
