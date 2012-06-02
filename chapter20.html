@@ -31,14 +31,43 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 <img src="./images/chapter20.gif" alt="[Cartoon]" width="405" height ="405" />
 </center>
 # 翻訳中<br/>
-<chu># note: tanru unit をどう訳すべきか</chu><br/>
+<chu># note: tanru unit をどう訳すべきか。「タンルの要素」とかか</chu><br/>
 <chu># note: lerfu string をどう訳すべきか</chu><br/>
 <chu># note: abstracted-over bridi とは</chu><br/>
 <chu># note: free modifier とは</chu>
 <chu># note: index を何と訳すべきか</chu><br/>
 <chu># note: operand は引数と訳すべきかもしれない(今のところは被演算子と訳している)
 </chu><br/>
-<chu># note: operator は演算子と訳すべきか、場合によっては関数と訳すべきか</chu>
+<chu># note: operator は演算子と訳すべきか、場合によっては関数と訳すべきか</chu><br/>
+<chu># note: mathematical を「数式における」と訳したほうが日本語としてわかりやすいが、
+これは訳として正確か。素直に「数学における」と訳したほうが良いか</chu><br/>
+<chu># note: dimensioned unit は「単位つきの量」と訳した</chu><br/>
+<chu># note: tense flag はとりあえず「間制フラグ」と訳した</chu><br/>
+<chu># note: 「le ...」は「その...」と訳すべきか、
+あるいは単に「...」と訳すべきか。le がどのような範囲の意味を持つのか調べること。
+</chu><br/>
+<chu># note: 上記について。「le ...」は「... のうちの今話題にしているもの」という
+意味なのか、あるいはそういう意味もあるということか、また「lo ...」は「全て ...」は
+を意味するのか。</chu><br/>
+<chu># note: 上記について。「le (象である) は大きい」と言ったときに、
+「象のうちの今話題にしている一匹あるいは数匹は大きい」を意味すると考えて良いのか。
+また「lo (象である) は大きい」と言ったときに、
+「象というものはみな大きい」という意味と考えて良いのか、調べること</chu><br/>
+<chu># note: 上記について。le についてはだいたい正しいようだ。
+lo についてはまちがいかもしれない。lo は描写されている内容が実際に成り立っている
+ことを示す以外は le に等しいのだろう</chu><br/>
+<chu># note: とすると、以下で単に「... は」と訳した部分を「その ... は」と
+訂正する必要があるかもしれない。</chu><br/>
+<chu># note: 日本語で単に「... は」と言った場合、
+しばしば「全て ... は」のニュアンスが出てしまう。
+「男の子はわんぱくだ」と言えば
+「すべて男の子というものはわんぱくだ」と言うニュアンスになる。
+具体的な男の子を指す場合には「その男の子はわんぱくだ」と言う必要がある。
+しかし英語ではその両者を「the 男の子」で表現できてしまう。
+よって日本語訳する場合にはロジバンにおける意味を考慮する必要がある。
+the は頭に思い浮かべている具体的な存在にも、
+いわゆるイデアとしての典型的な存在にも使える冠詞であるため、
+そこらへんを曖昧にできるのだろうと思われる。
 <h2>CLL 第20章 セルマホ目録
 <ppp>Chapter 20 A Catalogue of selma'o</ppp></h2>
 
@@ -890,19 +919,26 @@ numerically-based selbri.</ppp>
 <!----- 70/121 ---->
 
 <h3>セルマホ MOhE (<a href="./chapter18.html">第18章</a>)</h3>
-<p><pp>Produces a mathematical operand from a sumti;
-used to make dimensioned units.</pp><pp>Terminated by TEhU.</pp>
-<pp>li mo'e re ratcu su'i mo'e re ractu du li mo'e vo danlu</pp>
-<pp>the-number two rats plus two rabbits equals the-number four animals</pp>
-<pp>2 rats + 2 rabbits = 4 animals.</pp>
+<p>スムティから数学における被演算子をつくる。これは単位つきの量として使われる。
+<ppp>Produces a mathematical operand from a sumti;
+used to make dimensioned units.</ppp>
+TEhU で終わる。
+<ppp>Terminated by TEhU.</ppp>
+<pre>li mo'e re ratcu su'i mo'e re ractu du li mo'e vo danlu
+(2 鼠 + 2 兎 = 2 動物)</pre>
+<ppp>the-number two rats plus two rabbits equals the-number four animals</ppp>
+<ppp>2 rats + 2 rabbits = 4 animals.</ppp>
 </p>
 
 <h3>セルマホ MOhI (<a href="./chapter10.html">第10章</a>)</h3>
-<p><pp>A tense flag indicating movement in space, in a direction specified by
-a following FAhA cmavo.</pp>
-<pp>le verba mo'i ri'u cadzu le bisli</pp>
-<pp>The child [movement][right] walks-on the ice.</pp>
-<pp>The child walks toward my right on the ice.</pp>
+<p>空間における動きを表す間制フラグ。動きの方向は後に続く FAhA
+シマヴォによって示す。
+<ppp>A tense flag indicating movement in space, in a direction specified by
+a following FAhA cmavo.</ppp>
+<pre>le verba mo'i ri'u cadzu le bisli
+(その子は氷の上を私の右の方へ歩く。)</pre>
+<ppp>The child [movement][right] walks-on the ice.</ppp>
+<ppp>The child walks toward my right on the ice.</ppp>
 </p>
 
 <!---------------------->
