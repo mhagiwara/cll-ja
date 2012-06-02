@@ -33,7 +33,12 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 # 翻訳中<br/>
 <chu># note: tanru unit をどう訳すべきか</chu><br/>
 <chu># note: lerfu string をどう訳すべきか</chu><br/>
-<chu># note: abstracted-over bridi とは</chu>
+<chu># note: abstracted-over bridi とは</chu><br/>
+<chu># note: free modifier とは</chu>
+<chu># note: index を何と訳すべきか</chu><br/>
+<chu># note: operand は引数と訳すべきかもしれない(今のところは被演算子と訳している)
+</chu><br/>
+<chu># note: operator は演算子と訳すべきか、場合によっては関数と訳すべきか</chu>
 <h2>CLL 第20章 セルマホ目録
 <ppp>Chapter 20 A Catalogue of selma'o</ppp></h2>
 
@@ -768,74 +773,120 @@ LOhO も見よ。
 <!----- 60/121 ---->
 
 <h3>セルマホ LIhU (<a href="./chapter19.html">第19章</a>)</h3>
-<p><pp>Elidable terminator for LU.</pp>
-<pp>Indicates the end of a text quotation.</pp>
-<pp>mi cusku lu mi klama le zarci li'u</pp>
-<pp>I express [quote] I go-to the market[end quote].</pp></p>
+<p>
+LU の省略可能な終端子。
+<ppp>Elidable terminator for LU.</ppp>
+引用の終わりを示す。
+<ppp>Indicates the end of a text quotation.</ppp>
+<pre>mi cusku lu mi klama le zarci li'u
+(私は「私は店に行く」と言う。)</pre>
+<ppp>I express [quote] I go-to the market[end quote].</ppp></p>
 
 <h3>セルマホ LOhO (<a href="./chapter18.html">第18章</a>)</h3>
-<p><pp>Elidable terminator for LI. </pp>
-<pp>Indicates the end of a mathematical expression used in a LI
-description.</pp>
-<pp>li vo lo'o li ci lo'o cu zmadu</pp>
-<pp>The-number 4 [end number], the number 3 [end number], is greater.</pp>
-<pp>$4 &gt; 3$</pp></p>
+<p>
+LI の省略可能な終端子。
+<ppp>Elidable terminator for LI. </ppp>
+LI によって示される数学的表現を終わりにする。
+<ppp>Indicates the end of a mathematical expression used in a LI description.</ppp>
+<pre>li vo lo'o li ci lo'o cu zmadu
+(4 > 3)</pre>
+<ppp>The-number 4 [end number], the number 3 [end number], is greater.</ppp>
+<ppp>$4 &gt; 3$</ppp></p>
 
 <h3>セルマホ LOhU (<a href="./chapter19.html">第19章</a>)</h3>
-<p><pp>Indicates the beginning of a quotation (a sumti) which is grammatical
+<p>引用(スムティ)の始まりを示す。
+この場合の引用はそれがロジバンにおける語から成るものであれば、
+それが文の形を成しているかどうかに関わらず、文法的に正しいことになる。
+<ppp>Indicates the beginning of a quotation (a sumti) which is grammatical
 as long as the quoted material consists of Lojban words,
-whether they form a text or not.</pp><pp>Terminated by LEhU.</pp>
-<pp>do cusku lo'u mi du do du ko'a le'u</pp>
-<pp>You express [quote] mi du do du ko'a [end quote].</pp>
-<pp>You said, "mi du do du ko'a".</pp></p>
+whether they form a text or not.</ppp>
+LEhU で終わる。
+<ppp>Terminated by LEhU.</ppp>
+<pre>do cusku lo'u mi du do du ko'a le'u
+(君は「mi du do du ko'a」と言う。)</pre>
+<ppp>You express [quote] mi du do du ko'a [end quote].</ppp>
+<ppp>You said, "mi du do du ko'a".</ppp></p>
 
 <h3>セルマホ LU (<a href="./chapter19.html">第19章</a>)</h3>
-<p><pp>Indicates the beginning of a quotation (a sumti) whici is grammatical
-only if the quoted material also forms a grammatical Lojban text.</pp>
-<pp>Terminated by LIhU.</pp>
-<pp>mi cusku lu mi klama le zarci li'u</pp>
-<pp>I express [quote] I go-to the market [end quote].</pp></p>
+<p>
+引用(スムティ)の始まりを示す。
+この場合の引用は引用されている部分も文法的に正しいロジバンの文章でなければ、
+文法的に正しくない。
+<ppp>Indicates the beginning of a quotation (a sumti) whici is grammatical
+only if the quoted material also forms a grammatical Lojban text.</ppp>
+LIhU で終わる。
+<ppp>Terminated by LIhU.</ppp>
+<pre>mi cusku lu mi klama le zarci li'u
+(私は「私は店に行く」と言う。)</pre>
+<ppp>I express [quote] I go-to the market [end quote].</ppp></p>
 
 <h3>セルマホ LUhU (<a href="./chapter6.html">第6章</a>)</h3>
-<p><pp>Elidable terminator for LAhE and NAhE+BO.</pp>
-<pp>Indicates the end of a qualified sumti.</pp>
-<pp>mi viska la'e lu barda gerku li'u lu'u</pp>
-<pp>I see the-referent-of [quote] big dog [end quote][end ref]</pp>
-<pp>I saw "Big Dog" [not the words, but a book or movie].</pp></p>
+<p>
+LAhE や NAhE+BO の省略可能な終端子。
+<ppp>Elidable terminator for LAhE and NAhE+BO.</ppp>
+限定スムティの終わりを示す。
+<ppp>Indicates the end of a qualified sumti.</ppp>
+<pre>mi viska la'e lu barda gerku li'u lu'u
+(私は「大きい犬」(語ではなくこの題名の本または映画など)を見る。)</pre>
+<ppp>I see the-referent-of [quote] big dog [end quote][end ref]</ppp>
+<ppp>I saw "Big Dog" [not the words, but a book or movie].</ppp></p>
+
+<!--------------->
 
 <h3>セルマホ MAI (<a href="./chapter18.html">第18章</a>, <a href="./chapter19.html">第19章</a>)</h3>
-<p><pp>When suffixed to a number or string of letter words, produces a free
-modifier which serves as an index number within a text.</pp>
-<pp>pamai mi pu klama le zarci</pp>
-<pp>1-thly, I [past] go to-the market.</pp>
-<pp>First, I went to the market.</pp></p>
+<p>数字や文字の並びの後につけて、自由な限定詞を作る。
+それは文章のインデックスとなる。
+<ppp>When suffixed to a number or string of letter words, produces a free modifier
+which serves as an index number within a text.</ppp>
+<pre>pamai mi pu klama le zarci
+(1. 私は店に行った。)</pre>
+<ppp>1-thly, I [past] go to-the market.</ppp>
+<ppp>First, I went to the market.</ppp></p>
 
 <h3>セルマホ MAhO (<a href="./chapter18.html">第18章</a>)</h3>
-<p><pp>Produces a mathematical operator from a letter of other operand.</pp>
-<pp>See TEhU, VUhU.</pp>
-<pp>ma'o fy. boi xy.</pp>
-<pp>[operator] f x</pp>
-<pp>f(x)</pp></p>
+<p>文字や他の被演算子から数学的な演算子を作る。
+<ppp>Produces a mathematical operator from a letter or other operand.</ppp>
+TEhU、VUhU も見よ。
+<ppp>See TEhU, VUhU.</ppp>
+<pre>ma'o fy. boi xy.
+(f(x))</pre>
+<ppp>[operator] f x</ppp>
+<ppp>f(x)</ppp></p>
 
 <h3>セルマホ ME (<a href="./chapter5.html">第5章</a>, <a href="./chapter18.html">第18章</a>)</h3>
-<p><pp>Produces a tanru unit from a sumti, which is applicable to the things
-referenced by the sumti.</pp><pp>See MEhU.</pp>
-<pp>ta me la ford. karce</pp>
-<pp>That is-a-Ford-type car</pp>
-<pp>That's a Ford car.</pp></p>
+<p>スムティからタンルの要素を作る。
+それはスムティによって指示されるものに適用できる。
+<ppp>Produces a tanru unit from a sumti, which is applicable to the things
+referenced by the sumti.</ppp>
+<chu>#stub#</chu>
+MEhU も見よ。
+<ppp>See MEhU.</ppp>
+<pre>ta me la ford. karce
+(あれはフォード車だ。)</pre>
+<ppp>That is-a-Ford-type car</ppp>
+<ppp>That's a Ford car.</ppp></p>
 
 <h3>セルマホ MEhU (<a href="./chapter5.html">第5章</a>)</h3>
-<p><pp>The elidable terminator for ME.</pp>
-<pp>Indicates the end of a sumti converted to a tanru unit.</pp>
-<pp>ta me mi me'u zdani</pp>
-<pp>That's a me type of house.</pp></p>
+<p>ME の省略可能な終端子。
+<ppp>The elidable terminator for ME.</ppp>
+タンルの要素へと変換されたスムティの末尾を示す。
+<ppp>Indicates the end of a sumti converted to a tanru unit.</ppp>
+<pre>ta me mi me'u zdani
+(あれは私的な家だ。)</pre>
+<ppp>That's a me type of house.</ppp></p>
 
 <h3>セルマホ MOI (<a href="./chapter5.html">第5章</a>)</h3>
-<p><pp>Suffixes added to numbers or other quantifiers to make various
-numerically-based selbri.</pp>
-<pp>la djan. joi la frank. cu bruna remei</pp>
-<pp>John in-a-mass-with Frank are-a-brother-type-of twosome.</pp>
-<pp>John and Frank are two brothers.</pp></p>
+<p>数やその他の量を示す語の後について、数に関するさまざまなセルブリを作る。
+<ppp>Suffixes added to numbers or other quantifiers to make various
+numerically-based selbri.</ppp>
+<pre>la djan. joi la frank. cu bruna remei
+(ジョンとフランクは2人兄弟だ。)</pre>
+<ppp>John in-a-mass-with Frank are-a-brother-type-of twosome.</ppp>
+<ppp>John and Frank are two brothers.</ppp>
+<chu># 訳注: mei は基数(2人、2本、2個、2匹等々)を示す</chu><br/>
+<chu># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
+となる</chu>
+</p>
 <!----- 70/121 ---->
 
 <h3>セルマホ MOhE (<a href="./chapter18.html">第18章</a>)</h3>
