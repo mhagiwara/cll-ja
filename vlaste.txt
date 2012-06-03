@@ -23,6 +23,7 @@ claim	言明
 connection	接続
 cmavo	シマヴォ
 cmene	シメネ
+comment	評言	# 提案
 complex	複合
 compound	合成
 connection	接続
@@ -90,13 +91,14 @@ pragmatic	語用論上の
 predicate	述語
 predication	断言
 prefix	接頭辞
+prenex	冠頭	# 提案
 pro-sumti	代スムティ
 process	過程
 property	性質
 propositional attitude	命題的態度
 quality	質
 quantity	量
-quantifier	限量詞 # 提案
+quantifier	限量詞	# 提案
 rafsi	ラフシ
 range within the scale	段階上の範囲
 relationship	関係
@@ -121,6 +123,7 @@ sumti raising	スムティ昇格
 sumti tcita	法制スムティ
 tag	タグ
 tanru	タンル
+topic	主題	# 提案
 temporal tense	時間制
 tense	間制
 terminator	終端詞
