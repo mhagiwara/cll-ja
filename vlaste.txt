@@ -96,6 +96,7 @@ property	性質
 propositional attitude	命題的態度
 quality	質
 quantity	量
+quantifier	限量詞 # 提案
 rafsi	ラフシ
 range within the scale	段階上の範囲
 relationship	関係
