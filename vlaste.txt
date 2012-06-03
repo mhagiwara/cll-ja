@@ -49,6 +49,7 @@ epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中
+flag	フラグ	# 提案
 forethought	前置
 free modifier	自由投入詞	# 提案
 fu'ivla	フヒヴラ
