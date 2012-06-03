@@ -50,6 +50,7 @@ evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中
 forethought	前置
+free modifier	自由投入詞	# 提案
 fu'ivla	フヒヴラ
 gismu	ギスム
 gloss	逐語訳
@@ -61,6 +62,7 @@ indicator	指標
 indirect question	間接疑問
 internal bridi negation	内部ブリディ否定
 interval   範囲
+lerfu	レルフ	# 提案
 lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
@@ -73,12 +75,19 @@ Logical Assertions	論理的表明
 lujvo	ルジヴォ
 marker	マーカー
 material conditional	論理包含
+mathematical	数学の/数学的	# 提案
+mathematical expression	数式	# 提案
+mathematical operand	数学被演算子	# 提案
+mathematical operation	数学演算	# 提案
+mathematical operator	数学演算子	# 提案
 modal	法制
 modal place 法制場所
 modifier	限定詞
 natural language negation	自然言語否定
 non-logical	非論理的
 observative	観察文
+operand	被演算子	# 提案
+operator	演算子	# 提案
 place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
@@ -123,6 +132,7 @@ sumti raising	スムティ昇格
 sumti tcita	法制スムティ
 tag	タグ
 tanru	タンル
+tanru unit	タンルの構成単位	# 提案
 topic	主題	# 提案
 temporal tense	時間制
 tense	間制
