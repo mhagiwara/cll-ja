@@ -39,6 +39,7 @@ description selbri	描写セルブリ
 description	描写
 descriptor	 描写型の冠詞
 direct question	直接疑問
+discurse	談話
 discursive	談話系
 elidable	省略可能な
 ellipsize	省略
@@ -50,6 +51,9 @@ evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中
 flag	フラグ	# 提案
+following	以下の/後続する	# 提案
+followed by	が後続する/を後置して	# 提案
+followed with	が後続する/を後置して	# 提案
 forethought	前置
 free modifier	自由投入詞	# 提案
 fu'ivla	フヒヴラ
@@ -98,10 +102,13 @@ positive assertion  肯定文
 polar negation	対義否定
 polar opposite	正反対
 pragmatic	語用論上の
+preceding	先行する	# 提案
 predicate	述語
 predication	断言
 prefix	接頭辞
+prefix	前置する	# 提案
 prenex	冠頭	# 提案
+previous	先行する	# 提案
 pro-sumti	代スムティ
 process	過程
 property	性質
@@ -127,6 +134,7 @@ state	状態
 stickiness	貼り付き # （ki の意味）
 sticky	貼り付く # （ki の意味）
 suffix	接尾辞
+suffix	後置する	# 提案
 sumti	スムティ
 sumti place	スムティの場所
 sumti raising	スムティ昇格
