@@ -55,7 +55,7 @@ following	以下の/後続する	# 提案
 followed by	が後続する/を後置して	# 提案
 followed with	が後続する/を後置して	# 提案
 forethought	前置
-free modifier	自由投入詞	# 提案
+free modifier	自由修飾語/自由修飾句	# 提案
 fu'ivla	フヒヴラ
 gismu	ギスム
 gloss	逐語訳

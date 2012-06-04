@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="stylesheet20.xsl" ?>
-<!DOCTYPE chapter [<!ENTITY quantifier "数量詞">]>
+<!DOCTYPE chapter [
+	<!ENTITY quantifier "数量詞">
+	<!ENTITY free_modifier "自由修飾句">
+]>
 
 <chapter number="20">
 
@@ -961,7 +964,7 @@ LAhE や NAhE+BO の省略可能な終端子。
 <item>
 
 <h3>セルマホ MAI (<a href="./chapter18.html">第18章</a>, <a href="./chapter19.html">第19章</a>)</h3>
-<p>数字や文字の並び後置し自由投入詞を作る。
+<p>数字や文字の並びに後置し&free_modifier;を作る。
 それは文章のインデックス番号となる。
 <ppp>When suffixed to a number or string of letter words, produces a free modifier
 which serves as an index number within a text.</ppp>
