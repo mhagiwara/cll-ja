@@ -4,6 +4,7 @@
 	<!ENTITY quantifier "数量詞">
 	<!ENTITY free_modifier "自由修飾句">
 	<!ENTITY flag "フラグ">
+	<!ENTITY discourse "談話">
 ]>
 
 <chapter number="20">
@@ -24,6 +25,7 @@
 <before>
 <chu># 下書き</chu>
 <chu># 訳の清書中</chu>
+<chu># 予定: xml タグ名について再考</chu>
 <chu># 予定: xml の構造をきれいにする</chu>
 <chu># 予定: 41 の note を check し、それらを削除する (28/41)</chu><br />
 <chu># 予定: 121 のセルマホの訳を見直す</chu><br/>
@@ -31,8 +33,6 @@
 <chu># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</chu><br/>
 <chu># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</chu><br/>
 <chu># 予定: つっこみ待ち、かつ時々チェックして修正していく</chu><br/>
-<ppp>まずは note 部分の見直し。それぞれに番号をふろう</ppp>
-<ppp>41個の note がある</ppp>
 </before>
 
 <p>
@@ -60,7 +60,7 @@ the most common use is shown.
 
 <body>
 <item>
-<h3><title>セルマホ A</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ A</title><a href="./chapter14.html">第14章</a>
 <bef>論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
 </bef>
 <pre>la djan. .ala djein. klama le zarci
@@ -77,7 +77,7 @@ Also used to create vowel lerfu words when followed with "bu".
 </item>
 
 <item>
-<h3><title>セルマホ BAI</title><a href="./chapter9.html">第9章</a></h3>
+<title>セルマホ BAI</title><a href="./chapter9.html">第9章</a>
 <bef>
 セルブリの構造に表現したい関係を表す場所がなかった場合に、
 スムティに前置することでその場所を追加することができる。
@@ -96,7 +96,7 @@ I speak in-language Lojban.
 </item>
 
 <item>
-<h3><title>セルマホ BAhE</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ BAhE</title><a href="./chapter19.html">第19章</a>
 <bef>
 後に続く一語を強調する。またはそれが臨時語(その場で作った単語)であることを示す。
 </bef>
@@ -112,7 +112,7 @@ It is George who goes to the store.
 </item>
 
 <item>
-<h3><title>セルマホ BE</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ BE</title><a href="./chapter5.html">第5章</a>
 <bef>
 タンルを形成するひとつの要素の持つ場所にスムティをいれる。
 指定がなければそのスムティは x2, x3 ... と次に来る場所にはいる。
@@ -132,7 +132,7 @@ I am-a-(goer to-that) type-of trier. I try to go to that place.
 </item>
 
 <item>
-<h3><title>セルマホ BEI</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ BEI</title><a href="./chapter5.html">第5章</a>
 <bef>
 BE によってタンルの構成単位に付加された複数のスムティ同士を分ける。
 </bef>
@@ -142,14 +142,14 @@ BE によってタンルの構成単位に付加された複数のスムティ�
 さらにその次の場所である x3 に bei で分けられた le zdani がはいる</chu>
 
 <en>
-<ppp>Separates multiple sumti attached by BE to a tanru unit.</ppp>
-<ppp>I am-a-(goer to-the store from-the home) type-of-trier.
-I try to go from the home to the market</ppp>
+Separates multiple sumti attached by BE to a tanru unit.
+I am-a-(goer to-the store from-the home) type-of-trier.
+I try to go from the home to the market
 </en>
 </item>
 
 <item>
-<h3><title>セルマホ BEhO</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ BEhO</title><a href="./chapter5.html">第5章</a>
 <bef>
 BE に対する省略可能な終端詞。タンルの構成単位に付加されたスムティを終わらせる。
 </bef>
@@ -163,7 +163,7 @@ I am-a-(goer to-the market) type-of-trier. I try to go to the market.
 </item>
 
 <item>
-<h3><title>セルマホ BIhE</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ BIhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 数学演算子の前につけて、他の数学演算子よりも優先度が高いことを示す。
 この演算子の前後の被演算子はより強く結びつく。
@@ -176,15 +176,15 @@ I am-a-(goer to-the market) type-of-trier. I try to go to the market.
 </chu>
 
 <en>
-<ppp>Prefix attached to a mathematical operator to mark it as higher priority
-than other mathematical operators, binding its operands more closely.</ppp>
-<ppp>The-number 3 [priority] times 4 plus 5 equals the-number 17.</ppp>
-<ppp>3 * 4 + 5 = 17</ppp>
+Prefix attached to a mathematical operator to mark it as higher priority
+than other mathematical operators, binding its operands more closely.
+The-number 3 [priority] times 4 plus 5 equals the-number 17.
+3 * 4 + 5 = 17
 </en>
 </item>
 
 <item>
-<h3><title>セルマホ BIhI</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ BIhI</title><a href="./chapter14.html">第14章</a>
 <bef>
 スムティまたはタンルの構成単位(あるいはそれ以外の何か)を結びつけることで範囲を表す。
 GAhO も見よ。
@@ -201,10 +201,10 @@ I am standing between Dresden and Frankfurt.
 </item>
 
 <item>
-<h3><title>セルマホ BO</title>
+<title>セルマホ BO</title>
 	<a href="./chapter5.html">第5章</a>
 	<a href="./chapter15.html">第15章</a>
-	<a href="./chapter18.html">第18章</a></h3>
+	<a href="./chapter18.html">第18章</a>
 <bef>
 タンルの構成単位を強く結合する。
 論理的にまたは非論理的に、節や文などを結合するのに使える。
@@ -227,7 +227,7 @@ That is small school for girls.
 </item>
 
 <item>
-<h3><title>セルマホ BOI</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ BOI</title><a href="./chapter18.html">第18章</a>
 <bef>
 PA や BY のための省略可能な終端子。
 数(数を表すシマヴォの列)やレルフ列(文字の列)に別の列がすぐに続くときに、
@@ -238,16 +238,16 @@ PA や BY のための省略可能な終端子。
 <chu>訳注: voboi re でなく vore とすると 42 になってしまう</chu>
 
 <en>
-<ppp>Elidable terminator for PA or BY.</ppp>
-<ppp>Used to terminate a number (string of numeric cmavo) or lerfu string
-(string of letter words) when another string immediately follows.</ppp>
-<ppp>The-number two equals the-number the-difference-of four-and two.</ppp>
+Elidable terminator for PA or BY.
+Used to terminate a number (string of numeric cmavo) or lerfu string
+(string of letter words) when another string immediately follows.
+The-number two equals the-number the-difference-of four-and two.
 </en>
 </item>
 <!-- 10/121 -->
 
 <item>
-<h3><title>セルマホ BU</title><a href="./chapter17.html">第17章</a></h3>
+<title>セルマホ BU</title><a href="./chapter17.html">第17章</a>
 <bef>
 全ての語の後置することができる。
 主にアルファベットの文字またはその名前に後置し、
@@ -267,7 +267,7 @@ letters.
 </item>
 
 <item>
-<h3><title>セルマホ BY</title><a href="./chapter17.html">第17章</a></h3>
+<title>セルマホ BY</title><a href="./chapter17.html">第17章</a>
 <bef>
 ロジバンにおける文字を表す語と文字を表す語の解釈を変えるためのシフト記号の役割を<!--
 -->果たす語。
@@ -287,7 +287,7 @@ A talks to B about IBM computers.
 </item>
 
 <item>
-<h3><title>セルマホ CAI</title><a href="./chapter13.html">第13章</a></h3>
+<title>セルマホ CAI</title><a href="./chapter13.html">第13章</a>
 <bef>
 感情の程度(最高に、強く、弱く、全くない)を表す品詞。
 たいていは感情を表す他の品詞の後に続ける。
@@ -306,7 +306,7 @@ I must go to the market.
 </item>
 
 <item>
-<h3><title>セルマホ CAhA</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ CAhA</title><a href="./chapter10.html">第10章</a>
 <bef>
 ブリディが事実、可能性、能力のいずれを表しているのかを決める。
 </bef>
@@ -322,7 +322,7 @@ All ducks have the capability of swimming by floating.
 </item>
 
 <item>
-<h3><title>セルマホ CEI</title><a href="./chapter7.html">第7章</a></h3>
+<title>セルマホ CEI</title><a href="./chapter7.html">第7章</a>
 <bef>
 セルブリによる記述を5個の代ブリディ(broda, brode, brodi, brodo, brodu)
 のうちのひとつに代入する。
@@ -341,9 +341,9 @@ The green thingy is large. The red thingy is small.
 </item>
 
 <item>
-<h3><title>セルマホ CEhE</title>
+<title>セルマホ CEhE</title>
 	<a href="./chapter14.html">第14章</a>
-	<a href="./chapter16.html">第16章</a></h3>
+	<a href="./chapter16.html">第16章</a>
 <bef>
 複数の名辞を名辞組にまとめる。
 名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
@@ -366,7 +366,7 @@ I am a friend of you, and John is a friend of James.
 </item>
 
 <item>
-<h3><title>セルマホ CO</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ CO</title><a href="./chapter5.html">第5章</a>
 <bef>
 タンルの構成要素の間に置かれ、それをひっくりかえす。
 つまり、後続するタンルの構成単位が先行するタンルの構成単位を修飾するようにする。
@@ -385,9 +385,9 @@ I try to go to the market from the house.
 </item>
 
 <item>
-<h3><title>セルマホ COI</title>
+<title>セルマホ COI</title>
 	<a href="./chapter6.html">第6章</a>
-	<a href="./chapter13.html">第13章</a></h3>
+	<a href="./chapter13.html">第13章</a>
 <bef>
 名前や描写、スムティに前置し呼格を形成する。<!--
 -->呼格は誰に(または誰が)話しているのかを示す。<!--
@@ -406,7 +406,7 @@ Greetings, John.
 </item>
 
 <item>
-<h3><title>セルマホ CU</title><a href="./chapter9.html">第9章</a></h3>
+<title>セルマホ CU</title><a href="./chapter9.html">第9章</a>
 <bef>
 ブリディ内で、前にあるスムティからセルブリを分ける。
 厳密に言うと必要ないのだが、いろいろな終端子を省略するのに役立つ。
@@ -423,7 +423,7 @@ The dog goes to-the store.
 </item>
 
 <item>
-<h3><title>セルマホ CUhE</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ CUhE</title><a href="./chapter10.html">第10章</a>
 <bef>
 「いつ」、「どこで」、または、「どんな状況であればそのブリディが成り立つか」、<!--
 -->を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI も見よ。
@@ -441,7 +441,7 @@ When are you going to the store?
 <!-- 20/121 -->
 
 <item>
-<h3><title>セルマホ DAhO</title><a href="./chapter7.html">第7章</a></h3>
+<title>セルマホ DAhO</title><a href="./chapter7.html">第7章</a>
 <bef>
 代スムティ(KOhA)や代ブリディ(GOhA)への代入を取り消す。
 </bef>
@@ -453,7 +453,7 @@ and bridi cmavo (of selma'o GOhA).
 </item>
 
 <item>
-<h3><title>セルマホ DOI</title><a href="./chapter13.html">第13章</a></h3>
+<title>セルマホ DOI</title><a href="./chapter13.html">第13章</a>
 <bef>
 汎用的な呼格。COI とともに、または単独で用いられる。
 doi と後続する名前のあいだに停止は必用ない。DOhU も見よ。
@@ -470,7 +470,7 @@ Frank, I'm talking to you.
 </item>
 
 <item>
-<h3><title>セルマホ DOhU</title><a href="./chapter13.html">第13章</a></h3>
+<title>セルマホ DOhU</title><a href="./chapter13.html">第13章</a>
 <bef>COI や DOI の省略可能な終端子。呼びかけの終わりを示す。</bef>
 <pre>coi do'u
 (やあ、誰か。)</pre>
@@ -482,7 +482,7 @@ Greetings [terminator] Greetings, O unspecified one!
 </item>
 
 <item>
-<h3><title>セルマホ FA</title><a href="./chapter9.html">第9章</a></h3>
+<title>セルマホ FA</title><a href="./chapter9.html">第9章</a>
 <bef>
 スミティの前につけて、セルマホの何番目の場所に入るのかを示す。
 語順よりも優先される。
@@ -500,7 +500,7 @@ I go from Atlanta to Boston via the road using the car.
 </item>
 
 <item>
-<h3><title>セルマホ FAhA</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ FAhA</title><a href="./chapter10.html">第10章</a>
 <bef>
 どこでそのブリディの示す事がらが起きたかの方向を示す。
 MOhI をつけるとその方向への動きという意味になり、
@@ -519,7 +519,7 @@ To my left, the man bites the dog.
 </item>
 
 <item>
-<h3><title>セルマホ FAhO</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ FAhO</title><a href="./chapter19.html">第19章</a>
 <bef>
 文法的な要素ではない機械的なしるし。文章の終わりを示す。<!--
 -->コンピュータへの入力の際に有用。
@@ -532,7 +532,7 @@ more text. Useful in talking to computers.
 </item>
 
 <item>
-<h3><title>セルマホ FEhE</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ FEhE</title><a href="./chapter10.html">第10章</a>
 <bef>
 期間を表す(TAhE、ROI、ZAhO によって作られる)限定詞が後続し、<!--
 -->それらが時間ではなく空間的な意味を表すことを示す。
@@ -549,7 +549,7 @@ Sow the grain in a line and evenly!
 </item>
 
 <item>
-<h3><title>セルマホ FEhU</title><a href="./chapter9.html">第9章</a></h3>
+<title>セルマホ FEhU</title><a href="./chapter9.html">第9章</a>
 <bef>
 FIhO の省略可能な終端子。その場で作られた法制タグの終わりを示す。<!--
 -->タグ付けられるスミティが後ろに付く。
@@ -566,7 +566,7 @@ I see you with the left eye.
 </item>
 
 <item>
-<h3><title>セルマホ FIhO</title><a href="./chapter9.html">第9章</a></h3>
+<title>セルマホ FIhO</title><a href="./chapter9.html">第9章</a>
 <bef>
 セルブリの前につけてセルブリを法制タグを作る。<!--
 -->新たに作られた法制タグは文法的にも意味論的にもセルマホ BAI と同等である。
@@ -583,7 +583,7 @@ I see you with my left eye.
 </item>
 
 <item>
-<h3><title>セルマホ FOI</title><a href="./chapter17.html">第17章</a></h3>
+<title>セルマホ FOI</title><a href="./chapter17.html">第17章</a>
 <bef>
 TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。<!--
 -->この終端詞は省略できない。
@@ -602,7 +602,7 @@ the letter "e" with an acute accent
 <!-- 30/121 -->
 
 <item>
-<h3><title>セルマホ FUhA</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ FUhA</title><a href="./chapter18.html">第18章</a>
 <bef>
 後続する数式を逆ポーランド記法(RP)で解釈させる。<!--
 -->逆ポーランド記法とは、数学演算子を被演算子の後に置く記法である。
@@ -620,7 +620,7 @@ the-number [RP!] two, two, plus equals the-number four
 </item>
 
 <item>
-<h3><title>セルマホ FUhE</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ FUhE</title><a href="./chapter19.html">第19章</a>
 <bef>
 UI に属する心態詞が後続し、
 普通そうであるようにその指標が先行する語にかかるのではなく、
@@ -638,7 +638,7 @@ I see the  owner of a blue bouse, or what I believe to be one.
 </item>
 
 <item>
-<h3><title>セルマホ FUhO</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ FUhO</title><a href="./chapter19.html">第19章</a>
 <bef>UI に属する指標の効果を終わらせる。</bef>
 <pre>mi viska le fu'e .ia blanu zdani fu'o ponse
 (私は、私が青い家だと信じているもの、の所有者を見る。)</pre>
@@ -651,7 +651,7 @@ I see the owner of what I believe to be a blue house.
 </item>
 
 <item>
-<h3><title>セルマホ GA</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ GA</title><a href="./chapter14.html">第14章</a>
 <bef>
 論理的に接続された2つのスミティやブリディ末端などの始まりを示す。<!--
 -->論理的接続とは「以下の両方が成り立つ ... と ...」や<!--
@@ -671,7 +671,7 @@ Either John is a man or James is a woman (or both)
 </item>
 
 <item>
-<h3><title>セルマホ GAhO</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ GAhO</title><a href="./chapter14.html">第14章</a>
 <bef>
 BIhI によって表される範囲が端点を含むかどうかを示す。
 2つが組で使われて、BIhI シュマボの前後に置かれ、それぞれ左右の端点の性質を決める。
@@ -689,7 +689,7 @@ I am standing between Dresden and Frankfurt, inclusive of both.
 </item>
 
 <item>
-<h3><title>セルマホ GEhU</title><a href="./chapter8.html">第8章</a></h3>
+<title>セルマホ GEhU</title><a href="./chapter8.html">第8章</a>
 <bef>
 GOI の省略可能な終端子。
 関係句の終わりを示す。
@@ -706,7 +706,7 @@ John (referred to as #1) is-blue.
 </item>
 
 <item>
-<h3><title>セルマホ GI</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ GI</title><a href="./chapter14.html">第14章</a>
 <bef>
 GA、GUhA、JOI といった前置論理接続詞に後置し、<!--
 -->2つの論理的に、または非論理的に接続されたスムティ、タンルの構成単位、<!--
@@ -724,7 +724,7 @@ connective involving GA, GUhA, or JOI.
 </item>
 
 <item>
-<h3><title>セルマホ GIhA</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ GIhA</title><a href="./chapter14.html">第14章</a>
 <bef>
 2つのブリディ末端が先行するスムティを持たず、<!--
 -->またいくつかの後続するスムティを持つ場合に、<!--
@@ -742,7 +742,7 @@ I  go-to the market and like John
 </item>
 
 <item>
-<h3><title>セルマホ GOI</title><a href="./chapter8.html">第8章</a></h3>
+<title>セルマホ GOI</title><a href="./chapter8.html">第8章</a>
 <bef>
 関係句の開始を示す。<!--
 -->従属する(後続する)スムティが別の(先行する)スムティに関係づけられる。<!--
@@ -759,7 +759,7 @@ John (referred to as #1) is blue.
 </item>
 
 <item>
-<h3><title>セルマホ GOhA</title><a href="./chapter7.html">第7章</a></h3>
+<title>セルマホ GOhA</title><a href="./chapter7.html">第7章</a>
 <bef>
 ブリブラの代わりとなる全てのシュマボを含む全般的なセルマホ。<!--
 -->いくつかのグループに分けられる。
@@ -776,7 +776,7 @@ A: I'm going to the market. B: Me, too.
 <!-- 40/121 -->
 
 <item>
-<h3><title>セルマホ GUhA</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ GUhA</title><a href="./chapter14.html">第14章</a>
 <bef>
 論理的に接続された2つのタンルの構成単位の始まりを示す。<!--
 -->論理的に接続されたタンルを形成するときに GA の代わりに使う。GI も見よ。
@@ -792,7 +792,7 @@ Alice is both rich and blue.
 </item>
 
 <item>
-<h3><title>セルマホ I</title>(<a href="./chapter19.html">第19章</a>)</h3>
+<title>セルマホ I</title>(<a href="./chapter19.html">第19章</a>)
 <bef>2つの文を分ける。</bef>
 <pre>mi klama le zarci .i mi klama le zdani
 (私は店に行く。私は事務所に行く。)</pre>
@@ -803,7 +803,7 @@ Separates two sentences from each other. I go-to the market. I go-to the office.
 </item>
 
 <item>
-<h3><title>セルマホ JA</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ JA</title><a href="./chapter14.html">第14章</a>
 <bef>2つのタンル、数学被演算子、間制、抽象化の間の論理的接続を示す。</bef>
 <pre>ti blanu je zdani
 (これは青い、そして家だ。)</pre>
@@ -816,7 +816,7 @@ This is-blue and a-house
 </item>
 
 <item>
-<h3><title>セルマホ JAI</title><a href="./chapter9.html">第9章</a></h3>
+<title>セルマホ JAI</title><a href="./chapter9.html">第9章</a>
 <bef>
 間制または法制を後置して、セルブリにつけて法制場所でセルブリの x1
 を置き換える演算子を作る。<!--
@@ -841,7 +841,7 @@ I change the color of the wall.
 </item>
 
 <item>
-<h3><title>セルマホ JOI</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ JOI</title><a href="./chapter14.html">第14章</a>
 <bef>
 2つのスムティ、タンルの構成単位等の非論理的接続(例:
 集団として、あるいは組として、または並びとして、一緒に)を示す。<!--
@@ -860,7 +860,7 @@ John massed-with Alice carry the piano.
 </item>
 
 <item>
-<h3><title>セルマホ JOhI</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ JOhI</title><a href="./chapter18.html">第18章</a>
 <bef>
 後続する数学被演算子(TEhU で終わるリスト)が数学のベクトル(一次元配列)で
 あることを示す。
@@ -879,7 +879,7 @@ array (four, six)
 </item>
 
 <item>
-<h3><title>セルマホ KE</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ KE</title><a href="./chapter5.html">第5章</a>
 <bef>
 論理的接続やタンル形成等のために KE と後続する KEhE
 で囲まれた部分をグループ化する。
@@ -899,7 +899,7 @@ That is a school for girls who are pretty in their littleness.
 </item>
 
 <item>
-<h3><title>セルマホ KEI</title><a href="./chapter11.html">第11章</a></h3>
+<title>セルマホ KEI</title><a href="./chapter11.html">第11章</a>
 <bef>NU の省略可能な終端子。抽象化ブリディの終わりを示す。</bef>
 <pre>la djan. cu nu sonci kei djica
 (ジョンは兵士になりたい。)</pre>
@@ -912,7 +912,7 @@ John wants to be a soldier.
 </item>
 
 <item>
-<h3><title>セルマホ KEhE</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ KEhE</title><a href="./chapter5.html">第5章</a>
 <bef>KE の省略可能な終端子。グループ化の終わりを示す。</bef>
 <pre>ta ke melbi cmalu ke'e nixli ckule
 (あれは可愛い小ささを持った女の子の学校だ。)</pre>
@@ -925,7 +925,7 @@ That is a school for girls who are pretty in their littleness.
 </item>
 
 <item>
-<h3><title>セルマホ KI</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ KI</title><a href="./chapter10.html">第10章</a>
 <bef>
 間制の後につけて、「貼り付き」にする。
 つまり、再び KI が現われるまでのすべてのブリディに掛かるようにする。
@@ -941,7 +941,7 @@ When alone, eliminates all sticky tenses.
 <!-- 50/121 -->
 
 <item>
-<h3><title>セルマホ KOhA</title><a href="./chapter7.html">第7章</a></h3>
+<title>セルマホ KOhA</title><a href="./chapter7.html">第7章</a>
 <bef>
 代スムティとして使われるすべてのシュマボを総称するセルマホ。<!--
 -->これらはいくつかのグループに分けられる。
@@ -958,9 +958,9 @@ The blue house (referred to as #1) is big.
 </item>
 
 <item>
-<h3><title>セルマホ KU</title>
+<title>セルマホ KU</title>
 	<a href="./chapter6.html">第6章</a>
-	<a href="./chapter10.html">第10章</a></h3>
+	<a href="./chapter10.html">第10章</a>
 <bef>
 LE または、一部の使いかたをした場合の LA の省略可能な終端子。<!--
 -->描写スムティの終わりを示す。<!--
@@ -981,7 +981,7 @@ The person goes to the house.
 </item>
 
 <item>
-<h3><title>セルマホ KUhE</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ KUhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 PEhO の省略可能な終端子。数式の前置記法の終わりを示す<!--
 -->(前置記法では演算子が被演算子の前につく)。
@@ -998,7 +998,7 @@ The number [forethought] the-sum-of two two two [end] equals the-number six
 
 <item>
 
-<h3><title>セルマホ KUhO</title><a href="./chapter8.html">第8章</a></h3>
+<title>セルマホ KUhO</title><a href="./chapter8.html">第8章</a>
 <bef>NOI の省略可能な終端子。関係節の終わりを示す。</bef>
 <pre>le zdani poi blanu ku'o barda
 (その青い家は大きい。)</pre>
@@ -1012,7 +1012,7 @@ The house which is-blue is-big.
 
 <item>
 
-<h3><title>セルマホ LA</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ LA</title><a href="./chapter5.html">第5章</a>
 <bef>
 名前を示す語(またはセルブリ)を人や物を名前で示すスムティに変える描写型の冠詞。
 LE に類似。描写セルブリが後続する場合は KU によって終わらせることができる。
@@ -1029,7 +1029,7 @@ Cicero is Tully.
 </item>
 
 <item>
-<h3><title>セルマホ LAU</title><a href="./chapter17.html">第17章</a></h3>
+<title>セルマホ LAU</title><a href="./chapter17.html">第17章</a>
 <bef>
 後続するアルファベットの文字と結びついて以下を示すマーカーとなる。
 小文字から大文字への変化、フォントの変更、句読点等。
@@ -1045,7 +1045,7 @@ single marker: change from lower to upper case, change of font, punctuation, etc
 </item>
 
 <item>
-<h3><title>セルマホ LAhE</title><a href="./chapter6.html">第6章</a></h3>
+<title>セルマホ LAhE</title><a href="./chapter6.html">第6章</a>
 <bef>
 スムティに前置し、それを意味的に関係のある別のスムティに変える限定詞。<!--
 -->限定詞はまたセルマホ NAhE+BO からも作られる。LUhU も見よ。
@@ -1063,7 +1063,7 @@ I see the book "A Tale of Two Cities"
 </item>
 
 <item>
-<h3><title>セルマホ LE</title><a href="./chapter6.html">第6章</a></h3>
+<title>セルマホ LE</title><a href="./chapter6.html">第6章</a>
 <bef>
 セルブリをそれの x1 に来る物を表すスムティに変える描写型の冠詞。LA、KU を見よ。
 </bef>
@@ -1078,7 +1078,7 @@ The dog goes-to the house.
 </item>
 
 <item>
-<h3><title>セルマホ LEhU</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ LEhU</title><a href="./chapter19.html">第19章</a>
 <bef>LOhU で始まる引用の終わりを示す。省略できない終端子。</bef>
 <pre>lo'u mi du do du mi le'u cu na lojbo drani
 (「mi du do du mi」はロジバンとして正しくない。)</pre>
@@ -1093,7 +1093,7 @@ Not an elidable terminator.
 
 <item>
 
-<h3><title>セルマホ LI</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ LI</title><a href="./chapter18.html">第18章</a>
 <bef>
 数字やその他の数式を数や数的表現を示すスムティに変える記述子。LOhO も見よ。
 </bef>
@@ -1110,7 +1110,7 @@ $2 - 2 &lt;&gt; 4 + 4$
 <!-- 60/121 -->
 
 <item>
-<h3><title>セルマホ LIhU</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ LIhU</title><a href="./chapter19.html">第19章</a>
 <bef>LU の省略可能な終端子。引用の終わりを示す。</bef>
 <pre>mi cusku lu mi klama le zarci li'u
 (私は「私は店に行く」と言う。)</pre>
@@ -1123,7 +1123,7 @@ I express [quote] I go-to the market[end quote].
 
 <item>
 
-<h3><title>セルマホ LOhO</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ LOhO</title><a href="./chapter18.html">第18章</a>
 <bef>LI の省略可能な終端子。LI によって示される数式を終わりにする。</bef>
 <pre>li vo lo'o li ci lo'o cu zmadu
 (4 > 3)</pre>
@@ -1137,7 +1137,7 @@ $4 &gt; 3$
 </item>
 
 <item>
-<h3><title>セルマホ LOhU</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ LOhU</title><a href="./chapter19.html">第19章</a>
 <bef>
 引用(スムティ)の始まりを示す。
 この場合の引用はそれがロジバンにおける語から成るものであれば、
@@ -1158,7 +1158,7 @@ You said, "mi du do du ko'a".
 </item>
 
 <item>
-<h3><title>セルマホ LU</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ LU</title><a href="./chapter19.html">第19章</a>
 <bef>
 引用(スムティ)の始まりを示す。
 この場合の引用は引用されている部分も文法的に正しいロジバンの文章でなければ、
@@ -1176,7 +1176,7 @@ I express [quote] I go-to the market [end quote].
 </item>
 
 <item>
-<h3><title>セルマホ LUhU</title><a href="./chapter6.html">第6章</a></h3>
+<title>セルマホ LUhU</title><a href="./chapter6.html">第6章</a>
 <bef>LAhE や NAhE+BO の省略可能な終端子。限定スムティの終わりを示す。</bef>
 <pre>mi viska la'e lu barda gerku li'u lu'u
 (私は「大きい犬」(語ではなくこの題名の本または映画など)を見る。)</pre>
@@ -1190,9 +1190,9 @@ I saw "Big Dog" [not the words, but a book or movie].
 </item>
 
 <item>
-<h3><title>セルマホ MAI</title>
+<title>セルマホ MAI</title>
 	<a href="./chapter18.html">第18章</a>
-	<a href="./chapter19.html">第19章</a></h3>
+	<a href="./chapter19.html">第19章</a>
 <bef>
 数字や文字の並びに後置し&free_modifier;を作る。それは文章のインデックス番号となる。
 </bef>
@@ -1208,7 +1208,7 @@ First, I went to the market.
 </item>
 
 <item>
-<h3><title>セルマホ MAhO</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ MAhO</title><a href="./chapter18.html">第18章</a>
 <bef>文字や他の被演算子から数学演算子を作る。TEhU、VUhU も見よ。</bef>
 <pre>ma'o fy. boi xy.
 (f(x))</pre>
@@ -1222,9 +1222,9 @@ f(x)
 </item>
 
 <item>
-<h3><title>セルマホ ME</title>
+<title>セルマホ ME</title>
 	<a href="./chapter5.html">第5章</a>
-	<a href="./chapter18.html">第18章</a></h3>
+	<a href="./chapter18.html">第18章</a>
 <bef>
 スムティからタンルの構成単位を作る。<!--
 -->それはスムティによって意味されるものに当てはまる。MEhU も見よ。
@@ -1246,7 +1246,7 @@ That's a Ford car.
 </item>
 
 <item>
-<h3><title>セルマホ MEhU</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ MEhU</title><a href="./chapter5.html">第5章</a>
 <bef>
 ME の省略可能な終端子。タンルの構成単位へと変換されたスムティの末尾を示す。
 </bef>
@@ -1260,7 +1260,7 @@ Indicates the end of a sumti converted to a tanru unit. That's a me type of hous
 </item>
 
 <item>
-<h3><title>セルマホ MOI</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ MOI</title><a href="./chapter5.html">第5章</a>
 <bef>
 数やその他の量を示す語の後について、数に関するさまざまなセルブリを作る。
 </bef>
@@ -1280,7 +1280,7 @@ John and Frank are two brothers.
 <!-- 70/121 -->
 
 <item>
-<h3><title>セルマホ MOhE</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ MOhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 スムティから数学被演算子をつくる。これは単位つきの量として使われる。
 TEhU で終わる。
@@ -1298,7 +1298,7 @@ the-number two rats plus two rabbits equals the-number four animals
 </item>
 
 <item>
-<h3><title>セルマホ MOhI</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ MOhI</title><a href="./chapter10.html">第10章</a>
 <bef>
 空間における動きを表す間制&flag;。動きの方向は後続する FAhA シマヴォによって示す。
 </bef>
@@ -1314,9 +1314,9 @@ The child walks toward my right on the ice.
 </item>
 
 <item>
-<h3><title>セルマホ NA</title>
+<title>セルマホ NA</title>
 	<a href="./chapter14.html">第14章</a>
-	<a href="./chapter15.html">第15章</a></h3>
+	<a href="./chapter15.html">第15章</a>
 <bef>矛盾否定。ブリディ全体を偽(または真)とする。</bef>
 <pre>mi na klama le zarci
 (私は店に行かない。)</pre>
@@ -1330,9 +1330,9 @@ Also used to construct logical connective compound cmavo.
 </item>
 
 <item>
-<h3><title>セルマホ NAI</title>
+<title>セルマホ NAI</title>
 	<a href="./chapter14.html">第14章</a>
-	<a href="./chapter15.html">第15章</a></h3>
+	<a href="./chapter15.html">第15章</a>
 <bef>先行する語を否定する。文法上、指定された特定のセルマホにのみつく。</bef>
 
 <en>
@@ -1343,7 +1343,7 @@ specified by the grammar.
 
 <item>
 
-<h3><title>セルマホ NAhE</title><a href="./chapter15.html">第15章</a></h3>
+<title>セルマホ NAhE</title><a href="./chapter15.html">第15章</a>
 <bef>
 段階否定。セルブリやスムティを修飾し、それが示す状態から段階的な値へと変える。
 例えばその状態の反対、等。
@@ -1363,7 +1363,7 @@ That is a house which is other than blue.
 
 <item>
 
-<h3><title>セルマホ NAhU</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ NAhU</title><a href="./chapter18.html">第18章</a>
 <bef>セルブリから数学演算子を作る。VUhU も見よ。</bef>
 <pre>li na'u tanjo te'u vei pai fe'i re[ve'o] du li ci'i
 (tan(pi/2) = 無限大)</pre>
@@ -1377,7 +1377,7 @@ tan(pi/2) = infinity
 
 <item>
 
-<h3><title>セルマホ NIhE</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ NIhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 セルブリから数学被演算子を作る。たいていは ni により抽象化されたセルブリから。
 TEhU で終わる。
@@ -1396,7 +1396,7 @@ Length x Width x Depth = Volume
 </item>
 
 <item>
-<h3><title>セルマホ NIhO</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ NIhO</title><a href="./chapter19.html">第19章</a>
 <bef>
 新しい段落を示す。また、その段落が前の内容や新しい内容を含むかどうかを示す。
 </bef>
@@ -1408,7 +1408,7 @@ or new subject matter.
 </item>
 
 <item>
-<h3><title>セルマホ NOI</title><a href="./chapter8.html">第8章</a></h3>
+<title>セルマホ NOI</title><a href="./chapter8.html">第8章</a>
 <bef>
 関係節を開始する。後続するブリディは先行するスムティを修飾する。<!--
 -->KUhO で終わる。GOI も見よ。
@@ -1426,21 +1426,21 @@ The house which is blue is small.
 
 <item>
 
-<h3><title>セルマホ NU</title>(<a href="./chapter11.html">第11章</a>)</h3>
+<title>セルマホ NU</title>(<a href="./chapter11.html">第11章</a>)
 <bef>ブリディに前置して抽象セルブリを作る抽象詞。KEI で終わる。</bef>
 <pre>la djan. cu djica le nu sonci [kei]
 (ジョンは兵士になることを望む。)</pre>
 
 <en>
-<ppp>Abstractors which, when prefixed to a bridi, create abstraction selbri.</ppp>
-<ppp>Terminated by KEI.</ppp>
-<ppp>John desires the event-of being-a-soldier.</ppp>
+Abstractors which, when prefixed to a bridi, create abstraction selbri.
+Terminated by KEI.
+John desires the event-of being-a-soldier.
 </en>
 </item>
 <!-- 80/121 -->
 
 <item>
-<h3><title>セルマホ NUhA</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ NUhA</title><a href="./chapter18.html">第18章</a>
 <bef>数学演算子からセルブリを作る。VUhU も見よ。</bef>
 <pre>li ni'umu cu nu'a va'a li ma'umu
 (数 -5 は 数 +5 の符号を反転したもの。)</pre>
@@ -1453,9 +1453,9 @@ the-number -5 is the negation-of the-number +5
 
 <item>
 
-<h3><title>セルマホ NUhI</title>
+<title>セルマホ NUhI</title>
 	<a href="./chapter14.html">第14章</a>
-	<a href="./chapter16.html">第16章</a></h3>
+	<a href="./chapter16.html">第16章</a>
 <bef>
 名辞組の始まりを示す。<!--
 -->名辞組はセルブリの2つかそれ以上の場所にスムティを同時に入れるために使われる。
@@ -1473,7 +1473,7 @@ from-the school.
 </item>
 
 <item>
-<h3><title>セルマホ NUhU</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ NUhU</title><a href="./chapter14.html">第14章</a>
 <bef>
 省略可能な NUhI の終端子。名辞組の終わりを示す。
 またそれらの間に置かれて(論理的または非論理的接続詞による)名辞組の接続を示す。
@@ -1492,7 +1492,7 @@ from-the schools)
 </item>
 
 <item>
-<h3><title>セルマホ PA</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ PA</title><a href="./chapter18.html">第18章</a>
 <bef>
 数字とそれに関連した&quantifier;(いくらかの、全ての、多くの等)。
 </bef>
@@ -1506,7 +1506,7 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 
 <item>
 
-<h3><title>セルマホ PEhE</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ PEhE</title><a href="./chapter14.html">第14章</a>
 <bef>
 論理的または非論理的接続詞の前について、2つの名辞組をつなぐ。<!--
 -->名辞組はそれぞれの名辞を関係づけ、論理的に接続し、<!--
@@ -1528,7 +1528,7 @@ I am a friend of you, and John is a friend of James.
 
 <item>
 
-<h3><title>セルマホ PEhO</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ PEhO</title><a href="./chapter18.html">第18章</a>
 <bef>
 任意で置くことができ、前置数学演算子を示す。前置演算子は被演算子の前に置かれる。
 KUhE で終わる。
@@ -1546,7 +1546,7 @@ The-number four equals the-number [forethought] sum-of two two
 
 <item>
 
-<h3><title>セルマホ PU</title>(<a href="./chapter10.html">第10章</a>)</h3>
+<title>セルマホ PU</title>(<a href="./chapter10.html">第10章</a>)
 <bef>単純な時間の向き(未来、過去、それ以外)を示す。</bef>
 <pre>mi pu klama le zarci
 (私は店に行った。)</pre>
@@ -1560,7 +1560,7 @@ I went to the market.
 
 <item>
 
-<h3><title>セルマホ RAhO</title><a href="./chapter7.html">第7章</a></h3>
+<title>セルマホ RAhO</title><a href="./chapter7.html">第7章</a>
 <bef>
 代ブリディを更新する&flag;。代ブリディに暗黙につけられたスミティの意味を
 前の文脈ではなく、新しい文脈に合うように変える。
@@ -1580,7 +1580,7 @@ A: I [future] wash my car. B: I do-the-corresponding-thing(i.e. wash B's car)
 </item>
 
 <item>
-<h3><title>セルマホ ROI</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ ROI</title><a href="./chapter10.html">第10章</a>
 <bef>数に後置して拡張間制を表す(例: 1回、2回、何回も)。</bef>
 <pre>mi reroi klama le zarci
 (私は2回その店に行く。)</pre>
@@ -1593,7 +1593,7 @@ I twice go-to the market.
 </item>
 
 <item>
-<h3><title>セルマホ SA</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ SA</title><a href="./chapter19.html">第19章</a>
 <bef>先行する句または文を取り消す。</bef>
 <pre>mi klama sa do klama le zarci
 (私は行く、いや違う、君が店に行く。)</pre>
@@ -1606,7 +1606,7 @@ I go, er, you go-to the market.
 <!-- 90/121 -->
 
 <item>
-<h3><title>セルマホ SE</title><a href="./chapter5.html">第5章</a></h3>
+<title>セルマホ SE</title><a href="./chapter5.html">第5章</a>
 <bef>セルブリの x1 とその他の場所を入れ換える。</bef>
 <pre>le zarci se klama mi
 (その店は私によって行かれた。)</pre>
@@ -1621,7 +1621,7 @@ Also used in constructing connective and modal compound cmavo.
 </item>
 
 <item>
-<h3><title>セルマホ SEI</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ SEI</title><a href="./chapter19.html">第19章</a>
 <bef>ブリディに対するメタ的なコメントの開始する。SEhU で終わる。</bef>
 <pre>la frank. prami sei gleki [se'u] la djein.
 (フランク(彼は幸せだ)はジェーンを愛している。)</pre>
@@ -1638,7 +1638,7 @@ Frank loves (he is happy) Jane.
 </item>
 
 <item>
-<h3><title>セルマホ SEhU</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ SEhU</title><a href="./chapter19.html">第19章</a>
 <bef>SEI や SOI の省略可能な終端子。メタ的な挿入を終わらせる。</bef>
 <pre>la frank. prami sei gleki se'u la djein.
 (フランク(彼は幸せだ)はジェーンを愛している。)</pre>
@@ -1651,7 +1651,7 @@ Frank loves (he is happy) Jane.
 
 <item>
 
-<h3><title>セルマホ SI</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ SI</title><a href="./chapter19.html">第19章</a>
 <bef>先行する語ひとつを取り消す。</bef>
 <pre>mi si do klama le zarci
 (私、いや、君が店に行く。)</pre>
@@ -1663,7 +1663,7 @@ I, er, you go to-the market.
 </item>
 
 <item>
-<h3><title>セルマホ SOI</title><a href="./chapter7.html">第7章</a></h3>
+<title>セルマホ SOI</title><a href="./chapter7.html">第7章</a>
 <bef>2つのスムティの相互関係を示す(英語の「vice versa」に近い)。</bef>
 <pre>mi prami do soi mi
 (私はあなたを愛していて、そしてあなたも私を愛している。)</pre>
@@ -1680,13 +1680,13 @@ I love you and vice versa.
 
 <item>
 
-<h3><title>セルマホ SU</title><a href="./chapter19.html">第19章</a></h3>
-<bef>先行する談話を終わらせ、その全てを取り消す。</bef>
+<title>セルマホ SU</title><a href="./chapter19.html">第19章</a>
+<bef>先行する&discourse;を終わらせ、その全てを取り消す。</bef>
 <en>A particle which closes and erases the entire previous discourse.</en>
 </item>
 
 <item>
-<h3><title>セルマホ TAhE</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ TAhE</title><a href="./chapter10.html">第10章</a>
 <bef>時間または空間の範囲内での頻度(規則的に、習慣的に、等)を表す間制限定詞。</bef>
 <pre>le verba ta'e klama le ckule
 (その子供は習慣的に学校に行く。)</pre>
@@ -1699,7 +1699,7 @@ The child habitually goes to-the school.
 </item>
 
 <item>
-<h3><title>セルマホ TEI</title><a href="./chapter17.html">第17章</a></h3>
+<title>セルマホ TEI</title><a href="./chapter17.html">第17章</a>
 <bef>
 複合的に構成された文字を表す語列を始める。
 その語列は文法的にはひとつの文字として扱われる。
@@ -1718,7 +1718,7 @@ the letter "e" with an acute accent
 </item>
 
 <item>
-<h3><title>セルマホ TEhU</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ TEhU</title><a href="./chapter18.html">第18章</a>
 <bef>
 JOhI、MAhO、MOhE、NAhU、NIhE の省略可能な終端子。数式への変換の終わりを示す。
 </bef>
@@ -1736,7 +1736,7 @@ array (four, six)
 </item>
 
 <item>
-<h3><title>セルマホ TO</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ TO</title><a href="./chapter19.html">第19章</a>
 <bef>談話系における左かっこ。主題からずれた話を挿入する。TOI で終わる。</bef>
 <pre>doi lisas. mi djica le nu to doi frank. ko sisti
 toi do viska le mlatu
@@ -1752,7 +1752,7 @@ Lisa, I want you to (Frank! Stop!) see the cat.
 </item>
 
 <item>
-<h3><title>セルマホ TOI</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ TOI</title><a href="./chapter19.html">第19章</a>
 <bef>TO の省略可能な終端子。談話系における右かっこ。</bef>
 <pre>doi lisas. mi djica le nu to doi frank. ko sisti
 toi do viska le mlatu
@@ -1767,7 +1767,7 @@ Lisa, I want you to (Frank! Stop!) see the cat.
 </item>
 
 <item>
-<h3><title>セルマホ TUhE</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ TUhE</title><a href="./chapter19.html">第19章</a>
 <bef>複数の文や段落を論理的にまとめる。TUhU で終わる。</bef>
 <pre>xagmau zo'u tu'e ganai cidja gi cnino .i ganai
 vanju gi tolci'o [tu'u]
@@ -1784,14 +1784,14 @@ As for what is best: if food, then new [is best]; if wine, then old [is best]
 
 <item>
 
-<h3><title>セルマホ TUhU</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ TUhU</title><a href="./chapter19.html">第19章</a>
 <bef>TUhE の論理的終端子。複数の文のグループの終わりを示す。</bef>
 <en>Logical terminator for TUhE. Marks the end of a multiple sentence group.</en>
 </item>
 
 <item>
-<h3><title>セルマホ UI</title><a href="./chapter13.html">第13章</a></h3>
-<bef>話者の感情的な状態、知識の出所、談話における局面を示す。</bef>
+<title>セルマホ UI</title><a href="./chapter13.html">第13章</a>
+<bef>話者の感情的な状態、知識の出所、&discourse;における局面を示す。</bef>
 <pre>.ui la djan. klama
 (やった、ジョンが来る。)</pre>
 
@@ -1805,7 +1805,7 @@ Hurrah! John is coming!
 
 <item>
 
-<h3><title>セルマホ VA</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ VA</title><a href="./chapter10.html">第10章</a>
 <bef>空間的な距離を示す間制(近い、遠い、どちらでもない)。</bef>
 <pre>le nanmu va batci le gerku
 (そこで男が犬をかむ。)</pre>
@@ -1821,7 +1821,7 @@ Over there the man is biting the dog.
 </item>
 
 <item>
-<h3><title>セルマホ VAU</title><a href="./chapter14.html">第14章</a></h3>
+<title>セルマホ VAU</title><a href="./chapter14.html">第14章</a>
 <bef>
 単純なブリディまたは GIhA による論理的接続におけるブリディ末端の省略可能な終端子。
 </bef>
@@ -1837,7 +1837,7 @@ I (givce the book) and (take some currency-units) to/from you.
 
 <item>
 
-<h3><title>セルマホ VEI</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ VEI</title><a href="./chapter18.html">第18章</a>
 <bef>数学の左かっこ。数学演算をまとめる。VEhO で終わる。</bef>
 <pre>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
 [ve'o] du li ny. [bo] te'a re su'i re bo pi'i ny.
@@ -1855,13 +1855,13 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 
 <item>
 
-<h3><title>セルマホ VEhA</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ VEhA</title><a href="./chapter10.html">第10章</a>
 <bef>空間における距離(長、中、短)を示す間制詞。</bef>
 <en>A tense indicating the size of an interval in space (long, medium, or short)</en>
 </item>
 
 <item>
-<h3><title>セルマホ VEhO</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ VEhO</title><a href="./chapter19.html">第19章</a>
 <bef>VEI の省略可能な終端子。数学の右かっこ。</bef>
 <pre>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
 [ve'o] du li ny. [bo] te'a re su'i re bo pi'i ny.
@@ -1878,7 +1878,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 
 <item>
 
-<h3><title>セルマホ VIhA</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ VIhA</title><a href="./chapter10.html">第10章</a>
 <bef>空間における次元(線上、面上、空間上、時空上の間隔)を示す間制。</bef>
 <pre>le verba ve'a vi'a cadzu le bisli
 (中くらいの範囲で、氷の上をその子は歩く。)</pre>
@@ -1893,7 +1893,7 @@ In a medium-sized area, the child walks on the ice.
 <!-- 110/121 -->
 
 <item>
-<h3><title>セルマホ VUhO</title><a href="./chapter8.html">第8章</a></h3>
+<title>セルマホ VUhO</title><a href="./chapter8.html">第8章</a>
 <bef>関係節や関係句が、スムティの最も左側の部分ではなく、<!--
 -->(複合的であるかもしれない)スムティ全体にかかるようにする。</bef>
 <pre>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa
@@ -1910,7 +1910,7 @@ Frank and George, who are guides, are in the room.
 
 <item>
 
-<h3><title>セルマホ XI</title><a href="./chapter18.html">第18章</a></h3>
+<title>セルマホ XI</title><a href="./chapter18.html">第18章</a>
 <bef>
 下付き文字のしるし。後続する数字やレルフ列は何が前に来ようとも下付きとなる。
 </bef>
@@ -1926,7 +1926,7 @@ x<sub>2</sub>
 </item>
 
 <item>
-<h3><title>セルマホ Y</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ Y</title><a href="./chapter19.html">第19章</a>
 <bef>
 ためらいの音。意味はないが話を続けたり会話を続けるために使われる。<!--
 -->沈黙とは、沈黙がそれ以上言うことがないというように解釈される点で異なる。
@@ -1943,7 +1943,7 @@ O, uh, uh, John!
 </item>
 
 <item>
-<h3><title>セルマホ ZAhO</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ ZAhO</title><a href="./chapter10.html">第10章</a>
 <bef>
 出来事が事象線上のどこにあるか(例: 始まり、終わり、持続)を示す間制修飾詞。
 </bef>
@@ -1961,7 +1961,7 @@ I'm on the verge of fighting.
 
 <item>
 
-<h3><title>セルマホ ZEI</title><a href="./chapter4.html">第4章</a></h3>
+<title>セルマホ ZEI</title><a href="./chapter4.html">第4章</a>
 <bef>形態学的な接着語。両側にある語をルジヴォと同じ意味でつなげる。</bef>
 <pre>ta xy. zei kantu kacma
 (あれはX線カメラだ。)</pre>
@@ -1975,7 +1975,7 @@ That is an X-ray camera.
 </item>
 
 <item>
-<h3><title>セルマホ ZEhA</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ ZEhA</title><a href="./chapter10.html">第10章</a>
 <bef>時の範囲(長、中、短)という間制を示す。</bef>
 <pre>mi puze'a citka
 (私は短い時間食事をした。)</pre>
@@ -1988,7 +1988,7 @@ I ate for a little while.
 </item>
 
 <item>
-<h3><title>セルマホ ZI</title><a href="./chapter10.html">第10章</a></h3>
+<title>セルマホ ZI</title><a href="./chapter10.html">第10章</a>
 <bef>時の隔たり(遠い、中くらいの、近い過去または未来)という間制を示す。</bef>
 <pre>mi puzi citka
 (ついさっき食事をしたところだ。)</pre>
@@ -2002,7 +2002,7 @@ I ate a little while ago.
 </item>
 
 <item>
-<h3><title>セルマホ ZIhE</title><a href="./chapter8.html">第8章</a></h3>
+<title>セルマホ ZIhE</title><a href="./chapter8.html">第8章</a>
 <bef>
 同じスムティに掛かる関係句や関係節をまとめる。
 英訳の際には「and」と訳されることが多いが、論理的接続とは見なされない。
@@ -2022,7 +2022,7 @@ I own a white dog, which I love.
 
 <item>
 
-<h3><title>セルマホ ZO</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ ZO</title><a href="./chapter19.html">第19章</a>
 <bef>後続するロジバンの一語をクォートする。</bef>
 <pre>zo si cu lojbo valsi
 (語「si」はロジバンの語である。)</pre>
@@ -2035,7 +2035,7 @@ The-word "si" is-a-Lojbanic word.
 
 <item>
 
-<h3><title>セルマホ ZOI</title><a href="./chapter19.html">第19章</a></h3>
+<title>セルマホ ZOI</title><a href="./chapter19.html">第19章</a>
 <bef>
 ロジバン以外を取るクォーター:
 区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列をクォートする。
@@ -2055,9 +2055,9 @@ The-text "Socrates is mortal" is-an-English sentence.
 
 <item>
 
-<h3><title>セルマホ ZOhU</title>
+<title>セルマホ ZOhU</title>
 	<a href="./chapter16.html">第16章</a>
-	<a href="./chapter19.html">第19章</a>)</h3>
+	<a href="./chapter19.html">第19章</a>)
 <bef>
 論理的冠頭部をそれが適用されるブリディや文のまとまりから分ける。
 または、主題/評言文において、主題を主題に対する評言から分ける。

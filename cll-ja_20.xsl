@@ -81,19 +81,15 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </xsl:template>
 
 <xsl:template match="item">
-<xsl:apply-templates select="h3" />
-<xsl:apply-templates select="bef" />
-<xsl:apply-templates select="pre" />
-<xsl:apply-templates select="aft" />
-<xsl:apply-templates select="chu" />
-</xsl:template>
-
-<xsl:template match="h3">
 <h3><xsl:value-of select="title"/>
 (<xsl:for-each select="a"><a>
 	<xsl:attribute name="href"><xsl:value-of select="./@href"/></xsl:attribute>
 	<xsl:value-of select="."/></a>
 		<xsl:if test="not(position() = last())">, </xsl:if></xsl:for-each>)</h3>
+<xsl:apply-templates select="bef" />
+<xsl:apply-templates select="pre" />
+<xsl:apply-templates select="aft" />
+<xsl:apply-templates select="chu" />
 </xsl:template>
 
 <xsl:template match="before">
@@ -110,7 +106,6 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 
 <xsl:template match="pre">
 <pre><xsl:value-of select="."/></pre>
-<!-- <pre><xsl:apply-templates select="."/></pre> -->
 </xsl:template>
 
 <xsl:template match="en">
