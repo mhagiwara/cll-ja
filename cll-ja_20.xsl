@@ -39,8 +39,6 @@
 <xsl:value-of select="author" /></xsl:attribute></meta>
 <title><xsl:value-of select="title" /></title>
 <style type="text/css">
-ppp	{color: #A0A0A0; font-size: 8pt; margin: 2px; display: none;}
-pp	{color: #A0A0A0; font-size: 8pt; margin: 2px; display: true;}
 chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </style>
 
@@ -100,9 +98,14 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 
 <xsl:template match="pre">
 <pre><xsl:value-of select="."/></pre>
+<!-- <pre><xsl:apply-templates select="."/></pre> -->
 </xsl:template>
 
 <xsl:template match="en">
+</xsl:template>
+
+<xsl:template match="sub">
+<sub><xsl:value-of select="."/></sub>
 </xsl:template>
 
 </xsl:stylesheet>
