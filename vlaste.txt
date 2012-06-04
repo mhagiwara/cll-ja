@@ -39,7 +39,7 @@ description selbri	描写セルブリ
 description	描写
 descriptor	 描写型の冠詞
 direct question	直接疑問
-discourse	談話	# 検討中
+discourse	談話	# universe of discourse と mathematical discourse 以外
 discursive	談話系
 elidable	省略可能な
 ellipsize	省略
@@ -81,6 +81,7 @@ lujvo	ルジヴォ
 marker	マーカー
 material conditional	論理包含
 mathematical	数学の/数学的	# 提案
+mathematical discourse  数学的論説
 mathematical expression	数式	# 提案
 mathematical operand	数学被演算子	# 提案
 mathematical operation	数学演算	# 提案
@@ -154,6 +155,7 @@ termset	名辞組
 tri-valued logic	3値論理
 truth value	真偽値
 truth function	真偽関数
+universe of discourse 議論領域
 unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
 vague  漠然とした
