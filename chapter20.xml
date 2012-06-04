@@ -3,13 +3,14 @@
 <!DOCTYPE chapter [
 	<!ENTITY quantifier "数量詞">
 	<!ENTITY free_modifier "自由修飾句">
+	<!ENTITY flag "フラグ">
 ]>
 
 <chapter number="20">
 
 <meta>
 <title>CLL 第20章 セルマホ目録</title>
-<title_>Chapter 20 A Catalogue of selma'o</title_>
+<en>Chapter 20 A Catalogue of selma'o</en>
 <author>iocikun.juj</author>
 <address>PAF01143@nifty.ne.jp</address>
 </meta>
@@ -24,7 +25,6 @@
 <chu># 下書き</chu>
 <chu># 訳の清書中</chu>
 <chu># 予定: xml の構造をきれいにする</chu>
-<chu># 予定: xslt によって作られる html を validation に通るものにする</chu>
 <chu># 予定: 41 の note を check し、それらを削除する (28/41)</chu><br />
 <chu># 予定: 121 のセルマホの訳を見直す</chu><br/>
 <chu># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</chu><br/>
@@ -70,7 +70,6 @@ the most common use is shown.
 a, e, i, o, u, y を表すということ</chu>
 
 <en>
-selma'o A (Chapter 14)
 Specifies a logical connection (e.g. "and", "or", "if"), usually between sumti.
 John and/or Jane goes to the store.
 Also used to create vowel lerfu words when followed with "bu".
@@ -1301,7 +1300,7 @@ the-number two rats plus two rabbits equals the-number four animals
 <item>
 <h3><title>セルマホ MOhI</title><a href="./chapter10.html">第10章</a></h3>
 <bef>
-空間における動きを表す間制フラグ。動きの方向は後続する FAhA シマヴォによって示す。
+空間における動きを表す間制&flag;。動きの方向は後続する FAhA シマヴォによって示す。
 </bef>
 <pre>le verba mo'i ri'u cadzu le bisli
 (その子は氷の上を私の右の方へ歩く。)</pre>
@@ -1563,7 +1562,7 @@ I went to the market.
 
 <h3><title>セルマホ RAhO</title><a href="./chapter7.html">第7章</a></h3>
 <bef>
-代ブリディを更新するフラグ。代ブリディに暗黙につけられたスミティの意味を
+代ブリディを更新する&flag;。代ブリディに暗黙につけられたスミティの意味を
 前の文脈ではなく、新しい文脈に合うように変える。
 </bef>
 <pre>A: mi ba lumci le mi karce B: mi go'i

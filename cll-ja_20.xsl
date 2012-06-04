@@ -29,10 +29,9 @@
 <h2><xsl:value-of select="/chapter/meta/title"/></h2>
 <p><xsl:value-of select="p" /></p>
 <xsl:apply-templates select="body" />
-<p><a href="http://validator.w3.org/check?uri=referer"><img
+<div align="right"><p><a href="http://validator.w3.org/check?uri=referer"><img
 	src="http://www.w3.org/Icons/valid-xhtml10"
-	alt="valid XHTML 1.0 Transitional" height="31" width="88" /></a>
-</p>
+	alt="valid XHTML 1.0 Transitional" height="31" width="88" /></a></p></div>
 </body>
 </xsl:template>
 
