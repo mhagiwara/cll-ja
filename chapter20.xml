@@ -23,6 +23,8 @@
 <before>
 <chu># 下書き</chu>
 <chu># 訳の清書中</chu>
+<chu># 予定: xml の構造をきれいにする</chu>
+<chu># 予定: xslt によって作られる xhtml を validation に通るものにする</chu>
 <chu># 予定: 41 の note を check し、それらを削除する (28/41)</chu><br />
 <chu># 予定: 121 のセルマホの訳を見直す</chu><br/>
 <chu># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</chu><br/>
