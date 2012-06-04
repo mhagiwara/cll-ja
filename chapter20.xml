@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="stylesheet20.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="cll-ja_20.xsl" ?>
 <!DOCTYPE chapter [
 	<!ENTITY quantifier "数量詞">
 	<!ENTITY free_modifier "自由修飾句">
