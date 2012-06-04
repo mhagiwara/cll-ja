@@ -17,7 +17,17 @@
 
 <xsl:template match="chapter">
 <head><xsl:apply-templates select="meta" /></head>
-<body><xsl:apply-templates select="body" /></body>
+<body>
+<div class="nav"><xsl:apply-templates select="link" /></div>
+<center>
+<img alt="[Cartoon]" width="405" height="405"><xsl:attribute name="src">
+	<xsl:value-of select="image" /></xsl:attribute></img>
+</center>
+<xsl:apply-templates select="before" />
+<h2><xsl:value-of select="/chapter/meta/title"/></h2>
+<p><xsl:value-of select="p" /></p>
+<xsl:apply-templates select="body" />
+</body>
 </xsl:template>
 
 <xsl:template match="meta">
@@ -41,15 +51,6 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 <xsl:template match="author">
 </xsl:template>
 
-<xsl:template match="body">
-<div class="nav"><xsl:apply-templates select="link" /></div>
-<center>
-<img alt="[Cartoon]" width="405" height="405"><xsl:attribute name="src">
-	<xsl:value-of select="image" /></xsl:attribute></img>
-</center>
-<xsl:apply-templates select="body_" />
-</xsl:template>
-
 <xsl:template match="link">
 <div class="nav-prev">
 <div class="nav-section-link-prev"><a><xsl:attribute name="href">
@@ -64,13 +65,17 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 <div class="nav-title-link"><a href="./index.html">目次</a></div></div>
 </xsl:template>
 
-<xsl:template match="body_">
-<xsl:apply-templates select="before" />
-<h2><xsl:value-of select="h2" /></h2>
-<p><xsl:value-of select="p" /></p>
+<xsl:template match="body">
 <xsl:apply-templates select="item" />
-<!-- <xsl:apply-templates select="p" /> -->
 <xsl:apply-templates select="after" />
+</xsl:template>
+
+<xsl:template match="item">
+<xsl:apply-templates select="h3" />
+<xsl:apply-templates select="bef" />
+<xsl:apply-templates select="pre" />
+<xsl:apply-templates select="aft" />
+<xsl:apply-templates select="chu" />
 </xsl:template>
 
 <xsl:template match="h3">
@@ -90,18 +95,14 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </xsl:template>
 
 <xsl:template match="chu">
-<br/><chu><xsl:value-of select="." /></chu>
-</xsl:template>
-
-<xsl:template match="yakuchu">
-<br/><chu># 訳注: <xsl:value-of select="."/></chu>
+<chu><xsl:value-of select="." /></chu><br/>
 </xsl:template>
 
 <xsl:template match="pre">
 <pre><xsl:value-of select="."/></pre>
 </xsl:template>
 
-<xsl:template match="ppp">
+<xsl:template match="en">
 </xsl:template>
 
 </xsl:stylesheet>

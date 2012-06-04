@@ -9,17 +9,16 @@
 
 <meta>
 <title>CLL 第20章 セルマホ目録</title>
+<title_>Chapter 20 A Catalogue of selma'o</title_>
 <author>iocikun.juj</author>
 </meta>
 
-<body>
 <link>
 <prev><name>第19章</name><address>./chapter19.html</address></prev>
 <next><name>第21章</name><address>./chapter21.html</address></next>
 </link>
 <image>./images/chapter20.gif</image>
 
-<body_>
 <before>
 <chu># 下書き</chu>
 <chu># 訳の清書中</chu>
@@ -35,9 +34,6 @@
 <ppp>41個の note がある</ppp>
 </before>
 
-<h2>CLL 第20章 セルマホ目録</h2>
-<ppp>Chapter 20 A Catalogue of selma'o</ppp>
-
 <p>
 以下の段落では、ロジバンのセルマホ全てを列挙し簡単な説明を加えた。
 詳細はそれぞれの章を参照すること。
@@ -49,443 +45,561 @@
 セルマホの使いかたは複数あるが、そのなかで最も一般的な用法を示す。
 </p>
 
-<ppp>The following paragraphs list all the selma'o of Lojban, with a brief
+<en>
+The following paragraphs list all the selma'o of Lojban, with a brief
 explanation of what each one is about, and reference to the chapter number where
-each is explained more fully.</ppp>
-<ppp>As usual, all selma'o names are given in capital letters
+each is explained more fully.
+As usual, all selma'o names are given in capital letters
 (with "h" serving as the capital of "'") and
 are the names of a representative cmavo, often the most important or the first
-in alphabetical order.</ppp>
-<ppp>One example is given of each selma'o: for selma'o which have several uses,
-the most common use is shown.</ppp>
+in alphabetical order.
+One example is given of each selma'o: for selma'o which have several uses,
+the most common use is shown.
+</en>
 
+<body>
 <item>
-<h3><title>セルマホ A</title>(<a href="./chapter14.html">第14章</a>)</h3>
-<ppp>selma'o A (Chapter 14)</ppp>
-<p>論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
-<ppp>Specifies a logical connection (e.g. "and", "or", "if"), usually
-between sumti.</ppp>
-<ppp>John and/or Jane goes to the store</ppp></p>
+<h3><title>セルマホ A</title><a href="./chapter14.html">第14章</a></h3>
+<bef>論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
+</bef>
 <pre>la djan. .ala djein. klama le zarci
 (ジャンとジェーンのどちらかまたは両方が店に行く。)</pre>
-<p>bu を後置して、母音のレルフ(文字)そのものを表す語を作る。<br/>
-<yakuchu>abu, ebu, ibu, obu, ubu, ybu がそれぞれ文字
-a, e, i, o, u, y を表すということ</yakuchu>
-<ppp>Also used to create vowel lerfu words when followed with "bu".</ppp></p>
+<aft>bu を後置して、母音のレルフ(文字)そのものを表す語を作る。</aft>
+<chu># 訳注: abu, ebu, ibu, obu, ubu, ybu がそれぞれ文字
+a, e, i, o, u, y を表すということ</chu>
+
+<en>
+selma'o A (Chapter 14)
+Specifies a logical connection (e.g. "and", "or", "if"), usually between sumti.
+John and/or Jane goes to the store.
+Also used to create vowel lerfu words when followed with "bu".
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BAI</title>(<a href="./chapter9.html">第9章</a>)
-<ppp>selma'o BAI (Chapter 9)</ppp></h3>
-<p>
+<h3><title>セルマホ BAI</title><a href="./chapter9.html">第9章</a></h3>
+<bef>
 セルブリの構造に表現したい関係を表す場所がなかった場合に、
 スムティに前置することでその場所を追加することができる。
 セルブリから派生し、それの持つ場所のひとつからその意味が決まる。
-<ppp>May be prefixed to a sumti to specify an additional place, not otherwise
-present in the place structure of the selbri, and derived from a single place
-of some other selbri.</ppp>
+</bef>
 <pre>mi tavla bau la lojban.
 (私はロジバン語で話す。)</pre>
-<ppp>I speak in-language Lojban.</ppp></p>
+
+<en>
+selma'o BAI (Chapter 9)
+May be prefixed to a sumti to specify an additional place, not otherwise
+present in the place structure of the selbri, and derived from a single place
+of some other selbri.
+I speak in-language Lojban.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BAhE</title>(<a href="./chapter19.html">第19章</a>)</h3>
-<p>
-後に続く一語を強調する。
-またはそれが臨時語(その場で作った単語)であることを示す。
-<ppp>Emphsizes the next single word, or marks it as a nonce word
-(one invented for the occasion).</ppp>
+<h3><title>セルマホ BAhE</title><a href="./chapter19.html">第19章</a></h3>
+<bef>
+後に続く一語を強調する。またはそれが臨時語(その場で作った単語)であることを示す。
+</bef>
 <pre>la ba'e .djordj. klama le zarci
 (店に来たのはジョージだ。)</pre>
-<ppp>George goes to the store.</ppp>
-<ppp>It is George who goes to the store.</ppp></p>
+
+<en>
+Emphsizes the next single word, or marks it as a nonce word
+(one invented for the occasion).
+George goes to the store.
+It is George who goes to the store.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BE</title>(<a href="./chapter5.html">第5章</a>)</h3>
-<p>タンルを形成するひとつの要素の持つ場所にスムティをいれる。
+<h3><title>セルマホ BE</title><a href="./chapter5.html">第5章</a></h3>
+<bef>
+タンルを形成するひとつの要素の持つ場所にスムティをいれる。
 指定がなければそのスムティは x2, x3 ... と次に来る場所にはいる。
-BE は LE による描写のなかで最も有用だ。
-BEI や BEhO も見よ。
-<ppp>Attaches sumti which fill the place structure of a single unit making
-up a tanru.</ppp>
-<ppp>Unless otherwise indicated, the sumti fill the x2, x3, and successive places
-in  that order. BE is most useful in descriptions formed with LE. See BEI, BEhO.
-</ppp>
+BE は LE による描写のなかで最も有用だ。BEI や BEhO も見よ。
+</bef>
 <pre>mi klama be ta troci
 (私はあそこに行こうとする。)</pre>
-<ppp>I am-a-(goer to-that) type-of trier. I try to go to that place.</ppp>
-<yakuchu>klama の x1 が troci を修飾し、その次の場所である x2 に ta
-がはいる</yakuchu></p>
+<chu># 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に ta
+がはいる</chu>
+
+<en>
+Attaches sumti which fill the place structure of a single unit making up a tanru.
+Unless otherwise indicated, the sumti fill the x2, x3, and successive places
+in  that order. BE is most useful in descriptions formed with LE. See BEI, BEhO.
+I am-a-(goer to-that) type-of trier. I try to go to that place.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BEI</title>(<a href="./chapter5.html">第5章</a>)</h3>
-<p>BE によってタンルの構成単位に付加された複数のスムティ同士を分ける。
-<ppp>Separates multiple sumti attached by BE to a tanru unit.</ppp>
+<h3><title>セルマホ BEI</title><a href="./chapter5.html">第5章</a></h3>
+<bef>
+BE によってタンルの構成単位に付加された複数のスムティ同士を分ける。
+</bef>
 <pre>mi klama be le zarci bei le zdani be'o troci
 (私は家から店に行こうとする。)</pre>
+<chu># 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に le zarci が
+さらにその次の場所である x3 に bei で分けられた le zdani がはいる</chu>
+
+<en>
+<ppp>Separates multiple sumti attached by BE to a tanru unit.</ppp>
 <ppp>I am-a-(goer to-the store from-the home) type-of-trier.
 I try to go from the home to the market</ppp>
-<yakuchu>klama の x1 が troci を修飾し、その次の場所である x2 に le zarci が
-さらにその次の場所である x3 に bei で分けられた le zdani がはいる</yakuchu>
-</p>
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BEhO</title> (<a href="./chapter5.html">第5章</a>)</h3>
-<p>
-BE に対する省略可能な終端詞。
-<ppp>Elidable terminator for BE. </ppp>
-タンルの構成単位に付加されたスムティを終わらせる。
-<ppp>Terminates sumti that are attached to a tanru unit.</ppp>
+<h3><title>セルマホ BEhO</title><a href="./chapter5.html">第5章</a></h3>
+<bef>
+BE に対する省略可能な終端詞。タンルの構成単位に付加されたスムティを終わらせる。
+</bef>
 <pre>mi klama be le zarci be'o troci
 (私は店に行こうとする。)</pre>
-<ppp>I am-a-(goer to-the market) type-of-trier. I try to go to the market.</ppp></p>
+
+<en>
+Elidable terminator for BE. Terminates sumti that are attached to a tanru unit.
+I am-a-(goer to-the market) type-of-trier. I try to go to the market.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BIhE</title>(<a href="./chapter18.html">第18章</a>)</h3>
-<p>
+<h3><title>セルマホ BIhE</title><a href="./chapter18.html">第18章</a></h3>
+<bef>
 数学演算子の前につけて、他の数学演算子よりも優先度が高いことを示す。
 この演算子の前後の被演算子はより強く結びつく。
-<ppp>Prefix attached to a mathematical operator to mark it as higher priority
-than other mathematical operators, binding its operands more closely.</ppp>
+</bef>
 <pre>li ci bi'e pi'i vo su'i mu du li paze
 (3 x 4 + 5 = 17)</pre>
+<chu># 訳注: 原著では pi'i ではなく pi'u となっていたが pi'i
+が正しいと思われる</chu>
+<chu># 訳注: bi'e によって pi'i(かけ算) のほうが先に計算されることが明示されている
+</chu>
+
+<en>
+<ppp>Prefix attached to a mathematical operator to mark it as higher priority
+than other mathematical operators, binding its operands more closely.</ppp>
 <ppp>The-number 3 [priority] times 4 plus 5 equals the-number 17.</ppp>
 <ppp>3 * 4 + 5 = 17</ppp>
-<yakuchu>原著では pi'i ではなく pi'u となっていたが pi'i
-が正しいと思われる</yakuchu>
-<yakuchu>bi'e によって pi'i(かけ算) のほうが先に計算されることが明示されている
-</yakuchu>
-</p>
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BIhI</title>(<a href="./chapter14.html">第14章</a>)</h3>
-<p>
-スムティまたはタンルの構成単位(あるいはそれ以外の何か)を結びつけることで、
-範囲を表す。
+<h3><title>セルマホ BIhI</title><a href="./chapter14.html">第14章</a></h3>
+<bef>
+スムティまたはタンルの構成単位(あるいはそれ以外の何か)を結びつけることで範囲を表す。
 GAhO も見よ。
-<ppp>Joins sumti or tanru units (as well as some other things) to form
-intervals. See GAhO.</ppp>
+</bef>
 <pre>mi ca sanli la drezdn. bi'i la frankfurt.
 (私はドレスデンとフランクフルトの間に立つ。)
 </pre>
-<ppp>I am standing between Dresden and Frankfurt.</ppp></p>
+
+<en>
+Joins sumti or tanru units (as well as some other things) to form intervals.
+See GAhO.
+I am standing between Dresden and Frankfurt.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BO</title>(<a href="./chapter5.html">第5章</a>, <a href="./chapter15.html">第15章</a>, <a href="./chapter18.html">第18章</a>)</h3>
-<p>タンルの構成単位を強く結合する。
-<ppp>Joins tanru units, binding them together closely.</ppp>
+<h3><title>セルマホ BO</title>
+	<a href="./chapter5.html">第5章</a>
+	<a href="./chapter15.html">第15章</a>
+	<a href="./chapter18.html">第18章</a></h3>
+<bef>
+タンルの構成単位を強く結合する。
 論理的にまたは非論理的に、節や文などを結合するのに使える。
-<ppp>Also used to bind logically or non-logically connected phrases, sentences,
-etc.</ppp>
 結合において BO は常に優先され、また右結合である。
-<ppp>BO is always high precedence and right-grouping.</ppp>
+</bef>
 <pre>ta cmalu nixli bo ckule
 (あれは女の子のための小さな学校だ。)
 </pre>
-<ppp>That is-a-small type-of (girl type-of school).</ppp>
-<ppp>That is small school for girls.</ppp>
-<yakuchu>ta cmalu (nixli bo ckule) のように結合する。
+<chu># 訳注: ta cmalu (nixli bo ckule) のように結合する。
 bo がなければ、ta (cmalu nixli) ckule のように左から結合し、
-「(小さな女の子)のための学校」となる。
-</yakuchu>
-</p>
+「(小さな女の子)のための学校」となる。</chu>
+
+<en>
+Joins tanru units, binding them together closely.
+Also used to bind logically or non-logically connected phrases, sentences,
+etc. BO is always high precedence and right-grouping.
+That is-a-small type-of (girl type-of school).
+That is small school for girls.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BOI</title>(<a href="./chapter18.html">第18章</a>)</h3>
-<p>
+<h3><title>セルマホ BOI</title><a href="./chapter18.html">第18章</a></h3>
+<bef>
 PA や BY のための省略可能な終端子。
-<ppp>Elidable terminator for PA or BY.</ppp>
 数(数を表すシマヴォの列)やレルフ列(文字の列)に別の列がすぐに続くときに、
 それらを終わらせるために使われる。
-<ppp>Used to terminate a number (string of numeric cmavo) or lerfu string
-(string of letter words) when another string immediately follows.</ppp>
+</bef>
 <pre>li re du li vu'u voboi re
 (数 2 は数 4 と 2 の差と等しい。)</pre>
+<chu>訳注: voboi re でなく vore とすると 42 になってしまう</chu>
+
+<en>
+<ppp>Elidable terminator for PA or BY.</ppp>
+<ppp>Used to terminate a number (string of numeric cmavo) or lerfu string
+(string of letter words) when another string immediately follows.</ppp>
 <ppp>The-number two equals the-number the-difference-of four-and two.</ppp>
-<yakuchu>voboi re でなく vore とすると 42 になってしまう</yakuchu>
-</p>
-<!-- 10/121 -->
+</en>
 </item>
+<!-- 10/121 -->
 
 <item>
-<h3><title>セルマホ BU</title>(<a href="./chapter17.html">第17章</a>)</h3>
-<p>
+<h3><title>セルマホ BU</title><a href="./chapter17.html">第17章</a></h3>
+<bef>
 全ての語の後置することができる。
 主にアルファベットの文字またはその名前に後置し、
 記号やその他のアルファベットの文字を表す語を作る。
-<ppp>A suffix which can be attached to any word, typically a word representing
-a letter of the alphabet or else a name, to make a word for a symbol or
-a different letter of the alphabet.</ppp>
 特にひとつの母音だけから成るシマヴォにつけることで、それを表す語として使われる。
-<ppp>In paticular, attached to single-vowel cmavo to make words for vowel
-letters.</ppp>
+</bef>
 <pre>.abu .ebu .ibu .obu .ubu .ybu
-("a", "e", "i", "o", "u", "y")</pre></p>
+("a", "e", "i", "o", "u", "y")</pre>
+
+<en>
+A suffix which can be attached to any word, typically a word representing
+a letter of the alphabet or else a name, to make a word for a symbol or
+a different letter of the alphabet.
+In paticular, attached to single-vowel cmavo to make words for vowel
+letters.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ BY</title>(<a href="./chapter17.html">第17章</a>)</h3>
-<p>
-ロジバンにおける文字を表す語と文字を表す語の解釈を変えるためのシフト記号の役割を果たす語。
-<ppp>Words representing the letters of the Lojban alphabet, plus various
-shift words which alter the interpretation of other letter words.</ppp>
+<h3><title>セルマホ BY</title><a href="./chapter17.html">第17章</a></h3>
+<bef>
+ロジバンにおける文字を表す語と文字を表す語の解釈を変えるためのシフト記号の役割を<!--
+-->果たす語。
+</bef>
 <pre>.abu tavla .by le la .ibymym. skami
 (A は B に IBM のコンピュータについて話す。)</pre>
-<ppp>A talks-to B about-the of-IBM computers.</ppp>
-<ppp>A talks to B about IBM computers.</ppp>
-<yakuchu>IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
-最後に子音をつけて、.ibubymym.
-とする。母音の後の bu を省略して .ibymym. とできる。</yakuchu>
-</p>
+<chu># 訳注: IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
+最後に子音をつけて、.ibubymym. とする。母音の後の bu を省略して .ibymym.
+とできる。</chu>
+
+<en>
+Words representing the letters of the Lojban alphabet, plus various
+shift words which alter the interpretation of other letter words.
+A talks-to B about-the of-IBM computers.
+A talks to B about IBM computers.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CAI</title>(<a href="./chapter13.html">第13章</a>)</h3>
-<p>感情の程度(最高に、強く、弱く、全くない)を表す品詞。
-<ppp>A particle which indicates the intensity of an emotion: maximum,
-strong, weak, or not at all.</ppp>
+<h3><title>セルマホ CAI</title><a href="./chapter13.html">第13章</a></h3>
+<bef>
+感情の程度(最高に、強く、弱く、全くない)を表す品詞。
 たいていは感情を表す他の品詞の後に続ける。
-<ppp>Typically follows another particle which specifies the emotion.</ppp>
+</bef>
 <pre>.ei cai mi klama le zarci
 (店に行かなければならない。)</pre>
-<ppp>[Oblication!][Intense!]I go-to the market.</ppp>
-<ppp>I must go to the market.</ppp>
-<yakuchu>.ei は義務を表す心態詞。eicai は強い義務を表現する。</yakuchu>
-</p>
+<chu># 訳注: .ei は義務を表す心態詞。eicai は強い義務を表現する。</chu>
+
+<en>
+A particle which indicates the intensity of an emotion: maximum,
+strong, weak, or not at all.
+Typically follows another particle which specifies the emotion.
+[Oblication!][Intense!]I go-to the market.
+I must go to the market.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CAhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
-<p>ブリディが事実、可能性、能力のいずれを表しているのかを決める。
-<ppp>Specifies whether a bridi refers to an actual fact,
-a potential (achieved or not), or merely an innate capability.</ppp>
+<h3><title>セルマホ CAhA</title><a href="./chapter10.html">第10章</a></h3>
+<bef>
+ブリディが事実、可能性、能力のいずれを表しているのかを決める。
+</bef>
 <pre>ro datka ka'e flulimna
 (全てのアヒルは浮かんで泳ぐことができる。)</pre>
-<ppp>all ducks [capability] are-float-swimmers</ppp>
-<ppp>All ducks have the capability of swimming by floating.</ppp></p>
+
+<en>
+Specifies whether a bridi refers to an actual fact,
+a potential (achieved or not), or merely an innate capability.
+all ducks [capability] are-float-swimmers
+All ducks have the capability of swimming by floating.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CEI</title>(<a href="./chapter7.html">第7章</a>)</h3>
-<p>セルブリによる記述を5個の代ブリディ(broda, brode, brodi, brodo, brodu)
+<h3><title>セルマホ CEI</title><a href="./chapter7.html">第7章</a></h3>
+<bef>
+セルブリによる記述を5個の代ブリディ(broda, brode, brodi, brodo, brodu)
 のうちのひとつに代入する。
-<ppp>Assigns a selbri definition to one of the five pro-bridi gismu:
-"broda", "brode", "brodi", "brodo", or "brodu", for later use.</ppp>
+</bef>
 <pre>ti slasi je mlatu bo cidja lante gacri cei broda
 .i le crino broda cu barda .i le xunre broda cu cmalu
 (これはプラスティックのキャットフード缶の蓋だ。
 緑のは大きい。赤いのは小さい。)</pre>
-<ppp>This is a plastic cat-food can cover, or thingy.
-The green thingy is large. The red thingy is small.</ppp></p>
+
+<en>
+Assigns a selbri definition to one of the five pro-bridi gismu:
+"broda", "brode", "brodi", "brodo", or "brodu", for later use.
+This is a plastic cat-food can cover, or thingy.
+The green thingy is large. The red thingy is small.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CEhE</title>(<a href="./chapter14.html">第14章</a>, <a href="./chapter16.html">第16章</a>)</h3>
-<p>複数の名辞を名辞組にまとめる。
-<ppp>Joins multiple terms into a termset.</ppp>
+<h3><title>セルマホ CEhE</title>
+	<a href="./chapter14.html">第14章</a>
+	<a href="./chapter16.html">第16章</a></h3>
+<bef>
+複数の名辞を名辞組にまとめる。
 名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
 または特別な間制の構造を作るために使われる。
-<ppp>Termsets are used to associate several terms for logical connectives,
-for equal quantifier scope, or for special constructs in tenses.</ppp><br/>
-<yakuchu>「量を示す詞のかかる範囲をまとめ」るとは
-「3匹の犬が2人の人にかみついた」という文章において
-3匹の犬が「同じ」2人の人にという意味を示すということ</yakuchu>
-<yakuchu>「特別な間制の構造」については訳者の理解が足りない。例文が必要</yakuchu>
+</bef>
 <pre>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo
 (私は君の友達で、ジョーンはジェームズの友達だ。)</pre>
-<ppp>I [,] you [joint] and John [,] James are-friends-of.</ppp>
-<ppp>I am a friend of you, and John is a friend of James.</ppp></p>
+<chu># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは
+「3匹の犬が2人の人にかみついた」という文章において
+3匹の犬が「同じ」2人の人にという意味を示すということ</chu>
+<chu># 訳注: 「特別な間制の構造」については訳者の理解が足りない。例文が必要</chu>
+
+<en>
+Joins multiple terms into a termset.
+Termsets are used to associate several terms for logical connectives,
+for equal quantifier scope, or for special constructs in tenses.
+I [,] you [joint] and John [,] James are-friends-of.
+I am a friend of you, and John is a friend of James.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CO</title>(<a href="./chapter5.html">第5章</a>)</h3>
-<p>
+<h3><title>セルマホ CO</title><a href="./chapter5.html">第5章</a></h3>
+<bef>
 タンルの構成要素の間に置かれ、それをひっくりかえす。
 つまり、後続するタンルの構成単位が先行するタンルの構成単位を修飾するようにする。
-<ppp>When inserted between the components of a tanru, inverts it, so
-that the following tanru unit modifies the previous one.</ppp>
+</bef>
 <pre>mi troci co klama zarci le zdani
 (私は家から店に行ってみる。)</pre>
-<ppp>I am-a-trier of-type (goer to-the market from-the house).</ppp>
-<ppp>I try to go to the market from the house.</ppp>
-<yakuchu>CO は修飾のしかたはひっくり返すが場所は後のセルブリのものを取る。
-</yakuchu>
-</p>
+<chu># 訳注: CO は修飾のしかたはひっくり返すが場所は後のセルブリのものを取る。
+</chu>
+
+<en>
+When inserted between the components of a tanru, inverts it, so
+that the following tanru unit modifies the previous one.
+I am-a-trier of-type (goer to-the market from-the house).
+I try to go to the market from the house.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ COI</title>(<a href="./chapter6.html">第6章</a>, <a href="./chapter13.html">第13章</a>)</h3>
-<p>名前や描写、スムティに前置し呼格を形成する。
-呼格は誰に(または誰が)話しているのかを示す。
-<ppp>When prefixed to a name, description, or sumti, produces a vocative:
-a phrase which indicates who is being spoken to (or who is speaking).</ppp>
-呼格は挨拶や別れ、無線通信等、会話の場面において使われる。
-DOI, DOhU も見よ。
-<ppp>Vocatives are used in conversational protocols, includeing greeting,
-farewell, and radio communication. </ppp><ppp>See DOI, DOhU.</ppp>
+<h3><title>セルマホ COI</title>
+	<a href="./chapter6.html">第6章</a>
+	<a href="./chapter13.html">第13章</a></h3>
+<bef>
+名前や描写、スムティに前置し呼格を形成する。<!--
+-->呼格は誰に(または誰が)話しているのかを示す。<!--
+-->呼格は挨拶や別れ、無線通信等、会話の場面において使われる。DOI, DOhU も見よ。
+</bef>
 <pre>coi .djan.
 (今日は、ジョン。)</pre>
-<ppp>Greetings, John.</ppp></p>
+
+<en>
+When prefixed to a name, description, or sumti, produces a vocative:
+a phrase which indicates who is being spoken to (or who is speaking).
+Vocatives are used in conversational protocols, includeing greeting,
+farewell, and radio communication. See DOI, DOhU.
+Greetings, John.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CU</title>(<a href="./chapter9.html">第9章</a>)</h3>
-<p>ブリディ内で、前にあるスムティからセルブリを分ける。
-<ppp>Separates the selbri of a bridi from any sumti which precede it.</ppp>
+<h3><title>セルマホ CU</title><a href="./chapter9.html">第9章</a></h3>
+<bef>
+ブリディ内で、前にあるスムティからセルブリを分ける。
 厳密に言うと必要ないのだが、いろいろな終端子を省略するのに役立つ。
-<ppp>Never strictly necessary, but often useful to eliminate various elidable
-terminators.</ppp>
+</bef>
 <pre>le gerku cu klama le zarci
 (犬が店に行く。)</pre>
-<ppp>The dog goes to-the store.</ppp></p>
+
+<en>
+Separates the selbri of a bridi from any sumti which precede it.
+Never strictly necessary, but often useful to eliminate various elidable
+terminators.
+The dog goes to-the store.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ CUhE</title>(<a href="./chapter10.html">第10章</a>)</h3>
-<p>「いつ」、「どこで」、または、「どんな状況であればそのブリディが成り立つか」、
-を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI も見よ。
-<ppp>Forms a question which asks when, where, or in what mode the rest of the
-bridi is true.</ppp><ppp>See PU, CAhA, TAhE, and BAI.</ppp>
+<h3><title>セルマホ CUhE</title><a href="./chapter10.html">第10章</a></h3>
+<bef>
+「いつ」、「どこで」、または、「どんな状況であればそのブリディが成り立つか」、<!--
+-->を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI も見よ。
+</bef>
 <pre>do cu'e klama le zarci
 (いつ店に行くのですか。)</pre>
-<ppp>You [When/Where?] go to-the store?</ppp>
-<ppp>When are you going to the store?</ppp></p>
+
+<en>
+Forms a question which asks when, where, or in what mode the rest of the
+bridi is true.See PU, CAhA, TAhE, and BAI.
+You [When/Where?] go to-the store?
+When are you going to the store?
+</en>
+</item>
 <!-- 20/121 -->
+
+<item>
+<h3><title>セルマホ DAhO</title><a href="./chapter7.html">第7章</a></h3>
+<bef>
+代スムティ(KOhA)や代ブリディ(GOhA)への代入を取り消す。
+</bef>
+
+<en>
+Cancels the assigned significance of all sumti cmavo (of selma'o KOhA)
+and bridi cmavo (of selma'o GOhA).
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ DAhO</title>(<a href="./chapter7.html">第7章</a>)</h3>
-<p>代スムティ(KOhA)や代ブリディ(GOhA)への代入を取り消す。
-<ppp>Cancels the assigned significance of all sumti cmavo (of selma'o KOhA)
-and bridi cmavo (of selma'o GOhA).</ppp></p>
-</item>
-
-<item>
-<h3><title>セルマホ DOI</title>(<a href="./chapter13.html">第13章</a>)</h3>
-<p>汎用的な呼格。
-<ppp>The non-specific vocative indicator.</ppp>
-COI とともに、または単独で用いられる。
-<ppp>May be used with or without COI.</ppp>
-doi と後続する名前のあいだに停止は必用ない。
-<ppp>No pause is required between "doi" and a following name.</ppp>
-DOhU も見よ。
-<ppp>See DOhU.</ppp>
+<h3><title>セルマホ DOI</title><a href="./chapter13.html">第13章</a></h3>
+<bef>
+汎用的な呼格。COI とともに、または単独で用いられる。
+doi と後続する名前のあいだに停止は必用ない。DOhU も見よ。
+</bef>
 <pre>doi frank. mi tavla do
 (フランク。私は君に話している。)</pre>
-<ppp>O Frank, I speak-to you.</ppp>
-<ppp>Frank, I'm talking to you.</ppp></p>
+
+<en>
+The non-specific vocative indicator. May be used with or without COI.
+No pause is required between "doi" and a following name. See DOhU.
+O Frank, I speak-to you.
+Frank, I'm talking to you.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ DOhU</title>(<a href="./chapter13.html">第13章</a>)</h3>
-<p>
-COI や DOI の省略可能な終端子。呼びかけの終わりを示す。
-<ppp>Elidable terminator for COI or DOI. Signals the end of a vocative.</ppp>
+<h3><title>セルマホ DOhU</title><a href="./chapter13.html">第13章</a></h3>
+<bef>COI や DOI の省略可能な終端子。呼びかけの終わりを示す。</bef>
 <pre>coi do'u
 (やあ、誰か。)</pre>
-<ppp>Greetings [terminator]</ppp><ppp>Greetings, O unspecified one!</ppp></p>
+
+<en>
+Elidable terminator for COI or DOI. Signals the end of a vocative.
+Greetings [terminator] Greetings, O unspecified one!
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ FA</title>(<a href="./chapter9.html">第9章</a>)</h3>
-<p>スミティの前につけて、セルマホの何番目の場所に入るのかを示す。
+<h3><title>セルマホ FA</title><a href="./chapter9.html">第9章</a></h3>
+<bef>
+スミティの前につけて、セルマホの何番目の場所に入るのかを示す。
 語順よりも優先される。
-<ppp>Prefix for a sumti, indicating which numbered place in the place
-structure the sumti belongs in; overrides word order.</ppp>
+</bef>
 <pre>fa mi cu klama fi la .atlantas. fe la bastn.
 fo le dargu fu le karce
 (私はアトランタからボストンへその道を通って車で行く。)</pre>
-<ppp>x1 = I go x3 = Atlanta x2 = Boston x4 = the road x5 = the car</ppp>
-<ppp>I go from Atlanta to Boston via the road using the car.</ppp></p>
+
+<en>
+Prefix for a sumti, indicating which numbered place in the place
+structure the sumti belongs in; overrides word order.
+x1 = I go x3 = Atlanta x2 = Boston x4 = the road x5 = the car
+I go from Atlanta to Boston via the road using the car.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ FAhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
-<p>
+<h3><title>セルマホ FAhA</title><a href="./chapter10.html">第10章</a></h3>
+<bef>
 どこでそのブリディの示す事がらが起きたかの方向を示す。
 MOhI をつけるとその方向への動きという意味になり、
 VEhA や VIhA を前置してその方向に沿ってという意味となる。
-<ppp>Specifies the direction in which, or toward which (when marked with
-MOhI) or along which (when prefixed by VEhA or VIhA) the action of the bridi
-takes place</ppp>
+</bef>
 <pre>le nanmu zu'a batci le gerku
 (私の左で男が犬をかむ。)</pre>
-<ppp>The man [left] bites the dog.</ppp>
-<ppp>To my left, the man bites the dog.</ppp></p>
+
+<en>
+Specifies the direction in which, or toward which (when marked with
+MOhI) or along which (when prefixed by VEhA or VIhA) the action of the bridi
+takes place
+The man [left] bites the dog.
+To my left, the man bites the dog.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ FAhO</title>(<a href="./chapter19.html">第19章</a>)</h3>
-<p>文法的な要素ではない機械的なしるし。文章の終わりを示す。
-コンピュータへの入力の際に有用。
+<h3><title>セルマホ FAhO</title><a href="./chapter19.html">第19章</a></h3>
+<bef>
+文法的な要素ではない機械的なしるし。文章の終わりを示す。<!--
+-->コンピュータへの入力の際に有用。
+</bef>
+
+<en>
 <ppp>A mechanical signal, outside the grammar, indicating that there is no
-more text. Useful in talking to computers.</ppp></p>
+more text. Useful in talking to computers.</ppp>
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ FEhE</title>(<a href="./chapter10.html">第10章</a>)</h3>
-<p>
-期間を表す(TAhE、ROI、ZAhO によって作られる)限定詞が後続し、
-それらが時間ではなく空間的な意味を表すことを示す。
-<ppp>Indicates that the following interval modifier (using TAhE, ROI, or
-ZAhO) refers to space rather than time.</ppp>
+<h3><title>セルマホ FEhE</title><a href="./chapter10.html">第10章</a></h3>
+<bef>
+期間を表す(TAhE、ROI、ZAhO によって作られる)限定詞が後続し、<!--
+-->それらが時間ではなく空間的な意味を表すことを示す。
+</bef>
 <pre>ko vi'i fe'e di'i sombo le gurni
 (穀物を一列に等間隔にまきなさい。)</pre>
-<ppp>You-imperative [1-dimensional][space][regularly] sow  the grain.</ppp>
-<ppp>Sow the grain in a line and evenly!</ppp></p>
+
+<en>
+Indicates that the following interval modifier (using TAhE, ROI, or
+ZAhO) refers to space rather than time.
+You-imperative [1-dimensional][space][regularly] sow  the grain.
+Sow the grain in a line and evenly!
+</en>
 </item>
 
-<!-- 27/121 -->
-
 <item>
-<h3><title>セルマホ FEhU</title>(<a href="./chapter9.html">第9章</a>)</h3>
-<p>
-FIhO の省略可能な終端子。
-<ppp>Elidable terminator for FIhO.</ppp>
-その場で作られた法制タグの終わりを示す。
-タグ付けられるスミティが後ろに付く。
-<ppp>Indicates the end of an ad hoc modal tag: the tagged sumti immediately
-follows.</ppp>
+<h3><title>セルマホ FEhU</title><a href="./chapter9.html">第9章</a></h3>
+<bef>
+FIhO の省略可能な終端子。その場で作られた法制タグの終わりを示す。<!--
+-->タグ付けられるスミティが後ろに付く。
+</bef>
 <pre>mi viska do fi'o kanla [fe'u] le zunle
 (私は左目で君を見る。)</pre>
-<ppp>I see you [modal] eye: the left-thing</ppp>
-<ppp>I see you with the left eye.</ppp></p>
+
+<en>
+Elidable terminator for FIhO.
+Indicates the end of an ad hoc modal tag: the tagged sumti immediately follows.
+I see you [modal] eye: the left-thing
+I see you with the left eye.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ FIhO</title>(<a href="./chapter9.html">第9章</a>)</h3>
-<p>
-セルブリの前につけてセルブリを法制タグを作る。
-新たに作られた法制タグは文法的にも意味論的にもセルマホ BAI と同等である。
-<ppp>When placed before a selbri, transforms the selbri into a modal tag,
-grammatically and semantically equivalent to a member of selma'o BAI.</ppp>
+<h3><title>セルマホ FIhO</title><a href="./chapter9.html">第9章</a></h3>
+<bef>
+セルブリの前につけてセルブリを法制タグを作る。<!--
+-->新たに作られた法制タグは文法的にも意味論的にもセルマホ BAI と同等である。
+</bef>
 <pre>mi viska do fi'o kanla le zunle
 (私は左目で君を見る。)</pre>
-<ppp>I see you with eye the left-thing</ppp>
-<ppp>I see you with my left eye.</ppp></p>
+
+<en>
+When placed before a selbri, transforms the selbri into a modal tag,
+grammatically and semantically equivalent to a member of selma'o BAI.
+I see you with eye the left-thing
+I see you with my left eye.
+</en>
 </item>
 
 <item>
-<h3><title>セルマホ FOI</title>(<a href="./chapter17.html">第17章</a>)</h3>
-<p>TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。
-<ppp>Signals the end of a compound alphabet letter word that begins with
-TEI.</ppp>
-この終端詞は省略できない。
-<ppp>Not an elidable terminator.</ppp>
+<h3><title>セルマホ FOI</title><a href="./chapter17.html">第17章</a></h3>
+<bef>
+TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。<!--
+-->この終端詞は省略できない。
+</bef>
 <pre>tei .ebu .akut. bu foi
 (アキュートアクセント記号付きの e)</pre>
-<ppp>("e" "acute")</ppp>
-<ppp>the letter "e" with an acute accent</ppp></p>
-<!-- 30/121 -->
+
+<en>
+Signals the end of a compound alphabet letter word that begins with TEI.
+Not an elidable terminator.
+("e" "acute")
+the letter "e" with an acute accent
+</en>
 </item>
+
+<!-- 30/121 -->
 
 <item>
 <h3><title>セルマホ FUhA</title>(<a href="./chapter18.html">第18章</a>)</h3>
@@ -668,7 +782,7 @@ abstracted-over bridi.</ppp>
 <ppp>I am-the-actor-in modifying the wall color.</ppp>
 <ppp>I act so as to modify the wall color.</ppp>
 <ppp>I change the color of the wall.</ppp>
-<yakuchu>後者の例として、mi jai rinka le nu do morsi がある。</yakuchu>
+<chu># 訳注: 後者の例として、mi jai rinka le nu do morsi がある。</chu>
 </p>
 </item>
 
@@ -1003,11 +1117,11 @@ MEhU も見よ。
 (あれはフォード車だ。)</pre>
 <ppp>That is-a-Ford-type car</ppp>
 <ppp>That's a Ford car.</ppp>
-<yakuchu>ここでは言及されていないが、
+<chu># 訳注: ここでは言及されていないが、
 me はスムティからセルブリを作るのにも使われる。
 というよりも、スムティをセルブリにすることで
-タンルの要素にすることができるということだろう</yakuchu>
-<yakuchu>do me la djan. は do du la djan. と同じ</yakuchu>
+タンルの要素にすることができるということだろう</chu>
+<chu># 訳注: do me la djan. は do du la djan. と同じ</chu>
 </p>
 </item>
 
@@ -1034,9 +1148,9 @@ numerically-based selbri.</ppp>
 (ジョンとフランクは2人兄弟だ。)</pre>
 <ppp>John in-a-mass-with Frank are-a-brother-type-of twosome.</ppp>
 <ppp>John and Frank are two brothers.</ppp>
-<yakuchu>mei は基数(2人、2本、2個、2匹等々)を示す</yakuchu>
-<yakuchu>上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
-となる</yakuchu>
+<chu># 訳注: mei は基数(2人、2本、2個、2匹等々)を示す</chu>
+<chu># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
+となる</chu>
 </p>
 <!-- 70/121 -->
 </item>
@@ -1053,7 +1167,7 @@ TEhU で終わる。
 (2 鼠 + 2 兎 = 2 動物)</pre>
 <ppp>the-number two rats plus two rabbits equals the-number four animals</ppp>
 <ppp>2 rats + 2 rabbits = 4 animals.</ppp>
-<yakuchu>「dimensioned unit」を「単位つきの量」と訳したが確信がない</yakuchu>
+<chu># 訳注: 「dimensioned unit」を「単位つきの量」と訳したが確信がない</chu>
 </p>
 </item>
 
@@ -1350,10 +1464,10 @@ SEhU で終わる。
 <pre>la frank. prami sei gleki [se'u] la djein.
 (フランク(彼は幸せだ)はジェーンを愛している。)</pre>
 <ppp>Frank loves (he is happy) Jane.</ppp>
-<yakuchu>どうしてここで se'u が省略できるのか</yakuchu>
-<yakuchu>la djein. が gleki の x2 とならないのは何故か</yakuchu>
-<yakuchu>gleki の x2 には抽象スムティしか来ないから、か</yakuchu>
-<yakuchu>PEG を読めばわかるかもしれない。</yakuchu>
+<chu># 訳注: どうしてここで se'u が省略できるのか</chu>
+<chu># 訳注: la djein. が gleki の x2 とならないのは何故か</chu>
+<chu># 訳注: gleki の x2 には抽象スムティしか来ないから、か</chu>
+<chu># 訳注: PEG を読めばわかるかもしれない。</chu>
 </p>
 </item>
 
@@ -1391,9 +1505,9 @@ SEI や SOI の省略可能な終端子。
 (私はあなたを愛していて、そしてあなたも私を愛している。)</pre>
 <ppp>I love you [reciprocally] me.</ppp>
 <ppp>I love you and vice versa.</ppp>
-<yakuchu>soi の二番目の引数は直前のスムティが入る</yakuchu>
-<br/><yakuchu>つまり上記は mi prami do soi mi do となり、</yakuchu>
-<yakuchu>mi prami do であり、その mi と do を入れ換えても真である、となる</yakuchu>
+<chu># 訳注: soi の二番目の引数は直前のスムティが入る</chu>
+<chu># 訳注: つまり上記は mi prami do soi mi do となり、</chu>
+<chu># 訳注: mi prami do であり、その mi と do を入れ換えても真である、となる</chu>
 </p>
 </item>
 
@@ -1493,8 +1607,8 @@ vanju gi tolci'o [tu'u]
 (最良なのは、食事は新しいもので、ワインは古いものだ。)</pre>
 <ppp>is-best: [start] if food, then new. if wine, then old [is bes].</ppp>
 <ppp>As for what is best: if food, then new [is best]; if wine, then old [is best]</ppp>
-<yakuchu>最良なものである: (それは食事ではない または 新しい) かつ
-(それはワインではない または 古い)</yakuchu>
+<chu># 訳注: 最良なものである: (それは食事ではない または 新しい) かつ
+(それはワインではない または 古い)</chu>
 </p>
 </item>
 
@@ -1530,9 +1644,9 @@ knowledge, or the present stage of discourse.</ppp>
 (そこで男が犬をかむ。)</pre>
 <ppp>The man [medium distance] bites the dog.</ppp>
 <ppp>Over there the man is biting the dog</ppp>
-<yakuchu>va のなかに ca が含まれているのかもしれない。調べること</yakuchu>
-<yakuchu>そういうことではなく、単に文脈から英語訳が is biting
-になっているだけか</yakuchu>
+<chu># 訳注: va のなかに ca が含まれているのかもしれない。調べること</chu>
+<chu># 訳注: そういうことではなく、単に文脈から英語訳が is biting
+になっているだけか</chu>
 </p>
 </item>
 
@@ -1659,7 +1773,7 @@ interpreted as having nothing more to say.</ppp>
 (ちょうど今から戦うところだ。)</pre>
 <ppp>[inchoative] fight.</ppp>
 <ppp>I'm on the verge of fighting.</ppp>
-<yakuchu>pu'o は起動相であり何かをする直前を意味する</yakuchu>
+<chu># 訳注: pu'o は起動相であり何かをする直前を意味する</chu>
 </p>
 </item>
 
@@ -1759,8 +1873,8 @@ which it applies.</ppp>
 (全ての魚を好む人がいる。)</pre>
 <ppp>For-at-least-one X which is-a-man, for-all Ys which are-fish: X loves Y</ppp>
 <ppp>There is a man who loves all fish.</ppp>
-<yakuchu>底本では su'o da poi remna ro &lt;da&gt; poi finpe zo'u da prami de
-だが da でなくて de だろう。</yakuchu>
+<chu># 訳注: 底本では su'o da poi remna ro &lt;da&gt; poi finpe zo'u da prami de
+だが da でなくて de だろう。</chu>
 </p>
 </item>
 
@@ -1791,7 +1905,5 @@ which it applies.</ppp>
 の訳だがよくわからない</chu><br/>
 <chu>#44 note: 名辞組の要素として間制も取れるということか。例文が必要</chu>
 </after>
-</body_>
-
 </body>
 </chapter>
