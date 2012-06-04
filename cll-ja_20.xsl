@@ -105,14 +105,27 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </xsl:template>
 
 <xsl:template match="pre">
-<pre><xsl:value-of select="."/></pre>
+<pre disable-output-escaping="yes">
+<xsl:apply-templates select="lojban"/>
+(<xsl:apply-templates select="japanese"/>)
+</pre>
+</xsl:template>
+
+<xsl:template match="lojban">
+<xsl:value-of select="."/>
+</xsl:template>
+
+<xsl:template match="japanese">
+<xsl:copy-of select="."/>
 </xsl:template>
 
 <xsl:template match="en">
 </xsl:template>
 
+<!--
 <xsl:template match="sub">
-<sub><xsl:value-of select="."/></sub>
+<sub>test<xsl:value-of select="."/></sub>
 </xsl:template>
+-->
 
 </xsl:stylesheet>
