@@ -12,21 +12,27 @@
 	indent="yes" />
 
 <xsl:template match="/">
-<html xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates /></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja-JP">
+<xsl:apply-templates />
+</html>
 </xsl:template>
 
 <xsl:template match="chapter">
 <head><xsl:apply-templates select="meta" /></head>
 <body>
 <div class="nav"><xsl:apply-templates select="link" /></div>
-<center>
+<div align="center">
 <img alt="[Cartoon]" width="405" height="405"><xsl:attribute name="src">
 	<xsl:value-of select="image" /></xsl:attribute></img>
-</center>
+</div>
 <xsl:apply-templates select="before" />
 <h2><xsl:value-of select="/chapter/meta/title"/></h2>
 <p><xsl:value-of select="p" /></p>
 <xsl:apply-templates select="body" />
+<p><a href="http://validator.w3.org/check?uri=referer"><img
+	src="http://www.w3.org/Icons/valid-xhtml10"
+	alt="valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+</p>
 </body>
 </xsl:template>
 
@@ -34,13 +40,20 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="./cll-ja.css" />
+<link rev="MADE"><xsl:attribute name="href">
+	<xsl:value-of select="address"/></xsl:attribute></link>
+<link rel="INDEX" href="./index.html" />
+<link rel="NEXT"><xsl:attribute name="href">
+	<xsl:value-of select="/chapter/link/next/address" /></xsl:attribute></link>
+<link rel="PREV"><xsl:attribute name="href">
+	<xsl:value-of select="/chapter/link/prev/address" /></xsl:attribute></link>
 <meta name="Author"><xsl:attribute name="content">
 <xsl:apply-templates select="author" />
 <xsl:value-of select="author" /></xsl:attribute></meta>
 <title><xsl:value-of select="title" /></title>
-<style type="text/css">
+<!-- <style type="text/css">
 chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
-</style>
+</style> -->
 
 </xsl:template>
 
@@ -93,7 +106,7 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </xsl:template>
 
 <xsl:template match="chu">
-<chu><xsl:value-of select="." /></chu><br/>
+<font size="2" color="#555555"><xsl:value-of select="." /></font><br/>
 </xsl:template>
 
 <xsl:template match="pre">
