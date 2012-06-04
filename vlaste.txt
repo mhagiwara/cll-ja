@@ -39,7 +39,7 @@ description selbri	描写セルブリ
 description	描写
 descriptor	 描写型の冠詞
 direct question	直接疑問
-discurse	談話
+discourse	談話
 discursive	談話系
 elidable	省略可能な
 ellipsize	省略
