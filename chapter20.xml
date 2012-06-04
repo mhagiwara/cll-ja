@@ -60,7 +60,7 @@ in alphabetical order.</ppp>
 the most common use is shown.</ppp>
 
 <item>
-<h3>セルマホ A (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ A</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <ppp>selma'o A (Chapter 14)</ppp>
 <p>論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
 <ppp>Specifies a logical connection (e.g. "and", "or", "if"), usually
@@ -75,7 +75,7 @@ a, e, i, o, u, y を表すということ</chu>
 </item>
 
 <item>
-<h3>セルマホ BAI (<a href="./chapter9.html">第9章</a>)
+<h3><title>セルマホ BAI</title>(<a href="./chapter9.html">第9章</a>)
 <ppp>selma'o BAI (Chapter 9)</ppp></h3>
 <p>
 セルブリの構造に表現したい関係を表す場所がなかった場合に、
@@ -90,7 +90,7 @@ of some other selbri.</ppp>
 </item>
 
 <item>
-<h3>セルマホ BAhE (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ BAhE</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>
 後に続く一語を強調する。
 またはそれが臨時語(その場で作った単語)であることを示す。
@@ -103,7 +103,7 @@ of some other selbri.</ppp>
 </item>
 
 <item>
-<h3>セルマホ BE (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ BE</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>タンルを形成するひとつの要素の持つ場所にスムティをいれる。
 指定がなければそのスムティは x2, x3 ... と次に来る場所にはいる。
 BE は LE による描写のなかで最も有用だ。
@@ -121,7 +121,7 @@ in  that order. BE is most useful in descriptions formed with LE. See BEI, BEhO.
 </item>
 
 <item>
-<h3>セルマホ BEI (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ BEI</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>BE によってタンルの構成単位に付加された複数のスムティ同士を分ける。
 <ppp>Separates multiple sumti attached by BE to a tanru unit.</ppp>
 <pre>mi klama be le zarci bei le zdani be'o troci
@@ -134,7 +134,7 @@ I try to go from the home to the market</ppp>
 </item>
 
 <item>
-<h3>セルマホ BEhO (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ BEhO</title> (<a href="./chapter5.html">第5章</a>)</h3>
 <p>
 BE に対する省略可能な終端詞。
 <ppp>Elidable terminator for BE. </ppp>
@@ -146,7 +146,7 @@ BE に対する省略可能な終端詞。
 </item>
 
 <item>
-<h3>セルマホ BIhE (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ BIhE</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 数学演算子の前につけて、他の数学演算子よりも優先度が高いことを示す。
 この演算子の前後の被演算子はより強く結びつく。
@@ -164,7 +164,7 @@ than other mathematical operators, binding its operands more closely.</ppp>
 </item>
 
 <item>
-<h3>セルマホ BIhI (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ BIhI</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>
 スムティまたはタンルの構成単位(あるいはそれ以外の何か)を結びつけることで、
 範囲を表す。
@@ -178,7 +178,7 @@ intervals. See GAhO.</ppp>
 </item>
 
 <item>
-<h3>セルマホ BO (<a href="./chapter5.html">第5章</a>, <a href="./chapter15.html">第15章</a>, <a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ BO</title>(<a href="./chapter5.html">第5章</a>, <a href="./chapter15.html">第15章</a>, <a href="./chapter18.html">第18章</a>)</h3>
 <p>タンルの構成単位を強く結合する。
 <ppp>Joins tanru units, binding them together closely.</ppp>
 論理的にまたは非論理的に、節や文などを結合するのに使える。
@@ -199,7 +199,7 @@ bo がなければ、ta (cmalu nixli) ckule のように左から結合し、
 </item>
 
 <item>
-<h3>セルマホ BOI (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ BOI</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 PA や BY のための省略可能な終端子。
 <ppp>Elidable terminator for PA or BY.</ppp>
@@ -216,7 +216,7 @@ PA や BY のための省略可能な終端子。
 </item>
 
 <item>
-<h3>セルマホ BU (<a href="./chapter17.html">第17章</a>)</h3>
+<h3><title>セルマホ BU</title>(<a href="./chapter17.html">第17章</a>)</h3>
 <p>
 全ての語の後置することができる。
 主にアルファベットの文字またはその名前に後置し、
@@ -232,7 +232,7 @@ letters.</ppp>
 </item>
 
 <item>
-<h3>セルマホ BY (<a href="./chapter17.html">第17章</a>)</h3>
+<h3><title>セルマホ BY</title>(<a href="./chapter17.html">第17章</a>)</h3>
 <p>
 ロジバンにおける文字を表す語と文字を表す語の解釈を変えるためのシフト記号の役割を果たす語。
 <ppp>Words representing the letters of the Lojban alphabet, plus various
@@ -248,7 +248,7 @@ shift words which alter the interpretation of other letter words.</ppp>
 </item>
 
 <item>
-<h3>セルマホ CAI (<a href="./chapter13.html">第13章</a>)</h3>
+<h3><title>セルマホ CAI</title>(<a href="./chapter13.html">第13章</a>)</h3>
 <p>感情の程度(最高に、強く、弱く、全くない)を表す品詞。
 <ppp>A particle which indicates the intensity of an emotion: maximum,
 strong, weak, or not at all.</ppp>
@@ -263,7 +263,7 @@ strong, weak, or not at all.</ppp>
 </item>
 
 <item>
-<h3>セルマホ CAhA (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ CAhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>ブリディが事実、可能性、能力のいずれを表しているのかを決める。
 <ppp>Specifies whether a bridi refers to an actual fact,
 a potential (achieved or not), or merely an innate capability.</ppp>
@@ -274,7 +274,7 @@ a potential (achieved or not), or merely an innate capability.</ppp>
 </item>
 
 <item>
-<h3>セルマホ CEI (<a href="./chapter7.html">第7章</a>)</h3>
+<h3><title>セルマホ CEI</title>(<a href="./chapter7.html">第7章</a>)</h3>
 <p>セルブリによる記述を5個の代ブリディ(broda, brode, brodi, brodo, brodu)
 のうちのひとつに代入する。
 <ppp>Assigns a selbri definition to one of the five pro-bridi gismu:
@@ -288,7 +288,7 @@ The green thingy is large. The red thingy is small.</ppp></p>
 </item>
 
 <item>
-<h3>セルマホ CEhE (<a href="./chapter14.html">第14章</a>, <a href="./chapter16.html">第16章</a>)</h3>
+<h3><title>セルマホ CEhE</title>(<a href="./chapter14.html">第14章</a>, <a href="./chapter16.html">第16章</a>)</h3>
 <p>複数の名辞を名辞組にまとめる。
 <ppp>Joins multiple terms into a termset.</ppp>
 名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
@@ -306,7 +306,7 @@ for equal quantifier scope, or for special constructs in tenses.</ppp><br/>
 </item>
 
 <item>
-<h3>セルマホ CO (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ CO</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>
 タンルの構成要素の間に置かれ、それをひっくりかえす。
 つまり、後続するタンルの構成単位が先行するタンルの構成単位を修飾するようにする。
@@ -321,7 +321,7 @@ that the following tanru unit modifies the previous one.</ppp>
 </item>
 
 <item>
-<h3>セルマホ COI (<a href="./chapter6.html">第6章</a>, <a href="./chapter13.html">第13章</a>)</h3>
+<h3><title>セルマホ COI</title>(<a href="./chapter6.html">第6章</a>, <a href="./chapter13.html">第13章</a>)</h3>
 <p>名前や描写、スムティに前置し呼格を形成する。
 呼格は誰に(または誰が)話しているのかを示す。
 <ppp>When prefixed to a name, description, or sumti, produces a vocative:
@@ -336,7 +336,7 @@ farewell, and radio communication. </ppp><ppp>See DOI, DOhU.</ppp>
 </item>
 
 <item>
-<h3>セルマホ CU (<a href="./chapter9.html">第9章</a>)</h3>
+<h3><title>セルマホ CU</title>(<a href="./chapter9.html">第9章</a>)</h3>
 <p>ブリディ内で、前にあるスムティからセルブリを分ける。
 <ppp>Separates the selbri of a bridi from any sumti which precede it.</ppp>
 厳密に言うと必要ないのだが、いろいろな終端子を省略するのに役立つ。
@@ -348,7 +348,7 @@ terminators.</ppp>
 </item>
 
 <item>
-<h3>セルマホ CUhE (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ CUhE</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>「いつ」、「どこで」、または、「どんな状況であればそのブリディが成り立つか」、
 を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI も見よ。
 <ppp>Forms a question which asks when, where, or in what mode the rest of the
@@ -361,14 +361,14 @@ bridi is true.</ppp><ppp>See PU, CAhA, TAhE, and BAI.</ppp>
 </item>
 
 <item>
-<h3>セルマホ DAhO (<a href="./chapter7.html">第7章</a>)</h3>
+<h3><title>セルマホ DAhO</title>(<a href="./chapter7.html">第7章</a>)</h3>
 <p>代スムティ(KOhA)や代ブリディ(GOhA)への代入を取り消す。
 <ppp>Cancels the assigned significance of all sumti cmavo (of selma'o KOhA)
 and bridi cmavo (of selma'o GOhA).</ppp></p>
 </item>
 
 <item>
-<h3>セルマホ DOI (<a href="./chapter13.html">第13章</a>)</h3>
+<h3><title>セルマホ DOI</title>(<a href="./chapter13.html">第13章</a>)</h3>
 <p>汎用的な呼格。
 <ppp>The non-specific vocative indicator.</ppp>
 COI とともに、または単独で用いられる。
@@ -384,7 +384,7 @@ DOhU も見よ。
 </item>
 
 <item>
-<h3>セルマホ DOhU (<a href="./chapter13.html">第13章</a>)</h3>
+<h3><title>セルマホ DOhU</title>(<a href="./chapter13.html">第13章</a>)</h3>
 <p>
 COI や DOI の省略可能な終端子。呼びかけの終わりを示す。
 <ppp>Elidable terminator for COI or DOI. Signals the end of a vocative.</ppp>
@@ -394,7 +394,7 @@ COI や DOI の省略可能な終端子。呼びかけの終わりを示す。
 </item>
 
 <item>
-<h3>セルマホ FA (<a href="./chapter9.html">第9章</a>)</h3>
+<h3><title>セルマホ FA</title>(<a href="./chapter9.html">第9章</a>)</h3>
 <p>スミティの前につけて、セルマホの何番目の場所に入るのかを示す。
 語順よりも優先される。
 <ppp>Prefix for a sumti, indicating which numbered place in the place
@@ -407,7 +407,7 @@ fo le dargu fu le karce
 </item>
 
 <item>
-<h3>セルマホ FAhA (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ FAhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>
 どこでそのブリディの示す事がらが起きたかの方向を示す。
 MOhI をつけるとその方向への動きという意味になり、
@@ -422,7 +422,7 @@ takes place</ppp>
 </item>
 
 <item>
-<h3>セルマホ FAhO (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ FAhO</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>文法的な要素ではない機械的なしるし。文章の終わりを示す。
 コンピュータへの入力の際に有用。
 <ppp>A mechanical signal, outside the grammar, indicating that there is no
@@ -430,7 +430,7 @@ more text. Useful in talking to computers.</ppp></p>
 </item>
 
 <item>
-<h3>セルマホ FEhE (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ FEhE</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>
 期間を表す(TAhE、ROI、ZAhO によって作られる)限定詞が後続し、
 それらが時間ではなく空間的な意味を表すことを示す。
@@ -445,7 +445,7 @@ ZAhO) refers to space rather than time.</ppp>
 <!-- 27/121 -->
 
 <item>
-<h3>セルマホ FEhU (<a href="./chapter9.html">第9章</a>)</h3>
+<h3><title>セルマホ FEhU</title>(<a href="./chapter9.html">第9章</a>)</h3>
 <p>
 FIhO の省略可能な終端子。
 <ppp>Elidable terminator for FIhO.</ppp>
@@ -460,7 +460,7 @@ follows.</ppp>
 </item>
 
 <item>
-<h3>セルマホ FIhO (<a href="./chapter9.html">第9章</a>)</h3>
+<h3><title>セルマホ FIhO</title>(<a href="./chapter9.html">第9章</a>)</h3>
 <p>
 セルブリの前につけてセルブリを法制タグを作る。
 新たに作られた法制タグは文法的にも意味論的にもセルマホ BAI と同等である。
@@ -473,7 +473,7 @@ grammatically and semantically equivalent to a member of selma'o BAI.</ppp>
 </item>
 
 <item>
-<h3>セルマホ FOI (<a href="./chapter17.html">第17章</a>)</h3>
+<h3><title>セルマホ FOI</title>(<a href="./chapter17.html">第17章</a>)</h3>
 <p>TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。
 <ppp>Signals the end of a compound alphabet letter word that begins with
 TEI.</ppp>
@@ -487,7 +487,7 @@ TEI.</ppp>
 </item>
 
 <item>
-<h3>セルマホ FUhA (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ FUhA</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 後続する数式を逆ポーランド記法(RP)で解釈させる。
 逆ポーランド記法とは、数学演算子を被演算子の後に置く記法である。
@@ -501,7 +501,7 @@ operators follow their operands.</ppp>
 </item>
 
 <item>
-<h3>セルマホ FUhE (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ FUhE</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>UI に属する心態詞が後続し、
 普通そうであるようにその指標が先行する語にかかるのではなく、
 後続する語にかかるようにする。その効果は fu'o で終わる。
@@ -514,7 +514,7 @@ preceding word, as usual, but rather all following words until a FUhO.</ppp>
 </item>
 
 <item>
-<h3>セルマホ FUhO (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ FUhO</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>
 UI に属する指標の効果を終わらせる。
 <ppp>Cancels all indicators of selma'o UI which are in effect.</ppp>
@@ -525,7 +525,7 @@ UI に属する指標の効果を終わらせる。
 </item>
 
 <item>
-<h3>セルマホ GA (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ GA</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>
 論理的に接続された2つのスミティやブリディ末端などの始まりを示す。
 <ppp>Indicates the beginning of two logically connected sumti, bridi-tails,
@@ -541,7 +541,7 @@ or various other things.</ppp>
 </item>
 
 <item>
-<h3>セルマホ GAhO (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ GAhO</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>BIhI によって表される範囲が端点を含むかどうかを示す。
 <ppp>Specifies whether an interval specified by BIhI includes or excludes its
 endpoints.</ppp>
@@ -555,7 +555,7 @@ the left- and the right-hand endpoints.</ppp>
 </item>
 
 <item>
-<h3>セルマホ GEhU (<a href="./chapter8.html">第8章</a>)</h3>
+<h3><title>セルマホ GEhU</title>(<a href="./chapter8.html">第8章</a>)</h3>
 <p>
 GOI の省略可能な終端子。
 <ppp>Elidable terminator for GOI. </ppp>
@@ -569,7 +569,7 @@ KUhO も見よ。
 </item>
 
 <item>
-<h3>セルマホ GI (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ GI</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>GA、GUhA、JOI といった前置論理接続詞に後置し、
 2つの論理的に、または非論理的に接続されたスムティ、タンルの構成単位、
 ブリディ末端等を分ける。
@@ -582,7 +582,7 @@ connective involving GA, GUhA, or JOI.</ppp>
 </item>
 
 <item>
-<h3>セルマホ GIhA (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ GIhA</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>
 2つのブリディ末端が先行するスムティを持たず、
 またいくつかの後続するスムティを持つ場合に、
@@ -596,7 +596,7 @@ but not including an preceding sumti.</ppp>
 </item>
 
 <item>
-<h3>セルマホ GOI (<a href="./chapter8.html">第8章</a>)</h3>
+<h3><title>セルマホ GOI</title>(<a href="./chapter8.html">第8章</a>)</h3>
 <p>関係句の開始を示す。
 従属する(後続する)スムティが別の(先行する)スムティに関係づけられる。
 <ppp>Specifies the beginning of a relative phrase, which associates a
@@ -609,7 +609,7 @@ GEhU や NOI も見よ。
 </item>
 
 <item>
-<h3>セルマホ GOhA (<a href="./chapter7.html">第7章</a>)</h3>
+<h3><title>セルマホ GOhA</title>(<a href="./chapter7.html">第7章</a>)</h3>
 <p>ブリブラの代わりとなる全てのシュマボを含む全般的なセルマホ。
 <ppp>A general selma'o for all cmavo which can take the place of brivla.</ppp>
 いくつかのグループに分けられる。
@@ -621,7 +621,7 @@ A: 私は店に行く。B: 私も。</pre>
 </item>
 
 <item>
-<h3>セルマホ GUhA (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ GUhA</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>論理的に接続された2つのタンルの構成単位の始まりを示す。
 <ppp>Indicates the beginning of two logically connected tanru units.</ppp>
 論理的に接続されたタンルを形成するときに GA の代わりに使う。GI も見よ。
@@ -632,7 +632,7 @@ A: 私は店に行く。B: 私も。</pre>
 </item>
 
 <item>
-<h3>セルマホ I (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ I</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>2つの文を分ける。
 <ppp>Separates two sentences from each other.</ppp>
 <pre>mi klama le zarci .i mi klama le zdani
@@ -641,7 +641,7 @@ A: 私は店に行く。B: 私も。</pre>
 </item>
 
 <item>
-<h3>セルマホ JA (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ JA</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>2つのタンル、数学被演算子、間制、抽象化の間の論理的接続を示す。
 <ppp>Specifies a logical connection (e.g. "and", "or", "if") between two tanru
 units, mathematical operands, tenses, or abstractions.</ppp>
@@ -651,7 +651,7 @@ units, mathematical operands, tenses, or abstractions.</ppp>
 </item>
 
 <item>
-<h3>セルマホ JAI (<a href="./chapter9.html">第9章</a>)</h3>
+<h3><title>セルマホ JAI</title>(<a href="./chapter9.html">第9章</a>)</h3>
 <p>間制または法制を後置して、セルブリにつけて法制場所でセルブリの x1 を
 置き換える演算子を作る。
 <ppp>When followed by a tense or modal, creates a conversion operator
@@ -672,7 +672,7 @@ abstracted-over bridi.</ppp>
 </item>
 
 <item>
-<h3>セルマホ JOI (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ JOI</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>2つのスムティ、タンルの構成単位等の非論理的接続(例:
 集団として、あるいは組として、または並びとして、一緒に)を示す。
 <ppp>Specifies a non-logical connection (e.g. together-with-as-mass, -set,
@@ -686,7 +686,7 @@ analogous to GA.</ppp>
 </item>
 
 <item>
-<h3>セルマホ JOhI (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ JOhI</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>後続する数学被演算子(TEhU で終わるリスト)が数学のベクトル(一次元配列)で
 あることを示す。
 <ppp>Indicates that the following mathematical operands (a list terminated by
@@ -700,7 +700,7 @@ array (four, six)</ppp>
 </item>
 
 <item>
-<h3>セルマホ KE (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ KE</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>論理的接続やタンル形成等のために KE と後続する KEhE
 で囲まれた部分をグループ化する。
 <ppp>Groups everything between itself and a following KEhE for purposes of
@@ -715,7 +715,7 @@ KE と KEhE は数式(VEI、VEhO を見よ)や、談話系(TO、TOI を見よ)�
 </item>
 
 <item>
-<h3>セルマホ KEI (<a href="./chapter11.html">第11章</a>)</h3>
+<h3><title>セルマホ KEI</title>(<a href="./chapter11.html">第11章</a>)</h3>
 <p>
 NU の省略可能な終端子。
 <ppp>Elidable terminator for NU.</ppp>
@@ -728,7 +728,7 @@ NU の省略可能な終端子。
 </item>
 
 <item>
-<h3>セルマホ KEhE (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ KEhE</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>
 KE の省略可能な終端子。グループ化の終わりを示す。
 <ppp>Elidable terminator for KE.</ppp><ppp>Marks the end of a grouping.</ppp>
@@ -739,7 +739,7 @@ KE の省略可能な終端子。グループ化の終わりを示す。
 </item>
 
 <item>
-<h3>セルマホ KI (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ KI</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>
 間制の後につけて、「貼り付き」にする。
 つまり、再び KI が現われるまでのすべてのブリディに掛かるようにする。
@@ -751,7 +751,7 @@ further bridi until reset by another appearance of KI.</ppp>
 </item>
 
 <item>
-<h3>セルマホ KOhA (<a href="./chapter7.html">第7章</a>)</h3>
+<h3><title>セルマホ KOhA</title>(<a href="./chapter7.html">第7章</a>)</h3>
 <p>代スムティとして使われるすべてのシュマボを総称するセルマホ。
 <ppp>A general selma'o which contains all cmavo which can substitute for
 sumti.</ppp>
@@ -764,7 +764,7 @@ sumti.</ppp>
 </item>
 
 <item>
-<h3>セルマホ KU (<a href="./chapter6.html">第6章</a>, <a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ KU</title>(<a href="./chapter6.html">第6章</a>, <a href="./chapter10.html">第10章</a>)</h3>
 <p>LE または、一部の使いかたをした場合の LA の省略可能な終端子。
 <ppp>Elidable terminator for LE and some uses of LA.</ppp>
 描写スムティの終わりを示す。
@@ -780,7 +780,7 @@ and in the compound NA+KU to indicate natural language-style negation.</ppp>
 </item>
 
 <item>
-<h3>セルマホ KUhE (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ KUhE</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>PEhO の省略可能な終端子。数式の前置記法の終わりを示す
 (前置記法では演算子が被演算子の前につく)。
 <ppp>Elidable terminator for PEhO: indicates the end of a forethought
@@ -793,7 +793,7 @@ six</ppp></p>
 
 <item>
 
-<h3>セルマホ KUhO (<a href="./chapter8.html">第8章</a>)</h3>
+<h3><title>セルマホ KUhO</title>(<a href="./chapter8.html">第8章</a>)</h3>
 <p>
 NOI の省略可能な終端子。
 <ppp>Elidable terminator for NOI.</ppp>
@@ -806,7 +806,7 @@ NOI の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ LA (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ LA</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>名前を示す語(またはセルブリ)を人や物を名前で示すスムティに変える描写型の冠詞。
 <ppp>Descriptors which change name words (or selbri) into sumti which
 identify people or things by name.</ppp>
@@ -821,7 +821,7 @@ LE に類似。
 
 <item>
 
-<h3>セルマホ LAU (<a href="./chapter17.html">第17章</a>)</h3>
+<h3><title>セルマホ LAU</title>(<a href="./chapter17.html">第17章</a>)</h3>
 <p>後続するアルファベットの文字と結びついて以下を示すマーカーとなる。
 小文字から大文字への変化、フォントの変更、句読点等。
 <ppp>Cmavo which combine with the following alphabetic letter to represent a
@@ -834,7 +834,7 @@ etc.)</ppp>
 
 <item>
 
-<h3>セルマホ LAhE (<a href="./chapter6.html">第6章</a>)</h3>
+<h3><title>セルマホ LAhE</title>(<a href="./chapter6.html">第6章</a>)</h3>
 <p>スムティに前置し、それを意味的に関係のある別のスムティに変える限定詞。
 <ppp>Qualifiers which, when prefixed to a sumti, change it into another sumti
 with related meaning.</ppp>
@@ -850,7 +850,7 @@ LUhU も見よ。
 
 <item>
 
-<h3>セルマホ LE (<a href="./chapter6.html">第6章</a>)</h3>
+<h3><title>セルマホ LE</title>(<a href="./chapter6.html">第6章</a>)</h3>
 <p>セルブリをそれの x1 に来る物を表すスムティに変える描写型の冠詞。
 <ppp>Descriptors which make selbri into sumti which describe or specify things
 that fit into the x1 place of the selbri.</ppp>
@@ -864,7 +864,7 @@ LA、KU を見よ。
 
 <item>
 
-<h3>セルマホ LEhU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ LEhU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>LOhU で始まる引用の終わりを示す。
 <ppp>Indicates the end of a quotation begun with LOhU.</ppp>
 省略できない終端子。
@@ -877,7 +877,7 @@ LA、KU を見よ。
 
 <item>
 
-<h3>セルマホ LI (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ LI</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>数字やその他の数式を数や数的表現を示すスムティに変える記述子。
 <ppp>Descriptors which change numbers or other mathematical expressions into
 sumti which specify numbers or numerical expressions.</ppp>
@@ -892,7 +892,7 @@ LOhO も見よ。
 
 <item>
 
-<h3>セルマホ LIhU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ LIhU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>
 LU の省略可能な終端子。
 <ppp>Elidable terminator for LU.</ppp>
@@ -905,7 +905,7 @@ LU の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ LOhO (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ LOhO</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 LI の省略可能な終端子。
 <ppp>Elidable terminator for LI. </ppp>
@@ -918,7 +918,7 @@ LI によって示される数式を終わりにする。
 </item>
 
 <item>
-<h3>セルマホ LOhU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ LOhU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>引用(スムティ)の始まりを示す。
 この場合の引用はそれがロジバンにおける語から成るものであれば、
 それが文の形を成しているかどうかに関わらず、文法的に正しいことになる。
@@ -935,7 +935,7 @@ LEhU で終わる。
 
 <item>
 
-<h3>セルマホ LU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ LU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>
 引用(スムティ)の始まりを示す。
 この場合の引用は引用されている部分も文法的に正しいロジバンの文章でなければ、
@@ -951,7 +951,7 @@ LIhU で終わる。
 
 <item>
 
-<h3>セルマホ LUhU (<a href="./chapter6.html">第6章</a>)</h3>
+<h3><title>セルマホ LUhU</title>(<a href="./chapter6.html">第6章</a>)</h3>
 <p>
 LAhE や NAhE+BO の省略可能な終端子。
 <ppp>Elidable terminator for LAhE and NAhE+BO.</ppp>
@@ -965,7 +965,7 @@ LAhE や NAhE+BO の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ MAI (<a href="./chapter18.html">第18章</a>, <a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ MAI</title>(<a href="./chapter18.html">第18章</a>, <a href="./chapter19.html">第19章</a>)</h3>
 <p>数字や文字の並びに後置し&free_modifier;を作る。
 それは文章のインデックス番号となる。
 <ppp>When suffixed to a number or string of letter words, produces a free modifier
@@ -978,7 +978,7 @@ which serves as an index number within a text.</ppp>
 
 <item>
 
-<h3>セルマホ MAhO (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ MAhO</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>文字や他の被演算子から数学演算子を作る。
 <ppp>Produces a mathematical operator from a letter or other operand.</ppp>
 TEhU、VUhU も見よ。
@@ -991,7 +991,7 @@ TEhU、VUhU も見よ。
 
 <item>
 
-<h3>セルマホ ME (<a href="./chapter5.html">第5章</a>, <a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ ME</title>(<a href="./chapter5.html">第5章</a>, <a href="./chapter18.html">第18章</a>)</h3>
 <p>スムティからタンルの構成単位を作る。
 それはスムティによって意味されるものに当てはまる。
 <ppp>Produces a tanru unit from a sumti, which is applicable to the things
@@ -1012,7 +1012,7 @@ me はスムティからセルブリを作るのにも使われる。
 
 <item>
 
-<h3>セルマホ MEhU (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ MEhU</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>ME の省略可能な終端子。
 <ppp>The elidable terminator for ME.</ppp>
 タンルの構成単位へと変換されたスムティの末尾を示す。
@@ -1025,7 +1025,7 @@ me はスムティからセルブリを作るのにも使われる。
 
 <item>
 
-<h3>セルマホ MOI (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ MOI</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>数やその他の量を示す語の後について、数に関するさまざまなセルブリを作る。
 <ppp>Suffixes added to numbers or other quantifiers to make various
 numerically-based selbri.</ppp>
@@ -1042,7 +1042,7 @@ numerically-based selbri.</ppp>
 
 <item>
 
-<h3>セルマホ MOhE (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ MOhE</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>スムティから数学被演算子をつくる。これは単位つきの量として使われる。
 <ppp>Produces a mathematical operand from a sumti;
 used to make dimensioned units.</ppp>
@@ -1058,7 +1058,7 @@ TEhU で終わる。
 
 <item>
 
-<h3>セルマホ MOhI (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ MOhI</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>空間における動きを表す間制フラグ。動きの方向は後続する FAhA
 シマヴォによって示す。
 <ppp>A tense flag indicating movement in space, in a direction specified by
@@ -1072,7 +1072,7 @@ a following FAhA cmavo.</ppp>
 
 <item>
 
-<h3>セルマホ NA (<a href="./chapter14.html">第14章</a>, <a href="./chapter15.html">第15章</a>)</h3>
+<h3><title>セルマホ NA</title>(<a href="./chapter14.html">第14章</a>, <a href="./chapter15.html">第15章</a>)</h3>
 <p>矛盾否定。ブリディ全体を偽(または真)とする。
 <ppp>Contradictory negators, asserting that a whole bridi is false (or true)</ppp>
 <pre>mi na klama le zarci
@@ -1085,7 +1085,7 @@ a following FAhA cmavo.</ppp>
 
 <item>
 
-<h3>セルマホ NAI (<a href="./chapter14.html">第14章</a>, <a href="./chapter15.html">第15章</a>)</h3>
+<h3><title>セルマホ NAI</title>(<a href="./chapter14.html">第14章</a>, <a href="./chapter15.html">第15章</a>)</h3>
 <p>先行する語を否定する。文法上、指定された特定のセルマホにのみつく。
 <ppp>Negates the previous word, but can only be used with certain selma'o as
 specified by the grammar.</ppp>
@@ -1094,7 +1094,7 @@ specified by the grammar.</ppp>
 
 <item>
 
-<h3>セルマホ NAhE (<a href="./chapter15.html">第15章</a>)</h3>
+<h3><title>セルマホ NAhE</title>(<a href="./chapter15.html">第15章</a>)</h3>
 <p>段階否定。セルブリやスムティを修飾し、それが示す状態から段階的な値へと変える。
 例えばその状態の反対、等。
 <ppp>Scalar negators, modifying a selbri or a sumti to a value other than
@@ -1110,7 +1110,7 @@ the one stated, the opposite of the one stated, etc.</ppp>
 
 <item>
 
-<h3>セルマホ NAhU (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ NAhU</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 セルブリから数学演算子を作る。
 <ppp>Creates a mathematical operator from a selbri.</ppp>
@@ -1125,7 +1125,7 @@ VUhU も見よ。
 
 <item>
 
-<h3>セルマホ NIhE (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ NIhE</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 セルブリから数学被演算子を作る。たいていは ni により抽象化されたセルブリから。
 <ppp>Creates a mathematical operand from a selbri, usually a "ni"
@@ -1143,7 +1143,7 @@ quantity-of depth equals the-number quantity-of volume.</ppp>
 
 <item>
 
-<h3>セルマホ NIhO (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ NIhO</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>新しい段落を示す。また、その段落が前の内容や新しい内容を含むかどうかを示す。
 <ppp>Marks the beginning of new paragraph, and indicates whether it contains old
 or new subject matter.</ppp>
@@ -1152,7 +1152,7 @@ or new subject matter.</ppp>
 
 <item>
 
-<h3>セルマホ NOI (<a href="./chapter8.html">第8章</a>)</h3>
+<h3><title>セルマホ NOI</title>(<a href="./chapter8.html">第8章</a>)</h3>
 <p>関係節を開始する。
 <ppp>Relative clause introducers.</ppp>
 後続するブリディは先行するスムティを修飾する。
@@ -1169,7 +1169,7 @@ GOI も見よ。
 
 <item>
 
-<h3>セルマホ NU (<a href="./chapter11.html">第11章</a>)</h3>
+<h3><title>セルマホ NU</title>(<a href="./chapter11.html">第11章</a>)</h3>
 <p>ブリディに前置して抽象セルブリを作る抽象詞。
 <ppp>Abstractors which, when prefixed to a bridi, create abstraction selbri.</ppp>
 KEI で終わる。
@@ -1183,7 +1183,7 @@ KEI で終わる。
 </item>
 
 <item>
-<h3>セルマホ NUhA (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ NUhA</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>
 数学演算子からセルブリを作る。
 <ppp>Create a selbri from a mathematical operator.</ppp>
@@ -1197,7 +1197,7 @@ VUhU も見よ。
 
 <item>
 
-<h3>セルマホ NUhI (<a href="./chapter14.html">第14章</a>, <a href="./chapter16.html">第16章</a>)</h3>
+<h3><title>セルマホ NUhI</title>(<a href="./chapter14.html">第14章</a>, <a href="./chapter16.html">第16章</a>)</h3>
 <p>
 名辞組の始まりを示す。
 名辞組はセルブリの2つかそれ以上の場所にスムティを同時に入れるために使われる。
@@ -1213,7 +1213,7 @@ from-the school.</ppp>
 
 <item>
 
-<h3>セルマホ NUhU (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ NUhU</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>省略可能な NUhI の終端子。
 <ppp>Elidable terminator for NUhI.</ppp>
 名辞組の終わりを示す。
@@ -1230,7 +1230,7 @@ from-the schools)</ppp>
 
 <item>
 
-<h3>セルマホ PA (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ PA</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>数字とそれに関連した&quantifier;(いくらかの、全ての、多くの等)。
 <ppp>Digits and related quantifiers (some, all, many, etc.).</ppp>
 <pre>mi speni re ninmu
@@ -1241,7 +1241,7 @@ from-the schools)</ppp>
 
 <item>
 
-<h3>セルマホ PEhE (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ PEhE</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>論理的または非論理的接続詞の前について、2つの名辞組をつなぐ。
 <ppp>Precedes a logical or non-logical connective that joins two termsets.</ppp>
 名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
@@ -1258,7 +1258,7 @@ for equal quantifier scope, or for special constructs in tenses.</ppp><br/>
 
 <item>
 
-<h3>セルマホ PEhO (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ PEhO</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>任意で置くことができ、前置数学演算子を示す。前置演算子は被演算子の前に置かれる。
 <ppp>An optional signal of forethought mathematical operators,
 which precede their operands.</ppp>
@@ -1272,7 +1272,7 @@ KUhE で終わる。
 
 <item>
 
-<h3>セルマホ PU (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ PU</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>単純な時間の向き(未来、過去、それ以外)を示す。
 <ppp>Specifies simple time directions (future, past, or neither)</ppp>
 <pre>mi pu klama le zarci
@@ -1284,7 +1284,7 @@ KUhE で終わる。
 
 <item>
 
-<h3>セルマホ RAhO (<a href="./chapter7.html">第7章</a>)</h3>
+<h3><title>セルマホ RAhO</title>(<a href="./chapter7.html">第7章</a>)</h3>
 <p>代ブリディを更新するフラグ。代ブリディに暗黙につけられたスミティの意味を
 前の文脈ではなく、新しい文脈に合うように変える。
 <ppp>The pro-bridi update flag: changes the meaning of sumti implicitly
@@ -1301,7 +1301,7 @@ the original context.</ppp>
 
 <item>
 
-<h3>セルマホ ROI (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ ROI</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>数に後置して拡張間制を表す(例: 1回、2回、何回も)。
 <ppp>A particle which, when suffixed to a number, makes an extensional tense
 (e.g. once, twice, many times).</ppp>
@@ -1313,7 +1313,7 @@ the original context.</ppp>
 
 <item>
 
-<h3>セルマホ SA (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ SA</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>先行する句または文を取り消す。
 <ppp>A particle which erases the previous phrase or sentence.</ppp>
 <pre>mi klama sa do klama le zarci
@@ -1325,7 +1325,7 @@ the original context.</ppp>
 </item>
 
 <item>
-<h3>セルマホ SE (<a href="./chapter5.html">第5章</a>)</h3>
+<h3><title>セルマホ SE</title>(<a href="./chapter5.html">第5章</a>)</h3>
 <p>
 セルブリの x1 とその他の場所を入れ換える。
 <ppp>Particles which convert a selbri, rearranging the order of places by
@@ -1340,7 +1340,7 @@ exchanging the x1 place with a specified numbered place.</ppp>
 
 <item>
 
-<h3>セルマホ SEI (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ SEI</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>ブリディに対するメタ的なコメントの開始する。
 <ppp>Marks the beginning of metalinguistic insertions which comment on
 the main bridi.</ppp>
@@ -1358,7 +1358,7 @@ SEhU で終わる。
 
 <item>
 
-<h3>セルマホ SEhU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ SEhU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>
 SEI や SOI の省略可能な終端子。
 <ppp>Elidable terminator for SEI and SOI.</ppp>
@@ -1372,7 +1372,7 @@ SEI や SOI の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ SI (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ SI</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>先行する語ひとつを取り消す。
 <ppp>A particle which erases the previous single word.</ppp>
 <pre>mi si do klama le zarci
@@ -1383,7 +1383,7 @@ SEI や SOI の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ SOI (<a href="./chapter7.html">第7章</a>)</h3>
+<h3><title>セルマホ SOI</title>(<a href="./chapter7.html">第7章</a>)</h3>
 <p>2つのスムティの相互関係を示す(英語の「vice versa」に近い)。
 <ppp>Marks reciprocity between two sumti (like "vice versa" in English).</ppp>
 <pre>mi prami do soi mi
@@ -1398,7 +1398,7 @@ SEI や SOI の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ SU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ SU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>先行する談話を終わらせ、その全てを取り消す。
 <ppp>A particle which closes and erases the entire previous discourse.</ppp>
 </p>
@@ -1406,7 +1406,7 @@ SEI や SOI の省略可能な終端子。
 
 <item>
 
-<h3>セルマホ TAhE (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ TAhE</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>時間または空間の範囲内での頻度(規則的に、習慣的に、等)を表す間制限定詞。
 <ppp>A tense modifier specifying frequencies within an interval of time or
 space (regularly, habitually, etc.).</ppp>
@@ -1418,7 +1418,7 @@ space (regularly, habitually, etc.).</ppp>
 
 <item>
 
-<h3>セルマホ TEI (<a href="./chapter17.html">第17章</a>)</h3>
+<h3><title>セルマホ TEI</title>(<a href="./chapter17.html">第17章</a>)</h3>
 <p>
 複合的に構成された文字を表す語列を始める。
 その語列は文法的にはひとつの文字として扱われる。
@@ -1435,7 +1435,7 @@ grammatically like a single letter.</ppp>
 
 <item>
 
-<h3>セルマホ TEhU (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ TEhU</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>JOhI、MAhO、MOhE、NAhU、NIhE の省略可能な終端子。
 <ppp>Elidable terminator for JOhI, MAhO, MOhE, NAhU, or NIhE.</ppp>
 数式への変換の終わりを示す。
@@ -1451,7 +1451,7 @@ array (four, six)</ppp>
 
 <item>
 
-<h3>セルマホ TO (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ TO</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>談話系における左かっこ。主題からずれた話を挿入する。
 <ppp>Left discursive parenthesis: allows inserting a digression.</ppp>
 TOI で終わる。
@@ -1467,7 +1467,7 @@ toi do viska le mlatu
 </item>
 
 <item>
-<h3>セルマホ TOI (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ TOI</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>TO の省略可能な終端子。
 <ppp>Elidable terminator for TO.</ppp>
 談話系における右かっこ。
@@ -1482,7 +1482,7 @@ toi do viska le mlatu
 
 <item>
 
-<h3>セルマホ TUhE (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ TUhE</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>複数の文や段落を論理的にまとめる。
 <ppp>Groups multiple sentences or paragraphs into a logical unit.</ppp>
 TUhU で終わる。
@@ -1499,7 +1499,7 @@ vanju gi tolci'o [tu'u]
 
 <item>
 
-<h3>セルマホ TUhU (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ TUhU</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>TUhE の論理的終端子。
 <ppp>Logical terminator for TUhE.</ppp>
 複数の文のグループの終わりを示す。
@@ -1509,7 +1509,7 @@ vanju gi tolci'o [tu'u]
 
 <item>
 
-<h3>セルマホ UI (<a href="./chapter13.html">第13章</a>)</h3>
+<h3><title>セルマホ UI</title>(<a href="./chapter13.html">第13章</a>)</h3>
 <p>話者の感情的な状態、知識の出所、談話における局面を示す。
 <ppp>Particles which indicate the speaker's emotional state or source of
 knowledge, or the present stage of discourse.</ppp>
@@ -1522,7 +1522,7 @@ knowledge, or the present stage of discourse.</ppp>
 
 <item>
 
-<h3>セルマホ VA (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ VA</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>空間的な距離を示す間制(近い、遠い、どちらでもない)。
 <ppp>A tense indicating distance in space (near, far, or neither).</ppp>
 <pre>le nanmu va batci le gerku
@@ -1537,7 +1537,7 @@ knowledge, or the present stage of discourse.</ppp>
 
 <item>
 
-<h3>セルマホ VAU (<a href="./chapter14.html">第14章</a>)</h3>
+<h3><title>セルマホ VAU</title>(<a href="./chapter14.html">第14章</a>)</h3>
 <p>単純なブリディまたは GIhA による論理的接続におけるブリディ末端の
 省略可能な終端子。
 <ppp>Elidable terminator for a simple bridi, or for each bridi-tail of a GIhA
@@ -1550,7 +1550,7 @@ logical connection.</ppp>
 
 <item>
 
-<h3>セルマホ VEI (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ VEI</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>数学の左かっこ。数学演算をまとめる。
 <ppp>Left mathematical parenthesis: groups mathematical operations.</ppp>
 VEhO で終わる。
@@ -1567,7 +1567,7 @@ n-power-two plus two-times-"n" plus 1</ppp>
 
 <item>
 
-<h3>セルマホ VEhA (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ VEhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>
 空間における距離(長、中、短)を示す間制詞。
 <ppp>A tense indicating the size of an interval in space (long, medium, or short)</ppp>
@@ -1576,7 +1576,7 @@ n-power-two plus two-times-"n" plus 1</ppp>
 
 <item>
 
-<h3>セルマホ VEhO (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ VEhO</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>VEI の省略可能な終端子。数学の右かっこ。
 <ppp>Elidable terminator for VEI: right mathematical parenthesis.</ppp>
 <pre>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
@@ -1592,7 +1592,7 @@ n-power-two plus two-times-"n" plus 1</ppp>
 
 <item>
 
-<h3>セルマホ VIhA (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ VIhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>空間における次元(線上、面上、空間上、時空上の間隔)を示す間制。
 <ppp>A tense indicating dimensionality in space(line, plane, volume, or
 space-time interval)</ppp>
@@ -1606,7 +1606,7 @@ space-time interval)</ppp>
 <item>
 
 <!-- 110/121 -->
-<h3>セルマホ VUhO (<a href="./chapter8.html">第8章</a>)</h3>
+<h3><title>セルマホ VUhO</title>(<a href="./chapter8.html">第8章</a>)</h3>
 <p>関係節や関係句が、スムティの最も左側の部分ではなく、
 (複合的であるかもしれない)スムティ全体にかかるようにする。
 <ppp>A mechanism for attaching relative clauses or phrases to a whole
@@ -1621,7 +1621,7 @@ the sumti.</ppp>
 
 <item>
 
-<h3>セルマホ XI (<a href="./chapter18.html">第18章</a>)</h3>
+<h3><title>セルマホ XI</title>(<a href="./chapter18.html">第18章</a>)</h3>
 <p>下付き文字のしるし。後続する数字やレルフ列は何が前に来ようとも下付きとなる。
 <ppp>The subscript marker: the following number or lerfu string is a
 subscript for whatever precedes it.</ppp>
@@ -1634,7 +1634,7 @@ subscript for whatever precedes it.</ppp>
 
 <item>
 
-<h3>セルマホ Y (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ Y</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>ためらいの音。意味はないが話を続けたり会話を続けるために使われる。
 <ppp>Hesitation noise: content-free, but holds the floor or continues the
 conversation.</ppp>
@@ -1650,7 +1650,7 @@ interpreted as having nothing more to say.</ppp>
 
 <item>
 
-<h3>セルマホ ZAhO (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ ZAhO</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>出来事が事象線上のどこにあるか(例: 始まり、終わり、持続)を示す間制修飾詞。
 <ppp>A tense modifier specifying the contour of an event
 (e.g. beginning, ending, continuing).</ppp>
@@ -1666,7 +1666,7 @@ interpreted as having nothing more to say.</ppp>
 
 <!-- 114/121 -->
 
-<h3>セルマホ ZEI (<a href="./chapter4.html">第4章</a>)</h3>
+<h3><title>セルマホ ZEI</title>(<a href="./chapter4.html">第4章</a>)</h3>
 <p>形態学的な接着語。両側にある語をルジヴォと同じ意味でつなげる。
 <ppp>A morphological glue word, which joins the two words it stands
 between into the equivalent of a lujvo.</ppp>
@@ -1679,7 +1679,7 @@ between into the equivalent of a lujvo.</ppp>
 
 <item>
 
-<h3>セルマホ ZEhA (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ ZEhA</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>時の範囲(長、中、短)という間制を示す。
 <ppp>A tense indicating the size of an interval in time (long, medium, or short).
 </ppp>
@@ -1692,7 +1692,7 @@ between into the equivalent of a lujvo.</ppp>
 
 <item>
 
-<h3>セルマホ ZI (<a href="./chapter10.html">第10章</a>)</h3>
+<h3><title>セルマホ ZI</title>(<a href="./chapter10.html">第10章</a>)</h3>
 <p>時の隔たり(遠い、中くらいの、近い過去または未来)という間制を示す。
 <ppp>A tense indicating distance in time (a long, medium or short time
 ago or in the future).</ppp>
@@ -1705,7 +1705,7 @@ ago or in the future).</ppp>
 
 <item>
 
-<h3>セルマホ ZIhE (<a href="./chapter8.html">第8章</a>)</h3>
+<h3><title>セルマホ ZIhE</title>(<a href="./chapter8.html">第8章</a>)</h3>
 <p>同じスムティに掛かる関係句や関係節をまとめる。
 <ppp>Joins multiple relative phrases or clauses which apply to the same sumti.</ppp>
 英訳の際には「and」と訳されることが多いが、論理的接続とは見なされない。
@@ -1721,7 +1721,7 @@ a logical connective.</ppp>
 
 <item>
 
-<h3>セルマホ ZO (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ ZO</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>後続するロジバンの一語をクォートする。
 <ppp>Single-word quotation: quotes the following single Lojban word.</ppp>
 <pre>zo si cu lojbo valsi
@@ -1732,7 +1732,7 @@ a logical connective.</ppp>
 
 <item>
 
-<h3>セルマホ ZOI (<a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ ZOI</title>(<a href="./chapter19.html">第19章</a>)</h3>
 <p>ロジバン以外を取るクォーター:
 区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列をクォートする。
 <ppp>Non-Lojban quotation: quotes any text using a delimiting word
@@ -1748,7 +1748,7 @@ separated from the text by pauses.</ppp>
 
 <item>
 
-<h3>セルマホ ZOhU (<a href="./chapter16.html">第16章</a>, <a href="./chapter19.html">第19章</a>)</h3>
+<h3><title>セルマホ ZOhU</title>(<a href="./chapter16.html">第16章</a>, <a href="./chapter19.html">第19章</a>)</h3>
 <p>論理的冠頭部をそれが適用されるブリディや文のまとまりから分ける。
 <ppp>Separates a logical prenex from a bridi or group of sentences to
 which it applies.</ppp>

@@ -74,7 +74,11 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </xsl:template>
 
 <xsl:template match="h3">
-<h3><xsl:value-of select="."/></h3>
+<h3><xsl:value-of select="title"/>
+(<xsl:for-each select="a"><a>
+	<xsl:attribute name="href"><xsl:value-of select="./@href"/></xsl:attribute>
+	<xsl:value-of select="."/></a>
+		<xsl:if test="not(position() = last())">, </xsl:if></xsl:for-each>)</h3>
 </xsl:template>
 
 <xsl:template match="before">
