@@ -93,6 +93,10 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 <br/><chu><xsl:value-of select="." /></chu>
 </xsl:template>
 
+<xsl:template match="yakuchu">
+<br/><chu># 訳注: <xsl:value-of select="."/></chu>
+</xsl:template>
+
 <xsl:template match="pre">
 <pre><xsl:value-of select="."/></pre>
 </xsl:template>

@@ -24,7 +24,7 @@
 <chu># 下書き</chu>
 <chu># 訳の清書中</chu>
 <chu># 予定: xml の構造をきれいにする</chu>
-<chu># 予定: xslt によって作られる xhtml を validation に通るものにする</chu>
+<chu># 予定: xslt によって作られる html を validation に通るものにする</chu>
 <chu># 予定: 41 の note を check し、それらを削除する (28/41)</chu><br />
 <chu># 予定: 121 のセルマホの訳を見直す</chu><br/>
 <chu># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</chu><br/>
@@ -69,8 +69,8 @@ between sumti.</ppp>
 <pre>la djan. .ala djein. klama le zarci
 (ジャンとジェーンのどちらかまたは両方が店に行く。)</pre>
 <p>bu を後置して、母音のレルフ(文字)そのものを表す語を作る。<br/>
-<chu># 訳注: abu, ebu, ibu, obu, ubu, ybu がそれぞれ文字
-a, e, i, o, u, y を表すということ</chu>
+<yakuchu>abu, ebu, ibu, obu, ubu, ybu がそれぞれ文字
+a, e, i, o, u, y を表すということ</yakuchu>
 <ppp>Also used to create vowel lerfu words when followed with "bu".</ppp></p>
 </item>
 
@@ -116,8 +116,8 @@ in  that order. BE is most useful in descriptions formed with LE. See BEI, BEhO.
 <pre>mi klama be ta troci
 (私はあそこに行こうとする。)</pre>
 <ppp>I am-a-(goer to-that) type-of trier. I try to go to that place.</ppp>
-<chu># 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に ta
-がはいる</chu></p>
+<yakuchu>klama の x1 が troci を修飾し、その次の場所である x2 に ta
+がはいる</yakuchu></p>
 </item>
 
 <item>
@@ -128,8 +128,8 @@ in  that order. BE is most useful in descriptions formed with LE. See BEI, BEhO.
 (私は家から店に行こうとする。)</pre>
 <ppp>I am-a-(goer to-the store from-the home) type-of-trier.
 I try to go from the home to the market</ppp>
-<chu># 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に le zarci が
-さらにその次の場所である x3 に bei で分けられた le zdani がはいる</chu>
+<yakuchu>klama の x1 が troci を修飾し、その次の場所である x2 に le zarci が
+さらにその次の場所である x3 に bei で分けられた le zdani がはいる</yakuchu>
 </p>
 </item>
 
@@ -153,13 +153,13 @@ BE に対する省略可能な終端詞。
 <ppp>Prefix attached to a mathematical operator to mark it as higher priority
 than other mathematical operators, binding its operands more closely.</ppp>
 <pre>li ci bi'e pi'i vo su'i mu du li paze
-(3 * 4 + 5 = 17)</pre>
+(3 x 4 + 5 = 17)</pre>
 <ppp>The-number 3 [priority] times 4 plus 5 equals the-number 17.</ppp>
 <ppp>3 * 4 + 5 = 17</ppp>
-<chu># 訳注: 原著では pi'i ではなく pi'u となっていたが pi'i
-が正しいと思われる</chu><br/>
-<chu># 訳注: bi'e によって pi'i(かけ算) のほうが先に計算されることが明示されている
-</chu>
+<yakuchu>原著では pi'i ではなく pi'u となっていたが pi'i
+が正しいと思われる</yakuchu>
+<yakuchu>bi'e によって pi'i(かけ算) のほうが先に計算されることが明示されている
+</yakuchu>
 </p>
 </item>
 
@@ -191,10 +191,10 @@ etc.</ppp>
 </pre>
 <ppp>That is-a-small type-of (girl type-of school).</ppp>
 <ppp>That is small school for girls.</ppp>
-<chu># 訳注: ta cmalu (nixli bo ckule) のように結合する。
+<yakuchu>ta cmalu (nixli bo ckule) のように結合する。
 bo がなければ、ta (cmalu nixli) ckule のように左から結合し、
 「(小さな女の子)のための学校」となる。
-</chu>
+</yakuchu>
 </p>
 </item>
 
@@ -210,7 +210,7 @@ PA や BY のための省略可能な終端子。
 <pre>li re du li vu'u voboi re
 (数 2 は数 4 と 2 の差と等しい。)</pre>
 <ppp>The-number two equals the-number the-difference-of four-and two.</ppp>
-<chu># 訳注: voboi re でなく vore とすると 42 になってしまう</chu>
+<yakuchu>voboi re でなく vore とすると 42 になってしまう</yakuchu>
 </p>
 <!-- 10/121 -->
 </item>
@@ -241,9 +241,9 @@ shift words which alter the interpretation of other letter words.</ppp>
 (A は B に IBM のコンピュータについて話す。)</pre>
 <ppp>A talks-to B about-the of-IBM computers.</ppp>
 <ppp>A talks to B about IBM computers.</ppp>
-<chu># 訳注: IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
+<yakuchu>IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
 最後に子音をつけて、.ibubymym.
-とする。母音の後の bu を省略して .ibymym. とできる。</chu>
+とする。母音の後の bu を省略して .ibymym. とできる。</yakuchu>
 </p>
 </item>
 
@@ -258,7 +258,7 @@ strong, weak, or not at all.</ppp>
 (店に行かなければならない。)</pre>
 <ppp>[Oblication!][Intense!]I go-to the market.</ppp>
 <ppp>I must go to the market.</ppp>
-<chu># 訳注: .ei は義務を表す心態詞。eicai は強い義務を表現する。</chu>
+<yakuchu>.ei は義務を表す心態詞。eicai は強い義務を表現する。</yakuchu>
 </p>
 </item>
 
@@ -295,10 +295,10 @@ The green thingy is large. The red thingy is small.</ppp></p>
 または特別な間制の構造を作るために使われる。
 <ppp>Termsets are used to associate several terms for logical connectives,
 for equal quantifier scope, or for special constructs in tenses.</ppp><br/>
-<chu># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは
+<yakuchu>「量を示す詞のかかる範囲をまとめ」るとは
 「3匹の犬が2人の人にかみついた」という文章において
-3匹の犬が「同じ」2人の人にという意味を示すということ</chu><br/>
-<chu># 訳注: 「特別な間制の構造」については訳者の理解が足りない。例文が必要</chu><br/>
+3匹の犬が「同じ」2人の人にという意味を示すということ</yakuchu>
+<yakuchu>「特別な間制の構造」については訳者の理解が足りない。例文が必要</yakuchu>
 <pre>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo
 (私は君の友達で、ジョーンはジェームズの友達だ。)</pre>
 <ppp>I [,] you [joint] and John [,] James are-friends-of.</ppp>
@@ -316,7 +316,8 @@ that the following tanru unit modifies the previous one.</ppp>
 (私は家から店に行ってみる。)</pre>
 <ppp>I am-a-trier of-type (goer to-the market from-the house).</ppp>
 <ppp>I try to go to the market from the house.</ppp>
-<chu># 訳注: CO は修飾のしかたはひっくり返すが場所は後のセルブリのものを取る。</chu>
+<yakuchu>CO は修飾のしかたはひっくり返すが場所は後のセルブリのものを取る。
+</yakuchu>
 </p>
 </item>
 
@@ -667,7 +668,7 @@ abstracted-over bridi.</ppp>
 <ppp>I am-the-actor-in modifying the wall color.</ppp>
 <ppp>I act so as to modify the wall color.</ppp>
 <ppp>I change the color of the wall.</ppp>
-<chu># 訳注: 後者の例として、mi jai rinka le nu do morsi がある。</chu>
+<yakuchu>後者の例として、mi jai rinka le nu do morsi がある。</yakuchu>
 </p>
 </item>
 
@@ -1002,11 +1003,11 @@ MEhU も見よ。
 (あれはフォード車だ。)</pre>
 <ppp>That is-a-Ford-type car</ppp>
 <ppp>That's a Ford car.</ppp>
-<chu># 訳注: ここでは言及されていないが、
+<yakuchu>ここでは言及されていないが、
 me はスムティからセルブリを作るのにも使われる。
 というよりも、スムティをセルブリにすることで
-タンルの要素にすることができるということだろう</chu><br/>
-<chu># 訳注: do me la djan. は do du la djan. と同じ</chu>
+タンルの要素にすることができるということだろう</yakuchu>
+<yakuchu>do me la djan. は do du la djan. と同じ</yakuchu>
 </p>
 </item>
 
@@ -1033,9 +1034,9 @@ numerically-based selbri.</ppp>
 (ジョンとフランクは2人兄弟だ。)</pre>
 <ppp>John in-a-mass-with Frank are-a-brother-type-of twosome.</ppp>
 <ppp>John and Frank are two brothers.</ppp>
-<chu># 訳注: mei は基数(2人、2本、2個、2匹等々)を示す</chu><br/>
-<chu># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
-となる</chu>
+<yakuchu>mei は基数(2人、2本、2個、2匹等々)を示す</yakuchu>
+<yakuchu>上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
+となる</yakuchu>
 </p>
 <!-- 70/121 -->
 </item>
@@ -1052,7 +1053,7 @@ TEhU で終わる。
 (2 鼠 + 2 兎 = 2 動物)</pre>
 <ppp>the-number two rats plus two rabbits equals the-number four animals</ppp>
 <ppp>2 rats + 2 rabbits = 4 animals.</ppp>
-<chu># 訳注: 「dimensioned unit」を「単位つきの量」と訳したが確信がない</chu>
+<yakuchu>「dimensioned unit」を「単位つきの量」と訳したが確信がない</yakuchu>
 </p>
 </item>
 
@@ -1349,10 +1350,10 @@ SEhU で終わる。
 <pre>la frank. prami sei gleki [se'u] la djein.
 (フランク(彼は幸せだ)はジェーンを愛している。)</pre>
 <ppp>Frank loves (he is happy) Jane.</ppp>
-<chu># 訳注: どうしてここで se'u が省略できるのか</chu><br/>
-<chu># 訳注: la djein. が gleki の x2 とならないのは何故か</chu><br/>
-<chu># 訳注: gleki の x2 には抽象スムティしか来ないから、か</chu><br/>
-<chu># 訳注: PEG を読めばわかるかもしれない。</chu>
+<yakuchu>どうしてここで se'u が省略できるのか</yakuchu>
+<yakuchu>la djein. が gleki の x2 とならないのは何故か</yakuchu>
+<yakuchu>gleki の x2 には抽象スムティしか来ないから、か</yakuchu>
+<yakuchu>PEG を読めばわかるかもしれない。</yakuchu>
 </p>
 </item>
 
@@ -1390,9 +1391,9 @@ SEI や SOI の省略可能な終端子。
 (私はあなたを愛していて、そしてあなたも私を愛している。)</pre>
 <ppp>I love you [reciprocally] me.</ppp>
 <ppp>I love you and vice versa.</ppp>
-<chu># 訳注: soi の二番目の引数は直前のスムティが入る</chu>
-<br/><chu># 訳注: つまり上記は mi prami do soi mi do となり、</chu>
-<br/><chu># 訳注: mi prami do であり、その mi と do を入れ換えても真である、となる</chu>
+<yakuchu>soi の二番目の引数は直前のスムティが入る</yakuchu>
+<br/><yakuchu>つまり上記は mi prami do soi mi do となり、</yakuchu>
+<yakuchu>mi prami do であり、その mi と do を入れ換えても真である、となる</yakuchu>
 </p>
 </item>
 
@@ -1492,8 +1493,8 @@ vanju gi tolci'o [tu'u]
 (最良なのは、食事は新しいもので、ワインは古いものだ。)</pre>
 <ppp>is-best: [start] if food, then new. if wine, then old [is bes].</ppp>
 <ppp>As for what is best: if food, then new [is best]; if wine, then old [is best]</ppp>
-<chu># 訳注: 最良なものである: (それは食事ではない または 新しい) かつ
-(それはワインではない または 古い)</chu>
+<yakuchu>最良なものである: (それは食事ではない または 新しい) かつ
+(それはワインではない または 古い)</yakuchu>
 </p>
 </item>
 
@@ -1529,9 +1530,9 @@ knowledge, or the present stage of discourse.</ppp>
 (そこで男が犬をかむ。)</pre>
 <ppp>The man [medium distance] bites the dog.</ppp>
 <ppp>Over there the man is biting the dog</ppp>
-<chu># 訳注: va のなかに ca が含まれているのかもしれない。調べること</chu><br/>
-<chu># 訳注: そういうことではなく、単に文脈から英語訳が is biting
-になっているだけか</chu>
+<yakuchu>va のなかに ca が含まれているのかもしれない。調べること</yakuchu>
+<yakuchu>そういうことではなく、単に文脈から英語訳が is biting
+になっているだけか</yakuchu>
 </p>
 </item>
 
@@ -1658,7 +1659,7 @@ interpreted as having nothing more to say.</ppp>
 (ちょうど今から戦うところだ。)</pre>
 <ppp>[inchoative] fight.</ppp>
 <ppp>I'm on the verge of fighting.</ppp>
-<chu># 訳注: pu'o は起動相であり何かをする直前を意味する</chu>
+<yakuchu>pu'o は起動相であり何かをする直前を意味する</yakuchu>
 </p>
 </item>
 
@@ -1758,8 +1759,8 @@ which it applies.</ppp>
 (全ての魚を好む人がいる。)</pre>
 <ppp>For-at-least-one X which is-a-man, for-all Ys which are-fish: X loves Y</ppp>
 <ppp>There is a man who loves all fish.</ppp>
-<chu># 訳注: 底本では su'o da poi remna ro &lt;da&gt; poi finpe zo'u da prami de
-だが da でなくて de だろう。</chu>
+<yakuchu>底本では su'o da poi remna ro &lt;da&gt; poi finpe zo'u da prami de
+だが da でなくて de だろう。</yakuchu>
 </p>
 </item>
 
