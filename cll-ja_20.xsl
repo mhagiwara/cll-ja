@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns="http://www.w3.org/1999/xhtml">
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:html="http://www.w3.org/1999/xhtml">
 
 <xsl:output
 	omit-xml-declaration="no"
@@ -18,47 +19,42 @@
 </xsl:template>
 
 <xsl:template match="chapter">
-<head><xsl:apply-templates select="meta" /></head>
-<body>
-<div class="nav"><xsl:apply-templates select="link" /></div>
-<div align="center">
-<img alt="[Cartoon]" width="405" height="405"><xsl:attribute name="src">
-	<xsl:value-of select="image" /></xsl:attribute></img>
-</div>
-<xsl:apply-templates select="before" />
-<h2><xsl:value-of select="/chapter/meta/title"/></h2>
-<p><xsl:value-of select="p" /></p>
-<xsl:apply-templates select="body" />
-<div align="right"><p><a href="http://validator.w3.org/check?uri=referer"><img
-	src="http://www.w3.org/Icons/valid-xhtml10"
-	alt="valid XHTML 1.0 Transitional" height="31" width="88" /></a></p></div>
-</body>
-</xsl:template>
-
-<xsl:template match="meta">
-
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="./cll-ja.css" />
 <link rev="MADE"><xsl:attribute name="href">
-	<xsl:value-of select="address"/></xsl:attribute></link>
+	<xsl:value-of select="author/address"/></xsl:attribute></link>
 <link rel="INDEX" href="./index.html" />
 <link rel="NEXT"><xsl:attribute name="href">
 	<xsl:value-of select="/chapter/link/next/address" /></xsl:attribute></link>
 <link rel="PREV"><xsl:attribute name="href">
 	<xsl:value-of select="/chapter/link/prev/address" /></xsl:attribute></link>
 <meta name="Author"><xsl:attribute name="content">
-<xsl:apply-templates select="author" />
-<xsl:value-of select="author" /></xsl:attribute></meta>
-<title><xsl:value-of select="title" /></title>
-<!-- <style type="text/css">
-chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
-</style> -->
-
+<xsl:apply-templates select="author" /></xsl:attribute></meta>
+<title><xsl:apply-templates select="title" /></title>
+</head>
+<body>
+<div class="nav"><xsl:apply-templates select="link" /></div>
+<div align="center">
+<img alt="[Cartoon]" width="405" height="405"><xsl:attribute name="src">
+	<xsl:value-of select="image" /></xsl:attribute></img>
+</div>
+<xsl:apply-templates select="prenotes" />
+<h2><xsl:apply-templates select="/chapter/title"/></h2>
+<p><xsl:apply-templates select="preface" /></p>
+<!-- <xsl:apply-templates select="body" /> -->
+<xsl:apply-templates select="section" />
+<xsl:apply-templates select="postnote" />
+<div align="right"><p><a href="http://validator.w3.org/check?uri=referer"><img
+	src="http://www.w3.org/Icons/valid-xhtml10"
+	alt="valid XHTML 1.0 Transitional" height="31" width="88" /></a></p></div>
+</body>
 </xsl:template>
 
 <xsl:template match="quantifier">限量詞</xsl:template>
 
 <xsl:template match="author">
+<xsl:value-of select="name"/>
 </xsl:template>
 
 <xsl:template match="link">
@@ -71,41 +67,39 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 	<xsl:value-of select="next/address" /></xsl:attribute>つぎ</a></div>
 <div class="nav-section-name"><xsl:value-of select="next/name" /></div></div>
 <div class="nav-title">
-<div class="nav-title-title"><xsl:value-of select="/chapter/meta/title" /></div>
+<div class="nav-title-title"><xsl:apply-templates select="/chapter/title" /></div>
 <div class="nav-title-link"><a href="./index.html">目次</a></div></div>
 </xsl:template>
 
 <xsl:template match="body">
-<xsl:apply-templates select="item" />
-<xsl:apply-templates select="after" />
 </xsl:template>
 
-<xsl:template match="item">
+<xsl:template match="section">
 <h3><xsl:value-of select="title"/>
 (<xsl:for-each select="a"><a>
 	<xsl:attribute name="href"><xsl:value-of select="./@href"/></xsl:attribute>
 	<xsl:value-of select="."/></a>
 		<xsl:if test="not(position() = last())">, </xsl:if></xsl:for-each>)</h3>
 <xsl:apply-templates select="bef" />
-<xsl:apply-templates select="pre" />
+<xsl:apply-templates select="example" />
 <xsl:apply-templates select="aft" />
-<xsl:apply-templates select="chu" />
+<xsl:apply-templates select="note" />
 </xsl:template>
 
 <xsl:template match="before">
-<xsl:apply-templates select="chu"/>
+<xsl:apply-templates select="note"/>
 </xsl:template>
 
-<xsl:template match="after">
-<xsl:apply-templates select="chu"/>
+<xsl:template match="postnote">
+<xsl:apply-templates select="note"/>
 </xsl:template>
 
-<xsl:template match="chu">
+<xsl:template match="note">
 <font size="2" color="#555555"><xsl:value-of select="." /></font><br/>
 </xsl:template>
 
-<xsl:template match="pre">
-<pre disable-output-escaping="yes">
+<xsl:template match="example">
+<pre>
 <xsl:apply-templates select="lojban"/>
 (<xsl:apply-templates select="japanese"/>)
 </pre>
@@ -116,16 +110,19 @@ chu	{color: #555555; font-size: 10pt; margin: 2px; display: true;}
 </xsl:template>
 
 <xsl:template match="japanese">
-<xsl:copy-of select="."/>
+<!-- <xsl:copy-of select="node()"/> -->
+<xsl:for-each select="node()"><xsl:apply-templates select="."/></xsl:for-each>
+</xsl:template>
+
+<xsl:template match="html:var">
+<var><xsl:apply-templates select="*"/></var>
+</xsl:template>
+
+<xsl:template match="html:sub">
+<sub><xsl:value-of select="."/></sub>
 </xsl:template>
 
 <xsl:template match="en">
 </xsl:template>
-
-<!--
-<xsl:template match="sub">
-<sub>test<xsl:value-of select="."/></sub>
-</xsl:template>
--->
 
 </xsl:stylesheet>

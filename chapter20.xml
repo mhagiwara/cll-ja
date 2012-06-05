@@ -10,12 +10,8 @@
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
 
-<meta>
-<title>CLL 第20章 セルマホ目録</title>
-<en>Chapter 20 A Catalogue of selma'o</en>
-<author>iocikun.juj</author>
-<address>PAF01143@nifty.ne.jp</address>
-</meta>
+<title>CLL 第20章 セルマホ目録<en>Chapter 20 A Catalogue of selma'o</en></title>
+<author><name>iocikun.juj</name><address>PAF01143@nifty.ne.jp</address></author>
 
 <link>
 <prev><name>第19章</name><address>./chapter19.html</address></prev>
@@ -23,21 +19,21 @@
 </link>
 <image>./images/chapter20.gif</image>
 
-<before>
-<chu># 下書き</chu>
-<chu># 訳の清書中</chu>
-<chu># 予定: xml タグ名について再考</chu>
-<chu># 予定: xml の構造をきれいにする</chu>
-<chu># 予定: cll-ja_20.xsl をきれいにする</chu>
-<chu># 予定: 45 の note を check し、それらを削除する (28/45)</chu>
-<chu># 予定: 121 のセルマホの訳を見直す</chu>
-<chu># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</chu>
-<chu># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</chu>
-<chu># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</chu>
-<chu># 予定: つっこみ待ち、かつ時々チェックして修正していく</chu>
-</before>
+<prenotes>
+<note># 下書き</note>
+<note># 訳の清書中</note>
+<note># 予定: xml タグ名について再考</note>
+<note># 予定: xml の構造をきれいにする</note>
+<note># 予定: cll-ja_20.xsl をきれいにする</note>
+<note># 予定: 45 の note を check し、それらを削除する (28/45)</note>
+<note># 予定: 121 のセルマホの訳を見直す</note>
+<note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
+<note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
+<note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
+<note># 予定: つっこみ待ち、かつ時々チェックして修正していく</note>
+</prenotes>
 
-<p>
+<preface>
 以下の段落では、ロジバンのセルマホ全てを列挙し簡単な説明を加えた。
 詳細はそれぞれの章を参照すること。
 セルマホの名前は代表的なシマヴォの
@@ -46,7 +42,6 @@
 またはアルファベット順で一番目にくるものが選ばれる。
 それぞれについて、ひとつずつ例文を挙げる。
 セルマホの使いかたは複数あるが、そのなかで最も一般的な用法を示す。
-</p>
 
 <en>
 The following paragraphs list all the selma'o of Lojban, with a brief
@@ -59,36 +54,42 @@ in alphabetical order.
 One example is given of each selma'o: for selma'o which have several uses,
 the most common use is shown.
 </en>
+</preface>
 
-<body>
-<item>
-<title>セルマホ A</title><a href="./chapter14.html">第14章</a>
-<bef>論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
+<section>
+<title>セルマホ A</title>
+<a href="./chapter14.html">第14章</a>
+<bef>
+論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
 </bef>
-<pre>
+<example>
 <lojban>la djan. .ala djein. klama le zarci</lojban>
-<japanese>ジャンとジェーンのどちらかまたは両方が店に行く。</japanese></pre>
+<japanese>ジャンとジェーンのどちらかまたは両方が店に行く。</japanese>
+</example>
 <aft>bu を後置して、母音のレルフ(文字)そのものを表す語を作る。</aft>
-<chu># 訳注: abu, ebu, ibu, obu, ubu, ybu がそれぞれ文字
-a, e, i, o, u, y を表すということ</chu>
+<note>
+# 訳注: abu, ebu, ibu, obu, ubu, ybu がそれぞれ文字
+a, e, i, o, u, y を表すということ
+</note>
 
 <en>
 Specifies a logical connection (e.g. "and", "or", "if"), usually between sumti.
 John and/or Jane goes to the store.
 Also used to create vowel lerfu words when followed with "bu".
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BAI</title><a href="./chapter9.html">第9章</a>
 <bef>
 セルブリの構造に表現したい関係を表す場所がなかった場合に、
 スムティに前置することでその場所を追加することができる。
 セルブリから派生し、それの持つ場所のひとつからその意味が決まる。
 </bef>
-<pre>
+<example>
 <lojban>mi tavla bau la lojban.</lojban>
-<japanese>私はロジバン語で話す。</japanese></pre>
+<japanese>私はロジバン語で話す。</japanese>
+</example>
 
 <en>
 selma'o BAI (Chapter 9)
@@ -97,16 +98,18 @@ present in the place structure of the selbri, and derived from a single place
 of some other selbri.
 I speak in-language Lojban.
 </en>
-</item>
+</section>
 
-<item>
-<title>セルマホ BAhE</title><a href="./chapter19.html">第19章</a>
+<section>
+<title>セルマホ BAhE</title>
+<a href="./chapter19.html">第19章</a>
 <bef>
 後に続く一語を強調する。またはそれが臨時語(その場で作った単語)であることを示す。
 </bef>
-<pre>
+<example>
 <lojban>la ba'e .djordj. klama le zarci</lojban>
-<japanese>店に来たのはジョージだ。</japanese></pre>
+<japanese>店に来たのはジョージだ。</japanese>
+</example>
 
 <en>
 Emphsizes the next single word, or marks it as a nonce word
@@ -114,21 +117,22 @@ Emphsizes the next single word, or marks it as a nonce word
 George goes to the store.
 It is George who goes to the store.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BE</title><a href="./chapter5.html">第5章</a>
 <bef>
 タンルを形成するひとつの要素の持つ場所にスムティをいれる。
 指定がなければそのスムティは x2, x3 ... と次に来る場所にはいる。
 BE は LE による描写のなかで最も有用だ。BEI や BEhO も見よ。
 </bef>
-<pre>
+<example>
 <lojban>mi klama be ta troci</lojban>
 <japanese>私はあそこに行こうとする。</japanese>
-</pre>
-<chu># 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に ta
-がはいる</chu>
+</example>
+<note>
+# 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に ta がはいる
+</note>
 
 <en>
 Attaches sumti which fill the place structure of a single unit making up a tanru.
@@ -136,56 +140,63 @@ Unless otherwise indicated, the sumti fill the x2, x3, and successive places
 in  that order. BE is most useful in descriptions formed with LE. See BEI, BEhO.
 I am-a-(goer to-that) type-of trier. I try to go to that place.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BEI</title><a href="./chapter5.html">第5章</a>
 <bef>
 BE によってタンルの構成単位に付加された複数のスムティ同士を分ける。
 </bef>
-<pre>
+<example>
 <lojban>mi klama be le zarci bei le zdani be'o troci</lojban>
 <japanese>私は家から店に行こうとする。</japanese>
-</pre>
-<chu># 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に le zarci が
-さらにその次の場所である x3 に bei で分けられた le zdani がはいる</chu>
+</example>
+<note>
+# 訳注: klama の x1 が troci を修飾し、その次の場所である x2 に le zarci が
+さらにその次の場所である x3 に bei で分けられた le zdani がはいる
+</note>
 
 <en>
 Separates multiple sumti attached by BE to a tanru unit.
 I am-a-(goer to-the store from-the home) type-of-trier.
 I try to go from the home to the market
 </en>
-</item>
+</section>
 
-<item>
-<title>セルマホ BEhO</title><a href="./chapter5.html">第5章</a>
+<section>
+<title>セルマホ BEhO</title>
+<a href="./chapter5.html">第5章</a>
 <bef>
 BE に対する省略可能な終端詞。タンルの構成単位に付加されたスムティを終わらせる。
 </bef>
-<pre>
+<example>
 <lojban>mi klama be le zarci be'o troci</lojban>
-<japanese>私は店に行こうとする。</japanese></pre>
+<japanese>私は店に行こうとする。</japanese>
+</example>
 
 <en>
 Elidable terminator for BE. Terminates sumti that are attached to a tanru unit.
 I am-a-(goer to-the market) type-of-trier. I try to go to the market.
 </en>
-</item>
+</section>
 
-<item>
-<title>セルマホ BIhE</title><a href="./chapter18.html">第18章</a>
+<section>
+<title>セルマホ BIhE</title>
+<a href="./chapter18.html">第18章</a>
 <bef>
 数学演算子の前につけて、他の数学演算子よりも優先度が高いことを示す。
 この演算子の前後の被演算子はより強く結びつく。
 </bef>
-<pre>
+<example>
 <lojban>li ci bi'e pi'i vo su'i mu du li paze</lojban>
 <japanese>3 x 4 + 5 = 17</japanese>
-</pre>
-<chu># 訳注: 原著では pi'i ではなく pi'u となっていたが pi'i
-が正しいと思われる</chu>
-<chu># 訳注: bi'e によって pi'i(かけ算) のほうが先に計算されることが明示されている
-</chu>
+</example>
+<note>
+# 訳注: 原著では pi'i ではなく pi'u となっていたが pi'i が正しいと思われる
+</note>
+<note>
+# 訳注: bi'e によって pi'i(かけ算) のほうが先に計算されることが明示されている
+</note>
 
 <en>
 Prefix attached to a mathematical operator to mark it as higher priority
@@ -193,27 +204,27 @@ than other mathematical operators, binding its operands more closely.
 The-number 3 [priority] times 4 plus 5 equals the-number 17.
 3 * 4 + 5 = 17
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BIhI</title><a href="./chapter14.html">第14章</a>
 <bef>
 スムティまたはタンルの構成単位(あるいはそれ以外の何か)を結びつけることで範囲を表す。
 GAhO も見よ。
 </bef>
-<pre>
+<example>
 <lojban>mi ca sanli la drezdn. bi'i la frankfurt.</lojban>
 <japanese>私はドレスデンとフランクフルトの間に立つ。</japanese>
-</pre>
+</example>
 
 <en>
 Joins sumti or tanru units (as well as some other things) to form intervals.
 See GAhO.
 I am standing between Dresden and Frankfurt.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BO</title>
 	<a href="./chapter5.html">第5章</a>
 	<a href="./chapter15.html">第15章</a>
@@ -223,13 +234,15 @@ I am standing between Dresden and Frankfurt.
 論理的にまたは非論理的に、節や文などを結合するのに使える。
 結合において BO は常に優先され、また右結合である。
 </bef>
-<pre>
+<example>
 <lojban>ta cmalu nixli bo ckule</lojban>
 <japanese>あれは女の子のための小さな学校だ。</japanese>
-</pre>
-<chu># 訳注: ta cmalu (nixli bo ckule) のように結合する。
-bo がなければ、ta (cmalu nixli) ckule のように左から結合し、
-「(小さな女の子)のための学校」となる。</chu>
+</example>
+<note>
+# 訳注: ta cmalu (nixli bo ckule) のように結合する。
+bo がなければ、ta (cmalu nixli) ckule のように左から結合し、<!--
+-->「(小さな女の子)のための学校」となる。
+</note>
 
 <en>
 Joins tanru units, binding them together closely.
@@ -238,20 +251,20 @@ etc. BO is always high precedence and right-grouping.
 That is-a-small type-of (girl type-of school).
 That is small school for girls.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BOI</title><a href="./chapter18.html">第18章</a>
 <bef>
 PA や BY のための省略可能な終端子。
 数(数を表すシマヴォの列)やレルフ列(文字の列)に別の列がすぐに続くときに、
 それらを終わらせるために使われる。
 </bef>
-<pre>
+<example>
 <lojban>li re du li vu'u voboi re</lojban>
 <japanese>数 2 は数 4 と 2 の差と等しい。</japanese>
-</pre>
-<chu>訳注: voboi re でなく vore とすると 42 になってしまう</chu>
+</example>
+<note>訳注: voboi re でなく vore とすると 42 になってしまう</note>
 
 <en>
 Elidable terminator for PA or BY.
@@ -259,10 +272,10 @@ Used to terminate a number (string of numeric cmavo) or lerfu string
 (string of letter words) when another string immediately follows.
 The-number two equals the-number the-difference-of four-and two.
 </en>
-</item>
+</section>
 <!-- 10/121 -->
 
-<item>
+<section>
 <title>セルマホ BU</title><a href="./chapter17.html">第17章</a>
 <bef>
 全ての語の後置することができる。
@@ -270,10 +283,10 @@ The-number two equals the-number the-difference-of four-and two.
 記号やその他のアルファベットの文字を表す語を作る。
 特にひとつの母音だけから成るシマヴォにつけることで、それを表す語として使われる。
 </bef>
-<pre>
+<example>
 <lojban>.abu .ebu .ibu .obu .ubu .ybu</lojban>
 <japanese>"a", "e", "i", "o", "u", "y"</japanese>
-</pre>
+</example>
 
 <en>
 A suffix which can be attached to any word, typically a word representing
@@ -282,20 +295,20 @@ a different letter of the alphabet.
 In paticular, attached to single-vowel cmavo to make words for vowel
 letters.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ BY</title><a href="./chapter17.html">第17章</a>
 <bef>
 ロジバンにおける文字を表す語と文字を表す語の解釈を変えるためのシフト記号の役割を<!--
 -->果たす語。
 </bef>
-<pre>
+<example>
 <lojban>.abu tavla .by le la .ibymym. skami</lojban>
-<japanese>A は B に IBM のコンピュータについて話す。</japanese></pre>
-<chu># 訳注: IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
+<japanese>A は B に IBM のコンピュータについて話す。</japanese></example>
+<note># 訳注: IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
 最後に子音をつけて、.ibubymym. とする。母音の後の bu を省略して .ibymym.
-とできる。</chu>
+とできる。</note>
 
 <en>
 Words representing the letters of the Lojban alphabet, plus various
@@ -303,17 +316,17 @@ shift words which alter the interpretation of other letter words.
 A talks-to B about-the of-IBM computers.
 A talks to B about IBM computers.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CAI</title><a href="./chapter13.html">第13章</a>
 <bef>
 感情の程度(最高に、強く、弱く、全くない)を表す品詞。
 たいていは感情を表す他の品詞の後に続ける。
 </bef>
-<pre><lojban>.ei cai mi klama le zarci</lojban>
-<japanese>店に行かなければならない。</japanese></pre>
-<chu># 訳注: .ei は義務を表す心態詞。eicai は強い義務を表現する。</chu>
+<example><lojban>.ei cai mi klama le zarci</lojban>
+<japanese>店に行かなければならない。</japanese></example>
+<note># 訳注: .ei は義務を表す心態詞。eicai は強い義務を表現する。</note>
 
 <en>
 A particle which indicates the intensity of an emotion: maximum,
@@ -322,15 +335,15 @@ Typically follows another particle which specifies the emotion.
 [Oblication!][Intense!]I go-to the market.
 I must go to the market.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CAhA</title><a href="./chapter10.html">第10章</a>
 <bef>
 ブリディが事実、可能性、能力のいずれを表しているのかを決める。
 </bef>
-<pre><lojban>ro datka ka'e flulimna</lojban>
-<japanese>全てのアヒルは浮かんで泳ぐことができる。</japanese></pre>
+<example><lojban>ro datka ka'e flulimna</lojban>
+<japanese>全てのアヒルは浮かんで泳ぐことができる。</japanese></example>
 
 <en>
 Specifies whether a bridi refers to an actual fact,
@@ -338,18 +351,18 @@ a potential (achieved or not), or merely an innate capability.
 all ducks [capability] are-float-swimmers
 All ducks have the capability of swimming by floating.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CEI</title><a href="./chapter7.html">第7章</a>
 <bef>
 セルブリによる記述を5個の代ブリディ(broda, brode, brodi, brodo, brodu)
 のうちのひとつに代入する。
 </bef>
-<pre><lojban>ti slasi je mlatu bo cidja lante gacri cei broda
+<example><lojban>ti slasi je mlatu bo cidja lante gacri cei broda
 .i le crino broda cu barda .i le xunre broda cu cmalu</lojban>
 <japanese>これはプラスティックのキャットフード缶の蓋だ。
-緑のは大きい。赤いのは小さい。</japanese></pre>
+緑のは大きい。赤いのは小さい。</japanese></example>
 
 <en>
 Assigns a selbri definition to one of the five pro-bridi gismu:
@@ -357,9 +370,9 @@ Assigns a selbri definition to one of the five pro-bridi gismu:
 This is a plastic cat-food can cover, or thingy.
 The green thingy is large. The red thingy is small.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CEhE</title>
 	<a href="./chapter14.html">第14章</a>
 	<a href="./chapter16.html">第16章</a>
@@ -368,12 +381,12 @@ The green thingy is large. The red thingy is small.
 名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
 または特別な間制の構造を作るために使われる。
 </bef>
-<pre><lojban>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo</lojban>
-<japanese>私は君の友達で、ジョーンはジェームズの友達だ。</japanese></pre>
-<chu># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは
+<example><lojban>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo</lojban>
+<japanese>私は君の友達で、ジョーンはジェームズの友達だ。</japanese></example>
+<note># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは
 「3匹の犬が2人の人にかみついた」という文章において
-3匹の犬が「同じ」2人の人にという意味を示すということ</chu>
-<chu># 訳注: 「特別な間制の構造」については訳者の理解が足りない。例文が必要</chu>
+3匹の犬が「同じ」2人の人にという意味を示すということ</note>
+<note># 訳注: 「特別な間制の構造」については訳者の理解が足りない。例文が必要</note>
 
 <en>
 Joins multiple terms into a termset.
@@ -382,18 +395,18 @@ for equal quantifier scope, or for special constructs in tenses.
 I [,] you [joint] and John [,] James are-friends-of.
 I am a friend of you, and John is a friend of James.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CO</title><a href="./chapter5.html">第5章</a>
 <bef>
 タンルの構成要素の間に置かれ、それをひっくりかえす。
 つまり、後続するタンルの構成単位が先行するタンルの構成単位を修飾するようにする。
 </bef>
-<pre><lojban>mi troci co klama zarci le zdani</lojban>
-<japanese>私は家から店に行ってみる。</japanese></pre>
-<chu># 訳注: CO は修飾のしかたはひっくり返すが場所は後のセルブリのものを取る。
-</chu>
+<example><lojban>mi troci co klama zarci le zdani</lojban>
+<japanese>私は家から店に行ってみる。</japanese></example>
+<note># 訳注: CO は修飾のしかたはひっくり返すが場所は後のセルブリのものを取る。
+</note>
 
 <en>
 When inserted between the components of a tanru, inverts it, so
@@ -401,9 +414,9 @@ that the following tanru unit modifies the previous one.
 I am-a-trier of-type (goer to-the market from-the house).
 I try to go to the market from the house.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ COI</title>
 	<a href="./chapter6.html">第6章</a>
 	<a href="./chapter13.html">第13章</a>
@@ -412,8 +425,8 @@ I try to go to the market from the house.
 -->呼格は誰に(または誰が)話しているのかを示す。<!--
 -->呼格は挨拶や別れ、無線通信等、会話の場面において使われる。DOI, DOhU も見よ。
 </bef>
-<pre><lojban>coi .djan.</lojban>
-<japanese>今日は、ジョン。</japanese></pre>
+<example><lojban>coi .djan.</lojban>
+<japanese>今日は、ジョン。</japanese></example>
 
 <en>
 When prefixed to a name, description, or sumti, produces a vocative:
@@ -422,16 +435,16 @@ Vocatives are used in conversational protocols, includeing greeting,
 farewell, and radio communication. See DOI, DOhU.
 Greetings, John.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CU</title><a href="./chapter9.html">第9章</a>
 <bef>
 ブリディ内で、前にあるスムティからセルブリを分ける。
 厳密に言うと必要ないのだが、いろいろな終端子を省略するのに役立つ。
 </bef>
-<pre><lojban>le gerku cu klama le zarci</lojban>
-<japanese>犬が店に行く。</japanese></pre>
+<example><lojban>le gerku cu klama le zarci</lojban>
+<japanese>犬が店に行く。</japanese></example>
 
 <en>
 Separates the selbri of a bridi from any sumti which precede it.
@@ -439,16 +452,16 @@ Never strictly necessary, but often useful to eliminate various elidable
 terminators.
 The dog goes to-the store.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ CUhE</title><a href="./chapter10.html">第10章</a>
 <bef>
 「いつ」、「どこで」、または、「どんな状況であればそのブリディが成り立つか」、<!--
 -->を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI も見よ。
 </bef>
-<pre><lojban>do cu'e klama le zarci</lojban>
-<japanese>いつ店に行くのですか。</japanese></pre>
+<example><lojban>do cu'e klama le zarci</lojban>
+<japanese>いつ店に行くのですか。</japanese></example>
 
 <en>
 Forms a question which asks when, where, or in what mode the rest of the
@@ -456,10 +469,10 @@ bridi is true.See PU, CAhA, TAhE, and BAI.
 You [When/Where?] go to-the store?
 When are you going to the store?
 </en>
-</item>
+</section>
 <!-- 20/121 -->
 
-<item>
+<section>
 <title>セルマホ DAhO</title><a href="./chapter7.html">第7章</a>
 <bef>
 代スムティ(KOhA)や代ブリディ(GOhA)への代入を取り消す。
@@ -469,16 +482,16 @@ When are you going to the store?
 Cancels the assigned significance of all sumti cmavo (of selma'o KOhA)
 and bridi cmavo (of selma'o GOhA).
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ DOI</title><a href="./chapter13.html">第13章</a>
 <bef>
 汎用的な呼格。COI とともに、または単独で用いられる。
 doi と後続する名前のあいだに停止は必用ない。DOhU も見よ。
 </bef>
-<pre><lojban>doi frank. mi tavla do</lojban>
-<japanese>フランク。私は君に話している。</japanese></pre>
+<example><lojban>doi frank. mi tavla do</lojban>
+<japanese>フランク。私は君に話している。</japanese></example>
 
 <en>
 The non-specific vocative indicator. May be used with or without COI.
@@ -486,29 +499,29 @@ No pause is required between "doi" and a following name. See DOhU.
 O Frank, I speak-to you.
 Frank, I'm talking to you.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ DOhU</title><a href="./chapter13.html">第13章</a>
 <bef>COI や DOI の省略可能な終端子。呼びかけの終わりを示す。</bef>
-<pre><lojban>coi do'u</lojban>
-<japanese>やあ、誰か。</japanese></pre>
+<example><lojban>coi do'u</lojban>
+<japanese>やあ、誰か。</japanese></example>
 
 <en>
 Elidable terminator for COI or DOI. Signals the end of a vocative.
 Greetings [terminator] Greetings, O unspecified one!
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FA</title><a href="./chapter9.html">第9章</a>
 <bef>
 スミティの前につけて、セルマホの何番目の場所に入るのかを示す。
 語順よりも優先される。
 </bef>
-<pre><lojban>fa mi cu klama fi la .atlantas. fe la bastn.
+<example><lojban>fa mi cu klama fi la .atlantas. fe la bastn.
 fo le dargu fu le karce</lojban>
-<japanese>私はアトランタからボストンへその道を通って車で行く。</japanese></pre>
+<japanese>私はアトランタからボストンへその道を通って車で行く。</japanese></example>
 
 <en>
 Prefix for a sumti, indicating which numbered place in the place
@@ -516,17 +529,17 @@ structure the sumti belongs in; overrides word order.
 x1 = I go x3 = Atlanta x2 = Boston x4 = the road x5 = the car
 I go from Atlanta to Boston via the road using the car.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FAhA</title><a href="./chapter10.html">第10章</a>
 <bef>
 どこでそのブリディの示す事がらが起きたかの方向を示す。
 MOhI をつけるとその方向への動きという意味になり、
 VEhA や VIhA を前置してその方向に沿ってという意味となる。
 </bef>
-<pre><lojban>le nanmu zu'a batci le gerku</lojban>
-<japanese>私の左で男が犬をかむ。</japanese></pre>
+<example><lojban>le nanmu zu'a batci le gerku</lojban>
+<japanese>私の左で男が犬をかむ。</japanese></example>
 
 <en>
 Specifies the direction in which, or toward which (when marked with
@@ -535,9 +548,9 @@ takes place
 The man [left] bites the dog.
 To my left, the man bites the dog.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FAhO</title><a href="./chapter19.html">第19章</a>
 <bef>
 文法的な要素ではない機械的なしるし。文章の終わりを示す。<!--
@@ -548,16 +561,16 @@ To my left, the man bites the dog.
 A mechanical signal, outside the grammar, indicating that there is no
 more text. Useful in talking to computers.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FEhE</title><a href="./chapter10.html">第10章</a>
 <bef>
 期間を表す(TAhE、ROI、ZAhO によって作られる)限定詞が後続し、<!--
 -->それらが時間ではなく空間的な意味を表すことを示す。
 </bef>
-<pre><lojban>ko vi'i fe'e di'i sombo le gurni</lojban>
-<japanese>穀物を一列に等間隔にまきなさい。</japanese></pre>
+<example><lojban>ko vi'i fe'e di'i sombo le gurni</lojban>
+<japanese>穀物を一列に等間隔にまきなさい。</japanese></example>
 
 <en>
 Indicates that the following interval modifier (using TAhE, ROI, or
@@ -565,16 +578,16 @@ ZAhO) refers to space rather than time.
 You-imperative [1-dimensional][space][regularly] sow  the grain.
 Sow the grain in a line and evenly!
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FEhU</title><a href="./chapter9.html">第9章</a>
 <bef>
 FIhO の省略可能な終端子。その場で作られた法制タグの終わりを示す。<!--
 -->タグ付けられるスミティが後ろに付く。
 </bef>
-<pre><lojban>mi viska do fi'o kanla [fe'u] le zunle</lojban>
-<japanese>私は左目で君を見る。</japanese></pre>
+<example><lojban>mi viska do fi'o kanla [fe'u] le zunle</lojban>
+<japanese>私は左目で君を見る。</japanese></example>
 
 <en>
 Elidable terminator for FIhO.
@@ -582,16 +595,16 @@ Indicates the end of an ad hoc modal tag: the tagged sumti immediately follows.
 I see you [modal] eye: the left-thing
 I see you with the left eye.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FIhO</title><a href="./chapter9.html">第9章</a>
 <bef>
 セルブリの前につけてセルブリを法制タグを作る。<!--
 -->新たに作られた法制タグは文法的にも意味論的にもセルマホ BAI と同等である。
 </bef>
-<pre><lojban>mi viska do fi'o kanla le zunle</lojban>
-<japanese>私は左目で君を見る。</japanese></pre>
+<example><lojban>mi viska do fi'o kanla le zunle</lojban>
+<japanese>私は左目で君を見る。</japanese></example>
 
 <en>
 When placed before a selbri, transforms the selbri into a modal tag,
@@ -599,16 +612,16 @@ grammatically and semantically equivalent to a member of selma'o BAI.
 I see you with eye the left-thing
 I see you with my left eye.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FOI</title><a href="./chapter17.html">第17章</a>
 <bef>
 TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。<!--
 -->この終端詞は省略できない。
 </bef>
-<pre><lojban>tei .ebu .akut. bu foi</lojban>
-<japanese>アキュートアクセント記号付きの e</japanese></pre>
+<example><lojban>tei .ebu .akut. bu foi</lojban>
+<japanese>アキュートアクセント記号付きの e</japanese></example>
 
 <en>
 Signals the end of a compound alphabet letter word that begins with TEI.
@@ -616,18 +629,18 @@ Not an elidable terminator.
 ("e" "acute")
 the letter "e" with an acute accent
 </en>
-</item>
+</section>
 
 <!-- 30/121 -->
 
-<item>
+<section>
 <title>セルマホ FUhA</title><a href="./chapter18.html">第18章</a>
 <bef>
 後続する数式を逆ポーランド記法(RP)で解釈させる。<!--
 -->逆ポーランド記法とは、数学演算子を被演算子の後に置く記法である。
 </bef>
-<pre><lojban>li fu'a reboi re[boi] su'i du li vo</lojban>
-<japanese>2 + 2 = 4</japanese></pre>
+<example><lojban>li fu'a reboi re[boi] su'i du li vo</lojban>
+<japanese>2 + 2 = 4</japanese></example>
 
 <en>
 Indicates that the following mathematical expression is to be
@@ -636,17 +649,17 @@ operators follow their operands.
 the-number [RP!] two, two, plus equals the-number four
 2 + 2 = 4
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FUhE</title><a href="./chapter19.html">第19章</a>
 <bef>
 UI に属する心態詞が後続し、
 普通そうであるようにその指標が先行する語にかかるのではなく、
 後続する語にかかるようにする。その効果は fu'o で終わる。
 </bef>
-<pre><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
-<japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></pre>
+<example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
+<japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
 
 <en>
 Indicates that the following indicator(s) of selma'o UI affect not the
@@ -654,22 +667,22 @@ preceding word, as usual, but rather all following words until a FUhO.
 I see the [start][belief] blue house [end] prossessor
 I see the  owner of a blue bouse, or what I believe to be one.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ FUhO</title><a href="./chapter19.html">第19章</a>
 <bef>UI に属する指標の効果を終わらせる。</bef>
-<pre><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
-<japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></pre>
+<example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
+<japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
 
 <en>
 Cancels all indicators of selma'o UI which are in effect.
 I see the [start][belief] blue house [end] possessor.
 I see the owner of what I believe to be a blue house.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GA</title><a href="./chapter14.html">第14章</a>
 <bef>
 論理的に接続された2つのスミティやブリディ末端などの始まりを示す。<!--
@@ -677,8 +690,8 @@ I see the owner of what I believe to be a blue house.
 -->「以下のどちらかまたは両方が成り立つ ... と ...」や<!--
 -->「もし ... ならば ...」等を含む。GI も見よ。
 </bef>
-<pre><lojban>ga la djan. nanmu gi la djeimyz. ninmu</lojban>
-<japanese>ジョンが男か、またはジェイムズが女か、またはその両方だ。</japanese></pre>
+<example><lojban>ga la djan. nanmu gi la djeimyz. ninmu</lojban>
+<japanese>ジョンが男か、またはジェイムズが女か、またはその両方だ。</japanese></example>
 
 <en>
 Indicates the beginning of two logically connected sumti, bridi-tails,
@@ -687,16 +700,16 @@ Logical connections include "both ... and",
 "either ... or", "if ... then", and so on. See GI.
 Either John is a man or James is a woman (or both)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GAhO</title><a href="./chapter14.html">第14章</a>
 <bef>
 BIhI によって表される範囲が端点を含むかどうかを示す。
 2つが組で使われて、BIhI シュマボの前後に置かれ、それぞれ左右の端点の性質を決める。
 </bef>
-<pre><lojban>mi ca sanli la drezdn. ga'o bi'i ga'o la frankfurt.</lojban>
-<japanese>私はドレスデンとフランクフルトの両方を含む間に立っている。</japanese></pre>
+<example><lojban>mi ca sanli la drezdn. ga'o bi'i ga'o la frankfurt.</lojban>
+<japanese>私はドレスデンとフランクフルトの両方を含む間に立っている。</japanese></example>
 
 <en>
 Specifies whether an interval specified by BIhI includes or excludes its endpoints.
@@ -705,34 +718,34 @@ the left- and the right-hand endpoints.
 I [present] stand Dresden [inclusive][interval][inclusive] Frankfurt.
 I am standing between Dresden and Frankfurt, inclusive of both.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GEhU</title><a href="./chapter8.html">第8章</a>
 <bef>
 GOI の省略可能な終端子。
 関係句の終わりを示す。
 KUhO も見よ。
 </bef>
-<pre><lojban>la djan. goi ko'a ge'u blanu</lojban>
-<japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></pre>
+<example><lojban>la djan. goi ko'a ge'u blanu</lojban>
+<japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></example>
 
 <en>
 Elidable terminator for GOI. 
 Marks the end of a relative phrase. See KUhO.
 John (referred to as #1) is-blue.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GI</title><a href="./chapter14.html">第14章</a>
 <bef>
 GA、GUhA、JOI といった前置論理接続詞に後置し、<!--
 -->2つの論理的に、または非論理的に接続されたスムティ、タンルの構成単位、<!--
 -->ブリディ末端等を分ける。
 </bef>
-<pre><lojban>ge la djan. nanmu gi la dieimyz. ninmu</lojban>
-<japanese>ジャンは男であり、かつジェームズは女である。</japanese></pre>
+<example><lojban>ge la djan. nanmu gi la dieimyz. ninmu</lojban>
+<japanese>ジャンは男であり、かつジェームズは女である。</japanese></example>
 
 <en>
 Separates two logically or non-logically connected sumti, tanru units,
@@ -740,17 +753,17 @@ bridi-tails, or other things, when the prefix is a forethought logical
 connective involving GA, GUhA, or JOI.
 (It is true that) both John is a man and James is a woman.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GIhA</title><a href="./chapter14.html">第14章</a>
 <bef>
 2つのブリディ末端が先行するスムティを持たず、<!--
 -->またいくつかの後続するスムティを持つ場合に、<!--
 -->それらを論理的に(つまり、「かつ」、「または」、「もし」によって)接続する。
 </bef>
-<pre><lojban>mi klama le zarci gi'e nelci la djan.</lojban>
-<japanese>私は店に行くし、ジョンが好きだ。</japanese></pre>
+<example><lojban>mi klama le zarci gi'e nelci la djan.</lojban>
+<japanese>私は店に行くし、ジョンが好きだ。</japanese></example>
 
 <en>
 Specifies a logical connective (e.g. "and", "or", "if") between two
@@ -758,83 +771,83 @@ bridi-tails: a bridi-tail is a selbri with any associated following sumti,
 but not including an preceding sumti.
 I  go-to the market and like John
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GOI</title><a href="./chapter8.html">第8章</a>
 <bef>
 関係句の開始を示す。<!--
 -->従属する(後続する)スムティが別の(先行する)スムティに関係づけられる。<!--
 -->GEhU や NOI も見よ。
 </bef>
-<pre><lojban>la djan. goi ko'a cu blanu</lojban>
-<japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></pre>
+<example><lojban>la djan. goi ko'a cu blanu</lojban>
+<japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></example>
 
 <en>
 Specifies the beginning of a relative phrase, which associates a
 subordinate sumti (following) to another sumti (preceding). See GEhU, NOI.
 John (referred to as #1) is blue.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ GOhA</title><a href="./chapter7.html">第7章</a>
 <bef>
 ブリブラの代わりとなる全てのシュマボを含む全般的なセルマホ。<!--
 -->いくつかのグループに分けられる。
 </bef>
-<pre><lojban>A: mi klama le zarci B: mi go'i</lojban>
-<japanese>A: 私は店に行く。B: 私も。</japanese></pre>
+<example><lojban>A: mi klama le zarci B: mi go'i</lojban>
+<japanese>A: 私は店に行く。B: 私も。</japanese></example>
 
 <en>
 A general selma'o for all cmavo which can take the place of brivla.
 There are several groups of these.
 A: I'm going to the market. B: Me, too.
 </en>
-</item>
+</section>
 <!-- 40/121 -->
 
-<item>
+<section>
 <title>セルマホ GUhA</title><a href="./chapter14.html">第14章</a>
 <bef>
 論理的に接続された2つのタンルの構成単位の始まりを示す。<!--
 -->論理的に接続されたタンルを形成するときに GA の代わりに使う。GI も見よ。
 </bef>
-<pre><lojban>la .alis. gu'e ricfu gi blanu</lojban>
-<japanese>アリスは裕福で青い。</japanese></pre>
+<example><lojban>la .alis. gu'e ricfu gi blanu</lojban>
+<japanese>アリスは裕福で青い。</japanese></example>
 
 <en>
 Indicates the beginning of two logically connected tanru units.
 Takes the place of GA when forming logically-connected tanru. See GI.
 Alice is both rich and blue.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ I</title>(<a href="./chapter19.html">第19章</a>)
 <bef>2つの文を分ける。</bef>
-<pre><lojban>mi klama le zarci .i mi klama le zdani</lojban>
-<japanese>私は店に行く。私は事務所に行く。</japanese></pre>
+<example><lojban>mi klama le zarci .i mi klama le zdani</lojban>
+<japanese>私は店に行く。私は事務所に行く。</japanese></example>
 
 <en>
 Separates two sentences from each other. I go-to the market. I go-to the office.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ JA</title><a href="./chapter14.html">第14章</a>
 <bef>2つのタンル、数学被演算子、間制、抽象化の間の論理的接続を示す。</bef>
-<pre><lojban>ti blanu je zdani</lojban>
-<japanese>これは青い、そして家だ。</japanese></pre>
+<example><lojban>ti blanu je zdani</lojban>
+<japanese>これは青い、そして家だ。</japanese></example>
 
 <en>
 Specifies a logical connection (e.g. "and", "or", "if") between two tanru
 units, mathematical operands, tenses, or abstractions.
 This is-blue and a-house
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ JAI</title><a href="./chapter9.html">第9章</a>
 <bef>
 間制または法制を後置して、セルブリにつけて法制場所でセルブリの x1
@@ -842,9 +855,9 @@ This is-blue and a-house
 -->単独で使われると、取り除かれたブリディの場所のひとつで、<!--
 -->セルブリの x1 (x1 は抽象スムティでなければならない)を置き換える。
 </bef>
-<pre><lojban>mi jai gau galfi le bitmu skari</lojban>
-<japanese>私は壁の色を変える。</japanese></pre>
-<chu># 訳注: 後者の例として、mi jai rinka le nu do morsi がある。</chu>
+<example><lojban>mi jai gau galfi le bitmu skari</lojban>
+<japanese>私は壁の色を変える。</japanese></example>
+<note># 訳注: 後者の例として、mi jai rinka le nu do morsi がある。</note>
 
 <en>
 When followed by a tense or modal, creates a conversion operator
@@ -857,17 +870,17 @@ I am-the-actor-in modifying the wall color.
 I act so as to modify the wall color.
 I change the color of the wall.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ JOI</title><a href="./chapter14.html">第14章</a>
 <bef>
 2つのスムティ、タンルの構成単位等の非論理的接続(例:
 集団として、あるいは組として、または並びとして、一緒に)を示す。<!--
 -->または、GI を後置して、GA のような前置非論理接続詞を作る。
 </bef>
-<pre><lojban>la djan. joi la .alis. cu bevri le pipno</lojban>
-<japanese>ジョンはアリスと一緒にピアノを運ぶ。</japanese></pre>
+<example><lojban>la djan. joi la .alis. cu bevri le pipno</lojban>
+<japanese>ジョンはアリスと一緒にピアノを運ぶ。</japanese></example>
 
 <en>
 Specifies a non-logical connection (e.g. together-with-as-mass, -set,
@@ -876,17 +889,17 @@ When immediately followed by GI, provides forethought non-logical connection
 analogous to GA.
 John massed-with Alice carry the piano.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ JOhI</title><a href="./chapter18.html">第18章</a>
 <bef>
 後続する数学被演算子(TEhU で終わるリスト)が数学のベクトル(一次元配列)で
 あることを示す。
 </bef>
-<pre><lojban>li jo'i paboi reboi te'u su'i jo'i ciboi voboi
+<example><lojban>li jo'i paboi reboi te'u su'i jo'i ciboi voboi
 du li jo'i voboi xaboi</lojban>
-<japanese>(1, 2) + (3, 4) = (4, 6)</japanese></pre>
+<japanese>(1, 2) + (3, 4) = (4, 6)</japanese></example>
 
 <en>
 Indicates that the following mathematical operands (a list terminated by
@@ -895,17 +908,17 @@ the-number array(one, two) plus array (three, four) equals the-number
 array (four, six)
 (1, 2) + (3, 4) = (4, 6)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ KE</title><a href="./chapter5.html">第5章</a>
 <bef>
 論理的接続やタンル形成等のために KE と後続する KEhE
 で囲まれた部分をグループ化する。
 KE と KEhE は数式(VEI、VEhO を見よ)や、&discursive;(TO、TOI を見よ)には使えない。
 </bef>
-<pre><lojban>ta ke melbi cmalu ke'e nixli ckule</lojban>
-<japanese>あれは可愛い小ささを持った女の子のための学校だ。</japanese></pre>
+<example><lojban>ta ke melbi cmalu ke'e nixli ckule</lojban>
+<japanese>あれは可愛い小ささを持った女の子のための学校だ。</japanese></example>
 
 <en>
 Groups everything between itself and a following KEhE for purposes of
@@ -915,35 +928,35 @@ KE and KEhE are not used for mathematical (see VEI and VEhO) or discursive
 That is-a-(pretty little) girl school.
 That is a school for girls who are pretty in their littleness.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ KEI</title><a href="./chapter11.html">第11章</a>
 <bef>NU の省略可能な終端子。抽象化ブリディの終わりを示す。</bef>
-<pre><lojban>la djan. cu nu sonci kei djica</lojban>
-<japanese>ジョンは兵士になりたい。</japanese></pre>
+<example><lojban>la djan. cu nu sonci kei djica</lojban>
+<japanese>ジョンは兵士になりたい。</japanese></example>
 
 <en>
 Elidable terminator for NU. Marks the end of an abstraction bridi.
 John is-an-(event-of being-a-soldier) type-of desirer.
 John wants to be a soldier.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ KEhE</title><a href="./chapter5.html">第5章</a>
 <bef>KE の省略可能な終端子。グループ化の終わりを示す。</bef>
-<pre><lojban>ta ke melbi cmalu ke'e nixli ckule</lojban>
-<japanese>あれは可愛い小ささを持った女の子の学校だ。</japanese></pre>
+<example><lojban>ta ke melbi cmalu ke'e nixli ckule</lojban>
+<japanese>あれは可愛い小ささを持った女の子の学校だ。</japanese></example>
 
 <en>
 Elidable terminator for KE.Marks the end of a grouping.
 That is-a-(pretty little) girl school.
 That is a school for girls who are pretty in their littleness.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ KI</title><a href="./chapter10.html">第10章</a>
 <bef>
 間制の後につけて、「貼り付き」にする。
@@ -956,17 +969,17 @@ When preceded by a tense, makes it "sticky", so that it applies to all
 further bridi until reset by another appearance of KI.
 When alone, eliminates all sticky tenses.
 </en>
-</item>
+</section>
 <!-- 50/121 -->
 
-<item>
+<section>
 <title>セルマホ KOhA</title><a href="./chapter7.html">第7章</a>
 <bef>
 代スムティとして使われるすべてのシュマボを総称するセルマホ。<!--
 -->これらはいくつかのグループに分けられる。
 </bef>
-<pre><lojban>le blanu zdani goi ko'a cu barda .i ko'a na cmamau ti</lojban>
-<japanese>青い家(以下 #1 と呼ぶ)は大きい。#1 はこれより小さくない。</japanese></pre>
+<example><lojban>le blanu zdani goi ko'a cu barda .i ko'a na cmamau ti</lojban>
+<japanese>青い家(以下 #1 と呼ぶ)は大きい。#1 はこれより小さくない。</japanese></example>
 
 <en>
 A general selma'o which contains all cmavo which can substitute for sumti.
@@ -974,9 +987,9 @@ These cmavo are divided into several groups.
 The blue house (referred to as #1) is big.
 #1 is-not smaller-than this-thing.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ KU</title>
 	<a href="./chapter6.html">第6章</a>
 	<a href="./chapter10.html">第10章</a>
@@ -986,8 +999,8 @@ LE または、一部の使いかたをした場合の LA の省略可能な終�
 -->また、間制や法制の後に置いて、それらがスムティを取らないことを示す他、
 NA+KU の形で自然言語形式の否定を表す。
 </bef>
-<pre><lojban>le prenu ku le zdani ku klama</lojban>
-<japanese>その人は家に行く。</japanese></pre>
+<example><lojban>le prenu ku le zdani ku klama</lojban>
+<japanese>その人は家に行く。</japanese></example>
 
 <en>
 Elidable terminator for LE and some uses of LA.
@@ -997,47 +1010,47 @@ and in the compound NA+KU to indicate natural language-style negation.
 The person, to-the house, goes.
 The person goes to the house.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ KUhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 PEhO の省略可能な終端子。数式の前置記法の終わりを示す<!--
 -->(前置記法では演算子が被演算子の前につく)。
 </bef>
-<pre><lojban>li pe'o su'i reboi reboi re[boi] ku'e du li xa</lojban>
-<japanese>2 2 2 を合計した数は数 6 と等しい。</japanese></pre>
+<example><lojban>li pe'o su'i reboi reboi re[boi] ku'e du li xa</lojban>
+<japanese>2 2 2 を合計した数は数 6 と等しい。</japanese></example>
 
 <en>
 Elidable terminator for PEhO: indicates the end of a forethought
 mathematical expression (one in which the operator precedes the operands).
 The number [forethought] the-sum-of two two two [end] equals the-number six
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ KUhO</title><a href="./chapter8.html">第8章</a>
 <bef>NOI の省略可能な終端子。関係節の終わりを示す。</bef>
-<pre><lojban>le zdani poi blanu ku'o barda</lojban>
-<japanese>その青い家は大きい。</japanese></pre>
+<example><lojban>le zdani poi blanu ku'o barda</lojban>
+<japanese>その青い家は大きい。</japanese></example>
 
 <en>
 Elidable terminator for NOI.
 Indicates the end of a relative clause.
 The house which is-blue is-big.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ LA</title><a href="./chapter5.html">第5章</a>
 <bef>
 名前を示す語(またはセルブリ)を人や物を名前で示すスムティに変える描写型の冠詞。
 LE に類似。描写セルブリが後続する場合は KU によって終わらせることができる。
 </bef>
-<pre><lojban>la kikeros. du la tulis.</lojban>
-<japanese>キケロはタリーだ。</japanese></pre>
+<example><lojban>la kikeros. du la tulis.</lojban>
+<japanese>キケロはタリーだ。</japanese></example>
 
 <en>
 Descriptors which change name words (or selbri) into sumti which
@@ -1045,32 +1058,32 @@ identify people or things by name. Similar to LE.
 May be terminated with KU if followed by a description selbri.
 Cicero is Tully.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LAU</title><a href="./chapter17.html">第17章</a>
 <bef>
 後続するアルファベットの文字と結びついて以下を示すマーカーとなる。
 小文字から大文字への変化、フォントの変更、句読点等。
 </bef>
-<pre><lojban>tau sy. .ibu</lojban>
-<japanese>Si(硅素の化学記号)</japanese></pre>
+<example><lojban>tau sy. .ibu</lojban>
+<japanese>Si(硅素の化学記号)</japanese></example>
 
 <en>
 Cmavo which combine with the following alphabetic letter to represent a
 single marker: change from lower to upper case, change of font, punctuation, etc.)
 [single-shift] "s" "i"Si(chemical symbol for silicon)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LAhE</title><a href="./chapter6.html">第6章</a>
 <bef>
 スムティに前置し、それを意味的に関係のある別のスムティに変える限定詞。<!--
 -->限定詞はまたセルマホ NAhE+BO からも作られる。LUhU も見よ。
 </bef>
-<pre><lojban>mi viska la'e zoi kuot. A Tale of Two Cities .kuot</lojban>
-<japanese>私は「二都物語」を見る。</japanese></pre>
+<example><lojban>mi viska la'e zoi kuot. A Tale of Two Cities .kuot</lojban>
+<japanese>私は「二都物語」を見る。</japanese></example>
 
 <en>
 Qualifiers which, when prefixed to a sumti, change it into another sumti
@@ -1079,28 +1092,28 @@ Qualifiers can also consist of a cmavo from selma'o NAhE plus BO. See LUhU.
 I see that-represented-by the-text "A Tale of Two Cities".
 I see the book "A Tale of Two Cities"
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LE</title><a href="./chapter6.html">第6章</a>
 <bef>
 セルブリをそれの x1 に来る物を表すスムティに変える描写型の冠詞。LA、KU を見よ。
 </bef>
-<pre><lojban>le gerku klama le zdani</lojban>
-<japanese>その犬は家に行く。</japanese></pre>
+<example><lojban>le gerku klama le zdani</lojban>
+<japanese>その犬は家に行く。</japanese></example>
 
 <en>
 Descriptors which make selbri into sumti which describe or specify things
 that fit into the x1 place of the selbri. See LA, KU.
 The dog goes-to the house.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LEhU</title><a href="./chapter19.html">第19章</a>
 <bef>LOhU で始まる引用の終わりを示す。省略できない終端子。</bef>
-<pre><lojban>lo'u mi du do du mi le'u cu na lojbo drani</lojban>
-<japanese>「mi du do du mi」はロジバンとして正しくない。</japanese></pre>
+<example><lojban>lo'u mi du do du mi le'u cu na lojbo drani</lojban>
+<japanese>「mi du do du mi」はロジバンとして正しくない。</japanese></example>
 
 <en>
 Indicates the end of a quotation begun with LOhU.
@@ -1108,16 +1121,16 @@ Not an elidable terminator.
 [quote]mi du do du mi[unquote] is-not Lojbanically correct.
 "mi du do du mi" is not correct Lojban.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ LI</title><a href="./chapter18.html">第18章</a>
 <bef>
 数字やその他の数式を数や数的表現を示すスムティに変える記述子。LOhO も見よ。
 </bef>
-<pre><lojban>li re su'u re na du li vo su'i vo</lojban>
-<japanese>2 - 2 &lt;&gt; 4 + 4</japanese></pre>
+<example><lojban>li re su'u re na du li vo su'i vo</lojban>
+<japanese>2 - 2 &lt;&gt; 4 + 4</japanese></example>
 
 <en>
 Descriptors which change numbers or other mathematical expressions into
@@ -1125,27 +1138,27 @@ sumti which specify numbers or numerical expressions. See LOhO.
 the-number  2 minus 2 not equals the-number 4 plus 4.
 $2 - 2 &lt;&gt; 4 + 4$
 </en>
-</item>
+</section>
 <!-- 60/121 -->
 
-<item>
+<section>
 <title>セルマホ LIhU</title><a href="./chapter19.html">第19章</a>
 <bef>LU の省略可能な終端子。引用の終わりを示す。</bef>
-<pre><lojban>mi cusku lu mi klama le zarci li'u</lojban>
-<japanese>私は「私は店に行く」と言う。</japanese></pre>
+<example><lojban>mi cusku lu mi klama le zarci li'u</lojban>
+<japanese>私は「私は店に行く」と言う。</japanese></example>
 
 <en>
 Elidable terminator for LU. Indicates the end of a text quotation.
 I express [quote] I go-to the market[end quote].
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ LOhO</title><a href="./chapter18.html">第18章</a>
 <bef>LI の省略可能な終端子。LI によって示される数式を終わりにする。</bef>
-<pre><lojban>li vo lo'o li ci lo'o cu zmadu</lojban>
-<japanese>4 > 3</japanese></pre>
+<example><lojban>li vo lo'o li ci lo'o cu zmadu</lojban>
+<japanese>4 > 3</japanese></example>
 
 <en>
 Elidable terminator for LI. 
@@ -1153,9 +1166,9 @@ Indicates the end of a mathematical expression used in a LI description.
 The-number 4 [end number], the number 3 [end number], is greater.
 $4 &gt; 3$
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LOhU</title><a href="./chapter19.html">第19章</a>
 <bef>
 引用(スムティ)の始まりを示す。
@@ -1163,8 +1176,8 @@ $4 &gt; 3$
 それが文の形を成しているかどうかに関わらず、文法的に正しいことになる。
 LEhU で終わる。
 </bef>
-<pre><lojban>do cusku lo'u mi du do du ko'a le'u</lojban>
-<japanese>君は「mi du do du ko'a」と言う。</japanese></pre>
+<example><lojban>do cusku lo'u mi du do du ko'a le'u</lojban>
+<japanese>君は「mi du do du ko'a」と言う。</japanese></example>
 
 <en>
 Indicates the beginning of a quotation (a sumti) which is grammatical
@@ -1174,16 +1187,16 @@ Terminated by LEhU.
 You express [quote] mi du do du ko'a [end quote].
 You said, "mi du do du ko'a".
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LU</title><a href="./chapter19.html">第19章</a>
 <bef>
 引用(スムティ)の始まりを示す。
 この場合の引用は引用されている部分も文法的に正しいロジバンの文章でなければ、
 文法的に正しくない。LIhU で終わる。
-<pre><lojban>mi cusku lu mi klama le zarci li'u</lojban>
-<japanese>私は「私は店に行く」と言う。</japanese></pre>
+<example><lojban>mi cusku lu mi klama le zarci li'u</lojban>
+<japanese>私は「私は店に行く」と言う。</japanese></example>
 </bef>
 
 <en>
@@ -1192,13 +1205,13 @@ only if the quoted material also forms a grammatical Lojban text.
 Terminated by LIhU.
 I express [quote] I go-to the market [end quote].
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ LUhU</title><a href="./chapter6.html">第6章</a>
 <bef>LAhE や NAhE+BO の省略可能な終端子。限定スムティの終わりを示す。</bef>
-<pre><lojban>mi viska la'e lu barda gerku li'u lu'u</lojban>
-<japanese>私は「大きい犬」(語ではなくこの題名の本または映画など)を見る。</japanese></pre>
+<example><lojban>mi viska la'e lu barda gerku li'u lu'u</lojban>
+<japanese>私は「大きい犬」(語ではなくこの題名の本または映画など)を見る。</japanese></example>
 
 <en>
 Elidable terminator for LAhE and NAhE+BO.
@@ -1206,17 +1219,17 @@ Indicates the end of a qualified sumti.
 I see the-referent-of [quote] big dog [end quote][end ref]
 I saw "Big Dog" [not the words, but a book or movie].
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ MAI</title>
 	<a href="./chapter18.html">第18章</a>
 	<a href="./chapter19.html">第19章</a>
 <bef>
 数字や文字の並びに後置し&free_modifier;を作る。それは文章のインデックス番号となる。
 </bef>
-<pre><lojban>pamai mi pu klama le zarci</lojban>
-<japanese>1. 私は店に行った。</japanese></pre>
+<example><lojban>pamai mi pu klama le zarci</lojban>
+<japanese>1. 私は店に行った。</japanese></example>
 
 <en>
 When suffixed to a number or string of letter words, produces a free modifier
@@ -1224,13 +1237,13 @@ which serves as an index number within a text.
 1-thly, I [past] go to-the market.
 First, I went to the market.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ MAhO</title><a href="./chapter18.html">第18章</a>
 <bef>文字や他の被演算子から数学演算子を作る。TEhU、VUhU も見よ。</bef>
-<pre><lojban>ma'o fy. boi xy.</lojban>
-<japanese>f(x)</japanese></pre>
+<example><lojban>ma'o fy. boi xy.</lojban>
+<japanese>f(x)</japanese></example>
 
 <en>
 Produces a mathematical operator from a letter or other operand.
@@ -1238,9 +1251,9 @@ See TEhU, VUhU.
 [operator] f x
 f(x)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ ME</title>
 	<a href="./chapter5.html">第5章</a>
 	<a href="./chapter18.html">第18章</a>
@@ -1248,13 +1261,13 @@ f(x)
 スムティからタンルの構成単位を作る。<!--
 -->それはスムティによって意味されるものに当てはまる。MEhU も見よ。
 </bef>
-<pre><lojban>ta me la ford. karce</lojban>
-<japanese>あれはフォード車だ。</japanese></pre>
-<chu># 訳注: ここでは言及されていないが、
+<example><lojban>ta me la ford. karce</lojban>
+<japanese>あれはフォード車だ。</japanese></example>
+<note># 訳注: ここでは言及されていないが、
 me はスムティからセルブリを作るのにも使われる。
 というよりも、スムティをセルブリにすることで
-タンルの要素にすることができるということだろう</chu>
-<chu># 訳注: do me la djan. は do du la djan. と同じ</chu>
+タンルの要素にすることができるということだろう</note>
+<note># 訳注: do me la djan. は do du la djan. と同じ</note>
 
 <en>
 Produces a tanru unit from a sumti, which is applicable to the things
@@ -1262,32 +1275,32 @@ referenced by the sumti. See MEhU.
 That is-a-Ford-type car
 That's a Ford car.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ MEhU</title><a href="./chapter5.html">第5章</a>
 <bef>
 ME の省略可能な終端子。タンルの構成単位へと変換されたスムティの末尾を示す。
 </bef>
-<pre><lojban>ta me mi me'u zdani</lojban>
-<japanese>あれは私的な家だ。</japanese></pre>
+<example><lojban>ta me mi me'u zdani</lojban>
+<japanese>あれは私的な家だ。</japanese></example>
 
 <en>
 The elidable terminator for ME.
 Indicates the end of a sumti converted to a tanru unit. That's a me type of house.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ MOI</title><a href="./chapter5.html">第5章</a>
 <bef>
 数やその他の量を示す語の後について、数に関するさまざまなセルブリを作る。
 </bef>
-<pre><lojban>la djan. joi la frank. cu bruna remei</lojban>
-<japanese>ジョンとフランクは2人兄弟だ。</japanese></pre>
-<chu># 訳注: mei は基数(2人、2本、2個、2匹等々)を示す</chu>
-<chu># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
-となる</chu>
+<example><lojban>la djan. joi la frank. cu bruna remei</lojban>
+<japanese>ジョンとフランクは2人兄弟だ。</japanese></example>
+<note># 訳注: mei は基数(2人、2本、2個、2匹等々)を示す</note>
+<note># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
+となる</note>
 
 <en>
 Suffixes added to numbers or other quantifiers to make various
@@ -1295,18 +1308,18 @@ numerically-based selbri.
 John in-a-mass-with Frank are-a-brother-type-of twosome.
 John and Frank are two brothers.
 </en>
-</item>
+</section>
 <!-- 70/121 -->
 
-<item>
+<section>
 <title>セルマホ MOhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 スムティから数学被演算子をつくる。これは単位つきの量として使われる。
 TEhU で終わる。
 </bef>
-<pre><lojban>li mo'e re ratcu su'i mo'e re ractu du li mo'e vo danlu</lojban>
-<japanese>2 鼠 + 2 兎 = 2 動物</japanese></pre>
-<chu># 訳注: 「dimensioned unit」を「単位つきの量」と訳したが確信がない</chu>
+<example><lojban>li mo'e re ratcu su'i mo'e re ractu du li mo'e vo danlu</lojban>
+<japanese>2 鼠 + 2 兎 = 2 動物</japanese></example>
+<note># 訳注: 「dimensioned unit」を「単位つきの量」と訳したが確信がない</note>
 
 <en>
 Produces a mathematical operand from a sumti;
@@ -1314,15 +1327,15 @@ used to make dimensioned units. Terminated by TEhU.
 the-number two rats plus two rabbits equals the-number four animals
 2 rats + 2 rabbits = 4 animals.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ MOhI</title><a href="./chapter10.html">第10章</a>
 <bef>
 空間における動きを表す間制&flag;。動きの方向は後続する FAhA シマヴォによって示す。
 </bef>
-<pre><lojban>le verba mo'i ri'u cadzu le bisli</lojban>
-<japanese>その子は氷の上を私の右の方へ歩く。</japanese></pre>
+<example><lojban>le verba mo'i ri'u cadzu le bisli</lojban>
+<japanese>その子は氷の上を私の右の方へ歩く。</japanese></example>
 
 <en>
 A tense flag indicating movement in space, in a direction specified by
@@ -1330,15 +1343,15 @@ a following FAhA cmavo.
 The child [movement][right] walks-on the ice.
 The child walks toward my right on the ice.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ NA</title>
 	<a href="./chapter14.html">第14章</a>
 	<a href="./chapter15.html">第15章</a>
 <bef>矛盾否定。ブリディ全体を偽(または真)とする。</bef>
-<pre><lojban>mi na klama le zarci</lojban>
-<japanese>私は店に行かない。</japanese></pre>
+<example><lojban>mi na klama le zarci</lojban>
+<japanese>私は店に行かない。</japanese></example>
 <aft>また、合成シマヴォとして論理的接続にも使われる。</aft>
 
 <en>
@@ -1346,9 +1359,9 @@ Contradictory negators, asserting that a whole bridi is false (or true)
 it is not true that I go to the market.
 Also used to construct logical connective compound cmavo.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ NAI</title>
 	<a href="./chapter14.html">第14章</a>
 	<a href="./chapter15.html">第15章</a>
@@ -1358,9 +1371,9 @@ Also used to construct logical connective compound cmavo.
 Negates the previous word, but can only be used with certain selma'o as
 specified by the grammar.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ NAhE</title><a href="./chapter15.html">第15章</a>
 <bef>
@@ -1368,8 +1381,8 @@ specified by the grammar.
 例えばその状態の反対、等。
 後続する BO とともにスムティ限定詞としても使う、LAhE も見よ。
 </bef>
-<pre><lojban>ta na'e blanu zdani</lojban>
-<japanese>あれは青くない家だ。</japanese></pre>
+<example><lojban>ta na'e blanu zdani</lojban>
+<japanese>あれは青くない家だ。</japanese></example>
 
 <en>
 Scalar negators, modifying a selbri or a sumti to a value other than
@@ -1378,32 +1391,32 @@ Also used with following BO to construct a sumti qualifier; see LAhE.
 That is-a-non-blue house.
 That is a house which is other than blue.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ NAhU</title><a href="./chapter18.html">第18章</a>
 <bef>セルブリから数学演算子を作る。VUhU も見よ。</bef>
-<pre><lojban>li na'u tanjo te'u vei pai fe'i re[ve'o] du li ci'i</lojban>
-<japanese>tan(pi/2) = 無限大</japanese></pre>
+<example><lojban>li na'u tanjo te'u vei pai fe'i re[ve'o] du li ci'i</lojban>
+<japanese>tan(pi/2) = 無限大</japanese></example>
 
 <en>
 Creates a mathematical operator from a selbri. See VUhU.
 the-number the-operator tangent(pi/2) = the-number infinity
 tan(pi/2) = infinity
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ NIhE</title><a href="./chapter18.html">第18章</a>
 <bef>
 セルブリから数学被演算子を作る。たいていは ni により抽象化されたセルブリから。
 TEhU で終わる。
 </bef>
-<pre><lojban>li ni'e ni clani [te'u] pi'i ni'e ni ganra [te'u]
+<example><lojban>li ni'e ni clani [te'u] pi'i ni'e ni ganra [te'u]
 pi'i ni'e ni condi te'u du li ni'e ni canlu</lojban>
-<japanese>長さ x 幅 x 深さ = 体積</japanese></pre>
+<japanese>長さ x 幅 x 深さ = 体積</japanese></example>
 
 <en>
 Creates a mathematical operand from a selbri, usually a "ni" abstraction.
@@ -1412,9 +1425,9 @@ the-number quantity-of length times quantity-of width times
 quantity-of depth equals the-number quantity-of volume.
 Length x Width x Depth = Volume
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ NIhO</title><a href="./chapter19.html">第19章</a>
 <bef>
 新しい段落を示す。また、その段落が前の内容や新しい内容を含むかどうかを示す。
@@ -1424,16 +1437,16 @@ Length x Width x Depth = Volume
 Marks the beginning of new paragraph, and indicates whether it contains old
 or new subject matter.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ NOI</title><a href="./chapter8.html">第8章</a>
 <bef>
 関係節を開始する。後続するブリディは先行するスムティを修飾する。<!--
 -->KUhO で終わる。GOI も見よ。
 </bef>
-<pre><lojban>le zdani poi blanu cu cmalu</lojban>
-<japanese>その青い家は小さい。</japanese></pre>
+<example><lojban>le zdani poi blanu cu cmalu</lojban>
+<japanese>その青い家は小さい。</japanese></example>
 
 <en>
 Relative clause introducers.
@@ -1441,36 +1454,36 @@ The following bridi modifies the preceding sumti.
 Terminated by KUhO. See GOI.
 The house which is blue is small.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ NU</title>(<a href="./chapter11.html">第11章</a>)
 <bef>ブリディに前置して抽象セルブリを作る抽象詞。KEI で終わる。</bef>
-<pre><lojban>la djan. cu djica le nu sonci [kei]</lojban>
-<japanese>ジョンは兵士になることを望む。</japanese></pre>
+<example><lojban>la djan. cu djica le nu sonci [kei]</lojban>
+<japanese>ジョンは兵士になることを望む。</japanese></example>
 
 <en>
 Abstractors which, when prefixed to a bridi, create abstraction selbri.
 Terminated by KEI.
 John desires the event-of being-a-soldier.
 </en>
-</item>
+</section>
 <!-- 80/121 -->
 
-<item>
+<section>
 <title>セルマホ NUhA</title><a href="./chapter18.html">第18章</a>
 <bef>数学演算子からセルブリを作る。VUhU も見よ。</bef>
-<pre><lojban>li ni'umu cu nu'a va'a li ma'umu</lojban>
-<japanese>数 -5 は 数 +5 の符号を反転したもの。</japanese></pre>
+<example><lojban>li ni'umu cu nu'a va'a li ma'umu</lojban>
+<japanese>数 -5 は 数 +5 の符号を反転したもの。</japanese></example>
 
 <en>
 Create a selbri from a mathematical operator. See VUhU.
 the-number -5 is the negation-of the-number +5
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ NUhI</title>
 	<a href="./chapter14.html">第14章</a>
@@ -1479,9 +1492,9 @@ the-number -5 is the negation-of the-number +5
 名辞組の始まりを示す。<!--
 -->名辞組はセルブリの2つかそれ以上の場所にスムティを同時に入れるために使われる。
 </bef>
-<pre><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
+<example><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
 le ckule [nu'u]</lojban>
-<japanese>私は店に事務所から行き、そして家に学校から行く。</japanese></pre>
+<japanese>私は店に事務所から行き、そして家に学校から行く。</japanese></example>
 
 <en>
 Marks the beginning of a termset, which is used to make simultaneous
@@ -1489,17 +1502,17 @@ claims involving two or more different places of a selbri
 I go [start] to-the market from-the office [joint] and to-the house
 from-the school.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ NUhU</title><a href="./chapter14.html">第14章</a>
 <bef>
 省略可能な NUhI の終端子。名辞組の終わりを示す。
 またそれらの間に置かれて(論理的または非論理的接続詞による)名辞組の接続を示す。
 </bef>
-<pre><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
+<example><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
 le ckule [nu'u]</lojban>
-<japanese>私は店に事務所から行き、そして家に学校から行く。</japanese></pre>
+<japanese>私は店に事務所から行き、そして家に学校から行く。</japanese></example>
 
 <en>
 Elidable terminator for NUhI.
@@ -1508,22 +1521,22 @@ the termset joint (a logical or non-logical connective).
 I go [start] to-the market from-the office [joint] and to-the house
 from-the schools)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ PA</title><a href="./chapter18.html">第18章</a>
 <bef>
 数字とそれに関連した&quantifier;(いくらかの、全ての、多くの等)。
 </bef>
-<pre><lojban>mi speni re ninmu</lojban>
-<japanese>私は2人の女の人と結婚している。</japanese></pre>
+<example><lojban>mi speni re ninmu</lojban>
+<japanese>私は2人の女の人と結婚している。</japanese></example>
 
 <en>
 Digits and related quantifiers (some, all, many, etc.). I am-married-to two women.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ PEhE</title><a href="./chapter14.html">第14章</a>
 <bef>
@@ -1532,8 +1545,8 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 -->&quantifier;の掛かる範囲をまとめ、<!--
 -->または特別な間制の構造を作るために使われる(CEhE を見よ)。
 </bef>
-<pre><lojban>mi ce'o do pe'e je la djan. ce'e la djeimys. cu pendo</lojban>
-<japanese>私は君の友達で、ジョンはジェームズの友達だ。</japanese></pre>
+<example><lojban>mi ce'o do pe'e je la djan. ce'e la djeimys. cu pendo</lojban>
+<japanese>私は君の友達で、ジョンはジェームズの友達だ。</japanese></example>
 
 <en>
 Precedes a logical or non-logical connective that joins two termsets.
@@ -1543,17 +1556,17 @@ Joins multiple terms into a termset.
 I [,] you [joint] and John [,] James are-friends-of.
 I am a friend of you, and John is a friend of James.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ PEhO</title><a href="./chapter18.html">第18章</a>
 <bef>
 任意で置くことができ、前置数学演算子を示す。前置演算子は被演算子の前に置かれる。
 KUhE で終わる。
 </bef>
-<pre><lojban>li vo du li pe'o su'i reboi re</lojban>
-<japanese>数 4 は数 2 と 2 の合計と等しい。</japanese></pre>
+<example><lojban>li vo du li pe'o su'i reboi re</lojban>
+<japanese>数 4 は数 2 と 2 の合計と等しい。</japanese></example>
 
 <en>
 An optional signal of forethought mathematical operators,
@@ -1561,33 +1574,33 @@ which precede their operands.
 Terminated by KUhE.
 The-number four equals the-number [forethought] sum-of two two
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ PU</title>(<a href="./chapter10.html">第10章</a>)
 <bef>単純な時間の向き(未来、過去、それ以外)を示す。</bef>
-<pre><lojban>mi pu klama le zarci</lojban>
-<japanese>私は店に行った。</japanese></pre>
+<example><lojban>mi pu klama le zarci</lojban>
+<japanese>私は店に行った。</japanese></example>
 
 <en>
 Specifies simple time directions (future, past, or neither)
 I [past] go-to the market.
 I went to the market.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ RAhO</title><a href="./chapter7.html">第7章</a>
 <bef>
 代ブリディを更新する&flag;。代ブリディに暗黙につけられたスミティの意味を
 前の文脈ではなく、新しい文脈に合うように変える。
 </bef>
-<pre><lojban>A: mi ba lumci le mi karce B: mi go'i</lojban>
-<japanese>A: 私は私の車を洗う B: 私もそうする(A の車を洗う)</japanese></pre>
-<pre><lojban>A: mi ba lumci le mi karce B: mi go'i ra'o</lojban>
-<japanese>A: 私は私の車を洗う B: 私もそうする(B の車を洗う)</japanese></pre>
+<example><lojban>A: mi ba lumci le mi karce B: mi go'i</lojban>
+<japanese>A: 私は私の車を洗う B: 私もそうする(A の車を洗う)</japanese></example>
+<example><lojban>A: mi ba lumci le mi karce B: mi go'i ra'o</lojban>
+<japanese>A: 私は私の車を洗う B: 私もそうする(B の車を洗う)</japanese></example>
 
 <en>
 The pro-bridi update flag: changes the meaning of sumti implicitly
@@ -1596,39 +1609,39 @@ the original context.
 A: I [future] wash my car. B: I do-the-same (i.e. wash A's car).
 A: I [future] wash my car. B: I do-the-corresponding-thing(i.e. wash B's car)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ ROI</title><a href="./chapter10.html">第10章</a>
 <bef>数に後置して拡張間制を表す(例: 1回、2回、何回も)。</bef>
-<pre><lojban>mi reroi klama le zarci</lojban>
-<japanese>私は2回その店に行く。</japanese></pre>
+<example><lojban>mi reroi klama le zarci</lojban>
+<japanese>私は2回その店に行く。</japanese></example>
 
 <en>
 A particle which, when suffixed to a number, makes an extensional tense
 (e.g. once, twice, many times).
 I twice go-to the market.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ SA</title><a href="./chapter19.html">第19章</a>
 <bef>先行する句または文を取り消す。</bef>
-<pre><lojban>mi klama sa do klama le zarci</lojban>
-<japanese>私は行く、いや違う、君が店に行く。</japanese></pre>
+<example><lojban>mi klama sa do klama le zarci</lojban>
+<japanese>私は行く、いや違う、君が店に行く。</japanese></example>
 
 <en>
 A particle which erases the previous phrase or sentence.
 I go, er, you go-to the market.
 </en>
-</item>
+</section>
 <!-- 90/121 -->
 
-<item>
+<section>
 <title>セルマホ SE</title><a href="./chapter5.html">第5章</a>
 <bef>セルブリの x1 とその他の場所を入れ換える。</bef>
-<pre><lojban>le zarci se klama mi</lojban>
-<japanese>その店は私によって行かれた。</japanese></pre>
+<example><lojban>le zarci se klama mi</lojban>
+<japanese>その店は私によって行かれた。</japanese></example>
 <aft>複合的な接続詞や法制シマヴォにも使われる。</aft>
 
 <en>
@@ -1637,95 +1650,95 @@ exchanging the x1 place with a specified numbered place.
 The market is-gone-to by me.
 Also used in constructing connective and modal compound cmavo.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ SEI</title><a href="./chapter19.html">第19章</a>
 <bef>ブリディに対するメタ的なコメントの開始する。SEhU で終わる。</bef>
-<pre><lojban>la frank. prami sei gleki [se'u] la djein.</lojban>
-<japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></pre>
-<chu># 訳注: どうしてここで se'u が省略できるのか</chu>
-<chu># 訳注: la djein. が gleki の x2 とならないのは何故か</chu>
-<chu># 訳注: gleki の x2 には抽象スムティしか来ないから、か</chu>
-<chu># 訳注: PEG を読めばわかるかもしれない。</chu>
+<example><lojban>la frank. prami sei gleki [se'u] la djein.</lojban>
+<japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
+<note># 訳注: どうしてここで se'u が省略できるのか</note>
+<note># 訳注: la djein. が gleki の x2 とならないのは何故か</note>
+<note># 訳注: gleki の x2 には抽象スムティしか来ないから、か</note>
+<note># 訳注: PEG を読めばわかるかもしれない。</note>
 
 <en>
 Marks the beginning of metalinguistic insertions which comment on the main bridi.
 Terminated by SEhU.
 Frank loves (he is happy) Jane.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ SEhU</title><a href="./chapter19.html">第19章</a>
 <bef>SEI や SOI の省略可能な終端子。メタ的な挿入を終わらせる。</bef>
-<pre><lojban>la frank. prami sei gleki se'u la djein.</lojban>
-<japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></pre>
+<example><lojban>la frank. prami sei gleki se'u la djein.</lojban>
+<japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
 
 <en>
 Elidable terminator for SEI and SOI. Ends metalinguistic insertions.
 Frank loves (he is happy) Jane.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ SI</title><a href="./chapter19.html">第19章</a>
 <bef>先行する語ひとつを取り消す。</bef>
-<pre><lojban>mi si do klama le zarci</lojban>
-<japanese>私、いや、君が店に行く。</japanese></pre>
+<example><lojban>mi si do klama le zarci</lojban>
+<japanese>私、いや、君が店に行く。</japanese></example>
 
 <en>
 A particle which erases the previous single word.
 I, er, you go to-the market.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ SOI</title><a href="./chapter7.html">第7章</a>
 <bef>2つのスムティの相互関係を示す(英語の「vice versa」に近い)。</bef>
-<pre><lojban>mi prami do soi mi</lojban>
-<japanese>私はあなたを愛していて、そしてあなたも私を愛している。</japanese></pre>
-<chu># 訳注: soi の二番目の引数は直前のスムティが入る</chu>
-<chu># 訳注: つまり上記は mi prami do soi mi do となり、</chu>
-<chu># 訳注: mi prami do であり、その mi と do を入れ換えても真である、となる</chu>
+<example><lojban>mi prami do soi mi</lojban>
+<japanese>私はあなたを愛していて、そしてあなたも私を愛している。</japanese></example>
+<note># 訳注: soi の二番目の引数は直前のスムティが入る</note>
+<note># 訳注: つまり上記は mi prami do soi mi do となり、</note>
+<note># 訳注: mi prami do であり、その mi と do を入れ換えても真である、となる</note>
 
 <en>
 Marks reciprocity between two sumti (like "vice versa" in English).
 I love you [reciprocally] me.
 I love you and vice versa.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ SU</title><a href="./chapter19.html">第19章</a>
 <bef>先行する&discourse;を終わらせ、その全てを取り消す。</bef>
 <en>A particle which closes and erases the entire previous discourse.</en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ TAhE</title><a href="./chapter10.html">第10章</a>
 <bef>時間または空間の範囲内での頻度(規則的に、習慣的に、等)を表す間制限定詞。</bef>
-<pre><lojban>le verba ta'e klama le ckule</lojban>
-<japanese>その子供は習慣的に学校に行く。</japanese></pre>
+<example><lojban>le verba ta'e klama le ckule</lojban>
+<japanese>その子供は習慣的に学校に行く。</japanese></example>
 
 <en>
 A tense modifier specifying frequencies within an interval of time or
 space (regularly, habitually, etc.).
 The child habitually goes to-the school.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ TEI</title><a href="./chapter17.html">第17章</a>
 <bef>
 複合的に構成された文字を表す語列を始める。
 その語列は文法的にはひとつの文字として扱われる。
 語列は省略できないセルマホ FOI で終わる。
 </bef>
-<pre><lojban>tei .ebu .akut. bu foi</lojban>
-<japanese>アキュートアクセントつきの e</japanese></pre>
+<example><lojban>tei .ebu .akut. bu foi</lojban>
+<japanese>アキュートアクセントつきの e</japanese></example>
 
 <en>
 Signals the beginning of a compound letter word, which acts
@@ -1734,16 +1747,16 @@ Compound letter words end with the non-elidable selma'o FOI.
 ("e" "acute")
 the letter "e" with an acute accent
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ TEhU</title><a href="./chapter18.html">第18章</a>
 <bef>
 JOhI、MAhO、MOhE、NAhU、NIhE の省略可能な終端子。数式への変換の終わりを示す。
 </bef>
-<pre><lojban>li joi' paboi reboi te'u su'i jo'i ciboi voboi
+<example><lojban>li joi' paboi reboi te'u su'i jo'i ciboi voboi
 du li jo'i voboi xaboi</lojban>
-<japanese>(1, 2) + (3, 4) = (4, 6)</japanese></pre>
+<japanese>(1, 2) + (3, 4) = (4, 6)</japanese></example>
 
 <en>
 Elidable terminator for JOhI, MAhO, MOhE, NAhU, or NIhE.
@@ -1752,14 +1765,14 @@ the-number array (one, two) plus array (three, four) equals the number
 array (four, six)
 (1, 2) + (3, 4) = (4, 6)
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ TO</title><a href="./chapter19.html">第19章</a>
 <bef>&discursive;における左かっこ。主題からずれた話を挿入する。TOI で終わる。</bef>
-<pre><lojban>doi lisas. mi djica le nu to doi frank. ko sisti
+<example><lojban>doi lisas. mi djica le nu to doi frank. ko sisti
 toi do viska le mlatu</lojban>
-<japanese>リサ、私はあなたに(フランク! やめなさい)猫を見せたい。</japanese></pre>
+<japanese>リサ、私はあなたに(フランク! やめなさい)猫を見せたい。</japanese></example>
 
 <en>
 Left discursive parenthesis: allows inserting a digression. Terminated by TOI.
@@ -1768,14 +1781,14 @@ Lisa, I want you to (Frank! Stop!) see the cat.
 </en>
 
 <!-- 100/121 -->
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ TOI</title><a href="./chapter19.html">第19章</a>
 <bef>TO の省略可能な終端子。&discursive;における右かっこ。</bef>
-<pre><lojban>doi lisas. mi djica le nu to doi frank. ko sisti
+<example><lojban>doi lisas. mi djica le nu to doi frank. ko sisti
 toi do viska le mlatu</lojban>
-<japanese>リサ、私はあなたに(フランク! やめなさい)猫を見せたい。</japanese></pre>
+<japanese>リサ、私はあなたに(フランク! やめなさい)猫を見せたい。</japanese></example>
 
 <en>
 Elidable terminator for TO.
@@ -1783,36 +1796,36 @@ The right discursive parenthesis.
 O Lisa, I desire the event-of (O Frank, [imperative] stop!) you see the cat.
 Lisa, I want you to (Frank! Stop!) see the cat.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ TUhE</title><a href="./chapter19.html">第19章</a>
 <bef>複数の文や段落を論理的にまとめる。TUhU で終わる。</bef>
-<pre><lojban>xagmau zo'u tu'e ganai cidja gi cnino .i ganai
+<example><lojban>xagmau zo'u tu'e ganai cidja gi cnino .i ganai
 vanju gi tolci'o [tu'u]</lojban>
-<japanese>最良なのは、食事は新しいもので、ワインは古いものだ。</japanese></pre>
-<chu># 訳注: 最良なものである: (それは食事ではない または 新しい) かつ
-(それはワインではない または 古い)</chu>
+<japanese>最良なのは、食事は新しいもので、ワインは古いものだ。</japanese></example>
+<note># 訳注: 最良なものである: (それは食事ではない または 新しい) かつ
+(それはワインではない または 古い)</note>
 
 <en>
 Groups multiple sentences or paragraphs into a logical unit. Terminated by TUhU.
 is-best: [start] if food, then new. if wine, then old [is bes].
 As for what is best: if food, then new [is best]; if wine, then old [is best]
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ TUhU</title><a href="./chapter19.html">第19章</a>
 <bef>TUhE の論理的終端子。複数の文のグループの終わりを示す。</bef>
 <en>Logical terminator for TUhE. Marks the end of a multiple sentence group.</en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ UI</title><a href="./chapter13.html">第13章</a>
 <bef>話者の感情的な状態、知識の出所、&discourse;における局面を示す。</bef>
-<pre><lojban>.ui la djan. klama</lojban>
-<japanese>やった、ジョンが来る。</japanese></pre>
+<example><lojban>.ui la djan. klama</lojban>
+<japanese>やった、ジョンが来る。</japanese></example>
 
 <en>
 Particles which indicate the speaker's emotional state or source of
@@ -1820,48 +1833,48 @@ knowledge, or the present stage of discourse.
 [Happiness!] John is-coming.
 Hurrah! John is coming!
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ VA</title><a href="./chapter10.html">第10章</a>
 <bef>空間的な距離を示す間制(近い、遠い、どちらでもない)。</bef>
-<pre><lojban>le nanmu va batci le gerku</lojban>
-<japanese>そこで男が犬をかむ。</japanese></pre>
-<chu># 訳注: va のなかに ca が含まれているのかもしれない。調べること</chu>
-<chu># 訳注: そういうことではなく、単に文脈から英語訳が is biting
-になっているだけか</chu>
+<example><lojban>le nanmu va batci le gerku</lojban>
+<japanese>そこで男が犬をかむ。</japanese></example>
+<note># 訳注: va のなかに ca が含まれているのかもしれない。調べること</note>
+<note># 訳注: そういうことではなく、単に文脈から英語訳が is biting
+になっているだけか</note>
 
 <en>
 A tense indicating distance in space (near, far, or neither).
 The man [medium distance] bites the dog.
 Over there the man is biting the dog.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ VAU</title><a href="./chapter14.html">第14章</a>
 <bef>
 単純なブリディまたは GIhA による論理的接続におけるブリディ末端の省略可能な終端子。
 </bef>
-<pre><lojban>mi dunda le cukta [vau] gi'e lebna lo rupnu vau do [vau]</lojban>
-<japanese>私はあなたに本をあげて、お金を取る。</japanese></pre>
+<example><lojban>mi dunda le cukta [vau] gi'e lebna lo rupnu vau do [vau]</lojban>
+<japanese>私はあなたに本をあげて、お金を取る。</japanese></example>
 
 <en>
 Elidable terminator for a simple bridi, or for each bridi-tail of a GIhA
 logical connection.
 I (givce the book) and (take some currency-units) to/from you.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ VEI</title><a href="./chapter18.html">第18章</a>
 <bef>数学の左かっこ。数学演算をまとめる。VEhO で終わる。</bef>
-<pre><lojban>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
+<example><lojban>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
 [ve'o] du li ny. [bo] te'a re su'i re bo pi'i ny.
 su'i pa</lojban>
-<japanese>(n + 1)(n + 1) = n ^ 2 + 2 n + 1</japanese></pre>
+<japanese>(n + 1)(n + 1) = n ^ 2 + 2 n + 1</japanese></example>
 
 <en>
 Left mathematical parenthesis: groups mathematical operations.
@@ -1870,22 +1883,22 @@ the-number ("n" plus one) times ("n" plus one) equals the-number
 n-power-two plus two-times-"n" plus 1
 $(n + 1)(n + 1) = n^2 + 2n + 1$
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ VEhA</title><a href="./chapter10.html">第10章</a>
 <bef>空間における距離(長、中、短)を示す間制詞。</bef>
 <en>A tense indicating the size of an interval in space (long, medium, or short)</en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ VEhO</title><a href="./chapter19.html">第19章</a>
 <bef>VEI の省略可能な終端子。数学の右かっこ。</bef>
-<pre><lojban>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
+<example><lojban>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
 [ve'o] du li ny. [bo] te'a re su'i re bo pi'i ny.
 su'i pa</lojban>
-<japanese>(n + 1)(n + 1) = n ^ 2 + 2 n + 1</japanese></pre>
+<japanese>(n + 1)(n + 1) = n ^ 2 + 2 n + 1</japanese></example>
 
 <en>
 Elidable terminator for VEI: right mathematical parenthesis.
@@ -1893,14 +1906,14 @@ the-number ("n" plus one) times ("n" plus one) equals the-number
 n-power-two plus two-times-"n" plus 1
 $(n + 1)(n + 1) = n^2 + 2n + 1$
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ VIhA</title><a href="./chapter10.html">第10章</a>
 <bef>空間における次元(線上、面上、空間上、時空上の間隔)を示す間制。</bef>
-<pre><lojban>le verba ve'a vi'a cadzu le bisli</lojban>
-<japanese>中くらいの範囲で、氷の上をその子は歩く。</japanese></pre>
+<example><lojban>le verba ve'a vi'a cadzu le bisli</lojban>
+<japanese>中くらいの範囲で、氷の上をその子は歩く。</japanese></example>
 
 <en>
 A tense indicating dimensionality in space(line, plane, volume, or
@@ -1908,15 +1921,15 @@ space-time interval)
 The child [medium space interval][2-dimensional] walks-on the ice.
 In a medium-sized area, the child walks on the ice.
 </en>
-</item>
+</section>
 <!-- 110/121 -->
 
-<item>
+<section>
 <title>セルマホ VUhO</title><a href="./chapter8.html">第8章</a>
 <bef>関係節や関係句が、スムティの最も左側の部分ではなく、<!--
 -->(複合的であるかもしれない)スムティ全体にかかるようにする。</bef>
-<pre><lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
-<japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese></pre>
+<example><lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
+<japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese></example>
 
 <en>
 A mechanism for attaching relative clauses or phrases to a whole
@@ -1925,17 +1938,17 @@ the sumti.
 Frank [in-set-with] George, which are-guides, are-in the room.
 Frank and George, who are guides, are in the room.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ XI</title><a href="./chapter18.html">第18章</a>
 <bef>
 下付き文字のしるし。後続する数字やレルフ列は何が前に来ようとも下付きとなる。
 </bef>
-<pre>
+<example>
 <lojban>xy. xi re</lojban>
-<japanese>x<html:sub>2</html:sub></japanese></pre>
+<japanese>x<html:var><html:sub>2</html:sub></html:var></japanese></example>
 
 <en>
 The subscript marker: the following number or lerfu string is a
@@ -1943,16 +1956,16 @@ subscript for whatever precedes it.
 x sub 2
 x<sub>2</sub>
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ Y</title><a href="./chapter19.html">第19章</a>
 <bef>
 ためらいの音。意味はないが話を続けたり会話を続けるために使われる。<!--
 -->沈黙とは、沈黙がそれ以上言うことがないというように解釈される点で異なる。
 </bef>
-<pre><lojban>doi .y. .y. djan</lojban>
-<japanese>やあ、ええと、ええと、ジョン!</japanese></pre>
+<example><lojban>doi .y. .y. djan</lojban>
+<japanese>やあ、ええと、ええと、ジョン!</japanese></example>
 
 <en>
 Hesitation noise: content-free, but holds the floor or continues the
@@ -1960,16 +1973,16 @@ conversation. It is different from silence in that silence may be interpreted
 as having nothing more to say.
 O, uh, uh, John!
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ ZAhO</title><a href="./chapter10.html">第10章</a>
 <bef>
 出来事が事象線上のどこにあるか(例: 始まり、終わり、持続)を示す間制修飾詞。
 </bef>
-<pre><lojban>mi pu'o damba</lojban>
-<japanese>ちょうど今から戦うところだ。</japanese></pre>
-<chu># 訳注: pu'o は起動相であり何かをする直前を意味する</chu>
+<example><lojban>mi pu'o damba</lojban>
+<japanese>ちょうど今から戦うところだ。</japanese></example>
+<note># 訳注: pu'o は起動相であり何かをする直前を意味する</note>
 
 <en>
 A tense modifier specifying the contour of an event
@@ -1977,14 +1990,14 @@ A tense modifier specifying the contour of an event
 [inchoative] fight.
 I'm on the verge of fighting.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ ZEI</title><a href="./chapter4.html">第4章</a>
 <bef>形態学的な接着語。両側にある語をルジヴォと同じ意味でつなげる。</bef>
-<pre><lojban>ta xy. zei kantu kacma</lojban>
-<japanese>あれはX線カメラだ。</japanese></pre>
+<example><lojban>ta xy. zei kantu kacma</lojban>
+<japanese>あれはX線カメラだ。</japanese></example>
 
 <en>
 A morphological glue word, which joins the two words it stands
@@ -1992,26 +2005,26 @@ between into the equivalent of a lujvo.
 That is-an-(X - ray) camera.
 That is an X-ray camera.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ ZEhA</title><a href="./chapter10.html">第10章</a>
 <bef>時の範囲(長、中、短)という間制を示す。</bef>
-<pre><lojban>mi puze'a citka</lojban>
-<japanese>私は短い時間食事をした。</japanese></pre>
+<example><lojban>mi puze'a citka</lojban>
+<japanese>私は短い時間食事をした。</japanese></example>
 
 <en>
 A tense indicating the size of an interval in time (long, medium, or short).
 I [past] [short interval] eat.
 I ate for a little while.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ ZI</title><a href="./chapter10.html">第10章</a>
 <bef>時の隔たり(遠い、中くらいの、近い過去または未来)という間制を示す。</bef>
-<pre><lojban>mi puzi citka</lojban>
-<japanese>ついさっき食事をしたところだ。</japanese></pre>
+<example><lojban>mi puzi citka</lojban>
+<japanese>ついさっき食事をしたところだ。</japanese></example>
 
 <en>
 A tense indicating distance in time (a long, medium or short time
@@ -2019,16 +2032,16 @@ ago or in the future).
 I [past] [short distance] eat.
 I ate a little while ago.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 <title>セルマホ ZIhE</title><a href="./chapter8.html">第8章</a>
 <bef>
 同じスムティに掛かる関係句や関係節をまとめる。
 英訳の際には「and」と訳されることが多いが、論理的接続とは見なされない。
 </bef>
-<pre><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
-<japanese>私は白い犬を飼っていて、私はそれを愛している。</japanese></pre>
+<example><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
+<japanese>私は白い犬を飼っていて、私はそれを愛している。</japanese></example>
 
 <en>
 Joins multiple relative phrases or clauses which apply to the same sumti.
@@ -2038,22 +2051,22 @@ I own one dog such-that it-is-white and such-that-incidentally I love it.
 I own a dog that is white and which, incidentally, I love.
 I own a white dog, which I love.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ ZO</title><a href="./chapter19.html">第19章</a>
 <bef>後続するロジバンの一語をクォートする。</bef>
-<pre><lojban>zo si cu lojbo valsi</lojban>
-<japanese>語「si」はロジバンの語である。</japanese></pre>
+<example><lojban>zo si cu lojbo valsi</lojban>
+<japanese>語「si」はロジバンの語である。</japanese></example>
 
 <en>
 Single-word quotation: quotes the following single Lojban word.
 The-word "si" is-a-Lojbanic word.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ ZOI</title><a href="./chapter19.html">第19章</a>
 <bef>
@@ -2061,8 +2074,8 @@ The-word "si" is-a-Lojbanic word.
 区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列をクォートする。
 区切り文字は文字列中に出てきてはならない、また文字列との間に停止が必要。
 </bef>
-<pre><lojban>zoi kuot. Socrates is mortal .kuot. cu glico jufra</lojban>
-<japanese>「Socrates is mortal」は英語の文章だ。</japanese></pre>
+<example><lojban>zoi kuot. Socrates is mortal .kuot. cu glico jufra</lojban>
+<japanese>「Socrates is mortal」は英語の文章だ。</japanese></example>
 
 <en>
 Non-Lojban quotation: quotes any text using a delimiting word
@@ -2071,9 +2084,9 @@ The delimiting word must not appear in the text, and must be
 separated from the text by pauses.
 The-text "Socrates is mortal" is-an-English sentence.
 </en>
-</item>
+</section>
 
-<item>
+<section>
 
 <title>セルマホ ZOhU</title>
 	<a href="./chapter16.html">第16章</a>
@@ -2082,10 +2095,10 @@ The-text "Socrates is mortal" is-an-English sentence.
 論理的冠頭部をそれが適用されるブリディや文のまとまりから分ける。
 または、主題/評言文において、主題を主題に対する評言から分ける。
 </bef>
-<pre><lojban>su'o da poi remna ro de poi finpe zo'u da prami de</lojban>
-<japanese>全ての魚を好む人がいる。</japanese></pre>
-<chu># 訳注: 底本では su'o da poi remna ro &lt;da&gt; poi finpe zo'u da prami de
-だが da でなくて de だろう。</chu>
+<example><lojban>su'o da poi remna ro de poi finpe zo'u da prami de</lojban>
+<japanese>全ての魚を好む人がいる。</japanese></example>
+<note># 訳注: 底本では su'o da poi remna ro &lt;da&gt; poi finpe zo'u da prami de
+だが da でなくて de だろう。</note>
 
 <en>
 Separates a logical prenex from a bridi or group of sentences to
@@ -2094,35 +2107,36 @@ Also separates a topic from a comment in topic/comment sentences.
 For-at-least-one X which is-a-man, for-all Ys which are-fish: X loves Y
 There is a man who loves all fish.
 </en>
-</item>
+</section>
 
 <!-- 121/121 -->
-<after>
-<chu>#29 note: optional と elidable の訳し分けは必要か</chu><br/>
-<chu># note: 上記は同じ意味として良さそう</chu><br/>
-<chu>#30 note: ロジバンでは意志と未来とは明確に分けられているのだろうか</chu><br/>
-<chu>#31 note: デフォルトでは分かれてなくて、それを分けるための構文が別にあるのか</chu>
+
+<postnote>
+<note>#29 note: optional と elidable の訳し分けは必要か</note><br/>
+<note># note: 上記は同じ意味として良さそう</note><br/>
+<note>#30 note: ロジバンでは意志と未来とは明確に分けられているのだろうか</note><br/>
+<note>#31 note: デフォルトでは分かれてなくて、それを分けるための構文が別にあるのか</note>
 <br/>
-<chu>#32 note: あるいは、英語の「will」とは違い、ba には意志の意味はないのか</chu>
-<chu>#33 note: その場合でも聞き手の解釈によって ba に意志を読み込んでも良いのか、
-またはそれは許されないのか</chu><br/>
-<chu>#34 note: しかし、単純な未来とは何か。
-意志も予測も含まれない単純な未来という概念は成立するだろうか</chu><br/>
-<chu>#35 note: particle をどう訳すか。文法要素とか、か</chu><br/>
-<chu>#36 note: metalinguistic をどう訳すか</chu><br/>
-<chu>#37 note: tense modifier を間制修飾詞と訳した</chu><br/>
-<chu>#38 note: tense indicater を間制詞と訳した</chu><br/>
-<chu>#39 note: (e.g. ...) と (... etc.) を訳し分ける必要があるか。両方とも (... 等)で
-良いかもしれない</chu><br/>
-<chu>#40 note: quote を「引用する」と訳すのは適切か。
-「クォートする」と訳しておいた場所もあるが再考の必要あり</chu><br/>
-<chu>#41 note: quotation を「quote するもの」ということで「クォーター」と訳した箇所が
-あるが、もちろん、あまり良い訳ではない。要再考</chu><br/>
-<chu>#42 note: quantifier をどう訳すか。「&quantifier;」としておくか</chu><br/>
-<chu>#43 note: 「特別な間制の構造」は "special constructs in tenses"
-の訳だがよくわからない</chu><br/>
-<chu>#44 note: 名辞組の要素として間制も取れるということか。例文が必要</chu>
-<chu>#45 note: discourse、discursive について再考</chu>
-</after>
-</body>
+<note>#32 note: あるいは、英語の「will」とは違い、ba には意志の意味はないのか</note>
+<note>#33 note: その場合でも聞き手の解釈によって ba に意志を読み込んでも良いのか、
+またはそれは許されないのか</note><br/>
+<note>#34 note: しかし、単純な未来とは何か。
+意志も予測も含まれない単純な未来という概念は成立するだろうか</note><br/>
+<note>#35 note: particle をどう訳すか。文法要素とか、か</note><br/>
+<note>#36 note: metalinguistic をどう訳すか</note><br/>
+<note>#37 note: tense modifier を間制修飾詞と訳した</note><br/>
+<note>#38 note: tense indicater を間制詞と訳した</note><br/>
+<note>#39 note: (e.g. ...) と (... etc.) を訳し分ける必要があるか。両方とも (... 等)で
+良いかもしれない</note><br/>
+<note>#40 note: quote を「引用する」と訳すのは適切か。
+「クォートする」と訳しておいた場所もあるが再考の必要あり</note><br/>
+<note>#41 note: quotation を「quote するもの」ということで「クォーター」と訳した箇所が
+あるが、もちろん、あまり良い訳ではない。要再考</note><br/>
+<note>#42 note: quantifier をどう訳すか。「&quantifier;」としておくか</note><br/>
+<note>#43 note: 「特別な間制の構造」は "special constructs in tenses"
+の訳だがよくわからない</note><br/>
+<note>#44 note: 名辞組の要素として間制も取れるということか。例文が必要</note>
+<note>#45 note: discourse、discursive について再考</note>
+</postnote>
+
 </chapter>
