@@ -79,6 +79,7 @@ Lojbanist	ロジバン話者
 Logical Assertions	論理的表明
 lujvo	ルジヴォ
 marker	マーカー	# 提案:しるし 名詞の signal との共通の訳として
+metalinguistic		# 提案: 20章 セルマホ SEI の説明では「メタ的な」と訳しておいたが
 material conditional	論理包含
 mathematical	数学の/数学的	# 提案
 mathematical discourse  数学的論説
