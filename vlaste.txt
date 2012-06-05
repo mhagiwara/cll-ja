@@ -94,6 +94,8 @@ non-logical	非論理的
 observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
+optional	任意の	# 提案
+particle	小辞	# 提案
 place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
