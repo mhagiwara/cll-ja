@@ -12,11 +12,17 @@
 	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 	indent="yes" />
 
+<!-- ***************** root ****************** -->
+
 <xsl:template match="/">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja-JP">
 <xsl:apply-templates />
 </html>
 </xsl:template>
+
+<xsl:template match="en"></xsl:template>
+
+<!-- ***************** chapter ****************** -->
 
 <xsl:template match="chapter">
 <head>
@@ -30,19 +36,17 @@
 <link rel="PREV"><xsl:attribute name="href">
 	<xsl:value-of select="/chapter/link/prev/address" /></xsl:attribute></link>
 <meta name="Author"><xsl:attribute name="content">
-<xsl:apply-templates select="author" /></xsl:attribute></meta>
+<xsl:value-of select="author/name" /></xsl:attribute></meta>
 <title><xsl:apply-templates select="title" /></title>
 </head>
 <body>
 <div class="nav"><xsl:apply-templates select="link" /></div>
 <div align="center">
 <img alt="[Cartoon]" width="405" height="405"><xsl:attribute name="src">
-	<xsl:value-of select="image" /></xsl:attribute></img>
-</div>
+	<xsl:value-of select="image" /></xsl:attribute></img></div>
 <xsl:apply-templates select="prenotes" />
 <h2><xsl:apply-templates select="/chapter/title"/></h2>
 <p><xsl:apply-templates select="preface" /></p>
-<!-- <xsl:apply-templates select="body" /> -->
 <xsl:apply-templates select="section" />
 <xsl:apply-templates select="postnote" />
 <div align="right"><p><a href="http://validator.w3.org/check?uri=referer"><img
@@ -51,11 +55,7 @@
 </body>
 </xsl:template>
 
-<xsl:template match="quantifier">限量詞</xsl:template>
-
-<xsl:template match="author">
-<xsl:value-of select="name"/>
-</xsl:template>
+<!-- ***************** link ****************** -->
 
 <xsl:template match="link">
 <div class="nav-prev">
@@ -71,50 +71,27 @@
 <div class="nav-title-link"><a href="./index.html">目次</a></div></div>
 </xsl:template>
 
-<xsl:template match="body">
-</xsl:template>
+<!-- ***************** section ****************** -->
 
 <xsl:template match="section">
 <h3><xsl:value-of select="title"/>
 (<xsl:for-each select="reference"><a>
 	<xsl:attribute name="href"><xsl:value-of select="./@path"/></xsl:attribute>
 	<xsl:value-of select="."/></a>
-		<xsl:if test="not(position() = last())">, </xsl:if></xsl:for-each>)</h3>
+		<xsl:if test="not(position() = last())">, </xsl:if>
+</xsl:for-each>)</h3>
 <xsl:apply-templates select="description" />
 <xsl:apply-templates select="example" />
 <xsl:apply-templates select="sideshow" />
 <xsl:apply-templates select="note" />
 </xsl:template>
 
-<xsl:template match="sideshow">
-<xsl:value-of select="."/><br/>
-</xsl:template>
-
-<xsl:template match="before">
-<xsl:apply-templates select="note"/>
-</xsl:template>
-
-<xsl:template match="postnote">
-<xsl:apply-templates select="note"/>
-</xsl:template>
-
-<xsl:template match="note">
-<font size="2" color="#555555"><xsl:value-of select="." /></font><br/>
-</xsl:template>
-
 <xsl:template match="example">
-<pre>
-<xsl:apply-templates select="lojban"/>
-(<xsl:apply-templates select="japanese"/>)
-</pre>
-</xsl:template>
-
-<xsl:template match="lojban">
-<xsl:value-of select="."/>
+<pre><xsl:value-of select="lojban"/>
+(<xsl:apply-templates select="japanese"/>)</pre>
 </xsl:template>
 
 <xsl:template match="japanese">
-<!-- <xsl:copy-of select="node()"/> -->
 <xsl:for-each select="node()"><xsl:apply-templates select="."/></xsl:for-each>
 </xsl:template>
 
@@ -126,7 +103,10 @@
 <sub><xsl:value-of select="."/></sub>
 </xsl:template>
 
-<xsl:template match="en">
+<xsl:template match="sideshow"><xsl:value-of select="."/><br/></xsl:template>
+
+<xsl:template match="note">
+<font size="2" color="#555555"><xsl:value-of select="." /></font><br/>
 </xsl:template>
 
 </xsl:stylesheet>
