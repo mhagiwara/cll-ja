@@ -3,7 +3,9 @@
 <!DOCTYPE chapter [
 	<!ENTITY quantifier "数量詞">
 	<!ENTITY free_modifier "自由修飾句">
-	<!ENTITY flag "フラグ">
+	<!ENTITY flag "標識">
+	<!ENTITY signal "標識">
+	<!ENTITY marker "標識">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
 ]>
@@ -22,7 +24,6 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: cll-ja_20.xsl をきれいにする</note>
 <note># 予定: 45 の note を check し、それらを削除する (28/45)</note>
 <note># 予定: 121 のセルマホの訳を見直す</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
@@ -551,7 +552,7 @@ To my left, the man bites the dog.
 <section>
 <title>セルマホ FAhO</title><reference path="./chapter19.html">第19章</reference>
 <description>
-文法的な要素ではない機械的なしるし。文章の終わりを示す。<!--
+文法的な要素ではない機械的な&signal;。文章の終わりを示す。<!--
 -->コンピュータへの入力の際に有用。
 </description>
 
@@ -1061,7 +1062,7 @@ Cicero is Tully.
 <section>
 <title>セルマホ LAU</title><reference path="./chapter17.html">第17章</reference>
 <description>
-後続するアルファベットの文字と結びついて以下を示すマーカーとなる。
+後続するアルファベットの文字と結びついて以下を示す&marker;となる。
 小文字から大文字への変化、フォントの変更、句読点等。
 </description>
 <example><lojban>tau sy. .ibu</lojban>
@@ -1560,7 +1561,7 @@ I am a friend of you, and John is a friend of James.
 
 <title>セルマホ PEhO</title><reference path="./chapter18.html">第18章</reference>
 <description>
-任意で置くことができ、前置数学演算子を示す。前置演算子は被演算子の前に置かれる。
+任意で置くことができ、前置数学演算子を示す&signal;。前置演算子は被演算子の前に置かれる。
 KUhE で終わる。
 </description>
 <example><lojban>li vo du li pe'o su'i reboi re</lojban>
@@ -1942,7 +1943,7 @@ Frank and George, who are guides, are in the room.
 
 <title>セルマホ XI</title><reference path="./chapter18.html">第18章</reference>
 <description>
-下付き文字のしるし。後続する数字やレルフ列は何が前に来ようとも下付きとなる。
+下付き文字の&marker;。後続する数字やレルフ列は何が前に来ようとも下付きとなる。
 </description>
 <example>
 <lojban>xy. xi re</lojban>
@@ -2112,6 +2113,11 @@ There is a man who loves all fish.
 <postnote>
 <note>#29 note: optional と elidable の訳し分けは必要か</note><br/>
 <note># note: 上記は同じ意味として良さそう</note><br/>
+<note># note: 論理的には同じだがニュアンスに違いがある。
+optional は「つけても良い」という感じで elidable は「省略しても良い」といった感じ。
+訳し分けたほうが良いかも
+</note>
+<note># note: signal を flag と同じ訳にして良いか</note>
 <note>#30 note: ロジバンでは意志と未来とは明確に分けられているのだろうか</note><br/>
 <note>#31 note: デフォルトでは分かれてなくて、それを分けるための構文が別にあるのか</note>
 <br/>
