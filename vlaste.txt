@@ -50,7 +50,7 @@ epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中
-flag	標識	# 提案: signal や marker と訳し分ける必要がなければ統一の訳として
+flag	フラグ	# 検討中
 following	以下の/後続する	# 提案
 followed by	が後続する/を後置して	# 提案
 followed with	が後続する/を後置して	# 提案
@@ -78,7 +78,7 @@ Lojban	ロジバン
 Lojbanist	ロジバン話者
 Logical Assertions	論理的表明
 lujvo	ルジヴォ
-marker	マーカー	# 提案:標識 flag や signal との意味の違いが無ければ
+marker	マーカー	# 提案:しるし 名詞の signal との共通の訳として
 material conditional	論理包含
 mathematical	数学の/数学的	# 提案
 mathematical discourse  数学的論説
@@ -134,7 +134,7 @@ selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
 sentence	文
-signal	標識	# flag や marker との意味の違いがなければ
+signal	しるし/のしるしである	# 検討中
 something-unspecified	不特定の何か
 spatial tense	空間制
 state	状態
