@@ -76,14 +76,18 @@
 
 <xsl:template match="section">
 <h3><xsl:value-of select="title"/>
-(<xsl:for-each select="a"><a>
-	<xsl:attribute name="href"><xsl:value-of select="./@href"/></xsl:attribute>
+(<xsl:for-each select="reference"><a>
+	<xsl:attribute name="href"><xsl:value-of select="./@path"/></xsl:attribute>
 	<xsl:value-of select="."/></a>
 		<xsl:if test="not(position() = last())">, </xsl:if></xsl:for-each>)</h3>
-<xsl:apply-templates select="bef" />
+<xsl:apply-templates select="description" />
 <xsl:apply-templates select="example" />
-<xsl:apply-templates select="aft" />
+<xsl:apply-templates select="sideshow" />
 <xsl:apply-templates select="note" />
+</xsl:template>
+
+<xsl:template match="sideshow">
+<xsl:value-of select="."/><br/>
 </xsl:template>
 
 <xsl:template match="before">
