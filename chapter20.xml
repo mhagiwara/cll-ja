@@ -8,6 +8,10 @@
 	<!ENTITY marker "標識">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
+	<!ENTITY elidable "省略可能な">
+	<!ENTITY nonelidable "省略できない">
+	<!ENTITY optional "任意の">
+	<!ENTITY particle "小辞">
 ]>
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
@@ -24,7 +28,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 45 の note を check し、それらを削除する (28/45)</note>
+<note># 予定: 45 の note を check し、それらを削除する (35/45)</note>
 <note># 予定: 121 のセルマホの訳を見直す</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
@@ -320,8 +324,8 @@ A talks to B about IBM computers.
 <section>
 <title>セルマホ CAI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-感情の程度(最高に、強く、弱く、全くない)を表す品詞。
-たいていは感情を表す他の品詞の後に続ける。
+感情の程度(最高に、強く、弱く、全くない)を表す&particle;。
+たいていは感情を表す他の&particle;の後に続ける。
 </description>
 <example><lojban>.ei cai mi klama le zarci</lojban>
 <japanese>店に行かなければならない。</japanese></example>
@@ -440,7 +444,7 @@ Greetings, John.
 <title>セルマホ CU</title><reference path="./chapter9.html">第9章</reference>
 <description>
 ブリディ内で、前にあるスムティからセルブリを分ける。
-厳密に言うと必要ないのだが、いろいろな終端子を省略するのに役立つ。
+厳密に言うと必要ないのだが、いろいろな&elidable;終端子を省略するのに役立つ。
 </description>
 <example><lojban>le gerku cu klama le zarci</lojban>
 <japanese>犬が店に行く。</japanese></example>
@@ -617,7 +621,7 @@ I see you with my left eye.
 <title>セルマホ FOI</title><reference path="./chapter17.html">第17章</reference>
 <description>
 TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。<!--
--->この終端詞は省略できない。
+-->この終端詞は&nonelidable;。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
 <japanese>アキュートアクセント記号付きの e</japanese></example>
@@ -1110,7 +1114,7 @@ The dog goes-to the house.
 
 <section>
 <title>セルマホ LEhU</title><reference path="./chapter19.html">第19章</reference>
-<description>LOhU で始まる引用の終わりを示す。省略できない終端子。</description>
+<description>LOhU で始まる引用の終わりを示す。&nonelidable;終端子。</description>
 <example><lojban>lo'u mi du do du mi le'u cu na lojbo drani</lojban>
 <japanese>「mi du do du mi」はロジバンとして正しくない。</japanese></example>
 
@@ -1279,7 +1283,7 @@ That's a Ford car.
 <section>
 <title>セルマホ MEhU</title><reference path="./chapter5.html">第5章</reference>
 <description>
-ME の省略可能な終端子。タンルの構成単位へと変換されたスムティの末尾を示す。
+ME の&elidable;終端子。タンルの構成単位へと変換されたスムティの末尾を示す。
 </description>
 <example><lojban>ta me mi me'u zdani</lojban>
 <japanese>あれは私的な家だ。</japanese></example>
@@ -1561,7 +1565,7 @@ I am a friend of you, and John is a friend of James.
 
 <title>セルマホ PEhO</title><reference path="./chapter18.html">第18章</reference>
 <description>
-任意で置くことができ、前置数学演算子を示す&signal;。前置演算子は被演算子の前に置かれる。
+前置数学演算子を示す&optional;&signal;。前置演算子は被演算子の前に置かれる。
 KUhE で終わる。
 </description>
 <example><lojban>li vo du li pe'o su'i reboi re</lojban>
@@ -1612,7 +1616,7 @@ A: I [future] wash my car. B: I do-the-corresponding-thing(i.e. wash B's car)
 
 <section>
 <title>セルマホ ROI</title><reference path="./chapter10.html">第10章</reference>
-<description>数に後置して拡張間制を表す(例: 1回、2回、何回も)。</description>
+<description>数に後置して拡張間制を表す(例: 1回、2回、何回も)&particle;。</description>
 <example><lojban>mi reroi klama le zarci</lojban>
 <japanese>私は2回その店に行く。</japanese></example>
 
@@ -1625,7 +1629,7 @@ I twice go-to the market.
 
 <section>
 <title>セルマホ SA</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する句または文を取り消す。</description>
+<description>先行する句または文を取り消す&particle;。</description>
 <example><lojban>mi klama sa do klama le zarci</lojban>
 <japanese>私は行く、いや違う、君が店に行く。</japanese></example>
 
@@ -1683,7 +1687,7 @@ Frank loves (he is happy) Jane.
 <section>
 
 <title>セルマホ SI</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する語ひとつを取り消す。</description>
+<description>先行する語ひとつを取り消す&particle;。</description>
 <example><lojban>mi si do klama le zarci</lojban>
 <japanese>私、いや、君が店に行く。</japanese></example>
 
@@ -1712,7 +1716,7 @@ I love you and vice versa.
 <section>
 
 <title>セルマホ SU</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する&discourse;を終わらせ、その全てを取り消す。</description>
+<description>先行する&discourse;を終わらせ、その全てを取り消す&particle;。</description>
 <en>A particle which closes and erases the entire previous discourse.</en>
 </section>
 
@@ -1734,7 +1738,7 @@ The child habitually goes to-the school.
 <description>
 複合的に構成された文字を表す語列を始める。
 その語列は文法的にはひとつの文字として扱われる。
-語列は省略できないセルマホ FOI で終わる。
+語列は&nonelidable;セルマホ FOI で終わる。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
 <japanese>アキュートアクセントつきの e</japanese></example>
@@ -2111,36 +2115,39 @@ There is a man who loves all fish.
 <!-- 121/121 -->
 
 <postnote>
-<note>#29 note: optional と elidable の訳し分けは必要か</note><br/>
-<note># note: 上記は同じ意味として良さそう</note><br/>
-<note># note: 論理的には同じだがニュアンスに違いがある。
-optional は「つけても良い」という感じで elidable は「省略しても良い」といった感じ。
-訳し分けたほうが良いかも
-</note>
-<note># note: signal を flag と同じ訳にして良いか</note>
-<note>#30 note: ロジバンでは意志と未来とは明確に分けられているのだろうか</note><br/>
-<note>#31 note: デフォルトでは分かれてなくて、それを分けるための構文が別にあるのか</note>
-<br/>
-<note>#32 note: あるいは、英語の「will」とは違い、ba には意志の意味はないのか</note>
-<note>#33 note: その場合でも聞き手の解釈によって ba に意志を読み込んでも良いのか、
-またはそれは許されないのか</note><br/>
-<note>#34 note: しかし、単純な未来とは何か。
-意志も予測も含まれない単純な未来という概念は成立するだろうか</note><br/>
-<note>#35 note: particle をどう訳すか。文法要素とか、か</note><br/>
-<note>#36 note: metalinguistic をどう訳すか</note><br/>
-<note>#37 note: tense modifier を間制修飾詞と訳した</note><br/>
-<note>#38 note: tense indicater を間制詞と訳した</note><br/>
+<note>#36 note: metalinguistic をどう訳すか</note>
+<note>#37 note: tense modifier を間制修飾詞と訳した</note>
+<note>#38 note: tense indicater を間制詞と訳した</note>
 <note>#39 note: (e.g. ...) と (... etc.) を訳し分ける必要があるか。両方とも (... 等)で
-良いかもしれない</note><br/>
+良いかもしれない</note>
 <note>#40 note: quote を「引用する」と訳すのは適切か。
-「クォートする」と訳しておいた場所もあるが再考の必要あり</note><br/>
+「クォートする」と訳しておいた場所もあるが再考の必要あり</note>
 <note>#41 note: quotation を「quote するもの」ということで「クォーター」と訳した箇所が
-あるが、もちろん、あまり良い訳ではない。要再考</note><br/>
-<note>#42 note: quantifier をどう訳すか。「&quantifier;」としておくか</note><br/>
+あるが、もちろん、あまり良い訳ではない。要再考</note>
+<note>#42 note: quantifier をどう訳すか。「&quantifier;」としておくか</note>
 <note>#43 note: 「特別な間制の構造」は "special constructs in tenses"
-の訳だがよくわからない</note><br/>
+の訳だがよくわからない</note>
 <note>#44 note: 名辞組の要素として間制も取れるということか。例文が必要</note>
 <note>#45 note: discourse、discursive について再考</note>
+
+<note># ロジバンでは意志と未来とは明確に分けられているのだろうか。
+デフォルトでは分かれてなくて、それを分けるための構文が別にあるのか。
+あるいは、英語の「will」とは違い、ba には意志の意味はないのか。
+その場合でも聞き手の解釈によって ba に意志を読み込んでも良いのか、
+またはそれは許されないのか。しかし、単純な未来とは何か。
+意志も予測も含まれない単純な未来という概念は成立するだろうか。</note>
 </postnote>
 
 </chapter>
+<!--
+<note>#35 note: particle をどう訳すか。文法要素とか、か</note>
+<note># note: 副詞的小詞とか不変化詞とか。ただ後者は、lojban の語は変化しないし</note>
+<note># note: 日本語の助詞は英訳されると particle になる様だが</note>
+<note># note: 英語の particle は日本語に訳すときに「助詞」とは訳されない</note>
+<note># note: 短かくて活用のない品詞のことを指すのだろうか</note>
+<note># note: しかし lojban には活用はないので不変化詞は合わないだろう</note>
+<note># note: 小辞という訳もあるのかな</note>
+<note># note: 文の中で、大切な名詞や動詞にある詞きやニュアンスを加える働きがある</note>
+<note># note: 不定詞 to、動詞の ing、名詞の前につく a、the、前置詞、接頭語、接尾語</note>
+<note># note: 小詞という訳もある</note>
+-->
