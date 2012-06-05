@@ -3,9 +3,9 @@
 <!DOCTYPE chapter [
 	<!ENTITY quantifier "数量詞">
 	<!ENTITY free_modifier "自由修飾句">
-	<!ENTITY flag "標識">
-	<!ENTITY signal "標識">
-	<!ENTITY marker "標識">
+	<!ENTITY flag "フラグ">
+	<!ENTITY signal "しるし">
+	<!ENTITY marker "しるし">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
 	<!ENTITY elidable "省略可能な">
