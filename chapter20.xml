@@ -12,6 +12,7 @@
 	<!ENTITY nonelidable "省略できない">
 	<!ENTITY optional "任意の">
 	<!ENTITY particle "小辞">
+	<!ENTITY metalinguistic "メタ的な">
 ]>
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
@@ -28,7 +29,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 45 の note を check し、それらを削除する (35/45)</note>
+<note># 予定: 45 の note を check し、それらを削除する (36/45)</note>
 <note># 予定: 121 のセルマホの訳を見直す</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
@@ -1657,7 +1658,7 @@ Also used in constructing connective and modal compound cmavo.
 
 <section>
 <title>セルマホ SEI</title><reference path="./chapter19.html">第19章</reference>
-<description>ブリディに対するメタ的なコメントの開始する。SEhU で終わる。</description>
+<description>ブリディに対する&metalinguistic;コメントの開始する。SEhU で終わる。</description>
 <example><lojban>la frank. prami sei gleki [se'u] la djein.</lojban>
 <japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
 <note># 訳注: どうしてここで se'u が省略できるのか</note>
@@ -1674,7 +1675,7 @@ Frank loves (he is happy) Jane.
 
 <section>
 <title>セルマホ SEhU</title><reference path="./chapter19.html">第19章</reference>
-<description>SEI や SOI の省略可能な終端子。メタ的な挿入を終わらせる。</description>
+<description>SEI や SOI の省略可能な終端子。&metalinguistic;挿入を終わらせる。</description>
 <example><lojban>la frank. prami sei gleki se'u la djein.</lojban>
 <japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
 
@@ -2115,7 +2116,6 @@ There is a man who loves all fish.
 <!-- 121/121 -->
 
 <postnote>
-<note>#36 note: metalinguistic をどう訳すか</note>
 <note>#37 note: tense modifier を間制修飾詞と訳した</note>
 <note>#38 note: tense indicater を間制詞と訳した</note>
 <note>#39 note: (e.g. ...) と (... etc.) を訳し分ける必要があるか。両方とも (... 等)で
@@ -2136,18 +2136,19 @@ There is a man who loves all fish.
 その場合でも聞き手の解釈によって ba に意志を読み込んでも良いのか、
 またはそれは許されないのか。しかし、単純な未来とは何か。
 意志も予測も含まれない単純な未来という概念は成立するだろうか。</note>
+<note># particle をどう訳すか。文法要素とか、か。
+副詞的小詞とか不変化詞とか。後者は、lojban の語はそもそも変化しないので
+不適切だろう。
+文の中で、大切な名詞や動詞にある動きやニュアンスを加える働きがある
+という説明もある。
+不定詞 to、動詞の ing、名詞の前につく a、the、前置詞、接頭語、接尾語等
+のことらしい。
+日本語の助詞は英訳されると particle になる様だが、
+英語の particle は日本語に訳すときに「助詞」とは訳されない。
+短かくて活用のない品詞のことを指すのだろうか。
+小辞、小詞という訳もある</note>
+<note># metalinguistic をどう訳すか。
+metalinguistic: メタ言語(学)の (英辞郎)</note>
 </postnote>
 
 </chapter>
-<!--
-<note>#35 note: particle をどう訳すか。文法要素とか、か</note>
-<note># note: 副詞的小詞とか不変化詞とか。ただ後者は、lojban の語は変化しないし</note>
-<note># note: 日本語の助詞は英訳されると particle になる様だが</note>
-<note># note: 英語の particle は日本語に訳すときに「助詞」とは訳されない</note>
-<note># note: 短かくて活用のない品詞のことを指すのだろうか</note>
-<note># note: しかし lojban には活用はないので不変化詞は合わないだろう</note>
-<note># note: 小辞という訳もあるのかな</note>
-<note># note: 文の中で、大切な名詞や動詞にある詞きやニュアンスを加える働きがある</note>
-<note># note: 不定詞 to、動詞の ing、名詞の前につく a、the、前置詞、接頭語、接尾語</note>
-<note># note: 小詞という訳もある</note>
--->
