@@ -2,17 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="cll-ja_20.xsl" ?>
 <!DOCTYPE chapter [
 	<!ENTITY quantifier "数量詞">
-	<!ENTITY free_modifier "自由修飾句">
 	<!ENTITY flag "フラグ">
-	<!ENTITY signal "しるし">
-	<!ENTITY marker "しるし">
+	<!ENTITY signal "指標">
+	<!ENTITY marker "指標">
+	<!ENTITY mark "示す">
+	<!ENTITY indicator1 "指標">
+	<!ENTITY indicator2 "詞">
+	<!ENTITY indicate "を示す">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
 	<!ENTITY elidable "省略可能な">
-	<!ENTITY nonelidable "省略できない">
+	<!ENTITY non_elidable "省略できない">
 	<!ENTITY optional "任意の">
 	<!ENTITY particle "小辞">
 	<!ENTITY metalinguistic "メタ的な">
+	<!ENTITY free "自由">
+	<!ENTITY tense "間制">
+	<!ENTITY modifier1 "修飾語">
+	<!ENTITY modifier2 "修飾句">
 ]>
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
@@ -29,7 +36,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 45 の note を check し、それらを削除する (36/45)</note>
+<note># 予定: 45 の note を check し、それらを削除する (38/45)</note>
 <note># 予定: 121 のセルマホの訳を見直す</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
@@ -325,7 +332,7 @@ A talks to B about IBM computers.
 <section>
 <title>セルマホ CAI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-感情の程度(最高に、強く、弱く、全くない)を表す&particle;。
+感情の程度(最高に、強く、弱く、全くない)&indicate;&particle;。
 たいていは感情を表す他の&particle;の後に続ける。
 </description>
 <example><lojban>.ei cai mi klama le zarci</lojban>
@@ -426,7 +433,7 @@ I try to go to the market from the house.
 	<reference path="./chapter13.html">第13章</reference>
 <description>
 名前や描写、スムティに前置し呼格を形成する。<!--
--->呼格は誰に(または誰が)話しているのかを示す。<!--
+-->呼格は誰に(または誰が)話しているのか&indicate;。<!--
 -->呼格は挨拶や別れ、無線通信等、会話の場面において使われる。DOI, DOhU も見よ。
 </description>
 <example><lojban>coi .djan.</lojban>
@@ -491,7 +498,7 @@ and bridi cmavo (of selma'o GOhA).
 <section>
 <title>セルマホ DOI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-汎用的な呼格。COI とともに、または単独で用いられる。
+汎用的な呼格を示す&indicator1;。COI とともに、または単独で用いられる。
 doi と後続する名前のあいだに停止は必用ない。DOhU も見よ。
 </description>
 <example><lojban>doi frank. mi tavla do</lojban>
@@ -520,7 +527,7 @@ Greetings [terminator] Greetings, O unspecified one!
 <section>
 <title>セルマホ FA</title><reference path="./chapter9.html">第9章</reference>
 <description>
-スミティの前につけて、セルマホの何番目の場所に入るのかを示す。
+スミティの前につけて、セルマホの何番目の場所に入るのか&indicate;。
 語順よりも優先される。
 </description>
 <example><lojban>fa mi cu klama fi la .atlantas. fe la bastn.
@@ -557,7 +564,7 @@ To my left, the man bites the dog.
 <section>
 <title>セルマホ FAhO</title><reference path="./chapter19.html">第19章</reference>
 <description>
-文法的な要素ではない機械的な&signal;。文章の終わりを示す。<!--
+文法的な要素ではない機械的な&signal;。文章の終わり&indicate;。<!--
 -->コンピュータへの入力の際に有用。
 </description>
 
@@ -570,8 +577,8 @@ more text. Useful in talking to computers.
 <section>
 <title>セルマホ FEhE</title><reference path="./chapter10.html">第10章</reference>
 <description>
-期間を表す(TAhE、ROI、ZAhO によって作られる)限定詞が後続し、<!--
--->それらが時間ではなく空間的な意味を表すことを示す。
+期間を表す(TAhE、ROI、ZAhO によって作られる)&modifier2;が後続し、<!--
+-->それらが時間ではなく空間的な意味を表すこと&indicate;。
 </description>
 <example><lojban>ko vi'i fe'e di'i sombo le gurni</lojban>
 <japanese>穀物を一列に等間隔にまきなさい。</japanese></example>
@@ -587,7 +594,7 @@ Sow the grain in a line and evenly!
 <section>
 <title>セルマホ FEhU</title><reference path="./chapter9.html">第9章</reference>
 <description>
-FIhO の省略可能な終端子。その場で作られた法制タグの終わりを示す。<!--
+FIhO の省略可能な終端子。その場で作られた法制タグの終わり&indicate;。<!--
 -->タグ付けられるスミティが後ろに付く。
 </description>
 <example><lojban>mi viska do fi'o kanla [fe'u] le zunle</lojban>
@@ -622,7 +629,7 @@ I see you with my left eye.
 <title>セルマホ FOI</title><reference path="./chapter17.html">第17章</reference>
 <description>
 TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。<!--
--->この終端詞は&nonelidable;。
+-->この終端詞は&non_elidable;。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
 <japanese>アキュートアクセント記号付きの e</japanese></example>
@@ -640,7 +647,7 @@ the letter "e" with an acute accent
 <section>
 <title>セルマホ FUhA</title><reference path="./chapter18.html">第18章</reference>
 <description>
-後続する数式を逆ポーランド記法(RP)で解釈させる。<!--
+後続する数式が逆ポーランド記法(RP)で解釈されることを&indicate;。<!--
 -->逆ポーランド記法とは、数学演算子を被演算子の後に置く記法である。
 </description>
 <example><lojban>li fu'a reboi re[boi] su'i du li vo</lojban>
@@ -659,8 +666,8 @@ the-number [RP!] two, two, plus equals the-number four
 <title>セルマホ FUhE</title><reference path="./chapter19.html">第19章</reference>
 <description>
 UI に属する心態詞が後続し、
-普通そうであるようにその指標が先行する語にかかるのではなく、
-後続する語にかかるようにする。その効果は fu'o で終わる。
+普通そうであるようにその&indicator1;が先行する語にかかるのではなく、
+後続する語にかかること&indicate;。その効果は fu'o で終わる。
 </description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
 <japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
@@ -675,7 +682,7 @@ I see the  owner of a blue bouse, or what I believe to be one.
 
 <section>
 <title>セルマホ FUhO</title><reference path="./chapter19.html">第19章</reference>
-<description>UI に属する指標の効果を終わらせる。</description>
+<description>UI に属する&indicator1;の効果を終わらせる。</description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
 <japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
 
@@ -689,7 +696,7 @@ I see the owner of what I believe to be a blue house.
 <section>
 <title>セルマホ GA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的に接続された2つのスミティやブリディ末端などの始まりを示す。<!--
+論理的に接続された2つのスミティやブリディ末端などの始まり&indicate;。<!--
 -->論理的接続とは「以下の両方が成り立つ ... と ...」や<!--
 -->「以下のどちらかまたは両方が成り立つ ... と ...」や<!--
 -->「もし ... ならば ...」等を含む。GI も見よ。
@@ -814,7 +821,7 @@ A: I'm going to the market. B: Me, too.
 <section>
 <title>セルマホ GUhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的に接続された2つのタンルの構成単位の始まりを示す。<!--
+論理的に接続された2つのタンルの構成単位の始まり&indicate;。<!--
 -->論理的に接続されたタンルを形成するときに GA の代わりに使う。GI も見よ。
 </description>
 <example><lojban>la .alis. gu'e ricfu gi blanu</lojban>
@@ -899,7 +906,7 @@ John massed-with Alice carry the piano.
 <title>セルマホ JOhI</title><reference path="./chapter18.html">第18章</reference>
 <description>
 後続する数学被演算子(TEhU で終わるリスト)が数学のベクトル(一次元配列)で
-あることを示す。
+あること&indicate;。
 </description>
 <example><lojban>li jo'i paboi reboi te'u su'i jo'i ciboi voboi
 du li jo'i voboi xaboi</lojban>
@@ -999,8 +1006,8 @@ The blue house (referred to as #1) is big.
 	<reference path="./chapter10.html">第10章</reference>
 <description>
 LE または、一部の使いかたをした場合の LA の省略可能な終端子。<!--
--->描写スムティの終わりを示す。<!--
--->また、間制や法制の後に置いて、それらがスムティを取らないことを示す他、
+-->描写スムティの終わり&indicate;。<!--
+-->また、間制や法制の後に置いて、それらがスムティを取らないこと&indicate;他、
 NA+KU の形で自然言語形式の否定を表す。
 </description>
 <example><lojban>le prenu ku le zdani ku klama</lojban>
@@ -1115,7 +1122,7 @@ The dog goes-to the house.
 
 <section>
 <title>セルマホ LEhU</title><reference path="./chapter19.html">第19章</reference>
-<description>LOhU で始まる引用の終わりを示す。&nonelidable;終端子。</description>
+<description>LOhU で始まる引用の終わりを示す。&non_elidable;終端子。</description>
 <example><lojban>lo'u mi du do du mi le'u cu na lojbo drani</lojban>
 <japanese>「mi du do du mi」はロジバンとして正しくない。</japanese></example>
 
@@ -1230,7 +1237,7 @@ I saw "Big Dog" [not the words, but a book or movie].
 	<reference path="./chapter18.html">第18章</reference>
 	<reference path="./chapter19.html">第19章</reference>
 <description>
-数字や文字の並びに後置し&free_modifier;を作る。それは文章のインデックス番号となる。
+数字や文字の並びに後置し&free;&modifier2;を作る。それは文章のインデックス番号となる。
 </description>
 <example><lojban>pamai mi pu klama le zarci</lojban>
 <japanese>1. 私は店に行った。</japanese></example>
@@ -1336,7 +1343,7 @@ the-number two rats plus two rabbits equals the-number four animals
 <section>
 <title>セルマホ MOhI</title><reference path="./chapter10.html">第10章</reference>
 <description>
-空間における動きを表す間制&flag;。動きの方向は後続する FAhA シマヴォによって示す。
+空間における動き&indicate;間制&flag;。動きの方向は後続する FAhA シマヴォによって示す。
 </description>
 <example><lojban>le verba mo'i ri'u cadzu le bisli</lojban>
 <japanese>その子は氷の上を私の右の方へ歩く。</japanese></example>
@@ -1434,7 +1441,7 @@ Length x Width x Depth = Volume
 <section>
 <title>セルマホ NIhO</title><reference path="./chapter19.html">第19章</reference>
 <description>
-新しい段落を示す。また、その段落が前の内容や新しい内容を含むかどうかを示す。
+新しい段落を&mark;。また、その段落が前の内容や新しい内容を含むかどうか&indicate;。
 </description>
 
 <en>
@@ -1723,7 +1730,9 @@ I love you and vice versa.
 
 <section>
 <title>セルマホ TAhE</title><reference path="./chapter10.html">第10章</reference>
-<description>時間または空間の範囲内での頻度(規則的に、習慣的に、等)を表す間制限定詞。</description>
+<description>
+時間または空間の範囲内での頻度(規則的に、習慣的に、等)を表す&tense;&modifier1;。
+</description>
 <example><lojban>le verba ta'e klama le ckule</lojban>
 <japanese>その子供は習慣的に学校に行く。</japanese></example>
 
@@ -1739,7 +1748,7 @@ The child habitually goes to-the school.
 <description>
 複合的に構成された文字を表す語列を始める。
 その語列は文法的にはひとつの文字として扱われる。
-語列は&nonelidable;セルマホ FOI で終わる。
+語列は&non_elidable;セルマホ FOI で終わる。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
 <japanese>アキュートアクセントつきの e</japanese></example>
@@ -1827,7 +1836,7 @@ As for what is best: if food, then new [is best]; if wine, then old [is best]
 
 <section>
 <title>セルマホ UI</title><reference path="./chapter13.html">第13章</reference>
-<description>話者の感情的な状態、知識の出所、&discourse;における局面を示す。</description>
+<description>話者の感情的な状態、知識の出所、&discourse;における局面&indicate;。</description>
 <example><lojban>.ui la djan. klama</lojban>
 <japanese>やった、ジョンが来る。</japanese></example>
 
@@ -1842,7 +1851,7 @@ Hurrah! John is coming!
 <section>
 
 <title>セルマホ VA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間的な距離を示す間制(近い、遠い、どちらでもない)。</description>
+<description>空間的な距離&indicate;間制(近い、遠い、どちらでもない)。</description>
 <example><lojban>le nanmu va batci le gerku</lojban>
 <japanese>そこで男が犬をかむ。</japanese></example>
 <note># 訳注: va のなかに ca が含まれているのかもしれない。調べること</note>
@@ -1892,7 +1901,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>セルマホ VEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における距離(長、中、短)を示す間制詞。</description>
+<description>空間における距離(長、中、短)&indicate;間制。</description>
 <en>A tense indicating the size of an interval in space (long, medium, or short)</en>
 </section>
 
@@ -1915,7 +1924,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>セルマホ VIhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における次元(線上、面上、空間上、時空上の間隔)を示す間制。</description>
+<description>空間における次元(線上、面上、空間上、時空上の間隔)&indicate;間制。</description>
 <example><lojban>le verba ve'a vi'a cadzu le bisli</lojban>
 <japanese>中くらいの範囲で、氷の上をその子は歩く。</japanese></example>
 
@@ -1982,7 +1991,7 @@ O, uh, uh, John!
 <section>
 <title>セルマホ ZAhO</title><reference path="./chapter10.html">第10章</reference>
 <description>
-出来事が事象線上のどこにあるか(例: 始まり、終わり、持続)を示す間制修飾詞。
+出来事が事象線上のどこにあるか(例: 始まり、終わり、持続)を示す&tense;&modifier1;。
 </description>
 <example><lojban>mi pu'o damba</lojban>
 <japanese>ちょうど今から戦うところだ。</japanese></example>
@@ -2013,7 +2022,7 @@ That is an X-ray camera.
 
 <section>
 <title>セルマホ ZEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>時の範囲(長、中、短)という間制を示す。</description>
+<description>時の範囲(長、中、短)&indicate;間制。</description>
 <example><lojban>mi puze'a citka</lojban>
 <japanese>私は短い時間食事をした。</japanese></example>
 
@@ -2026,7 +2035,7 @@ I ate for a little while.
 
 <section>
 <title>セルマホ ZI</title><reference path="./chapter10.html">第10章</reference>
-<description>時の隔たり(遠い、中くらいの、近い過去または未来)という間制を示す。</description>
+<description>時の隔たり(遠い、中くらいの、近い過去または未来)という間制&indicate;。</description>
 <example><lojban>mi puzi citka</lojban>
 <japanese>ついさっき食事をしたところだ。</japanese></example>
 
@@ -2116,8 +2125,6 @@ There is a man who loves all fish.
 <!-- 121/121 -->
 
 <postnote>
-<note>#37 note: tense modifier を間制修飾詞と訳した</note>
-<note>#38 note: tense indicater を間制詞と訳した</note>
 <note>#39 note: (e.g. ...) と (... etc.) を訳し分ける必要があるか。両方とも (... 等)で
 良いかもしれない</note>
 <note>#40 note: quote を「引用する」と訳すのは適切か。
