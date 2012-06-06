@@ -93,6 +93,7 @@ modal	法制
 modal place 法制場所
 modifier	限定詞	# 提案: 修飾語/修飾句
 natural language negation	自然言語否定
+nonce word	臨時語	# 提案
 non-logical	非論理的
 observative	観察文
 operand	被演算子	# 提案
