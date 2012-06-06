@@ -20,8 +20,8 @@
 	<!ENTITY tense "間制">
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
-	<!ENTITY qualified "被修飾">
-	<!ENTITY qualifier "修飾語">
+	<!ENTITY qualified "被限定">
+	<!ENTITY qualifier "限定詞">
 	<!ENTITY etc "など">
 	<!ENTITY eg "など">
 	<!ENTITY quotation "引用">
