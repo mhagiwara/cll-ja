@@ -50,7 +50,7 @@ epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中
-flag	フラグ	# 検討中
+flag	フラグ	# 暫定
 following	以下の/後続する	# 提案
 followed by	が後続する/を後置して	# 提案
 followed with	が後続する/を後置して	# 提案
@@ -63,7 +63,8 @@ gloss word	見出し語
 implicit-abstraction lujvo	暗黙抽象ルジヴォ
 incidental relative phrase	付随関係句
 indefinite	不定の
-indicator	指標
+indicate	を示す	# 提案
+indicator	指標	# 提案:「〜 indicator」で「〜詞」(参:attitudinal indicator)
 indirect question	間接疑問
 internal bridi negation	内部ブリディ否定
 interval   範囲
@@ -78,8 +79,9 @@ Lojban	ロジバン
 Lojbanist	ロジバン話者
 Logical Assertions	論理的表明
 lujvo	ルジヴォ
-marker	マーカー	# 提案:しるし 名詞の signal との共通の訳として
-metalinguistic		# 提案: 20章 セルマホ SEI の説明では「メタ的な」と訳しておいたが
+mark	を示す	# 提案
+marker	マーカー	# 提案:「指標」名詞の signal、indicator との共通の訳として
+metalinguistic		# 求む提案:20章 セルマホ SEI では「メタ的な」としたが
 material conditional	論理包含
 mathematical	数学の/数学的	# 提案
 mathematical discourse  数学的論説
@@ -89,14 +91,14 @@ mathematical operation	数学演算	# 提案
 mathematical operator	数学演算子	# 提案
 modal	法制
 modal place 法制場所
-modifier	限定詞
+modifier	限定詞	# 提案: 修飾語/修飾句
 natural language negation	自然言語否定
 non-logical	非論理的
 observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
 optional	任意の	# 提案
-particle	小辞	# 提案
+particle	小辞	# 提案: もっと良い訳語はないでしょうか
 place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
@@ -135,7 +137,7 @@ selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
 sentence	文
-signal	しるし/のしるしである	# 検討中
+signal	しるし/のしるしである	# 提案:「指標/の指標である」marker, indicator
 something-unspecified	不特定の何か
 spatial tense	空間制
 state	状態
