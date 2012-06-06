@@ -20,8 +20,14 @@
 	<!ENTITY tense "間制">
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
+	<!ENTITY qualified "被修飾">
+	<!ENTITY qualifier "修飾語">
 	<!ENTITY etc "など">
 	<!ENTITY eg "など">
+	<!ENTITY quotation "引用">
+	<!ENTITY quoted "引用された">
+	<!ENTITY quote "引用する">
+	<!ENTITY material "もの">
 ]>
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
@@ -38,7 +44,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 45 の note を check し、それらを削除する (39/45)</note>
+<note># 予定: 45 の note を check し、それらを削除する (41/45)</note>
 <note># 予定: 121 のセルマホの訳を見直す</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
@@ -1093,8 +1099,8 @@ single marker: change from lower to upper case, change of font, punctuation, etc
 <section>
 <title>セルマホ LAhE</title><reference path="./chapter6.html">第6章</reference>
 <description>
-スムティに前置し、それを意味的に関係のある別のスムティに変える限定詞。<!--
--->限定詞はまたセルマホ NAhE+BO からも作られる。LUhU も見よ。
+スムティに前置し、それを意味的に関係のある別のスムティに変える&qualifier;。<!--
+-->&qualifier;はまたセルマホ NAhE+BO からも作られる。LUhU も見よ。
 </description>
 <example><lojban>mi viska la'e zoi kuot. A Tale of Two Cities .kuot</lojban>
 <japanese>私は「二都物語」を見る。</japanese></example>
@@ -1125,7 +1131,7 @@ The dog goes-to the house.
 
 <section>
 <title>セルマホ LEhU</title><reference path="./chapter19.html">第19章</reference>
-<description>LOhU で始まる引用の終わりを示す。&non_elidable;終端子。</description>
+<description>LOhU で始まる&quotation;の終わりを示す。&non_elidable;終端子。</description>
 <example><lojban>lo'u mi du do du mi le'u cu na lojbo drani</lojban>
 <japanese>「mi du do du mi」はロジバンとして正しくない。</japanese></example>
 
@@ -1157,7 +1163,7 @@ $2 - 2 &lt;&gt; 4 + 4$
 
 <section>
 <title>セルマホ LIhU</title><reference path="./chapter19.html">第19章</reference>
-<description>LU の省略可能な終端子。引用の終わりを示す。</description>
+<description>LU の省略可能な終端子。&quotation;の終わりを示す。</description>
 <example><lojban>mi cusku lu mi klama le zarci li'u</lojban>
 <japanese>私は「私は店に行く」と言う。</japanese></example>
 
@@ -1185,8 +1191,8 @@ $4 &gt; 3$
 <section>
 <title>セルマホ LOhU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-引用(スムティ)の始まりを示す。
-この場合の引用はそれがロジバンにおける語から成るものであれば、
+&quotation;(スムティ)の始まりを示す。
+この場合は&quoted;&material;がロジバンにおける語から成るものであれば、
 それが文の形を成しているかどうかに関わらず、文法的に正しいことになる。
 LEhU で終わる。
 </description>
@@ -1206,8 +1212,8 @@ You said, "mi du do du ko'a".
 <section>
 <title>セルマホ LU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-引用(スムティ)の始まりを示す。
-この場合の引用は引用されている部分も文法的に正しいロジバンの文章でなければ、
+&quotation;(スムティ)の始まりを示す。
+この場合は&quoted;&material;も文法的に正しいロジバンの文章でなければ、
 文法的に正しくない。LIhU で終わる。
 <example><lojban>mi cusku lu mi klama le zarci li'u</lojban>
 <japanese>私は「私は店に行く」と言う。</japanese></example>
@@ -1223,7 +1229,7 @@ I express [quote] I go-to the market [end quote].
 
 <section>
 <title>セルマホ LUhU</title><reference path="./chapter6.html">第6章</reference>
-<description>LAhE や NAhE+BO の省略可能な終端子。限定スムティの終わりを示す。</description>
+<description>LAhE や NAhE+BO の省略可能な終端子。&qualified;スムティの終わりを示す。</description>
 <example><lojban>mi viska la'e lu barda gerku li'u lu'u</lojban>
 <japanese>私は「大きい犬」(語ではなくこの題名の本または映画など)を見る。</japanese></example>
 
@@ -1393,7 +1399,7 @@ specified by the grammar.
 <description>
 段階否定。セルブリやスムティを修飾し、それが示す状態から段階的な値へと変える。<!--
 -->例えばその状態の反対&etc;。<!--
--->後続する BO とともにスムティ限定詞としても使う、LAhE も見よ。
+-->後続する BO とともにスムティ&qualifier;としても使う、LAhE も見よ。
 </description>
 <example><lojban>ta na'e blanu zdani</lojban>
 <japanese>あれは青くない家だ。</japanese></example>
@@ -2072,7 +2078,9 @@ I own a white dog, which I love.
 <section>
 
 <title>セルマホ ZO</title><reference path="./chapter19.html">第19章</reference>
-<description>後続するロジバンの一語をクォートする。</description>
+<description>
+一語の&quotation;。後続するロジバンの一語を&quote;。
+</description>
 <example><lojban>zo si cu lojbo valsi</lojban>
 <japanese>語「si」はロジバンの語である。</japanese></example>
 
@@ -2086,8 +2094,8 @@ The-word "si" is-a-Lojbanic word.
 
 <title>セルマホ ZOI</title><reference path="./chapter19.html">第19章</reference>
 <description>
-ロジバン以外を取るクォーター:
-区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列をクォートする。
+ロジバン以外を取る&quotation;:
+区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列を&quote;。
 区切り文字は文字列中に出てきてはならない、また文字列との間に停止が必要。
 </description>
 <example><lojban>zoi kuot. Socrates is mortal .kuot. cu glico jufra</lojban>
@@ -2128,11 +2136,6 @@ There is a man who loves all fish.
 <!-- 121/121 -->
 
 <postnote>
-<note>#40 note: quote を「引用する」と訳すのは適切か。
-「クォートする」と訳しておいた場所もあるが再考の必要あり</note>
-<note>#41 note: quotation を「quote するもの」ということで「クォーター」と訳した箇所が
-あるが、もちろん、あまり良い訳ではない。要再考</note>
-<note>#42 note: quantifier をどう訳すか。「&quantifier;」としておくか</note>
 <note>#43 note: 「特別な間制の構造」は "special constructs in tenses"
 の訳だがよくわからない</note>
 <note>#44 note: 名辞組の要素として間制も取れるということか。例文が必要</note>
@@ -2157,6 +2160,10 @@ There is a man who loves all fish.
 小辞、小詞という訳もある</note>
 <note># metalinguistic をどう訳すか。
 metalinguistic: メタ言語(学)の (英辞郎)</note>
+<note># quote を「引用する」と訳すのは適切か。
+特に single-word quotation を「一語の引用」として良いか。
+「クォートする」と訳したほうが良いだろうか。
+「文字列化」とか「文字化」と訳すべきか。要再考</note>
 </postnote>
 
 </chapter>
