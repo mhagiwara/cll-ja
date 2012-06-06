@@ -20,6 +20,8 @@
 	<!ENTITY tense "間制">
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
+	<!ENTITY etc "など">
+	<!ENTITY eg "など">
 ]>
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
@@ -36,7 +38,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 45 の note を check し、それらを削除する (38/45)</note>
+<note># 予定: 45 の note を check し、それらを削除する (39/45)</note>
 <note># 予定: 121 のセルマホの訳を見直す</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
@@ -71,7 +73,7 @@ the most common use is shown.
 <title>セルマホ A</title>
 <reference path="./chapter14.html">第14章</reference>
 <description>
-論理的なつながり(例: かつ、または、もし)を示す。主にスムティ同士の接続に使う。
+論理的なつながり(「かつ」、「または」、「もし」&eg;)を示す。主にスムティ同士の接続に使う。
 </description>
 <example>
 <lojban>la djan. .ala djein. klama le zarci</lojban>
@@ -242,7 +244,7 @@ I am standing between Dresden and Frankfurt.
 	<reference path="./chapter18.html">第18章</reference>
 <description>
 タンルの構成単位を強く結合する。
-論理的にまたは非論理的に、節や文などを結合するのに使える。
+論理的にまたは非論理的に、節や文&etc;を結合するのに使える。
 結合において BO は常に優先され、また右結合である。
 </description>
 <example>
@@ -771,7 +773,7 @@ connective involving GA, GUhA, or JOI.
 <description>
 2つのブリディ末端が先行するスムティを持たず、<!--
 -->またいくつかの後続するスムティを持つ場合に、<!--
--->それらを論理的に(つまり、「かつ」、「または」、「もし」によって)接続する。
+-->それらを論理的に(「かつ」、「または」、「もし」&eg;)接続する。
 </description>
 <example><lojban>mi klama le zarci gi'e nelci la djan.</lojban>
 <japanese>私は店に行くし、ジョンが好きだ。</japanese></example>
@@ -847,7 +849,8 @@ Separates two sentences from each other. I go-to the market. I go-to the office.
 
 <section>
 <title>セルマホ JA</title><reference path="./chapter14.html">第14章</reference>
-<description>2つのタンル、数学被演算子、間制、抽象化の間の論理的接続を示す。</description>
+<description>2つのタンル、数学被演算子、間制、抽象化の間の論理的接続<!--
+-->(「かつ」、「または」、「もし」&eg;)を示す。</description>
 <example><lojban>ti blanu je zdani</lojban>
 <japanese>これは青い、そして家だ。</japanese></example>
 
@@ -886,8 +889,8 @@ I change the color of the wall.
 <section>
 <title>セルマホ JOI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-2つのスムティ、タンルの構成単位等の非論理的接続(例:
-集団として、あるいは組として、または並びとして、一緒に)を示す。<!--
+2つのスムティ、タンルの構成単位等の非論理的接続<!--
+-->(集団として一緒に、組として一緒に、並びとして一緒に、&eg;)を示す。<!--
 -->または、GI を後置して、GA のような前置非論理接続詞を作る。
 </description>
 <example><lojban>la djan. joi la .alis. cu bevri le pipno</lojban>
@@ -1075,7 +1078,7 @@ Cicero is Tully.
 <title>セルマホ LAU</title><reference path="./chapter17.html">第17章</reference>
 <description>
 後続するアルファベットの文字と結びついて以下を示す&marker;となる。
-小文字から大文字への変化、フォントの変更、句読点等。
+小文字から大文字への変化、フォントの変更、句読点&etc;。
 </description>
 <example><lojban>tau sy. .ibu</lojban>
 <japanese>Si(硅素の化学記号)</japanese></example>
@@ -1388,9 +1391,9 @@ specified by the grammar.
 
 <title>セルマホ NAhE</title><reference path="./chapter15.html">第15章</reference>
 <description>
-段階否定。セルブリやスムティを修飾し、それが示す状態から段階的な値へと変える。
-例えばその状態の反対、等。
-後続する BO とともにスムティ限定詞としても使う、LAhE も見よ。
+段階否定。セルブリやスムティを修飾し、それが示す状態から段階的な値へと変える。<!--
+-->例えばその状態の反対&etc;。<!--
+-->後続する BO とともにスムティ限定詞としても使う、LAhE も見よ。
 </description>
 <example><lojban>ta na'e blanu zdani</lojban>
 <japanese>あれは青くない家だ。</japanese></example>
@@ -1537,7 +1540,7 @@ from-the schools)
 <section>
 <title>セルマホ PA</title><reference path="./chapter18.html">第18章</reference>
 <description>
-数字とそれに関連した&quantifier;(いくらかの、全ての、多くの等)。
+数字とそれに関連した&quantifier;(いくらかの、全ての、多くの、&etc;)。
 </description>
 <example><lojban>mi speni re ninmu</lojban>
 <japanese>私は2人の女の人と結婚している。</japanese></example>
@@ -1624,7 +1627,7 @@ A: I [future] wash my car. B: I do-the-corresponding-thing(i.e. wash B's car)
 
 <section>
 <title>セルマホ ROI</title><reference path="./chapter10.html">第10章</reference>
-<description>数に後置して拡張間制を表す(例: 1回、2回、何回も)&particle;。</description>
+<description>数に後置して拡張間制を表す(1回、2回、何回も、&eg;)&particle;。</description>
 <example><lojban>mi reroi klama le zarci</lojban>
 <japanese>私は2回その店に行く。</japanese></example>
 
@@ -1991,7 +1994,7 @@ O, uh, uh, John!
 <section>
 <title>セルマホ ZAhO</title><reference path="./chapter10.html">第10章</reference>
 <description>
-出来事が事象線上のどこにあるか(例: 始まり、終わり、持続)を示す&tense;&modifier1;。
+出来事が事象線上のどこにあるか(始まり、終わり、持続、&eg;)を示す&tense;&modifier1;。
 </description>
 <example><lojban>mi pu'o damba</lojban>
 <japanese>ちょうど今から戦うところだ。</japanese></example>
@@ -2125,8 +2128,6 @@ There is a man who loves all fish.
 <!-- 121/121 -->
 
 <postnote>
-<note>#39 note: (e.g. ...) と (... etc.) を訳し分ける必要があるか。両方とも (... 等)で
-良いかもしれない</note>
 <note>#40 note: quote を「引用する」と訳すのは適切か。
 「クォートする」と訳しておいた場所もあるが再考の必要あり</note>
 <note>#41 note: quotation を「quote するもの」ということで「クォーター」と訳した箇所が
