@@ -11,7 +11,8 @@
 	<!ENTITY be_suffixed "に後置して">
 	<!ENTITY be_terminated_by "で終わる">
 	<!ENTITY be_terminated_with "によって終わらせる">
-	<!ENTITY bind "結合する">
+	<!ENTITY bind1 "結合する">
+	<!ENTITY bind2 "結合し">
 	<!ENTITY closely "強く">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY describe "描写する">
@@ -27,6 +28,8 @@
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY interval "範囲">
+	<!ENTITY join "まとめる">
 	<!ENTITY lerfu "レルフ">
 	<!ENTITY mark "を示す">
 	<!ENTITY marker "マーカー">
@@ -78,7 +81,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す BIhE まで (7/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す BIhI まで (8/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -237,7 +240,7 @@ I am-a-(goer to-the market) type-of-trier. I try to go to the market.
 <description>
 &mathematical;&operator;&attach_to2;&prefix_n;。<!--
 -->他の&mathematical;&operator;よりも優先度が高いこと&mark;。<!--
--->この&operator;の前後の&operand;はより&closely;&bind;。
+-->この&operator;の前後の&operand;はより&closely;&bind1;。
 </description>
 <example>
 <lojban>li ci bi'e pi'i vo su'i mu du li paze</lojban>
@@ -261,7 +264,7 @@ The-number 3 [priority] times 4 plus 5 equals the-number 17.
 <section>
 <title>セルマホ BIhI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-&sumti;または&tanru_unit;(あるいはそれ以外の何か)を結びつけることで範囲を表す。
+&sumti;または&tanru_unit;(あるいはそれ以外の何か)を&join;ことで&interval;を表す。
 GAhO &see;
 </description>
 <example>
@@ -282,8 +285,8 @@ I am standing between Dresden and Frankfurt.
 	<reference path="./chapter15.html">第15章</reference>
 	<reference path="./chapter18.html">第18章</reference>
 <description>
-&tanru_unit;を&closely;&bind;。
-論理的にまたは非論理的に、節や文&etc;を&bind;のに使える。
+&tanru_unit;を&closely;&bind2;&join;。
+論理的にまたは非論理的に、節や文&etc;を&bind1;のに使える。
 結合において BO は常に優先され、また右結合である。
 </description>
 <example>
@@ -429,7 +432,7 @@ The green thingy is large. The red thingy is small.
 	<reference path="./chapter14.html">第14章</reference>
 	<reference path="./chapter16.html">第16章</reference>
 <description>
-複数の名辞を名辞組にまとめる。
+複数の名辞を名辞組に&join;。
 名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
 または特別な間制の構造を作るために使われる。
 </description>
@@ -618,7 +621,7 @@ more text. Useful in talking to computers.
 <section>
 <title>セルマホ FEhE</title><reference path="./chapter10.html">第10章</reference>
 <description>
-&following;期間を表す(TAhE、ROI、ZAhO によって作られる)&modifier2;<!--
+&following;&interval;を表す(TAhE、ROI、ZAhO によって作られる)&modifier2;<!--
 -->が時間ではなく空間的な意味を表すこと&indicate;。
 </description>
 <example><lojban>ko vi'i fe'e di'i sombo le gurni</lojban>
@@ -758,7 +761,7 @@ Either John is a man or James is a woman (or both)
 <section>
 <title>セルマホ GAhO</title><reference path="./chapter14.html">第14章</reference>
 <description>
-BIhI に&specified;範囲が端点を含むかどうか&specify2;。
+BIhI に&specified;&interval;が端点を含むかどうか&specify2;。
 2つが組で使われて、BIhI シュマボの前後に置かれ、それぞれ左右の端点の性質&specify2;。
 </description>
 <example><lojban>mi ca sanli la drezdn. ga'o bi'i ga'o la frankfurt.</lojban>
@@ -1597,7 +1600,7 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 
 <title>セルマホ PEhE</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的または非論理的接続詞の前について、2つの名辞組をつなぐ。<!--
+論理的または非論理的接続詞の前について、2つの名辞組を&join;。<!--
 -->名辞組はそれぞれの名辞を関係づけ、論理的に接続し、<!--
 -->&quantifier;の掛かる範囲をまとめ、<!--
 -->または特別な間制の構造を作るために使われる(CEhE を見よ)。
@@ -1779,7 +1782,7 @@ I love you and vice versa.
 <section>
 <title>セルマホ TAhE</title><reference path="./chapter10.html">第10章</reference>
 <description>
-時間または空間の範囲内での頻度(規則的に、習慣的に、等)を&specify1;&tense;&modifier1;。
+時間または空間の&interval;内での頻度(規則的に、習慣的に、等)を&specify1;&tense;&modifier1;。
 </description>
 <example><lojban>le verba ta'e klama le ckule</lojban>
 <japanese>その子供は習慣的に学校に行く。</japanese></example>
@@ -1951,7 +1954,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>セルマホ VEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における距離(長、中、短)&indicate;間制。</description>
+<description>空間における&interval;(長、中、短)&indicate;間制。</description>
 <en>A tense indicating the size of an interval in space (long, medium, or short)</en>
 </section>
 
@@ -1975,7 +1978,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>セルマホ VIhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における次元(線上、面上、空間上、時空上の間隔)&indicate;間制。</description>
+<description>空間における次元(線上、面上、空間上、時空上の&interval;)&indicate;間制。</description>
 <example><lojban>le verba ve'a vi'a cadzu le bisli</lojban>
 <japanese>中くらいの範囲で、氷の上をその子は歩く。</japanese></example>
 
@@ -2059,7 +2062,7 @@ I'm on the verge of fighting.
 <section>
 
 <title>セルマホ ZEI</title><reference path="./chapter4.html">第4章</reference>
-<description>形態学的な接着語。両側にある語をルジヴォと同じ意味でつなげる。</description>
+<description>形態学的な接着語。両側にある語をルジヴォと同じ意味で&join;。</description>
 <example><lojban>ta xy. zei kantu kacma</lojban>
 <japanese>あれはX線カメラだ。</japanese></example>
 
@@ -2073,7 +2076,7 @@ That is an X-ray camera.
 
 <section>
 <title>セルマホ ZEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>時の範囲(長、中、短)&indicate;間制。</description>
+<description>時の&interval;(長、中、短)&indicate;間制。</description>
 <example><lojban>mi puze'a citka</lojban>
 <japanese>私は短い時間食事をした。</japanese></example>
 
@@ -2101,7 +2104,7 @@ I ate a little while ago.
 <section>
 <title>セルマホ ZIhE</title><reference path="./chapter8.html">第8章</reference>
 <description>
-同じ&sumti;に掛かる関係句や関係節をまとめる。
+同じ&sumti;に掛かる関係句や関係節を&join;。
 英訳の際には「and」と訳されることが多いが、論理的接続とは見なされない。
 </description>
 <example><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
