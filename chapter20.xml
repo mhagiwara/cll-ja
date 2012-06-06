@@ -14,11 +14,10 @@
 	<!ENTITY free "自由">
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY indicate "を示す">
-	<!ENTITY indicator1 "指標">
-	<!ENTITY indicator2 "詞">
+	<!ENTITY indicator "心態詞">
 	<!ENTITY lerfu "レルフ">
 	<!ENTITY mark "示す">
-	<!ENTITY marker "指標">
+	<!ENTITY marker "マーカー">
 	<!ENTITY material "もの">
 	<!ENTITY metalinguistic "メタ的な">
 	<!ENTITY modifier1 "修飾語">
@@ -32,7 +31,7 @@
 	<!ENTITY quotation "引用">
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
-	<!ENTITY signal "指標">
+	<!ENTITY signal "シグナル">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
@@ -512,7 +511,7 @@ and bridi cmavo (of selma'o GOhA).
 <section>
 <title>セルマホ DOI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-汎用的な呼格を示す&indicator1;。COI とともに、または単独で用いられる。
+汎用的な呼格を示す&indicator;。COI とともに、または単独で用いられる。
 doi と&following;名前のあいだに停止は必用ない。DOhU も見よ。
 </description>
 <example><lojban>doi frank. mi tavla do</lojban>
@@ -680,7 +679,7 @@ the-number [RP!] two, two, plus equals the-number four
 <title>セルマホ FUhE</title><reference path="./chapter19.html">第19章</reference>
 <description>
 &following; UI に属する心態詞が、
-普通そうであるようにその&indicator1;が先行する語にかかるのではなく、
+普通そうであるようにその&indicator;が先行する語にかかるのではなく、
 &following;語にかかること&indicate;。その効果は fu'o で終わる。
 </description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
@@ -696,7 +695,7 @@ I see the  owner of a blue bouse, or what I believe to be one.
 
 <section>
 <title>セルマホ FUhO</title><reference path="./chapter19.html">第19章</reference>
-<description>UI に属する&indicator1;の効果を終わらせる。</description>
+<description>UI に属する&indicator;の効果を終わらせる。</description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
 <japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
 
