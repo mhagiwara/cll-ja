@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="cll-ja_20.xsl" ?>
 <!DOCTYPE chapter [
+	<!ENTITY attach_to1 "に付加された">
+	<!ENTITY attach_to2 "につけ">
+	<!ENTITY attach_to3 "にかかる">
 	<!ENTITY be_followed "に後置">
 	<!ENTITY be_prefix "に後置して">
 	<!ENTITY be_prefixed "に前置して">
+	<!ENTITY be_suffixed "に後置して">
 	<!ENTITY describe "描写する">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
@@ -28,7 +32,8 @@
 	<!ENTITY non_elidable "省略できない">
 	<!ENTITY optional "任意の">
 	<!ENTITY particle "小辞">
-	<!ENTITY prefix "を前置して">
+	<!ENTITY prefix_n "接頭辞">
+	<!ENTITY prefix_v "を前置して">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
 	<!ENTITY quantifier "数量詞">
@@ -36,10 +41,12 @@
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
 	<!ENTITY see "も見よ。">
+	<!ENTITY separate "分ける">
 	<!ENTITY signal "シグナル">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
+	<!ENTITY suffix_n "接尾辞">
 	<!ENTITY tanru_unit "タンルの構成単位">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY tense "間制">
@@ -59,7 +66,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す (4/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す (5/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -177,7 +184,7 @@ I am-a-(goer to-that) type-of trier. I try to go to that place.
 <section>
 <title>セルマホ BEI</title><reference path="./chapter5.html">第5章</reference>
 <description>
-BE によって&tanru_unit;に付加された複数のスムティ同士を分ける。
+BE によって&tanru_unit;&attach_to1;複数のスムティ同士を&separate;。
 </description>
 <example>
 <lojban>mi klama be le zarci bei le zdani be'o troci</lojban>
@@ -199,7 +206,7 @@ I try to go from the home to the market
 <title>セルマホ BEhO</title>
 <reference path="./chapter5.html">第5章</reference>
 <description>
-BE に対する省略可能な終端詞。&tanru_unit;に付加されたスムティを終わらせる。
+BE に対する省略可能な終端詞。&tanru_unit;&attach_to1;スムティを終わらせる。
 </description>
 <example>
 <lojban>mi klama be le zarci be'o troci</lojban>
@@ -216,7 +223,7 @@ I am-a-(goer to-the market) type-of-trier. I try to go to the market.
 <title>セルマホ BIhE</title>
 <reference path="./chapter18.html">第18章</reference>
 <description>
-数学演算子の前につけて、他の数学演算子よりも優先度が高いことを示す。
+数学演算子&attach_to2;る&prefix_n;。他の数学演算子よりも優先度が高いことを示す。
 この演算子の前後の被演算子はより強く結びつく。
 </description>
 <example>
@@ -310,10 +317,10 @@ The-number two equals the-number the-difference-of four-and two.
 <section>
 <title>セルマホ BU</title><reference path="./chapter17.html">第17章</reference>
 <description>
-全ての語の後置することができる。
+全ての語&attach_to2;ることができる&suffix_n;。
 主にアルファベットの文字またはその名前に後置し、
 記号やその他のアルファベットの文字を表す語を作る。
-特にひとつの母音だけから成るシマヴォにつけることで、それを表す語として使われる。
+特にひとつの母音だけから成るシマヴォ&attach_to2;ることで、それを表す語として使われる。
 </description>
 <example>
 <lojban>.abu .ebu .ibu .obu .ubu .ybu</lojban>
@@ -472,7 +479,7 @@ Greetings, John.
 <section>
 <title>セルマホ CU</title><reference path="./chapter9.html">第9章</reference>
 <description>
-ブリディ内で、前にあるスムティからセルブリを分ける。
+ブリディ内で、前にあるスムティからセルブリを&separate;。
 厳密に言うと必要ないのだが、いろいろな&elidable;終端子を省略するのに役立つ。
 </description>
 <example><lojban>le gerku cu klama le zarci</lojban>
@@ -548,7 +555,7 @@ Greetings [terminator] Greetings, O unspecified one!
 <section>
 <title>セルマホ FA</title><reference path="./chapter9.html">第9章</reference>
 <description>
-スミティの前につけて、セルマホの何番目の場所に入るのか&indicate;。
+スミティにつける&prefix_n;。セルマホの何番目の場所に入るのか&indicate;。
 語順よりも優先される。
 </description>
 <example><lojban>fa mi cu klama fi la .atlantas. fe la bastn.
@@ -568,7 +575,7 @@ I go from Atlanta to Boston via the road using the car.
 <description>
 どこでそのブリディの示す事がらが起きたかの方向を&specify1;。
 MOhI をつけるとその方向への動きという意味になり、
-VEhA や VIhA &prefix;その方向に沿ってという意味となる。
+VEhA や VIhA &prefix_v;その方向に沿ってという意味となる。
 </description>
 <example><lojban>le nanmu zu'a batci le gerku</lojban>
 <japanese>私の左で男が犬をかむ。</japanese></example>
@@ -774,7 +781,7 @@ John (referred to as #1) is-blue.
 <description>
 GA、GUhA、JOI といった前置論理接続詞&be_prefix;、<!--
 -->2つの論理的に、または非論理的に接続されたスムティ、&tanru_unit;、<!--
--->ブリディ末端等を分ける。
+-->ブリディ末端等を&separate;。
 </description>
 <example><lojban>ge la djan. nanmu gi la dieimyz. ninmu</lojban>
 <japanese>ジャンは男であり、かつジェームズは女である。</japanese></example>
@@ -857,7 +864,7 @@ Alice is both rich and blue.
 
 <section>
 <title>セルマホ I</title>(<reference path="./chapter19.html">第19章</reference>)
-<description>2つの文を分ける。</description>
+<description>2つの文を&separate;。</description>
 <example><lojban>mi klama le zarci .i mi klama le zdani</lojban>
 <japanese>私は店に行く。私は事務所に行く。</japanese></example>
 
@@ -883,7 +890,7 @@ This is-blue and a-house
 <section>
 <title>セルマホ JAI</title><reference path="./chapter9.html">第9章</reference>
 <description>
-間制または法制&follow;して、セルブリにつけて法制場所でセルブリの x1
+間制または法制&follow;して、セルブリ&attach_to2;て法制場所でセルブリの x1
 を置き換える演算子を作る。<!--
 -->単独で使われると、取り除かれたブリディの場所のひとつで、<!--
 -->セルブリの x1 (x1 は抽象スムティでなければならない)を置き換える。
@@ -1259,7 +1266,7 @@ I saw "Big Dog" [not the words, but a book or movie].
 	<reference path="./chapter18.html">第18章</reference>
 	<reference path="./chapter19.html">第19章</reference>
 <description>
-数字や文字の並びに後置し&free;&modifier2;を作る。それは文章のインデックス番号となる。
+数字や文字の並び&be_suffixed;&free;&modifier2;を作る。それは文章のインデックス番号となる。
 </description>
 <example><lojban>pamai mi pu klama le zarci</lojban>
 <japanese>1. 私は店に行った。</japanese></example>
@@ -1327,7 +1334,7 @@ Indicates the end of a sumti converted to a tanru unit. That's a me type of hous
 <section>
 <title>セルマホ MOI</title><reference path="./chapter5.html">第5章</reference>
 <description>
-数やその他の量を示す語の後について、数に関するさまざまなセルブリを作る。
+数やその他の量を示す語につく&suffix_n;。数に関するさまざまなセルブリを作る。
 </description>
 <example><lojban>la djan. joi la frank. cu bruna remei</lojban>
 <japanese>ジョンとフランクは2人兄弟だ。</japanese></example>
@@ -1628,7 +1635,7 @@ I went to the market.
 
 <title>セルマホ RAhO</title><reference path="./chapter7.html">第7章</reference>
 <description>
-代ブリディを更新する&flag;。代ブリディに暗黙につけられたスミティの意味を
+代ブリディを更新する&flag;。暗黙のうちに代ブリディ&attach_to2;られたスミティの意味を
 前の文脈ではなく、新しい文脈に合うように変える。
 </description>
 <example><lojban>A: mi ba lumci le mi karce B: mi go'i</lojban>
@@ -1647,7 +1654,7 @@ A: I [future] wash my car. B: I do-the-corresponding-thing(i.e. wash B's car)
 
 <section>
 <title>セルマホ ROI</title><reference path="./chapter10.html">第10章</reference>
-<description>数に後置して拡張間制を表す(1回、2回、何回も、&eg;)&particle;。</description>
+<description>数&be_suffixed;拡張間制を表す(1回、2回、何回も、&eg;)&particle;。</description>
 <example><lojban>mi reroi klama le zarci</lojban>
 <japanese>私は2回その店に行く。</japanese></example>
 
@@ -1963,7 +1970,7 @@ In a medium-sized area, the child walks on the ice.
 <section>
 <title>セルマホ VUhO</title><reference path="./chapter8.html">第8章</reference>
 <description>関係節や関係句が、スムティの最も左側の部分ではなく、<!--
--->(複合的であるかもしれない)スムティ全体にかかるようにする。</description>
+-->(複合的であるかもしれない)スムティ全体&attach_to3;ようにする。</description>
 <example><lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
 <japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese></example>
 
@@ -2110,7 +2117,8 @@ The-word "si" is-a-Lojbanic word.
 <description>
 ロジバン以外を取る&quotation;:
 区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列を&quote;。
-区切り文字は文字列中に出てきてはならない、また文字列との間に停止が必要。
+区切り文字は文字列中に出てきてはならない、
+また文字列との間は停止によって&separate;必要がある。
 </description>
 <example><lojban>zoi kuot. Socrates is mortal .kuot. cu glico jufra</lojban>
 <japanese>「Socrates is mortal」は英語の文章だ。</japanese></example>
@@ -2131,8 +2139,8 @@ The-text "Socrates is mortal" is-an-English sentence.
 	<reference path="./chapter16.html">第16章</reference>
 	<reference path="./chapter19.html">第19章</reference>)
 <description>
-論理的冠頭部をそれが適用されるブリディや文のまとまりから分ける。
-または、主題/評言文において、主題を主題に対する評言から分ける。
+論理的冠頭部をそれが適用されるブリディや文のまとまりから&separate;。
+または、主題/評言文において、主題を主題に対する評言から&separate;。
 </description>
 <example><lojban>su'o da poi remna ro de poi finpe zo'u da prami de</lojban>
 <japanese>全ての魚を好む人がいる。</japanese></example>
