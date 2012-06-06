@@ -120,11 +120,14 @@ process	過程
 property	性質
 propositional attitude	命題的態度
 quality	質
+qualifier	限定詞	# 提案: modifier との訳し分けが必要に思う
 quantity	量
 quantification	量化
 quantificational	量化型
 quantified	量化された
 quantifier	数量詞
+quotation	引用	# 提案: 意味としては「文字列化」や「文字化」のほうが良いか
+quote	引用する	# 提案: 上記参照
 rafsi	ラフシ
 range within the scale	段階上の範囲
 relationship	関係
