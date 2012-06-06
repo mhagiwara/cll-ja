@@ -2,6 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="cll-ja_20.xsl" ?>
 <!DOCTYPE chapter [
 	<!ENTITY be_followed "に後置">
+	<!ENTITY be_prefix "に後置して">
+	<!ENTITY be_prefixed "に前置して">
 	<!ENTITY describe "描写する">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
@@ -25,6 +27,7 @@
 	<!ENTITY non_elidable "省略できない">
 	<!ENTITY optional "任意の">
 	<!ENTITY particle "小辞">
+	<!ENTITY prefix "を前置して">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
 	<!ENTITY quantifier "数量詞">
@@ -52,7 +55,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す (1/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す (2/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -106,9 +109,9 @@ Also used to create vowel lerfu words when followed with "bu".
 <section>
 <title>セルマホ BAI</title><reference path="./chapter9.html">第9章</reference>
 <description>
-セルブリの構造に表現したい関係を表す場所がなかった場合に、
-スムティに前置することで追加の場所を&specify1;ことができる。
-セルブリから派生し、それの持つ場所のひとつからその意味が決まる。
+セルブリが表現したい関係を表す場所を持たないときに、
+スムティ&be_prefixed;追加の場所を&specify1;ことができる。
+他のセルブリの持つ場所のひとつから派生した意味を持つ。
 </description>
 <example>
 <lojban>mi tavla bau la lojban.</lojban>
@@ -445,7 +448,7 @@ I try to go to the market from the house.
 	<reference path="./chapter6.html">第6章</reference>
 	<reference path="./chapter13.html">第13章</reference>
 <description>
-名前や描写、スムティに前置し呼格を形成する。<!--
+名前や描写、スムティ&be_prefixed;呼格を形成する。<!--
 -->呼格は誰に(または誰が)話しているのか&indicate;。<!--
 -->呼格は挨拶や別れ、無線通信等、会話の場面において使われる。DOI, DOhU も見よ。
 </description>
@@ -560,7 +563,7 @@ I go from Atlanta to Boston via the road using the car.
 <description>
 どこでそのブリディの示す事がらが起きたかの方向を&specify1;。
 MOhI をつけるとその方向への動きという意味になり、
-VEhA や VIhA を前置してその方向に沿ってという意味となる。
+VEhA や VIhA &prefix;その方向に沿ってという意味となる。
 </description>
 <example><lojban>le nanmu zu'a batci le gerku</lojban>
 <japanese>私の左で男が犬をかむ。</japanese></example>
@@ -764,7 +767,7 @@ John (referred to as #1) is-blue.
 <section>
 <title>セルマホ GI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-GA、GUhA、JOI といった前置論理接続詞に後置し、<!--
+GA、GUhA、JOI といった前置論理接続詞&be_prefix;、<!--
 -->2つの論理的に、または非論理的に接続されたスムティ、タンルの構成単位、<!--
 -->ブリディ末端等を分ける。
 </description>
@@ -1104,7 +1107,7 @@ single marker: change from lower to upper case, change of font, punctuation, etc
 <section>
 <title>セルマホ LAhE</title><reference path="./chapter6.html">第6章</reference>
 <description>
-スムティに前置し、それを意味的に関係のある別のスムティに変える&qualifier;。<!--
+スムティ&be_prefixed;、それを意味的に関係のある別のスムティに変える&qualifier;。<!--
 -->&qualifier;はまたセルマホ NAhE+BO からも作られる。LUhU も見よ。
 </description>
 <example><lojban>mi viska la'e zoi kuot. A Tale of Two Cities .kuot</lojban>
@@ -1485,7 +1488,7 @@ The house which is blue is small.
 <section>
 
 <title>セルマホ NU</title>(<reference path="./chapter11.html">第11章</reference>)
-<description>ブリディに前置して抽象セルブリを作る抽象詞。KEI で終わる。</description>
+<description>ブリディ&be_prefixed;抽象セルブリを作る抽象詞。KEI で終わる。</description>
 <example><lojban>la djan. cu djica le nu sonci [kei]</lojban>
 <japanese>ジョンは兵士になることを望む。</japanese></example>
 
