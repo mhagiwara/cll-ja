@@ -64,7 +64,7 @@ implicit-abstraction lujvo	暗黙抽象ルジヴォ
 incidental relative phrase	付随関係句
 indefinite	不定の
 indicate	を示す	# 提案
-indicator	指標	# 提案:「〜 indicator」で「〜詞」(参:attitudinal indicator)
+indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほうがわかりやすいかも
 indirect question	間接疑問
 internal bridi negation	内部ブリディ否定
 interval   範囲
@@ -80,7 +80,7 @@ Lojbanist	ロジバン話者
 Logical Assertions	論理的表明
 lujvo	ルジヴォ
 mark	を示す	# 提案
-marker	マーカー	# 提案:「指標」名詞の signal、indicator との共通の訳として
+marker	マーカー
 metalinguistic		# 求む提案:20章 セルマホ SEI では「メタ的な」としたが
 material conditional	論理包含
 mathematical	数学の/数学的	# 提案
@@ -140,7 +140,7 @@ selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
 sentence	文
-signal	しるし/のしるしである	# 提案:「指標/の指標である」marker, indicator
+signal	シグナル/のシグナルである	# 提案
 something-unspecified	不特定の何か
 spatial tense	空間制
 state	状態
