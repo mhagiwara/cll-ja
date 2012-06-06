@@ -18,12 +18,13 @@
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
 	<!ENTITY lerfu "レルフ">
-	<!ENTITY mark "示す">
+	<!ENTITY mark "を示す">
 	<!ENTITY marker "マーカー">
 	<!ENTITY material "もの">
 	<!ENTITY metalinguistic "メタ的な">
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
+	<!ENTITY nonce_word "臨時語">
 	<!ENTITY non_elidable "省略できない">
 	<!ENTITY optional "任意の">
 	<!ENTITY particle "小辞">
@@ -34,10 +35,13 @@
 	<!ENTITY quotation "引用">
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
+	<!ENTITY see "も見よ。">
 	<!ENTITY signal "シグナル">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
+	<!ENTITY tanru_unit "タンルの構成単位">
+	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY tense "間制">
 ]>
 
@@ -55,7 +59,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す (2/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す (4/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -131,7 +135,8 @@ I speak in-language Lojban.
 <title>セルマホ BAhE</title>
 <reference path="./chapter19.html">第19章</reference>
 <description>
-後に続く一語を強調する。またはそれが臨時語(その場で作った単語)であることを示す。
+次の一語を強調する。<!--
+-->またはそれが&nonce_word;(その場で作った単語)であること&mark;。
 </description>
 <example>
 <lojban>la ba'e .djordj. klama le zarci</lojban>
@@ -149,9 +154,9 @@ It is George who goes to the store.
 <section>
 <title>セルマホ BE</title><reference path="./chapter5.html">第5章</reference>
 <description>
-タンルを形成するひとつの要素の持つ場所にスムティをいれる。
-指定がなければそのスムティは x2, x3 ... と次に来る場所にはいる。
-BE は LE による描写のなかで最も有用だ。BEI や BEhO も見よ。
+&tanru_unit;のひとつの持つ場所にスムティをいれる。<!--
+-->他に指定がなければそのスムティは x2, x3 ... と次に来る場所に順々にはいる。
+BE は LE による描写のなかで最も有用である。BEI や BEhO &see;
 </description>
 <example>
 <lojban>mi klama be ta troci</lojban>
@@ -172,7 +177,7 @@ I am-a-(goer to-that) type-of trier. I try to go to that place.
 <section>
 <title>セルマホ BEI</title><reference path="./chapter5.html">第5章</reference>
 <description>
-BE によってタンルの構成単位に付加された複数のスムティ同士を分ける。
+BE によって&tanru_unit;に付加された複数のスムティ同士を分ける。
 </description>
 <example>
 <lojban>mi klama be le zarci bei le zdani be'o troci</lojban>
@@ -194,7 +199,7 @@ I try to go from the home to the market
 <title>セルマホ BEhO</title>
 <reference path="./chapter5.html">第5章</reference>
 <description>
-BE に対する省略可能な終端詞。タンルの構成単位に付加されたスムティを終わらせる。
+BE に対する省略可能な終端詞。&tanru_unit;に付加されたスムティを終わらせる。
 </description>
 <example>
 <lojban>mi klama be le zarci be'o troci</lojban>
@@ -236,7 +241,7 @@ The-number 3 [priority] times 4 plus 5 equals the-number 17.
 <section>
 <title>セルマホ BIhI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-スムティまたはタンルの構成単位(あるいはそれ以外の何か)を結びつけることで範囲を表す。
+スムティまたは&tanru_unit;(あるいはそれ以外の何か)を結びつけることで範囲を表す。
 GAhO も見よ。
 </description>
 <example>
@@ -257,7 +262,7 @@ I am standing between Dresden and Frankfurt.
 	<reference path="./chapter15.html">第15章</reference>
 	<reference path="./chapter18.html">第18章</reference>
 <description>
-タンルの構成単位を強く結合する。
+&tanru_unit;を強く結合する。
 論理的にまたは非論理的に、節や文&etc;を結合するのに使える。
 結合において BO は常に優先され、また右結合である。
 </description>
@@ -427,8 +432,8 @@ I am a friend of you, and John is a friend of James.
 <section>
 <title>セルマホ CO</title><reference path="./chapter5.html">第5章</reference>
 <description>
-タンルの構成要素の間に置かれ、それをひっくりかえす。
-つまり、&following;タンルの構成単位が先行するタンルの構成単位を修飾するようにする。
+&components_of_tanru;の間に置かれ、それをひっくりかえす。
+つまり、&following;&tanru_unit;が先行する&tanru_unit;を修飾するようにする。
 </description>
 <example><lojban>mi troci co klama zarci le zdani</lojban>
 <japanese>私は家から店に行ってみる。</japanese></example>
@@ -768,7 +773,7 @@ John (referred to as #1) is-blue.
 <title>セルマホ GI</title><reference path="./chapter14.html">第14章</reference>
 <description>
 GA、GUhA、JOI といった前置論理接続詞&be_prefix;、<!--
--->2つの論理的に、または非論理的に接続されたスムティ、タンルの構成単位、<!--
+-->2つの論理的に、または非論理的に接続されたスムティ、&tanru_unit;、<!--
 -->ブリディ末端等を分ける。
 </description>
 <example><lojban>ge la djan. nanmu gi la dieimyz. ninmu</lojban>
@@ -837,7 +842,7 @@ A: I'm going to the market. B: Me, too.
 <section>
 <title>セルマホ GUhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的に接続された2つのタンルの構成単位の始まり&indicate;。<!--
+論理的に接続された2つの&tanru_unit;の始まり&indicate;。<!--
 -->論理的に接続されたタンルを形成するときに GA の代わりに使う。GI も見よ。
 </description>
 <example><lojban>la .alis. gu'e ricfu gi blanu</lojban>
@@ -863,7 +868,7 @@ Separates two sentences from each other. I go-to the market. I go-to the office.
 
 <section>
 <title>セルマホ JA</title><reference path="./chapter14.html">第14章</reference>
-<description>2つのタンル、数学被演算子、間制、抽象化の間の論理的接続<!--
+<description>2つの&tanru_unit;、数学被演算子、間制、抽象化の間の論理的接続<!--
 -->(「かつ」、「または」、「もし」&eg;)を&specify1;。</description>
 <example><lojban>ti blanu je zdani</lojban>
 <japanese>これは青い、そして家だ。</japanese></example>
@@ -903,7 +908,7 @@ I change the color of the wall.
 <section>
 <title>セルマホ JOI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-2つのスムティ、タンルの構成単位等の非論理的接続<!--
+2つのスムティ、&tanru_unit;等の非論理的接続<!--
 -->(集団として一緒に、組として一緒に、並びとして一緒に、&eg;)を&specify1;。<!--
 -->または、GI &immediately_follow;いて、GA のような前置非論理接続詞を作る。
 </description>
@@ -1286,7 +1291,7 @@ f(x)
 	<reference path="./chapter5.html">第5章</reference>
 	<reference path="./chapter18.html">第18章</reference>
 <description>
-スムティからタンルの構成単位を作る。<!--
+スムティから&tanru_unit;を作る。<!--
 -->それはスムティによって意味されるものに当てはまる。MEhU も見よ。
 </description>
 <example><lojban>ta me la ford. karce</lojban>
@@ -1308,7 +1313,7 @@ That's a Ford car.
 <section>
 <title>セルマホ MEhU</title><reference path="./chapter5.html">第5章</reference>
 <description>
-ME の&elidable;終端子。タンルの構成単位へと変換されたスムティの末尾を示す。
+ME の&elidable;終端子。&tanru_unit;へと変換されたスムティの末尾を示す。
 </description>
 <example><lojban>ta me mi me'u zdani</lojban>
 <japanese>あれは私的な家だ。</japanese></example>
@@ -1459,7 +1464,7 @@ Length x Width x Depth = Volume
 <section>
 <title>セルマホ NIhO</title><reference path="./chapter19.html">第19章</reference>
 <description>
-新しい段落を&mark;。また、その段落が前の内容や新しい内容を含むかどうか&indicate;。
+新しい段落&mark;。また、その段落が前の内容や新しい内容を含むかどうか&indicate;。
 </description>
 
 <en>
