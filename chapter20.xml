@@ -15,6 +15,7 @@
 	<!ENTITY bind2 "結合し">
 	<!ENTITY closely "強く">
 	<!ENTITY components_of_tanru "タンルの構成単位">
+	<!ENTITY connected "接続された">
 	<!ENTITY describe "描写する">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
@@ -31,6 +32,12 @@
 	<!ENTITY interval "範囲">
 	<!ENTITY join "まとめる">
 	<!ENTITY lerfu "レルフ">
+	<!ENTITY letter_word "文字を表す語">
+	<!ENTITY logical "論理的">
+	<!ENTITY logical_connection "論理接続">
+	<!ENTITY logical_connective "論理接続詞">
+	<!ENTITY logically "論理的に">
+	<!ENTITY logically_or_non_logically "論理的または非論理的に">
 	<!ENTITY mark "を示す">
 	<!ENTITY marker "マーカー">
 	<!ENTITY material "もの">
@@ -40,11 +47,17 @@
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY nonce_word "臨時語">
+	<!ENTITY non_logical "非論理的">
+	<!ENTITY non_logical_connection "非論理接続">
+	<!ENTITY non_logical_connective "非論理接続詞">
 	<!ENTITY non_elidable "省略できない">
+	<!ENTITY number "数">
+	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY operand "被演算子">
 	<!ENTITY operator "演算子">
 	<!ENTITY optional "任意の">
 	<!ENTITY particle "小辞">
+	<!ENTITY phrase "句">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
 	<!ENTITY qualified "被限定">
@@ -54,11 +67,13 @@
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
 	<!ENTITY see "も見よ。">
+	<!ENTITY sentence "文">
 	<!ENTITY separate "分ける">
 	<!ENTITY signal "シグナル">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
+	<!ENTITY string "列">
 	<!ENTITY suffix_n "接尾辞">
 	<!ENTITY sumti "スムティ">
 	<!ENTITY tanru_unit "タンルの構成単位">
@@ -81,7 +96,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す BIhI まで (8/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す BOI まで (10/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -112,7 +127,7 @@ the most common use is shown.
 <title>セルマホ A</title>
 <reference path="./chapter14.html">第14章</reference>
 <description>
-論理的なつながり(「かつ」、「または」、「もし」&eg;)を&specify1;。<!--
+&logical_connection;(「かつ」、「または」、「もし」&eg;)を&specify1;。<!--
 -->主に&sumti;同士の接続に使う。
 </description>
 <example>
@@ -285,9 +300,9 @@ I am standing between Dresden and Frankfurt.
 	<reference path="./chapter15.html">第15章</reference>
 	<reference path="./chapter18.html">第18章</reference>
 <description>
-&tanru_unit;を&closely;&bind2;&join;。
-論理的にまたは非論理的に、節や文&etc;を&bind1;のに使える。
-結合において BO は常に優先され、また右結合である。
+&tanru_unit;を&closely;&bind2;&join;。<!--
+-->&logically_or_non_logically;&connected;&phrase;や&sentence;&etc;を<!--
+-->&bind1;のに使える。結合において BO は常に優先され、また右結合である。
 </description>
 <example>
 <lojban>ta cmalu nixli bo ckule</lojban>
@@ -311,9 +326,10 @@ That is small school for girls.
 <section>
 <title>セルマホ BOI</title><reference path="./chapter18.html">第18章</reference>
 <description>
-PA や BY のための&elidable;&terminator;。
-数(数を表すシマヴォの列)やレルフ列(文字の列)に別の列&immediately_follow;くときに、
-それら&terminate;ために使われる。
+PA や BY のための&elidable;&terminator;。<!--
+-->&number;(&numeric_cmavo;の&string;)や<!--
+-->&lerfu;&string;(&letter_word;の&string;)に<!--
+-->別の&string;&immediately_follow;くときに、それら&terminate;ために使われる。
 </description>
 <example>
 <lojban>li re du li vu'u voboi re</lojban>
@@ -355,8 +371,8 @@ letters.
 <section>
 <title>セルマホ BY</title><reference path="./chapter17.html">第17章</reference>
 <description>
-ロジバンにおける文字を表す語と文字を表す語の解釈を変えるためのシフト記号の役割を<!--
--->果たす語。
+ロジバンにおける文字を表す語と&letter_word;の解釈を変えるための<!--
+-->シフト記号の役割を果たす語。
 </description>
 <example>
 <lojban>.abu tavla .by le la .ibymym. skami</lojban>
@@ -433,7 +449,8 @@ The green thingy is large. The red thingy is small.
 	<reference path="./chapter16.html">第16章</reference>
 <description>
 複数の名辞を名辞組に&join;。
-名辞組はそれぞれの名辞を関係づけ、論理的に接続し、&quantifier;の掛かる範囲をまとめ、
+名辞組はそれぞれの名辞を関係づけ、&logical_connective;のために、<!--
+-->また&quantifier;の掛かる範囲をまとめ、
 または特別な間制の構造を作るために使われる。
 </description>
 <example><lojban>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo</lojban>
@@ -477,7 +494,7 @@ I try to go to the market from the house.
 	<reference path="./chapter13.html">第13章</reference>
 <description>
 名前や描写、&sumti;&be_prefixed;呼格を形成する。<!--
--->呼格は誰に(または誰が)話しているのか&indicate;。<!--
+-->呼格は誰に(または誰が)話しているのか&indicate;&phrase;である。<!--
 -->呼格は挨拶や別れ、無線通信等、会話の場面において使われる。DOI, DOhU も見よ。
 </description>
 <example><lojban>coi .djan.</lojban>
@@ -672,7 +689,7 @@ I see you with my left eye.
 <section>
 <title>セルマホ FOI</title><reference path="./chapter17.html">第17章</reference>
 <description>
-TEI によって開始された、複合的に構成されたアルファベットの文字名の終わりを示す。<!--
+TEI によって開始された、複合的に構成されたアルファベットの&letter_word;の終わりを示す。<!--
 -->この&terminator;は&non_elidable;。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
@@ -741,7 +758,7 @@ I see the owner of what I believe to be a blue house.
 <section>
 <title>セルマホ GA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的に接続された2つのスミティやブリディ末端などの始まり&indicate;。<!--
+&logically;&connected;2つのスミティやブリディ末端などの始まり&indicate;。<!--
 -->論理的接続とは「以下の両方が成り立つ ... と ...」や<!--
 -->「以下のどちらかまたは両方が成り立つ ... と ...」や<!--
 -->「もし ... ならば ...」等を含む。GI も見よ。
@@ -780,7 +797,7 @@ I am standing between Dresden and Frankfurt, inclusive of both.
 <title>セルマホ GEhU</title><reference path="./chapter8.html">第8章</reference>
 <description>
 GOI の&elidable;&terminator;。
-関係句の終わりを示す。
+関係&phrase;の終わりを示す。
 KUhO も見よ。
 </description>
 <example><lojban>la djan. goi ko'a ge'u blanu</lojban>
@@ -797,7 +814,7 @@ John (referred to as #1) is-blue.
 <title>セルマホ GI</title><reference path="./chapter14.html">第14章</reference>
 <description>
 GA、GUhA、JOI といった前置論理接続詞&be_prefix;、<!--
--->2つの論理的に、または非論理的に接続された&sumti;、&tanru_unit;、<!--
+-->2つの&logically_or_non_logically;接続された&sumti;、&tanru_unit;、<!--
 -->ブリディ末端等を&separate;。
 </description>
 <example><lojban>ge la djan. nanmu gi la dieimyz. ninmu</lojban>
@@ -816,7 +833,7 @@ connective involving GA, GUhA, or JOI.
 <description>
 2つのブリディ末端が先行する&sumti;を持たず、<!--
 -->またいくつかの&following;&sumti;を持つ場合に、<!--
--->それらの論理的な(「かつ」、「または」、「もし」&eg;)接続&specify2;。
+-->それらの&logical_connective;(「かつ」、「または」、「もし」&eg;)&specify2;。
 </description>
 <example><lojban>mi klama le zarci gi'e nelci la djan.</lojban>
 <japanese>私は店に行くし、ジョンが好きだ。</japanese></example>
@@ -832,7 +849,7 @@ I  go-to the market and like John
 <section>
 <title>セルマホ GOI</title><reference path="./chapter8.html">第8章</reference>
 <description>
-関係句の開始を&specify1;。<!--
+関係&phrase;の開始を&specify1;。<!--
 -->従属する(&following;)&sumti;が別の(先行する)&sumti;に関係づけられる。<!--
 -->GEhU や NOI も見よ。
 </description>
@@ -866,8 +883,8 @@ A: I'm going to the market. B: Me, too.
 <section>
 <title>セルマホ GUhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的に接続された2つの&tanru_unit;の始まり&indicate;。<!--
--->論理的に接続されたタンルを形成するときに GA の代わりに使う。GI も見よ。
+&logically;&connected;2つの&tanru_unit;の始まり&indicate;。<!--
+-->&logically;&connected;タンルを形成するときに GA の代わりに使う。GI も見よ。
 </description>
 <example><lojban>la .alis. gu'e ricfu gi blanu</lojban>
 <japanese>アリスは裕福で青い。</japanese></example>
@@ -893,7 +910,7 @@ Separates two sentences from each other. I go-to the market. I go-to the office.
 <section>
 <title>セルマホ JA</title><reference path="./chapter14.html">第14章</reference>
 <description>2つの&tanru_unit;、&mathematical;被演算子、間制、抽象化の間の<!--
--->論理的接続(「かつ」、「または」、「もし」&eg;)を&specify1;。</description>
+-->&logical_connection;(「かつ」、「または」、「もし」&eg;)を&specify1;。</description>
 <example><lojban>ti blanu je zdani</lojban>
 <japanese>これは青い、そして家だ。</japanese></example>
 
@@ -932,9 +949,9 @@ I change the color of the wall.
 <section>
 <title>セルマホ JOI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-2つの&sumti;、&tanru_unit;等の非論理的接続<!--
+2つの&sumti;、&tanru_unit;等の&non_logical_connection;<!--
 -->(集団として一緒に、組として一緒に、並びとして一緒に、&eg;)を&specify1;。<!--
--->または、GI &immediately_follow;いて、GA のような前置非論理接続詞を作る。
+-->または、GI &immediately_follow;いて、GA のような前置&non_logical_connection;を作る。
 </description>
 <example><lojban>la djan. joi la .alis. cu bevri le pipno</lojban>
 <japanese>ジョンはアリスと一緒にピアノを運ぶ。</japanese></example>
@@ -970,7 +987,7 @@ array (four, six)
 <section>
 <title>セルマホ KE</title><reference path="./chapter5.html">第5章</reference>
 <description>
-論理的接続やタンル形成等のために KE と&following; KEhE
+&logical_connection;やタンル形成等のために KE と&following; KEhE
 で囲まれた部分をグループ化する。
 KE と KEhE は&mathematical;(VEI、VEhO を見よ)や、&discursive;(TO、TOI を見よ)には使えない。
 </description>
@@ -1283,7 +1300,8 @@ I saw "Big Dog" [not the words, but a book or movie].
 	<reference path="./chapter18.html">第18章</reference>
 	<reference path="./chapter19.html">第19章</reference>
 <description>
-数字や文字の並び&be_suffixed;&free;&modifier2;を作る。それは文章のインデックス番号となる。
+数字や&letter_word;の&string;&be_suffixed;&free;&modifier2;を作る。<!--
+-->それは文章のインデックス番号となる。
 </description>
 <example><lojban>pamai mi pu klama le zarci</lojban>
 <japanese>1. 私は店に行った。</japanese></example>
@@ -1410,7 +1428,7 @@ The child walks toward my right on the ice.
 <description>矛盾否定。ブリディ全体を偽(または真)とする。</description>
 <example><lojban>mi na klama le zarci</lojban>
 <japanese>私は店に行かない。</japanese></example>
-<sideshow>また、合成シマヴォとして論理的接続にも使われる。</sideshow>
+<sideshow>また、合成シマヴォとして&logical_connective;として使われる。</sideshow>
 
 <en>
 Contradictory negators, asserting that a whole bridi is false (or true)
@@ -1568,7 +1586,7 @@ from-the school.
 <title>セルマホ NUhU</title><reference path="./chapter14.html">第14章</reference>
 <description>
 NUhI の&elidable;&terminator;。名辞組の終わりを示す。<!--
--->またそれらの間に置かれて(論理的または非論理的接続詞による)名辞組の接続を示す。
+-->またそれらの間に置かれて(&logical_connective;または&non_logical_connective;による)名辞組の接続を示す。
 </description>
 <example><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
 le ckule [nu'u]</lojban>
@@ -1600,8 +1618,8 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 
 <title>セルマホ PEhE</title><reference path="./chapter14.html">第14章</reference>
 <description>
-論理的または非論理的接続詞の前について、2つの名辞組を&join;。<!--
--->名辞組はそれぞれの名辞を関係づけ、論理的に接続し、<!--
+&logical_connective;または&non_logical_connective;の前について、2つの名辞組を&join;。<!--
+-->名辞組はそれぞれの名辞を関係づけ、&logical_connective;のために、また<!--
 -->&quantifier;の掛かる範囲をまとめ、<!--
 -->または特別な間制の構造を作るために使われる(CEhE を見よ)。
 </description>
@@ -1687,7 +1705,7 @@ I twice go-to the market.
 
 <section>
 <title>セルマホ SA</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する句または文を取り消す&particle;。</description>
+<description>先行する&phrase;または文を取り消す&particle;。</description>
 <example><lojban>mi klama sa do klama le zarci</lojban>
 <japanese>私は行く、いや違う、君が店に行く。</japanese></example>
 
@@ -1797,9 +1815,9 @@ The child habitually goes to-the school.
 <section>
 <title>セルマホ TEI</title><reference path="./chapter17.html">第17章</reference>
 <description>
-複合的に構成された文字を表す語列を始める。
-その語列は文法的にはひとつの文字として扱われる。
-語列は&non_elidable;セルマホ FOI で終わる。
+複合的に構成された&letter_word;を始める。<!--
+-->それは文法的にはひとつの文字として扱われる。<!--
+-->&letter_word;は&non_elidable;セルマホ FOI で終わる。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
 <japanese>アキュートアクセントつきの e</japanese></example>
@@ -1920,7 +1938,8 @@ Over there the man is biting the dog.
 <section>
 <title>セルマホ VAU</title><reference path="./chapter14.html">第14章</reference>
 <description>
-単純なブリディまたは GIhA による論理的接続におけるブリディ末端の&elidable;&terminator;。
+単純なブリディまたは GIhA による&logical_connection;におけるブリディ末端の<!--
+-->&elidable;&terminator;。
 </description>
 <example><lojban>mi dunda le cukta [vau] gi'e lebna lo rupnu vau do [vau]</lojban>
 <japanese>私はあなたに本をあげて、お金を取る。</japanese></example>
@@ -1993,7 +2012,7 @@ In a medium-sized area, the child walks on the ice.
 
 <section>
 <title>セルマホ VUhO</title><reference path="./chapter8.html">第8章</reference>
-<description>関係節や関係句が、&sumti;の最も左側の部分ではなく、<!--
+<description>関係節や関係&phrase;が、&sumti;の最も左側の部分ではなく、<!--
 -->(複合的であるかもしれない)&sumti;全体&attach_to4;ようにする。</description>
 <example><lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
 <japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese></example>
@@ -2011,7 +2030,8 @@ Frank and George, who are guides, are in the room.
 
 <title>セルマホ XI</title><reference path="./chapter18.html">第18章</reference>
 <description>
-下付き文字の&marker;。&following;数字やレルフ列は何が前に来ようとも下付きとなる。
+下付き文字の&marker;。<!--
+-->&following;数字やレルフ&string;は何が前に来ようとも下付きとなる。
 </description>
 <example>
 <lojban>xy. xi re</lojban>
@@ -2104,8 +2124,8 @@ I ate a little while ago.
 <section>
 <title>セルマホ ZIhE</title><reference path="./chapter8.html">第8章</reference>
 <description>
-同じ&sumti;に掛かる関係句や関係節を&join;。
-英訳の際には「and」と訳されることが多いが、論理的接続とは見なされない。
+同じ&sumti;に掛かる関係&phrase;や関係節を&join;。
+英訳の際には「and」と訳されることが多いが、&logical_connective;とは見なされない。
 </description>
 <example><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
 <japanese>私は白い犬を飼っていて、私はそれを愛している。</japanese></example>
