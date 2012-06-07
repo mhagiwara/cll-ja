@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="cll-ja_20.xsl" ?>
 <!DOCTYPE chapter [
+	<!ENTITY achieved "実現した">
+	<!ENTITY alphabet "アルファベット">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
 	<!ENTITY attach_to3 "につけ">
@@ -14,8 +16,10 @@
 	<!ENTITY bind1 "結合する">
 	<!ENTITY bind2 "結合し">
 	<!ENTITY closely "強く">
+	<!ENTITY cmavo "シマヴォ">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY connected "接続された">
+	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
@@ -26,18 +30,22 @@
 	<!ENTITY follow "を後置">
 	<!ENTITY following "後続する">
 	<!ENTITY free "自由">
+	<!ENTITY gismu "ギスム">
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
 	<!ENTITY join "まとめる">
 	<!ENTITY lerfu "レルフ">
+	<!ENTITY letter "文字">
 	<!ENTITY letter_word "文字を表す語">
 	<!ENTITY logical "論理的">
 	<!ENTITY logical_connection "論理接続">
 	<!ENTITY logical_connective "論理接続詞">
 	<!ENTITY logically "論理的に">
 	<!ENTITY logically_or_non_logically "論理的または非論理的に">
+	<!ENTITY lojban "ロジバン">
 	<!ENTITY mark "を示す">
 	<!ENTITY marker "マーカー">
 	<!ENTITY material "もの">
@@ -56,19 +64,25 @@
 	<!ENTITY operand "被演算子">
 	<!ENTITY operator "演算子">
 	<!ENTITY optional "任意の">
+	<!ENTITY or_not "かどうかに関らず">
 	<!ENTITY particle "小辞">
 	<!ENTITY phrase "句">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
+	<!ENTITY pro_bridi "代ブリディ">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
 	<!ENTITY quantifier "数量詞">
 	<!ENTITY quotation "引用">
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
+	<!ENTITY refer "表す">
+	<!ENTITY represent "を表す">
 	<!ENTITY see "も見よ。">
+	<!ENTITY selbri "セルブリ">
 	<!ENTITY sentence "文">
 	<!ENTITY separate "分ける">
+	<!ENTITY shift_word "シフト記号の役割を果たす語">
 	<!ENTITY signal "シグナル">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
@@ -76,10 +90,13 @@
 	<!ENTITY string "列">
 	<!ENTITY suffix_n "接尾辞">
 	<!ENTITY sumti "スムティ">
+	<!ENTITY symbol "記号">
 	<!ENTITY tanru_unit "タンルの構成単位">
 	<!ENTITY terminate "を終わらせる">
 	<!ENTITY terminator "終端詞">
 	<!ENTITY tense "間制">
+	<!ENTITY vowel "母音">
+	<!ENTITY word "語">
 ]>
 
 <chapter number="20" xmlns:html="http://www.w3.org/1999/xhtml">
@@ -96,7 +113,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す BOI まで (10/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す CEI まで (15/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -107,7 +124,7 @@
 この章では、セルマホを全て列挙し簡単な説明を加え、詳細が記されている章を示す。<!--
 -->セルマホの名前は代表的なシマヴォの大文字表記(「'」は「h」)で表す。<!--
 -->代表的なシマヴォとして、最も重要なものか<!--
--->またはアルファベット順で最初のものを選ぶ。<!--
+-->または&alphabet;順で最初のものを選ぶ。<!--
 -->それぞれについて、複数の用法のうち最もよく使われる用法の例文を挙げる。
 
 <en>
@@ -134,7 +151,7 @@ the most common use is shown.
 <lojban>la djan. .ala djein. klama le zarci</lojban>
 <japanese>ジャンとジェーンのどちらかまたは両方が店に行く。</japanese>
 </example>
-<sideshow>bu &follow;して母音の&lerfu;そのものを表す語を作る。</sideshow>
+<sideshow>bu &follow;して&vowel;の&lerfu;そのものを表す&word;を作る。</sideshow>
 <note>
 # 訳注: abu, ebu, obu, ubu がそれぞれ文字
 "a", "e", "o", "u" を表すということ
@@ -150,13 +167,13 @@ Also used to create vowel lerfu words when followed with "bu".
 <section>
 <title>セルマホ BAI</title><reference path="./chapter9.html">第9章</reference>
 <description>
-セルブリが表現したい関係を表す場所を持たないときに、<!--
+&selbri;が表現したい関係を表す場所を持たないときに、<!--
 -->&sumti;&be_prefixed;追加の場所を&specify1;ことができる。<!--
--->他のセルブリの持つ場所のひとつから派生した意味を持つ。
+-->他の&selbri;の持つ場所のひとつから派生した意味を持つ。
 </description>
 <example>
 <lojban>mi tavla bau la lojban.</lojban>
-<japanese>私はロジバン語で話す。</japanese>
+<japanese>私は&lojban;語で話す。</japanese>
 </example>
 
 <en>
@@ -172,7 +189,7 @@ I speak in-language Lojban.
 <title>セルマホ BAhE</title>
 <reference path="./chapter19.html">第19章</reference>
 <description>
-次の一語を強調する。<!--
+次の一&word;を強調する。<!--
 -->またはそれが&nonce_word;(その場で作った単語)であること&mark;。
 </description>
 <example>
@@ -349,10 +366,11 @@ The-number two equals the-number the-difference-of four-and two.
 <section>
 <title>セルマホ BU</title><reference path="./chapter17.html">第17章</reference>
 <description>
-全ての語&attach_to2;ことができる&suffix_n;。
-主にアルファベットの文字またはその名前に後置し、
-記号やその他のアルファベットの文字を表す語を作る。
-特にひとつの母音だけから成るシマヴォ&attach_to2;ことで、それを表す語として使われる。
+全ての&word;&attach_to2;ことができる&suffix_n;。<!--
+-->主に&alphabet;の&letter;や名前&represent;&word;&be_suffixed;、<!--
+-->&symbol;やその他の&alphabet;の&letter;を意味する&word;を作る。<!--
+-->特にひとつの&vowel;だけから成る&cmavo;&attach_to2;ことで<!--
+-->&vowel;&letter;を意味する&word;を作る。
 </description>
 <example>
 <lojban>.abu .ebu .ibu .obu .ubu .ybu</lojban>
@@ -363,16 +381,15 @@ The-number two equals the-number the-difference-of four-and two.
 A suffix which can be attached to any word, typically a word representing
 a letter of the alphabet or else a name, to make a word for a symbol or
 a different letter of the alphabet.
-In paticular, attached to single-vowel cmavo to make words for vowel
-letters.
+In paticular, attached to single-vowel cmavo to make words for vowel letters.
 </en>
 </section>
 
 <section>
 <title>セルマホ BY</title><reference path="./chapter17.html">第17章</reference>
 <description>
-ロジバンにおける文字を表す語と&letter_word;の解釈を変えるための<!--
--->シフト記号の役割を果たす語。
+&lojban;における&alphabet;の&letter;&represent;&word;と<!--
+-->&letter_word;の&interpretation;を変えるための&shift_word;。
 </description>
 <example>
 <lojban>.abu tavla .by le la .ibymym. skami</lojban>
@@ -392,8 +409,8 @@ A talks to B about IBM computers.
 <section>
 <title>セルマホ CAI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-感情の程度(最高に、強く、弱く、全くない)&indicate;&particle;。
-たいていは感情を&specify1;他の&particle;&be_followed;する。
+感情の程度(最高に、強く、弱く、全くない)&indicate;&particle;。<!--
+-->たいていは感情を&specify1;他の&particle;&be_followed;する。
 </description>
 <example><lojban>.ei cai mi klama le zarci</lojban>
 <japanese>店に行かなければならない。</japanese></example>
@@ -411,7 +428,8 @@ I must go to the market.
 <section>
 <title>セルマホ CAhA</title><reference path="./chapter10.html">第10章</reference>
 <description>
-ブリディが事実、可能性、能力のいずれを表しているのかを&specify2;。
+ブリディが事実、可能性(&achieved;&or_not;)、<!--
+-->生来の能力のいずれを&refer;のか&specify2;。
 </description>
 <example><lojban>ro datka ka'e flulimna</lojban>
 <japanese>全てのアヒルは浮かんで泳ぐことができる。</japanese></example>
@@ -427,8 +445,8 @@ All ducks have the capability of swimming by floating.
 <section>
 <title>セルマホ CEI</title><reference path="./chapter7.html">第7章</reference>
 <description>
-セルブリによる記述を5個の代ブリディ(broda, brode, brodi, brodo, brodu)
-のうちのひとつに代入する。
+後で使うために、&selbri;による&definition;を5個の&pro_bridi;&gismu;<!--
+-->(broda, brode, brodi, brodo, brodu)のうちのひとつに代入する。
 </description>
 <example><lojban>ti slasi je mlatu bo cidja lante gacri cei broda
 .i le crino broda cu barda .i le xunre broda cu cmalu</lojban>
@@ -442,6 +460,8 @@ This is a plastic cat-food can cover, or thingy.
 The green thingy is large. The red thingy is small.
 </en>
 </section>
+
+<!-- -->
 
 <section>
 <title>セルマホ CEhE</title>
@@ -689,8 +709,8 @@ I see you with my left eye.
 <section>
 <title>セルマホ FOI</title><reference path="./chapter17.html">第17章</reference>
 <description>
-TEI によって開始された、複合的に構成されたアルファベットの&letter_word;の終わりを示す。<!--
--->この&terminator;は&non_elidable;。
+TEI によって開始された、複合的に構成された&alphabet;の&letter_word;<!--
+-->の終わりを示す。この&terminator;は&non_elidable;。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
 <japanese>アキュートアクセント記号付きの e</japanese></example>
@@ -1137,11 +1157,11 @@ Cicero is Tully.
 <section>
 <title>セルマホ LAU</title><reference path="./chapter17.html">第17章</reference>
 <description>
-&following;アルファベットの文字と結びついて以下を示す&marker;となる。
-小文字から大文字への変化、フォントの変更、句読点&etc;。
+&following;&alphabet;の&letter;と結びついて以下&represent;&marker;となる。<!--
+-->小文字から大文字への変化、フォントの変更、句読点&etc;。
 </description>
 <example><lojban>tau sy. .ibu</lojban>
-<japanese>Si(硅素の化学記号)</japanese></example>
+<japanese>Si(硅素の化学&symbol;)</japanese></example>
 
 <en>
 Cmavo which combine with the following alphabetic letter to represent a
@@ -1247,7 +1267,7 @@ $4 &gt; 3$
 <description>
 &quotation;(&sumti;)の始まりを示す。
 この場合は&quoted;&material;がロジバンにおける語から成るものであれば、
-それが文の形を成しているかどうかに関わらず、文法的に正しいことになる。
+それが文の形を成している&or_not;、文法的に正しいことになる。
 LEhU &be_terminated_by;。
 </description>
 <example><lojban>do cusku lo'u mi du do du ko'a le'u</lojban>
@@ -1316,7 +1336,9 @@ First, I went to the market.
 
 <section>
 <title>セルマホ MAhO</title><reference path="./chapter18.html">第18章</reference>
-<description>文字や他の被演算子から&mathematical;&operator;を作る。TEhU、VUhU も見よ。</description>
+<description>
+&letter;や他の被演算子から&mathematical;&operator;を作る。TEhU、VUhU も見よ。
+</description>
 <example><lojban>ma'o fy. boi xy.</lojban>
 <japanese>f(x)</japanese></example>
 
@@ -1816,7 +1838,7 @@ The child habitually goes to-the school.
 <title>セルマホ TEI</title><reference path="./chapter17.html">第17章</reference>
 <description>
 複合的に構成された&letter_word;を始める。<!--
--->それは文法的にはひとつの文字として扱われる。<!--
+-->それは文法的にはひとつの&letter;として扱われる。<!--
 -->&letter_word;は&non_elidable;セルマホ FOI で終わる。
 </description>
 <example><lojban>tei .ebu .akut. bu foi</lojban>
