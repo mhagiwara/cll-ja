@@ -20,7 +20,6 @@ bridi-schema	ブリディ構成
 bridi-tail	ブリディ末端
 brivla	ブリヴラ
 claim	言明
-connection	接続
 cmavo	シマヴォ
 cmene	シメネ
 comment	評言	# 提案
@@ -95,6 +94,9 @@ modifier	限定詞	# 提案: 修飾語/修飾句
 natural language negation	自然言語否定
 nonce word	臨時語	# 提案
 non-logical	非論理的
+non-logical connection	非論理接続	# 提案
+non-logical connective	非論理接続詞	# 提案
+numeric cmavo	数字シマヴォ	# 提案
 observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
