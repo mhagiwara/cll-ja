@@ -155,6 +155,7 @@ sumti	スムティ
 sumti place	スムティの場所
 sumti raising	スムティ昇格
 sumti tcita	法制スムティ
+symbol	記号	# 提案
 tag	タグ
 tanru	タンル
 tanru unit	タンルの構成単位	# 提案
