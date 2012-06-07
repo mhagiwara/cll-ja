@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="cll-ja_20.xsl" ?>
 <!DOCTYPE chapter [
+	<!ENTITY abstraction "抽象化">
+	<!ENTITY abstract "抽象">
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
 	<!ENTITY ad_hoc "その場で作られた">
@@ -132,6 +134,7 @@
 	<!ENTITY symbol "記号">
 	<!ENTITY tag "タグ">
 	<!ENTITY tagged "タグ付けられた">
+	<!ENTITY tanru "タンル">
 	<!ENTITY tanru_unit "タンルの構成単位">
 	<!ENTITY term "名辞">
 	<!ENTITY terminate "を終わらせる">
@@ -159,7 +162,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 の&selma_o;の訳を見直す GOI まで (39/121)</note>
+<note># 予定: 121 の&selma_o;の訳を見直す JAI まで (44/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -962,7 +965,7 @@ A: I'm going to the market. B: Me, too.
 <title>&selma_o; GUhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
 &logically;&connected;2つの&tanru_unit;の始まり&indicate;。<!--
--->&logically;&connected;タンルを形成するときに GA の代わりに使う。GI も見よ。
+-->&logically;&connected;&tanru;を形成するときに GA の代わりに使う。GI &see;
 </description>
 <example><lojban>la .alis. gu'e ricfu gi blanu</lojban>
 <japanese>アリスは裕福で青い。</japanese></example>
@@ -976,7 +979,7 @@ Alice is both rich and blue.
 
 <section>
 <title>&selma_o; I</title>(<reference path="./chapter19.html">第19章</reference>)
-<description>2つの文を&separate;。</description>
+<description>2つの&sentence;を&separate;。</description>
 <example><lojban>mi klama le zarci .i mi klama le zdani</lojban>
 <japanese>私は店に行く。私は事務所に行く。</japanese></example>
 
@@ -987,8 +990,9 @@ Separates two sentences from each other. I go-to the market. I go-to the office.
 
 <section>
 <title>&selma_o; JA</title><reference path="./chapter14.html">第14章</reference>
-<description>2つの&tanru_unit;、&mathematical;被演算子、間制、抽象化の間の<!--
--->&logical_connection;(「かつ」、「または」、「もし」&eg;)を&specify1;。</description>
+<description>2つの&tanru_unit;、&mathematical;&operand;、&tense;、<!--
+-->&abstraction;の間の&logical_connection;(「かつ」、「または」、「もし」&eg;)<!--
+-->を&specify1;。</description>
 <example><lojban>ti blanu je zdani</lojban>
 <japanese>これは青い、そして家だ。</japanese></example>
 
@@ -1002,10 +1006,10 @@ This is-blue and a-house
 <section>
 <title>&selma_o; JAI</title><reference path="./chapter9.html">第9章</reference>
 <description>
-間制または法制&follow;して、セルブリ&attach_to3;て法制場所でセルブリの x1
-を置き換える&operator;を作る。<!--
--->単独で使われると、取り除かれたブリディの場所のひとつで、<!--
--->セルブリの x1 (x1 は抽象&sumti;でなければならない)を置き換える。
+&tense;または&modal;&follow;して、&selbri;&attach_to3;て&modal;&place;で&selbri;の
+x1 を置き換える&operator;を作る。<!--
+-->単独で使われると、取り除かれた&bridi;の&place;のひとつで、<!--
+-->&selbri;の x1 (x1 は&abstract;&sumti;でなければならない)を置き換える。
 </description>
 <example><lojban>mi jai gau galfi le bitmu skari</lojban>
 <japanese>私は壁の色を変える。</japanese></example>
