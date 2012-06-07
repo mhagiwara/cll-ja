@@ -15,6 +15,7 @@ aspect	相制
 assert	表明
 attitudinal indicator	心態詞
 bridi	ブリディ
+bridi cmavo	代ブリディ	# 提案
 bridi negation	ブリディ否定
 bridi-schema	ブリディ構成
 bridi-tail	ブリディ末端
@@ -143,7 +144,7 @@ selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
 sentence	文
-signal	シグナル/のシグナルである	# 提案
+signal	シグナル	# 提案
 something-unspecified	不特定の何か
 spatial tense	空間制
 state	状態
@@ -152,6 +153,7 @@ sticky	貼り付く # （ki の意味）
 suffix	接尾辞
 suffix	後置する	# 提案
 sumti	スムティ
+sumti cmavo	代スムティ	# 提案
 sumti place	スムティの場所
 sumti raising	スムティ昇格
 sumti tcita	法制スムティ
