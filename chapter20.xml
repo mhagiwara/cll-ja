@@ -3,6 +3,8 @@
 <!DOCTYPE chapter [
 	<!ENTITY achieved "実現した">
 	<!ENTITY alphabet "アルファベット">
+	<!ENTITY associate "関係づけ">
+	<!ENTITY associated "">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
 	<!ENTITY attach_to3 "につけ">
@@ -15,25 +17,32 @@
 	<!ENTITY be_terminated_with "によって終わらせる">
 	<!ENTITY bind1 "結合する">
 	<!ENTITY bind2 "結合し">
+	<!ENTITY bridi "ブリディ">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY connected "接続された">
+	<!ENTITY conversational_protocol "会話の手順">
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
 	<!ENTITY eg "など">
 	<!ENTITY elidable "省略可能な">
+	<!ENTITY eliminate "省略する">
 	<!ENTITY etc "など">
+	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
 	<!ENTITY follow "を後置">
 	<!ENTITY following "後続する">
 	<!ENTITY free "自由">
 	<!ENTITY gismu "ギスム">
+	<!ENTITY greeting "出会いの挨拶">
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY insert "挿入">
+	<!ENTITY insertion "挿入">
 	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
 	<!ENTITY join "まとめる">
@@ -42,7 +51,8 @@
 	<!ENTITY letter_word "文字を表す語">
 	<!ENTITY logical "論理的">
 	<!ENTITY logical_connection "論理接続">
-	<!ENTITY logical_connective "論理接続詞">
+	<!ENTITY logical_connective1 "論理接続詞">
+	<!ENTITY logical_connective2 "論理的な接続">
 	<!ENTITY logically "論理的に">
 	<!ENTITY logically_or_non_logically "論理的または非論理的に">
 	<!ENTITY lojban "ロジバン">
@@ -54,6 +64,7 @@
 	<!ENTITY metalinguistic "メタ的な">
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
+	<!ENTITY modify "を修飾する">
 	<!ENTITY nonce_word "臨時語">
 	<!ENTITY non_logical "非論理的">
 	<!ENTITY non_logical_connection "非論理接続">
@@ -67,8 +78,10 @@
 	<!ENTITY or_not "かどうかに関らず">
 	<!ENTITY particle "小辞">
 	<!ENTITY phrase "句">
+	<!ENTITY precede "先行する">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
+	<!ENTITY previous "先行する">
 	<!ENTITY pro_bridi "代ブリディ">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
@@ -76,8 +89,10 @@
 	<!ENTITY quotation "引用">
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
+	<!ENTITY radio_communication "無線通信">
 	<!ENTITY refer "表す">
 	<!ENTITY represent "を表す">
+	<!ENTITY scope "の掛かる範囲">
 	<!ENTITY see "も見よ。">
 	<!ENTITY selbri "セルブリ">
 	<!ENTITY sentence "文">
@@ -92,9 +107,13 @@
 	<!ENTITY sumti "スムティ">
 	<!ENTITY symbol "記号">
 	<!ENTITY tanru_unit "タンルの構成単位">
+	<!ENTITY term "名辞">
 	<!ENTITY terminate "を終わらせる">
 	<!ENTITY terminator "終端詞">
+	<!ENTITY termset "名辞組">
 	<!ENTITY tense "間制">
+	<!ENTITY useful "役に立つ">
+	<!ENTITY vocative "呼格">
 	<!ENTITY vowel "母音">
 	<!ENTITY word "語">
 ]>
@@ -113,7 +132,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 のセルマホの訳を見直す CEI まで (15/121)</note>
+<note># 予定: 121 のセルマホの訳を見直す CUhE まで (20/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -210,7 +229,7 @@ It is George who goes to the store.
 <description>
 &tanru_unit;のひとつの持つ場所に&sumti;をいれる。<!--
 -->他に指定がなければその&sumti;は x2, x3 ... と次に来る場所に順々にはいる。
-BE は LE による描写のなかで最も有用である。BEI や BEhO &see;
+BE は LE による描写のなかで最も&useful;。BEI や BEhO &see;
 </description>
 <example>
 <lojban>mi klama be ta troci</lojban>
@@ -428,7 +447,7 @@ I must go to the market.
 <section>
 <title>セルマホ CAhA</title><reference path="./chapter10.html">第10章</reference>
 <description>
-ブリディが事実、可能性(&achieved;&or_not;)、<!--
+&bridi;が事実、可能性(&achieved;&or_not;)、<!--
 -->生来の能力のいずれを&refer;のか&specify2;。
 </description>
 <example><lojban>ro datka ka'e flulimna</lojban>
@@ -465,20 +484,24 @@ The green thingy is large. The red thingy is small.
 
 <section>
 <title>セルマホ CEhE</title>
+	<reference path="./chapter10.html">第10章</reference>
 	<reference path="./chapter14.html">第14章</reference>
 	<reference path="./chapter16.html">第16章</reference>
 <description>
-複数の名辞を名辞組に&join;。
-名辞組はそれぞれの名辞を関係づけ、&logical_connective;のために、<!--
--->また&quantifier;の掛かる範囲をまとめ、
-または特別な間制の構造を作るために使われる。
+複数の&term;を&termset;に&join;。<!--
+-->&termset;はそれぞれの&term;を&associate;、&logical_connective2;のために、<!--
+-->また&quantifier;&scope;をまとめ、<!--
+-->または特別な&tense;の構造を作るために使われる。
 </description>
 <example><lojban>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo</lojban>
 <japanese>私は君の友達で、ジョーンはジェームズの友達だ。</japanese></example>
 <note># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは
 「3匹の犬が2人の人にかみついた」という文章において
 3匹の犬が「同じ」2人の人にという意味を示すということ</note>
-<note># 訳注: 「特別な間制の構造」については訳者の理解が足りない。例文が必要</note>
+<note># 訳注: 「特別な間制の構造」は CEhE の説明ではなく&termset;の説明。<!--
+-->&termset;を間制・法制タグの後に使うことで、起点と距離を表現できる<!--
+-->(例: la frank. sanli zu'a nu'i la djordj. la'u lo mitre be li mu [nu'u])。<!--
+-->第10章25節を参照のこと。</note>
 
 <en>
 Joins multiple terms into a termset.
@@ -492,8 +515,8 @@ I am a friend of you, and John is a friend of James.
 <section>
 <title>セルマホ CO</title><reference path="./chapter5.html">第5章</reference>
 <description>
-&components_of_tanru;の間に置かれ、それをひっくりかえす。
-つまり、&following;&tanru_unit;が先行する&tanru_unit;を修飾するようにする。
+&components_of_tanru;の間に&insert;され、それをひっくりかえす。
+つまり、&following;&tanru_unit;が&previous;&tanru_unit;&modify;ようにする。
 </description>
 <example><lojban>mi troci co klama zarci le zdani</lojban>
 <japanese>私は家から店に行ってみる。</japanese></example>
@@ -513,9 +536,11 @@ I try to go to the market from the house.
 	<reference path="./chapter6.html">第6章</reference>
 	<reference path="./chapter13.html">第13章</reference>
 <description>
-名前や描写、&sumti;&be_prefixed;呼格を形成する。<!--
--->呼格は誰に(または誰が)話しているのか&indicate;&phrase;である。<!--
--->呼格は挨拶や別れ、無線通信等、会話の場面において使われる。DOI, DOhU も見よ。
+名前や描写、&sumti;&be_prefixed;&vocative;を形成する。<!--
+-->&vocative;は誰に(または誰が)話しているのか&indicate;&phrase;である。<!--
+-->&vocative;は&greeting;や&farewell;、&radio_communication;等、<!--
+-->&conversational_protocol;において使われる。<!--
+-->DOI, DOhU &see;
 </description>
 <example><lojban>coi .djan.</lojban>
 <japanese>今日は、ジョン。</japanese></example>
@@ -532,8 +557,9 @@ Greetings, John.
 <section>
 <title>セルマホ CU</title><reference path="./chapter9.html">第9章</reference>
 <description>
-ブリディ内で、前にある&sumti;からセルブリを&separate;。
-厳密に言うと必要ないのだが、いろいろな&elidable;&terminator;を省略するのに役立つ。
+&bridi;内で、&precede;&sumti;から&selbri;を&separate;。
+厳密には必要とされることはないのだが、いろいろな&elidable;&terminator;を<!--
+-->&eliminate;のに&useful;。
 </description>
 <example><lojban>le gerku cu klama le zarci</lojban>
 <japanese>犬が店に行く。</japanese></example>
@@ -549,8 +575,8 @@ The dog goes to-the store.
 <section>
 <title>セルマホ CUhE</title><reference path="./chapter10.html">第10章</reference>
 <description>
-「いつ」、「どこで」、または、「どんな状況であればそのブリディが成り立つか」、<!--
--->を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI も見よ。
+「いつ」、「どこで」、または「どんな状態であればその&bridi;が成り立つか」<!--
+-->を尋ねる疑問文を作る。PU、CAHA、TAhE、BAI &see;
 </description>
 <example><lojban>do cu'e klama le zarci</lojban>
 <japanese>いつ店に行くのですか。</japanese></example>
@@ -852,8 +878,8 @@ connective involving GA, GUhA, or JOI.
 <title>セルマホ GIhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
 2つのブリディ末端が先行する&sumti;を持たず、<!--
--->またいくつかの&following;&sumti;を持つ場合に、<!--
--->それらの&logical_connective;(「かつ」、「または」、「もし」&eg;)&specify2;。
+-->またいくつかの&associated;&following;&sumti;を持つ場合に、<!--
+-->それらの&logical_connective2;(「かつ」、「または」、「もし」&eg;)&specify2;。
 </description>
 <example><lojban>mi klama le zarci gi'e nelci la djan.</lojban>
 <japanese>私は店に行くし、ジョンが好きだ。</japanese></example>
@@ -870,7 +896,7 @@ I  go-to the market and like John
 <title>セルマホ GOI</title><reference path="./chapter8.html">第8章</reference>
 <description>
 関係&phrase;の開始を&specify1;。<!--
--->従属する(&following;)&sumti;が別の(先行する)&sumti;に関係づけられる。<!--
+-->従属する(&following;)&sumti;が別の(先行する)&sumti;に&associate;られる。<!--
 -->GEhU や NOI も見よ。
 </description>
 <example><lojban>la djan. goi ko'a cu blanu</lojban>
@@ -1450,7 +1476,7 @@ The child walks toward my right on the ice.
 <description>矛盾否定。ブリディ全体を偽(または真)とする。</description>
 <example><lojban>mi na klama le zarci</lojban>
 <japanese>私は店に行かない。</japanese></example>
-<sideshow>また、合成シマヴォとして&logical_connective;として使われる。</sideshow>
+<sideshow>また、合成シマヴォとして&logical_connective1;として使われる。</sideshow>
 
 <en>
 Contradictory negators, asserting that a whole bridi is false (or true)
@@ -1463,7 +1489,7 @@ Also used to construct logical connective compound cmavo.
 <title>セルマホ NAI</title>
 	<reference path="./chapter14.html">第14章</reference>
 	<reference path="./chapter15.html">第15章</reference>
-<description>先行する語を否定する。文法上、&specified;特定のセルマホにのみつく。</description>
+<description>&previous;語を否定する。文法上、&specified;特定のセルマホにのみつく。</description>
 
 <en>
 Negates the previous word, but can only be used with certain selma'o as
@@ -1586,11 +1612,12 @@ the-number -5 is the negation-of the-number +5
 <section>
 
 <title>セルマホ NUhI</title>
+	<reference path="./chapter10.html">第10章</reference>
 	<reference path="./chapter14.html">第14章</reference>
 	<reference path="./chapter16.html">第16章</reference>
 <description>
-名辞組の始まりを示す。<!--
--->名辞組はセルブリの2つかそれ以上の場所に&sumti;を同時に入れるために使われる。
+&termset;の始まりを示す。<!--
+-->&termset;はセルブリの2つかそれ以上の場所に&sumti;を同時に入れるために使われる。
 </description>
 <example><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
 le ckule [nu'u]</lojban>
@@ -1607,8 +1634,9 @@ from-the school.
 <section>
 <title>セルマホ NUhU</title><reference path="./chapter14.html">第14章</reference>
 <description>
-NUhI の&elidable;&terminator;。名辞組の終わりを示す。<!--
--->またそれらの間に置かれて(&logical_connective;または&non_logical_connective;による)名辞組の接続を示す。
+NUhI の&elidable;&terminator;。&termset;の終わりを示す。<!--
+-->またそれらの間に置かれて(&logical_connective1;または<!--
+-->&non_logical_connective;による)&termset;の接続を示す。
 </description>
 <example><lojban>mi klama nu'i le zarci le briju nu'u .e le zdani
 le ckule [nu'u]</lojban>
@@ -1640,9 +1668,9 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 
 <title>セルマホ PEhE</title><reference path="./chapter14.html">第14章</reference>
 <description>
-&logical_connective;または&non_logical_connective;の前について、2つの名辞組を&join;。<!--
--->名辞組はそれぞれの名辞を関係づけ、&logical_connective;のために、また<!--
--->&quantifier;の掛かる範囲をまとめ、<!--
+&logical_connective1;または&non_logical_connective;の前について、<!--
+-->2つの&termset;を&join;。&termset;はそれぞれの&term;を&associate;、<!--
+-->&logical_connective2;のために、また&quantifier;&scope;をまとめ、<!--
 -->または特別な間制の構造を作るために使われる(CEhE を見よ)。
 </description>
 <example><lojban>mi ce'o do pe'e je la djan. ce'e la djeimys. cu pendo</lojban>
@@ -1727,7 +1755,7 @@ I twice go-to the market.
 
 <section>
 <title>セルマホ SA</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する&phrase;または文を取り消す&particle;。</description>
+<description>&previous;&phrase;または文を取り消す&particle;。</description>
 <example><lojban>mi klama sa do klama le zarci</lojban>
 <japanese>私は行く、いや違う、君が店に行く。</japanese></example>
 
@@ -1755,7 +1783,7 @@ Also used in constructing connective and modal compound cmavo.
 
 <section>
 <title>セルマホ SEI</title><reference path="./chapter19.html">第19章</reference>
-<description>ブリディに対する&metalinguistic;コメントの開始する。SEhU
+<description>ブリディに対してコメントする&metalinguistic;&insertion;の開始&mark;。SEhU
 &be_terminated_by;。</description>
 <example><lojban>la frank. prami sei gleki [se'u] la djein.</lojban>
 <japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
@@ -1773,7 +1801,8 @@ Frank loves (he is happy) Jane.
 
 <section>
 <title>セルマホ SEhU</title><reference path="./chapter19.html">第19章</reference>
-<description>SEI や SOI の&elidable;&terminator;。&metalinguistic;挿入を終わらせる。</description>
+<description>SEI や SOI の&elidable;&terminator;。<!--
+-->&metalinguistic;&insertion;を終わらせる。</description>
 <example><lojban>la frank. prami sei gleki se'u la djein.</lojban>
 <japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
 
@@ -1786,7 +1815,7 @@ Frank loves (he is happy) Jane.
 <section>
 
 <title>セルマホ SI</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する語ひとつを取り消す&particle;。</description>
+<description>&previous;語ひとつを取り消す&particle;。</description>
 <example><lojban>mi si do klama le zarci</lojban>
 <japanese>私、いや、君が店に行く。</japanese></example>
 
@@ -1815,7 +1844,9 @@ I love you and vice versa.
 <section>
 
 <title>セルマホ SU</title><reference path="./chapter19.html">第19章</reference>
-<description>先行する&discourse;を終わらせ、その全てを取り消す&particle;。</description>
+<description>
+&previous;&discourse;を終わらせ、その全てを取り消す&particle;。
+</description>
 <en>A particle which closes and erases the entire previous discourse.</en>
 </section>
 
@@ -1873,7 +1904,7 @@ array (four, six)
 
 <section>
 <title>セルマホ TO</title><reference path="./chapter19.html">第19章</reference>
-<description>&discursive;における左かっこ。主題からずれた話を挿入する。TOI
+<description>&discursive;における左かっこ。主題からずれた話を&insert;する。TOI
 &be_terminated_by;。</description>
 <example><lojban>doi lisas. mi djica le nu to doi frank. ko sisti
 toi do viska le mlatu</lojban>
@@ -2147,7 +2178,7 @@ I ate a little while ago.
 <title>セルマホ ZIhE</title><reference path="./chapter8.html">第8章</reference>
 <description>
 同じ&sumti;に掛かる関係&phrase;や関係節を&join;。
-英訳の際には「and」と訳されることが多いが、&logical_connective;とは見なされない。
+英訳の際には「and」と訳されることが多いが、&logical_connective2;とは見なされない。
 </description>
 <example><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
 <japanese>私は白い犬を飼っていて、私はそれを愛している。</japanese></example>
@@ -2251,6 +2282,7 @@ metalinguistic: メタ言語(学)の (英辞郎)</note>
 特に single-word quotation を「一語の引用」として良いか。
 「クォートする」と訳したほうが良いだろうか。
 「文字列化」とか「文字化」と訳すべきか。要再考</note>
+<note># COI のところの conversational protocol の意味がわからない</note>
 </postnote>
 
 </chapter>
