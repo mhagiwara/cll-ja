@@ -5,6 +5,7 @@
 	<!ENTITY action "行為">
 	<!ENTITY ad_hoc "その場で作られた">
 	<!ENTITY alphabet "アルファベット">
+	<!ENTITY and_so_on "など">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
 	<!ENTITY attach_to1 "に付加された">
@@ -22,11 +23,14 @@
 	<!ENTITY bind2 "結合し">
 	<!ENTITY bridi "ブリディ">
 	<!ENTITY bridi_cmavo "代ブリディ">
+	<!ENTITY bridi_tail "ブリディ末端">
+	<!ENTITY brivla "ブリブラ">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY compound "合成された">
 	<!ENTITY connected "接続された">
+	<!ENTITY connective "接続詞">
 	<!ENTITY conversational_protocol "会話の手順">
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
@@ -42,6 +46,7 @@
 	<!ENTITY flag "フラグ">
 	<!ENTITY follow "を後置">
 	<!ENTITY following "後続する">
+	<!ENTITY forethought "前置">
 	<!ENTITY free "自由">
 	<!ENTITY gismu "ギスム">
 	<!ENTITY greeting "出会いの挨拶">
@@ -106,6 +111,7 @@
 	<!ENTITY quoted "引用された">
 	<!ENTITY radio_communication "無線通信">
 	<!ENTITY refer "表す">
+	<!ENTITY relative "関係">
 	<!ENTITY represent "を表す">
 	<!ENTITY scope "の掛かる範囲">
 	<!ENTITY see "も見よ。">
@@ -153,7 +159,7 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 の&selma_o;の訳を見直す FUhA まで (31/121)</note>
+<note># 予定: 121 の&selma_o;の訳を見直す GOI まで (39/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -569,7 +575,7 @@ I try to go to the market from the house.
 <en>
 When prefixed to a name, description, or sumti, produces a vocative:
 a phrase which indicates who is being spoken to (or who is speaking).
-Vocatives are used in conversational protocols, includeing greeting,
+Vocatives are used in conversational protocols, including greeting,
 farewell, and radio communication. See DOI, DOhU.
 Greetings, John.
 </en>
@@ -798,9 +804,9 @@ the-number [RP!] two, two, plus equals the-number four
 <section>
 <title>&selma_o; FUhE</title><reference path="./chapter19.html">第19章</reference>
 <description>
-&following; UI に属する心態詞が、
-普通そうであるようにその&indicator;が先行する語にかかるのではなく、
-&following;語にかかること&indicate;。その効果は fu'o で終わる。
+&following; UI に属する&indicator;が、<!--
+-->普通そうであるように&precede;&word;にかかるのではなく、
+FUhO までの全ての&following;&word;にかかること&indicate;。
 </description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
 <japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
@@ -829,10 +835,10 @@ I see the owner of what I believe to be a blue house.
 <section>
 <title>&selma_o; GA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-&logically;&connected;2つのスミティやブリディ末端などの始まり&indicate;。<!--
--->論理的接続とは「以下の両方が成り立つ ... と ...」や<!--
+&logically;&connected;2つの&sumti;や&bridi_tail;などの始まり&indicate;。<!--
+-->&logical_connection;は「以下の両方が成り立つ ... と ...」や<!--
 -->「以下のどちらかまたは両方が成り立つ ... と ...」や<!--
--->「もし ... ならば ...」等を含む。GI も見よ。
+-->「もし ... ならば ...」&and_so_on;を含む。GI &see;
 </description>
 <example><lojban>ga la djan. nanmu gi la djeimyz. ninmu</lojban>
 <japanese>ジョンが男か、またはジェイムズが女か、またはその両方だ。</japanese></example>
@@ -850,7 +856,7 @@ Either John is a man or James is a woman (or both)
 <title>&selma_o; GAhO</title><reference path="./chapter14.html">第14章</reference>
 <description>
 BIhI に&specified;&interval;が端点を含むかどうか&specify2;。
-2つが組で使われて、BIhI シュマボの前後に置かれ、それぞれ左右の端点の性質&specify2;。
+BIhI シュマボの前後に置かれ、それぞれ左右の端点の性質&specify2;。
 </description>
 <example><lojban>mi ca sanli la drezdn. ga'o bi'i ga'o la frankfurt.</lojban>
 <japanese>私はドレスデンとフランクフルトの両方を含む間に立っている。</japanese></example>
@@ -867,9 +873,7 @@ I am standing between Dresden and Frankfurt, inclusive of both.
 <section>
 <title>&selma_o; GEhU</title><reference path="./chapter8.html">第8章</reference>
 <description>
-GOI の&elidable;&terminator;。
-関係&phrase;の終わりを示す。
-KUhO も見よ。
+GOI の&elidable;&terminator;。&relative;&phrase;の&end;&mark;。KUhO &see;
 </description>
 <example><lojban>la djan. goi ko'a ge'u blanu</lojban>
 <japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></example>
@@ -884,12 +888,15 @@ John (referred to as #1) is-blue.
 <section>
 <title>&selma_o; GI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-GA、GUhA、JOI といった前置論理接続詞&be_prefix;、<!--
--->2つの&logically_or_non_logically;接続された&sumti;、&tanru_unit;、<!--
--->ブリディ末端等を&separate;。
+GA、GUhA、JOI などの&forethought;&connective;&be_prefix;、<!--
+-->2つの&logically_or_non_logically;&connected;&sumti;、&tanru_unit;、<!--
+-->&bridi_tail;等を&separate;。
 </description>
 <example><lojban>ge la djan. nanmu gi la dieimyz. ninmu</lojban>
 <japanese>ジャンは男であり、かつジェームズは女である。</japanese></example>
+<note># 訳注: ドラフト版では「when the prefix is a forethought logical
+connective ...」だが、改訂版では正しく「when the prefix is a forethought
+connective ...」となっているので後者を採用</note>
 
 <en>
 Separates two logically or non-logically connected sumti, tanru units,
@@ -902,9 +909,9 @@ connective involving GA, GUhA, or JOI.
 <section>
 <title>&selma_o; GIhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-2つのブリディ末端が先行する&sumti;を持たず、<!--
--->またいくつかの&associated;&following;&sumti;を持つ場合に、<!--
--->それらの&logical_connective2;(「かつ」、「または」、「もし」&eg;)&specify2;。
+2つの&bridi_tail;が&precede;&sumti;を持たず、<!--
+-->またいくつかの&associated;&following;&sumti;を持つ&selbri;である場合に、<!--
+-->それらの&logical_connective2;(「かつ」、「または」、「もし」&eg;)を&specify1;。
 </description>
 <example><lojban>mi klama le zarci gi'e nelci la djan.</lojban>
 <japanese>私は店に行くし、ジョンが好きだ。</japanese></example>
@@ -920,9 +927,9 @@ I  go-to the market and like John
 <section>
 <title>&selma_o; GOI</title><reference path="./chapter8.html">第8章</reference>
 <description>
-関係&phrase;の開始を&specify1;。<!--
--->従属する(&following;)&sumti;が別の(先行する)&sumti;に&associate;られる。<!--
--->GEhU や NOI も見よ。
+&relative;&phrase;の開始を&specify1;。<!--
+-->従属する(&following;)&sumti;が別の(&precede;)&sumti;に&associate;られる。<!--
+-->GEhU や NOI &see;
 </description>
 <example><lojban>la djan. goi ko'a cu blanu</lojban>
 <japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></example>
@@ -937,7 +944,7 @@ John (referred to as #1) is blue.
 <section>
 <title>&selma_o; GOhA</title><reference path="./chapter7.html">第7章</reference>
 <description>
-ブリブラの代わりとなる全てのシュマボを含む全般的な&selma_o;。<!--
+&brivla;の代わりとなる全ての&cmavo;を含む全般的な&selma_o;。<!--
 -->いくつかのグループに分けられる。
 </description>
 <example><lojban>A: mi klama le zarci B: mi go'i</lojban>
@@ -1022,7 +1029,8 @@ I change the color of the wall.
 <description>
 2つの&sumti;、&tanru_unit;等の&non_logical_connection;<!--
 -->(集団として一緒に、組として一緒に、並びとして一緒に、&eg;)を&specify1;。<!--
--->または、GI &immediately_follow;いて、GA のような前置&non_logical_connection;を作る。
+-->または、GI &immediately_follow;いて、<!--
+-->GA のような&forethought;&non_logical_connection;を作る。
 </description>
 <example><lojban>la djan. joi la .alis. cu bevri le pipno</lojban>
 <japanese>ジョンはアリスと一緒にピアノを運ぶ。</japanese></example>
@@ -2310,6 +2318,7 @@ metalinguistic: メタ言語(学)の (英辞郎)</note>
 「クォートする」と訳したほうが良いだろうか。
 「文字列化」とか「文字化」と訳すべきか。要再考</note>
 <note># COI のところの conversational protocol の意味がわからない</note>
+<note># GI について、進行中の改訂版をチェックすること</note>
 </postnote>
 
 </chapter>
