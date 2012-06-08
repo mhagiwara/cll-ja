@@ -10,7 +10,7 @@
 	<!ENTITY all "すべて">
 	<!ENTITY alphabet "アルファベット">
 	<!ENTITY and_so_on "など">
-	<!ENTITY applicable "当てはまる">
+	<!ENTITY applicable "であることを意味する">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
 	<!ENTITY attach_to1 "に付加された">
@@ -191,10 +191,7 @@
 <image>./images/chapter20.gif</image>
 
 <prenotes>
-<note># 下書き</note>
-<note># 訳の清書中</note>
-<note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
-<note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
+<note># ほぼ完成</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
 <note># 予定: つっこみ待ち、かつ時々チェックして修正していく</note>
 </prenotes>
@@ -473,9 +470,9 @@ In paticular, attached to single-vowel cmavo to make words for vowel letters.
 <example>
 <lojban>.abu tavla .by le la .ibymym. skami</lojban>
 <japanese>A は B に IBM のコンピュータについて話す。</japanese></example>
-<note># 訳注: IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my をつなげて、
-最後に子音をつけて、.ibubymym. とする。母音の後の bu を省略して .ibymym.
-とできる。</note>
+<note># 訳注: IBM をロジバンの名前にするためにはそれぞれの文字 ibu by my
+をつなげて、最後に子音をつけて、.ibubymym. とする。母音の後の bu を省略して
+.ibymym. とできる。</note>
 
 <en>
 Words representing the letters of the Lojban alphabet, plus various
@@ -555,9 +552,9 @@ The green thingy is large. The red thingy is small.
 </description>
 <example><lojban>mi ce'e do pe'e je la djan. ce'e la djeimyz. cu pendo</lojban>
 <japanese>私は君の友達で、ジョーンはジェームズの友達だ。</japanese></example>
-<note># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは
-「3匹の犬が2人の人にかみついた」という文章において
-3匹の犬が「同じ」2人の人にという意味を示すということ</note>
+<note># 訳注: 「量を示す詞のかかる範囲をまとめ」るとは<!--
+-->「3匹の犬が2人の人にかみついた」という文章において<!--
+-->3匹の犬が「同じ」2人の人にという意味を示すということ</note>
 <note># 訳注: 「特別な間制の構造」は CEhE の説明ではなく&termset;の説明。<!--
 -->&termset;を間制・法制タグの後に使うことで、起点と距離を表現できる<!--
 -->(例: la frank. sanli zu'a nu'i la djordj. la'u lo mitre be li mu [nu'u])。<!--
@@ -598,7 +595,7 @@ I try to go to the market from the house.
 <description>
 名前や描写、&sumti;&be_prefixed;&vocative;を形成する。<!--
 -->&vocative;は誰に(または誰が)話しているのか&indicate;&phrase;である。<!--
--->&vocative;は&greeting;や&farewell;、&radio_communication;等、<!--
+-->&vocative;は&greeting;や&farewell;、&radio_communication;など、<!--
 -->&conversational_protocol;において使われる。<!--
 -->DOI, DOhU &see;。
 </description>
@@ -1470,14 +1467,14 @@ f(x)
 	<reference path="./chapter18.html">第18章</reference>
 <description>
 &sumti;から&tanru_unit;を作る。<!--
--->それは&sumti;が&refer;ものに&applicable;。MEhU &see;。
+-->それは&sumti;が&refer;もの&applicable;。MEhU &see;。
 </description>
 <example><lojban>ta me la ford. karce</lojban>
 <japanese>あれはフォード車だ。</japanese></example>
 <note># 訳注: ここでは言及されていないが、
-me は&sumti;からセルブリを作るのにも使われる。
-というよりも、&sumti;をセルブリにすることで
-タンルの要素にすることができるということだろう</note>
+me は&sumti;からセルブリを作るのにも使われる。<!--
+-->というよりも、&sumti;をセルブリにすることで<!--
+-->タンルの要素にすることができるということなのではないだろうか</note>
 <note># 訳注: do me la djan. は do du la djan. と同じ</note>
 
 <en>
@@ -1511,8 +1508,8 @@ Indicates the end of a sumti converted to a tanru unit. That's a me type of hous
 <example><lojban>la djan. joi la frank. cu bruna remei</lojban>
 <japanese>ジョンとフランクは2人兄弟だ。</japanese></example>
 <note># 訳注: mei は基数(2人、2本、2個、2匹等々)を示す</note>
-<note># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」
-となる</note>
+<note># 訳注: 上の例文は直訳すれば「ジョンとフランクは(兄弟であるような2人)だ」<!--
+-->となる</note>
 
 <en>
 Suffixes added to numbers or other quantifiers to make various
@@ -1526,8 +1523,8 @@ John and Frank are two brothers.
 <section>
 <title>&selma_o; MOhE</title><reference path="./chapter18.html">第18章</reference>
 <description>
-&sumti;から&mathematical;&operand;をつくる。<!--
--->これは&dimensioned_unit;をつくるのに使われる。
+&sumti;から&mathematical;&operand;を作る。<!--
+-->これは&dimensioned_unit;を作るのに使われる。
 TEhU &be_terminated_by;。
 </description>
 <example><lojban>li mo'e re ratcu su'i mo'e re ractu du li mo'e vo danlu</lojban>
@@ -1595,7 +1592,7 @@ specified by the grammar.
 <description>
 段階否定。&selbri;や&sumti;&modify;し、それが示す値から別の値へと変える。<!--
 -->示す値の反対&etc;。<!--
--->&following; BO とともに&sumti;&qualifier;をつくる。LAhE &see;。
+-->&following; BO とともに&sumti;&qualifier;を作る。LAhE &see;。
 </description>
 <example><lojban>ta na'e blanu zdani</lojban>
 <japanese>あれは青くない家だ。</japanese></example>
@@ -1893,10 +1890,10 @@ Also used in constructing connective and modal compound cmavo.
 &be_terminated_by;。</description>
 <example><lojban>la frank. prami sei gleki [se'u] la djein.</lojban>
 <japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
-<note># 訳注: どうしてここで se'u が省略できるのか</note>
-<note># 訳注: la djein. が gleki の x2 とならないのは何故か</note>
-<note># 訳注: gleki の x2 には抽象&sumti;しか来ないから、か</note>
-<note># 訳注: PEG を読めばわかるかもしれない。</note>
+<note># 訳注: どうしてここで se'u が省略できるのか。
+la djein. が gleki の x2 とならないのは何故か。
+ gleki の x2 には抽象&sumti;しか来ないから、か。
+PEG を読めばわかるかもしれない。</note>
 
 <en>
 Marks the beginning of metalinguistic insertions which comment on the main bridi.
@@ -1938,9 +1935,9 @@ I, er, you go to-the market.
 </description>
 <example><lojban>mi prami do soi mi</lojban>
 <japanese>私はあなたを愛していて、そしてあなたも私を愛している。</japanese></example>
-<note># 訳注: soi の二番目の引数は直前の&sumti;が入る</note>
-<note># 訳注: つまり上記は mi prami do soi mi do となり、</note>
-<note># 訳注: mi prami do であり、その mi と do を入れ換えても真である、となる</note>
+<note># 訳注: soi の二番目の引数は直前の&sumti;が入る。<!--
+-->つまり上記は mi prami do soi mi do となり、<!--
+-->「mi prami do であり、その mi と do を入れ換えても真である」となる。</note>
 
 <en>
 Marks reciprocity between two sumti (like "vice versa" in English).
@@ -2053,8 +2050,8 @@ Lisa, I want you to (Frank! Stop!) see the cat.
 <example><lojban>xagmau zo'u tu'e ganai cidja gi cnino .i ganai
 vanju gi tolci'o [tu'u]</lojban>
 <japanese>最良なのは、食事は新しいもので、ワインは古いものだ。</japanese></example>
-<note># 訳注: 最良なものである: (それは食事ではない または 新しい) かつ
-(それはワインではない または 古い)</note>
+<note># 訳注: 最良なものである: (それは食事ではない または 新しい) かつ<!--
+-->(それはワインではない または 古い)</note>
 
 <en>
 Groups multiple sentences or paragraphs into a logical unit. Terminated by TUhU.
@@ -2095,10 +2092,9 @@ Hurrah! John is coming!
 空間的な距離&indicate;&tense;(近い、遠い、どちらでもない)。
 </description>
 <example><lojban>le nanmu va batci le gerku</lojban>
-<japanese>そこで男が犬をかむ。</japanese></example>
-<note># 訳注: va のなかに ca が含まれているのかもしれない。調べること</note>
-<note># 訳注: そういうことではなく、単に文脈から英語訳が is biting
-になっているだけか</note>
+<japanese>向こうで男が犬をかんでいる。</japanese></example>
+<note># 訳注: 英訳で現在進行形となっている。文脈からそう解釈されるということか
+</note>
 
 <en>
 A tense indicating distance in space (near, far, or neither).
@@ -2385,39 +2381,6 @@ There is a man who loves all fish.
 <!-- 121/121 -->
 
 <postnote>
-<note>#「特別な間制の構造」は "special constructs in tenses"
-の訳だがよくわからない。名辞組の要素として間制も取れるということか。
-例文が必要</note>
-<note># ロジバンでは意志と未来とは明確に分けられているのだろうか。
-デフォルトでは分かれてなくて、それを分けるための構文が別にあるのか。
-あるいは、英語の「will」とは違い、ba には意志の意味はないのか。
-その場合でも聞き手の解釈によって ba に意志を読み込んでも良いのか、
-またはそれは許されないのか。しかし、単純な未来とは何か。
-意志も予測も含まれない単純な未来という概念は成立するだろうか。</note>
-<note># particle をどう訳すか。文法要素とか、か。
-副詞的小詞とか不変化詞とか。後者は、lojban の語はそもそも変化しないので
-不適切だろう。
-文の中で、大切な名詞や動詞にある動きやニュアンスを加える働きがある
-という説明もある。
-不定詞 to、動詞の ing、名詞の前につく a、the、前置詞、接頭語、接尾語等
-のことらしい。
-日本語の助詞は英訳されると particle になる様だが、
-英語の particle は日本語に訳すときに「助詞」とは訳されない。
-短かくて活用のない品詞のことを指すのだろうか。
-小辞、小詞という訳もある</note>
-<note># metalinguistic をどう訳すか。
-metalinguistic: メタ言語(学)の (英辞郎)</note>
-<note># quote を「引用する」と訳すのは適切か。
-特に single-word quotation を「一語の引用」として良いか。
-「クォートする」と訳したほうが良いだろうか。
-「文字列化」とか「文字化」と訳すべきか。要再考</note>
-<note># COI のところの conversational protocol の意味がわからない</note>
-<note># GI について、進行中の改訂版をチェックすること</note>
-<note># ME の applicable について訳を直すこと。
-意味はだいたい「(スムティが表すもの)である」を意味する、といったところだろう</note>
-<note># 「作る」と「つくる」どちらかに統一すること</note>
-<note># dimensioned unit を「単位つきの量」と訳して良いか</note>
-<note># VA の訳注について調べること</note>
 </postnote>
 
 </chapter>
