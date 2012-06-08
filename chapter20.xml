@@ -37,7 +37,9 @@
 	<!ENTITY compound "合成された">
 	<!ENTITY connected "接続された">
 	<!ENTITY connective "接続詞">
+	<!ENTITY constructing "複合的な">
 	<!ENTITY contain "含む">
+	<!ENTITY contour "事象線">
 	<!ENTITY conversational_protocol "会話の手順">
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
@@ -52,6 +54,7 @@
 	<!ENTITY eliminate1 "省略する">
 	<!ENTITY eliminate2 "引き剥がす">
 	<!ENTITY end "終わり">
+	<!ENTITY erase "取り消す">
 	<!ENTITY etc "など">
 	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
@@ -60,6 +63,7 @@
 	<!ENTITY forethought "前置">
 	<!ENTITY free "自由">
 	<!ENTITY gismu "ギスム">
+	<!ENTITY glue_word "接着語">
 	<!ENTITY grammatical "文法的に正し">
 	<!ENTITY greeting "出会いの挨拶">
 	<!ENTITY group_n1 "まとまり">
@@ -85,18 +89,20 @@
 	<!ENTITY logically "論理的に">
 	<!ENTITY logically_or_non_logically "論理的または非論理的に">
 	<!ENTITY lojban "ロジバン">
+	<!ENTITY lujvo "ルジヴォ">
 	<!ENTITY mark "を示す">
 	<!ENTITY marked_with "をつけて">
 	<!ENTITY marker "マーカー">
 	<!ENTITY material "もの">
 	<!ENTITY mathematical "数学">
-	<!ENTITY mathematical_conversion "?">
+	<!ENTITY mathematical_conversion "数式への変換">
 	<!ENTITY mathematical_expression "数式">
 	<!ENTITY metalinguistic "メタ的な">
 	<!ENTITY modal "法制">
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY modify "を修飾">
+	<!ENTITY morphological "形態学的な">
 	<!ENTITY nonce_word "臨時語">
 	<!ENTITY non_logical "非論理的">
 	<!ENTITY non_logical_connection "非論理接続">
@@ -106,6 +112,7 @@
 	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY numerical_expression "数式">
 	<!ENTITY operand "被演算子">
+	<!ENTITY operation "演算">
 	<!ENTITY operator "演算子">
 	<!ENTITY optional "任意の">
 	<!ENTITY order "順">
@@ -118,7 +125,8 @@
 	<!ENTITY phrase "句">
 	<!ENTITY place "場所">
 	<!ENTITY place_structure "場所構造">
-	<!ENTITY precede "先行する">
+	<!ENTITY precede1 "先行">
+	<!ENTITY precede2 "に前置して">
 	<!ENTITY preceded_by "に後置して">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
@@ -185,7 +193,6 @@
 <prenotes>
 <note># 下書き</note>
 <note># 訳の清書中</note>
-<note># 予定: 121 の&selma_o;の訳を見直す PA まで (84/121)</note>
 <note># 予定: 訳語の統一(この章のなかで統一したうえで vlaste に追加する)</note>
 <note># 予定: 疑問点、訳の代換案、学ぶべきところを comment としてまとめる</note>
 <note># 予定: IE での表示をチェックする(今のところ firefox での動作確認)</note>
@@ -610,7 +617,7 @@ Greetings, John.
 <section>
 <title>&selma_o; CU</title><reference path="./chapter9.html">第9章</reference>
 <description>
-&bridi;内で、&precede;&sumti;から&selbri;を&separate;。
+&bridi;内で、&precede1;する&sumti;から&selbri;を&separate;。
 厳密には必要とされることはないのだが、いろいろな&elidable;&terminator;を<!--
 -->&eliminate1;のに&useful;。
 </description>
@@ -831,7 +838,7 @@ the-number [RP!] two, two, plus equals the-number four
 <title>&selma_o; FUhE</title><reference path="./chapter19.html">第19章</reference>
 <description>
 &following; UI に属する&indicator;が、<!--
--->普通そうであるように&precede;&word;にかかるのではなく、
+-->普通そうであるように&precede1;する&word;にかかるのではなく、
 FUhO までの&all;の&following;&word;にかかること&indicate;。
 </description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
@@ -936,7 +943,7 @@ connective involving GA, GUhA, or JOI.
 <section>
 <title>&selma_o; GIhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-2つの&bridi_tail;が&precede;&sumti;を持たず、<!--
+2つの&bridi_tail;が&precede1;する&sumti;を持たず、<!--
 -->またいくつかの&associated;&following;&sumti;を持つ&selbri;である場合に、<!--
 -->それらの&logical_connective2;(「かつ」、「または」、「もし」&eg;)を&specify1;。
 </description>
@@ -955,8 +962,8 @@ I  go-to the market and like John
 <title>&selma_o; GOI</title><reference path="./chapter8.html">第8章</reference>
 <description>
 &relative;&phrase;の開始を&specify1;。<!--
--->従属する(&following;)&sumti;が別の(&precede;)&sumti;に&associate;られる。<!--
--->GEhU や NOI &see;。
+-->従属する(&following;)&sumti;が別の(&precede1;する)&sumti;に<!--
+-->&associate;られる。GEhU や NOI &see;。
 </description>
 <example><lojban>la djan. goi ko'a cu blanu</lojban>
 <japanese>ジョン(以下 #1 と呼ぶ)は青い。</japanese></example>
@@ -1202,7 +1209,8 @@ The person goes to the house.
 <description>
 PEhO の&elidable;&terminator;。<!--
 -->&forethought;&mathematical_expression;の&end;&indicate;<!--
--->(&forethought;&mathematical_expression;では&operator;が&operand;に&precede;)。
+-->(&forethought;&mathematical_expression;では&operator;が<!--
+-->&operand;に&precede1;する)。
 </description>
 <example><lojban>li pe'o su'i reboi reboi re[boi] ku'e du li xa</lojban>
 <japanese>2 2 2 を合計した数は数 6 と等しい。</japanese></example>
@@ -1654,7 +1662,8 @@ or new subject matter.
 <section>
 <title>&selma_o; NOI</title><reference path="./chapter8.html">第8章</reference>
 <description>
-&relative;&clause;を開始する。&following;&bridi;は&precede;&sumti;&modify;する。<!--
+&relative;&clause;を開始する。&following;&bridi;は<!--
+-->&precede1;する&sumti;&modify;する。<!--
 -->KUhO &be_terminated_by;。GOI &see;。
 </description>
 <example><lojban>le zdani poi blanu cu cmalu</lojban>
@@ -1757,10 +1766,10 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 
 <title>&selma_o; PEhE</title><reference path="./chapter14.html">第14章</reference>
 <description>
-&logical_connective1;または&non_logical_connective;の前について、<!--
+&logical_connective1;または&non_logical_connective;&precede2;、<!--
 -->2つの&termset;を&join;。&termset;はそれぞれの&term;を&associate;、<!--
 -->&logical_connective2;のために、また&quantifier;&scope;をまとめ、<!--
--->または特別な間制の構造を作るために使われる(CEhE を見よ)。
+-->または特別な&tense;の構造を作るために使われる(CEhE を見よ)。
 </description>
 <example><lojban>mi ce'o do pe'e je la djan. ce'e la djeimys. cu pendo</lojban>
 <japanese>私は君の友達で、ジョンはジェームズの友達だ。</japanese></example>
@@ -1779,8 +1788,8 @@ I am a friend of you, and John is a friend of James.
 
 <title>&selma_o; PEhO</title><reference path="./chapter18.html">第18章</reference>
 <description>
-前置&mathematical;&operator;を示す&optional;&signal_n;。<!--
--->前置演算子は被演算子の前に置かれる。
+&forethought;&mathematical;&operator;の&optional;&signal_n;。<!--
+-->&forethought;&operator;は&operand;に&precede1;する。
 KUhE &be_terminated_by;。
 </description>
 <example><lojban>li vo du li pe'o su'i reboi re</lojban>
@@ -1812,8 +1821,9 @@ I went to the market.
 
 <title>&selma_o; RAhO</title><reference path="./chapter7.html">第7章</reference>
 <description>
-代ブリディを更新する&flag;。暗黙のうちに代ブリディ&attach_to3;られたスミティの意味を
-前の文脈ではなく、新しい文脈に合うように変える。
+&pro_bridi;を更新する&flag;。<!--
+-->暗黙のうちに&pro_bridi;&attach_to3;られた&sumti;の意味を<!--
+-->前の文脈ではなく、新しい文脈に合うように変える。
 </description>
 <example><lojban>A: mi ba lumci le mi karce B: mi go'i</lojban>
 <japanese>A: 私は私の車を洗う B: 私もそうする(A の車を洗う)</japanese></example>
@@ -1831,7 +1841,9 @@ A: I [future] wash my car. B: I do-the-corresponding-thing(i.e. wash B's car)
 
 <section>
 <title>&selma_o; ROI</title><reference path="./chapter10.html">第10章</reference>
-<description>数&be_suffixed;拡張間制を表す(1回、2回、何回も、&eg;)&particle;。</description>
+<description>
+&number;&be_suffixed;拡張&tense;(1回、2回、何回も、&eg;)&mark;&particle;。
+</description>
 <example><lojban>mi reroi klama le zarci</lojban>
 <japanese>私は2回その店に行く。</japanese></example>
 
@@ -1844,7 +1856,7 @@ I twice go-to the market.
 
 <section>
 <title>&selma_o; SA</title><reference path="./chapter19.html">第19章</reference>
-<description>&previous;&phrase;または文を取り消す&particle;。</description>
+<description>&previous;&phrase;または&sentence;を&erase;&particle;。</description>
 <example><lojban>mi klama sa do klama le zarci</lojban>
 <japanese>私は行く、いや違う、君が店に行く。</japanese></example>
 
@@ -1857,12 +1869,14 @@ I go, er, you go-to the market.
 
 <section>
 <title>&selma_o; SE</title><reference path="./chapter5.html">第5章</reference>
-<description>セルブリの x1 と&specified;場所を入れ換えることで<!--
+<description>&selbri;の x1 と&specified;&place;を入れ換えることで<!--
 -->&place;の&order;を並び換える。
 </description>
 <example><lojban>le zarci se klama mi</lojban>
 <japanese>その店は私によって行かれた。</japanese></example>
-<sideshow>複合的な接続詞や法制シマヴォにも使われる。</sideshow>
+<sideshow>
+&constructing;&connective;や&compound;&modal;&cmavo;のなかでも使われる。
+</sideshow>
 
 <en>
 Particles which convert a selbri, rearranging the order of places by
@@ -1874,7 +1888,8 @@ Also used in constructing connective and modal compound cmavo.
 
 <section>
 <title>&selma_o; SEI</title><reference path="./chapter19.html">第19章</reference>
-<description>ブリディに対してコメントする&metalinguistic;&insertion;の開始&mark;。SEhU
+<description>
+&bridi;に対してコメントする&metalinguistic;&insertion;の開始&mark;。SEhU
 &be_terminated_by;。</description>
 <example><lojban>la frank. prami sei gleki [se'u] la djein.</lojban>
 <japanese>フランク(彼は幸せだ)はジェーンを愛している。</japanese></example>
@@ -1906,7 +1921,7 @@ Frank loves (he is happy) Jane.
 <section>
 
 <title>&selma_o; SI</title><reference path="./chapter19.html">第19章</reference>
-<description>&previous;語ひとつを取り消す&particle;。</description>
+<description>&previous;&word;ひとつを&erase;&particle;。</description>
 <example><lojban>mi si do klama le zarci</lojban>
 <japanese>私、いや、君が店に行く。</japanese></example>
 
@@ -1918,7 +1933,9 @@ I, er, you go to-the market.
 
 <section>
 <title>&selma_o; SOI</title><reference path="./chapter7.html">第7章</reference>
-<description>2つの&sumti;の相互関係を示す(英語の「vice versa」に近い)。</description>
+<description>
+2つの&sumti;の相互関係&mark;(英語の「vice versa」に近い)。
+</description>
 <example><lojban>mi prami do soi mi</lojban>
 <japanese>私はあなたを愛していて、そしてあなたも私を愛している。</japanese></example>
 <note># 訳注: soi の二番目の引数は直前の&sumti;が入る</note>
@@ -1936,7 +1953,7 @@ I love you and vice versa.
 
 <title>&selma_o; SU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-&previous;&discourse;を終わらせ、その全てを取り消す&particle;。
+&previous;&discourse;を終わらせ、その全体を&erase;&particle;。
 </description>
 <en>A particle which closes and erases the entire previous discourse.</en>
 </section>
@@ -1944,7 +1961,8 @@ I love you and vice versa.
 <section>
 <title>&selma_o; TAhE</title><reference path="./chapter10.html">第10章</reference>
 <description>
-時間または空間の&interval;内での頻度(規則的に、習慣的に、等)を&specify1;&tense;&modifier1;。
+時間または空間の&interval;内での頻度(規則的に、習慣的に、&etc;)を<!--
+-->&specify1;&tense;&modifier1;。
 </description>
 <example><lojban>le verba ta'e klama le ckule</lojban>
 <japanese>その子供は習慣的に学校に行く。</japanese></example>
@@ -1978,7 +1996,8 @@ the letter "e" with an acute accent
 <section>
 <title>&selma_o; TEhU</title><reference path="./chapter18.html">第18章</reference>
 <description>
-JOhI、MAhO、MOhE、NAhU、NIhE の&elidable;&terminator;。数式への変換の終わりを示す。
+JOhI、MAhO、MOhE、NAhU、NIhE の&elidable;&terminator;。<!--
+-->&mathematical_conversion;の&end;&mark;。
 </description>
 <example><lojban>li joi' paboi reboi te'u su'i jo'i ciboi voboi
 du li jo'i voboi xaboi</lojban>
@@ -2012,7 +2031,8 @@ Lisa, I want you to (Frank! Stop!) see the cat.
 
 <section>
 <title>&selma_o; TOI</title><reference path="./chapter19.html">第19章</reference>
-<description>TO の&elidable;&terminator;。&discursive;における右かっこ。</description>
+<description>TO の&elidable;&terminator;。&discursive;における右かっこ。
+</description>
 <example><lojban>doi lisas. mi djica le nu to doi frank. ko sisti
 toi do viska le mlatu</lojban>
 <japanese>リサ、私はあなたに(フランク! やめなさい)猫を見せたい。</japanese></example>
@@ -2027,7 +2047,9 @@ Lisa, I want you to (Frank! Stop!) see the cat.
 
 <section>
 <title>&selma_o; TUhE</title><reference path="./chapter19.html">第19章</reference>
-<description>複数の文や段落を論理的に&group_v;。TUhU &be_terminated_by;。</description>
+<description>
+複数の&sentence;や段落を&logical;に&group_v;。TUhU &be_terminated_by;。
+</description>
 <example><lojban>xagmau zo'u tu'e ganai cidja gi cnino .i ganai
 vanju gi tolci'o [tu'u]</lojban>
 <japanese>最良なのは、食事は新しいもので、ワインは古いものだ。</japanese></example>
@@ -2045,14 +2067,16 @@ As for what is best: if food, then new [is best]; if wine, then old [is best]
 
 <title>&selma_o; TUhU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-TUhE の論理的&terminator;。複数の文の&group_n1;の終わりを示す。
+TUhE の&logical;&terminator;。複数の&sentence;の&group_n1;の&end;&mark;。
 </description>
 <en>Logical terminator for TUhE. Marks the end of a multiple sentence group.</en>
 </section>
 
 <section>
 <title>&selma_o; UI</title><reference path="./chapter13.html">第13章</reference>
-<description>話者の感情的な状態、知識の出所、&discourse;における局面&indicate;。</description>
+<description>
+話者の感情的な状態、知識の出所、&discourse;における局面&indicate;&particle;。
+</description>
 <example><lojban>.ui la djan. klama</lojban>
 <japanese>やった、ジョンが来る。</japanese></example>
 
@@ -2067,7 +2091,9 @@ Hurrah! John is coming!
 <section>
 
 <title>&selma_o; VA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間的な距離&indicate;間制(近い、遠い、どちらでもない)。</description>
+<description>
+空間的な距離&indicate;&tense;(近い、遠い、どちらでもない)。
+</description>
 <example><lojban>le nanmu va batci le gerku</lojban>
 <japanese>そこで男が犬をかむ。</japanese></example>
 <note># 訳注: va のなかに ca が含まれているのかもしれない。調べること</note>
@@ -2084,7 +2110,7 @@ Over there the man is biting the dog.
 <section>
 <title>&selma_o; VAU</title><reference path="./chapter14.html">第14章</reference>
 <description>
-単純なブリディまたは GIhA による&logical_connection;におけるブリディ末端の<!--
+単純な&bridi;または GIhA による&logical_connection;における&bridi_tail;の<!--
 -->&elidable;&terminator;。
 </description>
 <example><lojban>mi dunda le cukta [vau] gi'e lebna lo rupnu vau do [vau]</lojban>
@@ -2100,7 +2126,7 @@ I (givce the book) and (take some currency-units) to/from you.
 <section>
 
 <title>&selma_o; VEI</title><reference path="./chapter18.html">第18章</reference>
-<description>&mathematical;の左かっこ。&mathematical;演算を&group_v;。VEhO
+<description>&mathematical;の左かっこ。&mathematical;&operation;を&group_v;。VEhO
 &be_terminated_by;。</description>
 <example><lojban>li vei ny. su'i pa ve'o pi'i vei ny. su'i pa
 [ve'o] du li ny. [bo] te'a re su'i re bo pi'i ny.
@@ -2119,7 +2145,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>&selma_o; VEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における&interval;(長、中、短)&indicate;間制。</description>
+<description>空間における&interval;(長、中、短)&indicate;&tense;。</description>
 <en>A tense indicating the size of an interval in space (long, medium, or short)</en>
 </section>
 
@@ -2143,7 +2169,9 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>&selma_o; VIhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における次元(線上、面上、空間上、時空上の&interval;)&indicate;間制。</description>
+<description>
+空間における次元(線上、面上、空間上、時空上の&interval;)&indicate;&tense;。
+</description>
 <example><lojban>le verba ve'a vi'a cadzu le bisli</lojban>
 <japanese>中くらいの範囲で、氷の上をその子は歩く。</japanese></example>
 
@@ -2158,10 +2186,13 @@ In a medium-sized area, the child walks on the ice.
 
 <section>
 <title>&selma_o; VUhO</title><reference path="./chapter8.html">第8章</reference>
-<description>関係節や関係&phrase;が、&sumti;の最も左側の部分ではなく、<!--
+<description>
+&relative;&clause;や&relative;&phrase;が、&sumti;の最も左側の部分ではなく、<!--
 -->(複合的であるかもしれない)&sumti;全体&attach_to4;ようにする。</description>
-<example><lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
-<japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese></example>
+<example>
+<lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
+<japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese>
+</example>
 
 <en>
 A mechanism for attaching relative clauses or phrases to a whole
@@ -2176,8 +2207,8 @@ Frank and George, who are guides, are in the room.
 
 <title>&selma_o; XI</title><reference path="./chapter18.html">第18章</reference>
 <description>
-下付き文字の&marker;。<!--
--->&following;数字やレルフ&string;は何が前に来ようとも下付きとなる。
+下付き&letter;の&marker;。<!--
+-->&following;&number;や&lerfu;&string;は何が&precede1;しても下付きとなる。
 </description>
 <example>
 <lojban>xy. xi re</lojban>
@@ -2194,7 +2225,7 @@ x<sub>2</sub>
 <section>
 <title>&selma_o; Y</title><reference path="./chapter19.html">第19章</reference>
 <description>
-ためらいの音。意味はないが話を続けたり会話を続けるために使われる。<!--
+ためらいの音。意味はないが自分の話を続けたり会話を続けるために使われる。<!--
 -->沈黙とは、沈黙がそれ以上言うことがないと&be_interpreted;点で異なる。
 </description>
 <example><lojban>doi .y. .y. djan</lojban>
@@ -2211,7 +2242,8 @@ O, uh, uh, John!
 <section>
 <title>&selma_o; ZAhO</title><reference path="./chapter10.html">第10章</reference>
 <description>
-出来事が事象線上のどこにあるか(始まり、終わり、持続、&eg;)を&specify1;&tense;&modifier1;。
+出来事が&contour;上のどこにあるか(始まり、終わり、持続、&eg;)を<!--
+-->&specify1;&tense;&modifier1;。
 </description>
 <example><lojban>mi pu'o damba</lojban>
 <japanese>ちょうど今から戦うところだ。</japanese></example>
@@ -2228,7 +2260,9 @@ I'm on the verge of fighting.
 <section>
 
 <title>&selma_o; ZEI</title><reference path="./chapter4.html">第4章</reference>
-<description>形態学的な接着語。両側にある語をルジヴォと同じ意味で&join;。</description>
+<description>
+&morphological;&glue_word;。両側にある語を&lujvo;と同じ意味で&join;。
+</description>
 <example><lojban>ta xy. zei kantu kacma</lojban>
 <japanese>あれはX線カメラだ。</japanese></example>
 
@@ -2242,7 +2276,7 @@ That is an X-ray camera.
 
 <section>
 <title>&selma_o; ZEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>時の&interval;(長、中、短)&indicate;間制。</description>
+<description>時の&interval;(長、中、短)&indicate;&tense;。</description>
 <example><lojban>mi puze'a citka</lojban>
 <japanese>私は短い時間食事をした。</japanese></example>
 
@@ -2255,7 +2289,9 @@ I ate for a little while.
 
 <section>
 <title>&selma_o; ZI</title><reference path="./chapter10.html">第10章</reference>
-<description>時の隔たり(遠い、中くらいの、近い過去または未来)という間制&indicate;。</description>
+<description>
+時の隔たり(遠い、中くらいの、近い過去または未来)&indicate;&tense;。
+</description>
 <example><lojban>mi puzi citka</lojban>
 <japanese>ついさっき食事をしたところだ。</japanese></example>
 
@@ -2270,7 +2306,7 @@ I ate a little while ago.
 <section>
 <title>&selma_o; ZIhE</title><reference path="./chapter8.html">第8章</reference>
 <description>
-同じ&sumti;に掛かる関係&phrase;や関係節を&join;。
+同じ&sumti;に掛かる&relative;&phrase;や&relative;&clause;を&join;。
 英訳の際には「and」と訳されることが多いが、&logical_connective2;とは見なされない。
 </description>
 <example><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
@@ -2290,7 +2326,7 @@ I own a white dog, which I love.
 
 <title>&selma_o; ZO</title><reference path="./chapter19.html">第19章</reference>
 <description>
-一語の&quotation;。&following;ロジバンの一語を&quote;。
+一&word;の&quotation;。&following;&lojban;の一&word;を&quote;。
 </description>
 <example><lojban>zo si cu lojbo valsi</lojban>
 <japanese>語「si」はロジバンの語である。</japanese></example>
@@ -2305,8 +2341,8 @@ The-word "si" is-a-Lojbanic word.
 
 <title>&selma_o; ZOI</title><reference path="./chapter19.html">第19章</reference>
 <description>
-ロジバン以外を取る&quotation;:
-区切り文字(ロジバンの語なら何でも良い)を前後に使ってあらゆる文字列を&quote;。
+&lojban;以外を取る&quotation;:
+区切り文字(&lojban;の&word;なら何でも良い)を前後に置いてあらゆる文字列を&quote;。
 区切り文字は文字列中に出てきてはならない、
 また文字列との間は&pause;によって&separate;必要がある。
 </description>
@@ -2329,7 +2365,7 @@ The-text "Socrates is mortal" is-an-English sentence.
 	<reference path="./chapter16.html">第16章</reference>
 	<reference path="./chapter19.html">第19章</reference>)
 <description>
-論理的冠頭部をそれが適用されるブリディや文の&group_n1;から&separate;。
+&logical;冠頭部をそれが適用される&bridi;や&sentence;の&group_n1;から&separate;。
 または、主題/評言文において、主題を主題に対する評言から&separate;。
 </description>
 <example><lojban>su'o da poi remna ro de poi finpe zo'u da prami de</lojban>
@@ -2381,6 +2417,7 @@ metalinguistic: メタ言語(学)の (英辞郎)</note>
 意味はだいたい「(スムティが表すもの)である」を意味する、といったところだろう</note>
 <note># 「作る」と「つくる」どちらかに統一すること</note>
 <note># dimensioned unit を「単位つきの量」と訳して良いか</note>
+<note># VA の訳注について調べること</note>
 </postnote>
 
 </chapter>
