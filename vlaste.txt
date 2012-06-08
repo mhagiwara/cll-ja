@@ -29,6 +29,7 @@ compound	合成
 connection	接続
 connective	接続詞
 contradictory negation	矛盾否定
+conversational protocol		# 求む提案: 第20章では「会語の手順」と訳したが
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
 declare	述べる
@@ -38,6 +39,7 @@ description sumti	描写スムティ
 description selbri	描写セルブリ
 description	描写
 descriptor	 描写型の冠詞
+dimensioned unit		# 求む提案: 第20章では「単位つきの量」としたが
 direct question	直接疑問
 discourse	談話	# universe of discourse と mathematical discourse 以外
 discursive	談話系
@@ -102,7 +104,7 @@ observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
 optional	任意の	# 提案
-particle	小辞	# 提案: もっと良い訳語はないでしょうか
+particle	小辞	# 提案: 他の案として「小詞」等
 place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
