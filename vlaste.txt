@@ -32,6 +32,7 @@ contradictory negation	矛盾否定
 conversational protocol		# 求む提案: 第20章では「会語の手順」と訳したが
 conversion	転換 # （SE 類の機能）
 convert	転換 # （SE 類の機能）
+declaration	宣言
 declare	述べる
 dependent place	依存する場所
 described	記述された # （LE 類の意味）
@@ -114,7 +115,7 @@ positive assertion  肯定文
 polar negation	対義否定
 polar opposite	正反対
 pragmatic	語用論上の
-preceding	先行する	# 提案
+precedence	優先順位 #演算子のpreceding	先行する	# 提案
 predicate	述語
 predication	断言
 prefix	接頭辞
