@@ -16,38 +16,39 @@
   <body>
     <div class="main">
     <img alt='[Cartoon]' height='404' src='./images/chapter17.gif' width='398' />
-<h2 id='chapter_17'>Chapter 17</h2>
+<h2 id='17__'>第17章: 「いろは」なんて簡単!？ ロジバンの字詞の仕組みと使い方</h2>
 
-<p>As Easy As A-B-C? The Lojban Letteral System And Its Uses</p>
+<h3 id='s1'>1. そもそも字詞って何なのさ?</h3>
 
-<h3 id='1_whats_a_letteral_anyway'>1. What&#8217;s a letteral, anyway?</h3>
+<p>「字詞」(letteral)は、ログラン・プロジェクトを設立したジェームズ・クック・ブラウンが「数詞」(numeral)にならって作った言葉で、英語で言えば f や z のようなアルファベットの一文字一文字を言う。日本語なら以下の例がわかりやすいだろう:</p>
 
-<p>James Cooke Brown, the founder of the Loglan Project, coined the word &#8220;letteral&#8221; (by analogy with &#8220;numeral&#8221;) to mean a letter of the alphabet, such as &#8220;f&#8221; or &#8220;z&#8221;. A typical example of its use might be</p>
+<pre id='e1d1'><code>1.1)  この文には「い」という字詞が3つ含まれている。</code></pre>
 
-<pre id='e1d1'><code>1.1)  There are fourteen occurrences of the letteral
-        &quot;e&quot; in this sentence.</code></pre>
+<p>(かぎ括弧の中の「い」も数えるのを忘れないように!) 単に「字」と言ってもよいのだが、これは複数の意味に取ることができる。かわりに「字詞」という専用の単語を使えば混乱を避けることができる。当然ながらロジバンには「字詞」の意味を持つ専用のギスムがあり、「レルフ」という。この章ではこれ以降、「レルフ」を使うことにする。</p>
 
-<p>(Don&#8217;t forget the one within quotation marks.) Using the word &#8220;letteral&#8221; avoids confusion with &#8220;letter&#8221;, the kind you write to someone. Not surprisingly, there is a Lojban gismu for &#8220;letteral&#8221;, namely &#8220;lerfu&#8221;, and this word will be used in the rest of this chapter.</p>
+<p>ロジバンは英語と同じで、ラテン文字を使うのでしょう？ わざわざ章を割くほどのことはないんじゃない? アルファベットなんてほとんどの人が知ってるでしょうに。とお思いだろうか。答えは2つある:</p>
 
-<p>Lojban uses the Latin alphabet, just as English does, right? Then why is there a need for a chapter like this? After all, everyone who can read it already knows the alphabet. The answer is twofold:</p>
+<p>まず、英語には英語のレルフを表す名前があるものの、書き下されることもほとんどなく、決まった綴り方もない。日常生活に登場するのは、英語のアルファベットを口に出して言うとき (エー、ビー、シー、ディー&#8230;) や、単語の綴り方を説明する時、略語を発音する時などである。それに対してロジバンではこれらの名前がきっちりと定められており、この本のどこかで説明しておかなければいけない、というのがこの章の存在意義の1つ目だ。</p>
 
-<p>First, in English there are a set of words that correspond to and represent the English lerfu. These words are rarely written down in English and have no standard spellings, but if you pronounce the English alphabet to yourself you will hear them: ay, bee, cee, dee &#8230; . They are used in spelling out words and in pronouncing most acronyms. The Lojban equivalents of these words are standardized and must be documented somehow.</p>
+<p>2つ目に、例えば英語では英語を構成するレルフについてだけ何らかの名前がある。(より正確には、ギリシアとヘブライレルフについても英語の名前があるが、全ての英語話者が知っているわけではなく、それぞれの言語で使われる名前とまったく同じでもない。例えばphiと書き下されるギリシア語の文字があるが、英語話者ならこれを「ファイ」と発音し、ギリシア語話者なら「フィー」に近い発音をする。) ロジバンは文化的に中立な言語をめざす以上、あらゆる言語の文字体系を扱える、あるいは少なくとも扱う能力のある総合的な仕組みを備えている必要がある。</p>
 
-<p>Second, English has names only for the lerfu used in writing English. (There are also English names for Greek and Hebrew lerfu: English-speakers usually refer to the Greek lerfu conventionally spelled &#8220;phi&#8221; as &#8220;fye&#8221;, whereas &#8220;fee&#8221; would more nearly represent the name used by Greek-speakers. Still, not all English-speakers know these English names.) Lojban, in order to be culturally neutral, needs a more comprehensive system that can handle, at least potentially, all of the world&#8217;s alphabets and other writing systems.</p>
+<p>ロジバンでは字詞を活用した表現が何種類かある。頭字語や略語、数式中の記号、代スムティ (日本語でいう代名詞にあたるもの) である。</p>
 
-<p>Letterals have several uses in Lojban: in forming acronyms and abbreviations, as mathematical symbols, and as pro-sumti &#8212; the equivalent of English pronouns.</p>
+<p>ロジバンの初期の頃の文書では、字詞そのものと、字詞それぞれを表すロジバンの単語の両方について「レルフ」という用語を区別なく使う傾向があった。この章では、その曖昧さを完全に断ち切り、後者の意味を表したい時はいつも「レルフ詞」を使うことにする。ロジバンではlerfu valsiまたはlervlaになる。</p>
 
-<p>In earlier writings about Lojban, there has been a tendency to use the word &#8220;lerfu&#8221; for both the letterals themselves and for the Lojban words which represent them. In this chapter, that tendency will be ruthlessly suppressed, and the term &#8220;lerfu word&#8221; will invariably be used for the latter. The Lojban equivalent would be &#8220;lerfu valsi&#8221; or &#8220;lervla&#8221;.</p>
+<h3 id='s2'>2. AからZまでロジバンで、それからオマケを1つ</h3>
 
-<h3 id='2_a_to_z_in_lojban_plus_one'>2. A to Z in Lojban, plus one</h3>
+<p>どんな言語であれ、レルフ詞の体系としての必須条件は、その言語を書き綴るのに使われるレルフ1つ1つを表せることだ。英語のレルフ詞は雑然としたものである。「ダブリュー」と「w」が対応関係にあるのはまったく歴史的な経緯によるものであり、「エイチ」が「h」を表す理由はとくに見当たらない。「z」に至っては、2つのレルフ詞があり、英語の方言によって「ズィー」か「ゼッド」になる。</p>
 
-<p>The first requirement of a system of lerfu words for any language is that they must represent the lerfu used to write the language. The lerfu words for English are a motley crew: the relationship between &#8220;doubleyou&#8221; and &#8220;w&#8221; is strictly historical in nature; &#8220;aitch&#8221; represents &#8220;h&#8221; but has no clear relationship to it at all; and &#8220;z&#8221; has two distinct lerfu words, &#8220;zee&#8221; and &#8220;zed&#8221;, depending on the dialect of English in question.</p>
+<p>訳注: 本書はもともと英語で書かれており、また英語とロジバンはアルファベットがほぼ共通しているため、今後も英語と対比しての説明が何箇所か出てくる。</p>
 
-<p>All of Lojban&#8217;s basic lerfu words are made by one of three rules:</p>
+<p>ロジバンの基本的なレルフ詞は、次の3つの規則のどれかから作られている:</p>
 
-<pre><code>to get a lerfu word for a vowel, add &quot;bu&quot;; to get a lerfu word for a consonant, add &quot;y&quot;; the lerfu word for &quot;&#39;&quot; is &quot;.y&#39;y&quot;.</code></pre>
+<pre><code>母音のレルフ詞: 後ろにbuを付ける
+子音のレルフ詞: 後ろにyを付ける
+「&#39;」のレルフ詞は「.y&#39;y」</code></pre>
 
-<p>Therefore, the following table represents the basic Lojban alphabet:</p>
+<p>つまりロジバンのアルファベットを一覧にすると以下のようになる:</p>
 
 <pre><code>   &#39;   a   b   c   d   e
     .y&#39;y.   .abu    by. cy. dy. .ebu
@@ -61,9 +62,9 @@
     t   u   v   x   y   z
     ty. .ubu    vy. xy. .ybu    zy.</code></pre>
 
-<p>There are several things to note about this table. The consonant lerfu words are a single syllable, whereas the vowel and &#8221;&#8217;&#8221; lerfu words are two syllables and must be preceded by pause (since they all begin with a vowel). Another fact, not evident from the table but important nonetheless, is that &#8220;by&#8221; and its like are single cmavo of selma&#8217;o BY, as is &#8220;.y&#8217;y&#8221;. The vowel lerfu words, on the other hand, are compound cmavo, made from a single vowel cmavo plus the cmavo &#8220;bu&#8221; (which belongs to its own selma&#8217;o, BU). All of the vowel cmavo have other meanings in Lojban (logical connectives, sentence separator, hesitation noise), but those meanings are irrelevant when &#8220;bu&#8221; follows.</p>
+<p>ここで注意してほしい点をいくつか挙げよう。子音のレルフ詞は単音節だが、母音と「&#8217;」のレルフ詞は2音節になっており、前に休止をおかなければいけない (母音で始まる語であるため)。もう1つ、この表から明らかではないかもしれないが重要なポイントがある: 「by」やそれに類するレルフ詞（これには「.y&#8217;y」も入る）はセルマホBYに属するシマヴォであること、さらに母音のレルフ詞は複合シマヴォであり、1つの母音からなるシマヴォと「bu」シマヴォ (これは別のセルマホBUに属する)を合わせたものであるということである。母音からなるシマヴォはそれぞれ論理接続詞や文の区切り、ためらいを示す音などの役割があるが、「bu」が後に続く時にはそうした役割を果たさなくなる。</p>
 
-<p>Here are some illustrations of common Lojban words spelled out using the alphabet above:</p>
+<p>ロジバンの簡単な単語を幾つか、上のアルファベットを使ってつづってみよう:</p>
 
 <pre id='e2d1'><code>2.1)  ty. .abu ny. ry. .ubu
     &quot;t&quot; &quot;a&quot; &quot;n&quot; &quot;r&quot; &quot;u&quot;</code></pre>
@@ -71,470 +72,441 @@
 <pre id='e2d2'><code>2.2)   ky. .obu .y&#39;y. .abu
     &quot;k&quot; &quot;o&quot; &quot;&#39;&quot; &quot;a&quot;</code></pre>
 
-<p>Spelling out words is less useful in Lojban than in English, for two reasons: Lojban spelling is phonemic, so there can be no real dispute about how a word is spelled; and the Lojban lerfu words sound more alike than the English ones do, since they are made up systematically. The English words &#8220;fail&#8221; and &#8220;vale&#8221; sound similar, but just hearing the first lerfu word of either, namely &#8220;eff&#8221; or &#8220;vee&#8221;, is enough to discriminate easily between them &#8212; and even if the first lerfu word were somehow confused, neither &#8220;vail&#8221; nor &#8220;fale&#8221; is a word of ordinary English, so the rest of the spelling determines which word is meant. Still, the capability of spelling out words does exist in Lojban.</p>
+<p>ロジバンの単語のつづり方を書き出したり読み上げたりすることが役に立つ場面は、英語の場合よりは少ない。理由は2つある。まず、ロジバンのつづり方は、発音の仕方と一対一対応しているから、単語のつづり方が問題になることはまず無い。それからロジバンのレルフ詞は規則的に作られているため、発音が互いに似ている。英語におけるように、つづりを伝えることで意図した単語がより伝わりやすくなることが少ないのである。例えば英語の単語、failとvaleの音は似ているが、1つめのレルフ詞、つまりそれぞれ「エフ」と「ヴィ」を聞けば簡単に区別することができる。もしそこで聞き違えても、vailもfaleも一般的な英語の単語ではないから、残りのスペルを聞くことでどの単語のことかを判断することができる。それでも、単語のつづりを1つ1つ表現する手段がロジバンにはあるのだということをここでは述べておく。</p>
 
-<p>Note that the lerfu words ending in &#8220;y&#8221; were written (in <a href='#e2d1'>Example 2.1</a> and <a href='#e2d2'>Example 2.2</a>) with pauses after them. It is not strictly necessary to pause after such lerfu words, but failure to do so can in some cases lead to ambiguities:</p>
+<p>もう1つ、「y」で終わるレルフ詞の後に休止がおかれていたことに注意してほしい (<a href='#e2d1'>例2.1</a>と<a href='#e2d2'>例2.2</a>)。休止がいつも必要というわけではないが、休止をおかないと曖昧な表現になることがある:</p>
 
 <pre id='e2d3'><code>2.3)  mi cy. claxu
-    I lerfu-&quot;c&quot; without
-    I am without (whatever is referred to by)
-        the letter &quot;c&quot;.</code></pre>
+    私 レルフ「c」 -が無い
+    私には文字「c」(が指し示しているものが何であれ)が無い。</code></pre>
 
-<p>without a pause after &#8220;cy&#8221; would be interpreted as:</p>
+<p>もしこの文に「cy」の後の休止が無かったら:</p>
 
 <pre id='e2d4'><code>2.4)  micyclaxu
-    (Observative:) doctor-without
-    Something unspecified is without a doctor.</code></pre>
+    観察文: 医者無し
+    明示していない何かには医者がない。</code></pre>
 
-<p>A safe guideline is to pause after any cmavo ending in &#8220;y&#8221; unless the next word is also a cmavo ending in &#8220;y&#8221;. The safest and easiest guideline is to pause after all of them.</p>
+<p>こうした曖昧さを避けるためには、「y」で終わるシマヴォの後には、次に来る単語も「y」で終わるシマヴォでない限り、必ず休止を置くことにすれば間違いない。次の語に関わらず休止を置くようにすれば、より簡単である。</p>
 
-<h3 id='3_upper_and_lower_cases'>3. Upper and lower cases</h3>
+<h3 id='3_'>3. 大文字と小文字</h3>
 
-<p>Lojban doesn&#8217;t use lower-case (small) letters and upper-case (capital) letters in the same way that English does; sentences do not begin with an upper-case letter, nor do names. However, upper-case letters are used in Lojban to mark irregular stress within names, thus:</p>
+<p>ロジバンでは英語とは違った大文字と小文字の使い分けをする。ロジバンでは文も名前も大文字ではなく小文字で始める。大文字がロジバンで登場するのは、不規則なアクセントを持つ名前の中である。例えば:</p>
 
 <pre id='e3d1'><code>3.1)  .iVAN.
-    the name &quot;Ivan&quot; in Russian/Slavic pronunciation.</code></pre>
+    「イワン」のロシア語/スラヴ語読み。</code></pre>
 
-<p>It would require far too many cmavo to assign one for each upper-case and one for each lower-case lerfu, so instead we have two special cmavo &#8220;ga&#8217;e&#8221; and &#8220;to&#8217;a&#8221; representing upper case and lower case respectively. They belong to the same selma&#8217;o as the basic lerfu words, namely BY, and they may be freely interspersed with them.</p>
+<p>大文字と小文字のレルフ1つ1つにシマヴォを割り当てていては数が多くなりすぎる。そこで、特別なシマヴォ2つが用意されている。「ga&#8217;e」は大文字を、「to&#8217;a」は小文字を表すシマヴォで、他の基本的レルフ詞と同じセルマホBYに属し、好きなように混ぜて使うことができる。</p>
 
-<p>The effect of &#8220;ga&#8217;e&#8221; is to change the interpretation of all lerfu words following it to be the upper-case version of the lerfu. An occurrence of &#8220;to&#8217;a&#8221; causes the interpretation to revert to lower case. Thus, &#8220;ga&#8217;e .abu&#8221; means not &#8220;a&#8221; but &#8220;A&#8221;, and Ivan&#8217;s name may be spelled out thus:</p>
+<p>「ga&#8217;e」が登場すると、その後のレルフ詞は全て大文字のレルフを表すようになる。「to&#8217;a」が登場すると、小文字に戻る。つまり、「ga&#8217;e .abu」は「a」ではなく「A」を意味する。イワンの名前をつづってみると:</p>
 
 <pre id='e3d2'><code>3.2)  .ibu ga&#39;e vy. .abu ny. to&#39;a
-    i [upper] V A N [lower]</code></pre>
+    i [大文字] V A N [小文字]</code></pre>
 
-<p>The cmavo and compound cmavo of this type will be called &#8220;shift words&#8221;.</p>
+<p>こうした働きをするシマヴォや複合シマヴォのことは今後変意詞と呼ぼう。</p>
 
-<p>How long does a shift word last? Theoretically, until the next shift word that contradicts it or until the end of text. In practice, it is common to presume that a shift word is only in effect until the next word other than a lerfu word is found.</p>
+<p>変意詞の効果はどこまで続くのか？理屈のうえでは、効果を打ち消すような変意詞が登場するか、それともその文章の終わりまでということになる。実際には、レルフ詞以外の単語が登場するまでの間を影響範囲と見なすことが多い。</p>
 
-<p>It is often convenient to shift just a single letter to upper case. The cmavo &#8220;tau&#8221;, of selma&#8217;o LAU, is useful for the purpose. A LAU cmavo must always be immediately followed by a BY cmavo or its equivalent: the combination is grammatically equivalent to a single BY. (See <a href='#s14'>Section 14</a> for details.)</p>
+<p>1つの文字だけを変意詞で囲いたいこともよくある。そういう時はセルマホLAUに属するシマヴォ「tau」が便利だ。LAUシマヴォの後には必ずBYシマヴォもしくはそれに相当する語が来る。このペアは文法上は1つのBYと同等のものとして扱われる。(詳しくは<a href='chapter14.html'>第14章</a>を参照。)</p>
 
-<p>A likely use of &#8220;tau&#8221; is in the internationally standardized symbols for the chemical elements. Each element is represented using either a single upper- case lerfu or one upper-case lerfu followed by one lower-case lerfu:</p>
+<p>「tau」を使う場面として考えられるのは、化学の元素記号である。現在国際的に用いられている表記では、各元素は1つの大文字のレルフか、大文字のレルフと小文字のレルフで表される:</p>
 
 <pre id='e3d3'><code>3.3)  tau sy.
-    [single shift] S
-    S (chemical symbol for sulfur)</code></pre>
+    [一文字変意] S
+    S (硫黄の元素記号)</code></pre>
 
 <pre id='e3d4'><code>3.4)  tau sy. .ibu
-    [single shift] S i
-    Si (chemical symbol for silicon)</code></pre>
+    [一文字変意] S i
+    Si (ケイ素の元素記号)</code></pre>
 
-<p>If a shift to upper-case is in effect when &#8220;tau&#8221; appears, it shifts the next lerfu word only to lower case, reversing its usual effect.</p>
+<p>大文字変意中に「tau」が出てきた時は、通常とは逆で、続くレルフ詞が小文字になる。</p>
 
-<h3 id='4_the_universal_bu'>4. The universal &#8220;bu&#8221;</h3>
+<h3 id='4_bu'>4. 万能の「bu」</h3>
 
-<p>So far we have seen &#8220;bu&#8221; only as a suffix to vowel cmavo to produce vowel lerfu words. Originally, this was the only use of &#8220;bu&#8221;. In developing the lerfu word system, however, it proved to be useful to allow &#8220;bu&#8221; to be attached to any word whatsoever, in order to allow arbitrary extensions of the basic lerfu word set.</p>
+<p>これまでのところ、「bu」が登場したのは母音のレルフ詞を作るのに後に付ける時だけだった。元々想定されていた「bu」の用途はこれだけである。しかし、レルフ詞の仕組みを構築するにあたって、レルフ詞の基本セットを拡張するための汎用的な方法として、「bu」をどんな単語にもくっつけてよいことにすると大変便利だということが分かってきた。</p>
 
-<p>Formally, &#8220;bu&#8221; may be attached to any single Lojban word. Compound cmavo do not count as words for this purpose. The special cmavo &#8220;ba&#8217;e&#8221;, &#8220;za&#8217;e&#8221;, &#8220;zei&#8221;, &#8220;zo&#8221;, &#8220;zoi&#8221;, &#8220;la&#8217;o&#8221;, &#8220;lo&#8217;u&#8221;, &#8220;si&#8221;, &#8220;sa&#8221;, &#8220;su&#8221;, and &#8220;fa&#8217;o&#8221; may not have &#8220;bu&#8221; attached, because they are interpreted before &#8220;bu&#8221; detection is done; in particular,</p>
+<p>正式に決まった規則は、どんなロジバンの単語にも「bu」をくっつけてよいが、複合シマヴォと一部の特殊なシマヴォは除く、というものである。特殊なシマヴォは以下の通り: ba&#8217;e、za&#8217;e、zei、zo、zoi、la&#8217;o、lo&#8217;u、si、sa、su、fa&#8217;o。これらは、元々の性質として「bu」より早く解釈されるので、「bu」をつけてレルフ詞とすることができない。特に、</p>
 
 <pre id='e4d1'><code>4.1)  zo bu
-    the word &quot;bu&quot;</code></pre>
+    「bu」という単語</code></pre>
 
-<p>is needed when discussing &#8220;bu&#8221; in Lojban. It is also illegal to attach &#8220;bu&#8221; to itself, but more than one &#8220;bu&#8221; may be attached to a word; thus &#8220;.abubu&#8221; is legal, if ugly. (Its meaning is not defined, but it is presumably different from &#8220;.abu&#8221;.) It does not matter if the word is a cmavo, a cmene, or a brivla. All such words suffixed by &#8220;bu&#8221; are treated grammatically as if they were cmavo belonging to selma&#8217;o BY. However, if the word is a cmene it is always necessary to precede and follow it by a pause, because otherwise the cmene may absorb preceding or following words.</p>
+<p>という表現は「bu」についてロジバンでとりあげる時に必要不可欠なものとなる。また、「bu」を「bu」自体に付けることはできないが、「bu」を2つ以上単語に付けることは許されている。つまり「.abubu」は見た目は悪いが文法上は正しい。(これがどういう意味になるかはまだ決まっていないが、「.abu」とは違う意味合いだろうと思われる。) これらの条件を満たした上で、「bu」を付けた単語は、シマヴォであれシメネであれブリヴラであれ、文法上はセルマホBYに属するシマヴォとして扱われる。注意点として、シメネの場合は前後に休止を置く必要がある。そうしないと、前後の単語との区切りが無くなってしまうからである。</p>
 
-<p>The ability to attach &#8220;bu&#8221; to words has been used primarily to make names for various logograms and other unusual characters. For example, the Lojban name for the &#8220;happy face&#8221; is &#8220;.uibu&#8221;, based on the attitudinal &#8220;.ui&#8221; that means &#8220;happiness&#8221;. Likewise, the &#8220;smiley face&#8221;, written &#8220;:-)&#8221; and used on computer networks to indicate humor, is called &#8220;zo&#8217;obu&#8221; The existence of these names does not mean that you should insert &#8220;.uibu&#8221; into running Lojban text to indicate that you are happy, or &#8220;zo&#8217;obu&#8221; when something is funny; instead, use the appropriate attitudinal directly.</p>
+<p>「bu」を色々な単語に付けられるようにしたことで、さまざまな記号や特殊な文字を名付けやすくなった。例えば「ニコニコマーク」はロジバンでは「.uibu」になる。「うれしさ」を意味する心態詞「.ui」を元にしたものである。インターネットやメールなどで使われる顔文字で「笑い」を表すものがあるが (英語では :-)、日本語では (^_^) など)、こちらは「zo&#8217;obu」である。こうした名前があるからといって、うれしい時や面白い時に「.uibu」などをロジバン文のなかに差し挟まないように注意したい。そういう時は心態詞をそのまま、正しく使おう。</p>
 
-<p>Likewise, &#8220;joibu&#8221; represents the ampersand character, &#8221;&amp;&#8221;, based on the cmavo &#8220;joi&#8221; meaning &#8220;mixed and&#8221;. Many more such lerfu words will probably be invented in future.</p>
+<p>同じように、「joibu」はアンパサンド「&amp;」の名前である。元になっているシマヴォ「joi」の意味は「群化の「と」」だ。今後こうしたレルフ詞がもっと沢山作られていくだろう。</p>
 
-<p>The &#8221;.&#8221; and &#8221;,&#8221; characters used in Lojbanic writing to represent pause and syllable break respectively have been assigned the lerfu words &#8220;denpa bu&#8221; (literally, &#8220;pause bu&#8221;) and &#8220;slaka bu&#8221; (literally, &#8220;syllable bu&#8221;). The written space is mandatory here, because &#8220;denpa&#8221; and &#8220;slaka&#8221; are normal gismu with normal stress: &#8220;denpabu&#8221; would be a fu&#8217;ivla (word borrowed from another language into Lojban) stressed &#8220;denPAbu&#8221;. No pause is required between &#8220;denpa&#8221; (or &#8220;slaka&#8221;) and &#8220;bu&#8221;, though.</p>
+<p>ロジバンの文章で休止と音節区切りを表すのに使われる「.」と「,」は、それぞれ「denpa bu」(文字通り「休止 bu」)と「slaka bu」(文字通り「音節 bu」)というレルフ詞が割り当てられている。buの前の空白は必要である。「denpa」も「slaka」も規則通りのアクセントを持つ普通のギスムであるため、「denpabu」と書くと「denPAbu」というアクセントを持つフヒヴラ (別の言語からロジバンに借用してきた語) になってしまう。ただし、「denpa」「slaka」と「bu」の間に休止を置く必要はない。</p>
 
-<h3 id='5_alien_alphabets'>5. Alien alphabets</h3>
+<h3 id='5_'>5. 外字</h3>
 
-<p>As stated in <a href='#s1'>Section 1</a>, Lojban&#8217;s goal of cultural neutrality demands a standard set of lerfu words for the lerfu of as many other writing systems as possible. When we meet these lerfu in written text (particularly, though not exclusively, mathematical text), we need a standard Lojbanic way to pronounce them.</p>
+<p><a href='#s1'>第1節</a>でも触れたように、ロジバンの目標の1つ、文化的中立性を実現するためには、できるだけ多くの文字体系のレルフを表せるレルフ詞の仕組みを備えている必要がある。ロジバンに無いレルフを目にした時に (限定するわけではないが、数式は好例である)、迷いなくロジバンとして発音できなくてはいけない。</p>
 
-<p>There are certainly hundreds of alphabets and other writing systems in use around the world, and it is probably an unachievable goal to create a single system which can express all of them, but if perfection is not demanded, a usable system can be created from the raw material which Lojban provides.</p>
+<p>世界で使われている文字体系はまず間違いなく数百を下らないだろうし、1つの仕組みであらゆる文字体系を表現できるように、というのは無理難題かもしれない。だが完璧さを犠牲にすれば、ロジバンに今ある素材だけで実用に耐えうる仕組みを作ることは可能である。</p>
 
-<p>One possibility would be to use the lerfu word associated with the language itself, Lojbanized and with &#8220;bu&#8221; added. Indeed, an isolated Greek &#8220;alpha&#8221; in running Lojban text is probably most easily handled by calling it &#8220;.alfas. bu&#8221;. Here the Greek lerfu word has been made into a Lojbanized name by adding &#8220;s&#8221; and then into a Lojban lerfu word by adding &#8220;bu&#8221;. Note that the pause after &#8220;.alfas.&#8221; is still needed.</p>
+<p>1つの可能性としては、元の言語で使われているレルフ詞を活用する方法がある。つづりをロジバン化し、「bu」を付けるのである。実際の話、ロジバンの文章中にギリシア文字の「アルファ」が単独で出てくるようなケースでは、「.alfas. bu」とするのが一番簡単だろう。ギリシア語のレルフ詞に「s」を付けることでロジバンとして通る名前に変換し、「bu」を付けてロジバンのレルフ詞としたのである。「.alfas.」の後の休止は省略できないことに注意しよう。</p>
 
-<p>Likewise, the easiest way to handle the Latin letters &#8220;h&#8221;, &#8220;q&#8221;, and &#8220;w&#8221; that are not used in Lojban is by a consonant lerfu word with &#8220;bu&#8221; attached. The following assignments have been made:</p>
+<p>同様に、ロジバンで使われることのないラテン文字「h」「q」「w」は、それぞれが表す子音のレルフ詞に「bu」を付けるのが簡単である。具体的には次の対応付けに決められている:</p>
 
 <pre><code>       .y&#39;y.bu     h
         ky.bu       q
         vy.bu       w</code></pre>
 
-<p>As an example, the English word &#8220;quack&#8221; would be spelled in Lojban thus:</p>
+<p>例えば、英語の「quack」という語をロジバンでつづってみると:</p>
 
 <pre id='e5d1'><code>5.1)  ky.bu .ubu .abu cy. ky.
     &quot;q&quot; &quot;u&quot; &quot;a&quot; &quot;c&quot; &quot;k&quot;</code></pre>
 
-<p>Note that the fact that the letter &#8220;c&#8221; in this word has nothing to do with the sound of the Lojban letter &#8220;c&#8221; is irrelevant; we are spelling an English word and English rules control the choice of letters, but we are speaking Lojban and Lojban rules control the pronunciations of those letters.</p>
+<p>この語で使われている文字「c」とロジバンの文字「c」の発音はまったく無関係であることに注意してほしい。ここでつづっている語は英語の単語であり、どの文字を使うかは英語が決めることだ。だが、その一文字一文字をつづる時はロジバンとしてつづるのであり、どう発音するかはロジバンが決めることなのだ。</p>
 
-<p>A few more possibilities for Latin-alphabet letters used in languages other than English:</p>
+<p>英語以外の言語で使われるラテン文字についても幾つか案が上がっている:</p>
 
-<pre><code>       ty.bu       þ (thorn)
-        dy.bu       &amp;edh; (edh)
+<pre><code>       ty.bu       þ (ソーン: アイスランド語で使われる。古英語でも使われた。)
+        dy.bu       &amp;edh; (エズ: アイスランド語、フェロー語で使われる。古英語でも使われた。)</code></pre>
 
-However, this system is not ideal for all purposes.  For one thing, it is
-verbose.  The native lerfu words are often quite long, and with &quot;bu&quot; added
-they become even longer: the worst-case Greek lerfu word would be
-&quot;.Omikron. bu&quot;, with four syllables and two mandatory pauses.  In addition,
-alphabets that are used by many languages have separate sets of lerfu words
-for each language, and which set is Lojban to choose?</code></pre>
+<p>しかしながら、この仕組みは万能ではない。1つには、場合によっては冗長になってしまう。対象の言語での正式なレルフ詞はとても長いことが多く、「bu」を付けることでさらに長くなる。ギリシア語のレルフ詞では、最長で「.Omikron. bu」、4音節プラス2箇所に省略不可の休止がある。それに、複数の言語で共通して使われる文字体系には、それぞれの言語で違うレルフ詞がある。ロジバンとして、他を差し置いてどれか1つを選ぶことなんてできはしない。</p>
 
-<p>The alternative plan, therefore, is to use a shift word similar to those introduced in <a href='#s3'>Section 3</a>. After the appearance of such a shift word, the regular lerfu words are re-interpreted to represent the lerfu of the alphabet now in use. After a shift to the Greek alphabet, for example, the lerfu word &#8220;ty&#8221; would represent not Latin &#8220;t&#8221; but Greek &#8220;tau&#8221;. Why &#8220;tau&#8221;? Because it is, in some sense, the closest counterpart of &#8220;t&#8221; within the Greek lerfu system. In principle it would be all right to map &#8220;ty.&#8221; to &#8220;phi&#8221; or even &#8220;omega&#8221;, but such an arbitrary relationship would be extremely hard to remember.</p>
+<p>そこで代替案となるのが、<a href='#s3'>第3節</a>で登場したような変意詞を使うというものである。その変意詞の後は、ロジバンアルファベットのレルフ詞が別の意味を取るようになる。つまり、対象となる言語のアルファベットのレルフを表すようになるのだ。例えばギリシア語のアルファベットへの変意詞の後は、レルフ詞「ty」はラテン文字の「t」ではなくギリシア文字の「タウ」を表すようになる。なぜ「タウ」でなくてはいけないのか？ギリシア語のレルフ体系の中でも、一番「t」に近いのが「タウ」だからだ。理論的には「ty.」を「ファイ」に、あるいは「オメガ」にだって対応付けても問題ない。だが、そんな恣意的な対応関係は覚えるのがきわめて難しいだろう。</p>
 
-<p>Where no obvious closest counterpart exists, some more or less arbitrary choice must be made. Some alien lerfu may simply not have any shifted equivalent, forcing the speaker to fall back on a &#8220;bu&#8221; form. Since a &#8220;bu&#8221; form may mean different things in different alphabets, it is safest to employ a shift word even when &#8220;bu&#8221; forms are in use.</p>
+<p>あきらかな対応関係にあるレルフ詞が無い場合は、何らかの恣意的選択をせざるを得ない。変意詞の仕組みでは対応しきれないレルフの場合は、「bu」を付ける方式に頼ることになる。「bu」を付ける形でも、どの言語のレルフを指しているかをはっきりさせるために、変意詞を併用するほうがよい。</p>
 
-<p>Shifts for several alphabets have been assigned cmavo of selma&#8217;o BY:</p>
+<p>セルマホBYのシマヴォが変意詞になっている。以下は現在割り当てられている変意詞と文字体系の一覧である:</p>
 
-<pre><code>    lo&#39;a    Latin/Roman/Lojban alphabet
-    ge&#39;o    Greek alphabet
-    je&#39;o    Hebrew alphabet
-    jo&#39;o    Arabic alphabet
-    ru&#39;o    Cyrillic alphabet</code></pre>
+<pre><code>    lo&#39;a    ラテン文字/ローマ字/ロジバンアルファベット
+    ge&#39;o    ギリシア文字
+    je&#39;o    ヘブライ文字
+    jo&#39;o    アラビア文字
+    ru&#39;o    キリル文字</code></pre>
 
-<p>The cmavo &#8220;zai&#8221; (of selma&#8217;o LAU) is used to create shift words to still other alphabets. The BY word which must follow any LAU cmavo would typically be a name representing the alphabet with &#8220;bu&#8221; suffixed:</p>
+<p>セルマホLAUに属するシマヴォ「zai」を使って、他の文字体系を対象にした変意詞を作ることができる。LAUシマヴォの後には必ずBYに属する語をおかなければいけないが、ここでは普通、対象とする文字体系の名前に「bu」を付けたものである:</p>
 
 <pre id='e5d2'><code>5.2)  zai .devanagar. bu
-    Devanagari (Hindi) alphabet</code></pre>
+    デーヴァナーガリー (ヒンディー) 文字</code></pre>
 
 <pre id='e5d3'><code>5.3)  zai .katakan. bu
-    Japanese katakana syllabary</code></pre>
+    日本語のカタカナの50音図</code></pre>
 
 <pre id='e5d4'><code>5.4)  zai .xiragan. bu
-    Japanese hiragana syllabary</code></pre>
+    日本語のひらがなの50音図</code></pre>
 
-<p>Unlike the cmavo above, these shift words have not been standardized and probably will not be until someone actually has a need for them. (Note the &#8221;.&#8221; characters marking leading and following pauses.)</p>
+<p>上で出てきたシマヴォとは違って、これらの変意詞は正式なものではなく、誰かが声を上げるまでは非公式なままと考えられる。(前後に休止を示す「.」があることに注意。)</p>
 
-<p>In addition, there may be multiple visible representations within a single alphabet for a given letter: roman vs. italics, handwriting vs. print, Bodoni vs. Helvetica. These traditional &#8220;font and face&#8221; distinctions are also represented by shift words, indicated with the cmavo &#8220;ce&#8217;a&#8221; (of selma&#8217;o LAU) and a following BY word:</p>
+<p>さらに、1つの文字体系内であっても、同じ文字を違う表現で書き表す場合がある。ローマン体と斜体、手書き文字と印字、明朝体と行書体など。これらの一般的な「活字・書体」の区別も変意詞でおこなわれる。セルマホLAUに属するシマヴォ「ce&#8217;a」とそれに続くBYによって:</p>
 
 <pre id='e5d5'><code>5.5)  ce&#39;a .xelveticas. bu
-    Helvetica font</code></pre>
+    ヘルベチカ体</code></pre>
 
 <pre id='e5d6'><code>5.6)  ce&#39;a .xancisk. bu
-    handwriting</code></pre>
+    手書き</code></pre>
 
 <pre id='e5d7'><code>5.7)  ce&#39;a .pavrel. bu
-    12-point font size</code></pre>
+    フォントサイズ12ポイント</code></pre>
 
-<p>The cmavo &#8220;na&#8217;a&#8221; (of selma&#8217;o BY) is a universal shift-word cancel: it returns the interpretation of lerfu words to the default of lower-case Lojban with no specific font. It is more general than &#8220;lo&#8217;a&#8221;, which changes the alphabet only, potentially leaving font and case shifts in place.</p>
+<p>シマヴォ「na&#8217;a」(セルマホはBY)は、どんな変意詞の効果も打ち消すことができる。つまり、「na&#8217;a」の後はすべてのレルフ詞がロジバンの小文字、かつ書体は不特定、という解釈に戻る。「lo&#8217;a」はもっと限定的で、文字体系だけが対象なので、書体や大文字小文字の変意詞の効果は「lo&#8217;a」の後も持続する。</p>
 
-<p>Several sections at the end of this chapter contain tables of proposed lerfu word assignments for various languages.</p>
+<p>本章の終わりに、いくつかの言語について現在提案されているレルフ詞がそれぞれ表にまとめられている。</p>
 
-<h3 id='6_accent_marks_and_compound_lerfu_words'>6. Accent marks and compound lerfu words</h3>
+<h3 id='6_'>6. アクセント記号と複合レルフ詞</h3>
 
-<p>Many languages that make use of the Latin alphabet add special marks to some of the lerfu they use. French, for example, uses three accent marks above vowels, called (in English) &#8220;acute&#8221;, &#8220;grave&#8221;, and &#8220;circumflex&#8221;. Likewise, German uses a mark called &#8220;umlaut&#8221;; a mark which looks the same is also used in French, but with a different name and meaning.</p>
+<p>ラテン文字を使う言語では、一部のレルフに特殊な記号を付けることがよくある。例えばフランス語では、鋭アクセント・低アクセント・曲折アクセントの3種類のアクセント記号を母音文字の上に付けて使う。同様に、ドイツ語ではウムラウトという記号を使う。フランス語でもこれと同じ形をした記号を使うが、名前も意味も違っている。</p>
 
-<p>These marks may be considered lerfu, and each has a corresponding lerfu word in Lojban. So far, no problem. But the marks appear over lerfu, whereas the words must be spoken (or written) either before or after the lerfu word representing the basic lerfu. Typewriters (for mechanical reasons) and the computer programs that emulate them usually require their users to type the accent mark before the basic lerfu, whereas in speech the accent mark is often pronounced afterwards (for example, in German &#8220;a umlaut&#8221; is preferred to &#8220;umlaut a&#8221;).</p>
+<p>こうした記号もレルフの一種として、それぞれロジバンのレルフ詞が与えられている。ここまでは簡単だ。問題は、アクセント記号を書くときはレルフの上に付けて書かれるのに対し、読み上げるとき (や書き下すとき) は、付ける対象のレルフを表すレルフ詞の前後どちらかに置かなければいけないという点である。(機械上の問題から) タイプライターやそれを模したコンピュータ・プログラムでは、対象のレルフの前にあらかじめアクセント記号を打ち込むようになっている。逆に、読み上げる時はアクセント記号は後に来ることが多い (例えばドイツ語では「ウムラウト a」より「a ウムラウト」の方が一般的である)。</p>
 
-<p>Lojban cannot settle this question by fiat. Either it must be left up to default interpretation depending on the language in question, or the lerfu- word compounding cmavo &#8220;tei&#8221; (of selma&#8217;o TEI) and &#8220;foi&#8221; (of selma&#8217;o FOI) must be used. These cmavo are always used in pairs; any number of lerfu words may appear between them, and the whole is treated as a single compound lerfu word. The French word &#8220;ete&#8221;, with acute accent marks on both &#8220;e&#8221; lerfu, could be spelled as:</p>
+<p>前に置くか後に置くか、ロジバンの独断でどちらかに決めることはできない。対象の言語での一般的な解釈にまかせるか、もしくは複合レルフ詞を作るシマヴォ「tei」(セルマホTEI)と「foi」(セルマホTEI)を使うことになる。この2つのシマヴォはいつも組で使い、間に好きなだけレルフ詞をはさんでよい。すると全体が1つの複合レルフ詞として扱われるようになる。例えばフランス語の単語、「ete」で両方の「e」レルフに鋭アクセント記号が付いたものは、以下のようにつづることができる:</p>
 
 <pre id='e6d1'><code>6.1)  tei .ebu .akut. bu foi ty. tei .akut. bu .ebu foi
-    ( &quot;e&quot; acute ) &quot;t&quot; ( acute &quot;e&quot; )</code></pre>
+    ( &quot;e&quot; 鋭アクセント記号付き ) &quot;t&quot; ( 鋭アクセント記号付き &quot;e&quot; )</code></pre>
 
-<p>and it does not matter whether &#8220;akut. bu&#8221; appears before or after &#8220;.ebu&#8221;; the &#8220;tei &#8230; foi&#8221; grouping guarantees that the acute accent is associated with the correct lerfu. Of course, the level of precision represented by <a href='#e6d1'>Example 6.1</a> would rarely be required: it might be needed by a Lojban- speaker when spelling out a French word for exact transcription by another Lojban-speaker who did not know French.</p>
+<p>この方法では、「akut. bu」が「.ebu」の前に来ようが後に来ようが、意味は同じになる。「tei &#8230; foi」で囲うことで、鋭アクセント記号がどのレルフに付けられているのかが正確に決まるからである。もちろん、<a href='#e6d1'>例6.1</a>のような精確さでものを言わなければいけない場合はめったにない。あるとすれば、フランス語を知らないロジバン話者に、フランス語の単語のつづりを間違いなくロジバンで伝えたい時などだろう。</p>
 
-<p>This system breaks down in languages which use more than one accent mark on a single lerfu; some other convention must be used for showing which accent marks are written where in that case. The obvious convention is to represent the mark nearest the basic lerfu by the lerfu word closest to the word representing the basic lerfu. Any remaining ambiguities must be resolved by further conventions not yet established.</p>
+<p>1つのレルフに対して複数のアクセント記号を使うような言語では、この仕組みは用を無さなくなる。どのアクセント記号をどの位置に付ければいいのかを指定するための、新しい規則が必要になる。簡単なものとしては、対象のレルフに近い順に、アクセント記号のレルフ詞を並べるというものだ。それでも曖昧さが残るのであれば、さらに何らかの規則を導入することになるだろう。</p>
 
-<p>Some languages, like Swedish and Finnish, consider certain accented lerfu to be completely distinct from their unaccented equivalents, but Lojban does not make a formal distinction, since the printed characters look the same whether they are reckoned as separate letters or not. In addition, some languages consider certain 2-letter combinations (like &#8220;ll&#8221; and &#8220;ch&#8221; in Spanish) to be letters; this may be represented by enclosing the combination in &#8220;tei &#8230; foi&#8221;.</p>
+<p>スウェーデン語やフィンランド語のような言語では、アクセント記号付きのレルフが、記号なしのものとは別に、1つの独立したレルフとして数えられる。しかし、紙面上ではそうした解釈の違いは表現されないので、ロジバンでもとくに区別する方法は考えられていない。また、言語の中には、特定の2文字の組み合わせを1つの文字と見なすものがある (スペイン語なら「ll」や「ch」)。これはその2文字を「tei &#8230; foi」で囲うことで表現できる。</p>
 
-<p>In addition, when discussing a specific language, it is permissible to make up new lerfu words, as long as they are either explained locally or well understood from context: thus Spanish &#8220;ll&#8221; or Croatian &#8220;lj&#8221; could be called &#8220;libu&#8221;, but that usage would not necessarily be universally understood.</p>
+<p>なお、他の言語が話題になっていて、適切なレルフ詞がない時には、その場で新しく名付けてよいことになっている。ただし、文脈上意味が明確であるか、それともどういう意味かをその場で説明する必要がある。スペイン語の「ll」やクロアチア語の「lj」を「libu」と即席で呼んでもよいが、ロジバン話者なら誰でも通じるわけではないということだ。</p>
 
-<p><a href='#s19'>Section 19</a> contains a table of proposed lerfu words for some common accent marks.</p>
+<p><a href='#s19'>19節</a>に、一般的なアクセント記号について現在提案されているレルフ詞の一覧がある。</p>
 
-<h3 id='7_punctuation_marks'>7. Punctuation marks</h3>
+<h3 id='7_'>7. 句読点記号</h3>
 
-<p>Lojban does not have punctuation marks as such: the denpa bu and the slaka bu are really a part of the alphabet. Other languages, however, use punctuation marks extensively. As yet, Lojban does not have any words for these punctuation marks, but a mechanism exists for devising them: the cmavo &#8220;lau&#8221; of selma&#8217;o LAU. &#8220;lau&#8221; must always be followed by a BY word; the interpretation of the BY word is changed from a lerfu to a punctuation mark. Typically, this BY word would be a name or brivla with a &#8220;bu&#8221; suffix.</p>
+<p>ロジバンにはいわゆる句読点はない。denpa buもslaka buもアルファベットの一部として定義されている。が、他の言語では句読点がふんだんに使われる。今のところ、ロジバンではこうした句読点に正式な名前は与えられていないが、必要になった時のための最低限の規則が決められている。それがセルマホLAUに属するシマヴォ「lau」である。「lau」の後には必ずBY類の単語が続き、レルフではなく句読点として解釈される。この「BY類の単語」は大抵は「bu」の付いた固有名詞かブリヴラである。</p>
 
-<p>Why is &#8220;lau&#8221; necessary at all? Why not just use a &#8220;bu&#8221;-marked word and announce that it is always to be interpreted as a punctuation mark? Primarily to avoid ambiguity. The &#8220;bu&#8221; mechanism is extremely open-ended, and it is easy for Lojban users to make up &#8220;bu&#8221; words without bothering to explain what they mean. Using the &#8220;lau&#8221; cmavo flags at least the most important of such nonce lerfu words as having a special function: punctuation. (Exactly the same argument applies to the use of &#8220;zai&#8221; to signal an alphabet shift or &#8220;ce&#8217;a&#8221; to signal a font shift.)</p>
+<p>そもそも何故「lau」が要るのだろう？ただ単に、この「bu」付きの単語は句読点のレルフ詞である、と宣言してしまえばいいのでは？答は主にあいまいさを避けるためである。「bu」を付けてレルフ詞を作る仕組みは制約が少なく、何の説明も無しに自由に新しい「bu」語を作ってしまうことが可能である。「lau」シマヴォを使うことで、少なくともそうしたその場限りのアドリブで作られた語のどれが「句読点」であるか、という重要な区別を付けることができる。(同じ考え方で選定されたのが「zai」(文字体系の変意詞)と「ce&#8217;a」(書体の変意詞)である。)</p>
 
-<p>Since different alphabets require different punctuation marks, the interpretation of a &#8220;lau&#8221;-marked lerfu word is affected by the current alphabet shift and the current font shift.</p>
+<p>文字体系によって句読点記号も違うため、「lau」の付いたレルフ詞の解釈はその時の文字体系の変意詞と書体の変意詞によって左右される。</p>
 
-<h3 id='8_what_about_chinese_characters'>8. What about Chinese characters?</h3>
+<h3 id='8_'>8. 漢字は？</h3>
 
-<p>Chinese characters (&#8220;han4zi4&#8221; in Chinese, &#8220;kanji&#8221; in Japanese) represent an entirely different approach to writing from alphabets or syllabaries. (A syllabary, such as Japanese hiragana or Amharic writing, has one lerfu for each syllable of the spoken language.) Very roughly, Chinese characters represent single elements of meaning; also very roughly, they represent single syllables of spoken Chinese. There is in principle no limit to the number of Chinese characters that can exist, and many thousands are in regular use.</p>
+<p>文字による表現方法としてみた時、漢字 (中国語で「han4zi4」) は、アルファベットのような表音文字とも日本語のひらがなのような音節文字とも一線を画している。(音節文字は、ひらがなの他、アムハラ語でも使われるもので、発音した時の音節ごとに1つのレルフが割り当てられるものである。) おおざっぱに言って、漢字はそれぞれ1つの意味要素を表している。また、これまたおおざっぱに言えば、漢字はそれぞれ中国語の1音節を表している。許される漢字の数には上限がなく、実際数千という文字が日常的に使われている。</p>
 
-<p>It is hopeless for Lojban, with its limited lerfu and shift words, to create an alphabet which will match this diversity. However, there are various possible ways around the problem.</p>
+<p>ロジバンの数少ないレルフと変意詞をもってして、この多様な文字に対応する文字体系を作り出すのは絶望的な試みである。だが、回り道をすれば方法が無いこともない。それも複数。</p>
 
-<p>First, both Chinese and Japanese have standard Latin-alphabet representations, known as &#8220;pinyin&#8221; for Chinese and &#8220;romaji&#8221; for Japanese, and these can be used. Thus, the word &#8220;han4zi4&#8221; is conventionally written with two characters, but it may be spelled out as:</p>
+<p>まず、中国語も日本語も、ラテン文字による書き下し方法が標準化されている。中国語ではピンイン、日本語ではローマ字である。これは使える。「han4zi4」は普通は漢字2文字の単語だが、以下のように書き下すことができる:</p>
 
 <pre id='e8d1'><code>8.1)  .y&#39;y.bu .abu ny. vo zy. .ibu vo
     &quot;h&quot; &quot;a&quot; &quot;n&quot; 4 &quot;z&quot; &quot;i&quot; 4</code></pre>
 
-<p>The cmavo &#8220;vo&#8221; is the Lojban digit &#8220;4&#8221;. It is grammatical to intersperse digits (of selma&#8217;o PA) into a string of lerfu words; as long as the first cmavo is a lerfu word, the whole will be interpreted as a string of lerfu words. In Chinese, the digits can be used to represent tones. Pinyin is more usually written using accent marks, the mechanism for which was explained in <a href='#s6'>Section 6</a>.</p>
+<p>シマヴォ「vo」はロジバンの数字「4」だ。文法上、レルフ詞の並びに数字 (セルマホPA) を自由に差し挟んでよいことになっており、先頭のシマヴォがレルフ詞でありさえすれば、全体が一連のレルフ詞として解釈される。中国語なら、この数字を使って声調を示すことができる。通常ピンインでは声調を示すのにアクセント記号が使われる。こちらは<a href='#s6'>6節</a>で解説ずみである。</p>
 
-<p>The Japanese company named &#8220;Mitsubishi&#8221; in English is spelled the same way in romaji, and could be spelled out in Lojban thus:</p>
+<p>日本の「三菱」という会社はローマ字で以下のように書き下される:</p>
 
 <pre id='e8d2'><code>8.2)  my. .ibu ty. sy. .ubu by. .ibu sy. .y&#39;y.bu .ibu
     &quot;m&quot; &quot;i&quot; &quot;t&quot; &quot;s&quot; &quot;u&quot; &quot;b&quot; &quot;i&quot; &quot;s&quot; &quot;h&quot; &quot;i&quot;</code></pre>
 
-<p>Alternatively, a really ambitious Lojbanist could assign lerfu words to the individual strokes used to write Chinese characters (there are about seven or eight of them if you are a flexible human being, or about 40 if you are a rigid computer program), and then represent each character with a &#8220;tei&#8221;, the stroke lerfu words in the order of writing (which is standardized for each character), and a &#8220;foi&#8221;. No one has as yet attempted this project.</p>
+<p>別の方法として、意欲あふれるロジバン話者向きのものがある。まず漢字の1つ1つの字画にレルフ詞をあてる (その数は、あなたが人間であれば、融通がきくので7から8個、融通のきかないコンピュータ・プログラムであれば40個ほど)。漢字1文字を表すには、「tei」を先頭に筆順に従って字画のレルフ詞を並べ (筆順は標準化されている)、最後に「foi」で閉じる。この方法を実際にやってみた人はまだいない。</p>
 
-<h3 id='9_lerfu_words_as_prosumti'>9. lerfu words as pro-sumti</h3>
+<h3 id='9_'>9. 代スムティとしてのレルフ詞</h3>
 
-<p>So far, lerfu words have only appeared in Lojban text when spelling out words. There are several other grammatical uses of lerfu words within Lojban. In each case, a single lerfu word or more than one may be used. Therefore, the term &#8220;lerfu string&#8221; is introduced: it is short for &#8220;sequence of one or more lerfu words&#8221;.</p>
+<p>これまでに登場したレルフ詞の用途はロジバン文章内で単語をつづることだけだった。この他にもレルフ詞を使った表現が幾つかあるので紹介しよう。どの表現でもレルフ詞単体か、複数を連ねたものが使われる。この「1つ以上のレルフ詞の連なり」を端的に言い表すため、レルフ列という用語を使うことにする。</p>
 
-<p>A lerfu string may be used as a pro-sumti (a sumti which refers to some previous sumti), just like the pro-sumti &#8220;ko&#8217;a&#8221;, &#8220;ko&#8217;e&#8221;, and so on:</p>
+<p>レルフ列の用法として、第一にまず代スムティがある。代スムティはそれまでに出てきた別のスムティを指すスムティで、他には「ko&#8217;a」や「ko&#8217;e」などがある。</p>
 
 <pre id='e9d1'><code>9.1)  .abu prami by.
-    A loves B</code></pre>
+    AはBを愛する。</code></pre>
 
-<p>In <a href='#e9d1'>Example 9.1</a>, &#8220;.abu&#8221; and &#8220;by.&#8221; represent specific sumti, but which sumti they represent must be inferred from context.</p>
+<p><a href='#e9d1'>例9.1</a>では、「.abu」と「by.」が具体的にどのスムティを指しているかは文脈から推測しなければならない。</p>
 
-<p>Alternatively, lerfu strings may be assigned by &#8220;goi&#8221;, the regular pro-sumti assignment cmavo:</p>
+<p>あるいは、代スムティの参照先を指定するためのシマヴォ、「goi」を使って明示することもできる。</p>
 
 <pre id='e9d2'><code>9.2)  le gerku goi gy. cu xekri .i gy. klama le zdani
-    The dog, or G, is black.  G goes to the house.</code></pre>
+    その犬Gは黒い。Gはハウスに行く。</code></pre>
 
-<p>There is a special rule that sometimes makes lerfu strings more advantageous than the regular pro-sumti cmavo. If no assignment can be found for a lerfu string (especially a single lerfu word), it can be assumed to refer to the most recent sumti whose name or description begins in Lojban with that lerfu. So <a href='#e9d2'>Example 9.2</a> can be rephrased:</p>
+<p>とある特殊ルールのおかげで、通常の代スムティ用シマヴォよりレルフ列の方が便利なことがある。レルフ列（とくに1文字のもの）の指示先の指定がない場合には、綴りがそのレルフで始まる固有名や描写スムティのうち、一番最後に登場したものが自動的にあてられる、というものである。つまり例9.2は以下のようにしても問題ない:</p>
 
 <pre id='e9d3'><code>9.3)  le gerku cu xekri. .i gy. klama le zdani
-    The dog is black.  G goes to the house.</code></pre>
+    その犬は黒い。Gはハウスに行く。</code></pre>
 
-<p>(A less literal English translation would use &#8220;D&#8221; for &#8220;dog&#8221; instead.)</p>
+<p>（逐語訳でなくてよければ、Gではなく「イ」になるだろう。）</p>
 
-<p>Here is an example using two names and longer lerfu strings:</p>
+<p>こちらの例では、固有名を2つと、長めのレルフ列を使っている。</p>
 
 <pre id='e9d4'><code>9.4)  la stivn. mark. djonz. merko
         .i la .aleksandr. paliitc. kuzNIETsyf. rusko
         .i symyjy. tavla .abupyky. bau la lojban.
-    Steven Mark Jones is-American.
-        Alexander Pavlovitch Kuznetsov is-Russian.
-        SMJ talks-to APK in Lojban.</code></pre>
+    スティーブン・マーク・ジョーンズはアメリカ人だ。
+    アレクサンダー・パヴロヴィッチ・クズネツォフはロシア人だ。
+    SMJはAPKにロジバンで話す。</code></pre>
 
-<p>Perhaps Alexander&#8217;s name should be given as &#8220;ru&#8217;o.abupyky&#8221; instead.</p>
+<p>アレクサンダーの名前は「ru&#8217;o.abupyky」の方が良いかもしれない。</p>
 
-<p>What about</p>
+<p>この例はどういう意味だろう。</p>
 
-<pre id='e9d5'><code>9.5)  .abu dunda by. cy.
-    A gives B C</code></pre>
+<pre id='e9d5'><code>9.5)  .abu dunda by. cy.</code></pre>
 
-<p>Does this mean that A gives B to C? No. &#8220;by. cy.&#8221; is a single lerfu string, although written as two words, and represents a single pro-sumti. The true interpretation is that A gives BC to someone unspecified. To solve this problem, we need to introduce the elidable terminator &#8220;boi&#8221; (of selma&#8217;o BOI). This cmavo is used to terminate lerfu strings and also strings of numerals; it is required when two of these appear in a row, as here. (The other reason to use &#8220;boi&#8221; is to attach a free modifier &#8212; subscript, parenthesis, or what have you &#8212; to a lerfu string.) The correct version is:</p>
+<p>AがBをCにあげる、ということだろうか？いや、そうではない。「by. cy.」は2つの単語のように見えるが、実際は1つのレルフ列として解釈され、全体で1つの代スムティとなる。つまり正確にはAがBCを誰かにあげるという意味になってしまう。この問題を解決するには、省略可能な終端詞「boi」（セルマホBOI）に登場願う必要がある。boiはレルフ列や数詞列の終端を示すのに使われ、今回のように連続している場合には間に挟む必要がある。（boiを使って添え字や括弧など自由修飾語/自由修飾句をレルフ列に付けることもできる。）それでは修正してみよう:</p>
 
 <pre id='e9d6'><code>9.6)  .abu [boi] dunda by. boi cy. [boi]
-    A gives B to C</code></pre>
+    AはBをCにあげる。</code></pre>
 
-<p>where the two occurrences of &#8220;boi&#8221; in brackets are elidable, but the remaining occurrence is not. Likewise:</p>
+<p>括弧内のboiは省略可能だが、それ以外は省略してはいけない。同様に、</p>
 
 <pre id='e9d7'><code>9.7)  xy. boi ro [boi] prenu cu prami
-    X all persons loves.
-    X loves everybody.</code></pre>
+    Xはすべての人を愛する。</code></pre>
 
-<p>requires the first &#8220;boi&#8221; to separate the lerfu string &#8220;xy.&#8221; from the digit string &#8220;ro&#8221;.</p>
+<p>レルフ列「xy.」と数詞列「ro」の境界を示すのに最初のboiが必要である。</p>
 
-<h3 id='10_references_to_lerfu'>10. References to lerfu</h3>
+<h3 id='10_'>10. レルフへの言及</h3>
 
-<p>The rules of <a href='#s9'>Section 9</a> make it impossible to use unmarked lerfu words to refer to lerfu themselves. In the sentence:</p>
+<p>第9節の規則のため、レルフそのものを名指ししたい時にレルフ詞をそのまま言っても意図した意味にはならなくなってしまった。つまり、以下の文を聞いた相手は</p>
 
 <pre id='e10d1'><code>10.1)    .abu. cu lerfu
-    A is-a-letteral.</code></pre>
+    Aは字詞である。</code></pre>
 
-<p>the hearer would try to find what previous sumti &#8220;.abu&#8221; refers to. The solution to this problem makes use of the cmavo &#8220;me&#8217;o&#8221; of selma&#8217;o LI, which makes a lerfu string into a sumti representing that very string of lerfu. This use of &#8220;me&#8217;o&#8221; is a special case of its mathematical use, which is to introduce a mathematical expression used literally rather than for its value.</p>
+<p>「.abu」が指しているスムティを文脈から探そうとする。この問題を解決するにはセルマホLIに属するシマヴォ「me&#8217;o」を使う。me&#8217;oのあとに続くレルフ列は、その一連のレルフそのものを表すスムティに変換されるのである。「me&#8217;o」は元々数式の記述で使われるもので、数式の値ではなく式そのものを示したい時に使う。この機能をうまく応用したのがここで紹介している用法である。</p>
 
 <pre id='e10d2'><code>10.2)    me&#39;o .abu cu lerfu
-    the-expression &quot;a&quot; is-a-letteral.</code></pre>
+    「a」という句は字詞である。</code></pre>
 
-<p>Now we can translate <a href='#e1d1'>Example 1.1</a> into Lojban:</p>
+<p>必要な道具が揃ったので、例1.1をロジバンに訳してみよう。</p>
 
 <pre id='e10d4'><code>10.4)    dei vasru vo lerfu
         po&#39;u me&#39;o .ebu
-    this-sentence contains four letterals
-        which-are the-expression &quot;e&quot;.
-    This sentence contains four &quot;e&quot;s.</code></pre>
-
-<p>Since the Lojban sentence has only four &#8220;e&#8221; lerfu rather than fourteen, the translation is not a literal one &#8212; but <a href='#e10d4'>Example 10.4</a> is a Lojban truth just as <a href='#e1d1'>Example 1.1</a> is an English truth. Coincidentally, the colloquial English translation of <a href='#e10d4'>Example 10.4</a> is also true!</p>
-
-<p>The reader might be tempted to use quotation with &#8220;lu &#8230; li&#8217;u&#8221; instead of &#8220;me&#8217;o&#8221;, producing:</p>
+    この文には「e」が4つ含まれる。</code></pre>
+<!-- eの個数についての下りは割愛 -->
+<p>「lu &#8230; li&#8217;u」で引用句とすればよいのでは、と思ってしまうかもしれない。つまり、</p>
 
 <pre id='e10d4.5'><code>10.4.5)    lu .abu li&#39;u cu lerfu
-    [quote] .abu [unquote] is-a-letteral.</code></pre>
+    [引用始め] .abu [引用終わり] は字詞である。</code></pre>
 
-<p>(The single-word quote &#8220;zo&#8221; cannot be used, because &#8220;.abu&#8221; is a compound cmavo.) But <a href='#e10d4'>Example 10.4</a> is false, because it says:</p>
+<p>（単一の語を引用する「zo」はここでは使えない。「.abu」が複合シマヴォだからである。）だが<a href='#e10d4'>例10.4</a>は正しくない。<a href='#e10d4'>例10.4</a>が何を言っているかというと:</p>
 
-<pre id='e10d5'><code>10.5)    The word &quot;.abu&quot; is a letteral</code></pre>
+<pre id='e10d5'><code>10.5)    「.abu」という語は字詞である。</code></pre>
 
-<p>which is not the case; rather, the thing symbolized by the word &#8220;.abu&#8221; is a letteral. In Lojban, that would be:</p>
+<p>そうではなく、「.abu」という語が表している対象が字詞なのだから、ロジバンでは以下のようにしなくてはいけない:</p>
 
 <pre id='e10d6'><code>10.6)    la&#39;e lu .abu li&#39;u cu lerfu
-    The-referent-of [quote] .abu [unquote] is-a-letteral.</code></pre>
+    以下の指しているもの: [引用始め] .abu [引用終わり] は字詞である。</code></pre>
 
-<p>which is correct.</p>
+<p>こちらは正しい。</p>
 
-<h3 id='11_mathematical_uses_of_lerfu_strings'>11. Mathematical uses of lerfu strings</h3>
+<h3 id='11_'>11. レルフ列の数式での利用</h3>
 
-<p>This chapter is not about Lojban mathematics, which is explained in <a href='chapter18.html'>Chapter 18</a>, so the mathematical uses of lerfu strings will be listed and exemplified but not explained.</p>
+<p>ロジバンにおける数式表現については<a href='chapter18.html'>第18章</a>に詳しい説明があるので、ここではレルフ列の数式での利用例を列挙するにとどめ、具体的な内容の説明はしないことにする。</p>
 
-<p>A lerfu string as mathematical variable:</p>
+<p>数式の変数としてレルフ列を使う:</p>
 
 <pre id='e11d1'><code>11.1)    li .abu du li by. su&#39;i cy.
-    the-number a equals the-number b plus c
     a = b + c</code></pre>
 
-<p>A lerfu string as function name (preceded by &#8220;ma&#8217;o&#8221; of selma&#8217;o MAhO):</p>
+<p>関数名としてレルフ列を使う（セルマホMAhOの「ma&#8217;o」を前につける）:</p>
 
 <pre id='e11d2'><code>11.2)    li .y.bu du li ma&#39;o fy. boi xy.
-    the-number y equals the number the-function f of x
     y = f(x)</code></pre>
 
-<p>Note the &#8220;boi&#8221; here to separate the lerfu strings &#8220;fy&#8221; and &#8220;xy&#8221;.</p>
+<p>レルフ列「fy」と「xy」を分離するのに「boi」が使われていることに注目。</p>
 
-<p>A lerfu string as selbri (followed by a cmavo of selma&#8217;o MOI):</p>
+<p>セルブリとしてレルフ列を使う（セルマホMOIのシマヴォを後に付ける）:</p>
 
 <pre id='e11d3'><code>11.3)    le vi ratcu ny.moi le&#39;i mi ratcu
-    the here rat is-nth-of the-set-of my rats
-    This rat is my Nth rat.</code></pre>
+    このラットは私のN番目のラットだ。</code></pre>
 
-<p>A lerfu string as utterance ordinal (followed by a cmavo of selma&#8217;o MAI):</p>
+<p>発話順序としてレルフ列を使う（セルマホMAIのシマヴォを後に付ける）:</p>
 
 <pre id='e11d4'><code>11.4)    ny.mai
-    Nthly</code></pre>
+    N番目に</code></pre>
 
-<p>A lerfu string as subscript (preceded by &#8220;xi&#8221; of selma&#8217;o XI):</p>
-
+<p>添字としてレルフ列を使う（セルマホXIの「xi」を前に付ける）:</p>
 <pre id='e11d5'><code>11.5)    xy. xi ky.
-    x sub k</code></pre>
-
-<p>A lerfu string as quantifier (enclosed in &#8220;vei &#8230; ve&#8217;o&#8221; parentheses):</p>
+    x<sub>k</sub>
+</code></pre>
+<p>数量詞としてレルフ列を使う（数学の括弧「vei &#8230; ve&#8217;o」で囲う）:</p>
 
 <pre id='e11d6'><code>11.6)    vei ny. [ve&#39;o] lo prenu
-    ( &quot;n&quot; ) persons</code></pre>
+    ( &quot;n&quot; ) 人</code></pre>
 
-<p>The parentheses are required because &#8220;ny. lo prenu&#8221; would be two separate sumti, &#8220;ny.&#8221; and &#8220;lo prenu&#8221;. In general, any mathematical expression other than a simple number must be in parentheses when used as a quantifier; the right parenthesis mark, the cmavo &#8220;ve&#8217;o&#8221;, can usually be elided.</p>
+<p>ここの括弧は省略不可である。「ny. lo prenu」のように省略すると、2つの別のスムティ、「ny.」と「lo prenu」に分離してしまう。単純な数字以上に複雑な数学的表現は、数量詞として使う時はほとんどの場合括弧が必要である。右括弧（シマヴォ「ve&#8217;o」）は大抵省略可能だ。</p>
 
-<p>All the examples above have exhibited single lerfu words rather than lerfu strings, in accordance with the conventions of ordinary mathematics. A longer lerfu string would still be treated as a single variable or function name: in Lojban, &#8220;.abu by. cy.&#8221; is not the multiplication &#8220;a x b x c&#8221; but is the variable &#8220;abc&#8221;. (Of course, a local convention could exist that made the value of a variable like &#8220;abc&#8221;, with a multi-lerfu-word name, equal to the values of the variables &#8220;a&#8221;, &#8220;b&#8221;, and &#8220;c&#8221; multiplied together.)</p>
+<p>数学の一般的慣例に合わせて、以上の例ではすべて単一のレルフ詞だったが、レルフ列を使っても差し支えない。その場合も全体で1つの変数や関数の名前として解釈される。つまり、ロジバンでは「.abu by. cy.」といっても「a x b x c」のような掛け算の意味にはならず、「abc」という変数になる。（もちろん、場合によっては、複数のレルフ詞でできた名前を持つ変数（例えば「abc」）の値は、それぞれのレルフ詞（「a」と「b」と「c」）を掛け合わせたものになる、というような規則が設定されていることも考えられるが。）</p>
 
-<p>There is a special rule about shift words in mathematical text: shifts within mathematical expressions do not affect lerfu words appearing outside</p>
+<p>数学的表現に関連して、変意詞についての例外的規則がある: 数学的表現内での変意は、周辺の文章内に出てくるレルフ詞に影響を及ぼさない。逆も同様である。</p>
 
-<p>mathematical expressions, and vice versa.</p>
+<h3 id='12_'>12. 頭字語</h3>
 
-<h3 id='12_acronyms'>12. Acronyms</h3>
+<p>頭字語は、レルフでできた固有名である。例えば「DNA」「NATO」「CIA」など。「DNA」や「CIA」のように1文字ずつ発音するものもあれば、「NATO」のように普通につづられた普通の単語のように発音するものもある。また、どちらの読み方もされる場合もある。「SQL」は「エスキューエル」という人もいれば「シークェル」という人もいる。</p>
 
-<p>An acronym is a name constructed of lerfu. English examples are &#8220;DNA&#8221;, &#8220;NATO&#8221;, &#8220;CIA&#8221;. In English, some of these are spelled out (like &#8220;DNA&#8221; and &#8220;CIA&#8221;) and others are pronounced more or less as if they were ordinary English words (like &#8220;NATO&#8221;). Some acronyms fluctuate between the two pronunciations: &#8220;SQL&#8221; may be &#8220;ess cue ell&#8221; or &#8220;sequel&#8221;.</p>
-
-<p>In Lojban, a name can be almost any sequence of sounds that ends in a consonant and is followed by a pause. The easiest way to Lojbanize acronym names is to glue the lerfu words together, using &#8221;&#8217;&#8221; wherever two vowels would come together (pauses are illegal in names) and adding a final consonant:</p>
+<p>ロジバンの固有名を作るには、好きな音の並びに子音をつけ、休止を最後に置けばよい。頭字語をロジバン化するには、レルフ詞をくっつけて並べ、母音が連続する箇所には「&#8217;」を挟む（休止は固有名には使えない）。そして最後に子音を付ける:</p>
 
 <pre id='e12d1'><code>12.1)    la dyny&#39;abub. .i la ny&#39;abuty&#39;obub.
     .i la cy&#39;ibu&#39;abub. .i la sykybulyl.
     .i la .ibubymym. .i la ny&#39;ybucyc.
-    DNA. NATO.
-    CIA. SQL.
-    IBM. NYC.</code></pre>
+    DNA。 NATO。
+    CIA。SQL。
+    IBM。NYC。</code></pre>
 
-<p>There is no fixed convention for assigning the final consonant. In <a href='#e12d1'>Example 12.1</a>, the last consonant of the lerfu string has been replicated into final position.</p>
+<p>最後の子音を何にするかについては、特に決まったルールはない。<a href='#e12d1'>例12.1</a>では、レルフ列のうち最後に出てくる子音をまた繰り返している。</p>
 
-<p>Some compression can be done by leaving out &#8220;bu&#8221; after vowel lerfu words (except for &#8220;.y.bu&#8221;, wherein the &#8220;bu&#8221; cannot be omitted without ambiguity). Compression is moderately important because it&#8217;s hard to say long names without introducing an involuntary (and illegal) pause:</p>
+<p>母音のレルフ詞の「bu」を省略すれば、単語の長さを縮めることができる。（「.y.bu」の場合は、省略してしまうと意味が曖昧になるので、残しておく必要がある。）長い固有名を発音する時にはつい（文法に反して）休止を入れてしまいがちなので、短縮化はなかなか重要である。</p>
 
 <pre id='e12d2'><code>12.2)    la dyny&#39;am. .i la ny&#39;aty&#39;om.
     .i la cy&#39;i&#39;am. .i la sykybulym.
     .i la .ibymym. .i la ny&#39;ybucym.
-    DNA. NATO.
-    CIA. SQL.
-    IBM. NYC.</code></pre>
+    DNA。NATO。
+    CIA。SQL。
+    IBM.。NYC。</code></pre>
 
-<p>In <a href='#e12d2'>Example 12.2</a>, the final consonant &#8220;m&#8221; stands for &#8220;merko&#8221;, indicating the source culture of these acronyms.</p>
+<p><a href='#e12d2'>例12.2</a>で各語の終端の子音「m」は「merko」の「m」で、これらの頭字語が発祥した文化圏の印として使っている。</p>
 
-<p>Another approach, which some may find easier to say and which is compatible with older versions of the language that did not have a &#8221;&#8217;&#8221; character, is to use the consonant &#8220;z&#8221; instead of &#8221;&#8217;&#8220;:</p>
+<p>別の方法として、「&#8217;」のかわりに子音「z」を使うというものがある。こちらは「&#8217;」が無い仕様の時の言語を知っている読者にはより易しいかもしれない。</p>
 
 <pre id='e12d3'><code>12.3)    la dynyzaz. .i la nyzatyzoz.
     .i la cyzizaz. .i la sykybulyz.
     .i la .ibymyz. .i la nyzybucyz.
-    DNA. NATO.
-    CIA. SQL.
-    IBM. NYC.</code></pre>
+    DNA。NATO。
+    CIA。SQL。
+    IBM。NYC。</code></pre>
 
-<p>One more alternative to these lengthy names is to use the lerfu string itself prefixed with &#8220;me&#8221;, the cmavo that makes sumti into selbri:</p>
+<p>レルフ列の前に「me」付けるという方法もある。こちらは今までの方法より短い語になる。「me」はスムティをセルブリに変換するシマヴォである:</p>
 
 <pre id='e12d4'><code>12.4)    la me dy ny. .abu
-    that-named what-pertains-to &quot;d&quot; &quot;n&quot; &quot;a&quot;</code></pre>
+    「d」「n」「a」 -に関するもの -と呼称される</code></pre>
 
-<p>This works because &#8220;la&#8221;, the cmavo that normally introduces names used as sumti, may also be used before a predicate to indicate that the predicate is a (meaningful) name:</p>
+<p>「la」は通常は固有名をスムティとして使う時に前置するものだが、ここでは述語に付けて、その意味内容を示す固有名とする機能をうまく使っている。</p>
 
 <pre id='e12d5'><code>12.5)    la cribe cu ciska
-    that-named &quot;Bear&quot; writes
-    Bear is a writer</code></pre>
+    「熊」と呼称されるものが書く
+    熊は物書きである</code></pre>
 
-<p><a href='#e12d5'>Example 12.5</a> does not of course refer to a bear (&#8220;le cribe&#8221; or &#8220;lo cribe&#8221;) but to something else, probably a person, named &#8220;Bear&#8221;. Similarly, &#8220;me dy ny. .abu&#8221; is a predicate which can be used as a name, producing a kind of acronym which can have pauses between the individual lerfu words.</p>
+<p><a href='#e12d5'>例12.5</a>はもちろん実物のクマのことを言っているのではなく、おそらく熊という名前の人のことを話題している。同様に、「me dy ny. .abu」は全体で1つの述語として働き、固有名の意味内容を示している。各文字の間に休止を挟むことのできる、一種の頭字語である。</p>
 
-<h3 id='13_computerized_character_codes'>13. Computerized character codes</h3>
+<h3 id='13_'>13. コンピュータ処理で使われる文字コード</h3>
 
-<p>Since the first application of computers to non-numerical information, character sets have existed, mapping numbers (called &#8220;character codes&#8221;) into selected lerfu, digits, and punctuation marks (collectively called &#8220;characters&#8221;). Historically, these character sets have only covered the English alphabet and a few selected punctuation marks. International efforts are now underway to create a unified character set that can represent essentially all the characters in essentially all the world&#8217;s writing systems. Lojban can take advantage of these encoding schemes by using the cmavo &#8220;se&#8217;e&#8221; (of selma&#8217;o BY). This cmavo is conventionally followed by digit cmavo of selma&#8217;o PA representing the character code, and the whole string indicates a single character in some computerized character set:</p>
+<p>数値計算以外のことにコンピュータが利用され始めた当初から、レルフ・数字・句読点記号（これらを総称してキャラクタあるいは文字と言う）のうち必要なものと、数値（「キャラクタコード」あるいは「文字コード」）との対応表が作られ、使われてきた。これをキャラクタセットと称し、近年まで英語のアルファベットと幾つかの句読点記号のみが対象だった。(訳注: 日本語やその他の文字体系を扱うキャラクタセットもそれぞれ作られていた。) 現在、国際的な取り組みとして、世界中のあらゆる文字体系のあらゆる文字を1つの統一的キャラクタセットで扱えるようにしようという動きも広まっている。ロジバンではシマヴォ「se&#8217;e」（セルマホBY）を通してこれらの符号化方式を利用することができる。「se&#8217;e」の後には慣例として文字コードを示す数字シマヴォ（セルマホPA）が続き、全体として特定のキャラクタセットに属する1つの文字を表す。</p>
+<pre id='e13d1'><code>    13.1)    me'o se'ecixa cu lerfu
+            la .asycy'i'is. loi merko rupnu
+        ASCIIキャラクタセットに属するキャラクタコード36は字詞であり、米ドルを表す。
+        "&dollar;"は米ドルを表す。
+</code></pre>
+<p><a href='#e13d1'>例13.1</a>を理解するためには、前提知識として&#8221;&dollar;&#8220;という文字がASCIIキャラクタセット（シンプルで古くからあるキャラクタセットの1つ）でどういう値に対応付けられているかを知っている必要がある。つまり、「se&#8217;e」方式が通じるのは符号化に用いるキャラクタセットを知っている相手だけということになる。それでも、意図した文字を正確に示したい場合においては、曖昧さのないことと（比較的）文化的に中立であるというメリットがあるため、ロジバンではキャラクタセットを利用することができ、そして利用したいという人にはそのための手段を提供しているである。</p>
 
-<pre id='e13d1'><code>13.1)    me&#39;o se&#39;ecixa cu lerfu
-        la .asycy&#39;i&#39;is. loi merko rupnu
-    the-expression [code] 36 is-a-letteral
-        in-set ASCII
-        for-the-mass-of American currency-units.
-    The character code 36 in ASCII represents
-        American dollars.
-    &quot;&amp;dollar;&quot; represents American dollars.</code></pre>
-
-<p>Understanding <a href='#e13d1'>Example 13.1</a> depends on knowing the value in the ASCII character set (one of the simplest and oldest) of the &#8221;&dollar;&#8221; character. Therefore, the &#8220;se&#8217;e&#8221; convention is only intelligible to those who know the underlying character set. For precisely specifying a particular character, however, it has the advantages of unambiguity and (relative) cultural neutrality, and therefore Lojban provides a means for those with access to descriptions of such character sets to take advantage of them.</p>
-
-<p>As another example, the Unicode character set (also known as ISO 10646) represents the international symbol of peace, an inverted trident in a circle, using the base-16 value 262E. In a suitable context, a Lojbanist may say:</p>
+<p>もう1つ例を挙げよう。Unicodeキャラクタセット（ISO 10646と同等）では、ピースマーク（逆さの三叉を丸で囲ったもの）は16進数を用いて262Eに符号化される。文脈上許されれば、ロジバン話者なら以下のように言える:</p>
 
 <pre id='e13d2'><code>13.2)    me&#39;o se&#39;erexarerei sinxa le ka panpi
-    the-expression [code] 262E is-a-sign-of
-        the quality-of being-at-peace</code></pre>
+    [文字コード] 262E という表現は平和であることの象徴である。</code></pre>
 
-<p>When a &#8220;se&#8217;e&#8221; string appears in running discourse, some metalinguistic convention must specify whether the number is base 10 (as above) or some other base, and which character set is in use.</p>
+<p>会話の中に「se&#8217;e」から始まる語が出てきた時には、後に続く数値が上のように10進数なのか、それとも他の基数なのか、そしてどのキャラクタセットを使うのか、会話の流れなどから自明であるはずである。</p>
 
-<h3 id='14_list_of_all_auxiliary_lerfuword_cmavo'>14. List of all auxiliary lerfu-word cmavo</h3>
+<h3 id='14_'>14. レルフ詞の補助として使われるシマヴォの一覧</h3>
 
-<pre><code>   cmavo   selma&#39;o     meaning
+<pre><code>   シマヴォ   セルマホ     意味
 
-    bu  BU      makes previous word into
-                    a lerfu word
-    ga&#39;e    BY      upper case shift
-    to&#39;a    BY      lower case shift
-    tau LAU     case-shift next lerfu word only
-    lo&#39;a    BY      Latin/Lojban alphabet shift
-    ge&#39;o    BY      Greek alphabet shift
-    je&#39;o    BY      Hebrew alphabet shift
-    jo&#39;o    BY      Arabic alphabet shift
-    ru&#39;o    BY      Cyrillic alphabet shift
-    se&#39;e    BY      following digits are
-                    a character code
-    na&#39;a    BY      cancel all shifts
-    zai LAU     following lerfu word
-                    specifies alphabet
-    ce&#39;a    LAU     following lerfu word
-                    specifies font
-    lau LAU     following lerfu word
-                    is punctuation
-    tei TEI     start compound lerfu word
-    foi FOI     end compound lerfu word</code></pre>
+    bu  BU      直前の語をレルフ詞に変換する
+    ga&#39;e    BY      大文字への変意詞
+    to&#39;a    BY      小文字への変意詞
+    tau LAU     次のレルフ詞の大文字小文字を変意
+    lo&#39;a    BY      ラテン/ロジバン文字へ変意
+    ge&#39;o    BY      ギリシア文字へ変意
+    je&#39;o    BY      ヘブライ文字へ変意
+    jo&#39;o    BY      アラビア文字へ変意
+    ru&#39;o    BY      キリル文字へ変意
+    se&#39;e    BY      続く数字はキャラクタコードである
+    na&#39;a    BY      すべての変意を取り消す
+    zai LAU     続くレルフ詞で文字体系を指定する
+    ce&#39;a    LAU     続くレルフ詞で書体を指定する
+    lau LAU     続くレルフ詞は句読点記号である
+    tei TEI     複合レルフ詞の始まり
+    foi FOI     複合レルフ詞の終わり</code></pre>
 
-<p>Note that LAU cmavo must be followed by a BY cmavo or the equivalent, where &#8220;equivalent&#8221; means: either any Lojban word followed by &#8220;bu&#8221;, another LAU cmavo (and its required sequel), or a &#8220;tei &#8230; foi&#8221; compound cmavo.</p>
+<p>LAUシマヴォの後にはBYシマヴォもしくはそれと同等の語を置かなければいけないことに注意。「同等」というのは、「bu」を後に付けたロジバンの単語（何でもよい）か、別のLAUシマヴォ（これも後続の語には同じ制限が付く）、もしくは「tei &#8230; foi」で囲まれた複合シマヴォのいずれかである。</p>
 
-<h3 id='15_proposed_lerfu_words__introduction'>15. Proposed lerfu words &#8212; introduction</h3>
+<h3 id='15__'>15. 提案されているレルフ詞: はじめに</h3>
 
-<p>The following sections contain tables of proposed lerfu words for some of the standard alphabets supported by the Lojban lerfu system. The first column of each list is the lerfu (actually, a Latin-alphabet name sufficient to identify it). The second column is the proposed name-based lerfu word, and the third column is the proposed lerfu word in the system based on using the cmavo of selma&#8217;o BY with a shift word.</p>
+<p>以降の各節では、ロジバンのレルフの仕組みで取り扱うことのできる文字体系について、提案されているレルフ詞が表にまとめられている。最初の列はレルフ（その文字体系上の文字ではなく、ラテン文字や日本語でなるべく短く書き表したもの）、2番目の列は固有名に基づいたレルフ詞である。3番目は、変意詞を利用してセルマホBYのシマヴォをそのまま記述する方式でのレルフ詞である。</p>
 
-<p>These tables are not meant to be authoritative (several authorities within the Lojban community have niggled over them extensively, disagreeing with each other and sometimes with themselves). They provide a working basis until actual usage is available, rather than a final resolution of lerfu word problems. Probably the system presented here will evolve somewhat before settling down into a final, conventional form.</p>
+<p>これらの表はとくに公式の効力を持つものではない（ロジバンコミュニティ内で過去にいくつかの筋からの提案があり、お互いにあら探しをしたあげく、不和に終わり、さらには自分の提案をくつ返したりといった経緯がある）。レルフ詞についての最終決定というよりは、実用上の不具合を克服した版ができるまでのたたき台と思ってもらいたい。慣例に沿った最終的なかたちに収まるまでには、ここで紹介した仕組みも多少なりとも姿を変えていくだろうと予想される。</p>
 
-<p>For Latin-alphabet lerfu words, see <a href='#s2'>Section 2</a> (for Lojban) and <a href='#s5'>Section 5</a> (for non-Lojban Latin-alphabet lerfu).</p>
+<p>ラテン文字のレルフ詞については<a href='#s2'>第2節</a>（ロジバンで使われるもの）と、<a href='#s5'>第5節</a> （ロジバンでは使われないラテン文字のレルフ）を参照してほしい。</p>
 
-<h3 id='16_proposed_lerfu_words_for_the_greek_alphabet'>16. Proposed lerfu words for the Greek alphabet</h3>
+<h3 id='16_'>16. ギリシア文字のレルフ詞の案</h3>
 
-<pre><code>    alpha       .alfas. bu      .abu
-    beta        .betas. bu      by
-    gamma       .gamas. bu      gy
-    delta       .deltas. bu     dy
-    epsilon     .Epsilon. bu        .ebu
-    zeta        .zetas. bu      zy
-    eta     .etas. bu       .e&#39;ebu
-    theta       .tetas. bu      ty. bu
-    iota        .iotas. bu      .ibu
-    kappa       .kapas. bu      ky
-    lambda      .lymdas. bu     ly
-    mu      .mus. bu        my
-    nu      .nus. bu        ny
-    xi      .ksis. bu       ksis. bu
-    omicron     .Omikron. bu        .obu
-    pi      .pis. bu        py
-    rho     .ros. bu        ry
-    sigma       .sigmas. bu     sy
-    tau     .taus. bu       ty
-    upsilon     .Upsilon. bu        .ubu
-    phi     .fis. bu        py. bu
-    chi     .xis. bu        ky. bu
-    psi     .psis. bu       psis. bu
-    omega       .omegas. bu     .o&#39;obu
-    rough       .dasei,as. bu       .y&#39;y
-    smooth      .psiles. bu     xutla bu</code></pre>
+<pre><code>    アルファ       .alfas. bu      .abu
+    ベータ        .betas. bu      by
+    ガンマ       .gamas. bu      gy
+    デルタ       .deltas. bu     dy
+    エプシロン     .Epsilon. bu        .ebu
+    ゼータ        .zetas. bu      zy
+    エータ     .etas. bu       .e&#39;ebu
+    セータ       .tetas. bu      ty. bu
+    イオタ        .iotas. bu      .ibu
+    カッパ       .kapas. bu      ky
+    ラムダ      .lymdas. bu     ly
+    ミュー      .mus. bu        my
+    ニュー      .nus. bu        ny
+    クシー      .ksis. bu       ksis. bu
+    オミクロン     .Omikron. bu        .obu
+    パイ      .pis. bu        py
+    ロー     .ros. bu        ry
+    シグマ       .sigmas. bu     sy
+    タウ     .taus. bu       ty
+    ユプシロン     .Upsilon. bu        .ubu
+    ファイ     .fis. bu        py. bu
+    カイ     .xis. bu        ky. bu
+    プサイ     .psis. bu       psis. bu
+    オメガ       .omegas. bu     .o&#39;obu
+    有気記号       .dasei,as. bu       .y&#39;y
+    無気記号      .psiles. bu     xutla bu</code></pre>
 
-<h3 id='17_proposed_lerfu_words_for_the_cyrillic_alphabet'>17. Proposed lerfu words for the Cyrillic alphabet</h3>
+<h3 id='17_'>17. キリル文字のレルフ詞の案</h3>
 
-<p>The second column in this listing is based on the historical names of the letters in Old Church Slavonic. Only those letters used in Russian are shown; other languages require more letters which can be devised as needed.</p>
+<p>2番目の列は、古代教会スラヴ語における古い名前をもとにしている。ここではロシア語で使われる文字のみを示している。他の言語でもっと文字が必要になる場合は、必要に応じて作ることができる。</p>
 
 <pre><code>    a       .azys. bu       .abu
     b       .bukys. bu      by
@@ -545,7 +517,7 @@ for each language, and which set is Lojban to choose?</code></pre>
     zh      .jivet. bu      jy
     z       .zemlias. bu        zy
     i       .ije,is. bu     .ibu
-    short i                 .itord. bu
+    短い「イ」                 .itord. bu
     k       .kakos. bu      ky
     l       .liudi,ies. bu      ly
     m       .myslites. bu       my
@@ -562,79 +534,79 @@ for each language, and which set is Lojban to choose?</code></pre>
     ch      .tcriyviys. bu      tcys. bu
     sh      .cas. bu        cy
     shch        .ctas. bu       ctcys. bu
-    hard sign   .ier. bu        jdari bu
+    硬音符   .ier. bu        jdari bu
     yeri        .ierys. bu      .y.bu
-    soft sign   .ieriys. bu     ranti bu
-    reversed e              .ecarn. bu
+    軟音符   .ieriys. bu     ranti bu
+    裏返したイェー              .ecarn. bu
     yu      .ius. bu        .iubu
     ya      .ias. bu        .iabu</code></pre>
 
-<h3 id='18_proposed_lerfu_words_for_the_hebrew_alphabet'>18. Proposed lerfu words for the Hebrew alphabet</h3>
+<h3 id='18_'>18. ヘブライ文字のレルフ詞の案</h3>
 
-<pre><code>    aleph       .alef. bu       .alef. bu
-    bet     .bet. bu        by
-    gimel       .gimel. bu      gy
-    daled       .daled. bu      dy
-    he      .xex. bu        .y&#39;y
-    vav     .vav. bu        vy
-    zayin       .zai,in. bu     zy
-    khet        .xet. bu        xy. bu
-    tet     .tet. bu        ty. bu
-    yud     .iud. bu        .iud. bu
-    kaf     .kaf. bu        ky
-    lamed       .LYmed. bu      ly
-    mem     .mem. bu        my
-    nun     .nun. bu        ny
-    samekh      .samex. bu      samex. bu
-    ayin        .ai,in. bu      .ai,in bu
-    pe      .pex. bu        py
-    tzadi       .tsadik. bu     tsadik. bu
-    quf     .kuf. bu        ky. bu
-    resh        .rec. bu        ry
-    shin        .cin. bu        cy
-    sin     .sin. bu        sy
-    taf     .taf. bu        ty.
-    dagesh      .daGEC. bu      daGEC. bu
-    hiriq       .xirik. bu      .ibu
-    tzeirekh    .tseirex. bu        .eibu
-    segol       .seGOL. bu      .ebu
-    qubbutz     .kubuts. bu     .ubu
-    qamatz      .kamats. bu     .abu
-    patach      .patax. bu      .a&#39;abu
-    sheva       .cyVAS. bu      .y.bu
-    kholem      .xolem. bu      .obu
-    shuruq      .curuk. bu      .u&#39;ubu</code></pre>
+<pre><code>    アレフ       .alef. bu       .alef. bu
+    ベート     .bet. bu        by
+    ギーメル       .gimel. bu      gy
+    ダレット       .daled. bu      dy
+    ヘー      .xex. bu        .y&#39;y
+    ヴァヴ     .vav. bu        vy
+    ザイン       .zai,in. bu     zy
+    ヘット        .xet. bu        xy. bu
+    テット     .tet. bu        ty. bu
+    ヨッド     .iud. bu        .iud. bu
+    カフ     .kaf. bu        ky
+    ラメド       .LYmed. bu      ly
+    メム     .mem. bu        my
+    ヌン     .nun. bu        ny
+    サメフ      .samex. bu      samex. bu
+    アイン        .ai,in. bu      .ai,in bu
+    ペー      .pex. bu        py
+    ツァディー       .tsadik. bu     tsadik. bu
+    コフ     .kuf. bu        ky. bu
+    レーシュ        .rec. bu        ry
+    シン        .cin. bu        cy
+    スィン     .sin. bu        sy
+    タヴ     .taf. bu        ty.
+    ダゲッシュ      .daGEC. bu      daGEC. bu
+    ヒリック       .xirik. bu      .ibu
+    ツェーレー    .tseirex. bu        .eibu
+    セゴール       .seGOL. bu      .ebu
+    クブツ     .kubuts. bu     .ubu
+    カマツ      .kamats. bu     .abu
+    パタフ      .patax. bu      .a&#39;abu
+    シュヴァー       .cyVAS. bu      .y.bu
+    ホラム      .xolem. bu      .obu
+    シュルク      .curuk. bu      .u&#39;ubu</code></pre>
 
-<h3 id='19_proposed_lerfu_words_for_some_accent_marks_and_multiple_letters'>19. Proposed lerfu words for some accent marks and multiple letters</h3>
+<h3 id='19_'>19. アクセント記号と連続文字のレルフ詞の案</h3>
 
-<p>This list is intended to be suggestive, not complete: there are lerfu such as Polish &#8220;dark&#8221; l and Maltese h-bar that do not yet have symbols.</p>
+<p>この一覧は完全なものではなく、ヒントにでもなればよいほどのものである。ポーランド語の「暗い」Lやマルタ語の「バー付き」Hなど、まだ正式な文字がないレルフもある。</p>
 
-<pre><code>    acute       .akut. bu or
-                .pritygal. bu   [pritu galtu]
-    grave       .grav. bu
-                or .zulgal. bu  [zunle galtu]
-    circumflex  .cirkumfleks. bu
-                or .midgal. bu  [midju galtu]
-    tilde       .tildes. bu
-    macron      .makron. bu
-    breve       .brevis. bu
-    over-dot    .garmoc. bu     [gapru mokca]
-    umlaut/trema    relmoc. bu      [re mokca]
-    over-ring   .garjin. bu     [gapru djine]
-    cedilla     .seDIlys. bu
-    double-acute    .re&#39;akut. bu        [re akut.]
-    ogonek      .ogoniek. bu
-    hacek       .xatcek. bu
-    ligatured fi    tei fy. ibu foi
-    Danish/Latin ae tei .abu .ebu foi
-    Dutch ij    tei .ibu jy. foi
-    German es-zed   tei sy. zy. foi</code></pre>
+<pre><code>    鋭アクセント       .akut. bu
+                もしくは .pritygal. bu   [pritu galtu]
+    低アクセント       .grav. bu
+                もしくは .zulgal. bu  [zunle galtu]
+    曲折アクセント  .cirkumfleks. bu
+                もしくは .midgal. bu  [midju galtu]
+    チルダ       .tildes. bu
+    マクロン、長音記号      .makron. bu
+    ブレーヴェ、短音記号       .brevis. bu
+    上付きドット    .garmoc. bu     [gapru mokca]
+    ウムラウト、トレマ    relmoc. bu      [re mokca]
+    上付きリング   .garjin. bu     [gapru djine]
+    セディーユ     .seDIlys. bu
+    二重鋭アクセント    .re&#39;akut. bu        [re akut.]
+    オゴネク      .ogoniek. bu
+    ハーチェク       .xatcek. bu
+    合字のfi    tei fy. ibu foi
+    デンマーク語、ラテン語の合字ae tei .abu .ebu foi
+    オランダ語の合字ij    tei .ibu jy. foi
+    ドイツ語の合字sz   tei sy. zy. foi</code></pre>
 
-<h3 id='20_proposed_lerfu_words_for_radio_communication'>20. Proposed lerfu words for radio communication</h3>
+<h3 id='20_'>20. 無線通信のためのレルフ詞の案</h3>
 
-<p>There is a set of English words which are used, by international agreement, as lerfu words (for the English alphabet) over the radio, or in noisy situations where the utmost clarity is required. Formally they are known as the &#8220;ICAO Phonetic Alphabet&#8221;, and are used even in non-English-speaking countries.</p>
+<p>無線を介した通信や、騒音の激しい環境下で完璧に間違いなくメッセージを伝える必要がある場合に使う一群のレルフ詞がある。国際的合意によって決められたもので、英語のアルファベットに対してそれぞれ英語の単語が対応付けられたものである。正式には「ICAOフォネティックコード」と呼ばれ、非英語圏の国でも使われている。</p>
 
-<p>This table presents the standard English spellings and proposed Lojban versions. The Lojbanizations are not straightforward renderings of the English sounds, but make some concessions both to the English spellings of the words and to the Lojban pronunciations of the lerfu (thus &#8220;carlis. bu&#8221;, not &#8220;tcarlis. bu&#8221;).</p>
+<p>以下に、英語の単語を標準的なつづり方でつづったものと、ロジバン版の案を表にした。ロジバン版の語は英語の音そのままにはなっておらず、英語のつづりとロジバンの発音の両方において譲歩している箇所がある（「tcarlis. bu」ではなく「carlis. bu」としているなど）。</p>
 
 <pre><code>    Alfa        .alfas. bu
     Bravo       .bravos. bu

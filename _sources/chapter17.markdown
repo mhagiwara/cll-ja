@@ -5,67 +5,43 @@ title: "CLL 第17章"
 
 <img src="./images/chapter17.gif" alt="[Cartoon]" width="398" height="404" />
 
-## Chapter 17
+## 第17章: 「いろは」なんて簡単!？ {%_ Lojban%}の{%_ letteral%}の仕組みと使い方
 
-As Easy As A-B-C? The Lojban Letteral System And Its Uses
+### 1. そもそも{%_ letteral%}って何なのさ?
+{#s1}
 
-### 1. What's a letteral, anyway?
 
-James Cooke Brown, the founder of the Loglan Project, coined the word
-"letteral" (by analogy with "numeral") to mean a letter of the alphabet,
-such as "f" or "z". A typical example of its use might be
+「{%_ letteral%}」(letteral)は、{%_ Loglan Project%}を設立した{%_ James Cooke Brown%}が「数詞」(numeral)にならって作った言葉で、英語で言えば f や z のようなアルファベットの一文字一文字を言う。日本語なら以下の例がわかりやすいだろう:
 
-    1.1)  There are fourteen occurrences of the letteral
-            "e" in this sentence.
+    1.1)  この文には「い」という{%_ letteral%}が3つ含まれている。
 {#e1d1}    
 
-(Don't forget the one within quotation marks.) Using the word "letteral"
-avoids confusion with "letter", the kind you write to someone. Not
-surprisingly, there is a Lojban gismu for "letteral", namely "lerfu", and
-this word will be used in the rest of this chapter.
+(かぎ括弧の中の「い」も数えるのを忘れないように!) 単に「字」と言ってもよいのだが、これは複数の意味に取ることができる。かわりに「{%_ letteral%}」という専用の単語を使えば混乱を避けることができる。当然ながら{%_ Lojban%}には「{%_ letteral%}」の意味を持つ専用の{%_ gismu%}があり、「{%_ lerfu%}」という。この章ではこれ以降、「{%_ lerfu%}」を使うことにする。
 
-Lojban uses the Latin alphabet, just as English does, right? Then why is there
-a need for a chapter like this? After all, everyone who can read it already
-knows the alphabet. The answer is twofold:
+{%_ Lojban%}は英語と同じで、ラテン文字を使うのでしょう？ わざわざ章を割くほどのことはないんじゃない? アルファベットなんてほとんどの人が知ってるでしょうに。とお思いだろうか。答えは2つある:
 
-First, in English there are a set of words that correspond to and represent
-the English lerfu. These words are rarely written down in English and have no
-standard spellings, but if you pronounce the English alphabet to yourself you
-will hear them: ay, bee, cee, dee ... . They are used in spelling out words
-and in pronouncing most acronyms. The Lojban equivalents of these words are
-standardized and must be documented somehow.
+まず、英語には英語の{%_ lerfu%}を表す名前があるものの、書き下されることもほとんどなく、決まった綴り方もない。日常生活に登場するのは、英語のアルファベットを口に出して言うとき (エー、ビー、シー、ディー...) や、単語の綴り方を説明する時、略語を発音する時などである。それに対して{%_ Lojban%}ではこれらの名前がきっちりと定められており、この本のどこかで説明しておかなければいけない、というのがこの章の存在意義の1つ目だ。
 
-Second, English has names only for the lerfu used in writing English. (There
-are also English names for Greek and Hebrew lerfu: English-speakers usually
-refer to the Greek lerfu conventionally spelled "phi" as "fye", whereas
-"fee" would more nearly represent the name used by Greek-speakers. Still,
-not all English-speakers know these English names.) Lojban, in order to be
-culturally neutral, needs a more comprehensive system that can handle, at
-least potentially, all of the world's alphabets and other writing systems.
+2つ目に、例えば英語では英語を構成する{%_ lerfu%}についてだけ何らかの名前がある。(より正確には、ギリシアとヘブライ{%_ lerfu%}についても英語の名前があるが、全ての英語話者が知っているわけではなく、それぞれの言語で使われる名前とまったく同じでもない。例えばphiと書き下されるギリシア語の文字があるが、英語話者ならこれを「ファイ」と発音し、ギリシア語話者なら「フィー」に近い発音をする。) {%_ Lojban%}は文化的に中立な言語をめざす以上、あらゆる言語の文字体系を扱える、あるいは少なくとも扱う能力のある総合的な仕組みを備えている必要がある。
 
-Letterals have several uses in Lojban: in forming acronyms and abbreviations,
-as mathematical symbols, and as pro-sumti --- the equivalent of English
-pronouns.
+{%_ Lojban%}では{%_ letteral%}を活用した表現が何種類かある。頭字語や略語、数式中の記号、{%_ pro-sumti%} (日本語でいう代名詞にあたるもの) である。
 
-In earlier writings about Lojban, there has been a tendency to use the word
-"lerfu" for both the letterals themselves and for the Lojban words which
-represent them. In this chapter, that tendency will be ruthlessly suppressed,
-and the term "lerfu word" will invariably be used for the latter. The Lojban
-equivalent would be "lerfu valsi" or "lervla".
+{%_ Lojban%}の初期の頃の文書では、{%_ letteral%}そのものと、{%_ letteral%}それぞれを表す{%_ Lojban%}の単語の両方について「{%_ lerfu%}」という用語を区別なく使う傾向があった。この章では、その曖昧さを完全に断ち切り、後者の意味を表したい時はいつも「{%_ lerfu word%}」を使うことにする。{%_ Lojban%}ではlerfu valsiまたはlervlaになる。
 
-### 2. A to Z in Lojban, plus one
+### 2. AからZまで{%_ Lojban%}で、それからオマケを1つ
+{#s2}
 
-The first requirement of a system of lerfu words for any language is that they
-must represent the lerfu used to write the language. The lerfu words for
-English are a motley crew: the relationship between "doubleyou" and "w" is
-strictly historical in nature; "aitch" represents "h" but has no clear
-relationship to it at all; and "z" has two distinct lerfu words, "zee" and
-"zed", depending on the dialect of English in question.
+どんな言語であれ、{%_ lerfu word%}の体系としての必須条件は、その言語を書き綴るのに使われる{%_ lerfu%}1つ1つを表せることだ。英語の{%_ lerfu word%}は雑然としたものである。「ダブリュー」と「w」が対応関係にあるのはまったく歴史的な経緯によるものであり、「エイチ」が「h」を表す理由はとくに見当たらない。「z」に至っては、2つの{%_ lerfu word%}があり、英語の方言によって「ズィー」か「ゼッド」になる。
 
-All of Lojban's basic lerfu words are made by one of three rules:
+訳注: 本書はもともと英語で書かれており、また英語と{%_ Lojban%}はアルファベットがほぼ共通しているため、今後も英語と対比しての説明が何箇所か出てくる。
 
-    to get a lerfu word for a vowel, add "bu"; to get a lerfu word for a consonant, add "y"; the lerfu word for "'" is ".y'y".
-Therefore, the following table represents the basic Lojban alphabet:
+{%_ Lojban%}の基本的な{%_ lerfu word%}は、次の3つの規則のどれかから作られている:
+
+    母音の{%_ lerfu word%}: 後ろにbuを付ける
+    子音の{%_ lerfu word%}: 後ろにyを付ける
+    「'」の{%_ lerfu word%}は「.y'y」
+
+つまり{%_ Lojban%}のアルファベットを一覧にすると以下のようになる:
 
        '   a   b   c   d   e
         .y'y.   .abu    by. cy. dy. .ebu
@@ -79,19 +55,9 @@ Therefore, the following table represents the basic Lojban alphabet:
         t   u   v   x   y   z
         ty. .ubu    vy. xy. .ybu    zy.
 
-There are several things to note about this table. The consonant lerfu words
-are a single syllable, whereas the vowel and "'" lerfu words are two
-syllables and must be preceded by pause (since they all begin with a vowel).
-Another fact, not evident from the table but important nonetheless, is that
-"by" and its like are single cmavo of selma'o BY, as is ".y'y". The vowel
-lerfu words, on the other hand, are compound cmavo, made from a single vowel
-cmavo plus the cmavo "bu" (which belongs to its own selma'o, BU). All of the
-vowel cmavo have other meanings in Lojban (logical connectives, sentence
-separator, hesitation noise), but those meanings are irrelevant when "bu"
-follows.
+ここで注意してほしい点をいくつか挙げよう。子音の{%_ lerfu word%}は単音節だが、母音と「'」の{%_ lerfu word%}は2音節になっており、前に休止をおかなければいけない (母音で始まる語であるため)。もう1つ、この表から明らかではないかもしれないが重要なポイントがある: 「by」やそれに類する{%_ lerfu word%}（これには「.y'y」も入る）は{%_ selma'o%}BYに属する{%_ cmavo%}であること、さらに母音の{%_ lerfu word%}は{%_ compound cmavo%}であり、1つの母音からなる{%_ cmavo%}と「bu」{%_ cmavo%} (これは別の{%_ selma'o%}BUに属する)を合わせたものであるということである。母音からなる{%_ cmavo%}はそれぞれ{%_ logical connective%}や文の区切り、ためらいを示す音などの役割があるが、「bu」が後に続く時にはそうした役割を果たさなくなる。
 
-Here are some illustrations of common Lojban words spelled out using the
-alphabet above:
+{%_ Lojban%}の簡単な単語を幾つか、上のアルファベットを使ってつづってみよう:
 
     2.1)  ty. .abu ny. ry. .ubu
         "t" "a" "n" "r" "u"
@@ -101,802 +67,497 @@ alphabet above:
         "k" "o" "'" "a"
 {#e2d2}
 
-Spelling out words is less useful in Lojban than in English, for two reasons:
-Lojban spelling is phonemic, so there can be no real dispute about how a word
-is spelled; and the Lojban lerfu words sound more alike than the English ones
-do, since they are made up systematically. The English words "fail" and
-"vale" sound similar, but just hearing the first lerfu word of either,
-namely "eff" or "vee", is enough to discriminate easily between them ---
-and even if the first lerfu word were somehow confused, neither "vail" nor
-"fale" is a word of ordinary English, so the rest of the spelling determines
-which word is meant. Still, the capability of spelling out words does exist in
-Lojban.
+{%_ Lojban%}の単語のつづり方を書き出したり読み上げたりすることが役に立つ場面は、英語の場合よりは少ない。理由は2つある。まず、{%_ Lojban%}のつづり方は、発音の仕方と一対一対応しているから、単語のつづり方が問題になることはまず無い。それから{%_ Lojban%}の{%_ lerfu word%}は規則的に作られているため、発音が互いに似ている。英語におけるように、つづりを伝えることで意図した単語がより伝わりやすくなることが少ないのである。例えば英語の単語、failとvaleの音は似ているが、1つめの{%_ lerfu word%}、つまりそれぞれ「エフ」と「ヴィ」を聞けば簡単に区別することができる。もしそこで聞き違えても、vailもfaleも一般的な英語の単語ではないから、残りのスペルを聞くことでどの単語のことかを判断することができる。それでも、単語のつづりを1つ1つ表現する手段が{%_ Lojban%}にはあるのだということをここでは述べておく。
 
-Note that the lerfu words ending in "y" were written (in [Example
-2.1](#e2d1) and [Example 2.2](#e2d2)) with pauses after them. It is not
-strictly necessary to pause after such lerfu words, but failure to do so can
-in some cases lead to ambiguities:
+もう1つ、「y」で終わる{%_ lerfu word%}の後に{%_ pause%}がおかれていたことに注意してほしい ([例2.1](#e2d1)と[例2.2](#e2d2))。{%_ pause%}がいつも必要というわけではないが、{%_ pause%}をおかないと曖昧な表現になることがある:
 
     2.3)  mi cy. claxu
-        I lerfu-"c" without
-        I am without (whatever is referred to by)
-            the letter "c".
+        私 {%_ lerfu%}「c」 -が無い
+        私には文字「c」(が指し示しているものが何であれ)が無い。
 {#e2d3}    
 
-without a pause after "cy" would be interpreted as:
+もしこの文に「cy」の後の{%_ pause%}が無かったら:
 
     2.4)  micyclaxu
-        (Observative:) doctor-without
-        Something unspecified is without a doctor.
+        {%_ observative%}: 医者無し
+        明示していない何かには医者がない。
 {#e2d4}
 
-A safe guideline is to pause after any cmavo ending in "y" unless the next
-word is also a cmavo ending in "y". The safest and easiest guideline is to
-pause after all of them.
+こうした曖昧さを避けるためには、「y」で終わる{%_ cmavo%}の後には、次に来る単語も「y」で終わる{%_ cmavo%}でない限り、必ず{%_ pause%}を置くことにすれば間違いない。次の語に関わらず{%_ pause%}を置くようにすれば、より簡単である。
 
-### 3. Upper and lower cases
+### 3. 大文字と小文字
 
-Lojban doesn't use lower-case (small) letters and upper-case (capital) letters
-in the same way that English does; sentences do not begin with an upper-case
-letter, nor do names. However, upper-case letters are used in Lojban to mark
-irregular stress within names, thus:
+{%_ Lojban%}では英語とは違った大文字と小文字の使い分けをする。{%_ Lojban%}では文も名前も大文字ではなく小文字で始める。大文字が{%_ Lojban%}で登場するのは、不規則なアクセントを持つ名前の中である。例えば:
 
     3.1)  .iVAN.
-        the name "Ivan" in Russian/Slavic pronunciation.
+        「イワン」のロシア語/スラヴ語読み。
 {#e3d1}
 
 
-It would require far too many cmavo to assign one for each upper-case and one
-for each lower-case lerfu, so instead we have two special cmavo "ga'e" and
-"to'a" representing upper case and lower case respectively. They belong to
-the same selma'o as the basic lerfu words, namely BY, and they may be freely
-interspersed with them.
+大文字と小文字の{%_ lerfu%}1つ1つに{%_ cmavo%}を割り当てていては数が多くなりすぎる。そこで、特別な{%_ cmavo%}2つが用意されている。「ga'e」は大文字を、「to'a」は小文字を表す{%_ cmavo%}で、他の基本的{%_ lerfu word%}と同じ{%_ selma'o%}BYに属し、好きなように混ぜて使うことができる。
 
-The effect of "ga'e" is to change the interpretation of all lerfu words
-following it to be the upper-case version of the lerfu. An occurrence of
-"to'a" causes the interpretation to revert to lower case. Thus, "ga'e
-.abu" means not "a" but "A", and Ivan's name may be spelled out thus:
+「ga'e」が登場すると、その後の{%_ lerfu word%}は全て大文字の{%_ lerfu%}を表すようになる。「to'a」が登場すると、小文字に戻る。つまり、「ga'e .abu」は「a」ではなく「A」を意味する。イワンの名前をつづってみると:
 
     3.2)  .ibu ga'e vy. .abu ny. to'a
-        i [upper] V A N [lower]
+        i [大文字] V A N [小文字]
 {#e3d2}
 
-The cmavo and compound cmavo of this type will be called "shift words".
+こうした働きをする{%_ cmavo%}や{%_ compound cmavo%}のことは今後{%_ shift word%}と呼ぼう。
 
-How long does a shift word last? Theoretically, until the next shift word that
-contradicts it or until the end of text. In practice, it is common to presume
-that a shift word is only in effect until the next word other than a lerfu
-word is found.
+{%_ shift word%}の効果はどこまで続くのか？理屈のうえでは、効果を打ち消すような{%_ shift word%}が登場するか、それともその文章の終わりまでということになる。実際には、{%_ lerfu word%}以外の単語が登場するまでの間を影響範囲と見なすことが多い。
 
-It is often convenient to shift just a single letter to upper case. The cmavo
-"tau", of selma'o LAU, is useful for the purpose. A LAU cmavo must always be
-immediately followed by a BY cmavo or its equivalent: the combination is
-grammatically equivalent to a single BY. (See [Section 14](#s14) for details.)
+1つの文字だけを{%_ shift word%}で囲いたいこともよくある。そういう時は{%_ selma'o%}LAUに属する{%_ cmavo%}「tau」が便利だ。LAU{%_ cmavo%}の後には必ずBY{%_ cmavo%}もしくはそれに相当する語が来る。このペアは文法上は1つのBYと同等のものとして扱われる。(詳しくは[第14章](chapter14.html)を参照。)
 
-A likely use of "tau" is in the internationally standardized symbols for the
-chemical elements. Each element is represented using either a single upper-
-case lerfu or one upper-case lerfu followed by one lower-case lerfu:
+「tau」を使う場面として考えられるのは、化学の元素記号である。現在国際的に用いられている表記では、各元素は1つの大文字の{%_ lerfu%}か、大文字の{%_ lerfu%}と小文字の{%_ lerfu%}で表される:
 
     3.3)  tau sy.
-        [single shift] S
-        S (chemical symbol for sulfur)
+        [一文字{%_ shift%}] S
+        S (硫黄の元素記号)
 {#e3d3}
 
     3.4)  tau sy. .ibu
-        [single shift] S i
-        Si (chemical symbol for silicon)
+        [一文字{%_ shift%}] S i
+        Si (ケイ素の元素記号)
 {#e3d4}
 
-If a shift to upper-case is in effect when "tau" appears, it shifts the next
-lerfu word only to lower case, reversing its usual effect.
+大文字{%_ shift%}中に「tau」が出てきた時は、通常とは逆で、続く{%_ lerfu word%}が小文字になる。
 
-### 4. The universal "bu"
+### 4. 万能の「bu」
 
-So far we have seen "bu" only as a suffix to vowel cmavo to produce vowel
-lerfu words. Originally, this was the only use of "bu". In developing the
-lerfu word system, however, it proved to be useful to allow "bu" to be
-attached to any word whatsoever, in order to allow arbitrary extensions of the
-basic lerfu word set.
+これまでのところ、「bu」が登場したのは母音の{%_ lerfu word%}を作るのに後に付ける時だけだった。元々想定されていた「bu」の用途はこれだけである。しかし、{%_ lerfu word%}の仕組みを構築するにあたって、{%_ lerfu word%}の基本セットを拡張するための汎用的な方法として、「bu」をどんな単語にもくっつけてよいことにすると大変便利だということが分かってきた。
 
-Formally, "bu" may be attached to any single Lojban word. Compound cmavo do
-not count as words for this purpose. The special cmavo "ba'e", "za'e",
-"zei", "zo", "zoi", "la'o", "lo'u", "si", "sa", "su", and
-"fa'o" may not have "bu" attached, because they are interpreted before
-"bu" detection is done; in particular,
+正式に決まった規則は、どんな{%_ Lojban%}の単語にも「bu」をくっつけてよいが、{%_ compound cmavo%}と一部の特殊な{%_ cmavo%}は除く、というものである。特殊な{%_ cmavo%}は以下の通り: ba'e、za'e、zei、zo、zoi、la'o、lo'u、si、sa、su、fa'o。これらは、元々の性質として「bu」より早く解釈されるので、「bu」をつけて{%_ lerfu word%}とすることができない。特に、
 
     4.1)  zo bu
-        the word "bu"
+        「bu」という単語
 {#e4d1}
 
-is needed when discussing "bu" in Lojban. It is also illegal to attach
-"bu" to itself, but more than one "bu" may be attached to a word; thus
-".abubu" is legal, if ugly. (Its meaning is not defined, but it is
-presumably different from ".abu".) It does not matter if the word is a
-cmavo, a cmene, or a brivla. All such words suffixed by "bu" are treated
-grammatically as if they were cmavo belonging to selma'o BY. However, if the
-word is a cmene it is always necessary to precede and follow it by a pause,
-because otherwise the cmene may absorb preceding or following words.
+という表現は「bu」について{%_ Lojban%}でとりあげる時に必要不可欠なものとなる。また、「bu」を「bu」自体に付けることはできないが、「bu」を2つ以上単語に付けることは許されている。つまり「.abubu」は見た目は悪いが文法上は正しい。(これがどういう意味になるかはまだ決まっていないが、「.abu」とは違う意味合いだろうと思われる。) これらの条件を満たした上で、「bu」を付けた単語は、{%_ cmavo%}であれ{%_ cmene%}であれ{%_ brivla%}であれ、文法上は{%_ selma'o%}BYに属する{%_ cmavo%}として扱われる。注意点として、{%_ cmene%}の場合は前後に{%_ pause%}を置く必要がある。そうしないと、前後の単語との区切りが無くなってしまうからである。
 
-The ability to attach "bu" to words has been used primarily to make names
-for various logograms and other unusual characters. For example, the Lojban
-name for the "happy face" is ".uibu", based on the attitudinal ".ui"
-that means "happiness". Likewise, the "smiley face", written ":-)" and
-used on computer networks to indicate humor, is called "zo'obu" The
-existence of these names does not mean that you should insert ".uibu" into
-running Lojban text to indicate that you are happy, or "zo'obu" when
-something is funny; instead, use the appropriate attitudinal directly.
+「bu」を色々な単語に付けられるようにしたことで、さまざまな記号や特殊な文字を名付けやすくなった。例えば「ニコニコマーク」は{%_ Lojban%}では「.uibu」になる。「うれしさ」を意味する{%_ attitudinal%}「.ui」を元にしたものである。インターネットやメールなどで使われる顔文字で「笑い」を表すものがあるが (英語では :-)、日本語では (^_^) など)、こちらは「zo'obu」である。こうした名前があるからといって、うれしい時や面白い時に「.uibu」などを{%_ Lojban%}文のなかに差し挟まないように注意したい。そういう時は{%_ attitudinal%}をそのまま、正しく使おう。
 
-Likewise, "joibu" represents the ampersand character, "&", based on the
-cmavo "joi" meaning "mixed and". Many more such lerfu words will probably
-be invented in future.
+同じように、「joibu」はアンパサンド「&」の名前である。元になっている{%_ cmavo%}「joi」の意味は「{%_ mixed and%}」だ。今後こうした{%_ lerfu word%}がもっと沢山作られていくだろう。
 
-The "." and "," characters used in Lojbanic writing to represent pause and
-syllable break respectively have been assigned the lerfu words "denpa bu"
-(literally, "pause bu") and "slaka bu" (literally, "syllable bu"). The
-written space is mandatory here, because "denpa" and "slaka" are normal
-gismu with normal stress: "denpabu" would be a fu'ivla (word borrowed from
-another language into Lojban) stressed "denPAbu". No pause is required
-between "denpa" (or "slaka") and "bu", though.
+{%_ Lojban%}の文章で{%_ pause%}と{%_ syllable break%}を表すのに使われる「.」と「,」は、それぞれ「denpa bu」(文字通り「{%_ pause%} bu」)と「slaka bu」(文字通り「音節 bu」)という{%_ lerfu word%}が割り当てられている。buの前の空白は必要である。「denpa」も「slaka」も規則通りのアクセントを持つ普通の{%_ gismu%}であるため、「denpabu」と書くと「denPAbu」というアクセントを持つ{%_ fu'ivla%} (別の言語から{%_ Lojban%}に借用してきた語) になってしまう。ただし、「denpa」「slaka」と「bu」の間に{%_ pause%}を置く必要はない。
 
-### 5. Alien alphabets
+### 5. 外字
 
-As stated in [Section 1](#s1), Lojban's goal of cultural neutrality demands a
-standard set of lerfu words for the lerfu of as many other writing systems as
-possible. When we meet these lerfu in written text (particularly, though not
-exclusively, mathematical text), we need a standard Lojbanic way to pronounce
-them.
+[第1節](#s1)でも触れたように、{%_ Lojban%}の目標の1つ、文化的中立性を実現するためには、できるだけ多くの文字体系の{%_ lerfu%}を表せる{%_ lerfu word%}の仕組みを備えている必要がある。{%_ Lojban%}に無い{%_ lerfu%}を目にした時に (限定するわけではないが、数式は好例である)、迷いなく{%_ Lojban%}として発音できなくてはいけない。
 
-There are certainly hundreds of alphabets and other writing systems in use
-around the world, and it is probably an unachievable goal to create a single
-system which can express all of them, but if perfection is not demanded, a
-usable system can be created from the raw material which Lojban provides.
+世界で使われている文字体系はまず間違いなく数百を下らないだろうし、1つの仕組みであらゆる文字体系を表現できるように、というのは無理難題かもしれない。だが完璧さを犠牲にすれば、{%_ Lojban%}に今ある素材だけで実用に耐えうる仕組みを作ることは可能である。
 
-One possibility would be to use the lerfu word associated with the language
-itself, Lojbanized and with "bu" added. Indeed, an isolated Greek "alpha"
-in running Lojban text is probably most easily handled by calling it ".alfas.
-bu". Here the Greek lerfu word has been made into a Lojbanized name by adding
-"s" and then into a Lojban lerfu word by adding "bu". Note that the pause
-after ".alfas." is still needed.
+1つの可能性としては、元の言語で使われている{%_ lerfu word%}を活用する方法がある。つづりを{%_ Lojban%}化し、「bu」を付けるのである。実際の話、{%_ Lojban%}の文章中にギリシア文字の「アルファ」が単独で出てくるようなケースでは、「.alfas. bu」とするのが一番簡単だろう。ギリシア語の{%_ lerfu word%}に「s」を付けることで{%_ Lojban%}として通る名前に変換し、「bu」を付けて{%_ Lojban%}の{%_ lerfu word%}としたのである。「.alfas.」の後の{%_ pause%}は省略できないことに注意しよう。
 
-Likewise, the easiest way to handle the Latin letters "h", "q", and "w"
-that are not used in Lojban is by a consonant lerfu word with "bu" attached.
-The following assignments have been made:
+同様に、{%_ Lojban%}で使われることのないラテン文字「h」「q」「w」は、それぞれが表す子音の{%_ lerfu word%}に「bu」を付けるのが簡単である。具体的には次の対応付けに決められている:
 
            .y'y.bu     h
             ky.bu       q
             vy.bu       w
 
-As an example, the English word "quack" would be spelled in Lojban thus:
+例えば、英語の「quack」という語を{%_ Lojban%}でつづってみると:
 
     5.1)  ky.bu .ubu .abu cy. ky.
         "q" "u" "a" "c" "k"
 {#e5d1}
 
-Note that the fact that the letter "c" in this word has nothing to do with
-the sound of the Lojban letter "c" is irrelevant; we are spelling an English
-word and English rules control the choice of letters, but we are speaking
-Lojban and Lojban rules control the pronunciations of those letters.
+この語で使われている文字「c」と{%_ Lojban%}の文字「c」の発音はまったく無関係であることに注意してほしい。ここでつづっている語は英語の単語であり、どの文字を使うかは英語が決めることだ。だが、その一文字一文字をつづる時は{%_ Lojban%}としてつづるのであり、どう発音するかは{%_ Lojban%}が決めることなのだ。
 
-A few more possibilities for Latin-alphabet letters used in languages other
-than English:
+英語以外の言語で使われるラテン文字についても幾つか案が上がっている:
 
-           ty.bu       þ (thorn)
-            dy.bu       &edh; (edh)
-    
-    However, this system is not ideal for all purposes.  For one thing, it is
-    verbose.  The native lerfu words are often quite long, and with "bu" added
-    they become even longer: the worst-case Greek lerfu word would be
-    ".Omikron. bu", with four syllables and two mandatory pauses.  In addition,
-    alphabets that are used by many languages have separate sets of lerfu words
-    for each language, and which set is Lojban to choose?
-    
+           ty.bu       þ (ソーン: アイスランド語で使われる。古英語でも使われた。)
+            dy.bu       &edh; (エズ: アイスランド語、フェロー語で使われる。古英語でも使われた。)
 
-The alternative plan, therefore, is to use a shift word similar to those
-introduced in [Section 3](#s3). After the appearance of such a shift word, the
-regular lerfu words are re-interpreted to represent the lerfu of the alphabet
-now in use. After a shift to the Greek alphabet, for example, the lerfu word
-"ty" would represent not Latin "t" but Greek "tau". Why "tau"? Because
-it is, in some sense, the closest counterpart of "t" within the Greek lerfu
-system. In principle it would be all right to map "ty." to "phi" or even
-"omega", but such an arbitrary relationship would be extremely hard to
-remember.
+しかしながら、この仕組みは万能ではない。1つには、場合によっては冗長になってしまう。対象の言語での正式な{%_ lerfu word%}はとても長いことが多く、「bu」を付けることでさらに長くなる。ギリシア語の{%_ lerfu word%}では、最長で「.Omikron. bu」、4音節プラス2箇所に省略不可の{%_ pause%}がある。それに、複数の言語で共通して使われる文字体系には、それぞれの言語で違う{%_ lerfu word%}がある。{%_ Lojban%}として、他を差し置いてどれか1つを選ぶことなんてできはしない。
 
-Where no obvious closest counterpart exists, some more or less arbitrary
-choice must be made. Some alien lerfu may simply not have any shifted
-equivalent, forcing the speaker to fall back on a "bu" form. Since a "bu"
-form may mean different things in different alphabets, it is safest to employ
-a shift word even when "bu" forms are in use.
+そこで代替案となるのが、[第3節](#s3)で登場したような{%_ shift word%}を使うというものである。その{%_ shift word%}の後は、{%_ Lojban%}アルファベットの{%_ lerfu word%}が別の意味を取るようになる。つまり、対象となる言語のアルファベットの{%_ lerfu%}を表すようになるのだ。例えばギリシア語のアルファベットへの{%_ shift word%}の後は、{%_ lerfu word%}「ty」はラテン文字の「t」ではなくギリシア文字の「タウ」を表すようになる。なぜ「タウ」でなくてはいけないのか？ギリシア語の{%_ lerfu%}体系の中でも、一番「t」に近いのが「タウ」だからだ。理論的には「ty.」を「ファイ」に、あるいは「オメガ」にだって対応付けても問題ない。だが、そんな恣意的な対応関係は覚えるのがきわめて難しいだろう。
 
-Shifts for several alphabets have been assigned cmavo of selma'o BY:
+あきらかな対応関係にある{%_ lerfu word%}が無い場合は、何らかの恣意的選択をせざるを得ない。{%_ shift word%}の仕組みでは対応しきれない{%_ lerfu%}の場合は、「bu」を付ける方式に頼ることになる。「bu」を付ける形でも、どの言語の{%_ lerfu%}を指しているかをはっきりさせるために、{%_ shift word%}を併用するほうがよい。
 
-        lo'a    Latin/Roman/Lojban alphabet
-        ge'o    Greek alphabet
-        je'o    Hebrew alphabet
-        jo'o    Arabic alphabet
-        ru'o    Cyrillic alphabet
+{%_ selma'o%}BYの{%_ cmavo%}が{%_ shift word%}になっている。以下は現在割り当てられている{%_ shift word%}と文字体系の一覧である:
 
-The cmavo "zai" (of selma'o LAU) is used to create shift words to still
-other alphabets. The BY word which must follow any LAU cmavo would typically
-be a name representing the alphabet with "bu" suffixed:
+        lo'a    ラテン文字/ローマ字/{%_ Lojban%}アルファベット
+        ge'o    ギリシア文字
+        je'o    ヘブライ文字
+        jo'o    アラビア文字
+        ru'o    キリル文字
+
+{%_ selma'o%}LAUに属する{%_ cmavo%}「zai」を使って、他の文字体系を対象にした{%_ shift word%}を作ることができる。LAU{%_ cmavo%}の後には必ずBYに属する語をおかなければいけないが、ここでは普通、対象とする文字体系の名前に「bu」を付けたものである:
 
     5.2)  zai .devanagar. bu
-        Devanagari (Hindi) alphabet
+        デーヴァナーガリー (ヒンディー) 文字
 {#e5d2}
 
 
     5.3)  zai .katakan. bu
-        Japanese katakana syllabary
+        日本語のカタカナの50音図
 {#e5d3}
 
 
     5.4)  zai .xiragan. bu
-        Japanese hiragana syllabary
+        日本語のひらがなの50音図
 {#e5d4}
 
-Unlike the cmavo above, these shift words have not been standardized and
-probably will not be until someone actually has a need for them. (Note the
-"." characters marking leading and following pauses.)
+上で出てきた{%_ cmavo%}とは違って、これらの{%_ shift word%}は正式なものではなく、誰かが声を上げるまでは非公式なままと考えられる。(前後に{%_ pause%}を示す「.」があることに注意。)
 
-In addition, there may be multiple visible representations within a single
-alphabet for a given letter: roman vs. italics, handwriting vs. print, Bodoni
-vs. Helvetica. These traditional "font and face" distinctions are also
-represented by shift words, indicated with the cmavo "ce'a" (of selma'o LAU)
-and a following BY word:
+さらに、1つの文字体系内であっても、同じ文字を違う表現で書き表す場合がある。ローマン体と斜体、手書き文字と印字、明朝体と行書体など。これらの一般的な「活字・書体」の区別も{%_ shift word%}でおこなわれる。{%_ selma'o%}LAUに属する{%_ cmavo%}「ce'a」とそれに続くBYによって:
 
     5.5)  ce'a .xelveticas. bu
-        Helvetica font
+        ヘルベチカ体
 {#e5d5}
 
     
     5.6)  ce'a .xancisk. bu
-        handwriting
+        手書き
 {#e5d6}
 
     
     5.7)  ce'a .pavrel. bu
-        12-point font size
+        フォントサイズ12ポイント
 {#e5d7}
 
-The cmavo "na'a" (of selma'o BY) is a universal shift-word cancel: it
-returns the interpretation of lerfu words to the default of lower-case Lojban
-with no specific font. It is more general than "lo'a", which changes the
-alphabet only, potentially leaving font and case shifts in place.
+{%_ cmavo%}「na'a」({%_ selma'o%}はBY)は、どんな{%_ shift word%}の効果も打ち消すことができる。つまり、「na'a」の後はすべての{%_ lerfu word%}が{%_ Lojban%}の小文字、かつ書体は不特定、という解釈に戻る。「lo'a」はもっと限定的で、文字体系だけが対象なので、書体や大文字小文字の{%_ shift word%}の効果は「lo'a」の後も持続する。
 
-Several sections at the end of this chapter contain tables of proposed lerfu
-word assignments for various languages.
+本章の終わりに、いくつかの言語について現在提案されている{%_ lerfu word%}がそれぞれ表にまとめられている。
 
-### 6. Accent marks and compound lerfu words
+### 6. アクセント記号と{%_ compound lerfu word%}
 
-Many languages that make use of the Latin alphabet add special marks to some
-of the lerfu they use. French, for example, uses three accent marks above
-vowels, called (in English) "acute", "grave", and "circumflex".
-Likewise, German uses a mark called "umlaut"; a mark which looks the same is
-also used in French, but with a different name and meaning.
+ラテン文字を使う言語では、一部の{%_ lerfu%}に特殊な記号を付けることがよくある。例えばフランス語では、鋭アクセント・低アクセント・曲折アクセントの3種類のアクセント記号を母音文字の上に付けて使う。同様に、ドイツ語ではウムラウトという記号を使う。フランス語でもこれと同じ形をした記号を使うが、名前も意味も違っている。
 
-These marks may be considered lerfu, and each has a corresponding lerfu word
-in Lojban. So far, no problem. But the marks appear over lerfu, whereas the
-words must be spoken (or written) either before or after the lerfu word
-representing the basic lerfu. Typewriters (for mechanical reasons) and the
-computer programs that emulate them usually require their users to type the
-accent mark before the basic lerfu, whereas in speech the accent mark is often
-pronounced afterwards (for example, in German "a umlaut" is preferred to
-"umlaut a").
+こうした記号も{%_ lerfu%}の一種として、それぞれ{%_ Lojban%}の{%_ lerfu word%}が与えられている。ここまでは簡単だ。問題は、アクセント記号を書くときは{%_ lerfu%}の上に付けて書かれるのに対し、読み上げるとき (や書き下すとき) は、付ける対象の{%_ lerfu%}を表す{%_ lerfu word%}の前後どちらかに置かなければいけないという点である。(機械上の問題から) タイプライターやそれを模したコンピュータ・プログラムでは、対象の{%_ lerfu%}の前にあらかじめアクセント記号を打ち込むようになっている。逆に、読み上げる時はアクセント記号は後に来ることが多い (例えばドイツ語では「ウムラウト a」より「a ウムラウト」の方が一般的である)。
 
-Lojban cannot settle this question by fiat. Either it must be left up to
-default interpretation depending on the language in question, or the lerfu-
-word compounding cmavo "tei" (of selma'o TEI) and "foi" (of selma'o FOI)
-must be used. These cmavo are always used in pairs; any number of lerfu words
-may appear between them, and the whole is treated as a single compound lerfu
-word. The French word "ete", with acute accent marks on both "e" lerfu,
-could be spelled as:
+前に置くか後に置くか、{%_ Lojban%}の独断でどちらかに決めることはできない。対象の言語での一般的な解釈にまかせるか、もしくは{%_ compound lerfu word%}を作る{%_ cmavo%}「tei」({%_ selma'o%}TEI)と「foi」({%_ selma'o%}TEI)を使うことになる。この2つの{%_ cmavo%}はいつも組で使い、間に好きなだけ{%_ lerfu word%}をはさんでよい。すると全体が1つの{%_ compound lerfu word%}として扱われるようになる。例えばフランス語の単語、「ete」で両方の「e」{%_ lerfu%}に鋭アクセント記号が付いたものは、以下のようにつづることができる:
 
     6.1)  tei .ebu .akut. bu foi ty. tei .akut. bu .ebu foi
-        ( "e" acute ) "t" ( acute "e" )
+        ( "e" 鋭アクセント記号付き ) "t" ( 鋭アクセント記号付き "e" )
 {#e6d1}
 
-and it does not matter whether "akut. bu" appears before or after ".ebu";
-the "tei ... foi" grouping guarantees that the acute accent is associated
-with the correct lerfu. Of course, the level of precision represented by
-[Example 6.1](#e6d1) would rarely be required: it might be needed by a Lojban-
-speaker when spelling out a French word for exact transcription by another
-Lojban-speaker who did not know French.
+この方法では、「akut. bu」が「.ebu」の前に来ようが後に来ようが、意味は同じになる。「tei ... foi」で囲うことで、鋭アクセント記号がどの{%_ lerfu%}に付けられているのかが正確に決まるからである。もちろん、[例6.1](#e6d1)のような精確さでものを言わなければいけない場合はめったにない。あるとすれば、フランス語を知らない{%_ Lojban%}話者に、フランス語の単語のつづりを間違いなく{%_ Lojban%}で伝えたい時などだろう。
 
-This system breaks down in languages which use more than one accent mark on a
-single lerfu; some other convention must be used for showing which accent
-marks are written where in that case. The obvious convention is to represent
-the mark nearest the basic lerfu by the lerfu word closest to the word
-representing the basic lerfu. Any remaining ambiguities must be resolved by
-further conventions not yet established.
+1つの{%_ lerfu%}に対して複数のアクセント記号を使うような言語では、この仕組みは用を無さなくなる。どのアクセント記号をどの位置に付ければいいのかを指定するための、新しい規則が必要になる。簡単なものとしては、対象の{%_ lerfu%}に近い順に、アクセント記号の{%_ lerfu word%}を並べるというものだ。それでも曖昧さが残るのであれば、さらに何らかの規則を導入することになるだろう。
 
-Some languages, like Swedish and Finnish, consider certain accented lerfu to
-be completely distinct from their unaccented equivalents, but Lojban does not
-make a formal distinction, since the printed characters look the same whether
-they are reckoned as separate letters or not. In addition, some languages
-consider certain 2-letter combinations (like "ll" and "ch" in Spanish) to
-be letters; this may be represented by enclosing the combination in "tei ...
-foi".
+スウェーデン語やフィンランド語のような言語では、アクセント記号付きの{%_ lerfu%}が、記号なしのものとは別に、1つの独立した{%_ lerfu%}として数えられる。しかし、紙面上ではそうした解釈の違いは表現されないので、{%_ Lojban%}でもとくに区別する方法は考えられていない。また、言語の中には、特定の2文字の組み合わせを1つの文字と見なすものがある (スペイン語なら「ll」や「ch」)。これはその2文字を「tei ... foi」で囲うことで表現できる。
 
-In addition, when discussing a specific language, it is permissible to make up
-new lerfu words, as long as they are either explained locally or well
-understood from context: thus Spanish "ll" or Croatian "lj" could be
-called "libu", but that usage would not necessarily be universally
-understood.
+なお、他の言語が話題になっていて、適切な{%_ lerfu word%}がない時には、その場で新しく名付けてよいことになっている。ただし、文脈上意味が明確であるか、それともどういう意味かをその場で説明する必要がある。スペイン語の「ll」やクロアチア語の「lj」を「libu」と即席で呼んでもよいが、{%_ Lojban%}話者なら誰でも通じるわけではないということだ。
 
-[Section 19](#s19) contains a table of proposed lerfu words for some common
-accent marks.
+[19節](#s19)に、一般的なアクセント記号について現在提案されている{%_ lerfu word%}の一覧がある。
 
-### 7. Punctuation marks
+### 7. 句読点記号
 
-Lojban does not have punctuation marks as such: the denpa bu and the slaka bu
-are really a part of the alphabet. Other languages, however, use punctuation
-marks extensively. As yet, Lojban does not have any words for these
-punctuation marks, but a mechanism exists for devising them: the cmavo "lau"
-of selma'o LAU. "lau" must always be followed by a BY word; the
-interpretation of the BY word is changed from a lerfu to a punctuation mark.
-Typically, this BY word would be a name or brivla with a "bu" suffix.
+{%_ Lojban%}にはいわゆる句読点はない。denpa buもslaka buもアルファベットの一部として定義されている。が、他の言語では句読点がふんだんに使われる。今のところ、{%_ Lojban%}ではこうした句読点に正式な名前は与えられていないが、必要になった時のための最低限の規則が決められている。それが{%_ selma'o%}LAUに属する{%_ cmavo%}「lau」である。「lau」の後には必ずBY類の単語が続き、{%_ lerfu%}ではなく句読点として解釈される。この「BY類の単語」は大抵は「bu」の付いた固有名詞か{%_ brivla%}である。
 
-Why is "lau" necessary at all? Why not just use a "bu"-marked word and
-announce that it is always to be interpreted as a punctuation mark? Primarily
-to avoid ambiguity. The "bu" mechanism is extremely open-ended, and it is
-easy for Lojban users to make up "bu" words without bothering to explain
-what they mean. Using the "lau" cmavo flags at least the most important of
-such nonce lerfu words as having a special function: punctuation. (Exactly the
-same argument applies to the use of "zai" to signal an alphabet shift or
-"ce'a" to signal a font shift.)
+そもそも何故「lau」が要るのだろう？ただ単に、この「bu」付きの単語は句読点の{%_ lerfu word%}である、と宣言してしまえばいいのでは？答は主にあいまいさを避けるためである。「bu」を付けて{%_ lerfu word%}を作る仕組みは制約が少なく、何の説明も無しに自由に新しい「bu」語を作ってしまうことが可能である。「lau」{%_ cmavo%}を使うことで、少なくともそうしたその場限りのアドリブで作られた語のどれが「句読点」であるか、という重要な区別を付けることができる。(同じ考え方で選定されたのが「zai」(文字体系の{%_ shift word%})と「ce'a」(書体の{%_ shift word%})である。)
 
-Since different alphabets require different punctuation marks, the
-interpretation of a "lau"-marked lerfu word is affected by the current
-alphabet shift and the current font shift.
+文字体系によって句読点記号も違うため、「lau」の付いた{%_ lerfu word%}の解釈はその時の文字体系の{%_ shift word%}と書体の{%_ shift word%}によって左右される。
 
-### 8. What about Chinese characters?
+### 8. 漢字は？
 
-Chinese characters ("han4zi4" in Chinese, "kanji" in Japanese) represent
-an entirely different approach to writing from alphabets or syllabaries. (A
-syllabary, such as Japanese hiragana or Amharic writing, has one lerfu for
-each syllable of the spoken language.) Very roughly, Chinese characters
-represent single elements of meaning; also very roughly, they represent single
-syllables of spoken Chinese. There is in principle no limit to the number of
-Chinese characters that can exist, and many thousands are in regular use.
+文字による表現方法としてみた時、漢字 (中国語で「han4zi4」) は、アルファベットのような表音文字とも日本語のひらがなのような音節文字とも一線を画している。(音節文字は、ひらがなの他、アムハラ語でも使われるもので、発音した時の音節ごとに1つの{%_ lerfu%}が割り当てられるものである。) おおざっぱに言って、漢字はそれぞれ1つの意味要素を表している。また、これまたおおざっぱに言えば、漢字はそれぞれ中国語の1音節を表している。許される漢字の数には上限がなく、実際数千という文字が日常的に使われている。
 
-It is hopeless for Lojban, with its limited lerfu and shift words, to create
-an alphabet which will match this diversity. However, there are various
-possible ways around the problem.
+{%_ Lojban%}の数少ない{%_ lerfu%}と{%_ shift word%}をもってして、この多様な文字に対応する文字体系を作り出すのは絶望的な試みである。だが、回り道をすれば方法が無いこともない。それも複数。
 
-First, both Chinese and Japanese have standard Latin-alphabet representations,
-known as "pinyin" for Chinese and "romaji" for Japanese, and these can be
-used. Thus, the word "han4zi4" is conventionally written with two
-characters, but it may be spelled out as:
+まず、中国語も日本語も、ラテン文字による書き下し方法が標準化されている。中国語ではピンイン、日本語ではローマ字である。これは使える。「han4zi4」は普通は漢字2文字の単語だが、以下のように書き下すことができる:
 
     8.1)  .y'y.bu .abu ny. vo zy. .ibu vo
         "h" "a" "n" 4 "z" "i" 4
 {#e8d1}
 
-The cmavo "vo" is the Lojban digit "4". It is grammatical to intersperse
-digits (of selma'o PA) into a string of lerfu words; as long as the first
-cmavo is a lerfu word, the whole will be interpreted as a string of lerfu
-words. In Chinese, the digits can be used to represent tones. Pinyin is more
-usually written using accent marks, the mechanism for which was explained in
-[Section 6](#s6).
+{%_ cmavo%}「vo」は{%_ Lojban%}の数字「4」だ。文法上、{%_ lerfu word%}の並びに数字 ({%_ selma'o%}PA) を自由に差し挟んでよいことになっており、先頭の{%_ cmavo%}が{%_ lerfu word%}でありさえすれば、全体が一連の{%_ lerfu word%}として解釈される。中国語なら、この数字を使って声調を示すことができる。通常ピンインでは声調を示すのにアクセント記号が使われる。こちらは[6節](#s6)で解説ずみである。
 
-The Japanese company named "Mitsubishi" in English is spelled the same way
-in romaji, and could be spelled out in Lojban thus:
+日本の「三菱」という会社はローマ字で以下のように書き下される:
 
     8.2)  my. .ibu ty. sy. .ubu by. .ibu sy. .y'y.bu .ibu
         "m" "i" "t" "s" "u" "b" "i" "s" "h" "i"
 {#e8d2}
 
-Alternatively, a really ambitious Lojbanist could assign lerfu words to the
-individual strokes used to write Chinese characters (there are about seven or
-eight of them if you are a flexible human being, or about 40 if you are a
-rigid computer program), and then represent each character with a "tei", the
-stroke lerfu words in the order of writing (which is standardized for each
-character), and a "foi". No one has as yet attempted this project.
+別の方法として、意欲あふれる{%_ Lojbanist%}向きのものがある。まず漢字の1つ1つの字画に{%_ lerfu word%}をあてる (その数は、あなたが人間であれば、融通がきくので7から8個、融通のきかないコンピュータ・プログラムであれば40個ほど)。漢字1文字を表すには、「tei」を先頭に筆順に従って字画の{%_ lerfu word%}を並べ (筆順は標準化されている)、最後に「foi」で閉じる。この方法を実際にやってみた人はまだいない。
 
-### 9. lerfu words as pro-sumti
+### 9. {%_ pro-sumti%}としての{%_ lerfu word%}
 
-So far, lerfu words have only appeared in Lojban text when spelling out words.
-There are several other grammatical uses of lerfu words within Lojban. In each
-case, a single lerfu word or more than one may be used. Therefore, the term
-"lerfu string" is introduced: it is short for "sequence of one or more
-lerfu words".
+これまでに登場した{%_ lerfu word%}の用途は{%_ Lojban%}文章内で単語をつづることだけだった。この他にも{%_ lerfu word%}を使った表現が幾つかあるので紹介しよう。どの表現でも{%_ lerfu word%}単体か、複数を連ねたものが使われる。この「1つ以上の{%_ lerfu word%}の連なり」を端的に言い表すため、{%_ lerfu string%}という用語を使うことにする。
 
-A lerfu string may be used as a pro-sumti (a sumti which refers to some
-previous sumti), just like the pro-sumti "ko'a", "ko'e", and so on:
+{%_ lerfu string%}の用法として、第一にまず{%_ pro-sumti%}がある。{%_ pro-sumti%}はそれまでに出てきた別の{%_ sumti%}を指す{%_ sumti%}で、他には「ko'a」や「ko'e」などがある。
 
     9.1)  .abu prami by.
-        A loves B
+        AはBを愛する。
 {#e9d1}
 
-In [Example 9.1](#e9d1), ".abu" and "by." represent specific sumti, but
-which sumti they represent must be inferred from context.
+[例9.1](#e9d1)では、「.abu」と「by.」が具体的にどの{%_ sumti%}を指しているかは文脈から推測しなければならない。
 
-Alternatively, lerfu strings may be assigned by "goi", the regular pro-sumti
-assignment cmavo:
+あるいは、{%_ pro-sumti%}の参照先を指定するための{%_ cmavo%}、「goi」を使って明示することもできる。
 
     9.2)  le gerku goi gy. cu xekri .i gy. klama le zdani
-        The dog, or G, is black.  G goes to the house.
+        その犬Gは黒い。Gはハウスに行く。
 {#e9d2}
 
-There is a special rule that sometimes makes lerfu strings more advantageous
-than the regular pro-sumti cmavo. If no assignment can be found for a lerfu
-string (especially a single lerfu word), it can be assumed to refer to the
-most recent sumti whose name or description begins in Lojban with that lerfu.
-So [Example 9.2](#e9d2) can be rephrased:
+とある特殊ルールのおかげで、通常の{%_ pro-sumti%}用{%_ cmavo%}より{%_ lerfu string%}の方が便利なことがある。{%_ lerfu string%}（とくに1文字のもの）の指示先の指定がない場合には、綴りがその{%_ lerfu%}で始まる{%_ name%}や{%_ description sumti%}のうち、一番最後に登場したものが自動的にあてられる、というものである。つまり例9.2は以下のようにしても問題ない:
 
     9.3)  le gerku cu xekri. .i gy. klama le zdani
-        The dog is black.  G goes to the house.
+        その犬は黒い。Gはハウスに行く。
 {#e9d3}
 
-(A less literal English translation would use "D" for "dog" instead.)
+（逐語訳でなくてよければ、Gではなく「イ」になるだろう。）
 
-Here is an example using two names and longer lerfu strings:
+こちらの例では、{%_ name%}を2つと、長めの{%_ lerfu string%}を使っている。
 
     9.4)  la stivn. mark. djonz. merko
             .i la .aleksandr. paliitc. kuzNIETsyf. rusko
             .i symyjy. tavla .abupyky. bau la lojban.
-        Steven Mark Jones is-American.
-            Alexander Pavlovitch Kuznetsov is-Russian.
-            SMJ talks-to APK in Lojban.
+        スティーブン・マーク・ジョーンズはアメリカ人だ。
+        アレクサンダー・パヴロヴィッチ・クズネツォフはロシア人だ。
+        SMJはAPKに{%_ Lojban%}で話す。
 {#e9d4}
 
-Perhaps Alexander's name should be given as "ru'o.abupyky" instead.
+アレクサンダーの名前は「ru'o.abupyky」の方が良いかもしれない。
 
-What about
+この例はどういう意味だろう。
 
     9.5)  .abu dunda by. cy.
-        A gives B C
 {#e9d5}
 
-Does this mean that A gives B to C? No. "by. cy." is a single lerfu string,
-although written as two words, and represents a single pro-sumti. The true
-interpretation is that A gives BC to someone unspecified. To solve this
-problem, we need to introduce the elidable terminator "boi" (of selma'o
-BOI). This cmavo is used to terminate lerfu strings and also strings of
-numerals; it is required when two of these appear in a row, as here. (The
-other reason to use "boi" is to attach a free modifier --- subscript,
-parenthesis, or what have you --- to a lerfu string.) The correct version is:
+AがBをCにあげる、ということだろうか？いや、そうではない。「by. cy.」は2つの単語のように見えるが、実際は1つの{%_ lerfu string%}として解釈され、全体で1つの{%_ pro-sumti%}となる。つまり正確にはAがBCを誰かにあげるという意味になってしまう。この問題を解決するには、{%_ elidable%}{%_ terminator%}「boi」（{%_ selma'o%}BOI）に登場願う必要がある。boiは{%_ lerfu string%}や{%_ numeral string%}の終端を示すのに使われ、今回のように連続している場合には間に挟む必要がある。（boiを使って添え字や括弧など{%_ free modifier%}を{%_ lerfu string%}に付けることもできる。）それでは修正してみよう:
 
     9.6)  .abu [boi] dunda by. boi cy. [boi]
-        A gives B to C
+        AはBをCにあげる。
 {#e9d6}
 
-where the two occurrences of "boi" in brackets are elidable, but the
-remaining occurrence is not. Likewise:
+括弧内のboiは省略可能だが、それ以外は省略してはいけない。同様に、
 
     9.7)  xy. boi ro [boi] prenu cu prami
-        X all persons loves.
-        X loves everybody.
+        Xはすべての人を愛する。
 {#e9d7}
 
-requires the first "boi" to separate the lerfu string "xy." from the digit
-string "ro".
+{%_ lerfu string%}「xy.」と{%_ numeral string%}「ro」の境界を示すのに最初のboiが必要である。
 
-### 10. References to lerfu
+### 10. {%_ lerfu%}への言及
 
-The rules of [Section 9](#s9) make it impossible to use unmarked lerfu words
-to refer to lerfu themselves. In the sentence:
+第9節の規則のため、{%_ lerfu%}そのものを名指ししたい時に{%_ lerfu word%}をそのまま言っても意図した意味にはならなくなってしまった。つまり、以下の文を聞いた相手は
 
     10.1)    .abu. cu lerfu
-        A is-a-letteral.
+        Aは{%_ letteral%}である。
 {#e10d1}
 
-the hearer would try to find what previous sumti ".abu" refers to. The
-solution to this problem makes use of the cmavo "me'o" of selma'o LI, which
-makes a lerfu string into a sumti representing that very string of lerfu. This
-use of "me'o" is a special case of its mathematical use, which is to
-introduce a mathematical expression used literally rather than for its value.
+「.abu」が指している{%_ sumti%}を文脈から探そうとする。この問題を解決するには{%_ selma'o%}LIに属する{%_ cmavo%}「me'o」を使う。me'oのあとに続く{%_ lerfu string%}は、その一連の{%_ lerfu%}そのものを表す{%_ sumti%}に変換されるのである。「me'o」は元々数式の記述で使われるもので、数式の値ではなく式そのものを示したい時に使う。この機能をうまく応用したのがここで紹介している用法である。
 
     10.2)    me'o .abu cu lerfu
-        the-expression "a" is-a-letteral.
+        「a」という句は{%_ letteral%}である。
 {#e10d2}
 
-Now we can translate [Example 1.1](#e1d1) into Lojban:
+必要な道具が揃ったので、例1.1を{%_ Lojban%}に訳してみよう。
 
     10.4)    dei vasru vo lerfu
             po'u me'o .ebu
-        this-sentence contains four letterals
-            which-are the-expression "e".
-        This sentence contains four "e"s.
+        この文には「e」が4つ含まれる。
 {#e10d4}
 
-Since the Lojban sentence has only four "e" lerfu rather than fourteen, the
-translation is not a literal one --- but [Example 10.4](#e10d4) is a Lojban
-truth just as [Example 1.1](#e1d1) is an English truth. Coincidentally, the
-colloquial English translation of [Example 10.4](#e10d4) is also true!
+<!-- eの個数についての下りは割愛 -->
 
-The reader might be tempted to use quotation with "lu ... li'u" instead of
-"me'o", producing:
+「lu ... li'u」で引用句とすればよいのでは、と思ってしまうかもしれない。つまり、
 
     10.4.5)    lu .abu li'u cu lerfu
-        [quote] .abu [unquote] is-a-letteral.
+        [引用始め] .abu [引用終わり] は{%_ letteral%}である。
 {#e10d4.5}
 
-(The single-word quote "zo" cannot be used, because ".abu" is a compound
-cmavo.) But [Example 10.4](#e10d4) is false, because it says:
+（単一の語を引用する「zo」はここでは使えない。「.abu」が{%_ compound cmavo%}だからである。）だが[例10.4](#e10d4)は正しくない。[例10.4](#e10d4)が何を言っているかというと:
 
-    10.5)    The word ".abu" is a letteral
+    10.5)    「.abu」という語は{%_ letteral%}である。
 {#e10d5}
 
-which is not the case; rather, the thing symbolized by the word ".abu" is a
-letteral. In Lojban, that would be:
+そうではなく、「.abu」という語が表している対象が{%_ letteral%}なのだから、{%_ Lojban%}では以下のようにしなくてはいけない:
 
     10.6)    la'e lu .abu li'u cu lerfu
-        The-referent-of [quote] .abu [unquote] is-a-letteral.
+        以下の指しているもの: [引用始め] .abu [引用終わり] は{%_ letteral%}である。
 {#e10d6}
 
-which is correct.
+こちらは正しい。
 
-### 11. Mathematical uses of lerfu strings
+### 11. {%_ lerfu string%}の数式での利用
 
-This chapter is not about Lojban mathematics, which is explained in [Chapter
-18](chapter18.html), so the mathematical uses of lerfu strings will be listed
-and exemplified but not explained.
+{%_ Lojban%}における数式表現については[第18章](chapter18.html)に詳しい説明があるので、ここでは{%_ lerfu string%}の数式での利用例を列挙するにとどめ、具体的な内容の説明はしないことにする。
 
-A lerfu string as mathematical variable:
+数式の変数として{%_ lerfu string%}を使う:
 
     11.1)    li .abu du li by. su'i cy.
-        the-number a equals the-number b plus c
         a = b + c
 {#e11d1}
 
-A lerfu string as function name (preceded by "ma'o" of selma'o MAhO):
+関数名として{%_ lerfu string%}を使う（{%_ selma'o%}MAhOの「ma'o」を前につける）:
 
     11.2)    li .y.bu du li ma'o fy. boi xy.
-        the-number y equals the number the-function f of x
         y = f(x)
 {#e11d2}
 
-Note the "boi" here to separate the lerfu strings "fy" and "xy".
+{%_ lerfu string%}「fy」と「xy」を分離するのに「boi」が使われていることに注目。
 
-A lerfu string as selbri (followed by a cmavo of selma'o MOI):
+{%_ selbri%}として{%_ lerfu string%}を使う（{%_ selma'o%}MOIの{%_ cmavo%}を後に付ける）:
 
     11.3)    le vi ratcu ny.moi le'i mi ratcu
-        the here rat is-nth-of the-set-of my rats
-        This rat is my Nth rat.
+        このラットは私のN番目のラットだ。
 {#e11d3}
 
-A lerfu string as utterance ordinal (followed by a cmavo of selma'o MAI):
+{%_ utterance ordinal%}として{%_ lerfu string%}を使う（{%_ selma'o%}MAIの{%_ cmavo%}を後に付ける）:
 
     11.4)    ny.mai
-        Nthly
+        N番目に
 {#e11d4}
 
-A lerfu string as subscript (preceded by "xi" of selma'o XI):
+添字として{%_ lerfu string%}を使う（{%_ selma'o%}XIの「xi」を前に付ける）:
 
-    11.5)    xy. xi ky.
-        x sub k
+<pre id="e11d5"><code>11.5)    xy. xi ky.
+    x<sub>k</sub>
+</code></pre>
 {#e11d5}
 
-A lerfu string as quantifier (enclosed in "vei ... ve'o" parentheses):
+{%_ quantifier%}として{%_ lerfu string%}を使う（数学の括弧「vei ... ve'o」で囲う）:
 
     11.6)    vei ny. [ve'o] lo prenu
-        ( "n" ) persons
+        ( "n" ) 人
 {#e11d6}
 
-The parentheses are required because "ny. lo prenu" would be two separate
-sumti, "ny." and "lo prenu". In general, any mathematical expression other
-than a simple number must be in parentheses when used as a quantifier; the
-right parenthesis mark, the cmavo "ve'o", can usually be elided.
+ここの括弧は省略不可である。「ny. lo prenu」のように省略すると、2つの別の{%_ sumti%}、「ny.」と「lo prenu」に分離してしまう。単純な数字以上に複雑な数学的表現は、{%_ quantifier%}として使う時はほとんどの場合括弧が必要である。右括弧（{%_ cmavo%}「ve'o」）は大抵省略可能だ。
 
-All the examples above have exhibited single lerfu words rather than lerfu
-strings, in accordance with the conventions of ordinary mathematics. A longer
-lerfu string would still be treated as a single variable or function name: in
-Lojban, ".abu by. cy." is not the multiplication "a x b x c" but is the
-variable "abc". (Of course, a local convention could exist that made the
-value of a variable like "abc", with a multi-lerfu-word name, equal to the
-values of the variables "a", "b", and "c" multiplied together.)
+数学の一般的慣例に合わせて、以上の例ではすべて単一の{%_ lerfu word%}だったが、{%_ lerfu string%}を使っても差し支えない。その場合も全体で1つの変数や関数の名前として解釈される。つまり、{%_ Lojban%}では「.abu by. cy.」といっても「a x b x c」のような掛け算の意味にはならず、「abc」という変数になる。（もちろん、場合によっては、複数の{%_ lerfu word%}でできた名前を持つ変数（例えば「abc」）の値は、それぞれの{%_ lerfu word%}（「a」と「b」と「c」）を掛け合わせたものになる、というような規則が設定されていることも考えられるが。）
 
-There is a special rule about shift words in mathematical text: shifts within
-mathematical expressions do not affect lerfu words appearing outside
+数学的表現に関連して、{%_ shift word%}についての例外的規則がある: 数学的表現内での{%_ shift%}は、周辺の文章内に出てくる{%_ lerfu word%}に影響を及ぼさない。逆も同様である。
 
-mathematical expressions, and vice versa.
+### 12. 頭字語
 
-### 12. Acronyms
+頭字語は、{%_ lerfu%}でできた{%_ name%}である。例えば「DNA」「NATO」「CIA」など。「DNA」や「CIA」のように1文字ずつ発音するものもあれば、「NATO」のように普通につづられた普通の単語のように発音するものもある。また、どちらの読み方もされる場合もある。「SQL」は「エスキューエル」という人もいれば「シークェル」という人もいる。
 
-An acronym is a name constructed of lerfu. English examples are "DNA",
-"NATO", "CIA". In English, some of these are spelled out (like "DNA" and
-"CIA") and others are pronounced more or less as if they were ordinary
-English words (like "NATO"). Some acronyms fluctuate between the two
-pronunciations: "SQL" may be "ess cue ell" or "sequel".
-
-In Lojban, a name can be almost any sequence of sounds that ends in a
-consonant and is followed by a pause. The easiest way to Lojbanize acronym
-names is to glue the lerfu words together, using "'" wherever two vowels
-would come together (pauses are illegal in names) and adding a final
-consonant:
+{%_ Lojban%}の{%_ name%}を作るには、好きな音の並びに子音をつけ、{%_ pause%}を最後に置けばよい。頭字語を{%_ Lojban%}化するには、{%_ lerfu word%}をくっつけて並べ、母音が連続する箇所には「'」を挟む（{%_ pause%}は{%_ name%}には使えない）。そして最後に子音を付ける:
 
     12.1)    la dyny'abub. .i la ny'abuty'obub.
         .i la cy'ibu'abub. .i la sykybulyl.
         .i la .ibubymym. .i la ny'ybucyc.
-        DNA. NATO.
-        CIA. SQL.
-        IBM. NYC.
+        DNA。 NATO。
+        CIA。SQL。
+        IBM。NYC。
 {#e12d1}
 
-There is no fixed convention for assigning the final consonant. In [Example
-12.1](#e12d1), the last consonant of the lerfu string has been replicated into
-final position.
+最後の子音を何にするかについては、特に決まったルールはない。[例12.1](#e12d1)では、{%_ lerfu string%}のうち最後に出てくる子音をまた繰り返している。
 
-Some compression can be done by leaving out "bu" after vowel lerfu words
-(except for ".y.bu", wherein the "bu" cannot be omitted without
-ambiguity). Compression is moderately important because it's hard to say long
-names without introducing an involuntary (and illegal) pause:
+母音の{%_ lerfu word%}の「bu」を省略すれば、単語の長さを縮めることができる。（「.y.bu」の場合は、省略してしまうと意味が曖昧になるので、残しておく必要がある。）長い{%_ name%}を発音する時にはつい（文法に反して）{%_ pause%}を入れてしまいがちなので、短縮化はなかなか重要である。
 
     12.2)    la dyny'am. .i la ny'aty'om.
         .i la cy'i'am. .i la sykybulym.
         .i la .ibymym. .i la ny'ybucym.
-        DNA. NATO.
-        CIA. SQL.
-        IBM. NYC.
+        DNA。NATO。
+        CIA。SQL。
+        IBM.。NYC。
 {#e12d2}
 
-In [Example 12.2](#e12d2), the final consonant "m" stands for "merko",
-indicating the source culture of these acronyms.
+[例12.2](#e12d2)で各語の終端の子音「m」は「merko」の「m」で、これらの頭字語が発祥した文化圏の印として使っている。
 
-Another approach, which some may find easier to say and which is compatible
-with older versions of the language that did not have a "'" character, is to
-use the consonant "z" instead of "'":
+別の方法として、「'」のかわりに子音「z」を使うというものがある。こちらは「'」が無い仕様の時の言語を知っている読者にはより易しいかもしれない。
 
     12.3)    la dynyzaz. .i la nyzatyzoz.
         .i la cyzizaz. .i la sykybulyz.
         .i la .ibymyz. .i la nyzybucyz.
-        DNA. NATO.
-        CIA. SQL.
-        IBM. NYC.
+        DNA。NATO。
+        CIA。SQL。
+        IBM。NYC。
 {#e12d3}
 
-One more alternative to these lengthy names is to use the lerfu string itself
-prefixed with "me", the cmavo that makes sumti into selbri:
+{%_ lerfu string%}の前に「me」付けるという方法もある。こちらは今までの方法より短い語になる。「me」は{%_ sumti%}を{%_ selbri%}に変換する{%_ cmavo%}である:
 
     12.4)    la me dy ny. .abu
-        that-named what-pertains-to "d" "n" "a"
+        「d」「n」「a」 -に関するもの -と呼称される
 {#e12d4}
 
-This works because "la", the cmavo that normally introduces names used as
-sumti, may also be used before a predicate to indicate that the predicate is a
-(meaningful) name:
+「la」は通常は{%_ name%}を{%_ sumti%}として使う時に前置するものだが、ここでは{%_ predicate%}に付けて、その意味内容を示す{%_ name%}とする機能をうまく使っている。
 
     12.5)    la cribe cu ciska
-        that-named "Bear" writes
-        Bear is a writer
+        「熊」と呼称されるものが書く
+        熊は物書きである
 {#e12d5}
 
-[Example 12.5](#e12d5) does not of course refer to a bear ("le cribe" or
-"lo cribe") but to something else, probably a person, named "Bear".
-Similarly, "me dy ny. .abu" is a predicate which can be used as a name,
-producing a kind of acronym which can have pauses between the individual lerfu
-words.
+[例12.5](#e12d5)はもちろん実物のクマのことを言っているのではなく、おそらく熊という名前の人のことを話題している。同様に、「me dy ny. .abu」は全体で1つの{%_ predicate%}として働き、{%_ name%}の意味内容を示している。各文字の間に{%_ pause%}を挟むことのできる、一種の頭字語である。
 
-### 13. Computerized character codes
+### 13. コンピュータ処理で使われる文字コード
 
-Since the first application of computers to non-numerical information,
-character sets have existed, mapping numbers (called "character codes") into
-selected lerfu, digits, and punctuation marks (collectively called
-"characters"). Historically, these character sets have only covered the
-English alphabet and a few selected punctuation marks. International efforts
-are now underway to create a unified character set that can represent
-essentially all the characters in essentially all the world's writing systems.
-Lojban can take advantage of these encoding schemes by using the cmavo
-"se'e" (of selma'o BY). This cmavo is conventionally followed by digit cmavo
-of selma'o PA representing the character code, and the whole string indicates
-a single character in some computerized character set:
+数値計算以外のことにコンピュータが利用され始めた当初から、{%_ lerfu%}・数字・句読点記号（これらを総称してキャラクタあるいは文字と言う）のうち必要なものと、数値（「キャラクタコード」あるいは「文字コード」）との対応表が作られ、使われてきた。これをキャラクタセットと称し、近年まで英語のアルファベットと幾つかの句読点記号のみが対象だった。(訳注: 日本語やその他の文字体系を扱うキャラクタセットもそれぞれ作られていた。) 現在、国際的な取り組みとして、世界中のあらゆる文字体系のあらゆる文字を1つの統一的キャラクタセットで扱えるようにしようという動きも広まっている。{%_ Lojban%}では{%_ cmavo%}「se'e」（{%_ selma'o%}BY）を通してこれらの符号化方式を利用することができる。「se'e」の後には慣例として文字コードを示す{%_ numeric cmavo%}（{%_ selma'o%}PA）が続き、全体として特定のキャラクタセットに属する1つの文字を表す。
 
-    13.1)    me'o se'ecixa cu lerfu
+<pre id="e13d1"><code>    13.1)    me'o se'ecixa cu lerfu
             la .asycy'i'is. loi merko rupnu
-        the-expression [code] 36 is-a-letteral
-            in-set ASCII
-            for-the-mass-of American currency-units.
-        The character code 36 in ASCII represents
-            American dollars.
-        "&dollar;" represents American dollars.
+        ASCIIキャラクタセットに属するキャラクタコード36は{%_ letteral%}であり、米ドルを表す。
+        "&dollar;"は米ドルを表す。
+</code></pre>
 {#e13d1}
 
-Understanding [Example 13.1](#e13d1) depends on knowing the value in the ASCII
-character set (one of the simplest and oldest) of the "&dollar;" character.
-Therefore, the "se'e" convention is only intelligible to those who know the
-underlying character set. For precisely specifying a particular character,
-however, it has the advantages of unambiguity and (relative) cultural
-neutrality, and therefore Lojban provides a means for those with access to
-descriptions of such character sets to take advantage of them.
+[例13.1](#e13d1)を理解するためには、前提知識として"&dollar;"という文字がASCIIキャラクタセット（シンプルで古くからあるキャラクタセットの1つ）でどういう値に対応付けられているかを知っている必要がある。つまり、「se'e」方式が通じるのは符号化に用いるキャラクタセットを知っている相手だけということになる。それでも、意図した文字を正確に示したい場合においては、曖昧さのないことと（比較的）文化的に中立であるというメリットがあるため、{%_ Lojban%}ではキャラクタセットを利用することができ、そして利用したいという人にはそのための手段を提供しているである。
 
-As another example, the Unicode character set (also known as ISO 10646)
-represents the international symbol of peace, an inverted trident in a circle,
-using the base-16 value 262E. In a suitable context, a Lojbanist may say:
+もう1つ例を挙げよう。Unicodeキャラクタセット（ISO 10646と同等）では、ピースマーク（逆さの三叉を丸で囲ったもの）は16進数を用いて262Eに符号化される。文脈上許されれば、{%_ Lojbanist%}なら以下のように言える:
 
     13.2)    me'o se'erexarerei sinxa le ka panpi
-        the-expression [code] 262E is-a-sign-of
-            the quality-of being-at-peace
+        [文字コード] 262E という表現は平和であることの象徴である。
 {#e13d2}
 
-When a "se'e" string appears in running discourse, some metalinguistic
-convention must specify whether the number is base 10 (as above) or some other
-base, and which character set is in use.
+会話の中に「se'e」から始まる語が出てきた時には、後に続く数値が上のように10進数なのか、それとも他の基数なのか、そしてどのキャラクタセットを使うのか、会話の流れなどから自明であるはずである。
 
-### 14. List of all auxiliary lerfu-word cmavo
+### 14. {%_ lerfu word%}の補助として使われる{%_ cmavo%}の一覧
 
-       cmavo   selma'o     meaning
+       {%_ cmavo%}   {%_ selma'o%}     意味
     
-        bu  BU      makes previous word into
-                        a lerfu word
-        ga'e    BY      upper case shift
-        to'a    BY      lower case shift
-        tau LAU     case-shift next lerfu word only
-        lo'a    BY      Latin/Lojban alphabet shift
-        ge'o    BY      Greek alphabet shift
-        je'o    BY      Hebrew alphabet shift
-        jo'o    BY      Arabic alphabet shift
-        ru'o    BY      Cyrillic alphabet shift
-        se'e    BY      following digits are
-                        a character code
-        na'a    BY      cancel all shifts
-        zai LAU     following lerfu word
-                        specifies alphabet
-        ce'a    LAU     following lerfu word
-                        specifies font
-        lau LAU     following lerfu word
-                        is punctuation
-        tei TEI     start compound lerfu word
-        foi FOI     end compound lerfu word
+        bu  BU      直前の語を{%_ lerfu word%}に変換する
+        ga'e    BY      大文字への{%_ shift word%}
+        to'a    BY      小文字への{%_ shift word%}
+        tau LAU     次の{%_ lerfu word%}の大文字小文字を{%_ shift%}
+        lo'a    BY      ラテン/{%_ Lojban%}文字へ{%_ shift%}
+        ge'o    BY      ギリシア文字へ{%_ shift%}
+        je'o    BY      ヘブライ文字へ{%_ shift%}
+        jo'o    BY      アラビア文字へ{%_ shift%}
+        ru'o    BY      キリル文字へ{%_ shift%}
+        se'e    BY      続く数字はキャラクタコードである
+        na'a    BY      すべての{%_ shift%}を取り消す
+        zai LAU     続く{%_ lerfu word%}で文字体系を指定する
+        ce'a    LAU     続く{%_ lerfu word%}で書体を指定する
+        lau LAU     続く{%_ lerfu word%}は句読点記号である
+        tei TEI     {%_ compound lerfu word%}の始まり
+        foi FOI     {%_ compound lerfu word%}の終わり
     
 
-Note that LAU cmavo must be followed by a BY cmavo or the equivalent, where
-"equivalent" means: either any Lojban word followed by "bu", another LAU
-cmavo (and its required sequel), or a "tei ... foi" compound cmavo.
+LAU{%_ cmavo%}の後にはBY{%_ cmavo%}もしくはそれと同等の語を置かなければいけないことに注意。「同等」というのは、「bu」を後に付けた{%_ Lojban%}の単語（何でもよい）か、別のLAU{%_ cmavo%}（これも後続の語には同じ制限が付く）、もしくは「tei ... foi」で囲まれた{%_ compound cmavo%}のいずれかである。
 
-### 15. Proposed lerfu words --- introduction
+### 15. 提案されている{%_ lerfu word%}: はじめに
 
-The following sections contain tables of proposed lerfu words for some of the
-standard alphabets supported by the Lojban lerfu system. The first column of
-each list is the lerfu (actually, a Latin-alphabet name sufficient to identify
-it). The second column is the proposed name-based lerfu word, and the third
-column is the proposed lerfu word in the system based on using the cmavo of
-selma'o BY with a shift word.
+以降の各節では、{%_ Lojban%}の{%_ lerfu%}の仕組みで取り扱うことのできる文字体系について、提案されている{%_ lerfu word%}が表にまとめられている。最初の列は{%_ lerfu%}（その文字体系上の文字ではなく、ラテン文字や日本語でなるべく短く書き表したもの）、2番目の列は{%_ name%}に基づいた{%_ lerfu word%}である。3番目は、{%_ shift word%}を利用して{%_ selma'o%}BYの{%_ cmavo%}をそのまま記述する方式での{%_ lerfu word%}である。
 
-These tables are not meant to be authoritative (several authorities within the
-Lojban community have niggled over them extensively, disagreeing with each
-other and sometimes with themselves). They provide a working basis until
-actual usage is available, rather than a final resolution of lerfu word
-problems. Probably the system presented here will evolve somewhat before
-settling down into a final, conventional form.
+これらの表はとくに公式の効力を持つものではない（{%_ Lojban%}コミュニティ内で過去にいくつかの筋からの提案があり、お互いにあら探しをしたあげく、不和に終わり、さらには自分の提案をくつ返したりといった経緯がある）。{%_ lerfu word%}についての最終決定というよりは、実用上の不具合を克服した版ができるまでのたたき台と思ってもらいたい。慣例に沿った最終的なかたちに収まるまでには、ここで紹介した仕組みも多少なりとも姿を変えていくだろうと予想される。
 
-For Latin-alphabet lerfu words, see [Section 2](#s2) (for Lojban) and [Section
-5](#s5) (for non-Lojban Latin-alphabet lerfu).
+ラテン文字の{%_ lerfu word%}については[第2節](#s2)（{%_ Lojban%}で使われるもの）と、[第5節](#s5) （{%_ Lojban%}では使われないラテン文字の{%_ lerfu%}）を参照してほしい。
 
-### 16. Proposed lerfu words for the Greek alphabet
+### 16. ギリシア文字の{%_ lerfu word%}の案
 
-        alpha       .alfas. bu      .abu
-        beta        .betas. bu      by
-        gamma       .gamas. bu      gy
-        delta       .deltas. bu     dy
-        epsilon     .Epsilon. bu        .ebu
-        zeta        .zetas. bu      zy
-        eta     .etas. bu       .e'ebu
-        theta       .tetas. bu      ty. bu
-        iota        .iotas. bu      .ibu
-        kappa       .kapas. bu      ky
-        lambda      .lymdas. bu     ly
-        mu      .mus. bu        my
-        nu      .nus. bu        ny
-        xi      .ksis. bu       ksis. bu
-        omicron     .Omikron. bu        .obu
-        pi      .pis. bu        py
-        rho     .ros. bu        ry
-        sigma       .sigmas. bu     sy
-        tau     .taus. bu       ty
-        upsilon     .Upsilon. bu        .ubu
-        phi     .fis. bu        py. bu
-        chi     .xis. bu        ky. bu
-        psi     .psis. bu       psis. bu
-        omega       .omegas. bu     .o'obu
-        rough       .dasei,as. bu       .y'y
-        smooth      .psiles. bu     xutla bu
+        アルファ       .alfas. bu      .abu
+        ベータ        .betas. bu      by
+        ガンマ       .gamas. bu      gy
+        デルタ       .deltas. bu     dy
+        エプシロン     .Epsilon. bu        .ebu
+        ゼータ        .zetas. bu      zy
+        エータ     .etas. bu       .e'ebu
+        セータ       .tetas. bu      ty. bu
+        イオタ        .iotas. bu      .ibu
+        カッパ       .kapas. bu      ky
+        ラムダ      .lymdas. bu     ly
+        ミュー      .mus. bu        my
+        ニュー      .nus. bu        ny
+        クシー      .ksis. bu       ksis. bu
+        オミクロン     .Omikron. bu        .obu
+        パイ      .pis. bu        py
+        ロー     .ros. bu        ry
+        シグマ       .sigmas. bu     sy
+        タウ     .taus. bu       ty
+        ユプシロン     .Upsilon. bu        .ubu
+        ファイ     .fis. bu        py. bu
+        カイ     .xis. bu        ky. bu
+        プサイ     .psis. bu       psis. bu
+        オメガ       .omegas. bu     .o'obu
+        有気記号       .dasei,as. bu       .y'y
+        無気記号      .psiles. bu     xutla bu
     
 
-### 17. Proposed lerfu words for the Cyrillic alphabet
+### 17. キリル文字の{%_ lerfu word%}の案
 
-The second column in this listing is based on the historical names of the
-letters in Old Church Slavonic. Only those letters used in Russian are shown;
-other languages require more letters which can be devised as needed.
+2番目の列は、古代教会スラヴ語における古い名前をもとにしている。ここではロシア語で使われる文字のみを示している。他の言語でもっと文字が必要になる場合は、必要に応じて作ることができる。
 
         a       .azys. bu       .abu
         b       .bukys. bu      by
@@ -907,7 +568,7 @@ other languages require more letters which can be devised as needed.
         zh      .jivet. bu      jy
         z       .zemlias. bu        zy
         i       .ije,is. bu     .ibu
-        short i                 .itord. bu
+        短い「イ」                 .itord. bu
         k       .kakos. bu      ky
         l       .liudi,ies. bu      ly
         m       .myslites. bu       my
@@ -924,90 +585,82 @@ other languages require more letters which can be devised as needed.
         ch      .tcriyviys. bu      tcys. bu
         sh      .cas. bu        cy
         shch        .ctas. bu       ctcys. bu
-        hard sign   .ier. bu        jdari bu
+        硬音符   .ier. bu        jdari bu
         yeri        .ierys. bu      .y.bu
-        soft sign   .ieriys. bu     ranti bu
-        reversed e              .ecarn. bu
+        軟音符   .ieriys. bu     ranti bu
+        裏返したイェー              .ecarn. bu
         yu      .ius. bu        .iubu
         ya      .ias. bu        .iabu
     
 
-### 18. Proposed lerfu words for the Hebrew alphabet
+### 18. ヘブライ文字の{%_ lerfu word%}の案
 
-        aleph       .alef. bu       .alef. bu
-        bet     .bet. bu        by
-        gimel       .gimel. bu      gy
-        daled       .daled. bu      dy
-        he      .xex. bu        .y'y
-        vav     .vav. bu        vy
-        zayin       .zai,in. bu     zy
-        khet        .xet. bu        xy. bu
-        tet     .tet. bu        ty. bu
-        yud     .iud. bu        .iud. bu
-        kaf     .kaf. bu        ky
-        lamed       .LYmed. bu      ly
-        mem     .mem. bu        my
-        nun     .nun. bu        ny
-        samekh      .samex. bu      samex. bu
-        ayin        .ai,in. bu      .ai,in bu
-        pe      .pex. bu        py
-        tzadi       .tsadik. bu     tsadik. bu
-        quf     .kuf. bu        ky. bu
-        resh        .rec. bu        ry
-        shin        .cin. bu        cy
-        sin     .sin. bu        sy
-        taf     .taf. bu        ty.
-        dagesh      .daGEC. bu      daGEC. bu
-        hiriq       .xirik. bu      .ibu
-        tzeirekh    .tseirex. bu        .eibu
-        segol       .seGOL. bu      .ebu
-        qubbutz     .kubuts. bu     .ubu
-        qamatz      .kamats. bu     .abu
-        patach      .patax. bu      .a'abu
-        sheva       .cyVAS. bu      .y.bu
-        kholem      .xolem. bu      .obu
-        shuruq      .curuk. bu      .u'ubu
+        アレフ       .alef. bu       .alef. bu
+        ベート     .bet. bu        by
+        ギーメル       .gimel. bu      gy
+        ダレット       .daled. bu      dy
+        ヘー      .xex. bu        .y'y
+        ヴァヴ     .vav. bu        vy
+        ザイン       .zai,in. bu     zy
+        ヘット        .xet. bu        xy. bu
+        テット     .tet. bu        ty. bu
+        ヨッド     .iud. bu        .iud. bu
+        カフ     .kaf. bu        ky
+        ラメド       .LYmed. bu      ly
+        メム     .mem. bu        my
+        ヌン     .nun. bu        ny
+        サメフ      .samex. bu      samex. bu
+        アイン        .ai,in. bu      .ai,in bu
+        ペー      .pex. bu        py
+        ツァディー       .tsadik. bu     tsadik. bu
+        コフ     .kuf. bu        ky. bu
+        レーシュ        .rec. bu        ry
+        シン        .cin. bu        cy
+        スィン     .sin. bu        sy
+        タヴ     .taf. bu        ty.
+        ダゲッシュ      .daGEC. bu      daGEC. bu
+        ヒリック       .xirik. bu      .ibu
+        ツェーレー    .tseirex. bu        .eibu
+        セゴール       .seGOL. bu      .ebu
+        クブツ     .kubuts. bu     .ubu
+        カマツ      .kamats. bu     .abu
+        パタフ      .patax. bu      .a'abu
+        シュヴァー       .cyVAS. bu      .y.bu
+        ホラム      .xolem. bu      .obu
+        シュルク      .curuk. bu      .u'ubu
+
+
+### 19. アクセント記号と連続文字の{%_ lerfu word%}の案
+
+この一覧は完全なものではなく、ヒントにでもなればよいほどのものである。ポーランド語の「暗い」Lやマルタ語の「バー付き」Hなど、まだ正式な文字がない{%_ lerfu%}もある。
+
+        鋭アクセント       .akut. bu
+                    もしくは .pritygal. bu   [pritu galtu]
+        低アクセント       .grav. bu
+                    もしくは .zulgal. bu  [zunle galtu]
+        曲折アクセント  .cirkumfleks. bu
+                    もしくは .midgal. bu  [midju galtu]
+        チルダ       .tildes. bu
+        マクロン、長音記号      .makron. bu
+        ブレーヴェ、短音記号       .brevis. bu
+        上付きドット    .garmoc. bu     [gapru mokca]
+        ウムラウト、トレマ    relmoc. bu      [re mokca]
+        上付きリング   .garjin. bu     [gapru djine]
+        セディーユ     .seDIlys. bu
+        二重鋭アクセント    .re'akut. bu        [re akut.]
+        オゴネク      .ogoniek. bu
+        ハーチェク       .xatcek. bu
+        合字のfi    tei fy. ibu foi
+        デンマーク語、ラテン語の合字ae tei .abu .ebu foi
+        オランダ語の合字ij    tei .ibu jy. foi
+        ドイツ語の合字sz   tei sy. zy. foi
     
 
-### 19. Proposed lerfu words for some accent marks and multiple letters
+### 20. 無線通信のための{%_ lerfu word%}の案
 
-This list is intended to be suggestive, not complete: there are lerfu such as
-Polish "dark" l and Maltese h-bar that do not yet have symbols.
+無線を介した通信や、騒音の激しい環境下で完璧に間違いなくメッセージを伝える必要がある場合に使う一群の{%_ lerfu word%}がある。国際的合意によって決められたもので、英語のアルファベットに対してそれぞれ英語の単語が対応付けられたものである。正式には「ICAOフォネティックコード」と呼ばれ、非英語圏の国でも使われている。
 
-        acute       .akut. bu or
-                    .pritygal. bu   [pritu galtu]
-        grave       .grav. bu
-                    or .zulgal. bu  [zunle galtu]
-        circumflex  .cirkumfleks. bu
-                    or .midgal. bu  [midju galtu]
-        tilde       .tildes. bu
-        macron      .makron. bu
-        breve       .brevis. bu
-        over-dot    .garmoc. bu     [gapru mokca]
-        umlaut/trema    relmoc. bu      [re mokca]
-        over-ring   .garjin. bu     [gapru djine]
-        cedilla     .seDIlys. bu
-        double-acute    .re'akut. bu        [re akut.]
-        ogonek      .ogoniek. bu
-        hacek       .xatcek. bu
-        ligatured fi    tei fy. ibu foi
-        Danish/Latin ae tei .abu .ebu foi
-        Dutch ij    tei .ibu jy. foi
-        German es-zed   tei sy. zy. foi
-    
-
-### 20. Proposed lerfu words for radio communication
-
-There is a set of English words which are used, by international agreement, as
-lerfu words (for the English alphabet) over the radio, or in noisy situations
-where the utmost clarity is required. Formally they are known as the "ICAO
-Phonetic Alphabet", and are used even in non-English-speaking countries.
-
-This table presents the standard English spellings and proposed Lojban
-versions. The Lojbanizations are not straightforward renderings of the English
-sounds, but make some concessions both to the English spellings of the words
-and to the Lojban pronunciations of the lerfu (thus "carlis. bu", not
-"tcarlis. bu").
+以下に、英語の単語を標準的なつづり方でつづったものと、{%_ Lojban%}版の案を表にした。{%_ Lojban%}版の語は英語の音そのままにはなっておらず、英語のつづりと{%_ Lojban%}の発音の両方において譲歩している箇所がある（「tcarlis. bu」ではなく「carlis. bu」としているなど）。
 
         Alfa        .alfas. bu
         Bravo       .bravos. bu

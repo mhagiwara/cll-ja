@@ -13,6 +13,7 @@ argument	項
 argument tag	項タグ
 aspect	相制
 assert	表明
+attitudinal	心態詞
 attitudinal indicator	心態詞
 bridi	ブリディ
 bridi cmavo	代ブリディ	# 提案
@@ -26,6 +27,8 @@ cmene	シメネ
 comment	評言	# 提案
 complex	複合
 compound	合成
+compound cmavo	複合シマヴォ
+compound lerfu word	複合レルフ詞
 connection	接続
 connective	接続詞
 contradictory negation	矛盾否定
@@ -71,13 +74,18 @@ indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほう�
 indirect question	間接疑問
 internal bridi negation	内部ブリディ否定
 interval   範囲
-lerfu	レルフ	# 提案
+James Cooke Brown	ジェームズ・クック・ブラウン
+lerfu	レルフ
+lerfu string	レルフ列
+lerfu word	レルフ詞
+letteral	字詞
 lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
 logical connection	論理接続
 logical connective	論理接続詞
 logical entailment	論理的前提
+Loglan Project	ログラン・プロジェクト
 Lojban	ロジバン
 Lojbanist	ロジバン話者
 Logical Assertions	論理的表明
@@ -92,20 +100,24 @@ mathematical expression	数式	# 提案
 mathematical operand	数学被演算子	# 提案
 mathematical operation	数学演算	# 提案
 mathematical operator	数学演算子	# 提案
+mixed and	群化の「と」  # 提案
 modal	法制
 modal place 法制場所
 modifier	限定詞	# 提案: 修飾語/修飾句
+name	固有名  # 提案
 natural language negation	自然言語否定
 nonce word	臨時語	# 提案
 non-logical	非論理的
 non-logical connection	非論理接続	# 提案
 non-logical connective	非論理接続詞	# 提案
+numeral string	数詞列
 numeric cmavo	数字シマヴォ	# 提案
 observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
 optional	任意の	# 提案
 particle	小辞	# 提案: 他の案として「小詞」等
+pause	休止 # 検討中
 place	場所
 place-holder	穴埋め語
 place structure	場所構造 # あるいは PS?
@@ -147,6 +159,8 @@ selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
 sentence	文
+shift	変意 #  提案
+shift word	変意詞 #  提案
 signal	シグナル	# 提案
 something-unspecified	不特定の何か
 spatial tense	空間制
@@ -160,6 +174,7 @@ sumti cmavo	代スムティ	# 提案
 sumti place	スムティの場所
 sumti raising	スムティ昇格
 sumti tcita	法制スムティ
+syllable break	音節区切り
 symbol	記号	# 提案
 tag	タグ
 tanru	タンル
@@ -176,4 +191,5 @@ truth function	真偽関数
 universe of discourse 議論領域
 unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
+utterance ordinal	発話順序
 vague  漠然とした
