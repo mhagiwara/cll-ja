@@ -2199,6 +2199,24 @@ Frank and George, who are guides, are in the room.
 </section>
 
 <section>
+<title>&selma_o; VUhU</title><reference path="./chapter18.html">第18章</reference>
+<description>
+&mathematical;&operator;(+, - &eg;)。MAhO&see;。
+</description>
+<example>
+<lojban>li mu vu'u re du li ci</lojban>
+<japanese>5 - 2 = 3</japanese>
+</example>
+
+<en>
+Mathematical operators (e.g. $+$, $-$). See MAhO.
+li mu vu'u re du li ci
+The-number 5 minus 2 equals the-number 3.
+5 - 2 = 3
+</en>
+</section>
+
+<section>
 
 <title>&selma_o; XI</title><reference path="./chapter18.html">第18章</reference>
 <description>
