@@ -75,6 +75,7 @@ indirect question	間接疑問
 internal bridi negation	内部ブリディ否定
 interval   範囲
 James Cooke Brown	ジェームズ・クック・ブラウン
+left-grouping rule	左結合則
 lerfu	レルフ
 lerfu string	レルフ列
 lerfu word	レルフ詞
@@ -137,6 +138,7 @@ previous	先行する	# 提案
 pro-sumti	代スムティ
 process	過程
 property	性質
+proposition	命題
 propositional attitude	命題的態度
 quality	質
 qualifier	限定詞	# 提案: modifier との訳し分けが必要に思う
@@ -154,7 +156,7 @@ restrictive relative phrase	限定関係句
 root word	根語
 scale	段階
 scalar negation	段階否定
-scope	（文中で）掛かる範囲
+scope	（文中で）掛かる範囲	# 「係る」ではないか？
 selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
