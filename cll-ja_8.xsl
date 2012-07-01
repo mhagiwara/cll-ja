@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xsl:stylesheet SYSTEM "yjvlaste.dtd">
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:html="http://www.w3.org/1999/xhtml">
@@ -77,15 +78,19 @@
 
 <xsl:template match="section">
 <h3><xsl:number/>. <xsl:value-of select="title"/></h3>
-<xsl:apply-templates select="cmavo_list" />
+<p><xsl:apply-templates select="cmavo_list" /></p>
+<xsl:apply-templates select="paragraph" />
+<!--
 <xsl:apply-templates select="description" />
 <xsl:apply-templates select="example" />
 <xsl:apply-templates select="sideshow" />
 <xsl:apply-templates select="note" />
+-->
 </xsl:template>
 
 <xsl:template match="example">
-<pre><xsl:value-of select="lojban"/>
+<pre><xsl:attribute name="id"><xsl:value-of select="ex_no" /><!--
+--></xsl:attribute><xsl:value-of select="ex_no" />) <xsl:value-of select="lojban"/>
 (<xsl:apply-templates select="japanese"/>)</pre>
 </xsl:template>
 
@@ -107,10 +112,10 @@
 <font size="2" color="#555555"><xsl:value-of select="." /></font><br/>
 </xsl:template>
 
-
 <!-- ***************** cmavo list ****************** -->
 
 <xsl:template match="cmavo_list">
+&following2;&cmavo;をこの&section;で&discuss;する。
 <pre>
 <xsl:apply-templates select="cmavo_item" />
 </pre>
@@ -121,6 +126,20 @@
 <xsl:value-of select="selmaho" /><xsl:text>	</xsl:text>
 <xsl:value-of select="caption/ja" /><xsl:text>
 </xsl:text>
+</xsl:template>
+
+<!-- ***************** paragraph **************** -->
+
+<xsl:template match="paragraph">
+<p><xsl:apply-templates /></p>
+</xsl:template>
+
+<!-- ***************** link ****************** -->
+
+<xsl:template match="ln">
+<a><xsl:attribute name="href">
+	<xsl:value-of select="address"/></xsl:attribute>
+	<xsl:value-of select="name"/></a>
 </xsl:template>
 
 </xsl:stylesheet>

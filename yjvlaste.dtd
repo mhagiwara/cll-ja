@@ -46,6 +46,7 @@
 	<!ENTITY direction "方向">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
+	<!ENTITY discuss "説明">
 	<!ENTITY eg "など">
 	<!ENTITY elidable "省略可能な">
 	<!ENTITY eliminate1 "省略する">
@@ -57,6 +58,7 @@
 	<!ENTITY flag "フラグ">
 	<!ENTITY follow "を後置">
 	<!ENTITY following "後続する">
+	<!ENTITY following2 "以下の">
 	<!ENTITY forethought "前置">
 	<!ENTITY free "自由">
 	<!ENTITY gismu "ギスム">
@@ -143,6 +145,7 @@
 	<!ENTITY represent "を表す">
 	<!ENTITY right_grouping "右結合">
 	<!ENTITY scope "の掛かる範囲">
+	<!ENTITY section "節">
 	<!ENTITY see "を見よ">
 	<!ENTITY selbri "セルブリ">
 	<!ENTITY selma_o "セルマホ">
