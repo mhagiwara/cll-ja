@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type=text/xsl" href="cll-ja_8.xsl" ?>
+<!DOCTYPE chapter SYSTEM "yjvlaste.dtd">
+
+<chapter number="8" xmlns:html="http://www.w3.org/1999/html">
+
+<title>CLL 第8章<en>Chapter 8 Relative Clauses,
+	Which Make sumti Even More Complicated</en></title>
+<author><name>iocikun.juj</name><address>PAF01143@nifty.ne.jp</address></author>
+
+<link>
+<prev><name>第7章</name><address>./chapter7.html</address></prev>
+<next><name>第9章</name><address>./chapter9.html</address></next>
+</link>
+<image>./images/chapter8.gif</image>
+
+<section>
+<title>What are you pointing at?</title>
+<cmavo_list>
+<cmavo_item><cmavo>poi</cmavo><selmaho>NOI</selmaho>
+	<caption><ja>&relative;&clause;&introduce;</ja>
+	<en>restrictive relative clause introducer</en></caption></cmavo_item>
+<cmavo_item><cmavo>ke'a</cmavo><selmaho>GOhA</selmaho>
+	<caption><ja></ja>
+	<en>relative pro-sumti</en></caption></cmavo_item>
+<cmavo_item><cmavo>ku'o</cmavo><selmaho>KUhO</selmaho>
+	<caption><ja></ja>
+	<en>relative clause terminator</en></caption></cmavo_item>
+</cmavo_list>
+
+</section>
+
+<section>
+<title>incidental relative clauses</title>
+</section>
+
+<section>
+<title>Relative phrases</title>
+</section>
+
+<section>
+<title>Multiple relative clauses: ``zi'e"</title>
+</section>
+
+<section>
+<title>Non-veridical relative clauses: ``voi"</title>
+</section>
+
+<section>
+<title>Relative clauses and descriptors</title>
+</section>
+
+<section>
+<title>Possesive sumti</title>
+</section>
+
+<section>
+<title>Relative clauses and complex sumti: ``vu'o"</title>
+</section>
+
+<section>
+<title>Relative clauses in vocative phrases</title>
+</section>
+
+<section>
+<title>Relative clauses withen relative clauses</title>
+</section>
+
+<section>
+<title>Index of relative clause cmavo</title>
+</section>
+
+</chapter>
