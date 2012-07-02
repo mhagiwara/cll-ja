@@ -91,6 +91,7 @@
 <xsl:template match="example">
 <pre><xsl:attribute name="id"><xsl:value-of select="ex_no" /><!--
 --></xsl:attribute><xsl:value-of select="ex_no" />) <xsl:value-of select="lojban"/>
+<xsl:value-of select="english"/>
 (<xsl:apply-templates select="japanese"/>)</pre>
 </xsl:template>
 
