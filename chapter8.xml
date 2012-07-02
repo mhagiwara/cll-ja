@@ -897,6 +897,125 @@ although the syntax is the same.)
 
 <section>
 <title>Multiple relative clauses: ``zi'e"</title>
+<cmavo_list>
+<cmavo_item><cmavo>zi'e</cmavo><selmaho>ZIhE</selmaho><caption>
+	<ja></ja>
+	<en>relative clause joiner</en></caption></cmavo_item>
+</cmavo_list>
+
+<section_contents>
+
+<paragraph>
+Sometimes it is neccessary or useful to attach more than
+one relative clause to a sumti.
+This is made possible in Lojban by the cmavo ``zi'e" (of selma'o ZIhE),
+which is used to join one or more relative clauses together into a single unit,
+thus making them apply to the same sumti. For example:
+</paragraph>
+
+<example><ex_no>4.1</ex_no>
+<lojban>le gerku poi blabi zi'e poi batci le nanmu cu klama</lojban>
+<japanese></japanese>
+<en>
+The dog which is white and which bites the man goes.
+</en>
+</example>
+
+<paragraph>
+The most usual translation of ``zi'e" in English is ``and", but ``zi'e" is
+not really a logical connective: unlike most of the true logical connectives
+(which are explained in
+<ln><name>Chapter 14</name><address>./chapter14.html</address></ln>), it cannot be
+converted into a logical connection between sentences.
+</paragraph>
+
+<paragraph>
+It is perfectly correct to use ``zi'e" to connect relative clauses of different
+kinds:
+</paragraph>
+
+<example><ex_no>4.2</ex_no>
+<lojban>le gerku poi blabi zi'e noi le mi pendo cu ponse ke'a cu klama</lojban>
+<japanese></japanese>
+<en>
+The dog that-is (white) and incidentally-such-that (my friend owns IT) goes.
+The dog that is white, which my friend owns, is going.
+</en>
+</example>
+
+<paragraph>
+In <ln><name>Example 4.2</name><address>#ex4.2</address></ln>,
+the restrictive clause ``poi blabi" specifies which dog is referred to,
+but the incidental clause ``noi le mi pendo cu ponse" is mere incidental
+information:
+the listener is supposed to already have identified the dog from the ``poi blabi".
+Of course, the meaning (though not necessarily the emphasis) is the same if the
+incidental clause appears first.
+</paragraph>
+
+<paragraph>
+It is also possible to connect relative phrases with ``zi'e", or a
+relative phrase with a relative clause:
+</paragraph>
+
+<example><ex_no>4.3</ex_no>
+<lojban>le botpi po mi zi'e poi blanu cu spofu</lojban>
+<japanese></japanese>
+<en>
+The bottle specific-to me and which-is blue is-broken.
+My blue bottle is broken.
+</en>
+</example>
+
+<paragraph>
+Note that if the colloquial translation of
+<ln><name>Example 4.3</name><address>#ex4.3</address></ln>
+were ``My bottle, which is blue, is broken", then ``noi" rather than ``poi" would
+have been correct in the Lojban version, since that version of the
+English implies that you do not need to know the bottle is blue.
+As written,
+<ln><name>Example 4.3</name><address>#ex4.3</address></ln>
+suggests that I probably have more than one bottle, and the one in question needs
+to be picked out as the blue one.
+</paragraph>
+
+<example><ex_no>4.4</ex_no>
+<lojban>mi ba zutse le stizu pe mi zi'e po do zi'e poi xunre</lojban>
+<japanese></japanese>
+<en>
+I [future] sit-in the chair associated-with me and specific-to you and which-is red.
+I will sit in my chair (really yours), the red one.
+</en>
+</example>
+
+<paragraph>
+<ln><name>Example 4.4</name><address>#ex4.4</address></ln>
+illustrates that more than two relative phrases or clauses can be connected with
+``zi'e".
+It almost defies colloquial translation because of the very un-English contrast
+between ``pe mi", implying that the chair is temporarily connected with me,
+and ``po do", implying that the chair has a more permanent association with you.
+(Perhaps I am a guest in your house, in which case the chair would naturally be
+your property.)
+</paragraph>
+
+<paragraph>
+Here is another example, mixing a relative phrase and two relative clauses,
+a restrictive one and a non-restrictive one:
+</paragraph>
+
+<example><ex_no>4.5</ex_no>
+<lojban>mi ba citka le dembi pe mi zi'e poi cpana le mi palta
+zi'e noi do dunda ke'a mi</lojban>
+<japanese></japanese>
+<en>
+I [future] eat the beans associated-with me and which are-upon my plate
+and which-incidentally you gave IT to-me.
+I'll eat my beans that are on my plate, the ones you gave me.
+</en>
+</example>
+
+</section_contents>
 </section>
 
 <section>
