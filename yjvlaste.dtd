@@ -53,6 +53,7 @@
 	<!ENTITY discuss "説明">
 	<!ENTITY eg "など">
 	<!ENTITY elidable "省略可能な">
+	<!ENTITY elidable2 "省略可能">
 	<!ENTITY eliminate1 "省略する">
 	<!ENTITY eliminate2 "引き剥がす">
 	<!ENTITY end "終わり">
@@ -122,6 +123,7 @@
 	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY numerical_expression "数式">
 	<!ENTITY often "しばしば">
+	<!ENTITY omit "省略">
 	<!ENTITY operand "被演算子">
 	<!ENTITY operation "演算">
 	<!ENTITY operator "演算子">
@@ -173,8 +175,10 @@
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
 	<!ENTITY stand_for "表">
+	<!ENTITY state "述べ">
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY string "列">
+	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">
 	<!ENTITY suffix_n "接尾辞">
 	<!ENTITY sumti "スムティ">
