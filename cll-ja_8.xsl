@@ -83,8 +83,9 @@
 <h3><xsl:attribute name="id">section<xsl:value-of select="$section_number" />
 	</xsl:attribute>
 <xsl:value-of select="$section_number"/>. <xsl:value-of select="title"/></h3>
-<p><xsl:apply-templates select="cmavo_list" /></p>
-<xsl:apply-templates select="paragraph" />
+<xsl:apply-templates select="cmavo_list" />
+<xsl:apply-templates select="section_contents" />
+<!-- <xsl:apply-templates select="paragraph" /> -->
 <!--
 <xsl:apply-templates select="description" />
 <xsl:apply-templates select="example" />
@@ -94,10 +95,10 @@
 </xsl:template>
 
 <xsl:template match="example">
-<pre><xsl:attribute name="id"><xsl:value-of select="ex_no" /><!--
+<pre><xsl:attribute name="id">ex<xsl:value-of select="ex_no" /><!--
 --></xsl:attribute><xsl:value-of select="ex_no" />) <xsl:value-of select="lojban"/>
 <xsl:value-of select="english"/>
-(<xsl:apply-templates select="japanese"/>)</pre>
+(<xsl:value-of select="japanese"/>)</pre>
 </xsl:template>
 
 <xsl:template match="japanese">
@@ -147,5 +148,15 @@
 	<xsl:value-of select="address"/></xsl:attribute>
 	<xsl:value-of select="name"/></a>
 </xsl:template>
+
+<xsl:template match="text()">
+<xsl:value-of select="." />
+</xsl:template>
+
+<!--
+<xsl:template match="text()">
+<p><xsl:value-of select="." /></p>
+</xsl:template>
+-->
 
 </xsl:stylesheet>
