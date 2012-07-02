@@ -10,6 +10,7 @@
 	<!ENTITY applicable "であることを意味する">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
+	<!ENTITY association "関係">
 	<!ENTITY attach "つけ">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
@@ -82,6 +83,7 @@
 	<!ENTITY grouping "グループ化">
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY helpful "役に立">
+	<!ENTITY identification "同一">
 	<!ENTITY incidental "付随">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
@@ -91,6 +93,7 @@
 	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
 	<!ENTITY intonation "抑揚">
+	<!ENTITY intrinsic "固有">
 	<!ENTITY introducer "を導くもの">
 	<!ENTITY introduce "導">
 	<!ENTITY join "まとめる">
@@ -143,11 +146,13 @@
 	<!ENTITY override "を上書きする">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
+	<!ENTITY permanently "恒久的に">
 	<!ENTITY phrase "句">
 	<!ENTITY place "場所">
 	<!ENTITY place_structure "場所構造">
 	<!ENTITY plural "複数">
 	<!ENTITY point "指">
+	<!ENTITY possesion "所有">
 	<!ENTITY precede1 "先行">
 	<!ENTITY precede2 "に前置して">
 	<!ENTITY preceded_by "に後置して">
@@ -181,8 +186,10 @@
 	<!ENTITY sentence "文">
 	<!ENTITY separate "分ける">
 	<!ENTITY shift_word "シフト記号の役割を果たす語">
+	<!ENTITY shortcut "短い形">
 	<!ENTITY signal_n "シグナル">
 	<!ENTITY signal_v "を示す">
+	<!ENTITY single "単一の">
 	<!ENTITY singular "単数">
 	<!ENTITY speaker "言い手">
 	<!ENTITY somewhat "いくらか">

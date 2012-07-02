@@ -587,49 +587,59 @@ not to any more complex or extended concept.
 </section>
 
 <section>
-<title>Relative phrases</title>
+<title>&relative;&phrase;<en>Relative phrases</en></title>
 
 <cmavo_list>
 <cmavo_item><cmavo>pe</cmavo><selmaho>GOI</selmaho><caption>
-	<ja></ja>
+	<ja>&restrictive;&association;</ja>
 	<en>restrictive association</en></caption></cmavo_item>
 <cmavo_item><cmavo>po</cmavo><selmaho>GOI</selmaho><caption>
-	<ja></ja>
+	<ja>&restrictive;&possesion;</ja>
 	<en>restrictive possession</en></caption></cmavo_item>
 <cmavo_item><cmavo>po'e</cmavo><selmaho>GOI</selmaho><caption>
-	<ja></ja>
+	<ja>&restrictive;&intrinsic;&possesion;</ja>
 	<en>restrictive intrinsic possession</en></caption></cmavo_item>
 <cmavo_item><cmavo>po'u</cmavo><selmaho>GOI</selmaho><caption>
-	<ja></ja>
+	<ja>&restrictive;&identification;</ja>
 	<en>restrictive identification</en></caption></cmavo_item>
 <cmavo_item><cmavo>ne</cmavo><selmaho>GOI</selmaho><caption>
-	<ja></ja>
+	<ja>&incidental;&association;</ja>
 	<en>incidental association</en></caption></cmavo_item>
 <cmavo_item><cmavo>no'u</cmavo><selmaho>GOI</selmaho><caption>
-	<ja></ja>
+	<ja>&incidental;&identification;</ja>
 	<en>incidental identification</en></caption></cmavo_item>
 <cmavo_item><cmavo>ge'u</cmavo><selmaho>GEhU</selmaho><caption>
-	<ja></ja>
+	<ja>&relative;&phrase;&terminator;</ja>
 	<en>relative phrase terminator</en></caption></cmavo_item>
 </cmavo_list>
 
 <section_contents>
 
 <paragraph>
+よく使われるいくつかの種類の(それぞれの&selbri;を持つ)&relative;&clause;<!--
+-->があり、それらは<!--
+-->&relative;&phrase;と呼ばれる&shortcut;によって表現することができる。<!--
+-->&relative;&phrase;は&selma_o; GOI に属する&cmavo;に&introduce;かれ、<!--
+-->&single;&sumti;が&following; GOI &cmavo;から成る。
+<en>
 There are types of relative clauses (those which have a certain selbri)
 which are frequently wanted in Lojban,
 and can be expressed using a shortcut called a relative phrase.
 Relative phrases are introduced by cmavo of selma'o GOI,
 and consist of a GOI cmavo followed by a single sumti.
+</en>
 </paragraph>
 
 <paragraph>
+"pe" の例文と&relative;&clause;を使った同じ意味の文を示す。
+<en>
 Here is an example of ``pe", plus an equivalent sentence using a relative clause:
+</en>
 </paragraph>
 
 <example><ex_no>3.1</ex_no>
 <lojban>le stizu pe mi cu blanu</lojban>
-<japanese></japanese>
+<japanese>私の椅子は青い。</japanese>
 <en>
 The chair associated-with me is-blue.
 My chair is blue.
@@ -638,25 +648,31 @@ My chair is blue.
 
 <example><ex_no>3.2</ex_no>
 <lojban>le stizu poi ke'a srana mi cu blanu</lojban>
-<japanese></japanese>
+<japanese>私の椅子は青い。</japanese>
 <en>
 The chair such-that (IT is-associated-with me) is-blue.
 </en>
 </example>
 
 <paragraph>
+<ln><name>例文 3.1</name><address>#ex3.1</address></ln>と<!--
+--><ln><name>例文 3.2</name><address>#ex3.2</address></ln>において、<!--
+-->椅子と&speaker;のつながりは最も弱い類のものである。
+<en>
 In <ln><name>Example 3.1</name><address>#ex3.1</address></ln> and
-<ln><name>Example 3.2</name><address>#ex3.2</address></ln>, the link between
-the chair and the speaker is of the loosest kind.
+<ln><name>Example 3.2</name><address>#ex3.2</address></ln>,
+the link between the chair and the speaker is of the loosest kind.
+</en>
 </paragraph>
 
 <paragraph>
-Here is an example of ``po":
+"po" の例文を示す。
+<en>Here is an example of ``po":</en>
 </paragraph>
 
 <example><ex_no>3.3</ex_no>
 <lojban>le stizu po mi cu xunre</lojban>
-<japanese></japanese>
+<japanese>その私に固有の椅子は赤い。</japanese>
 <en>
 The chair specific-to me is red.
 </en>
@@ -664,13 +680,26 @@ The chair specific-to me is red.
 
 <example><ex_no>3.4</ex_no>
 <lojban>le stizu poi ke'a se steci srana mi cu xunre</lojban>
-<japanese></japanese>
+<japanese>その私に固有の椅子は赤い。</japanese>
 <en>
 The chair such-that (IT is-specifically associated-with me)
 </en>
 </example>
 
 <paragraph>
+<ln><name>例文 3.3</name><address>#ex3.3</address></ln>、<!--
+--><ln><name>例文 3.4</name><address>#ex3.4</address></ln>では<!--
+--><ln><name>例文 3.1</name><address>#ex3.1</address></ln>、<!--
+--><ln><name>例文 3.2</name><address>#ex3.2</address></ln>と比較して、<!--
+-->椅子はより&permanently;&speaker;につながっている。<!--
+--><ln><name>例文 3.1</name><address>#ex3.1</address></ln>、<!--
+--><ln><name>例文 3.3</name><address>#ex3.3</address></ln><!--
+-->の間の、ありそうな(しかし、それだけではない)対照としては、<!--
+-->"pe mi" が(&speaker;が所有していようといまいと)今現在&speaker;が<!--
+-->座っている椅子に適用されるのに対して、"po mi" が<!--
+-->(&speaker;が現在使用しているかどうかに関わらず)&speaker;が所有する椅子に<!--
+-->適用されるということだろう。
+<en>
 <ln><name>Example 3.3</name><address>#ex3.3</address></ln> and
 <ln><name>Example 3.4</name><address>#ex3.4</address></ln> contrast with
 <ln><name>Example 3.1</name><address>#ex3.1</address></ln> and
@@ -682,7 +711,9 @@ A plausible (though not the only possible) contrast between
 would be appropriate for a chair the speaker is currently sitting of
 (whether or not the speaker owned that chair), and ``po mi" for a chair owned
 by the speaker (whether or not he or she was currently occupying it).
+</en>
 </paragraph>
+<note># ここは特にひどい訳、必ず直すこと</note>
 
 <paragraph>
 As a result, the relationship expressed between two sumti by ``po" is
