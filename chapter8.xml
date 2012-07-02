@@ -500,6 +500,265 @@ refer to a car which is white, not to any more complex or extended concept.
 
 <section>
 <title>Relative phrases</title>
+
+<cmavo_list>
+<cmavo_item><cmavo>pe</cmavo><selmaho>GOI</selmaho><caption>
+	<ja></ja>
+	<en>restrictive association</en></caption></cmavo_item>
+<cmavo_item><cmavo>po</cmavo><selmaho>GOI</selmaho><caption>
+	<ja></ja>
+	<en>restrictive possession</en></caption></cmavo_item>
+<cmavo_item><cmavo>po'e</cmavo><selmaho>GOI</selmaho><caption>
+	<ja></ja>
+	<en>restrictive intrinsic possession</en></caption></cmavo_item>
+<cmavo_item><cmavo>po'u</cmavo><selmaho>GOI</selmaho><caption>
+	<ja></ja>
+	<en>restrictive identification</en></caption></cmavo_item>
+<cmavo_item><cmavo>ne</cmavo><selmaho>GOI</selmaho><caption>
+	<ja></ja>
+	<en>incidental association</en></caption></cmavo_item>
+<cmavo_item><cmavo>no'u</cmavo><selmaho>GOI</selmaho><caption>
+	<ja></ja>
+	<en>incidental identification</en></caption></cmavo_item>
+<cmavo_item><cmavo>ge'u</cmavo><selmaho>GEhU</selmaho><caption>
+	<ja></ja>
+	<en>relative phrase terminator</en></caption></cmavo_item>
+</cmavo_list>
+
+<section_contents>
+
+<paragraph>
+There are types of relative clauses (those which have a certain selbri)
+which are frequently wanted in Lojban,
+and can be expressed using a shortcut called a relative phrase.
+Relative phrases are introduced by cmavo of selma'o GOI,
+and consist of a GOI cmavo followed by a single sumti.
+</paragraph>
+
+<paragraph>
+Here is an example of ``pe", plus an equivalent sentence using a relative clause:
+</paragraph>
+
+<example><ex_no>3.1</ex_no>
+<lojban>le stizu pe mi cu blanu</lojban>
+<japanese></japanese>
+<en>
+The chair associated-with me is-blue.
+My chair is blue.
+</en>
+</example>
+
+<example><ex_no>3.2</ex_no>
+<lojban>le stizu poi ke'a srana mi cu blanu</lojban>
+<japanese></japanese>
+<en>
+The chair such-that (IT is-associated-with me) is-blue.
+</en>
+</example>
+
+<paragraph>
+In <ln><name>Example 3.1</name><address>#ex3.1</address></ln> and
+<ln><name>Example 3.2</name><address>#ex3.2</address></ln>, the link between
+the chair and the speaker is of the loosest kind.
+</paragraph>
+
+<paragraph>
+Here is an example of ``po":
+</paragraph>
+
+<example><ex_no>3.3</ex_no>
+<lojban>le stizu po mi cu xunre</lojban>
+<japanese></japanese>
+<en>
+The chair specific-to me is red.
+</en>
+</example>
+
+<example><ex_no>3.4</ex_no>
+<lojban>le stizu poi ke'a se steci srana mi cu xunre</lojban>
+<japanese></japanese>
+<en>
+The chair such-that (IT is-specifically associated-with me)
+</en>
+</example>
+
+<paragraph>
+<ln><name>Example 3.3</name><address>#ex3.3</address></ln> and
+<ln><name>Example 3.4</name><address>#ex3.4</address></ln> contrast with
+<ln><name>Example 3.1</name><address>#ex3.1</address></ln> and
+<ln><name>Example 3.2</name><address>#ex3.2</address></ln>:
+the chair is more permanently connected with the speaker.
+A plausible (though not the only possible) contrast between
+<ln><name>Example 3.1</name><address>#ex3.1</address></ln> and
+<ln><name>Example 3.3</name><address>#ex3.3</address></ln> is that ``pe mi"
+would be appropriate for a chair the speaker is currently sitting of
+(whether or not the speaker owned that chair), and ``po mi" for a chair owned
+by the speaker (whether or not he or she was currently occupying it).
+</paragraph>
+
+<paragraph>
+As a result, the relationship expressed between two sumti by ``po" is
+usually called ``possession", although it does not necessarily imply ownership,
+legal or otherwise.
+The central concept is that of specificity(``steci" in Lojban).
+</paragraph>
+
+<paragraph>
+Here is an example of ``po'e", as well as another example of ``po":
+</paragraph>
+
+<example><ex_no>3.5</ex_no>
+<lojban>le birka po'e mi cu spofu</lojban>
+<japanese></japanese>
+<en>
+The arm intrinsically-possesed-by me is-broaken
+</en>
+</example>
+
+<example><ex_no>3.6</ex_no>
+<lojban>le birka poi jinzi ke se steci srana mi cu spofu</lojban>
+<japanese></japanese>
+<en>
+The arm which is-intrinsically (specifically associated-with) me is-broken
+</en>
+</example>
+
+<example><ex_no>3.7</ex_no>
+<lojban>le botpi po mi cu spofu</lojban>
+<japanese></japanese>
+<en>
+The bottole specific-to me is-broken
+</en>
+</example>
+
+<paragraph>
+<ln><name>Example 3.5</name><address>#ex3.5</address></ln> and
+<ln><name>Example 3.6</name><address>#ex3.6</address></ln> on the one hand,
+and <ln><name>Example 3.7</name><address>#ex3.7</address></ln>on the other,
+illustrate the contrast between two types of possession called ``intrinsic" and
+``extrinsic", or sometimes ``inalienable" and ``alienable", respectively.
+Something is intrinsically (or inalienably) possessed by someone
+if the possession is part of the possessor, and cannot be changed without changing
+the possessor.
+In the case of <ln><name>Example 3.5</name><address>#3.5</address></ln>,
+people are usually taken to intrinsically possess their arms:
+even if an arm is cut off, it remains the arm of that person.
+(If the arm is transplanted to another person, however,
+it becomes intrinsically possessed by the new user, though,
+so intrinsic possession is a matter of degree.)
+</paragraph>
+
+<paragraph>
+By contrast, the bottle of
+<ln><name>Example 3.7</name><address>#ex3.7</address></ln> can be given away,
+or thrown away, or lost, or stolen, so it is possessed extrinsically (alienably).
+The exact line between intrinsic and extrinsic possession is culturally dependent.
+The U.S. Declaration of Independence speaks of the ``inalienable rights" of men,
+but just what those rights are, and even whether the concept makes sense at all,
+varies from culture to culture.
+</paragraph>
+
+<paragraph>
+Note that <ln><name>Example 3.5</name><address>#ex3.5</address></ln> can also be
+expressed without a relative clause:
+</paragraph>
+
+<example><ex_no>3.8</ex_no>
+<lojban>le birka be mi cu spofu</lojban>
+<japanese></japanese>
+<en>
+The arm of-body me is broken
+</en>
+</example>
+
+<paragraph>
+reflecting the fact that the gismu ``birka" has an x2 place representing
+the body to which the arm belongs.
+Many, but not all, cases of intrinsic possession can be thus covered without
+using ``po'e" by placing the possessor into the appropriate place of the
+description selbri.
+</paragraph>
+
+<paragraph>
+Here is an example of ``po'u":
+</paragraph>
+
+<example><ex_no>3.9</ex_no>
+<lojban>le gerku po'u le mi pendo cu cinba mi</lojban>
+<japanese></japanese>
+<en>
+The dog which-is my friend kisses me.
+</en>
+</example>
+
+<example><ex_no>3.10</ex_no>
+<lojban>le gerku poi du le mi pendo cu cinba mi</lojban>
+<japanese></japanese>
+<en>
+The dog which = my friend kisses me.
+</en>
+</example>
+
+<paragraph>
+The cmavo ``po'u" does not represent possession at all, but rather identity.
+(Note that it means ``poi du" and its form was chosen to suggest the relationship.)
+</paragraph>
+
+<paragraph>
+In <ln><name>Example 3.9</name><address>#ex3.9</address></ln> the use of ``po'u"
+tells us that ``le gerku" and ``le mi pendo" represent the same thing.
+Consider the contrast between
+<ln><name>Example 3.9</name><address>#ex3.9</address></ln> and:
+</paragraph>
+
+<example><ex_no>3.11</ex_no>
+<lojban>le mi pendo po'u le gerku cu cinba mi</lojban>
+<japanese></japanese>
+<en>
+My friend which-is the dog kisses me.
+</en>
+</example>
+
+<paragraph>
+The facts of the case are the same, but the listener's knowledge about
+the situation may not be.
+In <ln><name>Example 3.9</name><address>#ex3.9</address></ln>,
+the listener is presumed not to understand which dog is meant by ``le gerku",
+so the speaker adds a relative phrase clarifying that it is the particular
+dog which is the speaker's friend.
+</paragraph>
+
+<paragraph>
+<ln><name>Example 3.11</name><address>#ex3.11</address></ln>, however,
+assumes that the listener does not know which of the speaker's friends is
+refferred to, and specifies that it is the friend that is the dog
+(which dog is taken to be obfious).
+Here is another example of the same contrast:
+</paragraph>
+
+<example><ex_no>3.12</ex_no>
+<lojban>le tcadu po'u la nu,iork</lojban>
+<japanese></japanese>
+<en>
+The city of New York [not another city].
+</en>
+</example>
+
+<example><ex_no>3.13</ex_no>
+<lojban>la nu,iork po'u le tcadu</lojban>
+<japanese></japanese>
+<en>
+New York the city (not the state or some other New York)
+</en>
+</example>
+
+<paragraph>
+</paragraph>
+
+<paragraph>
+</paragraph>
+
+</section_contents>
 </section>
 
 <section>
