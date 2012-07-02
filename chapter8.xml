@@ -17,6 +17,7 @@
 
 <prenotes>
 <note># 1% くらい翻訳</note>
+<note># 現在のところ下書きの訳である</note>
 </prenotes>
 
 <section>
@@ -346,6 +347,55 @@ chapter in order to make them read more smoothly.
 
 <section>
 <title>incidental relative clauses</title>
+<cmavo_list>
+<cmavo_item><cmavo>noi</cmavo><selmaho>NOI</selmaho><caption>
+	<ja>&relative;&clause;&introducer;</ja>
+	<en>relative clause introducer</en></caption></cmavo_item>
+</cmavo_list>
+
+<paragraph>
+There are two basic kinds of relative clauses:
+restrictive relative clauses introduced by ``poi",
+and incidental (sometimes called symply ``non-restrictive") relative clauses
+introduced by ``noi".
+The difference between restrictive and incidental relative clauses is that
+restrictive clauses provide information that is essential to identifying
+the referent of the sumti to which they are attached, whereas incidental relative
+clauses provide additional information which is helpful to the listener but is
+not essential for identifying the referent of the sumti.
+All of the examples in
+<ln><name>Section 1</name><address>#section1</address></ln> are restrictive
+relative clauses: the information in the relative clause is essential to
+identification.
+(The title of this chapter, though, uses an incidental relative clause.)
+</paragraph>
+
+<paragraph>
+Consider the following examples:
+
+<example><ex_no>2.1</ex_no>
+<lojban>le gerku poi blanu cu barda</lojban>
+<japanese>その青い犬は大きい。</japanese>
+<en>
+The dog which is-blue is-large.
+The dog which is blue is large.
+</en>
+</example>
+
+<example><ex_no>2.2</ex_no>
+<lojban>le gerku noi blanu cu barda</lojban>
+<japanese>その犬、それは青いのだが、は大きい</japanese>
+<en>
+The dog incidentally-which is-blue is-large.
+The dog, which is blue, is large.
+</en>
+</example>
+
+</paragraph>
+
+<paragraph>
+</paragraph>
+
 </section>
 
 <section>

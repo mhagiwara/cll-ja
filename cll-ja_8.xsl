@@ -77,7 +77,12 @@
 <!-- ***************** section ****************** -->
 
 <xsl:template match="section">
-<h3><xsl:number/>. <xsl:value-of select="title"/></h3>
+<xsl:variable name="section_number">
+<xsl:number />
+</xsl:variable>
+<h3><xsl:attribute name="id">section<xsl:value-of select="$section_number" />
+	</xsl:attribute>
+<xsl:value-of select="$section_number"/>. <xsl:value-of select="title"/></h3>
 <p><xsl:apply-templates select="cmavo_list" /></p>
 <xsl:apply-templates select="paragraph" />
 <!--
