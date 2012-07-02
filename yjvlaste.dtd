@@ -10,6 +10,7 @@
 	<!ENTITY applicable "であることを意味する">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
+	<!ENTITY attach "つけ">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
 	<!ENTITY attach_to3 "につけ">
@@ -30,11 +31,14 @@
 	<!ENTITY clause "節">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
+	<!ENTITY communicate "伝え">
+	<!ENTITY communication "コミュニケーション">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY compound "合成された">
 	<!ENTITY connected "接続された">
 	<!ENTITY connective "接続詞">
 	<!ENTITY constructing "複合的な">
+	<!ENTITY construction "構造">
 	<!ENTITY contain "含む">
 	<!ENTITY contour "事象線">
 	<!ENTITY conversational_protocol "会話の手順">
@@ -52,8 +56,10 @@
 	<!ENTITY eliminate1 "省略する">
 	<!ENTITY eliminate2 "引き剥がす">
 	<!ENTITY end "終わり">
+	<!ENTITY end2 "終わ">
 	<!ENTITY erase "取り消す">
 	<!ENTITY etc "など">
+	<!ENTITY explain "説明">
 	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
 	<!ENTITY follow "を後置">
@@ -61,6 +67,8 @@
 	<!ENTITY following2 "以下の">
 	<!ENTITY forethought "前置">
 	<!ENTITY free "自由">
+	<!ENTITY full "詳しく">
+	<!ENTITY full2 "完全">
 	<!ENTITY gismu "ギスム">
 	<!ENTITY glue_word "接着語">
 	<!ENTITY grammatical "文法的に正し">
@@ -83,6 +91,7 @@
 	<!ENTITY lerfu "レルフ">
 	<!ENTITY letter "文字">
 	<!ENTITY letter_word "文字を表す語">
+	<!ENTITY listener "聞き手">
 	<!ENTITY logical "論理的">
 	<!ENTITY logical_connection "論理接続">
 	<!ENTITY logical_connective1 "論理接続詞">
@@ -112,6 +121,7 @@
 	<!ENTITY number "数">
 	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY numerical_expression "数式">
+	<!ENTITY often "しばしば">
 	<!ENTITY operand "被演算子">
 	<!ENTITY operation "演算">
 	<!ENTITY operator "演算子">
@@ -126,6 +136,8 @@
 	<!ENTITY phrase "句">
 	<!ENTITY place "場所">
 	<!ENTITY place_structure "場所構造">
+	<!ENTITY plural "複数">
+	<!ENTITY point "指">
 	<!ENTITY precede1 "先行">
 	<!ENTITY precede2 "に前置して">
 	<!ENTITY preceded_by "に後置して">
@@ -133,6 +145,7 @@
 	<!ENTITY prefix_v "を前置して">
 	<!ENTITY previous "先行する">
 	<!ENTITY pro_bridi "代ブリディ">
+	<!ENTITY pro_sumti "代スムティ">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
 	<!ENTITY quantifier "数量詞">
@@ -142,6 +155,7 @@
 	<!ENTITY radio_communication "無線通信">
 	<!ENTITY refer "表す">
 	<!ENTITY relative "関係">
+	<!ENTITY relativize "関係づけ">
 	<!ENTITY represent "を表す">
 	<!ENTITY right_grouping "右結合">
 	<!ENTITY scope "の掛かる範囲">
@@ -154,9 +168,11 @@
 	<!ENTITY shift_word "シフト記号の役割を果たす語">
 	<!ENTITY signal_n "シグナル">
 	<!ENTITY signal_v "を示す">
+	<!ENTITY singular "単数">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
+	<!ENTITY stand_for "表">
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY string "列">
 	<!ENTITY substitute_for "の代わりになる">

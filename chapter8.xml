@@ -4,7 +4,8 @@
 
 <chapter number="8" xmlns:html="http://www.w3.org/1999/html">
 
-<title>CLL 第8章<en>Chapter 8 Relative Clauses,
+<title>CLL 第8章 &relative;&clause;: &sumti;をもっと複雑にする
+<en>Chapter 8 Relative Clauses,
 	Which Make sumti Even More Complicated</en></title>
 <author><name>iocikun.juj</name><address>PAF01143@nifty.ne.jp</address></author>
 
@@ -18,32 +19,55 @@
 <title>What are you pointing at?</title>
 <cmavo_list>
 <cmavo_item><cmavo>poi</cmavo><selmaho>NOI</selmaho>
-	<caption><ja>&relative;&clause;&introduce;</ja>
+	<caption>
+	<ja>&relative;&clause;&introduce;</ja>
 	<en>restrictive relative clause introducer</en></caption></cmavo_item>
 <cmavo_item><cmavo>ke'a</cmavo><selmaho>GOhA</selmaho>
-	<caption><ja></ja>
+	<caption>
+	<ja>&relative;&pro_sumti;</ja>
 	<en>relative pro-sumti</en></caption></cmavo_item>
 <cmavo_item><cmavo>ku'o</cmavo><selmaho>KUhO</selmaho>
-	<caption><ja></ja>
+	<caption><ja>&relative;&clause;&terminator;</ja>
 	<en>relative clause terminator</en></caption></cmavo_item>
 </cmavo_list>
 
 <paragraph>
-Let us think about the problem of コミュニケーション <en>communicating</en>
-what it is that we are pointing at something.
+何かを&point;している時に、&point;しているものが何であると<!--
+-->&communicate;ようとしているのかという問題について考えてみよう。
+<en>
+Let us think about the problem of communicating
+what it is that we are pointing at when we are pointing at something.
+</en>
+&lojban;では、&pro_sumti; "ti" を使って近くの、"ta"
+を使ってすこし離れている、"tu"
+を使って遠くの&point;しているものを&refer;ことができる。
+<en>
 In Lojban, we can refer to what we are pointing at by using the pro-sumti ``ti"
 if it is nearby, or ``ta" if it is somewhat further away, or ``tu" if it is
 distant.
+</en>
+(&pro_sumti;は<ln><name>第7章</name><address>./chapter7.html</address></ln><!--
+-->で&full;&explain;する)
+<en>
 (Pro-sumti are explained in full in
 <ln><name>Chapter7</name><address>./chapter7.html</address></ln>.)
+</en>
 </paragraph>
 
 <paragraph>
+しかし、&point;している指、あるいは唇、またはそれぞれの文化における適切な何か、<!--
+-->の助けがあったとしても、&listener;にとって&point;しているものが<!--
+-->正確に何であるかを言うのは&often;難しい。
+<en>
 However, even with the assistance of a pointing finger, or pointing lips,
 or whatever may be appropriate in the local culture,
 it is often hard for a listener to tell just what is being pointed at.
+</en>
+(特に、彼か彼女が向いている先にいる)人を&point;して以下のように言ったとする。
+<en>
 Suppose one is pointing at a person (in particular, in the direction of his or
 her face), and says:
+</en>
 <example><ex_no>1.1</ex_no>
 <lojban>ti cu barda</lojban>
 <japanese>これは大きい。</japanese>
@@ -52,13 +76,30 @@ her face), and says:
 </paragraph>
 
 <paragraph>
-What is the referent of ``ti"? Is it the person?
+このとき、"ti" が&refer;のは何だろうか。その人だろうか。<!--
+-->もしかするとその人の鼻かもしれない。<!--
+-->もっと言えばその人の鼻の毛穴かもしれない<!--
+-->("ti" は単数であるかもしれないし、複数であるかもしれず、<!--
+-->つまり、「これ」であってもよいし「これら」であってもよい)。
+<en>
+What is the referent of ``ti"?
+Is it the person?
 Or perhaps it is the person's nose?
 Or even (for ``ti" can be plural as well as singular,
 and mean "these ones" as well as ``this one") the pores on the person's nose?
+</en>
 </paragraph>
 
 <paragraph>
+この問題を解決するために、&lojban;では「&relative;&clause;」と<!--
+-->呼ばれる&construction;を使う。<!--
+-->&relative;&clause;は普通、&sumti;の後ろにつけるが、<!--
+-->この章の後のほうで説明するように、他にも動かしていい場所がある。<!--
+-->&relative;&clause;は&selma_o; NOI に属する語で始まり、<!--
+-->&elidable;&terminator;(&selma_o; KUhO に属する) "ku'o" で&end2;る。
+"no'i"が&selma_o; NOI の&cmavo; だろうと思うだろうが、
+まずは&selma_o; NOI に属するもうひとつの &cmavo; "poi" を&discuss;する。
+<en>
 To help solve this problem, Lojban uses a construction called a ``relative clause".
 Relative clauses are usually attached to the end of sumti,
 but there are other places where they can go as well,
@@ -67,9 +108,17 @@ A relative clause begins with a word of selma'o NOI,
 and ends with the elidable terminator ``ku'o" (of selma'o KUhO).
 As you might suppose, ``noi" is a cmavo of selma'o NOI;
 however, first we will discuss the cmavo ``poi" which also belongs to selma'o NOI.
+</en>
 </paragraph>
 
 <paragraph>
+"poi" と "ku'o" の間には他の&bridi;と同じ文法を持つ&full2;な&bridi;がはいる。<!--
+-->&relative;&clause;の&bridi;内でならどこでも(&selma_o; KOhA に属する)&pro_sumti;
+"ke'a" が使える。<!--
+-->"ke'a" は&relative;&clause;が&attach;られた&sumti;<!--
+-->(&relativize;られた&sumti;と呼ぶ)を&stand_for;す。<!--
+-->先に進む前にいくつかの例を挙げる。
+<en>
 In between the ``poi" and the ``ku'o" appears a full bridi,
 with the same syntax as any other bridi.
 Anywhere within the bridi of a relative clause,
@@ -77,6 +126,7 @@ the pro-sumti ``ke'a" (of selma'o KOhA) may be used,
 and it stands for the sumti to which the relative clause is attached
 (called the ``relativized sumti").
 Here are some examples before we go any further:
+</en>
 
 <example><ex_no>1.2</ex_no>
 <lojban>ti poi ke'a prenu ku'o cu barda</lojban>
