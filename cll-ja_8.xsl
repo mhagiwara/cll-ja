@@ -82,7 +82,7 @@
 </xsl:variable>
 <h3><xsl:attribute name="id">section<xsl:value-of select="$section_number" />
 	</xsl:attribute>
-<xsl:value-of select="$section_number"/>. <xsl:value-of select="title"/></h3>
+<xsl:value-of select="$section_number"/>. <xsl:apply-templates select="title"/></h3>
 <xsl:apply-templates select="cmavo_list" />
 <xsl:apply-templates select="section_contents" />
 <!-- <xsl:apply-templates select="paragraph" /> -->

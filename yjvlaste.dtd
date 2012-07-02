@@ -37,11 +37,13 @@
 	<!ENTITY compound "合成された">
 	<!ENTITY connected "接続された">
 	<!ENTITY connective "接続詞">
+	<!ENTITY consider "考え">
 	<!ENTITY constructing "複合的な">
 	<!ENTITY construction "構造">
 	<!ENTITY contain "含む">
 	<!ENTITY contour "事象線">
 	<!ENTITY conversational_protocol "会話の手順">
+	<!ENTITY convey "表">
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
 	<!ENTITY description "描写">
@@ -79,15 +81,18 @@
 	<!ENTITY group_v "まとめる">
 	<!ENTITY grouping "グループ化">
 	<!ENTITY immediately_follow "が直後に続">
+	<!ENTITY helpful "役に立">
 	<!ENTITY incidental "付随">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY in_principle "原則として">
 	<!ENTITY insert "挿入">
 	<!ENTITY insertion "挿入">
 	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
+	<!ENTITY intonation "抑揚">
 	<!ENTITY introducer "を導くもの">
-	<!ENTITY introduce "を導く">
+	<!ENTITY introduce "導">
 	<!ENTITY join "まとめる">
 	<!ENTITY joint "結合">
 	<!ENTITY lerfu "レルフ">
@@ -115,11 +120,13 @@
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY modify "を修飾">
 	<!ENTITY morphological "形態学的な">
+	<!ENTITY much "だいたい">
 	<!ENTITY nonce_word "臨時語">
 	<!ENTITY non_logical "非論理的">
 	<!ENTITY non_logical_connection "非論理接続">
 	<!ENTITY non_logical_connective "非論理接続詞">
 	<!ENTITY non_elidable "省略できない">
+	<!ENTITY non_restrictive "非限定">
 	<!ENTITY number "数">
 	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY numerical_expression "数式">
@@ -146,7 +153,9 @@
 	<!ENTITY preceded_by "に後置して">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
+	<!ENTITY presumably "たぶん">
 	<!ENTITY previous "先行する">
+	<!ENTITY probably "もしかすると">
 	<!ENTITY pro_bridi "代ブリディ">
 	<!ENTITY pro_sumti "代スムティ">
 	<!ENTITY qualified "被限定">
@@ -157,9 +166,12 @@
 	<!ENTITY quoted "引用された">
 	<!ENTITY radio_communication "無線通信">
 	<!ENTITY refer "表す">
+	<!ENTITY refer2 "示">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">
 	<!ENTITY represent "を表す">
+	<!ENTITY restrict "限定">
+	<!ENTITY restrictive "限定">
 	<!ENTITY right_grouping "右結合">
 	<!ENTITY scope "の掛かる範囲">
 	<!ENTITY section "節">
@@ -172,6 +184,8 @@
 	<!ENTITY signal_n "シグナル">
 	<!ENTITY signal_v "を示す">
 	<!ENTITY singular "単数">
+	<!ENTITY speaker "言い手">
+	<!ENTITY somewhat "いくらか">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
@@ -195,8 +209,10 @@
 	<!ENTITY termset "名辞組">
 	<!ENTITY tense "間制">
 	<!ENTITY text "文章">
+	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY used_after "に後置して">
 	<!ENTITY useful "役に立つ">
+	<!ENTITY vague "曖昧">
 	<!ENTITY vocative "呼応系">
 	<!ENTITY vowel "母音">
 	<!ENTITY word "語">
