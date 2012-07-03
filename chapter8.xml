@@ -1472,6 +1472,235 @@ even if it actually is a woman.
 
 <section>
 <title>Relative clauses and descriptors</title>
+<section_contents>
+
+<paragraph>
+So far, this chapter has described the various kinds of relative clauses
+(including relative phrases). 
+The list is now complete, and the rest of the chapter will be concerned with
+the syntax of sumti that include relative clauses.
+So far, all relative clauses have appeared directly after the sumti to which
+they are attached.
+This is the most common position (and originally the only one),
+but a variety of other placements are also possible which produce a variety
+of semantic effects.
+</paragraph>
+
+<paragraph>
+There are actually three places where a relative clause can be attached
+to a description sumti:
+after the descriptor(``le", ``lo", or whatever), after the embedded selbri
+but before the elidable terminator(which is ``ku"), and after the ``ku".
+The relative clauses attached to descriptors that we have seen have
+occupied the second position.
+Thus <ln><name>Example 5.1</name><address>#ex5.1</address></ln>, if written out
+with all elidable terminators, would appear as:
+</paragraph>
+
+<example><ex_no>6.1</ex_no>
+<lojban>le gerku poi blabi ku'o ku cu klama vau</lojban>
+<japanese></japanese>
+<en>
+the (dog which (is-white)) goes.
+The dog which is white is going.
+</en>
+</example>
+
+<paragraph>
+Here ``ku'o" is the terminator paired with ``poi" and ``ku" with ``le",
+and ``vau" is the terminator of the whole bridi.
+</paragraph>
+
+<paragraph>
+When a simple descriptor using ``le", like ``le gerku", has a relative
+clause attached, it is purely a matter of style and emphasis where the
+relative clause should go.
+Therefore, the following examples are all equivalent in meaning to
+<ln><name>Example 6.1</name><address>#ex6.1</address></ln>:
+</paragraph>
+
+<example><ex_no>6.2</ex_no>
+<lojban>le poi blabu ku'o gerku cu klama</lojban>
+<japanese></japanese>
+<en>
+The such-that (it-is-white) dog goes.
+</en>
+</example>
+
+<example><ex_no>6.3</ex_no>
+<lojban>le gerku ku poi blabi cu klama</lojban>
+<japanese></japanese>
+<en>
+The (dog) which is-white goes.
+</en>
+</example>
+
+<paragraph>
+<ln><name>Example 6.1</name><address>#ex6.1</address></ln> will seem
+most natural to speakers of language like English,
+which always puts relative clauses after the noun phrases
+they are attached to;
+<ln><name>Example 6.2</name><address>#ex6.2</address></ln>, on the other hand,
+may seem more natural to Finnish or Chinese speakers, who put the relative
+clause first.
+Note that in <ln><name>Example 6.2</name><address>#ex6.2</address></ln>,
+the elidable terminator ``ku'o" must appear,
+or the selbri of the relative clause (``blabi") will merge with the selbri of
+the description (``gerku"), resulting in an ungrammatical sentence.
+The purpose of the form appearing in
+<ln><name>Example 6.3</name><address>#ex6.3</address></ln>
+will be apparent shortly.
+</paragraph>
+
+<paragraph>
+As is explained in detail in
+<ln><name>Chapter 6</name><address>./chapter6.html</address></ln>,
+two different numbers (known as the ``inner quantifier" and
+the ``outer quantifier") can be attached to a description.
+The inner quantifier specifies how many things the descriptor refers to:
+it appears between the descriptor and the description selbri.
+The outer quantifier appears before the descriptor, and specifies how many
+of the things referred to by the descriptor are involved in this particular bridi.
+In the following example,
+</paragraph>
+
+<example><ex_no>6.4</ex_no>
+<lojban>re le mu prenu cu klama le zarci</lojban>
+<japanese></japanese>
+<en>
+Two-of the five persons go to-the market.
+Two of the five people [that I have in mind] are going to the market.
+</en>
+</example>
+
+<paragraph>
+``mu" is the inner quantifier and ``re" is the outer quantifier.
+Now what is meant by attaching a relative clause to the sumti ``re le mu prenu"?
+Suppose the relative clause is ``poi ninmu" (meaning ``who are women").
+Now the three possible attachment points discussed previously take on significance.
+</paragraph>
+
+<example><ex_no>6.5</ex_no>
+<lojban>re le poi ninmu ku'o mu prenu cu klama le zarci</lojban>
+<japanese></japanese>
+<en>
+Two of the such-that ([they] are-women) five persons go to-the market.
+Two women out of the five persons go to the market.
+</en>
+</example>
+
+<example><ex_no>6.6</ex_no>
+<lojban>re le mu prenu poi ninmu [ku] cu klama le zarci</lojban>
+<japanese></japanese>
+<en>
+Two of the (five persons which are-women) go-to the market.
+Two of the five women go to the market.
+</en>
+</example>
+
+<example><ex_no>6.7</ex_no>
+<lojban>re le mu prenu ku poi ninmu cu klama le zarci</lojban>
+<japanese></japanese>
+<en>
+(Two of the five persons) which are-women go to-the market.
+Two women out of the five persons go to the market.
+</en>
+</example>
+
+<paragraph>
+As the parentheses show, <ln><name>Example 6.6</name><address>#ex6.6</address></ln>
+means that all five of the persons are women,
+whereas <ln><name>Example 6.7</name><address>#ex6.7</address></ln> means that the
+two who are going to the market are women.
+How do we remember which is which?
+If the relative clause comes after the explicit ``ku", as in
+<ln><name>Example 6.7</name><address>#ex6.7</address></ln>,
+then the sumti as a whole is qualified by the relative clause.
+If there is no ``ku", or if the relative clause comes before an
+explicit ``ku", then the relative clause is understood to apply to
+everything which the underlying selbri applies to.
+</paragraph>
+
+<paragraph>
+What about <ln><name>Example 6.5</name><address>#ex6.5</address></ln>?
+By convention, it means the same as
+<ln><name>Example 6.7</name><address>#ex6.7</address></ln>, and
+it requires no ``ku`, but it does typically require a ``ku'o" instead.
+Note that the relative clause comes before the inner quantifier.
+</paragraph>
+
+<paragraph>
+When ``le" is the descriptor being used, and the sumti has
+no explicit outer quantifier, then the outer quantifier is understood to be
+``ro" (meaning ``all"), as is explained in
+<ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
+Thus ``le gerku" is taken to mean ``all of the things I refer to as dogs",
+possibly all one of them.
+In that case, there is no difference between a relative clause after the
+``ku" or before it.
+However, if the descriptor is ``lo", the difference is quite important:
+</paragraph>
+
+<example><ex_no>6.8</ex_no>
+<lojban></lojban>
+<japanese></japanese>
+<en>
+</en>
+</example>
+
+<example><ex_no>6.9</ex_no>
+<lojban></lojban>
+<japanese></japanese>
+<en>
+</en>
+</example>
+
+<paragraph>
+</paragraph>
+
+<paragraph>
+</paragraph>
+
+<paragraph>
+</paragraph>
+
+<paragraph>
+</paragraph>
+
+<example><ex_no>6.10</ex_no>
+<lojban></lojban>
+<japanese></japanese>
+<en>
+</en>
+</example>
+
+<paragraph>
+</paragraph>
+
+<example><ex_no>6.11</ex_no>
+<lojban></lojban>
+<japanese></japanese>
+<en>
+</en>
+</example>
+
+<paragraph>
+</paragraph>
+
+<paragraph>
+</paragraph>
+
+<example><ex_no>6.12</ex_no>
+<lojban></lojban>
+<japanese></japanese>
+<en>
+</en>
+</example>
+
+<paragraph>
+</paragraph>
+
+</section_contents>
 </section>
 
 <section>
