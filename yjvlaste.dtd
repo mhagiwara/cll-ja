@@ -124,6 +124,7 @@
 	<!ENTITY mathematical "数学">
 	<!ENTITY mathematical_conversion "数式への変換">
 	<!ENTITY mathematical_expression "数式">
+	<!ENTITY member "メンバー">
 	<!ENTITY metalinguistic "メタ的な">
 	<!ENTITY modal "法制">
 	<!ENTITY modifier1 "修飾語">
@@ -138,6 +139,7 @@
 	<!ENTITY non_logical_connective "非論理接続詞">
 	<!ENTITY non_elidable "省略できない">
 	<!ENTITY non_restrictive "非限定">
+	<!ENTITY non_veridical "非真実">
 	<!ENTITY number "数">
 	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY numerical_expression "数式">

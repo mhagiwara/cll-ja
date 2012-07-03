@@ -1345,17 +1345,27 @@ I'll eat my beans that are on my plate, the ones you gave me.
 </section>
 
 <section>
-<title>Non-veridical relative clauses: ``voi"</title>
+<title>&non_veridical;&relative;&clause;
+	<en>Non-veridical relative clauses</en>: ``voi"</title>
 
 <cmavo_list>
 <cmavo_item><cmavo>voi</cmavo><selmaho>NOI</selmaho><caption>
-	<ja></ja>
+	<ja>&non_veridical;&relative;&clause;&introducer;</ja>
 	<en>non-veridical relative clause introducer</en></caption></cmavo_item>
 </cmavo_list>
 
 <section_contents>
 
 <paragraph>
+&selma_o; NOI には3種類目の&relative;&clause;を導くもうひとつの&member;
+"voi" がある。<!--
+-->"voi" に導かれる&relative;&clause;は "poi"
+に導かれるもの同様に&restrictive;的である。<!--
+-->しかし、"poi" &relative;&clause;と "voi"
+&relative;&clause;には基本的な違いがある。"poi"
+&relative;&clause;は lo や loi と同じ意味で、真実であるとを主張する。<!--
+-->その&bridi;は実際に事実であるとして解釈する必要がある。例えば、
+<en>
 There is another member of selma'o NOI which serves to introduce a third kind
 of relative clause: ``voi".
 Relative clauses introduced by ``voi" are restrictive,
@@ -1363,51 +1373,65 @@ like those introduced by ``poi".
 However, there is a fundamental difference between ``poi" and ``voi" relative
 clauses.
 A ``poi" relative clause is said to be veridical,
-in the same sense that a description using ``lo" or ``loi" is: it is essential to
-the interpretation that the bridi actually be true.
+in the same sense that a description using ``lo" or ``loi" is:
+it is essential to the interpretation that the bridi actually be true.
 For example:
+</en>
 </paragraph>
 
 <example><ex_no>5.1</ex_no>
 <lojban>le gerku poi blabi cu klama</lojban>
-<japanese></japanese>
+<japanese>白い犬が行く。</japanese>
 <en>
 The dog which is-white goes.
 </en>
 </example>
 
 <paragraph>
-it must actually be true that the dog is white, or the sentence constitutes
-a miscommunication.
+犬が白いのは本当に事実である必要があり、そうでなければこの文は誤りとなる。<!--
+-->もし白い犬と茶色い犬とがいた場合に&speaker;が茶色い犬を&refer2;すのに
+"le gerku poi blabi" を使ったら、&listener;は正しく理解することが<!--
+-->できないだろう。しかし、
+<en>
+it must actually be true that the dog is white,
+or the sentence constitutes a miscommunication.
 If there is a white dog and a brown dog,
 and the speaker uses ``le gerku poi blabi" to refer to the brown dog,
 then the listener will not understand correctly.
 However,
+</en>
 </paragraph>
 
 <example><ex_no>5.2</ex_no>
 <lojban>le gerku voi blabi cu klama</lojban>
-<japanese></japanese>
+<japanese>私が白い犬として&describe;犬が行く。</japanese>
 <en>
 the dog which-I-describe-as white goes
 </en>
 </example>
 
 <paragraph>
+は&listener;に問題の犬が白であるという(それが何であれ)客観的な基準に合わない<!--
+-->かもしれないことを示す。&speaker;だけがその言葉で何を意味しているのかを<!--
+-->正確に言うことができる。<!--
+-->このように、"voi" は "le" のように&speaker;の意図によって意味が決まる。
+<en>
 puts the listener on notice that the dog in question may not actually
 meet objective standards (whatever they are) for being white:
 only the speaker can say exactly what is meant by the term.
 In this way, ``voi" is like ``le"; the speaker's intention determines the
 meaning.
+</en>
 </paragraph>
 
 <paragraph>
-As a result, the following two sentences
+結果として、次の2つの文は、
+<en>As a result, the following two sentences</en>
 </paragraph>
 
 <example><ex_no>5.3</ex_no>
 <lojban>le nanmu cu ninmu</lojban>
-<japanese></japanese>
+<japanese>その男は女だ。</japanese>
 <en>
 That-which-I-describe-as a-man is-a-woman.
 The ``guy" is actually a gal.
@@ -1416,20 +1440,31 @@ The ``guy" is actually a gal.
 
 <example><ex_no>5.4</ex_no>
 <lojban>ti voi nanmu cu ninmu</lojban>
-<japanese></japanese>
+<japanese>男であるこの人は女だ。</japanese>
 <en>
 This-thing which-I-describe-as a-man is-a-woman.
 </en>
 </example>
 
 <paragraph>
+基本的に同じことを意味する(<!--
+--><ln><name>例文 5.5</name><address>#ex5.5</address></ln><!--
+-->が "ti" による指し示しを含むのに対して、<!--
+--><ln><name>例文 5.4</name><address>#ex5.4</address></ln><!--
+-->にはないという点以外は)。<!--
+-->そして、どちらにも矛盾はない。<!--
+-->男として&describe;ものが(&listener;を混乱させるにしても)<!--
+-->実際には女であってもまったく問題ない。
+<en>
 mean essentially the same thing (except that
 <ln><name>Example 5.5</name><address>#ex5.5</address></ln>
 involves pointing thanks to the use of ``ti", whereas
 <ln><name>Example 5.4</name><address>#ex5.4</address></ln> doesn't),
-and neither one is self-contradictory: it is perfectly all right to
+and neither one is self-contradictory:
+it is perfectly all right to
 describe something as a man (although perhaps confusing to the listener)
 even if it actually is a woman.
+</en>
 </paragraph>
 
 </section_contents>
