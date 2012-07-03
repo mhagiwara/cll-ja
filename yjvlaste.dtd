@@ -4,10 +4,12 @@
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
 	<!ENTITY ad_hoc "その場で作られた">
+	<!ENTITY alienable "譲渡可能">
 	<!ENTITY all "すべて">
 	<!ENTITY alphabet "アルファベット">
 	<!ENTITY and_so_on "など">
 	<!ENTITY applicable "であることを意味する">
+	<!ENTITY as_a_result "だから">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
 	<!ENTITY association "関係">
@@ -64,6 +66,7 @@
 	<!ENTITY erase "取り消す">
 	<!ENTITY etc "など">
 	<!ENTITY explain "説明">
+	<!ENTITY extrinsic "外来">
 	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
 	<!ENTITY follow "を後置">
@@ -84,6 +87,8 @@
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY helpful "役に立">
 	<!ENTITY identification "同一">
+	<!ENTITY imply "という意味になる">
+	<!ENTITY inalienable "不可譲">
 	<!ENTITY incidental "付随">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
@@ -152,7 +157,10 @@
 	<!ENTITY place_structure "場所構造">
 	<!ENTITY plural "複数">
 	<!ENTITY point "指">
-	<!ENTITY possesion "所有">
+	<!ENTITY possess "所有">
+	<!ENTITY possession "所有">
+	<!ENTITY possession2 "所有物">
+	<!ENTITY possessor "所有者">
 	<!ENTITY precede1 "先行">
 	<!ENTITY precede2 "に前置して">
 	<!ENTITY preceded_by "に後置して">

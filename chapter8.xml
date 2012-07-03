@@ -18,6 +18,11 @@
 <prenotes>
 <note># 5% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
+<note># 誤りや不明瞭な箇所多々あると思われる</note>
+<note># todo 1: まずは、ざっと訳してしまおう</note>
+<note># todo 2: その後、内容の理解を試る</note>
+<note># todo 3: 訳を正しくする</note>
+<note># todo 4: 訳をきれいにする</note>
 </prenotes>
 
 <section>
@@ -594,10 +599,10 @@ not to any more complex or extended concept.
 	<ja>&restrictive;&association;</ja>
 	<en>restrictive association</en></caption></cmavo_item>
 <cmavo_item><cmavo>po</cmavo><selmaho>GOI</selmaho><caption>
-	<ja>&restrictive;&possesion;</ja>
+	<ja>&restrictive;&possession;</ja>
 	<en>restrictive possession</en></caption></cmavo_item>
 <cmavo_item><cmavo>po'e</cmavo><selmaho>GOI</selmaho><caption>
-	<ja>&restrictive;&intrinsic;&possesion;</ja>
+	<ja>&restrictive;&intrinsic;&possession;</ja>
 	<en>restrictive intrinsic possession</en></caption></cmavo_item>
 <cmavo_item><cmavo>po'u</cmavo><selmaho>GOI</selmaho><caption>
 	<ja>&restrictive;&identification;</ja>
@@ -648,7 +653,7 @@ My chair is blue.
 
 <example><ex_no>3.2</ex_no>
 <lojban>le stizu poi ke'a srana mi cu blanu</lojban>
-<japanese>私の椅子は青い。</japanese>
+<japanese>私と関係のある椅子は青い。</japanese>
 <en>
 The chair such-that (IT is-associated-with me) is-blue.
 </en>
@@ -680,7 +685,7 @@ The chair specific-to me is red.
 
 <example><ex_no>3.4</ex_no>
 <lojban>le stizu poi ke'a se steci srana mi cu xunre</lojban>
-<japanese>その私に固有の椅子は赤い。</japanese>
+<japanese>その私に特別に関係のある椅子は赤い。</japanese>
 <en>
 The chair such-that (IT is-specifically associated-with me)
 </en>
@@ -713,22 +718,28 @@ would be appropriate for a chair the speaker is currently sitting of
 by the speaker (whether or not he or she was currently occupying it).
 </en>
 </paragraph>
-<note># ここは特にひどい訳、必ず直すこと</note>
+<note># ここらへんは特にひどい訳、必ず直すこと</note>
 
 <paragraph>
+&as_a_result;、必ずしも法的にしろ何にしろ所有&imply;とは限らないにもかかわらず、
+"po" によって表される2つの&sumti;の関係は「所有」と呼ばれる。<!--
+-->中心的な意味は「特別」(&lojban;では "steci")であるということである。
+<en>
 As a result, the relationship expressed between two sumti by ``po" is
-usually called ``possession", although it does not necessarily imply ownership,
-legal or otherwise.
+usually called ``possession",
+although it does not necessarily imply ownership, legal or otherwise.
 The central concept is that of specificity(``steci" in Lojban).
+</en>
 </paragraph>
 
 <paragraph>
-Here is an example of ``po'e", as well as another example of ``po":
+"po'e" の例文と "po" の追加の例文を示す。
+<en>Here is an example of ``po'e", as well as another example of ``po":</en>
 </paragraph>
 
 <example><ex_no>3.5</ex_no>
 <lojban>le birka po'e mi cu spofu</lojban>
-<japanese></japanese>
+<japanese>私の腕が壊れる。</japanese>
 <en>
 The arm intrinsically-possesed-by me is-broaken
 </en>
@@ -736,7 +747,7 @@ The arm intrinsically-possesed-by me is-broaken
 
 <example><ex_no>3.6</ex_no>
 <lojban>le birka poi jinzi ke se steci srana mi cu spofu</lojban>
-<japanese></japanese>
+<japanese>私に生来的に特別の関係にある腕が壊れる。</japanese>
 <en>
 The arm which is-intrinsically (specifically associated-with) me is-broken
 </en>
@@ -744,13 +755,29 @@ The arm which is-intrinsically (specifically associated-with) me is-broken
 
 <example><ex_no>3.7</ex_no>
 <lojban>le botpi po mi cu spofu</lojban>
-<japanese></japanese>
+<japanese>私の瓶が壊れる。</japanese>
 <en>
 The bottole specific-to me is-broken
 </en>
 </example>
 
 <paragraph>
+<ln><name>例文 3.5</name><address>#ex3.5</address></ln>と<!--
+--><ln><name>例文 3.6</name><address>#ex3.6</address></ln>の二者と、<!--
+--><ln><name>例文 3.7</name><address>#ex3.7</address></ln>とはそれぞれ<!--
+-->ふたつの種類の所有を対比している。<!--
+-->そのふたつとは&intrinsic;と&extrinsic;である。<!--
+-->それぞれ、&inalienable;や&alienable;とも呼ばれる。<!--
+-->何かが&intrinsic;(あるいは&inalienable;)に&possess;されていると言えるのは<!--
+-->&possession2;が&possessor;の一部であり、<!--
+-->&possessor;を変化させずにそれを変えることができないときである。<!--
+--><ln><name>例文 3.5</name><address>#3.5</address></ln>を見てみると、<!--
+-->人々は通常腕を&intrinsic;に&possess;しているとされる。<!--
+-->たとえ、もし腕が切り落とされてもその腕はその人のものである。<!--
+-->(ただし、もし腕が移植されたとしたら、それは新しい使用者に&intrinsic;に<!--
+-->&possess;されていることになる。つまり、&intrinsic;な&possess;とは程度の<!--
+-->問題なのだ。)
+<en>
 <ln><name>Example 3.5</name><address>#ex3.5</address></ln> and
 <ln><name>Example 3.6</name><address>#ex3.6</address></ln> on the one hand,
 and <ln><name>Example 3.7</name><address>#ex3.7</address></ln>on the other,
@@ -765,9 +792,18 @@ even if an arm is cut off, it remains the arm of that person.
 (If the arm is transplanted to another person, however,
 it becomes intrinsically possessed by the new user, though,
 so intrinsic possession is a matter of degree.)
+</en>
 </paragraph>
 
 <paragraph>
+それに対して、<ln><name>例文 3.7</name><address>#ex3.7</address></ln>の<!--
+-->瓶は誰かにあげたり、捨てたり、なくしたり、盗まれたりされる可能性がある。<!--
+-->だからそれは&extrinsic;に&possess;されているということになる。<!--
+-->&intrinsic;と&extrinsic;の境界は文化に依存している。<!--
+-->独立宣言では人間の「&inalienable;な権利」がうたわれている。<!--
+-->しかし、何がその権利であるのか、またはその考えかたが意味を持つのかどうかさえ、<!--
+-->文化によって様々である。
+<en>
 By contrast, the bottle of
 <ln><name>Example 3.7</name><address>#ex3.7</address></ln> can be given away,
 or thrown away, or lost, or stolen, so it is possessed extrinsically (alienably).
@@ -775,36 +811,49 @@ The exact line between intrinsic and extrinsic possession is culturally dependen
 The U.S. Declaration of Independence speaks of the ``inalienable rights" of men,
 but just what those rights are, and even whether the concept makes sense at all,
 varies from culture to culture.
+</en>
 </paragraph>
 
 <paragraph>
+ちなみに、<ln><name>例文 3.5</name><address>#ex3.5</address></ln>は&relative;<!--
+-->&clause;を使わなくても表現できる。
+<en>
 Note that <ln><name>Example 3.5</name><address>#ex3.5</address></ln> can also be
 expressed without a relative clause:
+</en>
 </paragraph>
 
 <example><ex_no>3.8</ex_no>
 <lojban>le birka be mi cu spofu</lojban>
-<japanese></japanese>
+<japanese>私の腕が壊れる。</japanese>
 <en>
 The arm of-body me is broken
 </en>
 </example>
 
 <paragraph>
+上のように言えるのは、&gismu; "brika" が腕が属する体を表す x2
+の場所を持つからだ。<!--
+-->このように、たいていにおいて、&intrinsic;&possession;は
+"po'e" を使わないで、&possessor;を&description;&selbri;の適当な場所に<!--
+-->置くことで表せる。
+<en>
 reflecting the fact that the gismu ``birka" has an x2 place representing
 the body to which the arm belongs.
 Many, but not all, cases of intrinsic possession can be thus covered without
 using ``po'e" by placing the possessor into the appropriate place of the
 description selbri.
+</en>
 </paragraph>
 
 <paragraph>
-Here is an example of ``po'u":
+"po'u" の例文を示す。
+<en>Here is an example of ``po'u":</en>
 </paragraph>
 
 <example><ex_no>3.9</ex_no>
 <lojban>le gerku po'u le mi pendo cu cinba mi</lojban>
-<japanese></japanese>
+<japanese>私の友達である犬が私にキスをする。</japanese>
 <en>
 The dog which-is my friend kisses me.
 </en>
@@ -812,36 +861,52 @@ The dog which-is my friend kisses me.
 
 <example><ex_no>3.10</ex_no>
 <lojban>le gerku poi du le mi pendo cu cinba mi</lojban>
-<japanese></japanese>
+<japanese>その[犬 = 私の友達]が私にキスをする。</japanese>
 <en>
 The dog which = my friend kisses me.
 </en>
 </example>
 
 <paragraph>
+&cmavo; "po'u" は所有ではなく、同一を意味する。<!--
+-->("po'u" は "poi du" を意味するので、それを示す形をしている。)
+<en>
 The cmavo ``po'u" does not represent possession at all, but rather identity.
 (Note that it means ``poi du" and its form was chosen to suggest the relationship.)
+</en>
 </paragraph>
 
 <paragraph>
-In <ln><name>Example 3.9</name><address>#ex3.9</address></ln> the use of ``po'u"
+<ln><name>例文 3.9</name><address>#ex3.9</address></ln>では<!--
+-->"po'u" を使っていることで、"le gerku" と "le mi pendo"
+は同じものであることがわかる。<!--
+--><ln><name>例文 3.9</name><address>#ex3.9</address></ln>と以下の違いについて<!--
+-->見てみよう。
+<en>
+In <ln><name>Example 3.9</name><address>#ex3.9</address></ln>
+the use of ``po'u"
 tells us that ``le gerku" and ``le mi pendo" represent the same thing.
 Consider the contrast between
 <ln><name>Example 3.9</name><address>#ex3.9</address></ln> and:
+</en>
 </paragraph>
 
 <example><ex_no>3.11</ex_no>
 <lojban>le mi pendo po'u le gerku cu cinba mi</lojban>
-<japanese></japanese>
+<japanese>犬である私の友達が私にキスをする。</japanese>
 <en>
 My friend which-is the dog kisses me.
 </en>
 </example>
 
 <paragraph>
+事実としては同じであるが状況に対する&listener;の知識は異なる。<!--
+--><ln><name>例文 3.9</name><address>#ex3.9</address></ln>では、
+<en>
 The facts of the case are the same, but the listener's knowledge about
 the situation may not be.
 In <ln><name>Example 3.9</name><address>#ex3.9</address></ln>,
+</en>
 the listener is presumed not to understand which dog is meant by ``le gerku",
 so the speaker adds a relative phrase clarifying that it is the particular
 dog which is the speaker's friend.
