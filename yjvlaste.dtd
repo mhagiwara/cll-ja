@@ -158,6 +158,7 @@
 	<!ENTITY plural "複数">
 	<!ENTITY point "指">
 	<!ENTITY possess "所有">
+	<!ENTITY possessed "所有物">
 	<!ENTITY possession "所有">
 	<!ENTITY possession2 "所有物">
 	<!ENTITY possessor "所有者">
