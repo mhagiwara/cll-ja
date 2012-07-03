@@ -85,6 +85,7 @@
 	<!ENTITY group_v "まとめる">
 	<!ENTITY grouping "グループ化">
 	<!ENTITY immediately_follow "が直後に続">
+	<!ENTITY immediately_follow2 "直後に続">
 	<!ENTITY helpful "役に立">
 	<!ENTITY identification "同一">
 	<!ENTITY imply "という意味になる">
@@ -127,6 +128,7 @@
 	<!ENTITY modifier1 "修飾語">
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY modify "を修飾">
+	<!ENTITY modify2 "修飾">
 	<!ENTITY morphological "形態学的な">
 	<!ENTITY much "だいたい">
 	<!ENTITY nonce_word "臨時語">

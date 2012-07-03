@@ -1085,49 +1085,80 @@ which man I mean.
 </paragraph>
 
 <paragraph>
+英語においては&lojban;から(あるいは英語に近い言語を含む他の多くの言語から)見て、<!--
+-->所有を過度に表現しているという点は言っておく<!--
+-->意味があるだろう。英語では慣用的に以下のように言う。
+<en>
 It is worth mentioning that English sometimes over-specifies possession from
 the Lojban point of view
 (and the point of view of many other languages,
 including ones closely related to English).
 The idiomatic English sentence
+</en>
 </paragraph>
 
 <example><ex_no>3.19</ex_no>
 <english>The man put his hands in his pockets.</english>
-<japanese></japanese>
+<japanese>その男は彼の手を彼のポケットに入れる。</japanese>
 </example>
 
 <paragraph>
+これはフランス語やドイツ語の話者からすると変に思える。<!--
+-->誰のポケットに彼の手を入れようと言うのか。<!--
+-->あるいは、もっとおかしな点としては、誰の手を彼のポケットに入れるのだろうか。<!--
+-->&lojban;ではこう言う。
+<en>
 seems strange to a French- or German-speaking person:
 whose pockets would he put his hands into?
 and even odder, whose hands would he put into his pockets?
 In Lojban, the sentence
+</en>
 </paragraph>
 
 <example><ex_no>3.20</ex_no>
 <lojban>le nanmu cu punji le xanci le daski</lojban>
-<japanese></japanese>
+<japanese>その男は手をポケットに入れる。</japanese>
 <en>
 The man puts the hand at-locus-the pocket.
 </en>
 </example>
 
 <paragraph>
+これはまったく自然だ。<!--
+-->もちろん、もしその男が実のところ彼の手を他の人のポケットに入れていたり、<!--
+-->他の人の手を彼のポケットに入れていたりした場合には、<!--
+-->その事実を表現することはできる。
+<en>
 is very natural.
 Of course, if the man is in fact putting his hands into another's pockets,
 or another's hands into his pockets, the fact can be specified.
+</en>
 </paragraph>
 
 <paragraph>
+最後に、&cmavo; GOI の&elidable;&terminator;は&selma_o; GEhU に属する "ge'u"
+であるのだが、ほとんどまったく必要ない。<!--
+-->しかし、&logical;&connective;が&relative;&phrase;に&modify2;された&sumti;の<!--
+-->&immediately_follow2;く場合、その&logical;&connective;が<!--
+-->&relative;&phrase;の&sumti;ではなく<!--
+-->&modify2;された&sumti;にかかることを許すために<!--
+-->明示的な "ge'u" が必要となる。<!--
+-->(&selma_o; GOI に続く&cmavo;をどう名づければいいだろうか。<!--
+-->これは<ln><name>第7章</name><address>./chapter7</address></ln><!--
+-->で議論される。それは他の種類の&relative;&phrase;と意味論的には同種ではないが<!--
+-->文法的には同じである。)
+<en>
 Finally, the elidable terminator for GOI cmavo is ``ge'u" of selma'o GEhU;
 it is almost never required.
 However, if a logical connective immediately follows a sumti modified
-by a relative phrase, then an explicit ``ge'u" is needed to allow the connective
+by a relative phrase,
+then an explicit ``ge'u" is needed to allow the connective
 to affect the relativized sumti rather than the sumti of the relative phrase.
 (What about the cmavo after which selma'o GOI is named?
 It is discussed in <ln><name>Chapter 7</name><address>./chapter7</address></ln>,
 as it is not semantically akin to the other kinds of relative phrases,
 although the syntax is the same.)
+</en>
 </paragraph>
 
 </section_contents>
