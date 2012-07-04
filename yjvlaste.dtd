@@ -15,6 +15,7 @@
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
 	<!ENTITY association "関係">
+	<!ENTITY at_least_one "すくなくとも1つ">
 	<!ENTITY attach "つけ">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
@@ -33,6 +34,7 @@
 	<!ENTITY bridi_cmavo "代ブリディ">
 	<!ENTITY bridi_tail "ブリディ末端">
 	<!ENTITY brivla "ブリブラ">
+	<!ENTITY claim "主張">
 	<!ENTITY clause "節">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
@@ -50,6 +52,7 @@
 	<!ENTITY contour "事象線">
 	<!ENTITY conversational_protocol "会話の手順">
 	<!ENTITY convey "表">
+	<!ENTITY default "デフォルトの">
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
 	<!ENTITY description "描写">
@@ -71,6 +74,7 @@
 	<!ENTITY erase "取り消す">
 	<!ENTITY etc "など">
 	<!ENTITY explain "説明">
+	<!ENTITY explicit "明示的な">
 	<!ENTITY extrinsic "外来">
 	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
@@ -238,7 +242,9 @@
 	<!ENTITY termset "名辞組">
 	<!ENTITY tense "間制">
 	<!ENTITY text "文章">
+	<!ENTITY therefore "だから">
 	<!ENTITY tone_of_voice "声の調子">
+	<!ENTITY typically "典型的には">
 	<!ENTITY underlying "下にある">
 	<!ENTITY used_after "に後置して">
 	<!ENTITY useful "役に立つ">

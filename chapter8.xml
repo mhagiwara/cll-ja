@@ -1706,16 +1706,36 @@ everything which the underlying selbri applies to.
 </paragraph>
 
 <paragraph>
+<ln><name>例文 6.5</name><address>#ex6.5</address></ln>はどうか。<!--
+-->慣例により、<ln><name>例文 6.6</name><address>#ex6.6</address></ln><!--
+-->と同じ意味を表し、"ku" を必要としないが、代わりに&typically; "ku'o"
+を必要とする。<!--
+-->この使いかたでは、&relative;&clause;は&inner_quantifier;よりも前に来ることに<!--
+-->注意する必要がある。
+<en>
 What about <ln><name>Example 6.5</name><address>#ex6.5</address></ln>?
 By convention, it means the same as
-<ln><name>Example 6.7</name><address>#ex6.7</address></ln>, and
-it requires no ``ku`, but it does typically require a ``ku'o" instead.
+<ln><name>Example 6.7</name><address>#ex6.7</address></ln>,
+and it requires no ``ku`, but it does typically require a ``ku'o" instead.
 Note that the relative clause comes before the inner quantifier.
+</en>
 </paragraph>
 
 <paragraph>
+"le" が&descriptor;として使われていて、&sumti;が&explicit;&outer_quantifier;を<!--
+-->持たないとき、<!--
+--><ln><name>第6章</name><address>./chapter6.html</address></ln><!--
+-->で説明したように、その&sumti;の&outer_quantifier;は "ro"
+(「すべて」という意味)であると理解される。<!--
+-->だから、"le gerku" は「私が犬として示すもののうちのすべて」、<!--
+-->あるいはそれらのうちの全てのそれ、を意味すると<!--
+-->取られる。<!--
+-->この場合、&relative;&clause;が "ku" の後であれ前であれ何の違いもない。<!--
+-->しかし、&descriptor;が "lo" であるとき、その違いは重要となる。
+<en>
 When ``le" is the descriptor being used, and the sumti has
-no explicit outer quantifier, then the outer quantifier is understood to be
+no explicit outer quantifier,
+then the outer quantifier is understood to be
 ``ro" (meaning ``all"), as is explained in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
 Thus ``le gerku" is taken to mean ``all of the things I refer to as dogs",
@@ -1723,11 +1743,12 @@ possibly all one of them.
 In that case, there is no difference between a relative clause after the
 ``ku" or before it.
 However, if the descriptor is ``lo", the difference is quite important:
+</en>
 </paragraph>
 
 <example><ex_no>6.8</ex_no>
 <lojban>lo prenu ku noi blabi cu klama le zarci</lojban>
-<japanese></japanese>
+<japanese>何人かの人々、その人々は白いのだが、が店に行く。</japanese>
 <en>
 (Some persons) incidentally-which are-white go to-the market.
 Some people, who are white, go to the market
@@ -1736,7 +1757,7 @@ Some people, who are white, go to the market
 
 <example><ex_no>6.9</ex_no>
 <lojban>lo prenu noi blabi [ku] cu klama le zarci</lojban>
-<japanese></japanese>
+<japanese>何人かの人々、人々というものは白いものだが、が店に行く。</japanese>
 <en>
 Some (persons incidentally-which are-white) go to-the market.
 Some of the people, who by the way are white, go to the market.
@@ -1744,6 +1765,17 @@ Some of the people, who by the way are white, go to the market.
 </example>
 
 <paragraph>
+<ln><name>例文 6.8</name><address>#ex6.8</address></ln>も<!--
+--><ln><name>例文 6.9</name><address>#ex6.9</address></ln>も<!--
+-->1人以上の人が店に行くことを告げている。<!--
+-->しかし、それらが作る&incidental;的な&claim;には大きな違いがある。<!--
+-->まず、"lo prenu noi blabi" はどういう意味だろうか。<!--
+-->&default;&inner_quantifier;は "ro" (つまり「&all;」)であり、<!--
+-->&default;&outer_quantifier;は "su'o" (つまり「&at_least_one;」)である。<!--
+-->&therefore;、まずは&all;の人を取ってきて、<!--
+-->それからそのなかから&at_least_one;を選ぶ必要がある。<!--
+-->というわけで、1人以上の人々が行くことになる。
+<en>
 Both <ln><name>Examples 6.8</name><address>#ex6.8</address></ln>
 and <ln><name>6.9</name><address>#ex6.9</address></ln> tell us that one
 or more persons are going to the market.
@@ -1754,6 +1786,7 @@ and the default outer quantifier is ``su'o" (meaning ``at least one").
 Therefore, we must first take all persons,
 then choose at least one of them.
 That one or more people will be going.
+</en>
 </paragraph>
 
 <paragraph>
