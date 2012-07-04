@@ -1642,62 +1642,116 @@ However, if the descriptor is ``lo", the difference is quite important:
 </paragraph>
 
 <example><ex_no>6.8</ex_no>
-<lojban></lojban>
+<lojban>lo prenu ku noi blabi cu klama le zarci</lojban>
 <japanese></japanese>
 <en>
+(Some persons) incidentally-which are-white go to-the market.
+Some people, who are white, go to the market
 </en>
 </example>
 
 <example><ex_no>6.9</ex_no>
-<lojban></lojban>
+<lojban>lo prenu noi blabi [ku] cu klama le zarci</lojban>
 <japanese></japanese>
 <en>
+Some (persons incidentally-which are-white) go to-the market.
+Some of the people, who by the way are white, go to the market.
 </en>
 </example>
 
 <paragraph>
+Both <ln><name>Examples 6.8</name><address>#ex6.8</address></ln>
+and <ln><name>6.9</name><address>#ex6.9</address></ln> tell us that one
+or more persons are going to the market.
+However, they make very different incidental claims.
+Now, what does ``lo prenu noi blabi" mean?
+Well, the default inner quantifier is ``ro" (meaning ``all"),
+and the default outer quantifier is ``su'o" (meaning ``at least one").
+Therefore, we must first take all persons,
+then choose at least one of them.
+That one or more people will be going.
 </paragraph>
 
 <paragraph>
+In <ln><name>Example 6.8</name><address>#ex6.8</address></ln>,
+the relative clause described the sumti once the outer quantifier was applied:
+one or more people, who are white, are going.
+But in <ln><name>Example 6.9</name><address>#ex6.9</address></ln>,
+the relative clause actually describes the sumti before the outer quantification
+is applied,
+so that it ends up meaning ``First take all persons --- by the way,
+they're all white".
+But  not all people are white, so the incidental claim being made here is false.
 </paragraph>
 
 <paragraph>
+The safe strategy, therefore, is to always use ``ku" when attaching a ``noi"
+relative clause to a ``lo" descriptor.
+Otherwise we may end up claiming far too much.
 </paragraph>
 
 <paragraph>
+When the descriptor is ``la", indicating that what follows is a selbri used
+for naming,
+then the positioning of relative clauses has a different significance.
+A relative clause inside the ``ku",
+whether before or after the selbri, is reckoned part of the name;
+a relative clause outside the ``ku" is not.
+Therefore,
 </paragraph>
 
 <example><ex_no>6.10</ex_no>
-<lojban></lojban>
+<lojban>mi viska la nanmu poi terpa le ke'a xirma [ku]</lojban>
 <japanese></japanese>
 <en>
+I see that-named (``man which fears the of-IT horse").
+I see Man Afraid Of His Horse.
 </en>
 </example>
 
 <paragraph>
+says that the speaker sees a person with a particular name,
+who does not necessarily fear any horses, whereas
 </paragraph>
 
 <example><ex_no>6.11</ex_no>
-<lojban></lojban>
+<lojban>mi viska la nanmu ku poi terpa le ke'a xirma</lojban>
 <japanese></japanese>
 <en>
+I see that-named (``Man") which fears the of-IT horse.
+I see the person named ``Man" who is afraid of his horse.
 </en>
 </example>
 
 <paragraph>
+refers to one (or more) of those named ``Man",
+namely the one(s) who are afraid of their horses.
 </paragraph>
 
 <paragraph>
+Finally, so-called indefinite sumti like ``re karce",
+which means almost the same as ``re lo karce"
+(which in turn means the same as ``re lo ro karce"),
+can have relative clauses attached;
+these are taken to be of the outside-the-``ku" variety.
+Here is an example:
 </paragraph>
 
 <example><ex_no>6.12</ex_no>
-<lojban></lojban>
+<lojban>mi ponse re karce [ku] poi xekri</lojban>
 <japanese></japanese>
 <en>
+I possess two cars which-are black.
 </en>
 </example>
 
 <paragraph>
+The restrictive relative clause only affects the two cars being affected by
+the main bridi,
+not all cars that exist.
+It is ungrammatical to try to place a relative clause within an indefinite sumti
+(that is, before an explicitly expressed terminating ``ku".)
+Use an explicit ``lo" instead.
 </paragraph>
 
 </section_contents>
