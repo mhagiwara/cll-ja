@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 5% くらい翻訳</note>
+<note># 6% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -1471,10 +1471,19 @@ even if it actually is a woman.
 </section>
 
 <section>
-<title>Relative clauses and descriptors</title>
+<title>&relative;&clause;と&descriptor;<en>Relative clauses and descriptors</en></title>
 <section_contents>
 
 <paragraph>
+ここまで、この章では様々な種類の&relative;&clause;(と&relative;&phrase;)<!--
+-->を説明してきた。<!--
+-->全部出揃ったので、この章の残りの部分では、&relative;&clause;を含む&sumti;<!--
+-->の文法が関心事となる。<!--
+-->今までのところ、&relative;&clause;は全て&attach;られる&sumti;の<!--
+-->直後に置かれていた。<!--
+-->これは最も一般的な位置である(もともとはそこしかなかった)が、<!--
+-->いくつかの他の位置もあり、その位置によって&semantic;な効果が変わる。
+<en>
 So far, this chapter has described the various kinds of relative clauses
 (including relative phrases). 
 The list is now complete, and the rest of the chapter will be concerned with
@@ -1484,22 +1493,36 @@ they are attached.
 This is the most common position (and originally the only one),
 but a variety of other placements are also possible which produce a variety
 of semantic effects.
+</en>
 </paragraph>
 
 <paragraph>
+実際には&relative;&clause;が<!--
+-->&description;&sumti;に&attach;られる場所は3ヶ所あり、<!--
+-->&descriptor;(``le", ``lo", など)の後、<!--
+-->&embed;まれた&selbri;の後で&elidable;&terminator;(ここでは "ku")の前、<!--
+-->そして "ku" の後、である。<!--
+-->今まで見てきた&descriptor;に&attach;られた&relative;&clause;は2番目の<!--
+-->位置を占める。<!--
+-->だから、<ln><name>例文 5.1</name><address>#ex5.1</address></ln>は<!--
+-->、&elidable;&terminator;を書き出すと、以下のようになる。
+<en>
 There are actually three places where a relative clause can be attached
 to a description sumti:
-after the descriptor(``le", ``lo", or whatever), after the embedded selbri
-but before the elidable terminator(which is ``ku"), and after the ``ku".
+after the descriptor(``le", ``lo", or whatever),
+after the embedded selbri
+but before the elidable terminator(which is ``ku"),
+and after the ``ku".
 The relative clauses attached to descriptors that we have seen have
 occupied the second position.
 Thus <ln><name>Example 5.1</name><address>#ex5.1</address></ln>, if written out
 with all elidable terminators, would appear as:
+</en>
 </paragraph>
 
 <example><ex_no>6.1</ex_no>
 <lojban>le gerku poi blabi ku'o ku cu klama vau</lojban>
-<japanese></japanese>
+<japanese>その白い犬は行く。</japanese>
 <en>
 the (dog which (is-white)) goes.
 The dog which is white is going.
@@ -1507,21 +1530,33 @@ The dog which is white is going.
 </example>
 
 <paragraph>
+ここで、"ku'o" は "poi" と対になる&terminator;であり、<!--
+-->"ku" は "le"、そして "vau" は&bridi;全体の&terminator;である。
+<en>
 Here ``ku'o" is the terminator paired with ``poi" and ``ku" with ``le",
 and ``vau" is the terminator of the whole bridi.
+</en>
 </paragraph>
 
 <paragraph>
+もしも&relative;&clause;が "le gerku" のような "le"
+を使った単純な&descriptor2;に&attach;られた場合には、<!--
+-->どこに&relative;&clause;が置かれるかというのは、<!--
+-->形式や強調の問題でしかない。<!--
+-->だから、以下は全て<ln><name>例文 6.1</name><address>#ex6.1</address></ln>と<!--
+-->同じ意味である。
+<en>
 When a simple descriptor using ``le", like ``le gerku", has a relative
 clause attached, it is purely a matter of style and emphasis where the
 relative clause should go.
 Therefore, the following examples are all equivalent in meaning to
 <ln><name>Example 6.1</name><address>#ex6.1</address></ln>:
+</en>
 </paragraph>
 
 <example><ex_no>6.2</ex_no>
 <lojban>le poi blabu ku'o gerku cu klama</lojban>
-<japanese></japanese>
+<japanese>白い犬が行く。</japanese>
 <en>
 The such-that (it-is-white) dog goes.
 </en>
@@ -1529,13 +1564,27 @@ The such-that (it-is-white) dog goes.
 
 <example><ex_no>6.3</ex_no>
 <lojban>le gerku ku poi blabi cu klama</lojban>
-<japanese></japanese>
+<japanese>白い犬が行く。</japanese>
 <en>
 The (dog) which is-white goes.
 </en>
 </example>
 
 <paragraph>
+<ln><name>例文 6.1</name><address>#ex6.1</address></ln>は英語のような言語、
+つまり&relative;&clause;が常に&attach;られる名詞句の後に来る言語、の<!--
+-->&speaker2;には最も自然に見える。<!--
+-->一方、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>では<!--
+-->フィンランド語や中国語の&speaker2;、<!--
+-->彼らは&relative;&clause;を最初に置く<!--
+-->、にとってより自然に見えるだろう。<!--
+-->ちなみに、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>では、<!--
+-->&elidable;&terminator; "ku'o" は明示する必要がある。<!--
+-->そうしないと、&relative;&clause;の&selbri;("blabi")は&description;の<!--
+-->&selbri;("gerku")とくっついてしまい、文法的でない文になってしまう。<!--
+--><ln><name>例文 6.3</name><address>#ex6.3</address></ln>に示した<!--
+-->形の存在意義はすぐに明らかになるだろう。
+<en>
 <ln><name>Example 6.1</name><address>#ex6.1</address></ln> will seem
 most natural to speakers of language like English,
 which always puts relative clauses after the noun phrases
@@ -1550,9 +1599,20 @@ the description (``gerku"), resulting in an ungrammatical sentence.
 The purpose of the form appearing in
 <ln><name>Example 6.3</name><address>#ex6.3</address></ln>
 will be apparent shortly.
+</en>
 </paragraph>
 
 <paragraph>
+<ln><name>第6章</name><address>./chapter6.html</address></ln>で詳述したように、<!--
+-->2つの別の数(&inner_quantifier;と&outer_quantifier;として知られる)が<!--
+-->&description;には&attach;られる。<!--
+-->&inner_quantifier;は&descriptor2;がいくつのものを指すのかを決めるもので、<!--
+-->&descriptor;と&description;&selbri;のあいだに置かれる。<!--
+-->&outer_quantifier;は&descriptor;の前に置かれて、<!--
+-->&descriptor2;によって示されるもののうちのいくつがその&bridi;の<!--
+-->表す関係の対象になるのかを示す。<!--
+-->以下の例は
+<en>
 As is explained in detail in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>,
 two different numbers (known as the ``inner quantifier" and
@@ -1562,11 +1622,12 @@ it appears between the descriptor and the description selbri.
 The outer quantifier appears before the descriptor, and specifies how many
 of the things referred to by the descriptor are involved in this particular bridi.
 In the following example,
+</en>
 </paragraph>
 
 <example><ex_no>6.4</ex_no>
 <lojban>re le mu prenu cu klama le zarci</lojban>
-<japanese></japanese>
+<japanese>その5人の人のうちの2人がその店に行く。</japanese>
 <en>
 Two-of the five persons go to-the market.
 Two of the five people [that I have in mind] are going to the market.
@@ -1574,15 +1635,23 @@ Two of the five people [that I have in mind] are going to the market.
 </example>
 
 <paragraph>
+"mu" が&inner_quantifier;で、"re" が&outer_quantifier;である。<!--
+-->ここで、&sumti; "re le mu prenu" に&relative;&clause;を&attach;ると<!--
+-->どういう意味になるだろうか。<!--
+-->例えば、ここでは&relative;&clause;を "poi ninmu"
+(「女性である」を意味する)とする。<!--
+-->すると、前に述べた3つの&attach;る場所が重要性を帯びる。
+<en>
 ``mu" is the inner quantifier and ``re" is the outer quantifier.
 Now what is meant by attaching a relative clause to the sumti ``re le mu prenu"?
 Suppose the relative clause is ``poi ninmu" (meaning ``who are women").
 Now the three possible attachment points discussed previously take on significance.
+</en>
 </paragraph>
 
 <example><ex_no>6.5</ex_no>
 <lojban>re le poi ninmu ku'o mu prenu cu klama le zarci</lojban>
-<japanese></japanese>
+<japanese>その5人の人のうちの2人の女性が店に行く。</japanese>
 <en>
 Two of the such-that ([they] are-women) five persons go to-the market.
 Two women out of the five persons go to the market.
@@ -1591,7 +1660,7 @@ Two women out of the five persons go to the market.
 
 <example><ex_no>6.6</ex_no>
 <lojban>re le mu prenu poi ninmu [ku] cu klama le zarci</lojban>
-<japanese></japanese>
+<japanese>その5人の女性のうちの2人が店に行く。</japanese>
 <en>
 Two of the (five persons which are-women) go-to the market.
 Two of the five women go to the market.
@@ -1600,7 +1669,7 @@ Two of the five women go to the market.
 
 <example><ex_no>6.7</ex_no>
 <lojban>re le mu prenu ku poi ninmu cu klama le zarci</lojban>
-<japanese></japanese>
+<japanese>その5人の人のうちの2人の女性が店に行く。</japanese>
 <en>
 (Two of the five persons) which are-women go to-the market.
 Two women out of the five persons go to the market.
@@ -1608,6 +1677,19 @@ Two women out of the five persons go to the market.
 </example>
 
 <paragraph>
+かっこで示したように、<ln><name>例文 6.6</name><address>#ex6.6</address></ln><!--
+-->では5人の人の全員が女性であることを意味する。<!--
+-->それに対して<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
+-->では店に行った2人が女性であることを示す。<!--
+-->どっちがどっちかをどう覚えたらいいだろうか。<!--
+--><ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
+-->でのように、<!--
+-->&relative;&clause;が明示された "ku" の後に来るとき、その&sumti;全体が<!--
+-->&relative;&clause;に&modify;される。<!--
+-->"ku" が無いか、または明示的な "ku" の前に&relative;&clause;が来るとき、<!--
+-->&relative;&clause;は&underlying;&selbri;が&apply2;す全てのものに<!--
+-->&apply1;されると理解される。
+<en>
 As the parentheses show, <ln><name>Example 6.6</name><address>#ex6.6</address></ln>
 means that all five of the persons are women,
 whereas <ln><name>Example 6.7</name><address>#ex6.7</address></ln> means that the
@@ -1617,8 +1699,10 @@ If the relative clause comes after the explicit ``ku", as in
 <ln><name>Example 6.7</name><address>#ex6.7</address></ln>,
 then the sumti as a whole is qualified by the relative clause.
 If there is no ``ku", or if the relative clause comes before an
-explicit ``ku", then the relative clause is understood to apply to
+explicit ``ku",
+then the relative clause is understood to apply to
 everything which the underlying selbri applies to.
+</en>
 </paragraph>
 
 <paragraph>

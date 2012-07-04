@@ -9,6 +9,8 @@
 	<!ENTITY alphabet "アルファベット">
 	<!ENTITY and_so_on "など">
 	<!ENTITY applicable "であることを意味する">
+	<!ENTITY apply1 "適用">
+	<!ENTITY apply2 "示">
 	<!ENTITY as_a_result "だから">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
@@ -52,6 +54,7 @@
 	<!ENTITY describe "描写する">
 	<!ENTITY description "描写">
 	<!ENTITY descriptor "描写型の冠詞">
+	<!ENTITY descriptor2 "描写">
 	<!ENTITY dimensioned_unit "単位つきの量">
 	<!ENTITY direction "方向">
 	<!ENTITY discourse "談話">
@@ -62,6 +65,7 @@
 	<!ENTITY elidable2 "省略可能">
 	<!ENTITY eliminate1 "省略する">
 	<!ENTITY eliminate2 "引き剥がす">
+	<!ENTITY embed "うめこ">
 	<!ENTITY end "終わり">
 	<!ENTITY end2 "終わ">
 	<!ENTITY erase "取り消す">
@@ -94,6 +98,7 @@
 	<!ENTITY incidental "付随">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY inner_quantifier "内部数量詞">
 	<!ENTITY in_principle "原則として">
 	<!ENTITY insert "挿入">
 	<!ENTITY insertion "挿入">
@@ -153,6 +158,7 @@
 	<!ENTITY or_not "かどうかに関らず">
 	<!ENTITY or_various_other_things "など">
 	<!ENTITY or_other_purpose "など">
+	<!ENTITY outer_quantifier "外部数量詞">
 	<!ENTITY override "を上書きする">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
@@ -197,6 +203,7 @@
 	<!ENTITY see "を見よ">
 	<!ENTITY selbri "セルブリ">
 	<!ENTITY selma_o "セルマホ">
+	<!ENTITY semantic "意味論的">
 	<!ENTITY sentence "文">
 	<!ENTITY separate "分ける">
 	<!ENTITY shift_word "シフト記号の役割を果たす語">
@@ -206,6 +213,7 @@
 	<!ENTITY single "単一の">
 	<!ENTITY singular "単数">
 	<!ENTITY speaker "言い手">
+	<!ENTITY speaker2 "話者">
 	<!ENTITY somewhat "いくらか">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
@@ -231,6 +239,7 @@
 	<!ENTITY tense "間制">
 	<!ENTITY text "文章">
 	<!ENTITY tone_of_voice "声の調子">
+	<!ENTITY underlying "下にある">
 	<!ENTITY used_after "に後置して">
 	<!ENTITY useful "役に立つ">
 	<!ENTITY vague "曖昧">
