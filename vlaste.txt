@@ -42,7 +42,8 @@ described	記述された # （LE 類の意味）
 description sumti	描写スムティ
 description selbri	描写セルブリ
 description	描写
-descriptor	 描写型の冠詞
+descriptor	描写	# 提案: 第8章では「描写」と訳したほうが良さそうな "descriptor" がある
+descriptor	描写型の冠詞
 dimensioned unit		# 求む提案: 第20章では「単位つきの量」としたが
 direct question	直接疑問
 discourse	談話	# universe of discourse と mathematical discourse 以外
@@ -72,6 +73,7 @@ indefinite	不定の
 indicate	を示す	# 提案
 indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほうがわかりやすいかも
 indirect question	間接疑問
+inner quantifier	内部数量詞	# 提案
 internal bridi negation	内部ブリディ否定
 interval   範囲
 James Cooke Brown	ジェームズ・クック・ブラウン
@@ -117,6 +119,7 @@ observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
 optional	任意の	# 提案
+outer quantifier	外部数量詞	# 提案
 particle	小辞	# 提案: 他の案として「小詞」等
 pause	休止 # 検討中
 place	場所
