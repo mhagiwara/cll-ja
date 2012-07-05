@@ -1790,6 +1790,17 @@ That one or more people will be going.
 </paragraph>
 
 <paragraph>
+<ln><name>例文 6.8</name><address>#ex6.8</address></ln>では、<!--
+-->&relative;&clause;は&outer_quantifier;が適用された時点でその&sumti;を<!--
+-->&describe;。つまり、1人以上の人々、その人々は白いのだが、が行く。<!--
+-->しかし、<ln><name>例文 6.9</name><address>#ex6.9</address></ln>では、<!--
+-->&relative;&clause;は実のところ、&outer_quantifier;が適用される前に<!--
+-->その&sumti;を&describe;。<!--
+-->つまり、その意味は「まずすべての人を取り上げる ---
+ところで、彼らはみな白いのだが」となる。<!--
+-->しかし、&all;の人間が白いわけではないので、<!--
+-->ここで作られた&incidental;的な&claim;は&false;となる。
+<en>
 In <ln><name>Example 6.8</name><address>#ex6.8</address></ln>,
 the relative clause described the sumti once the outer quantifier was applied:
 one or more people, who are white, are going.
@@ -1799,15 +1810,29 @@ is applied,
 so that it ends up meaning ``First take all persons --- by the way,
 they're all white".
 But  not all people are white, so the incidental claim being made here is false.
+</en>
 </paragraph>
 
 <paragraph>
+安全な&strategy;は、&therefore;、"noi" &relative;&clause;を
+"lo" &descriptor2;に&attach;るときにはいつも "ku"
+を使うということである。<!--
+-->そうしないと多く&claim;しすぎることとなることがある。
+<en>
 The safe strategy, therefore, is to always use ``ku" when attaching a ``noi"
 relative clause to a ``lo" descriptor.
 Otherwise we may end up claiming far too much.
+</en>
 </paragraph>
 
 <paragraph>
+&descriptor;が "la" のとき、<!--
+-->つまり&following;&selbri;が名前として使われるということだが、<!--
+-->そのときには、&relative;&clause;の位置は違う&significance;を持つ。<!--
+-->"ku" のなかにある&relative;&clause;は、&selbri;の前であれ後ろであれ、<!--
+-->名前の一部に含まれる。<!--
+-->"ku" の外にある&relative;&clause;はこの限りではない。&therefore;、
+<en>
 When the descriptor is ``la", indicating that what follows is a selbri used
 for naming,
 then the positioning of relative clauses has a different significance.
@@ -1815,11 +1840,12 @@ A relative clause inside the ``ku",
 whether before or after the selbri, is reckoned part of the name;
 a relative clause outside the ``ku" is not.
 Therefore,
+</en>
 </paragraph>
 
 <example><ex_no>6.10</ex_no>
 <lojban>mi viska la nanmu poi terpa le ke'a xirma [ku]</lojban>
-<japanese></japanese>
+<japanese>私は「自分の馬を恐れる男」さんを見る。</japanese>
 <en>
 I see that-named (``man which fears the of-IT horse").
 I see Man Afraid Of His Horse.
@@ -1827,13 +1853,17 @@ I see Man Afraid Of His Horse.
 </example>
 
 <paragraph>
+&speaker;はある名前を持った人を見ているのであり、<!--
+-->その人は特に馬を恐れている必要はない。しかし、
+<en>
 says that the speaker sees a person with a particular name,
 who does not necessarily fear any horses, whereas
+</en>
 </paragraph>
 
 <example><ex_no>6.11</ex_no>
 <lojban>mi viska la nanmu ku poi terpa le ke'a xirma</lojban>
-<japanese></japanese>
+<japanese>私は自分の馬を恐れる「男」さんを見る。</japanese>
 <en>
 I see that-named (``Man") which fears the of-IT horse.
 I see the person named ``Man" who is afraid of his horse.
@@ -1841,34 +1871,51 @@ I see the person named ``Man" who is afraid of his horse.
 </example>
 
 <paragraph>
+は「男」という名前で自分の馬を恐れている人を見るということを&refer;。
+<en>
 refers to one (or more) of those named ``Man",
 namely the one(s) who are afraid of their horses.
+</en>
 </paragraph>
 
 <paragraph>
+最後に、(さらに言えば "re lo kauce" と同じであるような) "re lo karce"
+とほぼ同じである "re karce" のような&indefinite;&sumti;も<!--
+-->&relative;&clause;を持つことができる。<!--
+-->これらは"ku" の外側版として取られる。例を挙げる。
+<en>
 Finally, so-called indefinite sumti like ``re karce",
 which means almost the same as ``re lo karce"
 (which in turn means the same as ``re lo ro karce"),
 can have relative clauses attached;
 these are taken to be of the outside-the-``ku" variety.
 Here is an example:
+</en>
 </paragraph>
 
 <example><ex_no>6.12</ex_no>
 <lojban>mi ponse re karce [ku] poi xekri</lojban>
-<japanese></japanese>
+<japanese>私は2つの黒い車を持っている。</japanese>
 <en>
 I possess two cars which-are black.
 </en>
 </example>
 
 <paragraph>
+&restrictive;&relative;&clause;は存在するすべての車にではなく、<!--
+-->&main;&bridi;に関連づけられた2つの車にだけかかる。<!--
+-->&relative;&clause;を&indefinite;&sumti;の内部に<!--
+-->(つまり&explicitly;表された&terminator; "ku" の前に)<!--
+-->置こうとするのは&ungrammatical;<!--
+-->代わりに、&explicit; "lo" を使うべきだ。
+<en>
 The restrictive relative clause only affects the two cars being affected by
 the main bridi,
 not all cars that exist.
 It is ungrammatical to try to place a relative clause within an indefinite sumti
 (that is, before an explicitly expressed terminating ``ku".)
 Use an explicit ``lo" instead.
+</en>
 </paragraph>
 
 </section_contents>

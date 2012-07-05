@@ -75,7 +75,9 @@
 	<!ENTITY etc "など">
 	<!ENTITY explain "説明">
 	<!ENTITY explicit "明示的な">
+	<!ENTITY explicitly "明示的に">
 	<!ENTITY extrinsic "外来">
+	<!ENTITY false "誤り">
 	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
 	<!ENTITY follow "を後置">
@@ -99,6 +101,7 @@
 	<!ENTITY identification "同一">
 	<!ENTITY imply "という意味になる">
 	<!ENTITY inalienable "不可譲">
+	<!ENTITY indefinite "不定の">
 	<!ENTITY incidental "付随">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicator "心態詞">
@@ -126,6 +129,7 @@
 	<!ENTITY logically_or_non_logically "論理的または非論理的に">
 	<!ENTITY lojban "ロジバン">
 	<!ENTITY lujvo "ルジヴォ">
+	<!ENTITY main "主">
 	<!ENTITY mark "を示す">
 	<!ENTITY marked_with "をつけて">
 	<!ENTITY marker "マーカー">
@@ -214,6 +218,7 @@
 	<!ENTITY shortcut "短い形">
 	<!ENTITY signal_n "シグナル">
 	<!ENTITY signal_v "を示す">
+	<!ENTITY significance "意味">
 	<!ENTITY single "単一の">
 	<!ENTITY singular "単数">
 	<!ENTITY speaker "言い手">
@@ -225,6 +230,7 @@
 	<!ENTITY stand_for "表">
 	<!ENTITY state "述べ">
 	<!ENTITY sticky "貼り付き">
+	<!ENTITY strategy "方法">
 	<!ENTITY string "列">
 	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">
@@ -245,6 +251,7 @@
 	<!ENTITY therefore "だから">
 	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY typically "典型的には">
+	<!ENTITY ungrammatical "文法的に正しくない">
 	<!ENTITY underlying "下にある">
 	<!ENTITY used_after "に後置して">
 	<!ENTITY useful "役に立つ">
