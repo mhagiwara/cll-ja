@@ -4,13 +4,17 @@
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
 	<!ENTITY ad_hoc "その場で作られた">
+	<!ENTITY affect "かかる">
 	<!ENTITY alienable "譲渡可能">
 	<!ENTITY all "すべて">
 	<!ENTITY alphabet "アルファベット">
+	<!ENTITY alternative "代換">
 	<!ENTITY and_so_on "など">
+	<!ENTITY any "すべて">
 	<!ENTITY applicable "であることを意味する">
 	<!ENTITY apply1 "適用">
 	<!ENTITY apply2 "示">
+	<!ENTITY apply3 "かか">
 	<!ENTITY as_a_result "だから">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
@@ -86,6 +90,7 @@
 	<!ENTITY forethought "前置">
 	<!ENTITY free "自由">
 	<!ENTITY full "詳しく">
+	<!ENTITY full_fledged "本格的な">
 	<!ENTITY full2 "完全">
 	<!ENTITY gismu "ギスム">
 	<!ENTITY glue_word "接着語">
@@ -168,9 +173,11 @@
 	<!ENTITY or_other_purpose "など">
 	<!ENTITY outer_quantifier "外部数量詞">
 	<!ENTITY override "を上書きする">
+	<!ENTITY ownership "本来の意味での所有">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
 	<!ENTITY permanently "恒久的に">
+	<!ENTITY personal "人称">
 	<!ENTITY phrase "句">
 	<!ENTITY place "場所">
 	<!ENTITY place_structure "場所構造">
@@ -180,12 +187,16 @@
 	<!ENTITY possessed "所有物">
 	<!ENTITY possession "所有">
 	<!ENTITY possession2 "所有物">
+	<!ENTITY possession3 "被所有">
+	<!ENTITY possessive "所有">
 	<!ENTITY possessor "所有者">
+	<!ENTITY possessor2 "所有">
 	<!ENTITY precede1 "先行">
 	<!ENTITY precede2 "に前置して">
 	<!ENTITY preceded_by "に後置して">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
+	<!ENTITY prepose "前置">
 	<!ENTITY presumably "たぶん">
 	<!ENTITY previous "先行する">
 	<!ENTITY probably "もしかすると">
@@ -235,6 +246,7 @@
 	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">
 	<!ENTITY suffix_n "接尾辞">
+	<!ENTITY syllable "音節">
 	<!ENTITY sumti "スムティ">
 	<!ENTITY sumti_cmavo "代スムティ">
 	<!ENTITY symbol "記号">
@@ -256,6 +268,7 @@
 	<!ENTITY used_after "に後置して">
 	<!ENTITY useful "役に立つ">
 	<!ENTITY vague "曖昧">
+	<!ENTITY valid "使える">
 	<!ENTITY vocative "呼応系">
 	<!ENTITY vowel "母音">
 	<!ENTITY word "語">

@@ -1922,10 +1922,18 @@ Use an explicit ``lo" instead.
 </section>
 
 <section>
-<title>Possesive sumti</title>
+<title>&possessive;&sumti;<en>Possesive sumti</en></title>
 <section_contents>
 
 <paragraph>
+<ln><name>例文 2.4</name><address>#ex2.4</address></ln>から<!--
+--><ln><name>例文 2.6</name><address>#ex2.6</address></ln>まで<!--
+-->「私の車」と意訳される&sumti; "le mi karce" があった。<!--
+-->そうは見えないかもしれないが、<!--
+-->この&sumti;には実は&relative;&phrase;が含まれている。<!--
+-->&sumti;が&descriptor;と&description;&selbri;のあいだにあるとき、<!--
+-->実際にはそれは "pe" &relative;&phrase;である。だから、
+<en>
 In <ln><name>Examples 2.4</name><address>#ex2.4</address></ln> through
 <ln><name>2.6</name><address>#ex2.6</address></ln>,
 the sumti ``le mi karce" appears, glossed as ``my car".
@@ -1933,42 +1941,61 @@ Although it might not seem so,
 this sumti actually contains a relative phrase.
 When a sumti appears between a descriptor and its description selbri,
 it is actually a ``pe" relative phrase. So
+</en>
 </paragraph>
 
 <example><ex_no>7.1</ex_no>
 <lojban>le mi karce cu xunre</lojban>
-<japanese></japanese>
+<japanese>私の車は赤い。</japanese>
 <en>
 my car is-red.
 </en>
 </example>
 
 <paragraph>
-and
+と
+<en>and</en>
 </paragraph>
 
 <example><ex_no>7.2</ex_no>
 <lojban>le pe mi karce cu xunre</lojban>
-<japanese></japanese>
+<japanese>私の車は赤い。</japanese>
 <en>
 the (associated-with me) car is-red.
 </en>
 </example>
 
 <paragraph>
+は正確に同じ意味だ。<!--
+-->さらに、ここでは特別に&quantifier;について考える必要がないので、
+<en>
 means exactly the samething.
 Furthermore, since there are no special considerations of quantifiers here,
+</en>
 </paragraph>
 
 <example><ex_no>7.3</ex_no>
 <lojban>le karce pe mi cu xunre</lojban>
-<japanese></japanese>
+<japanese>私の車は赤い。</japanese>
 <en>
 The car associated-with me is-red
 </en>
 </example>
 
 <paragraph>
+もまた同じ意味である。<!--
+--><ln><name>例文 7.1</name><address>#ex7.1</address></ln>にあるような<!--
+-->&sumti;を「&possessive;&sumti;」と呼ぶ。<!--
+-->もちろん、これは実際には&ownership;という意味での<!--
+-->&possession;を意味するものではなく、"pe" &relative;&phrase;と同様、<!--
+-->弱い関係&indicate;だけである。<!--
+-->つまり、たとえただ一晩それを借りただけでも "le mi karce" と言えるのである。<!--
+-->(英語では、"my car" は普通 "le karce po mi" を意味する。<!--
+-->しかし、"my seat on the bus" は同じ意味での&possession;ではない。<!--
+-->&lojban;では単に弱いほうの意味を標準としている。)<!--
+--><ln><name>例文 7.1</name><address>#ex7.1</address></ln>の内部の&sumti;は<!--
+-->それに相応するものとして「&possessor2;&sumti;」と呼ばれる。
+<en>
 means the same thing as well.
 A sumti like the one in
 <ln><name>Example 7.1</name><address>#ex7.1</address></ln> is called a
@@ -1983,9 +2010,20 @@ Lojban simply makes the weaker sense the standard one.)
 The inner sumti, ``mi" in
 <ln><name>Example 7.1</name><address>#ex7.1</address></ln>,
 is correspondingly called the ``possessor sumti".
+</en>
 </paragraph>
 
 <paragraph>
+歴史的には&possessive;&sumti;は他のどの種類の&relative;&phrase;や&clause;よりも<!--
+-->先にあった。<!--
+-->そしてこの章で今まで説明してきたような<!--
+-->&relative;&phrase;や&relative;&clause;の機能が<!--
+-->ゆっくりと作り上げられていくなかで存在し続けた。<!--
+--><ln><name>例文 7.2</name><address>#ex7.2</address></ln>のタイプの<!--
+-->&prepose;&relative;&clause;が考案されたときに、<!--
+-->&possessive;&sumti;は最も簡単に<!--
+-->それらの特殊なケースであると見なされるようになった。
+<en>
 Historically, possessive sumti existed before any other kind of
 relative phrase or clause,
 and were retained when the machinery of relative phrases and clauses
@@ -1994,12 +2032,25 @@ When preposed relative clauses of the
 <ln><name>Example 7.2</name><address>#ex7.2</address></ln>
 type were devised, possessive sumti were most easily viewed
 as a special case of them.
+</en>
 </paragraph>
 
 <paragraph>
+どんなに複雑であっても、&any;の&sumti;が<!--
+-->&full_fledged;&relative;&phrase;のなかに現れることができるが、<!--
+-->"pe" を使わない&possessor2;&sumti;に<!--
+-->現れることができるのは単純な&sumti;だけである。<!--
+-->大雑把に言うと、正しい&possessor2;&sumti;になれるのは、<!--
+-->&pro_sumti;、&quotation;、名前、&description;、数である。<!--
+-->さらに、&possessor2;&sumti;は&quantifier;に&precede1;されてはならない。<!--
+-->そういう形は普通の「&descriptor; + &quantifier; + &sumti;」<!--
+-->型の&description;として解釈されてしまう。<!--
+-->これらの型の&sumti;は&all;<!--
+--><ln><name>第6章</name><address>./chapter6.html</address></ln>で&full;<!--
+-->説明する。
+<en>
 Although any sumti, however complex, can appear in a full-fledged relative phrase,
-only simple sumti can appear as possessor sumti,
-without a ``pe".
+only simple sumti can appear as possessor sumti, without a ``pe".
 Roughly speaking, the legal possessor sumti are:
 pro-sumti, quotations, names and descriptions, and numbers.
 In addition, the possessor sumti may not be preceded by a quantifier,
@@ -2007,15 +2058,17 @@ as such a form would be interpreted as the usual
 ``descriptor + quantifier + sumti" type of description.
 All these sumti forms are explained in full in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
+</en>
 </paragraph>
 
 <paragraph>
-Here is an example of a description used in a possessive sumti:
+&possessive;&sumti;を使った&description;を例示する。
+<en>Here is an example of a description used in a possessive sumti:</en>
 </paragraph>
 
 <example><ex_no>7.4</ex_no>
 <lojban>le le nanmu ku karce cu blanu</lojban>
-<japanese></japanese>
+<japanese>その人の車は青い。</japanese>
 <en>
 The (associated-with-the man) car is blue.
 The man's car is blue.
@@ -2023,6 +2076,14 @@ The man's car is blue.
 </example>
 
 <paragraph>
+&possessor2;&sumti;の&end;の&explicit; "ku" に注意しよう。
+それがあるおかげで、&possessor2;&sumti;は&main;&description;&sumti;<!--
+-->の&selbri;とくっつかないですむ。<!--
+-->この "ku" が必要なので、一番一般的な種類の&possessor2;&sumti;は<!--
+-->&pro_sumti;、特に&personal;&pro_sumti;である。<!--
+-->それらは&elidable;&terminator;を必要としない。<!--
+-->&description;はより普通には&relative;&phrase;に&attach;て使われる。
+<en>
 Note the explicit ``ku" at the end of the possessor sumti,
 which prevents the selbri of the possessor sumti from merging
 with the selbri of the main description sumti.
@@ -2030,15 +2091,17 @@ Because of the need for this ``ku", the most common kind of possessor sumti
 are pro-sumti, especially personal pro-sumti,
 which require no elidable terminator.
 Descriptions are more likely to be attached with relative phrases.
+</en>
 </paragraph>
 
 <paragraph>
-And here is a number used as a possessor sumti:
+そして、&possessor2;&sumti;として使われている数を例示する。
+<en>And here is a number used as a possessor sumti:</en>
 </paragraph>
 
 <example><ex_no>7.5</ex_no>
 <lojban>le li mu jdice se bende</lojban>
-<japanese></japanese>
+<japanese>陪審員5番</japanese>
 <en>
 The of-the-number-five judging team-member
 Juror number 5
@@ -2046,46 +2109,71 @@ Juror number 5
 </example>
 
 <paragraph>
+これは「5番目の陪審員」とまったく同じではない。<!--
+-->これは単にある陪審員と数5とが何らかの弱い関係にあることを<!--
+-->示しているにすぎない。
+<en>
 which is not quite the same as ``the fifth juror";
 it simply indicates a weak association between
 the particular juror and the number 5.
+</en>
 </paragraph>
 
 <paragraph>
+&possessive;&sumti;には普通の&relative;&clause;を&attach;ることができる。<!--
+-->&following2;特別ルール以外には何も言う必要がない。<!--
+-->&possessor2;&sumti;の&immediately_follow2;く&relative;&clause;<!--
+-->は&possession3;&sumti;ではなく&possessor2;&sumti;に&affect;例えば、
+<en>
 A possessive sumti may also have regular relative clauses attached to it.
 This would need no comment if it were not for the following special rule:
 a relative clause immediately following the possessor sumti is understood
 to affect the possessor sumti, not the possessive. For example:
+</en>
 </paragraph>
 
 <example><ex_no>7.6</ex_no>
 <lojban>le mi noi sipna vau karce cu na klama</lojban>
-<japanese></japanese>
+<japanese>寝ている私の車が行かない。</japanese>
 <en>
 The of-me incidentally-which (is-sleeping) car isn't going.
 </en>
 </example>
 
 <paragraph>
+は私の車は行かないという意味であり、&incidental;的な&claim; "noi sipna" は<!--
+-->私の車にではなく私に&apply3;る。<!--
+-->もしも(それが何を意味するにせよ)車が寝ていると言いたければ、<!--
+-->以下のようにする必要がある。
+<en>
 means that my car isn't going; the incidental claim of ``noi sipna" applies to me,
 not my car, however.
 If I wanted to say that the car is sleeping (whatever that might mean) I would need:
+</en>
 </paragraph>
 
 <example><ex_no>7.7</ex_no>
 <lojban>le mi karce poi sipna cu na klama</lojban>
-<japanese></japanese>
+<japanese>車の寝ている車が行かない。</japanese>
 <en>
 The of-me car which sleeps isn't going.
 </en>
 </example>
 
 <paragraph>
+<ln><name>例文 7.6</name><address>#ex7.6</address></ln><!--
+-->は&relative;&clause;の&end;に "ku'o" ではなく "vau" を使っているが、<!--
+-->この&terminator;はすべての単純な&bridi;を終わらせる。<!--
+-->たいていいつも&elidable2;である。<!--
+-->しかし、この場合には同様に&valid;&alternative;である "ku'o" よりも<!--
+-->短い&syllable;を持つ。
+<en>
 Note that <ln><name>Example 7.6</name><address>#ex7.6</address></ln> uses
 ``vau" rather than ``ku'o" at the end of the relative clause:
 this terminator ends every simple bridi and is almost always elidable;
 in this case, though, it is a syllable shorter than the equally valid alternative,
 ``ku'o".
+</en>
 </paragraph>
 
 </section_contents>
@@ -2292,5 +2380,11 @@ in written English, one or both sentences would need rewriting.
 <section>
 <title>Index of relative clause cmavo</title>
 </section>
+
+<postnote>
+<note># possetion と ownership との訳し分けが難しい。</note>
+<note># 7.6 の例文の説明のところで , however. という部分があるが意味がわからない。
+</note>
+</postnote>
 
 </chapter>
