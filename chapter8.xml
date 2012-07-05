@@ -2362,6 +2362,13 @@ the immedeately preceding simple sumti.
 </paragraph>
 
 <paragraph>
+<ln><name>例文 8.5</name><address>#ex8.5</address></ln>で&logically;&connected;<!--
+-->&sumti;の両方の部分に&relative;&clause;を&attach;るには、<!--
+-->新しく紹介する&cmavo;である(&selma_o; VUhO に属する) "vu'o" が必要だ。<!--
+-->これは&sumti;と&relative;&clause;の間に位置し、<!--
+-->たとえたくさんの&logical;または&non_logical;&connective2;を含んでいたとしても、<!--
+-->&relative;&clause;の影響の範囲を&preceding;&sumti;全体へと広げる。
+<en>
 To make a relative clause attach to both parts of the logically connected sumti
 in <ln><name>Example 8.5</name><address>#ex8.5</address></ln>,
 a new cmavo is needed, ``vu'o" (of selma'o VUhO).
@@ -2369,11 +2376,12 @@ It is placed between the sumti and the relative clause,
 and extends the sphere of influence of that relative clause to the entire
 preceding sumti,
 including however many logical or non-logical connectives there may be.
+</en>
 </paragraph>
 
 <example><ex_no>8.6</ex_no>
 <lojban>la frank. .e la djordj. vu'o noi nanmu cu klama le zdani</lojban>
-<japanese></japanese>
+<japanese>フランクとジョージは、彼らは男だが、家へ行く。</japanese>
 <en>
 Frank and George incidentally-who are-men go to-the house.
 Frank and George, who are men, go to the house.
@@ -2381,29 +2389,46 @@ Frank and George, who are men, go to the house.
 </example>
 
 <paragraph>
+ここで "vu'o" が存在することによって&relative;&clause; "noi nanmu" は<!--
+-->&logically;&connected;&sumti; "la frank. .e la djordj." 全体に広げられる。<!--
+-->つまり、意訳に見るようにフランクとジョージの両方が男であると&claim;されている。
+<en>
 The presence of ``vu'o" here means that the relative clause ``noi nanmu"
 extends to the entire logically connected sumti ``la frank. .e la djordj.";
 in other words, both Frank and George are claimed to be men,
 as the colloquial translation shows.
+</en>
 </paragraph>
 
 <paragraph>
+数の違いを利用し "who is" の代わりに "who are" を使うことで、<!--
+--><ln><name>例文 8.5</name><address>#ex8.5</address></ln>と<!--
+--><ln><name>例文 8.6</name><address>#ex8.6</address></ln>の場合では、<!--
+-->英語でこの違いを正しく解決することができる。<!--
+-->&lojban;では&singular;と&plural;の&verb;を区別しない。<!--
+-->つまり、"nunmu" は "is a man" と "are men" の両方を表す。<!--
+-->だから別の方法が必要だった。<!--
+-->&furthermore;、&lojban;の&mechanism;はより一般的だ。<!--
+-->"nanmu" (「男である」という意味)が "pu bajra" (「走った」)<!--
+-->に代えられた場合、英語では区別のための他の方法が必要になる。
+<en>
 English is able to resolve the distinction correctly in the case of
 <ln><name>Example 8.5</name><address>#ex8.5</address></ln> and
-<ln><name>Example 8.6</name><address>#ex8.6</address></ln> by making use
-of number: ``who is" rather than ``who are".
+<ln><name>Example 8.6</name><address>#ex8.6</address></ln>
+by making use of number: ``who is" rather than ``who are".
 Lojban doesn't distinguish between singular and plural verbs:
 ``nanmu" can mean ``is a man" or ``are men",
 so another means is required.
 Furthermore, Lojban's mechanism works correctly in general:
 if ``nanmu" (meaning ``is-a-man") were replaced with ``pu bajra" (``ran"),
 English would have to make the distinction some other way:
+</en>
 </paragraph>
 
 <example><ex_no>8.7</ex_no>
 <lojban>la frank. .e la djordj. noi pu bajra
 cu klama le zdani</lojban>
-<japanese></japanese>
+<japanese>フランクとジョージ、走っていた、は家に行く。</japanese>
 <en>
 Frank and (George who [past] runs) go to-the house.
 Frank and George, who ran, go to the house.
@@ -2413,7 +2438,7 @@ Frank and George, who ran, go to the house.
 <example><ex_no>8.8</ex_no>
 <lojban>la frank. .e la djordj. vu'o noi pu bajra
 cu klama le zdani</lojban>
-<japanese></japanese>
+<japanese>フランクとジョージ、走っていた、は家に行く。</japanese>
 <en>
 (Frank and George) who [past] runs go to-the house.
 Frank and George, who ran, go to the house.
@@ -2421,8 +2446,12 @@ Frank and George, who ran, go to the house.
 </example>
 
 <paragraph>
+話している場合の英語では、&tone_of_voice;で区別するだろう。<!--
+-->書いている場合の英語では、両者のどちらかに書き直しが必要だ。
+<en>
 In spoken English, tone of voice would serve;
 in written English, one or both sentences would need rewriting.
+</en>
 </paragraph>
 
 </section_contents>
