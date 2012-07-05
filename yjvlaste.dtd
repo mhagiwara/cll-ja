@@ -102,6 +102,7 @@
 	<!ENTITY grouping "グループ化">
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY immediately_follow2 "直後に続">
+	<!ENTITY immediately_preceding "直前にある">
 	<!ENTITY helpful "役に立">
 	<!ENTITY identification "同一">
 	<!ENTITY imply "という意味になる">
@@ -120,6 +121,7 @@
 	<!ENTITY intrinsic "固有">
 	<!ENTITY introducer "を導くもの">
 	<!ENTITY introduce "導">
+	<!ENTITY involve "まきこ">
 	<!ENTITY join "まとめる">
 	<!ENTITY joint "結合">
 	<!ENTITY lerfu "レルフ">
@@ -211,6 +213,7 @@
 	<!ENTITY radio_communication "無線通信">
 	<!ENTITY refer "表す">
 	<!ENTITY refer2 "示">
+	<!ENTITY referent "指示">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">
 	<!ENTITY represent "を表す">

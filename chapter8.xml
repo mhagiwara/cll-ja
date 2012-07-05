@@ -2180,7 +2180,8 @@ in this case, though, it is a syllable shorter than the equally valid alternativ
 </section>
 
 <section>
-<title>Relative clauses and complex sumti: ``vu'o"</title>
+<title>&relative;&clause;と複雑な&sumti;<!--
+	--><en>Relative clauses and complex sumti</en>: ``vu'o"</title>
 <cmavo_list>
 <cmavo_item><cmavo>vu'o</cmavo><selmaho>VUhO</selmaho><caption>
 	<ja>hoge</ja>
@@ -2190,14 +2191,19 @@ in this case, though, it is a syllable shorter than the equally valid alternativ
 <section_contents>
 
 <paragraph>
+普通、&relative;&clause;は単純な&sumti;か&sumti;の一部に&attach;られる。<!--
+-->つまり、&pro_sumti;、名前、&description;、純粋な数、&quotation;である。<!--
+-->単純な数に&attach;られる例は
+<en>
 Normally, relative clauses attach only to simple sumti or parts of sumti:
 pro-sumti, names and descriptions, pure numbers, and quotations.
 An example of a relative clause attached to a pure number is:
+</en>
 </paragraph>
 
 <example><ex_no>8.1</ex_no>
 <lojban>li pai noi na'e frinu namcu</lojban>
-<japanese></japanese>
+<japanese>無理数パイ</japanese>
 <en>
 The-number pi, incidentally-which is-a-non- fraction number
 The irrational number pi
@@ -2205,12 +2211,15 @@ The irrational number pi
 </example>
 
 <paragraph>
+また、&quotation;につけた&incidental;&relative;&clause;の例を示す。
+<en>
 And here is an incidental relative clause attached to a quotation:
+</en>
 </paragraph>
 
 <example><ex_no>8.2</ex_no>
 <lojban>lu mi klama le zarci li'u noi mi cusku ke'a cu jufra</lojban>
-<japanese></japanese>
+<japanese>「私は店に行く」とは私が言ったのだが、これは文である。</japanese>
 <en>
 [quote] I go to-the market [unquote] incidentally-which (I express IT) is-a-sentence.
 ``I'm going to the market", which I'd said, is a sentence.
@@ -2218,23 +2227,36 @@ And here is an incidental relative clause attached to a quotation:
 </example>
 
 <paragraph>
+これは&quotation;の発話者を特定するかまたはその他の関係する事実、<!--
+-->副次的なものだが、を提供する。<!--
+-->このような&relative;&clause;は単純な&sumti;の後ろにだけ現われ、<!--
+-->前に現れることはない。
+<en>
 which may serve to identify the author of the quotation or some other relevant,
 but subsidiary, fact about it.
 All such relative clauses appear only after the simple sumti, never before it.
+</en>
 </paragraph>
 
 <paragraph>
+加えて、&selma_o; LAhE や NAhE+BO といった&sumti;&qualifier;<!--
+-->(これらは<ln><name>第6章</name><address>./chapter6.html</address></ln><!--
+-->で詳しく説明する)の&attach;られた&sumti;も&qualifier;の後ろ、<!--
+-->&qualified;&sumti;の前に&relative;&clause;を持つことができる。<!--
+-->以下のように、
+<en>
 In addition, sumti with attached sumti qualifiers of selma'o LAhE or NAhE+BO
 (which are explained in detail in
 <ln><name>Chapter 6</name><address></address></ln>)
 can have a relative clause appearing after the qualifier and before the
 qualified sumti, as in:
+</en>
 </paragraph>
 
 <example><ex_no>8.3</ex_no>
 <lojban>la'e poi tolcitno vau lu le xunre cmaxirma
 li'u cu zvati le vu kumfa</lojban>
-<japanese></japanese>
+<japanese>古い「赤い小馬」があそこの部屋にある。</japanese>
 <en>
 A-referent-of (which is-old) [quote] The Red Small-horse [unquote] is-at the
 [far distance] room.
@@ -2243,6 +2265,22 @@ An old ``The Red Pony" is in the far room.
 </example>
 
 <paragraph>
+<ln><name>例文 8.3</name><address>#ex8.3</address></ln>はすこし複雑なので、<!--
+-->つまんでバラバラにしなければならないかもしれない。<!--
+-->&quotation; "lu le xunre cumaxirma li'u" は単語列「赤い小馬」を意味する。<!--
+-->もし文頭の "la'e" を&omit;したら<!--
+--><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は<!--
+-->ある単語列が&speaker;から見て遠くの部屋にあることを&claim;する。<!--
+-->しかし、明らかに単語列は部屋のなかにあるなんてありえない。<!--
+-->"la'e" の効果は&sumti;が語そのものを&refer;のではなく、<!--
+-->その語が&referent;するもの、つまりジョーン・スタインベックの小説<!--
+-->(&presumably;&lojban;語訳)を&refer;<!--
+-->ように&modify2;することだ。<!--
+-->特定の「赤い小馬」のコピーが&restrictive;&relative;&clause;によって<!--
+-->特定される。<!--
+--><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は以下と正確に<!--
+-->同じ意味だ。
+<en>
 <ln><name>Example 8.3</name><address>#ex8.3</address></ln> is a bit complex,
 and may need some picking apart.
 The quotation ``lu le xunre cumaxirma li'u" means the string of words
@@ -2259,12 +2297,13 @@ The particular copy of ``The Red Pony" is identified by the restrictive relative
 clause.
 <ln><name>Example 8.3</name><address>#ex8.3</address></ln> means exactly the
 same as:
+</en>
 </paragraph>
 
 <example><ex_no>8.4</ex_no>
 <lojban>la'e lu le xunre cumaxirma li'u lu'u poi
 to'ercitno cu zvati le vu kumfa</lojban>
-<japanese></japanese>
+<japanese>古い「赤い小馬」があそこの部屋にある。</japanese>
 <en>
 A-referent-of ([quote] The Red Small-horse [unquote]) which is-old is-at
 the [far distance] room.
@@ -2272,23 +2311,35 @@ the [far distance] room.
 </example>
 
 <paragraph>
+そして、2つの文は形式上の variants と考えられる。<!--
+-->"lu'u" &terminator;が必要であることに注意。<!--
+-->これのおかげで、&relative;&clause;が&quotation;自体&attach_to4;ことはない。<!--
+-->古い&quotation;を&refer;ことを望みはしない。
+<en>
 and the two sentences can be considered stylistic variants.
 Note the required ``lu'u" terminator,
 which prevents the relative clause from attaching to the quotation itself:
 we do not wish to refer to an old quotation!
+</en>
 </paragraph>
 
 <paragraph>
+しかし、時には、もっと複雑な&sumti;の全体に&apply3;るようにすることが大切になる<!--
+-->こともある。&logical;または&non_logical;&connection;に&involve;まれた&sumti;<!--
+-->(<ln><name>Chapter 14</name><address>./chapter14.html</address></ln><!--
+-->で説明する)である。例えば、
+<en>
 Sometimes, however, it is important to make a relative clause apply to
 the whole of a more complex sumti,
 one which involves logical or non-logical connection
 (explained in <ln><name>Chapter 14</name><address>#ex14</address></ln>).
 For example,
+</en>
 </paragraph>
 
 <example><ex_no>8.5</ex_no>
 <lojban>la frank. .e la djordj. noi nanmu cu klama le zdani</lojban>
-<japanese></japanese>
+<japanese>フランクとジョージ、彼は男だが、はその家に行く。</japanese>
 <en>
 Frank and George incidentally-who is-a-man go to-the house.
 Frank and George, who is a man, go to the house.
@@ -2296,10 +2347,18 @@ Frank and George, who is a man, go to the house.
 </example>
 
 <paragraph>
+<ln><name>例文 8.5</name><address>#ex8.5</address></ln>の<!--
+-->&incidental;的な&claim;はフランクとジョージの両方が男であることを<!--
+-->言っていない。ただジョージが男であると言っているだけだ。<!--
+-->何故なら、&incidental;&relative;&clause;は&immediately_preceding;<!--
+-->単純な&sumti; "la djordj" にだけ&attach;られて<!--
+-->いるからだ。
+<en>
 The incidental claim in <ln><name>Example 8.5</name><address>#ex8.5</address></ln>
 is not that Frank and George are men, but only that George is a man,
 because the incidental relative clause attaches only to ``la djordj",
 the immedeately preceding simple sumti.
+</en>
 </paragraph>
 
 <paragraph>
