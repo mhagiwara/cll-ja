@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 6% くらい翻訳</note>
+<note># 8% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -2458,11 +2458,21 @@ in written English, one or both sentences would need rewriting.
 </section>
 
 <section>
-<title>Relative clauses in vocative phrases</title>
+<title>&vocative_phrase;のなかの&relative;&phrase;
+	<en>Relative clauses in vocative phrases</en></title>
 
 <section_contents>
 
 <paragraph>
+&vocative;&phrase;はより詳細には<!--
+--><ln><name>第6章</name><address>./chapter6.html</address></ln>で<!--
+-->説明した。<!--
+-->簡単に言うと、文や談話が向けられている人を示す、<!--
+-->つまり意図している&listener;を決める方法である。<!--
+-->それらには3つの大まかな形があるが、どれも&selma_o; COI または DOI <!--
+-->(これらは&vocative_word;と呼ばれ、ひとつまたは複数あって良い)で始まり、<!--
+-->名前、&selbri;、または&sumti;が続く。3つ例文を挙げる。
+<en>
 Vocative phrases are explained in more detail in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
 Briefly, they are a method of indicating who a sentence or discourse is
@@ -2472,11 +2482,12 @@ COI or DOI
 (called ``vocative words"; there can be one or many),
 followed by either a name, a selbri, or a sumti.
 Here are three examples:
+</en>
 </paragraph>
 
 <example><ex_no>9.1</ex_no>
 <lojban>coi. frank.</lojban>
-<japanese></japanese>
+<japanese>今日は、フランク。</japanese>
 <en>
 Hello, Frank.
 </en>
@@ -2484,7 +2495,7 @@ Hello, Frank.
 
 <example><ex_no>9.2</ex_no>
 <lojban>co'o xirma</lojban>
-<japanese></japanese>
+<japanese>さようなら、馬。</japanese>
 <en>
 Goodbye, horse.
 </en>
@@ -2492,7 +2503,7 @@ Goodbye, horse.
 
 <example><ex_no>9.3</ex_no>
 <lojban>fi'i la frank. .e la djordj.</lojban>
-<japanese></japanese>
+<japanese>ようこそ、フランクとジョージ。</japanese>
 <en>
 Welcome, Frank and George!
 </en>

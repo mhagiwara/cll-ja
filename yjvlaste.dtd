@@ -278,5 +278,7 @@
 	<!ENTITY valid "使える">
 	<!ENTITY verb "動詞">
 	<!ENTITY vocative "呼応系">
+	<!ENTITY vocative_phrase "呼応句">
+	<!ENTITY vocative_word "呼応語">
 	<!ENTITY vowel "母音">
 	<!ENTITY word "語">
