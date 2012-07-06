@@ -2459,10 +2459,207 @@ in written English, one or both sentences would need rewriting.
 
 <section>
 <title>Relative clauses in vocative phrases</title>
+
+<section_contents>
+
+<paragraph>
+Vocative phrases are explained in more detail in
+<ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
+Briefly, they are a method of indicating who a sentence or discourse is
+addressed to: of identifying the intended listener.
+They take three general forms, all beginning with cmavo from selma'o
+COI or DOI
+(called ``vocative words"; there can be one or many),
+followed by either a name, a selbri, or a sumti.
+Here are three examples:
+</paragraph>
+
+<example><ex_no>9.1</ex_no>
+<lojban>coi. frank.</lojban>
+<japanese></japanese>
+<en>
+Hello, Frank.
+</en>
+</example>
+
+<example><ex_no>9.2</ex_no>
+<lojban>co'o xirma</lojban>
+<japanese></japanese>
+<en>
+Goodbye, horse.
+</en>
+</example>
+
+<example><ex_no>9.3</ex_no>
+<lojban>fi'i la frank. .e la djordj.</lojban>
+<japanese></japanese>
+<en>
+Welcome, Frank and George!
+</en>
+</example>
+
+<paragraph>
+Note that <ln><name>Example 9.2</name><address>#ex9.2</address></ln>
+says farewell to something which doesn't really have to be a horse,
+something that the speaker simply thinks of as being a horse,
+or even might be something
+(a person, for example) who is named ``Horse".
+In a sense, <ln><name>Example 9.2</name><address>#ex9.2</address></ln> is
+ambiguous between ``co'o le xirma" and ``co'o la xirma", a relatively safe
+semantic ambiguity,
+since names are ambiguous in general: saying ``George" doesn't distinguish
+between the possible Georges.
+</paragraph>
+
+<paragraph>
+Similarly, <ln><name>Example 9.1</name><address>#ex9.1</address></ln>
+</paragraph>
+
+<example><ex_no>9.4</ex_no>
+<lojban>coi la frank.</lojban>
+<japanese></japanese>
+<en>
+Hello, the-one-named ``Frank".
+</en>
+</example>
+
+<paragraph>
+Syntactically, vocative phrases are a kind of free modifier,
+and can appear in many places in Lojban text,
+generally at the beginning or end of some complete construct;
+or, as in <ln><name>Examples 9.1</name><address>#ex9.1</address></ln> to
+<ln><name>9.3</name><address>#ex9.5</address></ln>,
+as sentences by themselves.
+</paragraph>
+
+<paragraph>
+As can be seen, the form of vocative phrases is similar to that of sumti,
+and as you might expect, vocative phrases allow relative clauses in various places.
+In vocative phrases which are simple names (after the vocative words),
+any relative clauses must come just after the names:
+</paragraph>
+
+<example><ex_no>9.5</ex_no>
+<lojban>coi. frank. poi xunre se bende</lojban>
+<japanese></japanese>
+<en>
+Hello, Frank who is-a-red team-member
+Hello, Frank from the Red Team!
+</en>
+</example>
+
+<paragraph>
+The restrictive relative clause in
+<ln><name>Example 9.5</name><address>#en9.5</address></ln>
+suggests that there is some other Frank
+(perhaps on the Green Team) from whom this Frank,
+the one the speaker is greeting, must be distinguished.
+</paragraph>
+
+<paragraph>
+A vocative phrase containing a selbri can have relative clauses either
+before or after the selbri;
+both forms have the same meaning.
+Here are some examples:
+</paragraph>
+
+<example><ex_no>9.6</ex_no>
+<lojban>co'o poi mi zvati ke'a ku'o xirma</lojban>
+<japanese></japanese>
+<en>
+Goodbye, such-that (I am-at IT) horse
+Goodbye, horse where I am!
+</en>
+</example>
+
+<example><ex_no>9.7</ex_no>
+<lojban>co'o xirma poi mi zvati</lojban>
+<japanese></japanese>
+<en>
+Goodbye, horse such-that (I am-at-it).
+</en>
+</example>
+
+<paragraph>
+<ln><name>Example 9.6</name><address>#ex9.6</address></ln> and
+<ln><name>Example 9.7</name><address>#ex9.7</address></ln> mean the same thing.
+In fact, relative clauses can appear in both places.
+</paragraph>
+
+</section_contents>
 </section>
 
 <section>
 <title>Relative clauses withen relative clauses</title>
+<section_contents>
+
+<paragraph>
+For the most part, these are straightforward and uncomplicated:
+a sumti that is part of a relative clause bridi may itself be modified by
+a relative clause:
+</paragraph>
+
+<example><ex_no>10.1</ex_no>
+<lojban>le prenu poi zvati le kumfa poi blanu cu masno</lojban>
+<japanese></japanese>
+<en>
+The person who is-in the room which is-blue is-slow.
+</en>
+</example>
+
+<paragraph>
+However, an ambiguity can exist if ``ke'a" is used in a relative clause
+within a relative clause:
+does it refer to the outermost sumti,
+or to the sumti within the outer relative clause to which the inner
+relative clause is attached?
+The latter.
+To refer to the former, use a subscription ``ke'a":
+</paragraph>
+
+<example><ex_no>10.2</ex_no>
+<lojban>le prenu poi zvati le kumfa poi ke'axire zbasu ke'a cu masno</lojban>
+<japanese></japanese>
+<en>
+The person who is-in the room which IT-sub-2 built IT is-slow.
+The person who is in the room which he build is slow.
+</en>
+</example>
+
+<paragraph>
+Here, the meaning of ``IT-sub-2" is that sumti attached to the second relative
+clause,
+counting from the innermost, is used.
+Therefore, ``ke'axipa" (IT-sub-1) means the same as plain ``ke'a".
+</paragraph>
+
+<paragraph>
+Alternatively, you can use a prenex (explained in full in
+<ln><name>Chapter 16</name><address>./chapter16.html</address></ln>,
+which is syntactically a series of sumti followed by the special cmavo
+``zo'u", prefixed to the relative clause bridi:
+</paragraph>
+
+<example><ex_no>10.3</ex_no>
+<lojban>le prenu poi ke'a goi ko'a zo'u ko'a zvati le kumfa poi ke'a goi
+ko'e zo'u ko'a zbasu ke'a cu masno</lojban>
+<japanese></japanese>
+<en>
+The man who (IT = it1 : it1 is-in the room which (IT = it2 : it1 build it2)
+is-slow.
+</en>
+</example>
+
+<paragraph>
+<ln><name>Example 10.3</name><address>#ex10.3</address></ln> is
+more verbose than
+<ln><name>Example 10.2</name><address>#ex10.2</address></ln>,
+but may be clearer, since it explicitly spells out the two ``ke'a" cmavo,
+each on its own level, and assigns them to the assignable cmavo ``ko'a"
+and ``ko'e" (explained in Chapter).
+</paragraph>
+
+</section_contents>
 </section>
 
 <section>
