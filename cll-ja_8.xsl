@@ -141,6 +141,18 @@
 <p><xsl:apply-templates /></p>
 </xsl:template>
 
+<!-- ****************** cmavo table **************** -->
+
+<xsl:template match="cmavo_table">
+<pre><xsl:apply-templates select="cmavo_table_item" /></pre>
+</xsl:template>
+
+<xsl:template match="cmavo_table_item">
+<xsl:value-of select="cmavo" /><xsl:text>	</xsl:text>
+<xsl:value-of select="caption/ja" /><xsl:text>
+</xsl:text>
+</xsl:template>
+
 <!-- ***************** link ****************** -->
 
 <xsl:template match="ln">
