@@ -117,6 +117,7 @@ nonce word	臨時語	# 提案
 non-logical	非論理的
 non-logical connection	非論理接続	# 提案
 non-logical connective	非論理接続詞	# 提案
+non-veridical	非真実	# 提案
 numeral string	数詞列
 numeric cmavo	数字シマヴォ	# 提案
 observative	観察文
@@ -207,3 +208,4 @@ unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
 utterance ordinal	発話順序
 vague  漠然とした
+vocative phrase	呼応句	# 提案
