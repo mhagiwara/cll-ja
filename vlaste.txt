@@ -166,7 +166,7 @@ restrictive relative phrase	限定関係句
 root word	根語
 scale	段階
 scalar negation	段階否定
-scope	（文中で）掛かる範囲	# 「係る」ではないか？
+scope	（文中で）係る範囲	# 「掛かる」を「係る」に修正
 selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
