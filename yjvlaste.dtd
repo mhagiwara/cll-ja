@@ -113,6 +113,7 @@
 	<!ENTITY indefinite "不定の">
 	<!ENTITY incidental "付随">
 	<!ENTITY indicate "を示す">
+	<!ENTITY indicate2 "示唆">
 	<!ENTITY indicator "心態詞">
 	<!ENTITY inner_quantifier "内部数量詞">
 	<!ENTITY in_principle "原則として">
@@ -122,7 +123,7 @@
 	<!ENTITY interval "範囲">
 	<!ENTITY intonation "抑揚">
 	<!ENTITY intrinsic "固有">
-	<!ENTITY introducer "を導くもの">
+	<!ENTITY introducer "導入詞">
 	<!ENTITY introduce "導">
 	<!ENTITY involve "まきこ">
 	<!ENTITY join "まとめる">
@@ -218,8 +219,7 @@
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
 	<!ENTITY radio_communication "無線通信">
-	<!ENTITY refer "表す">
-	<!ENTITY refer2 "示">
+	<!ENTITY refer "示">
 	<!ENTITY referent "指示">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">

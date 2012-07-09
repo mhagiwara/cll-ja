@@ -79,6 +79,7 @@ indirect question	間接疑問
 inner quantifier	内部数量詞	# 提案
 internal bridi negation	内部ブリディ否定
 interval   範囲
+introducer	導入詞	# 提案
 James Cooke Brown	ジェームズ・クック・ブラウン
 label	ラベル／ラベル付け
 language-coded processing	言語符号化処理
@@ -119,6 +120,7 @@ nonce word	臨時語	# 提案
 non-logical	非論理的
 non-logical connection	非論理接続	# 提案
 non-logical connective	非論理接続詞	# 提案
+non-veridical	非真実	# 提案
 numeral string	数詞列
 numeric cmavo	数字シマヴォ	# 提案
 observative	観察文
@@ -211,3 +213,4 @@ unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
 utterance ordinal	発話順序
 vague  漠然とした
+vocative phrase	呼応句	# 提案
