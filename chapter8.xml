@@ -2588,23 +2588,34 @@ Hello, Frank from the Red Team!
 </example>
 
 <paragraph>
+<ln><name>例文 9.5</name><address>#en9.5</address></ln>では、<!--
+-->&restrictive;&relative;&clause;が(もしかしたら緑チームの)<!--
+-->&speaker;が挨拶しているこのフランクがそれとは区別される必要のある<!--
+-->別のフランクが存在することを&suggest;している。
+<en>
 The restrictive relative clause in
 <ln><name>Example 9.5</name><address>#en9.5</address></ln>
 suggests that there is some other Frank
 (perhaps on the Green Team) from whom this Frank,
 the one the speaker is greeting, must be distinguished.
+</en>
 </paragraph>
 
 <paragraph>
+&selbri;を含む&vocative_phrase;は<!--
+-->&relative;&clause;を前にも後にも置くことができ、両者で意味は変わらない。<!--
+-->以下に例文を示す。
+<en>
 A vocative phrase containing a selbri can have relative clauses either
 before or after the selbri;
 both forms have the same meaning.
 Here are some examples:
+</en>
 </paragraph>
 
 <example><ex_no>9.6</ex_no>
 <lojban>co'o poi mi zvati ke'a ku'o xirma</lojban>
-<japanese></japanese>
+<japanese>さようなら、私のところの馬。</japanese>
 <en>
 Goodbye, such-that (I am-at IT) horse
 Goodbye, horse where I am!
@@ -2613,16 +2624,22 @@ Goodbye, horse where I am!
 
 <example><ex_no>9.7</ex_no>
 <lojban>co'o xirma poi mi zvati</lojban>
-<japanese></japanese>
+<japanese>さようなら、私のところの馬。</japanese>
 <en>
 Goodbye, horse such-that (I am-at-it).
 </en>
 </example>
 
 <paragraph>
+<ln><name>例文 9.6</name><address>#ex9.6</address></ln>と<!--
+--><ln><name>例文 9.7</name><address>#ex9.7</address></ln>とは<!--
+-->同じことを意味している。<!--
+-->実のところ、&relative;&clause;は両方の場所に現れても良い。
+<en>
 <ln><name>Example 9.6</name><address>#ex9.6</address></ln> and
 <ln><name>Example 9.7</name><address>#ex9.7</address></ln> mean the same thing.
 In fact, relative clauses can appear in both places.
+</en>
 </paragraph>
 
 </section_contents>
