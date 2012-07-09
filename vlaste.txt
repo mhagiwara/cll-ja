@@ -79,6 +79,7 @@ inner quantifier	内部数量詞	# 提案
 internal bridi negation	内部ブリディ否定
 interval   範囲
 James Cooke Brown	ジェームズ・クック・ブラウン
+label	ラベル／ラベル付け
 language-coded processing	言語符号化処理
 left-grouping rule	左結合則
 lerfu	レルフ
@@ -199,6 +200,7 @@ tense	間制
 terminator	終端詞
 term	名辞
 termset	名辞組
+token	トークン
 tri-valued logic	3値論理
 truth value	真偽値
 truth function	真偽関数
