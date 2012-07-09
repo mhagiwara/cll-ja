@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 8% くらい翻訳</note>
+<note># 9% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -2646,24 +2646,37 @@ In fact, relative clauses can appear in both places.
 </section>
 
 <section>
-<title>Relative clauses withen relative clauses</title>
+<title>&relative;&clause;のなかの&relative;&clause;
+	<en>Relative clauses within relative clauses</en></title>
 <section_contents>
 
 <paragraph>
+たいていにおいて、以下は容易で単純だ。<!--
+-->&relative;&clause;の&bridi;の一部である&sumti;は<!--
+-->それ自身&relative;&clause;に&modify2;されてもよい。
+<en>
 For the most part, these are straightforward and uncomplicated:
 a sumti that is part of a relative clause bridi may itself be modified by
 a relative clause:
+</en>
 </paragraph>
 
 <example><ex_no>10.1</ex_no>
 <lojban>le prenu poi zvati le kumfa poi blanu cu masno</lojban>
-<japanese></japanese>
+<japanese>その青い部屋にいる人は遅い。</japanese>
 <en>
 The person who is-in the room which is-blue is-slow.
 </en>
 </example>
 
 <paragraph>
+しかし、&relative;&clause;のなかの&relative;&clause;のなかで
+"ke'a" が使われると曖昧さが生じる。<!--
+-->それは、最も外側の&sumti;を&refer2;すのか、<!--
+-->あるいは、内側の&relative;&clause;が&attach;られた外側の&relative;&clause;<!--
+-->内の&sumti;を&refer2;すのか。<!--
+-->答えは後者である。前者を表すには添字付きの "ke'a" を使う。
+<en>
 However, an ambiguity can exist if ``ke'a" is used in a relative clause
 within a relative clause:
 does it refer to the outermost sumti,
@@ -2671,6 +2684,7 @@ or to the sumti within the outer relative clause to which the inner
 relative clause is attached?
 The latter.
 To refer to the former, use a subscription ``ke'a":
+</en>
 </paragraph>
 
 <example><ex_no>10.2</ex_no>
