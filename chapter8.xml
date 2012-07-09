@@ -23,8 +23,6 @@
 <note># todo .3: 各節の見直し、まずは訳の正しさを確認する、まだ直訳的で良い</note>
 <note>---------- ここでは、できるだけ訳していない単語がないようにする</note>
 <note># todo .3.1: 1. 何を指しているの</note>
-<note># todo .3.1.4: 第2段落の見直し</note>
-<note># todo .3.1.5: 例文 1.1 の見直し</note>
 <note># todo .3.1.4: 第3段落の見直し</note>
 <note># todo .3.1.4: 第4段落の見直し</note>
 <note># todo .3.1.4: 第5段落の見直し</note>
@@ -98,22 +96,23 @@ distant.
 </paragraph>
 
 <paragraph>
-しかし、&point;している指、あるいは唇、またはそれぞれの文化における適切な何か、<!--
+しかし、&point;している指、あるいは唇、<!--
+-->または何であれその地方の文化における適切な手段、<!--
 -->の助けがあったとしても、&listener;にとって&point;しているものが<!--
--->正確に何であるかを言うのは&often;難しい。
+-->正確に何であるかを言うのは&often;難しい。<!--
+-->(特に、彼か彼女が向いている先にいる)人を&point;して以下のように言ったとする。
 <en>
 However, even with the assistance of a pointing finger, or pointing lips,
 or whatever may be appropriate in the local culture,
 it is often hard for a listener to tell just what is being pointed at.
-</en>
-(特に、彼か彼女が向いている先にいる)人を&point;して以下のように言ったとする。
-<en>
 Suppose one is pointing at a person (in particular, in the direction of his or
 her face), and says:
 </en>
 </paragraph>
 
-<note>訳注: 調べたところフィリピンでは唇で人や物を指すようだ</note>
+<note>訳注: フィリピンでは唇で人や物を指す</note>
+<note>訳注: (in particular, in the direction of his or her face)の in particular
+をどう訳すか</note>
 
 <example><ex_no>1.1</ex_no>
 <lojban>ti cu barda</lojban>
