@@ -88,6 +88,7 @@ lerfu	レルフ
 lerfu string	レルフ列
 lerfu word	レルフ詞
 letteral	字詞
+Lexer Lexeme	字句解析語彙素
 lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
