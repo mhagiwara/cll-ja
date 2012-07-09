@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 9% くらい翻訳</note>
+<note># 10% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -2762,93 +2762,100 @@ and ``ko'e" (explained in Chapter).
 </section>
 
 <section>
-<title>Index of relative clause cmavo</title>
+<title>&relative;&clause;の&cmavo;の索引
+	<en>Index of relative clause cmavo</en></title>
 <section_contents>
 
 <paragraph>
-Relative clause introducers (selma'o NOI):
+&relative;&clause;&introducer;(&selma_o; NOI)
+<en>Relative clause introducers (selma'o NOI):</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>noi</cmavo><caption>
-	<ja>hoge</ja>
+	<ja>&incidental;&clause;</ja>
 	<en>incidental clauses</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>poi</cmavo><caption>
-	<ja></ja>
+	<ja>&restrictive;&clause;</ja>
 	<en>restrictive clauses</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>voi</cmavo><caption>
-	<ja></ja>
+	<ja>&restrictive;&clause;(&non_veridical;)</ja>
 	<en>restrictive clauses (non-veridical)</en></caption></cmavo_table_item>
 </cmavo_table>
 
 <paragraph>
-Relative phrases introducers (selma'o GOI):
+&relative;&phrase;&introducer;(&selma_o; GOI):
+<en>Relative phrases introducers (selma'o GOI):</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>goi</cmavo><caption>
-	<ja></ja>
+	<ja>&pro_sumti;&assignment;</ja>
 	<en>pro-sumti assignment</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>pe</cmavo><caption>
-	<ja></ja>
+	<ja>&restrictive;&association;</ja>
 	<en>restrictive association</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>ne</cmavo><caption>
-	<ja></ja>
-	<en></en></caption></cmavo_table_item>
+	<ja>&incidental;&association;</ja>
+	<en>incidental association</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>po</cmavo><caption>
-	<ja></ja>
-	<en></en></caption></cmavo_table_item>
+	<ja>&extrinsic;(&alienable;)&possession;</ja>
+	<en>extrinsic (alienable) possession</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>po'e</cmavo><caption>
-	<ja></ja>
-	<en></en></caption></cmavo_table_item>
+	<ja>&intrinsic;(&inalienable;)&possession;</ja>
+	<en>intrinsic (inalienable) possession</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>po'u</cmavo><caption>
-	<ja></ja>
-	<en></en></caption></cmavo_table_item>
+	<ja>&restrictive;&identification;</ja>
+	<en>restrictive identification</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>no'u</cmavo><caption>
-	<ja></ja>
-	<en></en></caption></cmavo_table_item>
+	<ja>&incidental;&identification;</ja>
+	<en>incidental identification</en></caption></cmavo_table_item>
 </cmavo_table>
 
 <paragraph>
-Relativizing pro-sumti (selma'o KOhA):
+&relative;&pro_sumti;(&selma_o; KOhA):
+<en>Relativizing pro-sumti (selma'o KOhA):</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>ke'a</cmavo><caption>
-	<ja></ja>
+	<ja>&relative;&sumti;の&pro_sumti;</ja>
 	<en>pro-sumti for relativized sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
 <paragraph>
-Relative clause joiner (selma'o ZIhE)
+&relative;&clause;を&join;もの(&selma_o; ZIhE):
+<en>Relative clause joiner (selma'o ZIhE)</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>zi'e</cmavo><caption>
-	<ja></ja>
+	<ja>ひとつの&sumti;に&apply3;る&relative;&clause;を&join;</ja>
 	<en>joins relative clauses applying to a single sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
 <paragraph>
-Relative clause associator (selma'o VUhO)
+&relative;&clause;結合子(&selma_o; VUhO)
+<en>Relative clause associator (selma'o VUhO)</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>vu'o</cmavo><caption>
-	<ja></ja>
+	<ja>&relative;&clause;が複雑な&sumti;の全体に&apply3;るようにする</ja>
 	<en>causes relative clauses to apply to all of a complex sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
 <paragraph>
-Elidable terminators (each its own selma'o)
+&elidable;&terminator;(それぞれそれ自身の&selma_o;)
+<en>Elidable terminators (each its own selma'o)</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>ku'o</cmavo><caption>
-	<ja></ja>
+	<ja>&relative;&clause;の&elidable;&terminator;</ja>
 	<en>relative clause elidable terminator</en></caption></cmavo_table_item>
 <cmavo_table_item><cmavo>ge'u</cmavo><caption>
-	<ja></ja>
+	<ja>&relative;&phrase;の&elidable;&terminator;</ja>
 	<en>relative phrase elidable terminator</en></caption></cmavo_table_item>
 </cmavo_table>
 
