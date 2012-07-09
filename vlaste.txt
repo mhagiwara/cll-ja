@@ -95,7 +95,7 @@ Logical Assertions	論理的表明
 lujvo	ルジヴォ
 mark	を示す	# 提案
 marker	マーカー
-metalinguistic		# 求む提案:20章 セルマホ SEI では「メタ的な」としたが
+metalinguistic		メタ言語の	# 提案
 material conditional	論理包含
 mathematical	数学の/数学的	# 提案
 mathematical discourse  数学的論説

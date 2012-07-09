@@ -2510,49 +2510,77 @@ Welcome, Frank and George!
 </example>
 
 <paragraph>
+<ln><name>例文 9.2</name><address>#ex9.2</address></ln><!--
+-->では必ずしも実際には馬ではないかもしれないものに別れを告げていること<!--
+-->に注意してほしい。<!--
+-->単に&speaker;が馬だと思っているものか、さらに言えば「馬」という名前の<!--
+-->何か(例えば人)でも良い。<!--
+-->ある意味では、<ln><name>例文 9.2</name><address>#ex9.2</address></ln>には<!--
+-->"co'o le xirma" と "co'o la xirma" との間での曖昧さがあるということだ。<!--
+-->これは比較的安全な意味論的な曖昧さである。<!--
+-->何故なら名前にはより一般的な曖昧さがあるからだ。<!--
+-->つまり、「ジョージ」はたくさんいるジョージの間での区別はしていないということだ。
+<en>
 Note that <ln><name>Example 9.2</name><address>#ex9.2</address></ln>
 says farewell to something which doesn't really have to be a horse,
 something that the speaker simply thinks of as being a horse,
 or even might be something
 (a person, for example) who is named ``Horse".
 In a sense, <ln><name>Example 9.2</name><address>#ex9.2</address></ln> is
-ambiguous between ``co'o le xirma" and ``co'o la xirma", a relatively safe
-semantic ambiguity,
+ambiguous between ``co'o le xirma" and ``co'o la xirma",
+a relatively safe semantic ambiguity,
 since names are ambiguous in general: saying ``George" doesn't distinguish
 between the possible Georges.
+</en>
 </paragraph>
 
 <paragraph>
-Similarly, <ln><name>Example 9.1</name><address>#ex9.1</address></ln>
+<ln><name>例文 9.1</name><address>#ex9.1</address></ln>と似た例文として、
+<en>Similarly, <ln><name>Example 9.1</name><address>#ex9.1</address></ln></en>
 </paragraph>
 
 <example><ex_no>9.4</ex_no>
 <lojban>coi la frank.</lojban>
-<japanese></japanese>
+<japanese>今日は、フランク(という名前の人)。</japanese>
 <en>
 Hello, the-one-named ``Frank".
 </en>
 </example>
 
 <paragraph>
+文法的には、&vocative;&phrase;は&free;&modifier2;の一種であり、<!--
+-->&lojban;の文章の多くの場所に現れることができるが、<!--
+-->たいていは完全な構造の最初か最後に置かれか、<!--
+-->または、<ln><name>例文 9.1</name><address>#ex9.1</address></ln>から<!--
+--><ln><name>例文 9.3</name><address>#ex9.3</address></ln>までのように<!--
+-->それ自体で文となるか、だ。
+<en>
 Syntactically, vocative phrases are a kind of free modifier,
 and can appear in many places in Lojban text,
 generally at the beginning or end of some complete construct;
 or, as in <ln><name>Examples 9.1</name><address>#ex9.1</address></ln> to
 <ln><name>9.3</name><address>#ex9.5</address></ln>,
 as sentences by themselves.
+</en>
 </paragraph>
 
 <paragraph>
+見てわかるように、&vocative_phrase;の形は&sumti;の形に似ていて、<!--
+-->多分あなたの期待通りであるだろうが、<!--
+-->&vocative_phrase;は色々な位置に&relative;&clause;を置くことができる。<!--
+-->(&vocative_word;に続く)単純な名前であるような&vocative_phrase;のなかでは<!--
+-->あらゆる&relative;&clause;がその名前の直後に来られる。
+<en>
 As can be seen, the form of vocative phrases is similar to that of sumti,
 and as you might expect, vocative phrases allow relative clauses in various places.
 In vocative phrases which are simple names (after the vocative words),
 any relative clauses must come just after the names:
+</en>
 </paragraph>
 
 <example><ex_no>9.5</ex_no>
 <lojban>coi. frank. poi xunre se bende</lojban>
-<japanese></japanese>
+<japanese>今日は、赤チームのフランク。</japanese>
 <en>
 Hello, Frank who is-a-red team-member
 Hello, Frank from the Red Team!
