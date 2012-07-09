@@ -2688,8 +2688,9 @@ To refer to the former, use a subscription ``ke'a":
 </paragraph>
 
 <example><ex_no>10.2</ex_no>
-<lojban>le prenu poi zvati le kumfa poi ke'axire zbasu ke'a cu masno</lojban>
-<japanese></japanese>
+<lojban>le prenu poi zvati le kumfa poi ke'axire
+zbasu ke'a cu masno</lojban>
+<japanese>その人が作った部屋にいるその人は遅い。</japanese>
 <en>
 The person who is-in the room which IT-sub-2 built IT is-slow.
 The person who is in the room which he build is slow.
@@ -2697,22 +2698,35 @@ The person who is in the room which he build is slow.
 </example>
 
 <paragraph>
+ここで、"IT-sub-2" は最も内側から数えて2番目の&relative;&clause;が&attach;られた<!--
+-->&sumti;である。<!--
+-->&therefore;、"ke'axipa" (IT-sub-1)は "ke'a" と同じ意味である。
+<en>
 Here, the meaning of ``IT-sub-2" is that sumti attached to the second relative
 clause,
 counting from the innermost, is used.
 Therefore, ``ke'axipa" (IT-sub-1) means the same as plain ``ke'a".
+</en>
 </paragraph>
 
 <paragraph>
+代わりに、&prenex;(&full;は<!--
+--><ln><name>16章</name><address>./chapter16.html</address></ln><!--
+-->で説明する)を使うこともできる。<!--
+-->それは文法的には、&sumti;の列挙に "zo'u" を続けたものであり、<!--
+-->&relative;&clause;の&bridi;の前につける。
+<en>
 Alternatively, you can use a prenex (explained in full in
 <ln><name>Chapter 16</name><address>./chapter16.html</address></ln>,
 which is syntactically a series of sumti followed by the special cmavo
 ``zo'u", prefixed to the relative clause bridi:
+</en>
 </paragraph>
 
 <example><ex_no>10.3</ex_no>
-<lojban>le prenu poi ke'a goi ko'a zo'u ko'a zvati le kumfa poi ke'a goi
-ko'e zo'u ko'a zbasu ke'a cu masno</lojban>
+<lojban>le prenu poi ke'a goi ko'a zo'u ko'a zvati
+le kumfa poi ke'a goi ko'e zo'u ko'a zbasu ko'e
+cu masno</lojban>
 <japanese></japanese>
 <en>
 The man who (IT = it1 : it1 is-in the room which (IT = it2 : it1 build it2)
@@ -2720,14 +2734,29 @@ is-slow.
 </en>
 </example>
 
+<note># 訳注: 底本では le prenu poi ke'a goi ko'a zo'u ko'a zvati
+le kumfa poi ke'a goi ko'e zo'u ko'a zbasu ke'a cu masno だが、<!--
+-->これだと趣旨がおかしくなるので、<!--
+-->"ke'a" -> "ko'e" とした。後で最新版をチェックすること -> 自分</note>
+
 <paragraph>
+<ln><name>例文 10.3</name><address>#ex10.3</address></ln><!--
+-->は<ln><name>例文 10.2</name><address>#ex10.2</address></ln>より冗長である。<!--
+-->しかしより明解であるかもしれない。<!--
+-->何故なら&explicitly;それぞれのレベルの2つの "ke'a" &cmavo;を書き出し、<!--
+-->それらを代入可能な&cmavo; "ko'a" と "ko'e"(章で説明する) に代入しているからだ。
+<en>
 <ln><name>Example 10.3</name><address>#ex10.3</address></ln> is
 more verbose than
 <ln><name>Example 10.2</name><address>#ex10.2</address></ln>,
 but may be clearer, since it explicitly spells out the two ``ke'a" cmavo,
 each on its own level, and assigns them to the assignable cmavo ``ko'a"
 and ``ko'e" (explained in Chapter).
+</en>
 </paragraph>
+
+<note># 訳注: (章で説明する)は底本では (explained in Chapter) となっていたが、
+最新版では具体的な章が入っているかもしれないのでチェックすること -> 自分</note>
 
 </section_contents>
 </section>

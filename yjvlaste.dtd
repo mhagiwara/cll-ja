@@ -203,6 +203,7 @@
 	<!ENTITY preceding "先行する">
 	<!ENTITY prefix_n "接頭辞">
 	<!ENTITY prefix_v "を前置して">
+	<!ENTITY prenex "冠頭">
 	<!ENTITY prepose "前置">
 	<!ENTITY presumably "たぶん">
 	<!ENTITY previous "先行する">
