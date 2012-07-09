@@ -1346,7 +1346,7 @@ John and Frank are two brothers.
 <title>&selma_o; MOhE</title><reference path="./chapter18.html">第18章</reference>
 <description>
 &sumti;から&mathematical;&operand;を作る。<!--
--->これは&dimensioned_unit;を作るのに使われる。
+-->これは&make_dimensioned_unit;のに使われる。
 TEhU &be_terminated_by;。
 </description>
 <example><lojban>li mo'e re ratcu su'i mo'e re ractu du li mo'e vo danlu</lojban>

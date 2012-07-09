@@ -63,7 +63,7 @@
 	<!ENTITY description "描写">
 	<!ENTITY descriptor "描写型の冠詞">
 	<!ENTITY descriptor2 "描写">
-	<!ENTITY dimensioned_unit "単位つきの量">
+	<!ENTITY dimensioned_unit "次元化された単位">
 	<!ENTITY direction "方向">
 	<!ENTITY discourse "談話">
 	<!ENTITY discursive "談話系">
@@ -139,6 +139,7 @@
 	<!ENTITY lojban "ロジバン">
 	<!ENTITY lujvo "ルジヴォ">
 	<!ENTITY main "主">
+	<!ENTITY make_dimensioned_unit "数量付きのスムティに次元を与える">
 	<!ENTITY mark "を示す">
 	<!ENTITY marked_with "をつけて">
 	<!ENTITY marker "マーカー">
