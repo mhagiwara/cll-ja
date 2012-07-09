@@ -23,7 +23,6 @@
 <note># todo .3: 各節の見直し、まずは訳の正しさを確認する、まだ直訳的で良い</note>
 <note>---------- ここでは、できるだけ訳していない単語がないようにする</note>
 <note># todo .3.1: 1. 何を指しているの</note>
-<note># todo .3.1.4: 第3段落の見直し</note>
 <note># todo .3.1.4: 第4段落の見直し</note>
 <note># todo .3.1.4: 第5段落の見直し</note>
 <note># todo .3.1.5: 例文 1.2 の見直し</note>
@@ -81,7 +80,7 @@
 -->&communicate;ようとしているのかという問題について考えてみよう。<!--
 -->&lojban;では、&pro_sumti; "ti" を使って近くの、"ta"
 を使ってすこし離れている、"tu"
-を使って遠くの、&point;しているものを&refer;ことができる<!--
+を使って遠くの、&point;しているものを&refer;すことができる<!--
 -->(&pro_sumti;は<ln><name>第7章</name><address>./chapter7.html</address></ln><!--
 -->で&full;&explain;する)。
 <en>
@@ -100,7 +99,7 @@ distant.
 -->または何であれその地方の文化における適切な手段、<!--
 -->の助けがあったとしても、&listener;にとって&point;しているものが<!--
 -->正確に何であるかを言うのは&often;難しい。<!--
--->(特に、彼か彼女が向いている先にいる)人を&point;して以下のように言ったとする。
+-->(特に、彼か彼女が向いている先にいる)人を&point;して以下のように言うとする。
 <en>
 However, even with the assistance of a pointing finger, or pointing lips,
 or whatever may be appropriate in the local culture,
@@ -121,11 +120,10 @@ her face), and says:
 </example>
 
 <paragraph>
-このとき、"ti" が&refer;のは何だろうか。その人だろうか。<!--
+"ti" が&refer;すものは何だろうか。その人だろうか。<!--
 -->もしかするとその人の鼻かもしれない。<!--
--->もっと言えばその人の鼻の毛穴かもしれない<!--
--->("ti" は単数であるかもしれないし、複数であるかもしれず、<!--
--->つまり、「これ」であってもよいし「これら」であってもよい)。
+-->さらに("ti" は複数でも単数でもよく、「これら」と「これ」のどちらも表せるので)<!--
+-->その人の鼻の毛穴かもしれない。
 <en>
 What is the referent of ``ti"?
 Is it the person?
@@ -395,10 +393,10 @@ chapter in order to make them read more smoothly.
 -->(単純に&non_restrictive;と呼ばれることもあるが)&incidental;<!--
 -->&relative;&clause;である。<!--
 -->&restrictive;&relative;&clause;と&incidental;&relative;&clause;の違いは、<!--
--->&restrictive;&relative;&clause;が&attach;られた&sumti;が&refer;ものを決める<!--
+-->&restrictive;&relative;&clause;が&attach;られた&sumti;が&refer;すものを決める<!--
 -->のに必要な情報を提供するのに対して、<!--
 -->&incidental;&relative;&clause;は&listener;の&helpful;つが<!--
--->&sumti;が&refer;ものを決めるのに必要ではない<!--
+-->&sumti;が&refer;すものを決めるのに必要ではない<!--
 -->付加的な情報を提供するという点にある。<!--
 --><ln><name>第1節</name><address>#section1</address></ln><!--
 -->の例文はすべて&restrictive;&relative;&clause;であり、<!--
@@ -450,12 +448,12 @@ The dog, which is blue, is large.
 <paragraph>
 <ln><name>例文 2.1</name><address>#ex2.1</address></ln>では
 "poi blanu" で&convey;される情報は問題となる犬を決めるのに必要だ。<!--
--->これによって、&refer2;される可能性のある犬を、<!--
+-->これによって、&refer;される可能性のある犬を、<!--
 -->犬一般から青い犬に&restrict;する。<!--
 -->だから、"poi" &relative;&clause;は&restrictive;&relative;&clause;<!--
 -->と呼ばれる。<!--
 -->一方、<ln><name>例文 2.2</name><address>#ex2.2</address></ln>では<!--
--->&refer2;される犬は&presumably;すでに明らかに決まっていて、<!--
+-->&refer;される犬は&presumably;すでに明らかに決まっていて、<!--
 -->&relative;&clause; "noi blanu" は単にその犬についての付加的な情報を<!--
 -->提供するだけだ。<!--
 -->(たとえ実際にはその犬が明確に決まっていなかったとしても、<!--
@@ -571,7 +569,7 @@ Do you see my white car?
 
 <paragraph>
 ここでは、&speaker;は&probably;何台か車を持っているのかもしれない。<!--
--->そして、&sumti; "le mi karce" の&refer2;すものを<!--
+-->そして、&sumti; "le mi karce" の&refer;すものを<!--
 -->(そして結果として&listener;の注意を)<!--
 -->白いものだけに&restrict;している。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln><!--
@@ -602,11 +600,11 @@ Do you see my car, the white one?
 このように、&description;に&attach;られた&restrictive;&relative;&clause;<!--
 -->は&often;&tanru;を含む&description;と同じ意味を表せる。<!--
 -->しかし、"blabi karce" は全ての&tanru;と同様、&somewhat;&vague;だ。<!--
--->&in_principle;、それは白いものを運ぶ車を&refer2;すかもしれないし、<!--
+-->&in_principle;、それは白いものを運ぶ車を&refer;すかもしれないし、<!--
 -->白-性と車-性に含まれるもっと複雑な意味を表すかもしれない。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln>の&restrictive;<!--
--->&relative;&clause;は白い車だけを&refer2;し、<!--
--->もっと複雑な意味や拡張された概念を&refer2;すことはない。
+-->&relative;&clause;は白い車だけを&refer;し、<!--
+-->もっと複雑な意味や拡張された概念を&refer;すことはない。
 <en>
 So a restrictive relative clause attached to a description can often
 mean the same as a description involving a tanru.
@@ -1264,7 +1262,7 @@ The dog that is white, which my friend owns, is going.
 
 <paragraph>
 <ln><name>例文 4.2</name><address>#ex4.2</address></ln>では、<!--
--->&restrictive;&clause; "poi blabi" が&refer2;す犬を決めるが、<!--
+-->&restrictive;&clause; "poi blabi" が&refer;す犬を決めるが、<!--
 -->&incidental;&clause; "noi le mi pendo cu ponse" は&incidental;的な<!--
 -->情報である。<!--
 -->&listener;は "poi blabi" によってすでにどの犬かわかるのだろう。<!--
@@ -1421,7 +1419,7 @@ The dog which is-white goes.
 
 <paragraph>
 犬が白いのは本当に事実である必要があり、そうでなければこの文は誤りとなる。<!--
--->もし白い犬と茶色い犬とがいた場合に&speaker;が茶色い犬を&refer2;すのに
+-->もし白い犬と茶色い犬とがいた場合に&speaker;が茶色い犬を&refer;すのに
 "le gerku poi blabi" を使ったら、&listener;は正しく理解することが<!--
 -->できないだろう。しかし、
 <en>
@@ -1904,7 +1902,7 @@ I see the person named ``Man" who is afraid of his horse.
 </example>
 
 <paragraph>
-は「男」という名前で自分の馬を恐れている人を見るということを&refer;。
+は「男」という名前で自分の馬を恐れている人を見るということを&refer;す。
 <en>
 refers to one (or more) of those named ``Man",
 namely the one(s) who are afraid of their horses.
@@ -2305,9 +2303,9 @@ An old ``The Red Pony" is in the far room.
 --><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は<!--
 -->ある単語列が&speaker;から見て遠くの部屋にあることを&claim;する。<!--
 -->しかし、明らかに単語列は部屋のなかにあるなんてありえない。<!--
--->"la'e" の効果は&sumti;が語そのものを&refer;のではなく、<!--
+-->"la'e" の効果は&sumti;が語そのものを&refer;すのではなく、<!--
 -->その語が&referent;するもの、つまりジョーン・スタインベックの小説<!--
--->(&presumably;&lojban;語訳)を&refer;<!--
+-->(&presumably;&lojban;語訳)を&refer;す<!--
 -->ように&modify2;することだ。<!--
 -->特定の「赤い小馬」のコピーが&restrictive;&relative;&clause;によって<!--
 -->特定される。<!--
@@ -2347,7 +2345,7 @@ the [far distance] room.
 そして、2つの文は形式上の variants と考えられる。<!--
 -->"lu'u" &terminator;が必要であることに注意。<!--
 -->これのおかげで、&relative;&clause;が&quotation;自体&attach_to4;ことはない。<!--
--->古い&quotation;を&refer;ことを望みはしない。
+-->古い&quotation;を&refer;すことを望みはしない。
 <en>
 and the two sentences can be considered stylistic variants.
 Note the required ``lu'u" terminator,
@@ -2705,9 +2703,9 @@ The person who is-in the room which is-blue is-slow.
 <paragraph>
 しかし、&relative;&clause;のなかの&relative;&clause;のなかで
 "ke'a" が使われると曖昧さが生じる。<!--
--->それは、最も外側の&sumti;を&refer2;すのか、<!--
+-->それは、最も外側の&sumti;を&refer;すのか、<!--
 -->あるいは、内側の&relative;&clause;が&attach;られた外側の&relative;&clause;<!--
--->内の&sumti;を&refer2;すのか。<!--
+-->内の&sumti;を&refer;すのか。<!--
 -->答えは後者である。前者を表すには添字付きの "ke'a" を使う。
 <en>
 However, an ambiguity can exist if ``ke'a" is used in a relative clause

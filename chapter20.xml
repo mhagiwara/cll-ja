@@ -327,7 +327,7 @@ I must go to the market.
 <title>&selma_o; CAhA</title><reference path="./chapter10.html">第10章</reference>
 <description>
 &bridi;が事実、可能性(&achieved;&or_not;)、<!--
--->生来の能力のいずれを&refer;のか&specify2;。
+-->生来の能力のいずれを&refer;すのか&specify2;。
 </description>
 <example><lojban>ro datka ka'e flulimna</lojban>
 <japanese>全てのアヒルは浮かんで泳ぐことができる。</japanese></example>
@@ -567,7 +567,7 @@ more text. Useful in talking to computers.
 <title>&selma_o; FEhE</title><reference path="./chapter10.html">第10章</reference>
 <description>
 &following;(TAhE、ROI、ZAhO によって作られる)&interval;&modifier2;<!--
--->が時間ではなく空間を&refer;こと&indicate;。
+-->が時間ではなく空間を&refer;すこと&indicate2;する。
 </description>
 <example><lojban>ko vi'i fe'e di'i sombo le gurni</lojban>
 <japanese>穀物を一列に等間隔にまきなさい。</japanese></example>
@@ -1289,7 +1289,7 @@ f(x)
 	<reference path="./chapter18.html">第18章</reference>
 <description>
 &sumti;から&tanru_unit;を作る。<!--
--->それは&sumti;が&refer;もの&applicable;。MEhU &see;。
+-->それは&sumti;が&refer;すもの&applicable;。MEhU &see;。
 </description>
 <example><lojban>ta me la ford. karce</lojban>
 <japanese>あれはフォード車だ。</japanese></example>
