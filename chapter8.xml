@@ -20,10 +20,34 @@
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
-<note># todo .1: 題名の見直し</note>
-<note># todo .2: 各節の見出しの見直し</note>
 <note># todo .3: 各節の見直し</note>
 <note># todo .3.1: 1. 何を指しているの</note>
+<note># todo .3.1.2: &cmavo;の列挙部分の見直し</note>
+<note>-------------- introducer は名詞に訳したほうが見か目がきれい</note>
+<note># todo .3.1.3: 第1段落の見直し</note>
+<note># todo .3.1.4: 第2段落の見直し</note>
+<note># todo .3.1.5: 例文 1.1 の見直し</note>
+<note># todo .3.1.4: 第3段落の見直し</note>
+<note># todo .3.1.4: 第4段落の見直し</note>
+<note># todo .3.1.4: 第5段落の見直し</note>
+<note># todo .3.1.5: 例文 1.2 の見直し</note>
+<note># todo .3.1.5: 例文 1.3 の見直し</note>
+<note># todo .3.1.5: 例文 1.4 の見直し</note>
+<note># todo .3.1.4: 第6段落の見直し</note>
+<note># todo .3.1.4: 第7段落の見直し</note>
+<note># todo .3.1.5: 例文 1.5 の見直し</note>
+<note># todo .3.1.5: 例文 1.6 の見直し</note>
+<note># todo .3.1.4: 第8段落の見直し</note>
+<note># todo .3.1.4: 第9段落の見直し</note>
+<note># todo .3.1.5: 例文 1.7 の見直し</note>
+<note># todo .3.1.4: 第10段落の見直し</note>
+<note># todo .3.1.5: 例文 1.8 の見直し</note>
+<note># todo .3.1.4: 第11段落の見直し</note>
+<note># todo .3.1.5: 例文 1.9 の見直し</note>
+<note># todo .3.1.4: 第12段落の見直し</note>
+<note># todo .3.1.5: 例文 1.10 の見直し</note>
+<note># todo .3.1.5: 例文 1.11 の見直し</note>
+<note># todo .3.1.4: 第13段落の見直し</note>
 <note># todo .3.2: 2. &incidental;&relative;&clause;</note>
 <note># todo .3.3: 3. &relative;&phrase;</note>
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
@@ -94,6 +118,8 @@ Suppose one is pointing at a person (in particular, in the direction of his or
 her face), and says:
 </en>
 </paragraph>
+
+<note>訳注: 調べたところフィリピンでは唇で人や物を指すようだ</note>
 
 <example><ex_no>1.1</ex_no>
 <lojban>ti cu barda</lojban>
