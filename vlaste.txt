@@ -57,6 +57,8 @@ epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
 event contour	事象線 # 検討中
+filter	フィルタ
+filtering	フィルタリング
 flag	フラグ	# 暫定
 following	以下の/後続する	# 提案
 followed by	が後続する/を後置して	# 提案
@@ -77,6 +79,7 @@ inner quantifier	内部数量詞	# 提案
 internal bridi negation	内部ブリディ否定
 interval   範囲
 James Cooke Brown	ジェームズ・クック・ブラウン
+language-coded processing	言語符号化処理
 left-grouping rule	左結合則
 lerfu	レルフ
 lerfu string	レルフ列
@@ -107,6 +110,7 @@ mixed and	群化の「と」  # 提案
 modal	法制
 modal place 法制場所
 modifier	限定詞	# 提案: 修飾語/修飾句
+multi-step process	多手順過程	# 一般的には「多段階過程」と訳されるが、本書では scale に「段階」という訳語を与えているので、混同を避けるため
 name	固有名  # 提案
 natural language negation	自然言語否定
 nonce word	臨時語	# 提案
@@ -120,6 +124,8 @@ operand	被演算子	# 提案
 operator	演算子	# 提案
 optional	任意の	# 提案
 outer quantifier	外部数量詞	# 提案
+parse	構文解析
+parser	構文解析器／パーサ
 particle	小辞	# 提案: 他の案として「小詞」等
 pause	休止 # 検討中
 place	場所
@@ -155,6 +161,7 @@ quote	引用する	# 提案: 上記参照
 rafsi	ラフシ
 range within the scale	段階上の範囲
 relationship	関係
+resolve	分解
 restrictive relative phrase	限定関係句
 root word	根語
 scale	段階
@@ -169,7 +176,9 @@ shift word	変意詞 #  提案
 signal	シグナル	# 提案
 something-unspecified	不特定の何か
 spatial tense	空間制
+speech	発言
 state	状態
+step	手順
 stickiness	貼り付き # （ki の意味）
 sticky	貼り付く # （ki の意味）
 suffix	接尾辞
