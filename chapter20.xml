@@ -2043,8 +2043,8 @@ The-number 5 minus 2 equals the-number 3.
 
 <title>&selma_o; XI</title><reference path="./chapter18.html">第18章</reference>
 <description>
-下付き&letter;の&marker;。<!--
--->&following;&number;や&lerfu;&string;は何が&precede1;しても下付きとなる。
+添え字&letter;の&marker;。<!--
+-->&following;&number;や&lerfu;&string;は何が&precede1;しても添え字となる。
 </description>
 <example>
 <lojban>xy. xi re</lojban>
