@@ -13,6 +13,7 @@ argument	項
 argument tag	項タグ
 aspect	相制
 assert	表明
+assign	割り当てる
 attitudinal	心態詞
 attitudinal indicator	心態詞
 bridi	ブリディ
@@ -87,6 +88,7 @@ lerfu	レルフ
 lerfu string	レルフ列
 lerfu word	レルフ詞
 letteral	字詞
+Lexer Lexeme	字句解析語彙素
 lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
@@ -147,6 +149,7 @@ prefix	接頭辞
 prefix	前置する	# 提案
 prenex	冠頭	# 提案
 previous	先行する	# 提案
+pro-bridi	代ブリディ
 pro-sumti	代スムティ
 process	過程
 property	性質
