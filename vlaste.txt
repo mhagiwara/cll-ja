@@ -9,6 +9,7 @@ afterthought	後置
 agent	動作主
 ambiguous  曖昧な
 amount	量
+anaphora	照応
 argument	項
 argument tag	項タグ
 aspect	相制
@@ -22,6 +23,7 @@ bridi negation	ブリディ否定
 bridi-schema	ブリディ構成
 bridi-tail	ブリディ末端
 brivla	ブリヴラ
+cataphora	後方照応
 claim	言明
 cmavo	シマヴォ
 cmene	シメネ
