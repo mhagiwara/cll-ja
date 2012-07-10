@@ -33,6 +33,7 @@
 	<!ENTITY be_suffixed "に後置して">
 	<!ENTITY be_terminated_by "で終わる">
 	<!ENTITY be_terminated_with "によって終わらせる">
+	<!ENTITY between "あいだ">
 	<!ENTITY bind1 "結合する">
 	<!ENTITY bind2 "結合し">
 	<!ENTITY bridi "ブリディ">

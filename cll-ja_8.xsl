@@ -171,4 +171,9 @@
 </xsl:template>
 -->
 
+<!-- ******************** delete ******************* -->
+
+<xsl:template match="delete">
+</xsl:template>
+
 </xsl:stylesheet>

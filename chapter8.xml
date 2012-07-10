@@ -22,27 +22,7 @@
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
 <note># todo .3: 各節の見直し、まずは訳の正しさを確認する、まだ直訳的で良い</note>
 <note>---------- ここでは、できるだけ訳していない単語がないようにする</note>
-<note># todo .3.1: 1. 何を指しているの</note>
-<note># todo .3.1.4: 第4段落の見直し</note>
-<note># todo .3.1.4: 第5段落の見直し</note>
-<note># todo .3.1.5: 例文 1.2 の見直し</note>
-<note># todo .3.1.5: 例文 1.3 の見直し</note>
-<note># todo .3.1.5: 例文 1.4 の見直し</note>
-<note># todo .3.1.4: 第6段落の見直し</note>
-<note># todo .3.1.4: 第7段落の見直し</note>
-<note># todo .3.1.5: 例文 1.5 の見直し</note>
-<note># todo .3.1.5: 例文 1.6 の見直し</note>
-<note># todo .3.1.4: 第8段落の見直し</note>
-<note># todo .3.1.4: 第9段落の見直し</note>
-<note># todo .3.1.5: 例文 1.7 の見直し</note>
-<note># todo .3.1.4: 第10段落の見直し</note>
-<note># todo .3.1.5: 例文 1.8 の見直し</note>
-<note># todo .3.1.4: 第11段落の見直し</note>
-<note># todo .3.1.5: 例文 1.9 の見直し</note>
-<note># todo .3.1.4: 第12段落の見直し</note>
-<note># todo .3.1.5: 例文 1.10 の見直し</note>
-<note># todo .3.1.5: 例文 1.11 の見直し</note>
-<note># todo .3.1.4: 第13段落の見直し</note>
+<note>---------- ただし、英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.2: 2. &incidental;&relative;&clause;</note>
 <note># todo .3.3: 3. &relative;&phrase;</note>
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
@@ -139,9 +119,9 @@ and mean "these ones" as well as ``this one") the pores on the person's nose?
 -->&relative;&clause;は普通、&sumti;の後ろにつけるが、<!--
 -->この章の後のほうで説明するように、他にも動かしていい場所がある。<!--
 -->&relative;&clause;は&selma_o; NOI に属する語で始まり、<!--
--->&elidable;&terminator;(&selma_o; KUhO に属する) "ku'o" で&end2;る。
-"noi"が&selma_o; NOI の&cmavo; だろうと思うだろうが、
-まずは&selma_o; NOI に属するもうひとつの &cmavo; "poi" を&discuss;する。
+-->&elidable;&terminator;(&selma_o; KUhO に属する) "ku'o" で&end2;る。<!--
+-->おわかりのように、"noi" は&selma_o; NOI の&cmavo;であるが、<!--
+-->まずは&selma_o; NOI に属するもうひとつの &cmavo; "poi" を&discuss;する。
 <en>
 To help solve this problem, Lojban uses a construction called a ``relative clause".
 Relative clauses are usually attached to the end of sumti,
@@ -155,7 +135,8 @@ however, first we will discuss the cmavo ``poi" which also belongs to selma'o NO
 </paragraph>
 
 <paragraph>
-"poi" と "ku'o" の間には他の&bridi;と同じ文法を持つ&full2;な&bridi;がはいる。<!--
+"poi" と "ku'o" の&between;には他のどの&bridi;とも同じ文法を持つ<!--
+-->&full2;な&bridi;がはいる。<!--
 -->&relative;&clause;の&bridi;内でならどこでも(&selma_o; KOhA に属する)&pro_sumti;
 "ke'a" が使える。<!--
 -->"ke'a" は&relative;&clause;が&attach;られた&sumti;<!--
@@ -201,12 +182,15 @@ These nose-pores are big.
 </en>
 </example>
 
+
 <paragraph>
+<delete>
 この章を通して、直訳中の大文字の "IT" は &cmavo; "ke'a" を表すのに使う。<!--
 -->それぞれの例文で、それは&relative;&clause;が&attach;られた&sumti;
 (<ln><name>例文 1.2</name><address>#ex1.2</address></ln>から<!--
 --><ln><name>例文 1.4</name><address>#ex1.4</address></ln>まででは&cmavo; "ti")<!--
 -->を表すのに使う。
+</delete>
 <en>
 In the literal translations throughout this chapter, the word ``IT",
 capitalized, is used to represent the cmavo ``ke'a".
@@ -219,16 +203,15 @@ the relative clause is attached.
 
 <paragraph>
 もちろん、"ke'a" が&relative;&clause;の&bridi;の x1
-の場所に来なければならないという理由はない。<!--
--->また、さらに言えば&relative;&clause;の&bridi;内の&sub_bridi;中に<!--
--->来ることもある。さらに2つの例文:
+の場所に来なければならないという理由はなく、どの場所に現われても良い。<!--
+-->&relative;&clause;の&bridi;内の&sub_bridi;のなかに<!--
+-->来ることさえある。さらに2つの例文:
 <en>
 Of course, there is no reasen why ``ke'a" needs to appear in the x1 place of
 a relative clause bridi; it can appear in any place,
 or indeed even in a sub-bridi within the relative clause bridi.
 Here are two more examples:
 </en>
-
 </paragraph>
 
 <example><ex_no>1.5</ex_no>
@@ -266,8 +249,8 @@ within a relative clause.
 </paragraph>
 
 <paragraph>
-他の&sumti;同様、"ke'a" も&omit;できる。
-通常、それが省略された場合、x1 の場所にあると推測される。
+他の&sumti;同様、"ke'a" も&omit;できる。<!--
+-->その場合、通常だと x1 の場所にあると推測される。
 <en>
 Like any sumti, ``ke'a" can be omitted.
 The usual presumption in that case is that it then falls into the x1 place:
@@ -286,7 +269,8 @@ This-thing which is-a-nose is-big.
 <paragraph>
 はほぼ確実に<ln><name>例文 1.3</name><address>#ex1.3</address></ln>と<!--
 -->同じ意味だ。<!--
--->"ke'a" はそれが&listener;に明らかであれば x1 以外の場所にあっても&omit;できる。
+-->"ke'a" はその場所が&listener;に明らかであれば
+x1 以外の場所にあっても&omit;できる。
 <en>
 almost certainly means the same thing as
 <ln><name>Example 1.3</name><address>#ex1.3</address></ln>.
@@ -305,8 +289,8 @@ That-distant-thing which the cat drags is-a-rat
 </example>
 
 <paragraph>
-は<ln><name>例文 1.5</name><address>#ex1.5</address></ln>と同じ意味だ。
-前に&state;たように "ku'o" は&elidable;&terminator;で、<!--
+は<ln><name>例文 1.5</name><address>#ex1.5</address></ln>と同じ意味だ。<!--
+-->前に&state;たように "ku'o" は&elidable;&terminator;で、<!--
 -->実のところ、ほとんど常に&elidable2;である。<!--
 -->この章の残りの部分を通して、"ku'o" は本当に必要な時以外は省略する。<!--
 -->すると、<ln><name>例文 1.2</name><address>#ex1.2</address></ln>は意味を変えずに
@@ -321,6 +305,8 @@ can be written:
 </en>
 </paragraph>
 
+<!-- here#1 -->
+
 <example><ex_no>1.9</ex_no>
 <lojban>ti poi prenu cu barda</lojban>
 <japanese>その人は大きい。</japanese>
@@ -332,11 +318,13 @@ That person is big.
 
 <paragraph>
 のように書ける。
+<delete>
 "poi" は "ke'a" が&relative;&clause;の&bridi;の x1
 の場所から省略されているときには "such-that" ではなく
 "which" と訳すことを憶えておくこと。
 "which" は英語では英語の&relative;&clause;を始めるのに使う。
 他には以下の例文に示すように "who" や "that" がある。
+</delete>
 <en>
 without any change in meaning.
 Note that ``poi" is translated ``which" rather than ``such-that" when
@@ -346,6 +334,7 @@ other words that can be used are ``who" and ``that", as in:
 </en>
 </paragraph>
 
+<delete>
 <example><ex_no>1.10</ex_no>
 <english>I saw a man who was going to the store.</english>
 <japanese>私はその店に向かっていた男を見た。</japanese>
@@ -373,6 +362,7 @@ Sometimes ``who", ``which" and ``that" are used in literal translations in this
 chapter in order to make them read more smoothly.
 </en>
 </paragraph>
+</delete>
 
 </section_contents>
 </section>
