@@ -71,7 +71,11 @@ gismu	ギスム
 gloss	逐語訳
 gloss word	見出し語
 implicit-abstraction lujvo	暗黙抽象ルジヴォ
+incidental relative clause	非限定関係節	# 提案
 incidental relative phrase	付随関係句
+# 提案: 英語教育を受けた日本人にとっては、「付随」より「非限定」のほうが
+#       わかりやすいと思われる。意訳の部分では、
+#       non-restrictive と読みかえて、「非限定」と訳すのはどうだろうか。
 indefinite	不定の
 indicate	を示す	# 提案
 indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほうがわかりやすいかも
@@ -121,6 +125,7 @@ nonce word	臨時語	# 提案
 non-logical	非論理的
 non-logical connection	非論理接続	# 提案
 non-logical connective	非論理接続詞	# 提案
+non-restrictive	非限定	# 提案
 non-veridical	非真実	# 提案
 numeral string	数詞列
 numeric cmavo	数字シマヴォ	# 提案
@@ -168,6 +173,7 @@ rafsi	ラフシ
 range within the scale	段階上の範囲
 relationship	関係
 resolve	分解
+restrictive relative clause	限定関係節
 restrictive relative phrase	限定関係句
 root word	根語
 scale	段階

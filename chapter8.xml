@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 11% くらい翻訳</note>
+<note># 12% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -24,6 +24,22 @@
 <note>---------- ここでは、できるだけ訳していない単語がないようにする</note>
 <note>---------- ただし、英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.2: 2. &incidental;&relative;&clause;</note>
+<!-- here#1 -->
+<note># todo .3.2.2: 第1段落の見直し</note>
+<note># todo .3.2.3: 第2段落の見直し</note>
+<note># todo .3.2.4: 例文2.1の見直し</note>
+<note># todo .3.2.5: 例文2.2の見直し</note>
+<note># todo .3.2.6: 第3段落の見直し</note>
+<note># todo .3.2.7: 第4段落の見直し</note>
+<note># todo .3.2.8: 第5段落の見直し</note>
+<note># todo .3.2.9: 例文2.3の見直し</note>
+<note># todo .3.2.10: 第6段落の見直し</note>
+<note># todo .3.2.11: 例文2.4の見直し</note>
+<note># todo .3.2.12: 第7段落の見直し</note>
+<note># todo .3.2.13: 例文2.5の見直し</note>
+<note># todo .3.2.14: 第8段落の見直し</note>
+<note># todo .3.2.15: 例文2.6の見直し</note>
+<note># todo .3.2.16: 第9段落の見直し</note>
 <note># todo .3.3: 3. &relative;&phrase;</note>
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
 <note># todo .3.5: 5. &non_veridical;&relative;&clause;: "voi"</note>
@@ -305,8 +321,6 @@ can be written:
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <example><ex_no>1.9</ex_no>
 <lojban>ti poi prenu cu barda</lojban>
 <japanese>その人は大きい。</japanese>
@@ -371,27 +385,30 @@ chapter in order to make them read more smoothly.
 <title>&incidental;&relative;&clause;<en>incidental relative clauses</en></title>
 <cmavo_list>
 <cmavo_item><cmavo>noi</cmavo><selmaho>NOI</selmaho><caption>
-	<ja>&relative;&clause;を&introduce;く</ja>
+	<ja>&relative;&clause;&introducer;</ja>
 	<en>relative clause introducer</en></caption></cmavo_item>
 </cmavo_list>
 <section_contents>
 
+<!-- here#1 -->
+
 <paragraph>
 &relative;&clause;には基本的な2つの種類がある。
-"poi" に&introduce;かれる&restrictive;&relative;&clause;と<!--
--->"noi" に&introduce;かれる<!--
--->(単純に&non_restrictive;と呼ばれることもあるが)&incidental;<!--
+"poi" に&introduce;かれる&restrictive;&relative;&clause;と
+"noi" に&introduce;かれる<!--
+-->(単純に&non_restrictive;と呼ばれることもある)&incidental;<!--
 -->&relative;&clause;である。<!--
--->&restrictive;&relative;&clause;と&incidental;&relative;&clause;の違いは、<!--
--->&restrictive;&relative;&clause;が&attach;られた&sumti;が&refer;すものを決める<!--
+-->&restrictive;&relative;&clause;と&incidental;&relative;&clause;<!--
+-->の&between;にある&difference;は、<!--
+-->&restrictive;&relative;&clause;が、&attach;られた&sumti;が&refer;すものを決める<!--
 -->のに必要な情報を提供するのに対して、<!--
 -->&incidental;&relative;&clause;は&listener;の&helpful;つが<!--
 -->&sumti;が&refer;すものを決めるのに必要ではない<!--
 -->付加的な情報を提供するという点にある。<!--
 --><ln><name>第1節</name><address>#section1</address></ln><!--
 -->の例文はすべて&restrictive;&relative;&clause;であり、<!--
--->&relative;&clause;の情報は表すものを決めるのに必要である。<!--
--->(この章のタイトルは&incidental;&relative;&clause;だけどね。)
+-->&relative;&clause;の情報は&refer;すものを決めるのに必要である<!--
+-->(この章のタイトルは&incidental;&relative;&clause;だけど)。
 <en>
 There are two basic kinds of relative clauses:
 restrictive relative clauses introduced by ``poi",
@@ -411,6 +428,13 @@ identification.
 (The title of this chapter, though, uses an incidental relative clause.)
 </en>
 </paragraph>
+
+<note>訳注: 上の訳文はかなりまだるっこしい感じがある。</note>
+<note>訳注: 意訳の段階でもっとシンプルにしてしまおう。</note>
+<note>訳注: また、「付随関係節」と言うよりも、日本人としては、<!--
+-->英語文法の学習の際にたたきこまれた「非限定用法」という言葉があるので、<!--
+-->「非限定関係節」のほうがわかりやすいだろうと思われる。</note>
+<note>訳注: よって、意訳の段階では「非限定関係節」を採用しようかと思う。</note>
 
 <paragraph>
 &following2;例文を&consider;てみよう。
