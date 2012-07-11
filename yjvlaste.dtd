@@ -3,7 +3,7 @@
 	<!ENTITY abstractor "抽象詞">
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
-	<!ENTITY additional "付加的">
+	<!ENTITY additional "追加の">
 	<!ENTITY ad_hoc "その場で作られた">
 	<!ENTITY affect "かかる">
 	<!ENTITY alienable "譲渡可能">
@@ -115,11 +115,12 @@
 	<!ENTITY immediately_preceding "直前にある">
 	<!ENTITY imply "という意味になる">
 	<!ENTITY inalienable "不可譲">
-	<!ENTITY incidental "付随">
+	<!ENTITY incidental "非限定">
 	<!ENTITY indefinite "不定の">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicate2 "示唆">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY in_fact "実際には">
 	<!ENTITY information "情報">
 	<!ENTITY inner_quantifier "内部数量詞">
 	<!ENTITY in_principle "原則として">
@@ -249,7 +250,7 @@
 	<!ENTITY significance "意味">
 	<!ENTITY single "単一の">
 	<!ENTITY singular "単数">
-	<!ENTITY speaker "言い手">
+	<!ENTITY speaker "話し手">
 	<!ENTITY speaker2 "話者">
 	<!ENTITY somewhat "いくらか">
 	<!ENTITY specify1 "示す">
@@ -260,6 +261,7 @@
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY strategy "方法">
 	<!ENTITY string "列">
+	<!ENTITY solely "ただ">
 	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">
 	<!ENTITY suffix_n "接尾辞">
