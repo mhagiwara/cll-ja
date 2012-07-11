@@ -26,6 +26,23 @@
 <note># todo .3.2: 2. &incidental;&relative;&clause;</note>
 <!-- here#1 -->
 <note># todo .3.3: 3. &relative;&phrase;</note>
+<note># todo .3.3.10: 第5段落</note>
+<note># todo .3.3.11: 第6段落</note>
+<note># todo .3.3.12: 第7段落</note>
+<note># todo .3.3.13: 例文3.5</note>
+<note># todo .3.3.14: 例文3.6</note>
+<note># todo .3.3.15: 例文3.7</note>
+<note># todo .3.3.16: 第8段落</note>
+<note># todo .3.3.17: 第9段落</note>
+<note># todo .3.3.18: 第10段落</note>
+<note># todo .3.3.19: 例文3.8</note>
+<note># todo .3.3.20: 第11段落</note>
+<note># todo .3.3.21: 第12段落</note>
+<note># todo .3.3.22: 例文3.9</note>
+<note># todo .3.3.23: 例文3.10</note>
+<note># todo .3.3.24: 第13段落</note>
+<note># todo .3.3.25: 第14段落</note>
+<note># todo .3.3.26: 例文3.11</note>
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
 <note># todo .3.5: 5. &non_veridical;&relative;&clause;: "voi"</note>
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
@@ -627,8 +644,6 @@ not to any more complex or extended concept.
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 </section_contents>
 </section>
 
@@ -662,9 +677,9 @@ not to any more complex or extended concept.
 <section_contents>
 
 <paragraph>
-よく使われるいくつかの種類の(それぞれの&selbri;を持つ)&relative;&clause;<!--
--->があり、それらは<!--
--->&relative;&phrase;と呼ばれる&shortcut;によって表現することができる。<!--
+&lojban;でしばしば必要となる&relative;&clause;の<!--
+-->(それぞれの&selbri;を持つ)定型的な形があり、それらは<!--
+-->&relative;&phrase;と呼ばれる&shortcut;によって&express;することができる。<!--
 -->&relative;&phrase;は&selma_o; GOI に属する&cmavo;に&introduce;かれ、<!--
 -->&single;&sumti;が&following; GOI &cmavo;から成る。
 <en>
@@ -676,8 +691,11 @@ and consist of a GOI cmavo followed by a single sumti.
 </en>
 </paragraph>
 
+<note>訳注: "be frequently wanted" を「しばしば必要となる」と訳した</note>
+<note>訳注: 上の訳は次の見直しで、よりわかりやすく意訳する必要がある</note>
+
 <paragraph>
-"pe" の例文と&relative;&clause;を使った同じ意味の文を示す。
+"pe" の例文と、&relative;&clause;を使った同じ意味の例文を示す。
 <en>
 Here is an example of ``pe", plus an equivalent sentence using a relative clause:
 </en>
@@ -711,14 +729,20 @@ the link between the chair and the speaker is of the loosest kind.
 </en>
 </paragraph>
 
+<note>訳注: "the link ... is of the loosest kind"
+を「つながりは最も弱い類のものである」と訳したが、<!--
+-->日本語としてあまりきれいではないと思う。次回の見直しの際によく考えること</note>
+
 <paragraph>
 "po" の例文を示す。
 <en>Here is an example of ``po":</en>
 </paragraph>
 
+<!-- here#1 -->
+
 <example><ex_no>3.3</ex_no>
 <lojban>le stizu po mi cu xunre</lojban>
-<japanese>その私に固有の椅子は赤い。</japanese>
+<japanese>その私と特別な関係のある椅子は赤い。</japanese>
 <en>
 The chair specific-to me is red.
 </en>
@@ -726,7 +750,7 @@ The chair specific-to me is red.
 
 <example><ex_no>3.4</ex_no>
 <lojban>le stizu poi ke'a se steci srana mi cu xunre</lojban>
-<japanese>その私に特別に関係のある椅子は赤い。</japanese>
+<japanese>その私と特別な関係のある椅子は赤い。</japanese>
 <en>
 The chair such-that (IT is-specifically associated-with me)
 </en>
