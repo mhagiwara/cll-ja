@@ -25,12 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.2: 2. &incidental;&relative;&clause;</note>
 <!-- here#1 -->
-<note># todo .3.2.11: 例文2.4の見直し</note>
-<note># todo .3.2.12: 第7段落の見直し</note>
-<note># todo .3.2.13: 例文2.5の見直し</note>
-<note># todo .3.2.14: 第8段落の見直し</note>
-<note># todo .3.2.15: 例文2.6の見直し</note>
-<note># todo .3.2.16: 第9段落の見直し</note>
 <note># todo .3.3: 3. &relative;&phrase;</note>
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
 <note># todo .3.5: 5. &non_veridical;&relative;&clause;: "voi"</note>
@@ -551,14 +545,12 @@ Do you see my car, which is white?
 </en>
 </example>
 
-<!-- here#1 -->
-
 <paragraph>
 <ln><name>例文 2.4</name><address>#ex2.4</address></ln>では、<!--
 -->&speaker;は&presumably;一台しか車を持っていなくて、<!--
 -->&incidental;的な情報として、それが白いことを伝えたのだろう<!--
--->(あるいは、彼または彼女は複数の車を持っていたかもしれない。<!--
--->何故なら "le karce" は&plural;でもあり得るからだ。<!--
+-->(あるいは、"le karce" は&plural;でもよいので、<!--
+-->彼または彼女は複数の車を持っているかもしれない。<!--
 -->その場合、&incidental;的な情報はそれらのそれぞれが白いということになる)。<!--
 -->&restrictive;&relative;&clause;を使った<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln>と比べてみよ。
@@ -584,10 +576,10 @@ Do you see my white car?
 </example>
 
 <paragraph>
-ここでは、&speaker;は&probably;何台か車を持っているのかもしれない。<!--
+ここでは、&speaker;は&probably;何台か車を持っているのだろう。<!--
 -->そして、&sumti; "le mi karce" の&refer;すものを<!--
 -->(そして結果として&listener;の注意を)<!--
--->白いものだけに&restrict;している。<!--
+-->白い車だけに&restrict;している。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln><!--
 -->は&relative;&clause;を使っていない<!--
 --><ln><name>例文 2.6</name><address>#ex2.6</address></ln>と<!--
@@ -615,12 +607,12 @@ Do you see my car, the white one?
 <paragraph>
 このように、&description;に&attach;られた&restrictive;&relative;&clause;<!--
 -->は&often;&tanru;を含む&description;と同じ意味を表せる。<!--
--->しかし、"blabi karce" は全ての&tanru;と同様、&somewhat;&vague;だ。<!--
+-->しかし、"blabi karce" は&all;の&tanru;と同様、&somewhat;&vague;だ。<!--
 -->&in_principle;、それは白いものを運ぶ車を&refer;すかもしれないし、<!--
--->白-性と車-性に含まれるもっと複雑な意味を表すかもしれない。<!--
+-->白-性と車-性を含むもっと複雑な&concept;を表すかもしれない。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln>の&restrictive;<!--
 -->&relative;&clause;は白い車だけを&refer;し、<!--
--->もっと複雑な意味や拡張された概念を&refer;すことはない。
+-->もっと複雑または拡張された&concept;を&refer;すことはない。
 <en>
 So a restrictive relative clause attached to a description can often
 mean the same as a description involving a tanru.
@@ -634,6 +626,8 @@ refer to a car which is white,
 not to any more complex or extended concept.
 </en>
 </paragraph>
+
+<!-- here#1 -->
 
 </section_contents>
 </section>

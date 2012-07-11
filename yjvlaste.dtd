@@ -50,6 +50,7 @@
 	<!ENTITY communication "コミュニケーション">
 	<!ENTITY components_of_tanru "タンルの構成単位">
 	<!ENTITY compound "合成された">
+	<!ENTITY concept "意味">
 	<!ENTITY connected "接続された">
 	<!ENTITY connection "接続">
 	<!ENTITY connective "接続詞">
@@ -216,7 +217,7 @@
 	<!ENTITY prepose "前置">
 	<!ENTITY presumably "たぶん">
 	<!ENTITY previous "先行する">
-	<!ENTITY probably "もしかすると">
+	<!ENTITY probably "たぶん">
 	<!ENTITY pro_bridi "代ブリディ">
 	<!ENTITY pro_sumti "代スムティ">
 	<!ENTITY provide "提供">
