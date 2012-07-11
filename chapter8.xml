@@ -23,20 +23,26 @@
 <note># todo .3: 各節の見直し、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
-<note># todo .3.2: 2. &incidental;&relative;&clause;</note>
 <!-- here#1 -->
 <note># todo .3.3: 3. &relative;&phrase;</note>
-<note># todo .3.3.16: 第8段落</note>
-<note># todo .3.3.17: 第9段落</note>
-<note># todo .3.3.18: 第10段落</note>
-<note># todo .3.3.19: 例文3.8</note>
-<note># todo .3.3.20: 第11段落</note>
-<note># todo .3.3.21: 第12段落</note>
-<note># todo .3.3.22: 例文3.9</note>
-<note># todo .3.3.23: 例文3.10</note>
-<note># todo .3.3.24: 第13段落</note>
-<note># todo .3.3.25: 第14段落</note>
-<note># todo .3.3.26: 例文3.11</note>
+<note># todo .3.3.31: 第17段落</note>
+<note># todo .3.3.32: 例文3.14</note>
+<note># todo .3.3.33: 例文3.15</note>
+<note># todo .3.3.34: 第18段落</note>
+<note># todo .3.3.35: 第19段落</note>
+<note># todo .3.3.36: 例文3.16</note>
+<note># todo .3.3.37: 第20段落</note>
+<note># todo .3.3.38: 第21段落</note>
+<note># todo .3.3.39: 例文3.17</note>
+<note># todo .3.3.40: 第22段落</note>
+<note># todo .3.3.41: 例文3.18</note>
+<note># todo .3.3.42: 第23段落</note>
+<note># todo .3.3.43: 第24段落</note>
+<note># todo .3.3.44: 例文3.19</note>
+<note># todo .3.3.45: 第25段落</note>
+<note># todo .3.3.46: 例文3.20</note>
+<note># todo .3.3.47: 第26段落</note>
+<note># todo .3.3.48: 第27段落</note>
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
 <note># todo .3.5: 5. &non_veridical;&relative;&clause;: "voi"</note>
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
@@ -822,20 +828,20 @@ The bottole specific-to me is-broken
 
 <paragraph>
 <ln><name>例文 3.5</name><address>#ex3.5</address></ln>と<!--
---><ln><name>例文 3.6</name><address>#ex3.6</address></ln>の二者と、<!--
+--><ln><name>例文 3.6</name><address>#ex3.6</address></ln>の2つと、<!--
 --><ln><name>例文 3.7</name><address>#ex3.7</address></ln>とはそれぞれ<!--
--->ふたつの種類の所有を対比している。<!--
--->そのふたつとは&intrinsic;と&extrinsic;である。<!--
--->それぞれ、&inalienable;や&alienable;とも呼ばれる。<!--
+-->2つの種類の所有を対比している。<!--
+-->その2つとは&intrinsic;と&extrinsic;である。<!--
+-->&inalienable;と&alienable;とも呼ばれる。<!--
 -->何かが&intrinsic;(あるいは&inalienable;)に&possess;されていると言えるのは<!--
 -->&possession2;が&possessor;の一部であり、<!--
 -->&possessor;を変化させずにそれを変えることができないときである。<!--
 --><ln><name>例文 3.5</name><address>#3.5</address></ln>を見てみると、<!--
 -->人々は通常腕を&intrinsic;に&possess;しているとされる。<!--
--->たとえ、もし腕が切り落とされてもその腕はその人のものである。<!--
+-->たとえ、もし腕が切り落とされてもその腕はその人のものである<!--
 -->(ただし、もし腕が移植されたとしたら、それは新しい使用者に&intrinsic;に<!--
 -->&possess;されていることになる。つまり、&intrinsic;な&possess;とは程度の<!--
--->問題なのだ。)
+-->問題なのだ)。
 <en>
 <ln><name>Example 3.5</name><address>#ex3.5</address></ln> and
 <ln><name>Example 3.6</name><address>#ex3.6</address></ln> on the one hand,
@@ -854,11 +860,9 @@ so intrinsic possession is a matter of degree.)
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <paragraph>
 それに対して、<ln><name>例文 3.7</name><address>#ex3.7</address></ln>の<!--
--->瓶は誰かにあげたり、捨てたり、なくしたり、盗まれたりされる可能性がある。<!--
+-->瓶は誰かにあげたり、捨てたり、なくしたり、盗まれたりする可能性がある。<!--
 -->だからそれは&extrinsic;に&possess;されているということになる。<!--
 -->&intrinsic;と&extrinsic;の境界は文化に依存している。<!--
 -->独立宣言では人間の「&inalienable;な権利」がうたわれている。<!--
@@ -876,7 +880,7 @@ varies from culture to culture.
 </paragraph>
 
 <paragraph>
-ちなみに、<ln><name>例文 3.5</name><address>#ex3.5</address></ln>は&relative;<!--
+<ln><name>例文 3.5</name><address>#ex3.5</address></ln>は&relative;<!--
 -->&clause;を使わなくても表現できる。
 <en>
 Note that <ln><name>Example 3.5</name><address>#ex3.5</address></ln> can also be
@@ -893,7 +897,7 @@ The arm of-body me is broken
 </example>
 
 <paragraph>
-上のように言えるのは、&gismu; "brika" が腕が属する体を表す x2
+このように言えるのは、&gismu; "brika" が腕が属する体を表す x2
 の場所を持つからだ。<!--
 -->このように、たいていにおいて、&intrinsic;&possession;は
 "po'e" を使わないで、&possessor;を&description;&selbri;の適当な場所に<!--
@@ -929,8 +933,8 @@ The dog which = my friend kisses me.
 </example>
 
 <paragraph>
-&cmavo; "po'u" は所有ではなく、同一を意味する。<!--
--->("po'u" は "poi du" を意味するので、それを示す形をしている。)
+&cmavo; "po'u" は所有ではなく同一を意味する<!--
+-->("po'u" は "poi du" を意味するのでその関係を&suggest;す形が選ばれた)。
 <en>
 The cmavo ``po'u" does not represent possession at all, but rather identity.
 (Note that it means ``poi du" and its form was chosen to suggest the relationship.)
@@ -939,10 +943,10 @@ The cmavo ``po'u" does not represent possession at all, but rather identity.
 
 <paragraph>
 <ln><name>例文 3.9</name><address>#ex3.9</address></ln>では<!--
--->"po'u" を使っていることで、"le gerku" と "le mi pendo"
-は同じものであることがわかる。<!--
---><ln><name>例文 3.9</name><address>#ex3.9</address></ln>と以下の違いについて<!--
--->見てみよう。
+-->"po'u" を使って、"le gerku" と "le mi pendo"
+が同じもの&represent;していることを示している。<!--
+--><ln><name>例文 3.9</name><address>#ex3.9</address></ln>と以下の&difference;<!--
+-->について見てみよう。
 <en>
 In <ln><name>Example 3.9</name><address>#ex3.9</address></ln>
 the use of ``po'u"
@@ -963,9 +967,9 @@ My friend which-is the dog kisses me.
 <paragraph>
 事実としては同じであるが状況に対する&listener;の知識は異なる。<!--
 --><ln><name>例文 3.9</name><address>#ex3.9</address></ln>では、<!--
--->&listener;は "le gerku" がどの犬を指すのかわからないのかもしれない。<!--
+-->&listener;はたぶん "le gerku" がどの犬を指すのかわからないのだろう。<!--
 -->それで、&speaker;は彼の友達であるような特定の犬としてはっきりさせるために、<!--
--->&relative;&clause;をつける。
+-->&relative;&phrase;をつける。
 <en>
 The facts of the case are the same, but the listener's knowledge about
 the situation may not be.
@@ -980,7 +984,7 @@ dog which is the speaker's friend.
 <ln><name>例文 3.11</name><address>#ex3.11</address></ln>では、<!--
 -->&listener;は&speaker;の友達のうちの誰を指しているのかがわからないのだろう。<!--
 -->だから、それが犬であるような友達であるとして特定している<!--
--->(その犬は明らかとされる)。<!--
+-->(どの犬であるかは明らかとされる)。<!--
 -->同じ対照の別の例を示す。
 <en>
 <ln><name>Example 3.11</name><address>#ex3.11</address></ln>, however,
@@ -992,9 +996,14 @@ Here is another example of the same contrast:
 </en>
 </paragraph>
 
+<note>訳注: "which dog is taken to be obvious" の意味がはっきりしない。<!--
+-->「その犬は明らかとされる」「どの犬であるかは明らかとされる」等の訳を試みた。<!--
+-->ニュアンス的には「"that is the dog" によって指される犬は一意に決まる」と<!--
+-->いったところだろうか</note>
+
 <example><ex_no>3.12</ex_no>
 <lojban>le tcadu po'u la nu,iork</lojban>
-<japanese>ニューヨークである街</japanese>
+<japanese>ニューヨークである街[他の街ではない]</japanese>
 <en>
 The city of New York [not another city].
 </en>
@@ -1002,7 +1011,7 @@ The city of New York [not another city].
 
 <example><ex_no>3.13</ex_no>
 <lojban>la nu,iork po'u le tcadu</lojban>
-<japanese>街であるニューヨーク</japanese>
+<japanese>街であるニューヨーク[州やその他のニューヨークではない]</japanese>
 <en>
 New York the city (not the state or some other New York)
 </en>
@@ -1036,6 +1045,8 @@ My friend associated-with the cup is small.
 My friend, the one with the cup, is small.
 </en>
 </example>
+
+<!-- here#1 -->
 
 <paragraph>
 <ln><name>例文 3.14</name><address>#ex3.14</address></ln><!--
