@@ -25,10 +25,6 @@
 <note>---------- ただし、英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.2: 2. &incidental;&relative;&clause;</note>
 <!-- here#1 -->
-<note># todo .3.2.2: 第1段落の見直し</note>
-<note># todo .3.2.3: 第2段落の見直し</note>
-<note># todo .3.2.4: 例文2.1の見直し</note>
-<note># todo .3.2.5: 例文2.2の見直し</note>
 <note># todo .3.2.6: 第3段落の見直し</note>
 <note># todo .3.2.7: 第4段落の見直し</note>
 <note># todo .3.2.8: 第5段落の見直し</note>
@@ -390,8 +386,6 @@ chapter in order to make them read more smoothly.
 </cmavo_list>
 <section_contents>
 
-<!-- here#1 -->
-
 <paragraph>
 &relative;&clause;には基本的な2つの種類がある。
 "poi" に&introduce;かれる&restrictive;&relative;&clause;と
@@ -400,11 +394,11 @@ chapter in order to make them read more smoothly.
 -->&relative;&clause;である。<!--
 -->&restrictive;&relative;&clause;と&incidental;&relative;&clause;<!--
 -->の&between;にある&difference;は、<!--
--->&restrictive;&relative;&clause;が、&attach;られた&sumti;が&refer;すものを決める<!--
--->のに必要な情報を提供するのに対して、<!--
+-->&restrictive;&relative;&clause;が、&attach_to4;&sumti;が&refer;すものを決める<!--
+-->のに必要な情報を&provide;するのに対して、<!--
 -->&incidental;&relative;&clause;は&listener;の&helpful;つが<!--
 -->&sumti;が&refer;すものを決めるのに必要ではない<!--
--->付加的な情報を提供するという点にある。<!--
+-->&additional;な情報を&provide;するという点にある。<!--
 --><ln><name>第1節</name><address>#section1</address></ln><!--
 -->の例文はすべて&restrictive;&relative;&clause;であり、<!--
 -->&relative;&clause;の情報は&refer;すものを決めるのに必要である<!--
@@ -429,7 +423,7 @@ identification.
 </en>
 </paragraph>
 
-<note>訳注: 上の訳文はかなりまだるっこしい感じがある。</note>
+<note>訳注: 上の訳文はまだるっこしい感じがある。</note>
 <note>訳注: 意訳の段階でもっとシンプルにしてしまおう。</note>
 <note>訳注: また、「付随関係節」と言うよりも、日本人としては、<!--
 -->英語文法の学習の際にたたきこまれた「非限定用法」という言葉があるので、<!--
@@ -461,17 +455,17 @@ The dog, which is blue, is large.
 
 <paragraph>
 <ln><name>例文 2.1</name><address>#ex2.1</address></ln>では
-"poi blanu" で&convey;される情報は問題となる犬を決めるのに必要だ。<!--
+"poi blanu" で&convey;される&information;は問題となる犬を決めるのに必要だ。<!--
 -->これによって、&refer;される可能性のある犬を、<!--
 -->犬一般から青い犬に&restrict;する。<!--
 -->だから、"poi" &relative;&clause;は&restrictive;&relative;&clause;<!--
 -->と呼ばれる。<!--
 -->一方、<ln><name>例文 2.2</name><address>#ex2.2</address></ln>では<!--
--->&refer;される犬は&presumably;すでに明らかに決まっていて、<!--
--->&relative;&clause; "noi blanu" は単にその犬についての付加的な情報を<!--
--->提供するだけだ。<!--
--->(たとえ実際にはその犬が明確に決まっていなかったとしても、<!--
--->ここでの&relative;&clause;はそれをより明らかにする役には立たない。)
+-->&refer;される犬は&presumably;すでに&clearly;決まっていて、<!--
+-->&relative;&clause; "noi blanu" は単にその犬についての&additional;な<!--
+-->&information;を提供するだけだ<!--
+-->(実際にはその犬が&clearly;決まっていなかったとしても、<!--
+-->ここでの&relative;&clause;はそれをよりはっきりと&identify;る役には立たない)。
 <en>
 In <ln><name>Example 2.1</name><address>#ex2.1</address></ln>,
 the information
@@ -487,6 +481,14 @@ it.
 does not help identify it further.)
 </en>
 </paragraph>
+
+<note># 訳注: "identify it further"
+は意味はわかるが日本語としてきれいに訳すのが難しい。</note>
+<note># 訳注: そもそも "identify" を訳すときに、正確さを求めれば「同定」と<!--
+-->なるのだろうが、固すぎる気もする。「決める」と訳しておくのがとりあえずは<!--
+-->ベストかと思われる。</note>
+
+<!-- here#1 -->
 
 <paragraph>
 英語では&restrictive;&relative;&clause;と&incidental;&relative;&clause;とを<!--
@@ -2358,7 +2360,7 @@ the [far distance] room.
 <paragraph>
 そして、2つの文は形式上の variants と考えられる。<!--
 -->"lu'u" &terminator;が必要であることに注意。<!--
--->これのおかげで、&relative;&clause;が&quotation;自体&attach_to4;ことはない。<!--
+-->これのおかげで、&relative;&clause;が&quotation;自体に&attach_to4;ことはない。<!--
 -->古い&quotation;を&refer;すことを望みはしない。
 <en>
 and the two sentences can be considered stylistic variants.

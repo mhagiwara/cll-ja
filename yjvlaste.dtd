@@ -3,6 +3,7 @@
 	<!ENTITY abstractor "抽象詞">
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
+	<!ENTITY additional "付加的">
 	<!ENTITY ad_hoc "その場で作られた">
 	<!ENTITY affect "かかる">
 	<!ENTITY alienable "譲渡可能">
@@ -25,7 +26,7 @@
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
 	<!ENTITY attach_to3 "につけ">
-	<!ENTITY attach_to4 "にかかる">
+	<!ENTITY attach_to4 "係る">
 	<!ENTITY be_followed "に後置">
 	<!ENTITY be_interpreted "解釈される">
 	<!ENTITY be_prefix "に後置して">
@@ -42,6 +43,7 @@
 	<!ENTITY brivla "ブリブラ">
 	<!ENTITY claim "主張">
 	<!ENTITY clause "節">
+	<!ENTITY clearly "明らかに">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
 	<!ENTITY communicate "伝え">
@@ -105,18 +107,20 @@
 	<!ENTITY group_n2 "グループ">
 	<!ENTITY group_v "まとめる">
 	<!ENTITY grouping "グループ化">
+	<!ENTITY helpful "役に立">
+	<!ENTITY identification "同一">
+	<!ENTITY identify "決め">
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY immediately_follow2 "直後に続">
 	<!ENTITY immediately_preceding "直前にある">
-	<!ENTITY helpful "役に立">
-	<!ENTITY identification "同一">
 	<!ENTITY imply "という意味になる">
 	<!ENTITY inalienable "不可譲">
-	<!ENTITY indefinite "不定の">
 	<!ENTITY incidental "付随">
+	<!ENTITY indefinite "不定の">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicate2 "示唆">
 	<!ENTITY indicator "心態詞">
+	<!ENTITY information "情報">
 	<!ENTITY inner_quantifier "内部数量詞">
 	<!ENTITY in_principle "原則として">
 	<!ENTITY insert "挿入">
@@ -214,6 +218,7 @@
 	<!ENTITY probably "もしかすると">
 	<!ENTITY pro_bridi "代ブリディ">
 	<!ENTITY pro_sumti "代スムティ">
+	<!ENTITY provide "提供">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
 	<!ENTITY quantifier "数量詞">
