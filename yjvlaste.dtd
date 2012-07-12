@@ -5,7 +5,7 @@
 	<!ENTITY action "行為">
 	<!ENTITY additional "追加の">
 	<!ENTITY ad_hoc "その場で作られた">
-	<!ENTITY affect "かかる">
+	<!ENTITY affect "係る">
 	<!ENTITY alienable "譲渡可能">
 	<!ENTITY all "すべて">
 	<!ENTITY alphabet "アルファベット">
@@ -92,6 +92,7 @@
 	<!ENTITY explicitly "明示的に">
 	<!ENTITY express "表現">
 	<!ENTITY extrinsic "外来">
+	<!ENTITY fact "事実">
 	<!ENTITY false "誤り">
 	<!ENTITY farewell "別れの挨拶">
 	<!ENTITY flag "フラグ">
@@ -121,6 +122,8 @@
 	<!ENTITY imply "という意味を含む">
 	<!ENTITY inalienable "不可譲">
 	<!ENTITY incidental "非限定">
+	<!ENTITY incidental2 "つけたし">
+	<!ENTITY incidentally "つけたしとして">
 	<!ENTITY indefinite "不定の">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicate2 "示唆">
@@ -161,6 +164,7 @@
 	<!ENTITY mathematical "数学">
 	<!ENTITY mathematical_conversion "数式への変換">
 	<!ENTITY mathematical_expression "数式">
+	<!ENTITY mean "示">
 	<!ENTITY mechanism "やりかた">
 	<!ENTITY member "メンバー">
 	<!ENTITY metalinguistic "メタ言語的な">
@@ -199,6 +203,7 @@
 	<!ENTITY permanently "持続的に">
 	<!ENTITY personal "人称">
 	<!ENTITY phrase "句">
+	<!ENTITY pick_out "取りあげ">
 	<!ENTITY place "場所">
 	<!ENTITY place_structure "場所構造">
 	<!ENTITY plausible "ありそう">
