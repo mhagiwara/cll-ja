@@ -87,6 +87,7 @@ internal bridi negation	内部ブリディ否定
 interval   範囲
 introducer	導入詞	# 提案
 James Cooke Brown	ジェームズ・クック・ブラウン
+joiner	結合詞	# 提案: 第8章第4節の zi'e の名前として
 label	ラベル／ラベル付け
 language-coded processing	言語符号化処理
 left-grouping rule	左結合則

@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 12% くらい翻訳</note>
+<note># 13% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -25,6 +25,13 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
 <note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
+<note># todo .3.4.8: 第5段落</note>
+<note># todo .3.4.9: 例文4.3</note>
+<note># todo .3.4.10: 第6段落</note>
+<note># todo .3.4.11: 例文4.4</note>
+<note># todo .3.4.12: 第7段落</note>
+<note># todo .3.4.13: 第8段落</note>
+<note># todo .3.4.14: 例文4.5</note>
 <note># todo .3.5: 5. &non_veridical;&relative;&clause;: "voi"</note>
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
 <note># todo .3.7: 7. &possession;&sumti;</note>
@@ -204,7 +211,7 @@ the relative clause is attached.
 もちろん、"ke'a" が&relative;&clause;の&bridi;の x1
 の場所に来なければならないという理由はなく、どの場所に現われても良い。<!--
 -->&relative;&clause;の&bridi;内の&sub_bridi;のなかに<!--
--->来ることさえある。さらに2つの例文:
+-->来ることさえある。さらにふたつの例文:
 <en>
 Of course, there is no reasen why ``ke'a" needs to appear in the x1 place of
 a relative clause bridi; it can appear in any place,
@@ -374,7 +381,7 @@ chapter in order to make them read more smoothly.
 <section_contents>
 
 <paragraph>
-&relative;&clause;には基本的な2つの種類がある。
+&relative;&clause;には基本的なふたつの種類がある。
 "poi" に&introduce;かれる&restrictive;&relative;&clause;と
 "noi" に&introduce;かれる<delete><!--
 -->(単純に&non_restrictive;と呼ばれることもある)</delete><!--
@@ -382,7 +389,7 @@ chapter in order to make them read more smoothly.
 -->&relative;&clause;である。<!--
 --><delete>&restrictive;&relative;&clause;と&incidental;&relative;&clause;<!--
 -->の&between;にある&difference;は、</delete><!--
--->この2つには、<!--
+-->このふたつには、<!--
 -->&restrictive;&relative;&clause;が&sumti;が&refer;すものを決める<!--
 -->のに必要な情報を&provide;するのに対して、<!--
 -->&incidental;&relative;&clause;は&listener;の&helpful;つが<!--
@@ -767,7 +774,7 @@ by the speaker (whether or not he or she was currently occupying it).
 <paragraph>
 &as_a_result;、法的にしろ何にしろ必ずしも&possession;<!--
 -->&imply;わけではないが、
-"po" によって表される2つの&sumti;の&between;の関係は普通「所有」と呼ばれる。<!--
+"po" によって表されるふたつの&sumti;の&between;の関係は普通「所有」と呼ばれる。<!--
 -->中心的な&concept;は特別(&lojban;では "steci")であるということだ。
 <en>
 As a result, the relationship expressed between two sumti by ``po" is
@@ -809,10 +816,10 @@ The bottole specific-to me is-broken
 
 <paragraph>
 <ln><name>例文 3.5</name><address>#ex3.5</address></ln>と<!--
---><ln><name>例文 3.6</name><address>#ex3.6</address></ln>の2つと、<!--
+--><ln><name>例文 3.6</name><address>#ex3.6</address></ln>のふたつと、<!--
 --><ln><name>例文 3.7</name><address>#ex3.7</address></ln>とはそれぞれ<!--
--->2つの種類の所有を対比している。<!--
--->その2つとは&intrinsic;と&extrinsic;である。<!--
+-->ふたつの種類の所有を対比している。<!--
+-->そのふたつとは&intrinsic;と&extrinsic;である。<!--
 -->&inalienable;と&alienable;とも呼ばれる。<!--
 -->何かが&intrinsic;(あるいは&inalienable;)に&possess;されていると言えるのは<!--
 -->&possession2;が&possessor;の一部であり、<!--
@@ -1086,8 +1093,6 @@ The fact that it is yous is merely incidental to the main bridi claim.
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <paragraph>
 "po'u" と "no'u" の区別にはすこし微妙なところがある。<!--
 -->何人かの人のいる部屋を考えよう。そのなかの1人がジムという名前だ。<!--
@@ -1228,18 +1233,18 @@ although the syntax is the same.)
 <title>複数の&relative;&clause;<en>Multiple relative clauses</en>: ``zi'e"</title>
 <cmavo_list>
 <cmavo_item><cmavo>zi'e</cmavo><selmaho>ZIhE</selmaho><caption>
-	<ja></ja>
+	<ja>&relative;&clause;&joiner;</ja>
 	<en>relative clause joiner</en></caption></cmavo_item>
 </cmavo_list>
 
 <section_contents>
 
 <paragraph>
-複数の&relative;&clause;を&sumti;につけることが必要か<!--
--->または有用であることがある。<!--
+&more_than_one;&relative;&clause;をひとつの&sumti;につけることが&neccessary;か<!--
+-->または&useful;ことがある。&lojban;では<!--
 -->これは(&selma_o; ZIhE に属する)&cmavo; "zi'e" によって可能となる。<!--
--->"zi'e" はひとつかもっと多くの&relative;&clause;をひとつの単位にまとめて<!--
--->、そのようにして同じ&sumti;にかかるようにする。例えば
+-->"zi'e" は&one_or_more;&relative;&clause;をひとつの&unit;にまとめることで、<!--
+-->同じひとつの&sumti;にかかるようにする。たとえば、
 <en>
 Sometimes it is neccessary or useful to attach more than
 one relative clause to a sumti.
@@ -1249,16 +1254,22 @@ thus making them apply to the same sumti. For example:
 </en>
 </paragraph>
 
+<note># 訳注: "one or more"ということで「&one_or_more;」と訳したが、<!--
+-->ひとつの&relative;&clause;をまとめるというのはこの場合おかしいので、<!--
+-->本文ならば "one or more" ではなく "more than one" が正しいと思われる。</note>
+<note># 訳注: 上記について考えて場合によっては "more than one" として、<!--
+-->「&more_than_one;」と訳そうと思う。</note>
+
 <example><ex_no>4.1</ex_no>
 <lojban>le gerku poi blabi zi'e poi batci le nanmu cu klama</lojban>
-<japanese>白くて人をかむ犬が行く。</japanese>
+<japanese>その白くて人をかむ犬が行く。</japanese>
 <en>
 The dog which is white and which bites the man goes.
 </en>
 </example>
 
 <paragraph>
-普通、"zi'e" は英語では "and" と訳するが、"zi'e" は本当の&logical;&connective;<!--
+普通、"zi'e" は英語では "and" と訳するが、"zi'e" は実際には&logical;&connective;<!--
 -->ではなく、ほとんどの本当の&logical;&connective;<!--
 -->(<ln><name>第14章</name><address>./chapter14.html</address></ln><!--
 -->で説明する)とは違い、文同士の&logical;&connection;に換えられない。
@@ -1272,8 +1283,13 @@ it cannot be converted into a logical connection between sentences.
 </en>
 </paragraph>
 
+<note># 訳注: zi'e には "and" の意味がなかったとしても、<!--
+-->両方が成り立つことを意味するわけで、結果的に "and" と同じ意味になるのでは<!--
+-->ないだろうか</note>
+
 <paragraph>
-"zi'e" によって違った種類の&relative;&clause;をつなげるのには何の問題もない。
+"zi'e" によって&different;種類の&relative;&clause;を&connect2;ぐ<!--
+-->ことには何の問題もない。
 <en>
 It is perfectly correct to use ``zi'e" to connect relative clauses of different
 kinds:
@@ -1295,10 +1311,9 @@ The dog that is white, which my friend owns, is going.
 -->&restrictive;&clause; "poi blabi" が&refer;す犬を決めるが、<!--
 -->&incidental;&clause; "noi le mi pendo cu ponse" は&incidental;的な<!--
 -->情報である。<!--
--->&listener;は "poi blabi" によってすでにどの犬かわかるのだろう。<!--
--->もちろん、&incidental;&clause;が先に来ても、<!--
--->(強調する点については必ずしもそうではないが)<!--
--->意味は変わらない。
+-->&listener;は "poi blabi" だけでどの犬かわかるということになる。<!--
+-->もちろん、&incidental;&clause;が先に来ても<!--
+-->(強調の違いはあるかもしれないが)意味は変わらない。
 <en>
 In <ln><name>Example 4.2</name><address>#ex4.2</address></ln>,
 the restrictive clause ``poi blabi" specifies which dog is referred to,
@@ -1310,9 +1325,11 @@ incidental clause appears first.
 </en>
 </paragraph>
 
+<!-- here#1 -->
+
 <paragraph>
-&relative;&phrase;同士または、&relative;&phrase;と&relative;&clause;をつなぐ<!--
--->こともできる。
+&relative;&phrase;同士または、&relative;&phrase;と&relative;&clause;を
+"zi'e" でつなぐこともできる。
 <en>
 It is also possible to connect relative phrases with ``zi'e", or a
 relative phrase with a relative clause:
@@ -1361,7 +1378,7 @@ I will sit in my chair (really yours), the red one.
 
 <paragraph>
 <ln><name>例文 4.4</name><address>#ex4.4</address></ln>では、<!--
--->2つ以上の&relative;&phrase;または&clause;が "zi'e" でつなげられることが<!--
+-->ふたつ以上の&relative;&phrase;または&clause;が "zi'e" でつなげられることが<!--
 -->示されている。<!--
 -->この例文はほとんど意訳できない。<!--
 -->なぜなら、まるで英語的でない対立が、椅子を一時的に私と関係づける "pe mi" と<!--
@@ -1382,7 +1399,7 @@ your property.)
 
 <paragraph>
 もうひとつ例を挙げよう。<!--
--->そこでは、ひとつの&relative;&phrase;と2つの&relative;&clause;とが、
+-->そこでは、ひとつの&relative;&phrase;とふたつの&relative;&clause;とが、
 そして&restrictive;と&non_restrictive;とが一緒にまとめられている。
 <en>
 Here is another example, mixing a relative phrase and two relative clauses,
@@ -1485,7 +1502,7 @@ meaning.
 </paragraph>
 
 <paragraph>
-結果として、次の2つの文は、
+結果として、次のふたつの文は、
 <en>As a result, the following two sentences</en>
 </paragraph>
 
@@ -1665,7 +1682,7 @@ will be apparent shortly.
 
 <paragraph>
 <ln><name>第6章</name><address>./chapter6.html</address></ln>で詳述したように、<!--
--->2つの別の数(&inner_quantifier;と&outer_quantifier;として知られる)が<!--
+-->ふたつの別の数(&inner_quantifier;と&outer_quantifier;として知られる)が<!--
 -->&description;には&attach;られる。<!--
 -->&inner_quantifier;は&descriptor2;がいくつのものを指すのかを決めるもので、<!--
 -->&descriptor;と&description;&selbri;のあいだに置かれる。<!--
@@ -1956,7 +1973,7 @@ Here is an example:
 
 <example><ex_no>6.12</ex_no>
 <lojban>mi ponse re karce [ku] poi xekri</lojban>
-<japanese>私は2つの黒い車を持っている。</japanese>
+<japanese>私はふたつの黒い車を持っている。</japanese>
 <en>
 I possess two cars which-are black.
 </en>
@@ -1964,7 +1981,7 @@ I possess two cars which-are black.
 
 <paragraph>
 &restrictive;&relative;&clause;は存在するすべての車にではなく、<!--
--->&main;&bridi;に関連づけられた2つの車にだけかかる。<!--
+-->&main;&bridi;に関連づけられたふたつの車にだけかかる。<!--
 -->&relative;&clause;を&indefinite;&sumti;の内部に<!--
 -->(つまり&explicitly;表された&terminator; "ku" の前に)<!--
 -->置こうとするのは&ungrammatical;<!--
@@ -2372,7 +2389,7 @@ the [far distance] room.
 </example>
 
 <paragraph>
-そして、2つの文は形式上の variants と考えられる。<!--
+そして、ふたつの文は形式上の variants と考えられる。<!--
 -->"lu'u" &terminator;が必要であることに注意。<!--
 -->これのおかげで、&relative;&clause;が&quotation;自体に&attach_to4;ことはない。<!--
 -->古い&quotation;を&refer;すことを望みはしない。
@@ -2804,7 +2821,7 @@ le kumfa poi ke'a goi ko'e zo'u ko'a zbasu ke'a cu masno だが、<!--
 <ln><name>例文 10.3</name><address>#ex10.3</address></ln><!--
 -->は<ln><name>例文 10.2</name><address>#ex10.2</address></ln>より冗長である。<!--
 -->しかしより明解であるかもしれない。<!--
--->何故なら&explicitly;それぞれのレベルの2つの "ke'a" &cmavo;を書き出し、<!--
+-->何故なら&explicitly;それぞれのレベルのふたつの "ke'a" &cmavo;を書き出し、<!--
 -->それらを代入可能な&cmavo; "ko'a" と "ko'e"(章で説明する) に代入しているからだ。
 <en>
 <ln><name>Example 10.3</name><address>#ex10.3</address></ln> is

@@ -53,6 +53,7 @@
 	<!ENTITY compound "合成された">
 	<!ENTITY concept "意味">
 	<!ENTITY connect "関連">
+	<!ENTITY connect2 "つな">
 	<!ENTITY connected "接続された">
 	<!ENTITY connection "接続">
 	<!ENTITY connective "接続詞">
@@ -72,6 +73,7 @@
 	<!ENTITY descriptor "描写型の冠詞">
 	<!ENTITY descriptor2 "描写">
 	<!ENTITY difference "違い">
+	<!ENTITY different "違う">
 	<!ENTITY dimensioned_unit "次元化された単位">
 	<!ENTITY direction "方向">
 	<!ENTITY discourse "談話">
@@ -142,6 +144,7 @@
 	<!ENTITY introduce "導">
 	<!ENTITY involve "まきこ">
 	<!ENTITY join "まとめる">
+	<!ENTITY joiner "結合詞">
 	<!ENTITY joint "結合">
 	<!ENTITY lerfu "レルフ">
 	<!ENTITY letter "文字">
@@ -173,8 +176,10 @@
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY modify "を修飾">
 	<!ENTITY modify2 "修飾">
+	<!ENTITY more_than_one "複数の">
 	<!ENTITY morphological "形態学的な">
 	<!ENTITY much "だいたい">
+	<!ENTITY neccessary "必要">
 	<!ENTITY nonce_word "臨時語">
 	<!ENTITY non_logical "非論理的">
 	<!ENTITY non_logical_connection "非論理接続">
@@ -187,6 +192,7 @@
 	<!ENTITY numerical_expression "数式">
 	<!ENTITY often "しばしば">
 	<!ENTITY omit "省略">
+	<!ENTITY one_or_more "ひとつ以上の">
 	<!ENTITY operand "被演算子">
 	<!ENTITY operation "演算">
 	<!ENTITY operator "演算子">
@@ -294,8 +300,9 @@
 	<!ENTITY therefore "だから">
 	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY typically "典型的には">
-	<!ENTITY ungrammatical "文法的に正しくない">
 	<!ENTITY underlying "下にある">
+	<!ENTITY ungrammatical "文法的に正しくない">
+	<!ENTITY unit "単位">
 	<!ENTITY used_after "に後置して">
 	<!ENTITY useful "役に立つ">
 	<!ENTITY vague "曖昧">
