@@ -24,14 +24,6 @@
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
-<note># todo .3.4: 4. 複数の&relative;&clause;: "zi'e"</note>
-<note># todo .3.4.8: 第5段落</note>
-<note># todo .3.4.9: 例文4.3</note>
-<note># todo .3.4.10: 第6段落</note>
-<note># todo .3.4.11: 例文4.4</note>
-<note># todo .3.4.12: 第7段落</note>
-<note># todo .3.4.13: 第8段落</note>
-<note># todo .3.4.14: 例文4.5</note>
 <note># todo .3.5: 5. &non_veridical;&relative;&clause;: "voi"</note>
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
 <note># todo .3.7: 7. &possession;&sumti;</note>
@@ -799,7 +791,8 @@ The arm intrinsically-possesed-by me is-broaken
 </example>
 
 <example><ex_no>3.6</ex_no>
-<lojban>le birka poi jinzi ke se steci srana mi cu spofu</lojban>
+<lojban>le birka poi jinzi ke se steci srana mi cu
+spofu</lojban>
 <japanese>私と生来的に特別の関係にある腕が壊れる。</japanese>
 <en>
 The arm which is-intrinsically (specifically associated-with) me is-broken
@@ -1261,7 +1254,8 @@ thus making them apply to the same sumti. For example:
 -->「&more_than_one;」と訳そうと思う。</note>
 
 <example><ex_no>4.1</ex_no>
-<lojban>le gerku poi blabi zi'e poi batci le nanmu cu klama</lojban>
+<lojban>le gerku poi blabi zi'e poi batci le nanmu
+cu klama</lojban>
 <japanese>その白くて人をかむ犬が行く。</japanese>
 <en>
 The dog which is white and which bites the man goes.
@@ -1325,8 +1319,6 @@ incidental clause appears first.
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <paragraph>
 &relative;&phrase;同士または、&relative;&phrase;と&relative;&clause;を
 "zi'e" でつなぐこともできる。
@@ -1348,11 +1340,12 @@ My blue bottle is broken.
 <paragraph>
 ちなみに、<ln><name>例文 4.3</name><address>#ex4.3</address></ln>の<!--
 -->意訳が「私の瓶、それは青いのだが、が壊れた。」であったならば、<!--
--->&lojban;の方は "poi" ではなく "noi" が正しいことになる。<!--
--->何故ならその場合の英語では瓶が青いことを知る必要はないからだ。<!--
+-->&lojban;のほうは "poi" ではなく "noi" が正しいことになる。<!--
+-->なぜならその場合の意訳では(瓶を特定するのに)瓶が青いことを知る必要は<!--
+-->ないからだ。<!--
 -->前にも書いたように、<ln><name>例文 4.3</name><address>#ex4.3</address></ln><!--
--->は私が複数の瓶を持っていて、<!--
--->問題の瓶は青いものとして取り上げられる必要があることを示す。
+-->は私が&probably;&more_than_one;瓶を持っていて、<!--
+-->問題の瓶は青いものとして&pick_out;られる必要があることを&suggest;す。
 <en>
 Note that if the colloquial translation of
 <ln><name>Example 4.3</name><address>#ex4.3</address></ln>
@@ -1368,7 +1361,8 @@ to be picked out as the blue one.
 </paragraph>
 
 <example><ex_no>4.4</ex_no>
-<lojban>mi ba zutse le stizu pe mi zi'e po do zi'e poi xunre</lojban>
+<lojban>mi ba zutse le stizu pe mi zi'e po do zi'e
+poi xunre</lojban>
 <japanese>私は赤い本当はあなたの物である私の椅子に座るだろう。</japanese>
 <en>
 I [future] sit-in the chair associated-with me and specific-to you and which-is red.
@@ -1378,13 +1372,14 @@ I will sit in my chair (really yours), the red one.
 
 <paragraph>
 <ln><name>例文 4.4</name><address>#ex4.4</address></ln>では、<!--
--->ふたつ以上の&relative;&phrase;または&clause;が "zi'e" でつなげられることが<!--
--->示されている。<!--
+-->ふたつより多くの&relative;&phrase;または&clause;が
+"zi'e" でつなげられることが示されている。<!--
 -->この例文はほとんど意訳できない。<!--
--->なぜなら、まるで英語的でない対立が、椅子を一時的に私と関係づける "pe mi" と<!--
--->椅子をより恒久的にあなたに関係づける "po do" との間にあるからだ。<!--
--->(もしかすると、私はあなたの家の招待客なのかもしれない。<!--
--->それならば椅子は自然にあなたに関係する属性を持つことになる。)
+-->なぜなら、日本語で表せない対比が、<!--
+-->椅子を&temporarily;私と関係づける "pe mi" と<!--
+-->椅子をより&permanently;あなたに関係づける "po do" との&between;にあるからだ<!--
+-->(&perhaps;、私はあなたの家の招待客なのかもしれない。<!--
+-->それならばその椅子は&naturally;あなたの&property;ということになる)。
 <en>
 <ln><name>Example 4.4</name><address>#ex4.4</address></ln>
 illustrates that more than two relative phrases or clauses can be connected with
@@ -1397,10 +1392,12 @@ your property.)
 </en>
 </paragraph>
 
+<!-- here#1 -->
+
 <paragraph>
-もうひとつ例を挙げよう。<!--
+もうひとつの例文を示す。<!--
 -->そこでは、ひとつの&relative;&phrase;とふたつの&relative;&clause;とが、
-そして&restrictive;と&non_restrictive;とが一緒にまとめられている。
+そして&restrictive;と&non_restrictive;とがまとめられている。
 <en>
 Here is another example, mixing a relative phrase and two relative clauses,
 a restrictive one and a non-restrictive one:
@@ -1408,9 +1405,10 @@ a restrictive one and a non-restrictive one:
 </paragraph>
 
 <example><ex_no>4.5</ex_no>
-<lojban>mi ba citka le dembi pe mi zi'e poi cpana le mi palta
-zi'e noi do dunda ke'a mi</lojban>
-<japanese>私は皿の上の私の豆を食べる。それはあなたがくれたものだ。</japanese>
+<lojban>mi ba citka le dembi pe mi zi'e poi cpana
+le mi palta zi'e noi do dunda ke'a mi</lojban>
+<japanese>私は皿の上の私の豆を食べるだろう。それはあなたがくれたもの
+だ。</japanese>
 <en>
 I [future] eat the beans associated-with me and which are-upon my plate
 and which-incidentally you gave IT to-me.
