@@ -515,7 +515,7 @@ gihek は２つのブリディ末端を接続するが、ブリディ末端の�
 </pre>
 であり、ek の構文と全く同じである。
 <hr />
-<h3>10. Multiple compound bridi</h3>
+<h3>10. 複数複合ブリディ</h3>
 <p>gihek は、ek と同様に、“bo” で接続することができる：</p>
 <pre>
 <a id="e1" name="e1">10.1)</a>  mi nelci la djan. gi'e nelci la martas. gi'abo nelci la meris.
@@ -565,7 +565,7 @@ gek でつながった組の前に“na”を置くことで全体を否定で�
        [否定!] 私は [かつ] 市場へ行く そして 家へ歩く
 </pre>
 <p>gek でつながった文の組はブリディ末端と同等なので、末端名辞が付いても
-よい。例9.6の前置版は、
+  よい。例9.6の前置版は、</p>
 <pre>
 <a id="e9" name="e9">10.9)</a>  mi ge dunda le cukta gi lebna lo rupnu vau do
        私は [かつ] ( 本をあげる ) かつ ( お金をもらう ) あなたから/あなたへ
@@ -582,130 +582,135 @@ gek でつながった組の前に“na”を置くことで全体を否定で�
        私は、オフィスへ行くか、もしくは氷の上で踊る。（ただし両方ではない）
 </pre>
 <hr />
-<h3>11. Termset logical connection</h3>
-<p>So far we have seen sentences that differ in all components, and require bridi connection; sentences that differ in one sumti only, and permit sumti connection; and sentences that differ in the selbri and possibly one or more sumti, and permit bridi-tail connection. Termset logical connectives are employed for sentences that differ in more than one sumti but not in the selbri, such as:</p>
+<h3>11. 名辞組の論理接続</h3>
+<p>これまで、ブリディ接続（文が完全に異なる）、スムティ接続（一つのスムティだけが異なる）、ブリディ末端接続（セルブリと１つ以上のスムティが異なる）を見てきた。名辞組接続は、セルブリが同じで２つ以上のスムティが異なる場合に使われる。例えば：</p>
 <pre>
-<a id="e1" name="e1">11.1)</a>  I go to the market from the office and to the house from the school.
+<a id="e1" name="e1">11.1)</a>  私は、市場へオフィスから行き、家へ学校から行く。
 </pre>
-<p>The Lojban version of <a href="../11/#e1">Example 11.1</a> requires two termsets joined by a logical connective. A “term” is either a sumti or a sumti preceded by a tense or modal tag such as “pu” or “bai”. Afterthought termsets are formed by linking terms together by inserting the cmavo “ce'e” (of selma'o CEhE) between each of them. Furthermore, the logical connective (which is a jek) must be prefixed by the cmavo “pe'e” (of selma'o PEhE). (We could refer to the combination of “pe'e” and a jek as a “pehejek”, I suppose.)</p>
+<p>これをロジバンで表現するには、２つの名辞組が必要になる。「名辞（term）」とは、スムティもしくは“pu” や “bai”などの間制もしくは法制タグが前に着いたスムティである。
+後置名辞組は、名辞をシマヴォ “ce'e” (セルマホ CEhE) で接続することで作られる。さらに、論理接続詞 (jek) にはシマヴォ “pe'e” (セルマホ PEhE) を前に付けなければならない (“pehejek”と言うべきか)</p>
 <pre>
 <a id="e2" name="e2">11.2)</a>  mi klama le zarci ce'e le briju pe'e je
             le zdani ce'e le ckule
-       I go to-the market [plus] from-the office [joint] and
-            to-the house [plus] from-the school.
+       I 行く 市場へ [プラス] オフィスから [結合] かつ
+            家へ [プラス] 学校から
 </pre>
-The literal translation uses “[plus]” to indicate the termset connective, and “[joint]” to indicate the position of the logical connective joint. As usual, there is an equivalent bridi-connection form:
+この直訳では、“[プラス]” は名辞組接続、“[結合]” は論理接続詞結合である。ブリディ結合版（x2 と x3 の場所だけが違う）は、
 <pre>
 <a id="e3" name="e3">11.3)</a>  mi klama le zarci le briju .ije mi klama le zdani le ckule
-       I go to-the market from-the office, and I go to-the house from-the school.
+       私は 行く 市場へ オフィスから かつ 私は 行く 家へ 学校から。
 </pre>
-which illustrates that the two bridi differ in the x2 and x3 places only.
-<p>What happens if the two joined sets of terms are of unequal length? Expanding to bridi connection will always make clear which term goes in which place of which bridi. It can happen that a sumti may fall in the x2 place of one bridi and the x3 place of another:</p>
+<p>２つの名辞組の長さが異なる場合はどうだろうか。ブリディ接続へ展開すればどの名辞がどの場所に入るかは明確になる。スムティが、あるブリディの x2 の場所と、もう１つのブリディの x3 の場所に入る場合にこれは起こり得る：</p>
 <pre>
 <a id="e4" name="e4">11.4)</a>  mi pe'e ja do ce'e le zarci cu klama le briju
-       I [joint] or you to-the market [plus] go to/from-the office.
+       私 [結合] もしくは あなた [プラス] 市場へ 行く オフィスへ/から
 </pre>
-can be clearly understood by expansion to:
+は、明らかに、
 <pre>
 <a id="e5" name="e5">11.5)</a>  mi klama le briju .ija do le zarci cu klama le briju
-       I go to-the office, or you to-the market go from-the office.
+       私 行く オフィスへ、 もしくは あなた 市場へ 行く オフィスから
 </pre>
-So “le briju” is your origin but my destination, and thus falls in the x2 and x3 places of “klama” simultaneously! This is legal because even though there is only one selbri, “klama”, there are two distinct bridi expressed here. In addition, “mi” in <a href="../11/#e4">Example 11.4</a> is serving as a termset containing only one term. An analogous paradox applies to compound bridi with tail-terms and unequal numbers of sumti within the connected bridi-tails:
+なので、“le briju” は「私」の目的地で、「あなた」の起点であり、“klama” の x2 と x3 の場所に同時に入るのである。ここにはセルブリ“klama”は１個しかないが、２つの異なるブリディが表現されているからである。例 11.4 の “mi”は名辞をひとつだけ含む名辞組として機能している。 同じ矛盾は、末端名辞と、接続されたブリディ末端中に数の異なるスムティを持つ複合ブリディに対しても当てはまる：
 <pre>
 <a id="e6" name="e6">11.6)</a>  mi klama le zarci gi'e dzukla vau le briju
-       I ( go to-the market and walk ) to/from-the office.
+       私 ( 行く 市場へ そして 歩く ) オフィスから/へ
 </pre>
-means that I go to the market from the office, and I walk to the office; “le briju” is the x3 place of “klama” and the x2 place of “dzukla”.
-<p>Forethought termsets also exist, and use “nu'i” of selma'o NUhI to signal the beginning and “nu'u” of selma'o NUhU (an elidable terminator) to signal the end. Nothing is inserted between the individual terms: they simply sit side-by-side. To make a logical connection in a forethought termset, use a gek, with the gek just after the “nu'i”, and an extra “nu'u” just before the gik:</p>
+これは、市場へはオフィスから行って、そして、オフィスに歩いていくという意味である。
+“le briju” は “klama” の x3 の場所、“dzukla”の x2 の場所である。
+
+<p>前置名辞組も存在する。“nu'i”（セルマホ NUhI）を始めに、“nu'u”（セルマホ NUhU）を最後に（省略可能）つける。各名辞の間には何も挿入してはいけない。論理接続をするには、“nu'i”のすぐ後に gek 、gik の前に“nu'u”をつける：</p>
 <pre>
 <a id="e7" name="e7">11.7)</a>  mi klama nu'i ge le zarci le briju
             nu'u gi le zdani le ckule [nu'u]
-       I go [start termset] both to-the market from-the office
-            [joint] and to-the house from-the school [end termset].
+       私 行く [名辞組開始] かつ 市場へ オフィスから
+            [結合] [そして] 家へ 学校から [名辞組終了].
 </pre>
-Note that even though two termsets are being connected, only one “nu'i” is used.
-<p>The grammatical uses of termsets that do not contain logical connectives are explained in <a href="../../12/1/">Chapter 12</a> and <a href="../../16/1/">Chapter 16</a>.</p>
+２つ名辞組が接続されているが、“nu'i”はひとつしかつかわれていないことに注意しよう。
+<p>論理接続を含まない名辞組の文法的な使い方は、<a href="chapter12.html">１２章</a> と <a href="chapter16.html">１６章</a>で説明されている。</p>
 <hr />
-<h3>12. Logical connection within tanru</h3>
-<p>As noted at the beginning of <a href="../9/">Section 9</a>, there is no logical connective in Lojban that joins selbri and nothing but selbri. However, it is possible to have logical connectives within a selbri, forming a kind of tanru that involves a logical connection. Consider the simple tanru “blanu zdani”, blue house. Now anything that is a blue ball, in the most ordinary understanding of the phrase at least, is both blue and a ball. And indeed, instead of “blanu bolci”, Lojbanists can say “blanu je bolci”, using a jek connective within the tanru. (We saw jeks used in <a href="../11/">Section 11</a> also, but there they were always prefixed by “pe'e”; in this section they are used alone.) Here is a pair of examples:</p>
+<h3>12. タンル内の論理接続</h3>
+<p>9節の最初で述べたように、ロジバンにはセルブリだけを接続する論理接続詞はない。しかし、セルブリ内で論理接続を使い、論理接続をともなったタンル的なものを作ることができる。“blanu zdani”（青い家）を考えよう。そして、青いボールは、かならず、青くてかつボールである。“blanu bolci” と言うかわりに、ロジバンでは “blanu je bolci” と jek 論理接続詞を使って言える。 (jek は 11節でも出てきたが、ここでは “pe'e”を付けずに単独で使う。</p>
 <pre>
 <a id="e1" name="e1">12.1)</a>  ti blanu zdani
-       This is-a-blue type-of house.
+       これは 青い タイプの 家だ。
 
 <a id="e2" name="e2">12.2)</a>  ti blanu je zdani
-       This is-blue and a-house.
+       これは 青く かつ 家である。
 </pre>
-<p>But of course <a href="../12/#e1">Example 12.1</a> and <a href="../12/#e2">Example 12.2</a> are not necessarily equivalent in meaning! It is the most elementary point about Lojban tanru that <a href="../12/#e1">Example 12.1</a> might just as well mean</p>
+<p>もちろん、上の２つの例の意味は同じではない。ロジバンのタンルの最も基本的なポイントとして、例12.1 は、</p>
 <pre>
-<a id="e3" name="e3">12.3)</a>  This is a house for blue inhabitants.
+<a id="e3" name="e3">12.3)</a>  これは、青い居住者のための家だ。
 </pre>
-and <a href="../12/#e2">Example 12.2</a> certainly is not equivalent in meaning to <a href="../12/#e3">Example 12.3</a>.
-<p>A full explanation of logical connection within tanru belongs rather to a discussion of selbri structure than to logical connectives in general. Why? Because although <a href="../12/#e2">Example 12.2</a> happens to mean the same as</p>
+という意味かもしれない。この場合、例12.2 と 12.3 の意味は明らかに同じではない。
+<p>タンル内の論理接続を完全に説明しようとすると、論理接続一般の話というより、セルブリ構造の話になってしまう。なぜなら、例12.2 は、</p>
 <pre>
 <a id="e4" name="e4">12.4)</a>  ti blanu gi'e zdani
 </pre>
-and therefore as
+と同じであり、
 <pre>
 <a id="e5" name="e5">12.5)</a>  ti blanu .ije ti zdani
 </pre>
-the rule of expansion into separate bridi simply does not always work for tanru connection. Supposing Alice to be a person who lives in blue houses, then
+となるからである。別々のブリディに展開する法則は、タンル接続の場合必ずしも成り立たない。
+例えば、アリスが、青い家に住んでいる人であるとすると、
 <pre>
 <a id="e6" name="e6">12.6)</a>  la .alis. cu blanu je zdani prenu
-       Alice is-a ( blue and house ) type-of-person.
+       アリスは ( 青く、かつ、家 ) タイプの 人だ。
 </pre>
-would be true, because tanru grouping with a jek has higher precedence than unmarked tanru grouping, but:
+は正しいであろう。（jek は、タンルのまとめあげより優先順位が高い）しかし、
 <pre>
 <a id="e7" name="e7">12.7)</a>  la .alis. cu blanu prenu .ije la .alis. cu zdani prenu
-       Alice is-a blue person, and Alice is-a house person.
+       アリスは 青い人 かつ アリスは 家の 人
 </pre>
-is probably false, because the blueness is associated with the house, not with Alice, even leaving aside the question of what it means to say “Alice is a blue person”. (Perhaps she belongs to the Blue team, or is wearing blue clothes.) The semantic ambiguity of tanru make such logical manipulations impossible.
-<p>It suffices to note here, then, a few purely grammatical points about tanru logical connection. “bo” may be appended to jeks as to eks, with the same rules:</p>
+は、「青さ」を持つのは家であってアリスではないため正しくないであろう（アリスが「青い 人」であるというのはどういう意味かというのをさしおいても。青チームに所属しているかもしれないし、青い服を着ているかもしれない）。タンルは意味的に曖昧であるため、こういった論理操作ができないのである。
+<p>なので、ここでは、タンル論理接続について純粋な文法点だけを述べるに留めておく。
+“bo” は jek にも ek と同様に付けられる：</p>
 <pre>
 <a id="e8" name="e8">12.8)</a>  la teris. cu ricfu je nakni jabo fetsi
-       Terry is rich and ( male or female ).
+       テリーは お金持ち かつ ( 男性 もしくは 女性 )
 </pre>
-The components of tanru may be grouped with “ke” both before and after a logical connective:
+タンルの構成要素は“ke”を論理接続詞の前や後につけてまとめあげることができる：
 <pre>
 <a id="e9" name="e9">12.9)</a>  la .teris. cu [ke] ricfu ja pindi [ke'e] je ke nakni ja fetsi [ke'e]
-       Terry is (rich or poor) and (male or female).
+       テリーは (お金持ち もしくは 貧乏) かつ (男性 もしくは 女性).
 </pre>
-where the first “ke ... ke'e” pair may be omitted altogether by the rule of left-grouping, but is optionally permitted. In any case, the last instance of “ke'e” may be elided.
-<p>The syntax of jeks is:</p>
+最初の“ke ... ke'e”は、左結合則により省略可能である。最後の “ke'e” は省略可能である。
+<p>jek の文法は:</p>
 <pre>
        [na] [se] JA [nai]
 </pre>
-parallel to eks and giheks.
-<p>Forethought tanru connection does not use geks, but uses guheks instead. Guheks have exactly the same form as geks:</p>
+であり、 ek や gihek と同じである。
+<p>タンルの前置接続は、gek の代わりに guhek を使う。guhek は gek と全く同じ形である：</p>
 <pre>
        [se] GUhA [nai]
 </pre>
-Using guheks in tanru connection (rather than geks) resolves what would otherwise be an unacceptable ambiguity between bridi-tail and tanru connection:
+guhek をタンル接続に使うと、ブリディ末端とタンル接続の曖昧性を解消できる：
 <pre>
 <a id="e10" name="e10">12.10)</a> la .alis. gu'e ricfu gi fetsi
-       Alice is both rich and female.
+       アリスは [両方] お金持ち [そして] 女性
 </pre>
-Note that giks are used with guheks in exactly the same way they are used with geks. Like jeks, guheks bind more closely than unmarked tanru grouping does:
+gik は gek と使う場合と同様に使われていることに注意しよう。
+jek と同様、guhek は何もないタンルのまとめあげよりも結びつきが強い：
 <pre>
 <a id="e11" name="e11">12.11)</a> la .alis. gu'e blanu gi zdani prenu
-       Alice is-a-(both blue and a-house) type-of-person.
+       アリスは ([かつ] 青い [そして] 家) タイプの 人
 </pre>
-is the forethought version of <a href="../12/#e6">Example 12.6</a>.
-<p>A word of caution about the use of logically connected tanru within descriptions. English-based intuition can lead the speaker astray. In correctly reducing</p>
+これは 例12.6 の前置版である。
+<p>描写内で論理接続タンルを使う場合、英語の直感に引きずられないよう注意が必要である。</p>
 <pre>
 <a id="e12" name="e12">12.12)</a> mi viska pa nanmu .ije mi viska pa ninmu
-       I see a man, and I see a woman.
+       私 見る 一人の 男、 そして 私 見る 一人の 女
 </pre>
-to
+を、
 <pre>
 <a id="e13" name="e13">12.13)</a> mi viska pa nanmu .e pa ninmu
-       I see a man and a woman.
+       私 見る 一人の 男 と 一人の 女
 </pre>
-there is a great temptation to reduce further to:
+に正しく変換する際には、これを
 <pre>
 <a id="e14" name="e14">12.14)</a> mi viska pa nanmu je ninmu
-       I see a man and woman.
+       私 見る 一人の 男 と 女
 </pre>
-But <a href="../12/#e14">Example 12.14</a> means that you see one thing which is both a man and a woman simultaneously! A “nanmu je ninmu” is a manwoman, a presumably non-existent creature who is both a “nanmu” and a “ninmu”.
+としてしまいたくなりそうである。しかし、例12.14 が意味するのは、男でありかつ同時に女であもある一つの何かを見たという意味である。“nanmu je ninmu”は「オトコオンナ」、つまり、“nanmu”でありかつ “ninmu”であるというおそらく存在しない生物である。
 <hr />
 
 
