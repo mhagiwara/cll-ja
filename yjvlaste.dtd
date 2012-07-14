@@ -106,6 +106,7 @@
 	<!ENTITY full "詳しく">
 	<!ENTITY full_fledged "本格的な">
 	<!ENTITY full2 "完全">
+	<!ENTITY fundamental "基本的な">
 	<!ENTITY furthermore "それだけでなく">
 	<!ENTITY gismu "ギスム">
 	<!ENTITY glue_word "接着語">
@@ -138,6 +139,7 @@
 	<!ENTITY insertion "挿入">
 	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
+	<!ENTITY in_the_same_sense "と同じ意味で">
 	<!ENTITY intonation "抑揚">
 	<!ENTITY intrinsic "固有">
 	<!ENTITY introducer "導入詞">
