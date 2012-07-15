@@ -3,6 +3,7 @@
 	<!ENTITY abstractor "抽象詞">
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
+	<!ENTITY actually "実際に">
 	<!ENTITY additional "追加の">
 	<!ENTITY ad_hoc "その場で作られた">
 	<!ENTITY affect "係る">
@@ -88,6 +89,7 @@
 	<!ENTITY end "終わり">
 	<!ENTITY end2 "終わ">
 	<!ENTITY erase "取り消す">
+	<!ENTITY essentially "基本的に">
 	<!ENTITY etc "など">
 	<!ENTITY explain "説明">
 	<!ENTITY explicit "明示的な">
@@ -145,6 +147,7 @@
 	<!ENTITY introducer "導入詞">
 	<!ENTITY introduce "導">
 	<!ENTITY involve "まきこ">
+	<!ENTITY involve2 "含">
 	<!ENTITY join "まとめる">
 	<!ENTITY joiner "結合詞">
 	<!ENTITY joint "結合">
@@ -210,6 +213,7 @@
 	<!ENTITY ownership "本来の意味での所有">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
+	<!ENTITY perfectly_all_right "まったく問題ない">
 	<!ENTITY perhaps "もしかすると">
 	<!ENTITY permanent "持続的な">
 	<!ENTITY permanently "持続的に">
@@ -221,6 +225,7 @@
 	<!ENTITY plausible "ありそう">
 	<!ENTITY plural "複数">
 	<!ENTITY point "指">
+	<!ENTITY pointing "指し示し">
 	<!ENTITY possess "所有">
 	<!ENTITY possessed "所有物">
 	<!ENTITY possession "所有">
@@ -244,6 +249,7 @@
 	<!ENTITY property "所有物">
 	<!ENTITY pro_sumti "代スムティ">
 	<!ENTITY provide "提供">
+	<!ENTITY put_on_notice "注意をうながす">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">
 	<!ENTITY quantifier "数量詞">
@@ -307,6 +313,7 @@
 	<!ENTITY text "文章">
 	<!ENTITY therefore "だから">
 	<!ENTITY tone_of_voice "声の調子">
+	<!ENTITY true "事実">
 	<!ENTITY typically "典型的には">
 	<!ENTITY underlying "下にある">
 	<!ENTITY ungrammatical "文法的に正しくない">
