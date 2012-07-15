@@ -266,7 +266,7 @@ The-number two equals the-number the-difference-of four-and two.
 <title>&selma_o; BU</title><reference path="./chapter17.html">第17章</reference>
 <description>
 全ての&word;&attach_to2;ことができる&suffix_n;。<!--
--->主に&alphabet;の&letter;や名前&represent;&word;&be_suffixed;、<!--
+-->主に&alphabet;の&letter;や名前&represent;す&word;&be_suffixed;、<!--
 -->&symbol;やその他の&alphabet;の&letter;を意味する&word;を作る。<!--
 -->特にひとつの&vowel;だけから成る&cmavo;&attach_to2;ことで<!--
 -->&vowel;&letter;を意味する&word;を作る。
@@ -287,7 +287,7 @@ In paticular, attached to single-vowel cmavo to make words for vowel letters.
 <section>
 <title>&selma_o; BY</title><reference path="./chapter17.html">第17章</reference>
 <description>
-&lojban;における&alphabet;の&letter;&represent;&word;と<!--
+&lojban;における&alphabet;の&letter;&represent;す&word;と<!--
 -->&letter_word;の&interpretation;を変えるための&shift_word;。
 </description>
 <example>
@@ -1080,7 +1080,7 @@ Cicero is Tully.
 <section>
 <title>&selma_o; LAU</title><reference path="./chapter17.html">第17章</reference>
 <description>
-&following;&alphabet;の&letter;と結びついて以下&represent;&marker;となる。<!--
+&following;&alphabet;の&letter;と結びついて以下&represent;す&marker;となる。<!--
 -->小文字から大文字への変化、フォントの変更、句読点&etc;。
 </description>
 <example><lojban>tau sy. .ibu</lojban>

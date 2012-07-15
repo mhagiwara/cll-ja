@@ -106,6 +106,7 @@
 	<!ENTITY full "詳しく">
 	<!ENTITY full_fledged "本格的な">
 	<!ENTITY full2 "完全">
+	<!ENTITY fundamental "基本的な">
 	<!ENTITY furthermore "それだけでなく">
 	<!ENTITY gismu "ギスム">
 	<!ENTITY glue_word "接着語">
@@ -138,6 +139,7 @@
 	<!ENTITY insertion "挿入">
 	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
+	<!ENTITY in_the_same_sense "と同じ意味で">
 	<!ENTITY intonation "抑揚">
 	<!ENTITY intrinsic "固有">
 	<!ENTITY introducer "導入詞">
@@ -159,7 +161,8 @@
 	<!ENTITY lojban "ロジバン">
 	<!ENTITY lujvo "ルジヴォ">
 	<!ENTITY main "主">
-	<!ENTITY make_dimensioned_unit "数量付きのスムティに次元を与える">
+	<!ENTITY make_dimensioned_unit
+		"数量付きのスムティを次元付きの数量に変換する">
 	<!ENTITY mark "を示す">
 	<!ENTITY marked_with "をつけて">
 	<!ENTITY marker "マーカー">
@@ -179,6 +182,7 @@
 	<!ENTITY more_than_one "複数の">
 	<!ENTITY morphological "形態学的な">
 	<!ENTITY much "だいたい">
+	<!ENTITY naturally "必然的に">
 	<!ENTITY neccessary "必要">
 	<!ENTITY nonce_word "臨時語">
 	<!ENTITY non_logical "非論理的">
@@ -206,6 +210,8 @@
 	<!ENTITY ownership "本来の意味での所有">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
+	<!ENTITY perhaps "もしかすると">
+	<!ENTITY permanent "持続的な">
 	<!ENTITY permanently "持続的に">
 	<!ENTITY personal "人称">
 	<!ENTITY phrase "句">
@@ -235,6 +241,7 @@
 	<!ENTITY previous "先行する">
 	<!ENTITY probably "たぶん">
 	<!ENTITY pro_bridi "代ブリディ">
+	<!ENTITY property "所有物">
 	<!ENTITY pro_sumti "代スムティ">
 	<!ENTITY provide "提供">
 	<!ENTITY qualified "被限定">
@@ -291,11 +298,12 @@
 	<!ENTITY tagged "タグ付けられた">
 	<!ENTITY tanru "タンル">
 	<!ENTITY tanru_unit "タンルの構成単位">
+	<!ENTITY temporarily "一時的に">
+	<!ENTITY tense "間制">
 	<!ENTITY term "名辞">
 	<!ENTITY terminate "を終わらせる">
 	<!ENTITY terminator "終端詞">
 	<!ENTITY termset "名辞組">
-	<!ENTITY tense "間制">
 	<!ENTITY text "文章">
 	<!ENTITY therefore "だから">
 	<!ENTITY tone_of_voice "声の調子">
