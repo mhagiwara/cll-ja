@@ -161,7 +161,8 @@
 	<!ENTITY lojban "ロジバン">
 	<!ENTITY lujvo "ルジヴォ">
 	<!ENTITY main "主">
-	<!ENTITY make_dimensioned_unit "数量付きのスムティに次元を与える">
+	<!ENTITY make_dimensioned_unit
+		"数量付きのスムティを次元付きの数量に変換する">
 	<!ENTITY mark "を示す">
 	<!ENTITY marked_with "をつけて">
 	<!ENTITY marker "マーカー">
