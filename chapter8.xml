@@ -25,6 +25,26 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
+<note># todo .3.6.10: 例文6.4</note>
+<note># todo .3.6.11: 第6段落</note>
+<note># todo .3.6.12: 例文6.5</note>
+<note># todo .3.6.13: 例文6.6</note>
+<note># todo .3.6.14: 例文6.7</note>
+<note># todo .3.6.15: 第7段落</note>
+<note># todo .3.6.16: 第8段落</note>
+<note># todo .3.6.17: 第9段落</note>
+<note># todo .3.6.18: 例文6.8</note>
+<note># todo .3.6.19: 例文6.9</note>
+<note># todo .3.6.20: 第10段落</note>
+<note># todo .3.6.21: 第11段落</note>
+<note># todo .3.6.22: 第12段落</note>
+<note># todo .3.6.23: 例文6.10</note>
+<note># todo .3.6.24: 第13段落</note>
+<note># todo .3.6.25: 例文6.11</note>
+<note># todo .3.6.26: 第14段落</note>
+<note># todo .3.6.27: 第15段落</note>
+<note># todo .3.6.28: 例文6.12</note>
+<note># todo .3.6.29: 第16段落</note>
 <note># todo .3.7: 7. &possession;&sumti;</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
@@ -1508,8 +1528,6 @@ meaning.
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <paragraph>
 &as_a_result;&following2;ふたつの文は、
 <en>As a result, the following two sentences</en>
@@ -1564,13 +1582,14 @@ even if it actually is a woman.
 
 <paragraph>
 ここまで、この章では様々な種類の&relative;&clause;(と&relative;&phrase;)<!--
--->を説明してきた。<!--
--->全部出揃ったので、この章の残りの部分では、&relative;&clause;を含む&sumti;<!--
--->の文法が関心事となる。<!--
--->今までのところ、&relative;&clause;は全て&attach;られる&sumti;の<!--
--->直後に置かれていた。<!--
--->これは最も一般的な位置である(もともとはそこしかなかった)が、<!--
--->いくつかの他の位置もあり、その位置によって&semantic;な効果が変わる。
+-->を&describe2;してきた。<!--
+-->すべてそろったので、この章の残りの部分は&relative;&clause;を<!--
+-->&include;む&sumti;の文法に関する話になる。<!--
+-->ここまでは、&relative;&clause;は&all;、&attach;られる&sumti;の<!--
+-->すぐ後ろに置かれていた。<!--
+-->ここがもっとも&common;な&position;である<!--
+-->(&originally;そこしかなかった)が、<!--
+-->これ以外の&placement;も可能でありそれぞれ&semantic;な効果が異なる。
 <en>
 So far, this chapter has described the various kinds of relative clauses
 (including relative phrases). 
@@ -1585,15 +1604,15 @@ of semantic effects.
 </paragraph>
 
 <paragraph>
-実際には&relative;&clause;が<!--
--->&description;&sumti;に&attach;られる場所は3ヶ所あり、<!--
--->&descriptor;(``le", ``lo", など)の後、<!--
--->&embed;まれた&selbri;の後で&elidable;&terminator;(ここでは "ku")の前、<!--
--->そして "ku" の後、である。<!--
--->今まで見てきた&descriptor;に&attach;られた&relative;&clause;は2番目の<!--
+&actually2;は&relative;&clause;が<!--
+-->&description;&sumti;に&attach;られる&place;は三ヶ所あり、<!--
+-->&descriptor;("le", "lo" など)のあと、<!--
+-->&embed;まれた&selbri;のあとでかつ&elidable;&terminator;(つまり "ku")のまえ、<!--
+-->そして "ku" のあと、である。<!--
+-->今まで見てきた&descriptor;に&attach;られた&relative;&clause;は二番目の<!--
 -->位置を占める。<!--
--->だから、<ln><name>例文 5.1</name><address>#ex5.1</address></ln>は<!--
--->、&elidable;&terminator;を書き出すと、以下のようになる。
+-->&thus;、<ln><name>例文 5.1</name><address>#ex5.1</address></ln>は<!--
+-->、&elidable;&terminator;を&all;&write_out;くと次のようになる。
 <en>
 There are actually three places where a relative clause can be attached
 to a description sumti:
@@ -1607,6 +1626,11 @@ Thus <ln><name>Example 5.1</name><address>#ex5.1</address></ln>, if written out
 with all elidable terminators, would appear as:
 </en>
 </paragraph>
+
+<note>訳注: 英語の "actually" のニュアンスは日本語では伝えにくい。<!--
+-->ここでは前の段落でおおまかに言ったことについて「具体的に言うと」といった<!--
+-->意味になるだろうか。<!--
+-->「他の位置もある」を受けて「その位置というものは実のところ」といった感じ</note>
 
 <example><ex_no>6.1</ex_no>
 <lojban>le gerku poi blabi ku'o ku cu klama vau</lojban>
@@ -1627,11 +1651,11 @@ and ``vau" is the terminator of the whole bridi.
 </paragraph>
 
 <paragraph>
-もしも&relative;&clause;が "le gerku" のような "le"
-を使った単純な&descriptor2;に&attach;られた場合には、<!--
--->どこに&relative;&clause;が置かれるかというのは、<!--
--->形式や強調の問題でしかない。<!--
--->だから、以下は全て<ln><name>例文 6.1</name><address>#ex6.1</address></ln>と<!--
+&relative;&clause;が "le gerku" のような "le"
+を使った単純な&descriptor2;に&attach;られるとき、<!--
+-->どこに&relative;&clause;が置かれるかは&style;や強調の問題でしかない。<!--
+-->&therefore;、&following2;例文は&all;<!--
+--><ln><name>例文 6.1</name><address>#ex6.1</address></ln>と<!--
 -->同じ意味である。
 <en>
 When a simple descriptor using ``le", like ``le gerku", has a relative
@@ -1643,8 +1667,8 @@ Therefore, the following examples are all equivalent in meaning to
 </paragraph>
 
 <example><ex_no>6.2</ex_no>
-<lojban>le poi blabu ku'o gerku cu klama</lojban>
-<japanese>白い犬が行く。</japanese>
+<lojban>le poi blabi ku'o gerku cu klama</lojban>
+<japanese>その白い犬が行く。</japanese>
 <en>
 The such-that (it-is-white) dog goes.
 </en>
@@ -1652,24 +1676,25 @@ The such-that (it-is-white) dog goes.
 
 <example><ex_no>6.3</ex_no>
 <lojban>le gerku ku poi blabi cu klama</lojban>
-<japanese>白い犬が行く。</japanese>
+<japanese>その白い犬が行く。</japanese>
 <en>
 The (dog) which is-white goes.
 </en>
 </example>
 
 <paragraph>
-<ln><name>例文 6.1</name><address>#ex6.1</address></ln>は英語のような言語、
-つまり&relative;&clause;が常に&attach;られる名詞句の後に来る言語、の<!--
--->&speaker2;には最も自然に見える。<!--
--->一方、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>では<!--
--->フィンランド語や中国語の&speaker2;、<!--
--->彼らは&relative;&clause;を最初に置く<!--
--->、にとってより自然に見えるだろう。<!--
--->ちなみに、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>では、<!--
--->&elidable;&terminator; "ku'o" は明示する必要がある。<!--
+<ln><name>例文 6.1</name><address>#ex6.1</address></ln>は<!--
+-->&relative;&clause;が必ず&attach;られる名詞句のあとに置かれる<!--
+-->英語のような言語の<!--
+-->&speaker2;にとってもっとも自然に感じられるだろう。<!--
+-->一方、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>は<!--
+-->&relative;&clause;を最初に置く<!--
+-->フィンランド語や中国語の&speaker2;<!--
+-->にとってより自然に感じられるかもしれない。<!--
+--><ln><name>例文 6.2</name><address>#ex6.2</address></ln>では、<!--
+-->&elidable;&terminator; "ku'o" を明示する必要があることに注意しよう。<!--
 -->そうしないと、&relative;&clause;の&selbri;("blabi")は&description;の<!--
--->&selbri;("gerku")とくっついてしまい、文法的でない文になってしまう。<!--
+-->&selbri;("gerku")とくっついてしまい、文法的に正しくない文になってしまう。<!--
 --><ln><name>例文 6.3</name><address>#ex6.3</address></ln>に示した<!--
 -->形の存在意義はすぐに明らかになるだろう。
 <en>
@@ -1690,16 +1715,23 @@ will be apparent shortly.
 </en>
 </paragraph>
 
+<note># 訳注: "The purpose of the form appearing in Example 6.3 will be apparent
+shortly." の意味は「例文6.3で使われている形式の使い道はあとで示す」<!--
+-->といったところだが、英語のニュアンスを残しながら、<!--
+-->流暢な日本語に直すのが難しい。より意訳的な訳に直すときに適切な日本語を<!--
+-->模索すること</note>
+
 <paragraph>
-<ln><name>第6章</name><address>./chapter6.html</address></ln>で詳述したように、<!--
+<ln><name>第6章</name><address>./chapter6.html</address></ln>で詳述するように、<!--
 -->ふたつの別の数(&inner_quantifier;と&outer_quantifier;として知られる)が<!--
 -->&description;には&attach;られる。<!--
--->&inner_quantifier;は&descriptor2;がいくつのものを指すのかを決めるもので、<!--
+-->&inner_quantifier;は&descriptor2;が<!--
+-->いくつのものを&refer2;すのかを決めるもので、<!--
 -->&descriptor;と&description;&selbri;のあいだに置かれる。<!--
--->&outer_quantifier;は&descriptor;の前に置かれて、<!--
--->&descriptor2;によって示されるもののうちのいくつがその&bridi;の<!--
--->表す関係の対象になるのかを示す。<!--
--->以下の例は
+-->&outer_quantifier;は&descriptor;のまえに置かれて、<!--
+-->&descriptor2;によって&refer2;されるもののうちのいくつがその&bridi;の<!--
+-->&involve3;のかを示す。<!--
+-->&following2;例文では、
 <en>
 As is explained in detail in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>,
@@ -1712,6 +1744,14 @@ of the things referred to by the descriptor are involved in this particular brid
 In the following example,
 </en>
 </paragraph>
+
+<note># 訳注: 英文中にしばしば出てくる "particular" はいちいち日本語に訳す必要<!--
+-->はないと思うがしかし、それの表すニュアンスはできるだけ伝えたい。<!--
+-->「それぞれの」とか「まさにその」とか「他でもないその」とか、<!--
+-->そんな感じで「その」を強調し、個々のものである感じを強調する感じか</note>
+<note># 訳注: involve をここでは「&involve3;」と訳してみた</note>
+
+<!-- here#1 -->
 
 <example><ex_no>6.4</ex_no>
 <lojban>re le mu prenu cu klama le zarci</lojban>

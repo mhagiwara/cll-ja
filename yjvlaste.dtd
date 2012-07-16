@@ -4,6 +4,7 @@
 	<!ENTITY achieved "実現した">
 	<!ENTITY action "行為">
 	<!ENTITY actually "実際に">
+	<!ENTITY actually2 "具体的に">
 	<!ENTITY additional "追加の">
 	<!ENTITY ad_hoc "その場で作られた">
 	<!ENTITY affect "係る">
@@ -48,6 +49,7 @@
 	<!ENTITY clearly "明らかに">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
+	<!ENTITY common "一般的">
 	<!ENTITY communicate "伝え">
 	<!ENTITY communication "コミュニケーション">
 	<!ENTITY components_of_tanru "タンルの構成単位">
@@ -70,6 +72,7 @@
 	<!ENTITY default "デフォルトの">
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
+	<!ENTITY describe2 "説明">
 	<!ENTITY description "描写">
 	<!ENTITY descriptor "描写型の冠詞">
 	<!ENTITY descriptor2 "描写">
@@ -129,6 +132,7 @@
 	<!ENTITY incidental "非限定">
 	<!ENTITY incidental2 "つけたし">
 	<!ENTITY incidentally "つけたしとして">
+	<!ENTITY include "含">
 	<!ENTITY indefinite "不定の">
 	<!ENTITY indicate "を示す">
 	<!ENTITY indicate2 "示唆">
@@ -148,6 +152,7 @@
 	<!ENTITY introduce "導">
 	<!ENTITY involve "まきこ">
 	<!ENTITY involve2 "含">
+	<!ENTITY involve3 "表す関係の対象になる">
 	<!ENTITY join "まとめる">
 	<!ENTITY joiner "結合詞">
 	<!ENTITY joint "結合">
@@ -205,6 +210,7 @@
 	<!ENTITY operator "演算子">
 	<!ENTITY optional "任意の">
 	<!ENTITY order "順">
+	<!ENTITY originally "もともとは">
 	<!ENTITY or_not "かどうかに関らず">
 	<!ENTITY or_various_other_things "など">
 	<!ENTITY or_other_purpose "など">
@@ -221,11 +227,13 @@
 	<!ENTITY phrase "句">
 	<!ENTITY pick_out "取りあげ">
 	<!ENTITY place "場所">
+	<!ENTITY placement "配置">
 	<!ENTITY place_structure "場所構造">
 	<!ENTITY plausible "ありそう">
 	<!ENTITY plural "複数">
 	<!ENTITY point "指">
 	<!ENTITY pointing "指し示し">
+	<!ENTITY position "位置">
 	<!ENTITY possess "所有">
 	<!ENTITY possessed "所有物">
 	<!ENTITY possession "所有">
@@ -258,6 +266,7 @@
 	<!ENTITY quoted "引用された">
 	<!ENTITY radio_communication "無線通信">
 	<!ENTITY refer "示">
+	<!ENTITY refer2 "指">
 	<!ENTITY referent "指示">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">
@@ -280,9 +289,10 @@
 	<!ENTITY significance "意味">
 	<!ENTITY single "単一の">
 	<!ENTITY singular "単数">
+	<!ENTITY solely "ただ">
+	<!ENTITY somewhat "いくらか">
 	<!ENTITY speaker "話し手">
 	<!ENTITY speaker2 "話者">
-	<!ENTITY somewhat "いくらか">
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
@@ -291,7 +301,7 @@
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY strategy "方法">
 	<!ENTITY string "列">
-	<!ENTITY solely "ただ">
+	<!ENTITY style "表現">
 	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">
 	<!ENTITY suffix_n "接尾辞">
@@ -312,6 +322,7 @@
 	<!ENTITY termset "名辞組">
 	<!ENTITY text "文章">
 	<!ENTITY therefore "だから">
+	<!ENTITY thus "だから">
 	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY true "事実">
 	<!ENTITY typically "典型的には">
@@ -328,3 +339,4 @@
 	<!ENTITY vocative_word "呼応語">
 	<!ENTITY vowel "母音">
 	<!ENTITY word "語">
+	<!ENTITY write_out "略さないで書">
