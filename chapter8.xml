@@ -25,11 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
-<note># todo .3.6.10: 例文6.4</note>
-<note># todo .3.6.11: 第6段落</note>
-<note># todo .3.6.12: 例文6.5</note>
-<note># todo .3.6.13: 例文6.6</note>
-<note># todo .3.6.14: 例文6.7</note>
 <note># todo .3.6.15: 第7段落</note>
 <note># todo .3.6.16: 第8段落</note>
 <note># todo .3.6.17: 第9段落</note>
@@ -106,8 +101,8 @@ her face), and says:
 </en>
 </paragraph>
 
-<note>訳注: フィリピンでは唇で人や物を指す</note>
-<note>訳注: (in particular, in the direction of his or her face)の in particular
+<note># 訳注: フィリピンでは唇で人や物を指す</note>
+<note># 訳注: (in particular, in the direction of his or her face)の in particular
 をどう訳すか</note>
 
 <example><ex_no>1.1</ex_no>
@@ -429,10 +424,10 @@ identification.
 </en>
 </paragraph>
 
-<note>訳注: 「付随関係節」と言うよりも、日本人としては、<!--
+<note># 訳注: 「付随関係節」と言うよりも、日本人としては、<!--
 -->英語文法の学習の際にたたきこまれた「非限定用法」という言葉があるので、<!--
 -->「非限定関係節」のほうがわかりやすいだろうと思われる。</note>
-<note>訳注: よって、「非限定関係節」を採用した。</note>
+<note># 訳注: よって、「非限定関係節」を採用した。</note>
 
 <paragraph>
 &following2;例文を&consider;てみよう。
@@ -690,8 +685,8 @@ and consist of a GOI cmavo followed by a single sumti.
 </en>
 </paragraph>
 
-<note>訳注: "be frequently wanted" を「しばしば必要となる」と訳した</note>
-<note>訳注: 上の訳は次の見直しで、よりわかりやすく意訳する必要がある</note>
+<note># 訳注: "be frequently wanted" を「しばしば必要となる」と訳した</note>
+<note># 訳注: 上の訳は次の見直しで、よりわかりやすく意訳する必要がある</note>
 
 <paragraph>
 "pe" の例文と、&relative;&clause;を使った同じ意味の例文を示す。
@@ -728,7 +723,7 @@ the link between the chair and the speaker is of the loosest kind.
 </en>
 </paragraph>
 
-<note>訳注: "the link ... is of the loosest kind"
+<note># 訳注: "the link ... is of the loosest kind"
 を「つながりは最も弱い類のものである」と訳したが、<!--
 -->日本語としてあまりきれいではないと思う。次回の見直しの際によく考えること</note>
 
@@ -996,7 +991,7 @@ Here is another example of the same contrast:
 </en>
 </paragraph>
 
-<note>訳注: "which dog is taken to be obvious" の意味がはっきりしない。<!--
+<note># 訳注: "which dog is taken to be obvious" の意味がはっきりしない。<!--
 -->「その犬は明らかとされる」「どの犬であるかは明らかとされる」等の訳を試みた。<!--
 -->ニュアンス的には「"that is the dog" によって指される犬は一意に決まる」と<!--
 -->いったところだろうか</note>
@@ -1235,7 +1230,7 @@ although the syntax is the same.)
 </en>
 </paragraph>
 
-<note>訳注: 最後の()内は&cmavo; "goi" が意味論的には&relative;&phrase;ではない<!--
+<note># 訳注: 最後の()内は&cmavo; "goi" が意味論的には&relative;&phrase;ではない<!--
 -->ということを言っている。よりわかりやすく意訳する必要がある</note>
 
 </section_contents>
@@ -1472,7 +1467,7 @@ For example:
 </en>
 </paragraph>
 
-<note>訳注: "A `poi' relative clause is said to be veridical,"
+<note># 訳注: "A `poi' relative clause is said to be veridical,"
 をどう訳すべきだろうか。ここでは "is said" を普通に受動態とし、<!--
 -->"to be veridical" を「真実であるように」と解釈した。<!--
 -->"be said to be" を熟語として解釈すると意味が通らないように感じた。<!--
@@ -1502,7 +1497,7 @@ However,
 </en>
 </paragraph>
 
-<note>訳注: "miscommunication" のニュアンスを訳文に出すのが難しい。<!--
+<note># 訳注: "miscommunication" のニュアンスを訳文に出すのが難しい。<!--
 -->「誤まった伝達」や「うまく伝わらない」といった感じなのだろうと思うが</note>
 
 <example><ex_no>5.2</ex_no>
@@ -1627,7 +1622,7 @@ with all elidable terminators, would appear as:
 </en>
 </paragraph>
 
-<note>訳注: 英語の "actually" のニュアンスは日本語では伝えにくい。<!--
+<note># 訳注: 英語の "actually" のニュアンスは日本語では伝えにくい。<!--
 -->ここでは前の段落でおおまかに言ったことについて「具体的に言うと」といった<!--
 -->意味になるだろうか。<!--
 -->「他の位置もある」を受けて「その位置というものは実のところ」といった感じ</note>
@@ -1751,8 +1746,6 @@ In the following example,
 -->そんな感じで「その」を強調し、個々のものである感じを強調する感じか</note>
 <note># 訳注: involve をここでは「&involve3;」と訳してみた</note>
 
-<!-- here#1 -->
-
 <example><ex_no>6.4</ex_no>
 <lojban>re le mu prenu cu klama le zarci</lojban>
 <japanese>その5人の人のうちの2人がその店に行く。</japanese>
@@ -1766,9 +1759,10 @@ Two of the five people [that I have in mind] are going to the market.
 "mu" が&inner_quantifier;で、"re" が&outer_quantifier;である。<!--
 -->ここで、&sumti; "re le mu prenu" に&relative;&clause;を&attach;ると<!--
 -->どういう意味になるだろうか。<!--
--->例えば、ここでは&relative;&clause;を "poi ninmu"
-(「女性である」を意味する)とする。<!--
--->すると、前に述べた3つの&attach;る場所が重要性を帯びる。
+-->たとえば、ここでは&relative;&clause;を "poi ninmu"
+(「女性である」という意味)とする。<!--
+-->すると、まえに&discuss;した&relative;&clause;を&attach;られる3つの<!--
+-->&point2;が&significance;を持つようになる。
 <en>
 ``mu" is the inner quantifier and ``re" is the outer quantifier.
 Now what is meant by attaching a relative clause to the sumti ``re le mu prenu"?
@@ -1777,8 +1771,15 @@ Now the three possible attachment points discussed previously take on significan
 </en>
 </paragraph>
 
+<note># 訳注: 最後の文は「3つの位置のどこに&relative;&clause;が入るかが<!--
+-->重要になる」と訳したほうが良いかもしれない。あとで検討すること</note>
+<note># 訳注: さらに意訳を進めて「3つの位置のどこに&relative;&clause;が入るかに<!--
+-->よって意味が決まる」や「...によって意味が変わる」としたほうがわかりやすい<!--
+-->かもしれない</note>
+
 <example><ex_no>6.5</ex_no>
-<lojban>re le poi ninmu ku'o mu prenu cu klama le zarci</lojban>
+<lojban>re le poi ninmu ku'o mu prenu cu klama le
+zarci</lojban>
 <japanese>その5人の人のうちの2人の女性が店に行く。</japanese>
 <en>
 Two of the such-that ([they] are-women) five persons go to-the market.
@@ -1787,7 +1788,8 @@ Two women out of the five persons go to the market.
 </example>
 
 <example><ex_no>6.6</ex_no>
-<lojban>re le mu prenu poi ninmu [ku] cu klama le zarci</lojban>
+<lojban>re le mu prenu poi ninmu [ku] cu klama le
+zarci</lojban>
 <japanese>その5人の女性のうちの2人が店に行く。</japanese>
 <en>
 Two of the (five persons which are-women) go-to the market.
@@ -1796,13 +1798,16 @@ Two of the five women go to the market.
 </example>
 
 <example><ex_no>6.7</ex_no>
-<lojban>re le mu prenu ku poi ninmu cu klama le zarci</lojban>
+<lojban>re le mu prenu ku poi ninmu cu klama le
+zarci</lojban>
 <japanese>その5人の人のうちの2人の女性が店に行く。</japanese>
 <en>
 (Two of the five persons) which are-women go to-the market.
 Two women out of the five persons go to the market.
 </en>
 </example>
+
+<!-- here#1 -->
 
 <paragraph>
 かっこで示したように、<ln><name>例文 6.6</name><address>#ex6.6</address></ln><!--
@@ -1848,6 +1853,9 @@ and it requires no ``ku`, but it does typically require a ``ku'o" instead.
 Note that the relative clause comes before the inner quantifier.
 </en>
 </paragraph>
+
+<note># 訳注: これは、"poi ..." が前にかかるのだから、"re le" を修飾している<!--
+-->と考えると覚えやすいかもしれない</note>
 
 <paragraph>
 "le" が&descriptor;として使われていて、&sumti;が&explicit;&outer_quantifier;を<!--
