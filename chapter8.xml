@@ -25,9 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
 <note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
-<note># todo .3.6.15: 第7段落</note>
-<note># todo .3.6.16: 第8段落</note>
-<note># todo .3.6.17: 第9段落</note>
 <note># todo .3.6.18: 例文6.8</note>
 <note># todo .3.6.19: 例文6.9</note>
 <note># todo .3.6.20: 第10段落</note>
@@ -1575,6 +1572,11 @@ even if it actually is a woman.
 	<en>Relative clauses and descriptors</en></title>
 <section_contents>
 
+<note># 訳注: 「場所は三ヶ所ある」や「3つの場所」などの表記のゆれが気になる</note>
+<note># 訳注: 全体に言えることだが「ひとつ」「ふたつ」、「1つ」「2つ」、<!--
+-->「一つ」「二つ」等、平仮名、数字、漢数字による表記について、<!--
+-->どういうときにどれを選ぶかを決める必要がある</note>
+
 <paragraph>
 ここまで、この章では様々な種類の&relative;&clause;(と&relative;&phrase;)<!--
 -->を&describe2;してきた。<!--
@@ -1807,20 +1809,18 @@ Two women out of the five persons go to the market.
 </en>
 </example>
 
-<!-- here#1 -->
-
 <paragraph>
-かっこで示したように、<ln><name>例文 6.6</name><address>#ex6.6</address></ln><!--
--->では5人の人の全員が女性であることを意味する。<!--
--->それに対して<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
--->では店に行った2人が女性であることを示す。<!--
--->どっちがどっちかをどう覚えたらいいだろうか。<!--
+<ln><name>例文 6.6</name><address>#ex6.6</address></ln><!--
+-->は5人&all;が女性であることを&mean;す。<!--
+-->&whereas;、<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
+-->は店に行った2人が女性であることを&mean;す。<!--
+-->どっちがどっちかをどのように覚えようか。<!--
 --><ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
--->でのように、<!--
--->&relative;&clause;が明示された "ku" の後に来るとき、その&sumti;全体が<!--
+-->のように、<!--
+-->&relative;&clause;が明示された "ku" のあとに来るとき、その&sumti;は全体として<!--
 -->&relative;&clause;に&modify;される。<!--
--->"ku" が無いか、または明示的な "ku" の前に&relative;&clause;が来るとき、<!--
--->&relative;&clause;は&underlying;&selbri;が&apply2;す全てのものに<!--
+-->"ku" がないかまたは明示的な "ku" の前に&relative;&clause;が来るとき、<!--
+-->&relative;&clause;は&underlying;&selbri;が&apply2;すものすべてに<!--
 -->&apply1;されると理解される。
 <en>
 As the parentheses show, <ln><name>Example 6.6</name><address>#ex6.6</address></ln>
@@ -1838,13 +1838,19 @@ everything which the underlying selbri applies to.
 </en>
 </paragraph>
 
+<note># 訳注: explicit "ku" を「明示的な "ku"」と訳したが、<!--
+-->explicit はもっと軽く訳するか、または訳出しなくてもよいかもしれない</note>
+<note># 訳注: underlying をどう訳すか。&sumti;の基盤になっている&selbri;といった<!--
+-->ニュアンスだろうと思われるが</note>
+<note># 訳注: 最後の一文はもっとわかりやすく意訳する必要がある</note>
+
 <paragraph>
 <ln><name>例文 6.5</name><address>#ex6.5</address></ln>はどうか。<!--
--->慣例により、<ln><name>例文 6.6</name><address>#ex6.6</address></ln><!--
--->と同じ意味を表し、"ku" を必要としないが、代わりに&typically; "ku'o"
+-->慣例により<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
+-->と同じ意味を表し、"ku" は要らないがそのかわり&typically; "ku'o"
 を必要とする。<!--
--->この使いかたでは、&relative;&clause;は&inner_quantifier;よりも前に来ることに<!--
--->注意する必要がある。
+-->&relative;&clause;は&inner_quantifier;よりまえに来ることに<!--
+-->注意しよう。
 <en>
 What about <ln><name>Example 6.5</name><address>#ex6.5</address></ln>?
 By convention, it means the same as
@@ -1858,16 +1864,16 @@ Note that the relative clause comes before the inner quantifier.
 -->と考えると覚えやすいかもしれない</note>
 
 <paragraph>
-"le" が&descriptor;として使われていて、&sumti;が&explicit;&outer_quantifier;を<!--
--->持たないとき、<!--
---><ln><name>第6章</name><address>./chapter6.html</address></ln><!--
--->で説明したように、その&sumti;の&outer_quantifier;は "ro"
-(「すべて」という意味)であると理解される。<!--
--->だから、"le gerku" は「私が犬として示すもののうちのすべて」、<!--
--->あるいはそれらのうちの全てのそれ、を意味すると<!--
--->取られる。<!--
--->この場合、&relative;&clause;が "ku" の後であれ前であれ何の違いもない。<!--
--->しかし、&descriptor;が "lo" であるとき、その違いは重要となる。
+<ln><name>第6章</name><address>./chapter6.html</address></ln><!--
+-->で説明したように、<!--
+-->"le" が&descriptor;として使われていて<!--
+-->その&sumti;に&explicit;&outer_quantifier;がないとき、<!--
+-->その&sumti;の&outer_quantifier;は "ro"
+(「&all;」という意味)であると解釈される。<!--
+-->&thus;、"le gerku" は「私が犬として示すもののうちのすべて」、<!--
+-->もしかするとひとつのうちのすべて、を意味するとされる。<!--
+-->この場合には&relative;&clause;が "ku" のあとでもまえでもかわらない。<!--
+-->しかし、&descriptor;が "lo" であるときその違いは重要となる。
 <en>
 When ``le" is the descriptor being used, and the sumti has
 no explicit outer quantifier,
@@ -1881,6 +1887,12 @@ In that case, there is no difference between a relative clause after the
 However, if the descriptor is ``lo", the difference is quite important:
 </en>
 </paragraph>
+
+<note># 訳注: "all one of them" は文脈から、「ひとつのうちのすべて」と訳した。<!--
+-->ひとつしかないもののうちのすべて、つまり「ひとつのうちのひとつ」と<!--
+-->考えたが確信がない</note>
+
+<!-- here#1 -->
 
 <example><ex_no>6.8</ex_no>
 <lojban>lo prenu ku noi blabi cu klama le zarci</lojban>

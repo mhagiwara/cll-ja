@@ -326,8 +326,8 @@
 	<!ENTITY thus "だから">
 	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY true "事実">
-	<!ENTITY typically "典型的には">
-	<!ENTITY underlying "下にある">
+	<!ENTITY typically "通常は">
+	<!ENTITY underlying "&sumti;の基礎となっている">
 	<!ENTITY ungrammatical "文法的に正しくない">
 	<!ENTITY unit "単位">
 	<!ENTITY used_after "に後置して">
@@ -339,5 +339,6 @@
 	<!ENTITY vocative_phrase "呼応句">
 	<!ENTITY vocative_word "呼応語">
 	<!ENTITY vowel "母音">
+	<!ENTITY whereas "それに対して">
 	<!ENTITY word "語">
 	<!ENTITY write_out "略さないで書">
