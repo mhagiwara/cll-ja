@@ -5,11 +5,13 @@
 	<!ENTITY action "行為">
 	<!ENTITY actually "実際に">
 	<!ENTITY actually2 "具体的に">
+	<!ENTITY actually3 "">
 	<!ENTITY additional "追加の">
 	<!ENTITY ad_hoc "その場で作られた">
 	<!ENTITY affect "係る">
 	<!ENTITY alienable "譲渡可能">
 	<!ENTITY all "すべて">
+	<!ENTITY all2 "みな">
 	<!ENTITY alphabet "アルファベット">
 	<!ENTITY alternative "代換">
 	<!ENTITY and_so_on "など">
@@ -24,7 +26,8 @@
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
 	<!ENTITY association "関係">
-	<!ENTITY at_least_one "すくなくとも1つ">
+	<!ENTITY at_least_one "すくなくともひとつ">
+	<!ENTITY at_least_one2 "すくなくともひとり">
 	<!ENTITY attach "つけ">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
@@ -205,6 +208,7 @@
 	<!ENTITY often "しばしば">
 	<!ENTITY omit "省略">
 	<!ENTITY one_or_more "ひとつ以上の">
+	<!ENTITY one_or_more2 "ひとり以上の">
 	<!ENTITY operand "被演算子">
 	<!ENTITY operation "演算">
 	<!ENTITY operator "演算子">

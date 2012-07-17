@@ -1913,16 +1913,16 @@ Some of the people, who by the way are white, go to the market.
 </example>
 
 <paragraph>
-<ln><name>例文 6.8</name><address>#ex6.8</address></ln>も<!--
---><ln><name>例文 6.9</name><address>#ex6.9</address></ln>も<!--
--->1人以上の人が店に行くことを告げている。<!--
--->しかし、それらが作る&incidental;的な&claim;には大きな違いがある。<!--
+<ln><name>例文 6.8</name><address>#ex6.8</address></ln>と<!--
+--><ln><name>例文 6.9</name><address>#ex6.9</address></ln>はどちらも<!--
+-->&one_or_more2;人が店に行くと言っている。<!--
+-->しかし、それらの&incidental;的な&claim;には大きな違いがある。<!--
 -->まず、"lo prenu noi blabi" はどういう意味だろうか。<!--
 -->&default;&inner_quantifier;は "ro" (つまり「&all;」)であり、<!--
 -->&default;&outer_quantifier;は "su'o" (つまり「&at_least_one;」)である。<!--
--->&therefore;、まずは&all;の人を取ってきて、<!--
--->それからそのなかから&at_least_one;を選ぶ必要がある。<!--
--->というわけで、1人以上の人々が行くことになる。
+-->&therefore;、まずは&all;の人をとりあげて、<!--
+-->そしてそこから&at_least_one2;を選ばなければならない。<!--
+-->というわけで、&one_or_more2;人が行くことになる。
 <en>
 Both <ln><name>Examples 6.8</name><address>#ex6.8</address></ln>
 and <ln><name>6.9</name><address>#ex6.9</address></ln> tell us that one
@@ -1937,15 +1937,19 @@ That one or more people will be going.
 </en>
 </paragraph>
 
+<note># 訳注: (meaning ...) を(つまり ...)と訳したが meaning は訳出しなくても<!--
+-->いいかもしれない。より意訳的に訳する段階で消すことにする</note>
+
 <paragraph>
 <ln><name>例文 6.8</name><address>#ex6.8</address></ln>では、<!--
--->&relative;&clause;は&outer_quantifier;が適用された時点でその&sumti;を<!--
--->&describe;。つまり、1人以上の人々、その人々は白いのだが、が行く。<!--
+-->&relative;&clause;は&outer_quantifier;を&apply1;したあとにその&sumti;を<!--
+-->&describe2;する。つまり、&one_or_more2;人、その人たちは白いのだが、<!--
+-->が行っている。<!--
 -->しかし、<ln><name>例文 6.9</name><address>#ex6.9</address></ln>では、<!--
--->&relative;&clause;は実のところ、&outer_quantifier;が適用される前に<!--
--->その&sumti;を&describe;。<!--
--->つまり、その意味は「まずすべての人を取り上げる ---
-ところで、彼らはみな白いのだが」となる。<!--
+-->&relative;&clause;は&actually3;&outer_quantifier;を&apply1;するまえに<!--
+-->その&sumti;を&describe2;する。<!--
+-->つまり、その意味は「まずすべての人をとりあげる ---
+ところで、彼らは&all2;白いのだが」となる。<!--
 -->しかし、&all;の人間が白いわけではないので、<!--
 -->ここで作られた&incidental;的な&claim;は&false;となる。
 <en>
@@ -1960,6 +1964,30 @@ they're all white".
 But  not all people are white, so the incidental claim being made here is false.
 </en>
 </paragraph>
+
+<note># 訳注: once を「したあとに」と訳した。本来は「するとすぐに」等の意味</note>
+<note># 訳注: この段落にも訳出しづらい actually が出てきた。<!--
+-->英語において actually というものは軽い強調や、ほとんどリズムを整える程度の<!--
+-->意味しか持たないように思える。ここでのニュアンスとしては<!--
+-->「意味的におかしいのでそうは思わないだろうけど、<!--
+-->実はこの&relative;&clause;は人間全体にかかるのだ」<!--
+-->といったところだろうか</note>
+<note># 訳注: 日本語の「白い」には「白人である」という意味はない。<!--
+-->しかし英語で "He is white." と言った場合には「彼は白人である。」という<!--
+-->意味を持つ。&lojban;で le prenu cu blabi と言った場合、<!--
+-->おそらく日本語で言うところの「その人は白い」を意味するのだろう。<!--
+-->もし「その人は白人である」の意味での "The person is white." を&lojban;で<!--
+-->表現しようとしたら、le prenu cu blabi ではなくたとえばタンルを使って、<!--
+-->つまりタンルの持つ曖昧さを利用して、<!--
+-->le prenu cu blabi prenu とするか、あるいは今のところ辞書にはない&lujvo;を<!--
+-->作って le prenu cu labypre とするべきだろう。<!--
+-->le prenu cu blabi を「その人は白人である」の意味で使うのは、<!--
+-->英語の "white" にひきずられた誤った類推であり、<!--
+-->論理的にまちがっていると思う</note>
+<note># 訳注: gismu の意味の広がりを考慮したとしても、<!--
+-->「白い」という概念と「白色人種である」という概念は離れすぎているように思う。<!--
+-->たとえば「顔色が悪い」という意味は blabi に含み得ると思われるが、<!--
+-->「白人である」は意味の飛び地になってしまうだろう</note>
 
 <paragraph>
 安全な&strategy;は、&therefore;、"noi" &relative;&clause;を
