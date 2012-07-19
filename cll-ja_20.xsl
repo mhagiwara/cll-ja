@@ -111,4 +111,7 @@
 <font size="2" color="#555555"><xsl:value-of select="." /></font><br/>
 </xsl:template>
 
+<xsl:template match="delete">
+</xsl:template>
+
 </xsl:stylesheet>
