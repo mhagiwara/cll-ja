@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 15% くらい翻訳</note>
+<note># 16% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
@@ -24,19 +24,6 @@
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
-<note># todo .3.6: 6. &relative;&clause;と&descriptor2;</note>
-<note># todo .3.6.18: 例文6.8</note>
-<note># todo .3.6.19: 例文6.9</note>
-<note># todo .3.6.20: 第10段落</note>
-<note># todo .3.6.21: 第11段落</note>
-<note># todo .3.6.22: 第12段落</note>
-<note># todo .3.6.23: 例文6.10</note>
-<note># todo .3.6.24: 第13段落</note>
-<note># todo .3.6.25: 例文6.11</note>
-<note># todo .3.6.26: 第14段落</note>
-<note># todo .3.6.27: 第15段落</note>
-<note># todo .3.6.28: 例文6.12</note>
-<note># todo .3.6.29: 第16段落</note>
 <note># todo .3.7: 7. &possession;&sumti;</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
@@ -1892,11 +1879,9 @@ However, if the descriptor is ``lo", the difference is quite important:
 -->ひとつしかないもののうちのすべて、つまり「ひとつのうちのひとつ」と<!--
 -->考えたが確信がない</note>
 
-<!-- here#1 -->
-
 <example><ex_no>6.8</ex_no>
 <lojban>lo prenu ku noi blabi cu klama le zarci</lojban>
-<japanese>何人かの人々、その人々は白いのだが、が店に行く。</japanese>
+<japanese>何人かの人、その人たちは白いのだが、が店に行く。</japanese>
 <en>
 (Some persons) incidentally-which are-white go to-the market.
 Some people, who are white, go to the market
@@ -1905,7 +1890,7 @@ Some people, who are white, go to the market
 
 <example><ex_no>6.9</ex_no>
 <lojban>lo prenu noi blabi [ku] cu klama le zarci</lojban>
-<japanese>何人かの人々、人々というものは白いものだが、が店に行く。</japanese>
+<japanese>何人かの人、人というものは白いものだが、が店に行く。</japanese>
 <en>
 Some (persons incidentally-which are-white) go to-the market.
 Some of the people, who by the way are white, go to the market.
@@ -1942,16 +1927,16 @@ That one or more people will be going.
 
 <paragraph>
 <ln><name>例文 6.8</name><address>#ex6.8</address></ln>では、<!--
--->&relative;&clause;は&outer_quantifier;を&apply1;したあとにその&sumti;を<!--
+-->&relative;&clause;は&outer_quantifier;が&apply3;ったあとにその&sumti;を<!--
 -->&describe2;する。つまり、&one_or_more2;人、その人たちは白いのだが、<!--
 -->が行っている。<!--
 -->しかし、<ln><name>例文 6.9</name><address>#ex6.9</address></ln>では、<!--
--->&relative;&clause;は&actually3;&outer_quantifier;を&apply1;するまえに<!--
+-->&relative;&clause;は&actually3;&outer_quantifier;が&apply3;るまえに<!--
 -->その&sumti;を&describe2;する。<!--
--->つまり、その意味は「まずすべての人をとりあげる ---
+-->つまり、その意味は「まずすべての人を&take;る ---
 ところで、彼らは&all2;白いのだが」となる。<!--
 -->しかし、&all;の人間が白いわけではないので、<!--
--->ここで作られた&incidental;的な&claim;は&false;となる。
+-->この&incidental;的な&claim;は&false;となる。
 <en>
 In <ln><name>Example 6.8</name><address>#ex6.8</address></ln>,
 the relative clause described the sumti once the outer quantifier was applied:
@@ -1972,6 +1957,9 @@ But  not all people are white, so the incidental claim being made here is false.
 -->「意味的におかしいのでそうは思わないだろうけど、<!--
 -->実はこの&relative;&clause;は人間全体にかかるのだ」<!--
 -->といったところだろうか</note>
+<note># 訳注: being made here を「この」と訳した</note>
+<note># 訳注: 最後の文はより意訳的に訳する際にもっとこなれた日本語にすること</note>
+<delete>
 <note># 訳注: 日本語の「白い」には「白人である」という意味はない。<!--
 -->しかし英語で "He is white." と言った場合には「彼は白人である。」という<!--
 -->意味を持つ。&lojban;で le prenu cu blabi と言った場合、<!--
@@ -1988,12 +1976,14 @@ But  not all people are white, so the incidental claim being made here is false.
 -->「白い」という概念と「白色人種である」という概念は離れすぎているように思う。<!--
 -->たとえば「顔色が悪い」という意味は blabi に含み得ると思われるが、<!--
 -->「白人である」は意味の飛び地になってしまうだろう</note>
+<note># 訳注: 上記訳注の正しさについては別に考察する必要がある</note>
+</delete>
 
 <paragraph>
 安全な&strategy;は、&therefore;、"noi" &relative;&clause;を
 "lo" &descriptor2;に&attach;るときにはいつも "ku"
 を使うということである。<!--
--->そうしないと多く&claim;しすぎることとなることがある。
+-->そうしないと多く&claim;しすぎることとなるかもしれない。
 <en>
 The safe strategy, therefore, is to always use ``ku" when attaching a ``noi"
 relative clause to a ``lo" descriptor.
@@ -2001,13 +1991,18 @@ Otherwise we may end up claiming far too much.
 </en>
 </paragraph>
 
+<note># 訳注: end up claiming far too much 「はるかに多く主張しすぎる」<!--
+-->つまり、あるもののいくつかのものについて言おうとしているのに、<!--
+-->そのもののすべてについて言っていることになってしまうということ。<!--
+-->もっとちゃんとした日本語に意訳すること</note>
+
 <paragraph>
 &descriptor;が "la" のとき、<!--
 -->つまり&following;&selbri;が名前として使われるということだが、<!--
 -->そのときには、&relative;&clause;の位置は違う&significance;を持つ。<!--
--->"ku" のなかにある&relative;&clause;は、&selbri;の前であれ後ろであれ、<!--
+-->"ku" のなかにある&relative;&clause;は、&selbri;のまえでもあとでも、<!--
 -->名前の一部に含まれる。<!--
--->"ku" の外にある&relative;&clause;はこの限りではない。&therefore;、
+-->"ku" の外にある&relative;&clause;はそうではない。&therefore;、
 <en>
 When the descriptor is ``la", indicating that what follows is a selbri used
 for naming,
@@ -2019,6 +2014,8 @@ Therefore,
 </en>
 </paragraph>
 
+<!-- here#1 -->
+
 <example><ex_no>6.10</ex_no>
 <lojban>mi viska la nanmu poi terpa le ke'a xirma [ku]</lojban>
 <japanese>私は「自分の馬を恐れる男」さんを見る。</japanese>
@@ -2029,8 +2026,8 @@ I see Man Afraid Of His Horse.
 </example>
 
 <paragraph>
-&speaker;はある名前を持った人を見ているのであり、<!--
--->その人は特に馬を恐れている必要はない。しかし、
+&speaker;はその名前を持った人を見ているのであり、<!--
+-->その人は必ずしも馬を恐れてはいない。しかし、
 <en>
 says that the speaker sees a person with a particular name,
 who does not necessarily fear any horses, whereas
@@ -2047,18 +2044,21 @@ I see the person named ``Man" who is afraid of his horse.
 </example>
 
 <paragraph>
-は「男」という名前で自分の馬を恐れている人を見るということを&refer;す。
+は「男」という名前で自分の馬を恐れている人(または人達)を見るということを&refer;す。
 <en>
 refers to one (or more) of those named ``Man",
 namely the one(s) who are afraid of their horses.
 </en>
 </paragraph>
 
+<note>訳注: namely は「すなわち」ということで、おそらくその前後で同じもの<!--
+-->を指しているということを明示しているのだろうと思う</note>
+
 <paragraph>
-最後に、(さらに言えば "re lo kauce" と同じであるような) "re lo karce"
+最後に、(さらに "re lo ro karce" と同じであるような) "re lo karce"
 とほぼ同じである "re karce" のような&indefinite;&sumti;も<!--
 -->&relative;&clause;を持つことができる。<!--
--->これらは"ku" の外側版として取られる。例を挙げる。
+-->これらは"ku" の外側の類として解釈される。例文を挙げる。
 <en>
 Finally, so-called indefinite sumti like ``re karce",
 which means almost the same as ``re lo karce"
@@ -2082,8 +2082,8 @@ I possess two cars which-are black.
 -->&main;&bridi;に関連づけられたふたつの車にだけかかる。<!--
 -->&relative;&clause;を&indefinite;&sumti;の内部に<!--
 -->(つまり&explicitly;表された&terminator; "ku" の前に)<!--
--->置こうとするのは&ungrammatical;<!--
--->代わりに、&explicit; "lo" を使うべきだ。
+-->置こうとするのは&ungrammatical;。<!--
+-->代わりに、&explicit; "lo" を使う。
 <en>
 The restrictive relative clause only affects the two cars being affected by
 the main bridi,
@@ -2093,6 +2093,12 @@ It is ungrammatical to try to place a relative clause within an indefinite sumti
 Use an explicit ``lo" instead.
 </en>
 </paragraph>
+
+<note># 訳注: re lo karce poi xekri ku と re lo kauce ku poi xekri との<!--
+-->意味の違い。前者では黒い車のうちの2台であり、<!--
+-->後者は車のうちの2台を取り出す際に黒いという条件がつくということか。<!--
+-->結果としては同じことであると考えて良いのか、それとも何らかの意味の差異は<!--
+-->残るのか</note>
 
 </section_contents>
 </section>

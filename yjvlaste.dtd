@@ -19,7 +19,7 @@
 	<!ENTITY applicable "であることを意味する">
 	<!ENTITY apply1 "適用">
 	<!ENTITY apply2 "示">
-	<!ENTITY apply3 "かか">
+	<!ENTITY apply3 "係">
 	<!ENTITY appropriate "適切">
 	<!ENTITY as_a_result "だから">
 	<!ENTITY assignment "代入">
@@ -229,7 +229,7 @@
 	<!ENTITY permanently "持続的に">
 	<!ENTITY personal "人称">
 	<!ENTITY phrase "句">
-	<!ENTITY pick_out "取りあげ">
+	<!ENTITY pick_out "とりあげ">
 	<!ENTITY place "場所">
 	<!ENTITY placement "配置">
 	<!ENTITY place_structure "場所構造">
@@ -317,6 +317,7 @@
 	<!ENTITY symbol "記号">
 	<!ENTITY tag "タグ">
 	<!ENTITY tagged "タグ付けられた">
+	<!ENTITY take "とりあげ">
 	<!ENTITY tanru "タンル">
 	<!ENTITY tanru_unit "タンルの構成単位">
 	<!ENTITY temporarily "一時的に">
