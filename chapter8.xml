@@ -23,8 +23,20 @@
 <note># todo .3: 各節の見直し、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
-<!-- here#1 -->
 <note># todo .3.7: 7. &possession;&sumti;</note>
+<!-- here#1 -->
+<note># todo .3.7.9: 第6段落</note>
+<note># todo .3.7.10: 第7段落</note>
+<note># todo .3.7.11: 例文7.4</note>
+<note># todo .3.7.12: 第8段落</note>
+<note># todo .3.7.13: 第9段落</note>
+<note># todo .3.7.14: 例文7.5</note>
+<note># todo .3.7.15: 第10段落</note>
+<note># todo .3.7.16: 第11段落</note>
+<note># todo .3.7.17: 例文7.6</note>
+<note># todo .3.7.18: 第12段落</note>
+<note># todo .3.7.19: 例文7.7</note>
+<note># todo .3.7.20: 第13段落</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
 <note># todo .3.10: 10. &relative;&clause;のなかの&relative;&clause;</note>
@@ -2014,8 +2026,6 @@ Therefore,
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <example><ex_no>6.10</ex_no>
 <lojban>mi viska la nanmu poi terpa le ke'a xirma [ku]</lojban>
 <japanese>私は「自分の馬を恐れる男」さんを見る。</japanese>
@@ -2149,12 +2159,15 @@ the (associated-with me) car is-red.
 
 <paragraph>
 は正確に同じ意味だ。<!--
--->さらに、ここでは特別に&quantifier;について考える必要がないので、
+-->さらに、ここでは&quantifier;についてとくに考慮する必要がないので、
 <en>
 means exactly the samething.
 Furthermore, since there are no special considerations of quantifiers here,
 </en>
 </paragraph>
+
+<note># 訳注: no special considerations を「とくに考慮する必要がない」と訳した
+</note>
 
 <example><ex_no>7.3</ex_no>
 <lojban>le karce pe mi cu xunre</lojban>
@@ -2168,15 +2181,15 @@ The car associated-with me is-red
 もまた同じ意味である。<!--
 --><ln><name>例文 7.1</name><address>#ex7.1</address></ln>にあるような<!--
 -->&sumti;を「&possessive;&sumti;」と呼ぶ。<!--
--->もちろん、これは実際には&ownership;という意味での<!--
--->&possession;を意味するものではなく、"pe" &relative;&phrase;と同様、<!--
+-->もちろん、これは&really;は&ownership;という意味での<!--
+-->&possession;を意味するものではなく、"pe" &relative;&phrase;のように、<!--
 -->弱い関係&indicate;だけである。<!--
--->つまり、たとえただ一晩それを借りただけでも "le mi karce" と言えるのである。<!--
--->(英語では、"my car" は普通 "le karce po mi" を意味する。<!--
--->しかし、"my seat on the bus" は同じ意味での&possession;ではない。<!--
--->&lojban;では単に弱いほうの意味を標準としている。)<!--
---><ln><name>例文 7.1</name><address>#ex7.1</address></ln>の内部の&sumti;は<!--
--->それに相応するものとして「&possessor2;&sumti;」と呼ばれる。
+-->つまり、たとえただ一晩それを借りただけでも "le mi karce" と言える<!--
+-->(日本語では、「私の車」は普通 "le karce po mi" を意味する。<!--
+-->しかし、「バスの私の席」は同じ意味での&possession;ではない。<!--
+-->&lojban;では単純に弱いほうの意味を標準とする)。<!--
+--><ln><name>例文 7.1</name><address>#ex7.1</address></ln>の&inner_sumti;は<!--
+-->以上より「&possessor2;&sumti;」と呼ばれる。
 <en>
 means the same thing as well.
 A sumti like the one in
@@ -2195,12 +2208,33 @@ is correspondingly called the ``possessor sumti".
 </en>
 </paragraph>
 
+<note># 訳注: ownership と possession の訳しわけが難しい。<!--
+-->「&ownership;」と「&possession;」としてはおいたが</note>
+<note># 訳注: actually 同様、it does not really indicate possession in the sense of
+... の really も奇麗な日本語にならない。とりあえず「&really;」と訳した</note>
+<note># 訳注: 英語では actually や really 等、「本当は」とか「実は」とかが<!--
+-->強調やその文が置かれた文脈を示すためによく使われているが、<!--
+-->日本語にすべてを訳出してしまうと自然な文章にならない。<!--
+-->しかし訳出しないとせっかくの意味的な流れを示すシグナルがなくなってしまう。<!--
+-->バランスが大事ということころか</note>
+<note># 訳注: Lojban simply makes the weaker sense the standard one. の
+simply 「単に .. としているだけだ」と取るか、あるいは「わかりやすく」と取るか。<!--
+-->後者であれば simply は makes the weaker sense the standard one が<!--
+-->読者や他の人達にとって「わかりやすい」といった意味合いになると思う。<!--
+-->ここでは「単純に」と訳しておいた</note>
+<note># 訳注: inner sumti をどう訳すか。とりあえず「&inner_sumti;」<!--
+-->としておいたが、ここでの&sumti;のなかの&sumti;という意味からの意訳が必要だろう</note>
+<note># 訳注: correspondingly はそこまでで述べられてきた文法構造と「所有」との<!--
+-->関係を受けて、「それにふさわしく」といった意味を述べている。<!--
+-->ここでは「以上より」と訳しておいたがあまりいい訳ではない。<!--
+-->もっと良く意訳する必要あり</note>
+
 <paragraph>
-歴史的には&possessive;&sumti;は他のどの種類の&relative;&phrase;や&clause;よりも<!--
+歴史的に&possessive;&sumti;は他のどの種類の&relative;&phrase;や&clause;よりも<!--
 -->先にあった。<!--
 -->そしてこの章で今まで説明してきたような<!--
 -->&relative;&phrase;や&relative;&clause;の機能が<!--
--->ゆっくりと作り上げられていくなかで存在し続けた。<!--
+-->ゆっくりと作り上げられていくなかでも存在し続けた。<!--
 --><ln><name>例文 7.2</name><address>#ex7.2</address></ln>のタイプの<!--
 -->&prepose;&relative;&clause;が考案されたときに、<!--
 -->&possessive;&sumti;は最も簡単に<!--
@@ -2217,11 +2251,16 @@ as a special case of them.
 </en>
 </paragraph>
 
+<note>訳注: 上記は固いが英文中に含まれるニュアンスをすべて反映しようとすると<!--
+-->上の訳文のようになってしまう。次回の見直しでは、より意訳的な訳とする</note>
+
+<!-- here#1 -->
+
 <paragraph>
-どんなに複雑であっても、&any;の&sumti;が<!--
--->&full_fledged;&relative;&phrase;のなかに現れることができるが、<!--
--->"pe" を使わない&possessor2;&sumti;に<!--
--->現れることができるのは単純な&sumti;だけである。<!--
+どんなに複雑であっても、&any;の&sumti;を<!--
+-->&full_fledged;&relative;&phrase;のなかに置くことができるが、<!--
+-->"pe" を使わない&possessor2;&sumti;と<!--
+-->なれることができるのは単純な&sumti;だけである。<!--
 -->大雑把に言うと、正しい&possessor2;&sumti;になれるのは、<!--
 -->&pro_sumti;、&quotation;、名前、&description;、数である。<!--
 -->さらに、&possessor2;&sumti;は&quantifier;に&precede1;されてはならない。<!--
@@ -2242,6 +2281,9 @@ All these sumti forms are explained in full in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
 </en>
 </paragraph>
+
+<note># 訳注: full fledged は「羽毛のはえそろった」から「&full_fledged;」</note>
+<note># 訳注: can appear as を「となれる」と訳した</note>
 
 <paragraph>
 &possessive;&sumti;を使った&description;を例示する。

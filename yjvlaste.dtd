@@ -143,6 +143,7 @@
 	<!ENTITY in_fact "実際には">
 	<!ENTITY information "情報">
 	<!ENTITY inner_quantifier "内部数量詞">
+	<!ENTITY inner_sumti "内部のスムティ">
 	<!ENTITY in_principle "原則として">
 	<!ENTITY insert "挿入">
 	<!ENTITY insertion "挿入">
@@ -270,6 +271,7 @@
 	<!ENTITY quote "引用する">
 	<!ENTITY quoted "引用された">
 	<!ENTITY radio_communication "無線通信">
+	<!ENTITY really "実際に">
 	<!ENTITY refer "示">
 	<!ENTITY refer2 "指">
 	<!ENTITY referent "指示">
