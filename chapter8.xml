@@ -23,21 +23,29 @@
 <note># todo .3: 各節の見直し、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
-<note># todo .3.7: 7. &possession;&sumti;</note>
-<!-- here#1 -->
-<note># todo .3.7.9: 第6段落</note>
-<note># todo .3.7.10: 第7段落</note>
-<note># todo .3.7.11: 例文7.4</note>
-<note># todo .3.7.12: 第8段落</note>
-<note># todo .3.7.13: 第9段落</note>
-<note># todo .3.7.14: 例文7.5</note>
-<note># todo .3.7.15: 第10段落</note>
-<note># todo .3.7.16: 第11段落</note>
-<note># todo .3.7.17: 例文7.6</note>
-<note># todo .3.7.18: 第12段落</note>
-<note># todo .3.7.19: 例文7.7</note>
-<note># todo .3.7.20: 第13段落</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
+<!-- here#1 -->
+<note># todo .3.8.1: &cmavo;リスト</note>
+<note># todo .3.8.2: 第1段落</note>
+<note># todo .3.8.3: 例文8.1</note>
+<note># todo .3.8.4: 第2段落</note>
+<note># todo .3.8.5: 例文8.2</note>
+<note># todo .3.8.6: 第3段落</note>
+<note># todo .3.8.7: 第4段落</note>
+<note># todo .3.8.8: 例文8.3</note>
+<note># todo .3.8.9: 第5段落</note>
+<note># todo .3.8.10: 例文8.4</note>
+<note># todo .3.8.11: 第6段落</note>
+<note># todo .3.8.12: 第7段落</note>
+<note># todo .3.8.13: 例文8.5</note>
+<note># todo .3.8.14: 第8段落</note>
+<note># todo .3.8.15: 第9段落</note>
+<note># todo .3.8.16: 例文8.6</note>
+<note># todo .3.8.17: 第10段落</note>
+<note># todo .3.8.18: 第11段落</note>
+<note># todo .3.8.19: 例文8.7</note>
+<note># todo .3.8.20: 例文8.8</note>
+<note># todo .3.8.21: 第12段落</note>
 <note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
 <note># todo .3.10: 10. &relative;&clause;のなかの&relative;&clause;</note>
 <note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
@@ -2183,7 +2191,7 @@ The car associated-with me is-red
 -->&sumti;を「&possessive;&sumti;」と呼ぶ。<!--
 -->もちろん、これは&really;は&ownership;という意味での<!--
 -->&possession;を意味するものではなく、"pe" &relative;&phrase;のように、<!--
--->弱い関係&indicate;だけである。<!--
+-->弱い関係&indicate;すだけである。<!--
 -->つまり、たとえただ一晩それを借りただけでも "le mi karce" と言える<!--
 -->(日本語では、「私の車」は普通 "le karce po mi" を意味する。<!--
 -->しかし、「バスの私の席」は同じ意味での&possession;ではない。<!--
@@ -2254,17 +2262,15 @@ as a special case of them.
 <note>訳注: 上記は固いが英文中に含まれるニュアンスをすべて反映しようとすると<!--
 -->上の訳文のようになってしまう。次回の見直しでは、より意訳的な訳とする</note>
 
-<!-- here#1 -->
-
 <paragraph>
 どんなに複雑であっても、&any;の&sumti;を<!--
--->&full_fledged;&relative;&phrase;のなかに置くことができるが、<!--
+-->&full_fledged;&relative;&phrase;のなかになら置くことができるが、<!--
 -->"pe" を使わない&possessor2;&sumti;と<!--
--->なれることができるのは単純な&sumti;だけである。<!--
--->大雑把に言うと、正しい&possessor2;&sumti;になれるのは、<!--
+-->なれるのは単純な&sumti;だけである。<!--
+-->大雑把に言って、正しい&possessor2;&sumti;になれるのは、<!--
 -->&pro_sumti;、&quotation;、名前、&description;、数である。<!--
--->さらに、&possessor2;&sumti;は&quantifier;に&precede1;されてはならない。<!--
--->そういう形は普通の「&descriptor; + &quantifier; + &sumti;」<!--
+-->それだけでなく、&possessor2;&sumti;のまえに&quantifier;をつけてはならない。<!--
+-->そういう形はあまり使われない「&descriptor; + &quantifier; + &sumti;」<!--
 -->型の&description;として解釈されてしまう。<!--
 -->これらの型の&sumti;は&all;<!--
 --><ln><name>第6章</name><address>./chapter6.html</address></ln>で&full;<!--
@@ -2275,7 +2281,7 @@ only simple sumti can appear as possessor sumti, without a ``pe".
 Roughly speaking, the legal possessor sumti are:
 pro-sumti, quotations, names and descriptions, and numbers.
 In addition, the possessor sumti may not be preceded by a quantifier,
-as such a form would be interpreted as the usual
+as such a form would be interpreted as the unusual
 ``descriptor + quantifier + sumti" type of description.
 All these sumti forms are explained in full in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
@@ -2284,11 +2290,14 @@ All these sumti forms are explained in full in
 
 <note># 訳注: full fledged は「羽毛のはえそろった」から「&full_fledged;」</note>
 <note># 訳注: can appear as を「となれる」と訳した</note>
+<note># 訳注: unusual を「あまり使われない」と訳した</note>
 
 <paragraph>
-&possessive;&sumti;を使った&description;を例示する。
+&possessive;&sumti;のなかで&description;を使っている例文を示す。
 <en>Here is an example of a description used in a possessive sumti:</en>
 </paragraph>
+
+<note># 訳注: Here is an example of ... を「... の例文を示す」で統一しよう</note>
 
 <example><ex_no>7.4</ex_no>
 <lojban>le le nanmu ku karce cu blanu</lojban>
@@ -2300,11 +2309,11 @@ The man's car is blue.
 </example>
 
 <paragraph>
-&possessor2;&sumti;の&end;の&explicit; "ku" に注意しよう。
-それがあるおかげで、&possessor2;&sumti;は&main;&description;&sumti;<!--
--->の&selbri;とくっつかないですむ。<!--
--->この "ku" が必要なので、一番一般的な種類の&possessor2;&sumti;は<!--
--->&pro_sumti;、特に&personal;&pro_sumti;である。<!--
+&possessor2;&sumti;の&end;の&explicit; "ku" に注意しよう。<!--
+-->それがないと、&possessor2;&sumti;は&main;&description;&sumti;<!--
+-->の&selbri;とくっついてしまう。<!--
+-->この "ku" が必要なので、もっともよく使われる種類の&possessor2;&sumti;は<!--
+-->&pro_sumti;、特に&personal;&pro_sumti;であり、<!--
 -->それらは&elidable;&terminator;を必要としない。<!--
 -->&description;はより普通には&relative;&phrase;に&attach;て使われる。
 <en>
@@ -2318,14 +2327,18 @@ Descriptions are more likely to be attached with relative phrases.
 </en>
 </paragraph>
 
+<note># note: 上の文章は段落全体として、意訳してしまったほうがいいだろう</note>
+<note># note: 今後は訳注と note を分けることにする。自分の覚え書きは note とする。<!--
+-->訳注は読者のための追加の情報とする</note>
+
 <paragraph>
-そして、&possessor2;&sumti;として使われている数を例示する。
+また、&possessor2;&sumti;のなかで数を使っている例文を示す。
 <en>And here is a number used as a possessor sumti:</en>
 </paragraph>
 
 <example><ex_no>7.5</ex_no>
 <lojban>le li mu jdice se bende</lojban>
-<japanese>陪審員5番</japanese>
+<japanese>&juror;5番</japanese>
 <en>
 The of-the-number-five judging team-member
 Juror number 5
@@ -2333,9 +2346,9 @@ Juror number 5
 </example>
 
 <paragraph>
-これは「5番目の陪審員」とまったく同じではない。<!--
--->これは単にある陪審員と数5とが何らかの弱い関係にあることを<!--
--->示しているにすぎない。
+これは「5番目の&juror;」とはすこしちがう。<!--
+-->これは単にある&juror;と数5とが何らかの弱い関係にあることを<!--
+-->&indicate;しているにすぎない。
 <en>
 which is not quite the same as ``the fifth juror";
 it simply indicates a weak association between
@@ -2343,11 +2356,14 @@ the particular juror and the number 5.
 </en>
 </paragraph>
 
+<note># note: juror を「&juror;」と訳したが「&juror2;」とした方が良いのかもしれない。<!--
+-->すくなくとも、&lojban;の jdice は「決める人」であり、もっと意味が広い</note>
+
 <paragraph>
-&possessive;&sumti;には普通の&relative;&clause;を&attach;ることができる。<!--
--->&following2;特別ルール以外には何も言う必要がない。<!--
+&possessive;&sumti;には&regular;&relative;&clause;を&attach;ることができる。<!--
+-->&following2;特別ルールだけに注意すればいいだろう。<!--
 -->&possessor2;&sumti;の&immediately_follow2;く&relative;&clause;<!--
--->は&possession3;&sumti;ではなく&possessor2;&sumti;に&affect;例えば、
+-->は&possession3;&sumti;ではなく&possessor2;&sumti;に&affect;。たとえば、
 <en>
 A possessive sumti may also have regular relative clauses attached to it.
 This would need no comment if it were not for the following special rule:
@@ -2356,6 +2372,13 @@ to affect the possessor sumti, not the possessive. For example:
 </en>
 </paragraph>
 
+<note># note: if it were not for ... で、「もし ... がなかったら」</note>
+<note># note: special rule を「特別ルール」としたが、あまり良い訳ではない。<!--
+-->もうすこし近いニュアンスの訳語を探す必要がある。<!--
+-->または意訳によってニュアンスを表現すること</note>
+
+<!-- here#1 -->
+
 <example><ex_no>7.6</ex_no>
 <lojban>le mi noi sipna vau karce cu na klama</lojban>
 <japanese>寝ている私の車が行かない。</japanese>
@@ -2363,6 +2386,9 @@ to affect the possessor sumti, not the possessive. For example:
 The of-me incidentally-which (is-sleeping) car isn't going.
 </en>
 </example>
+
+<note># 訳注: つまり、le noi sipna vau karce のような&description;に<!--
+-->&possessive;&sumti;をつけるときには気をつけなければならないということだ</note>
 
 <paragraph>
 は私の車は行かないという意味であり、&incidental;的な&claim; "noi sipna" は<!--
@@ -2376,9 +2402,13 @@ If I wanted to say that the car is sleeping (whatever that might mean) I would n
 </en>
 </paragraph>
 
+<note># note: ... applies to me, not my car, however.
+は ... applies to me, but my car と解釈して良いのだろうか。<!--
+-->つまり not ..., however を but ... と考えて良いのか</note>
+
 <example><ex_no>7.7</ex_no>
 <lojban>le mi karce poi sipna cu na klama</lojban>
-<japanese>車の寝ている車が行かない。</japanese>
+<japanese>私の寝ている車が行かない。</japanese>
 <en>
 The of-me car which sleeps isn't going.
 </en>
@@ -2387,10 +2417,10 @@ The of-me car which sleeps isn't going.
 <paragraph>
 <ln><name>例文 7.6</name><address>#ex7.6</address></ln><!--
 -->は&relative;&clause;の&end;に "ku'o" ではなく "vau" を使っているが、<!--
--->この&terminator;はすべての単純な&bridi;を終わらせる。<!--
--->たいていいつも&elidable2;である。<!--
+-->この&terminator;は&every;の単純な&bridi;を終わらせるが、<!--
+-->ほとんど常に&elidable2;である。<!--
 -->しかし、この場合には同様に&valid;&alternative;である "ku'o" よりも<!--
--->短い&syllable;を持つ。
+-->&syllable;が短い(ためこっちを使ってみた)。
 <en>
 Note that <ln><name>Example 7.6</name><address>#ex7.6</address></ln> uses
 ``vau" rather than ``ku'o" at the end of the relative clause:

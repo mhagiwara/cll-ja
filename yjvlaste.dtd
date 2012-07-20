@@ -92,11 +92,12 @@
 	<!ENTITY eliminate1 "省略する">
 	<!ENTITY eliminate2 "引き剥がす">
 	<!ENTITY embed "うめこ">
-	<!ENTITY end "終わり">
-	<!ENTITY end2 "終わ">
+	<!ENTITY end "おわり">
+	<!ENTITY end2 "おわ">
 	<!ENTITY erase "取り消す">
 	<!ENTITY essentially "基本的に">
 	<!ENTITY etc "など">
+	<!ENTITY every "すべて">
 	<!ENTITY explain "説明">
 	<!ENTITY explicit "明示的な">
 	<!ENTITY explicitly "明示的に">
@@ -137,7 +138,7 @@
 	<!ENTITY incidentally "つけたしとして">
 	<!ENTITY include "含">
 	<!ENTITY indefinite "不定の">
-	<!ENTITY indicate "を示す">
+	<!ENTITY indicate "を示">
 	<!ENTITY indicate2 "示唆">
 	<!ENTITY indicator "心態詞">
 	<!ENTITY in_fact "実際には">
@@ -160,6 +161,8 @@
 	<!ENTITY join "まとめる">
 	<!ENTITY joiner "結合詞">
 	<!ENTITY joint "結合">
+	<!ENTITY juror "審査員">
+	<!ENTITY juror2 "陪審員">
 	<!ENTITY lerfu "レルフ">
 	<!ENTITY letter "文字">
 	<!ENTITY letter_word "文字を表す語">
@@ -275,6 +278,7 @@
 	<!ENTITY refer "示">
 	<!ENTITY refer2 "指">
 	<!ENTITY referent "指示">
+	<!ENTITY regular "普通の">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">
 	<!ENTITY represent "を表">

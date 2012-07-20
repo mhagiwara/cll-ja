@@ -308,7 +308,7 @@ A talks to B about IBM computers.
 <section>
 <title>&selma_o; CAI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-感情の程度(最高に、強く、弱く、全くない)&indicate;&particle;。<!--
+感情の程度(最高に、強く、弱く、全くない)&indicate;す&particle;。<!--
 -->たいていは感情を&specify1;他の&particle;&be_followed;する。
 </description>
 <example><lojban>.ei cai mi klama le zarci</lojban>
@@ -417,7 +417,7 @@ I try to go to the market from the house.
 	<reference path="./chapter13.html">第13章</reference>
 <description>
 名前や描写、&sumti;&be_prefixed;&vocative;を形成する。<!--
--->&vocative;は誰に(または誰が)話しているのか&indicate;&phrase;である。<!--
+-->&vocative;は誰に(または誰が)話しているのか&indicate;す&phrase;である。<!--
 -->&vocative;は&greeting;や&farewell;、&radio_communication;など、<!--
 -->&conversational_protocol;において使われる。<!--
 -->DOI, DOhU &see;。
@@ -517,7 +517,7 @@ Greetings [terminator] Greetings, O unspecified one!
 <title>&selma_o; FA</title><reference path="./chapter9.html">第9章</reference>
 <description>
 &sumti;につける&prefix_n;。<!--
--->&place_structure;の何番目の&place;に入るのか&indicate;。
+-->&place_structure;の何番目の&place;に入るのか&indicate;す。
 &word;&order;&override;。
 </description>
 <example><lojban>fa mi cu klama fi la .atlantas. fe la bastn.
@@ -554,7 +554,7 @@ To my left, the man bites the dog.
 <section>
 <title>&selma_o; FAhO</title><reference path="./chapter19.html">第19章</reference>
 <description>
-文法外の機械的な&signal_n;。それ以上&text;がないこと&indicate;。<!--
+文法外の機械的な&signal_n;。それ以上&text;がないこと&indicate;す。<!--
 -->コンピュータへの入力時に&useful;。
 </description>
 
@@ -584,7 +584,7 @@ Sow the grain in a line and evenly!
 <section>
 <title>&selma_o; FEhU</title><reference path="./chapter9.html">第9章</reference>
 <description>
-FIhO の&elidable;&terminator;。&ad_hoc;&modal;&tag;の&end;&indicate;。<!--
+FIhO の&elidable;&terminator;。&ad_hoc;&modal;&tag;の&end;&indicate;す。<!--
 -->&tagged;&sumti;&immediately_follow;く。
 </description>
 <example><lojban>mi viska do fi'o kanla [fe'u] le zunle</lojban>
@@ -638,7 +638,7 @@ the letter "e" with an acute accent
 <title>&selma_o; FUhA</title><reference path="./chapter18.html">第18章</reference>
 <description>
 &following;&mathematical_expression;が逆ポーランド記法(RP)で<!--
--->&be_interpreted;こと&indicate;。<!--
+-->&be_interpreted;こと&indicate;す。<!--
 -->逆ポーランド記法とは、&mathematical;&operator;を&operand;&be_followed;する<!--
 -->記法である。
 </description>
@@ -659,7 +659,7 @@ the-number [RP!] two, two, plus equals the-number four
 <description>
 &following; UI に属する&indicator;が、<!--
 -->普通そうであるように&precede1;する&word;にかかるのではなく、
-FUhO までの&all;の&following;&word;にかかること&indicate;。
+FUhO までの&all;の&following;&word;にかかること&indicate;す。
 </description>
 <example><lojban>mi viska le fu'e .ia blanu zdani fu'o ponse</lojban>
 <japanese>私は、私が青い家だと信じているもの、の所有者を見る。</japanese></example>
@@ -689,7 +689,7 @@ I see the owner of what I believe to be a blue house.
 <title>&selma_o; GA</title><reference path="./chapter14.html">第14章</reference>
 <description>
 &logically;&connected;2つの&sumti;や&bridi_tail;<!--
--->&or_various_other_things;の始まり&indicate;。<!--
+-->&or_various_other_things;の始まり&indicate;す。<!--
 -->&logical_connection;は「以下の両方が成り立つ ... と ...」や<!--
 -->「以下のどちらかまたは両方が成り立つ ... と ...」や<!--
 -->「もし ... ならば ...」&and_so_on;を含む。GI &see;。
@@ -815,7 +815,7 @@ A: I'm going to the market. B: Me, too.
 <section>
 <title>&selma_o; GUhA</title><reference path="./chapter14.html">第14章</reference>
 <description>
-&logically;&connected;2つの&tanru_unit;の始まり&indicate;。<!--
+&logically;&connected;2つの&tanru_unit;の始まり&indicate;す。<!--
 -->&logically;&connected;&tanru;を形成するときに GA の代わりに使う。GI &see;。
 </description>
 <example><lojban>la .alis. gu'e ricfu gi blanu</lojban>
@@ -903,7 +903,7 @@ John massed-with Alice carry the piano.
 <title>&selma_o; JOhI</title><reference path="./chapter18.html">第18章</reference>
 <description>
 &following;&mathematical;&operand;(TEhU &be_terminated_by;リスト)が<!--
--->&mathematical;のベクトル(一次元配列)であること&indicate;。
+-->&mathematical;のベクトル(一次元配列)であること&indicate;す。
 </description>
 <example><lojban>li jo'i paboi reboi te'u su'i jo'i ciboi voboi
 du li jo'i voboi xaboi</lojban>
@@ -1006,10 +1006,10 @@ The blue house (referred to as #1) is big.
 	<reference path="./chapter10.html">第10章</reference>
 <description>
 LE または、一部の使いかたをした場合の LA の&elidable;&terminator;。<!--
--->&description;&sumti;の&end;&indicate;。<!--
+-->&description;&sumti;の&end;&indicate;す。<!--
 -->また、&tense;や&modal;&used_after;、それらが&following;&sumti;を<!--
--->取らないこと&indicate;他、
-NA+KU と&compound;形で自然言語形式の否定&indicate;。
+-->取らないこと&indicate;す他、
+NA+KU と&compound;形で自然言語形式の否定&indicate;す。
 </description>
 <example><lojban>le prenu ku le zdani ku klama</lojban>
 <japanese>その人は家に行く。</japanese></example>
@@ -1028,7 +1028,7 @@ The person goes to the house.
 <title>&selma_o; KUhE</title><reference path="./chapter18.html">第18章</reference>
 <description>
 PEhO の&elidable;&terminator;。<!--
--->&forethought;&mathematical_expression;の&end;&indicate;<!--
+-->&forethought;&mathematical_expression;の&end;&indicate;す<!--
 -->(&forethought;&mathematical_expression;では&operator;が<!--
 -->&operand;に&precede1;する)。
 </description>
@@ -1046,7 +1046,7 @@ The number [forethought] the-sum-of two two two [end] equals the-number six
 
 <title>&selma_o; KUhO</title><reference path="./chapter8.html">第8章</reference>
 <description>
-NOI の&elidable;&terminator;。&relative;&clause;の&end;&indicate;。
+NOI の&elidable;&terminator;。&relative;&clause;の&end;&indicate;す。
 </description>
 <example><lojban>le zdani poi blanu ku'o barda</lojban>
 <japanese>その青い家は大きい。</japanese></example>
@@ -1129,7 +1129,7 @@ The dog goes-to the house.
 
 <section>
 <title>&selma_o; LEhU</title><reference path="./chapter19.html">第19章</reference>
-<description>LOhU で始まる&quotation;の&end;&indicate;。<!--
+<description>LOhU で始まる&quotation;の&end;&indicate;す。<!--
 -->&non_elidable;&terminator;。</description>
 <example><lojban>lo'u mi du do du mi le'u cu na lojbo drani</lojban>
 <japanese>「mi du do du mi」はロジバンとして正しくない。</japanese></example>
@@ -1165,7 +1165,7 @@ $2 - 2 &lt;&gt; 4 + 4$
 <section>
 <title>&selma_o; LIhU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-LU の&elidable;&terminator;。&quotation;の&end;&indicate;。
+LU の&elidable;&terminator;。&quotation;の&end;&indicate;す。
 </description>
 <example><lojban>mi cusku lu mi klama le zarci li'u</lojban>
 <japanese>私は「私は店に行く」と言う。</japanese></example>
@@ -1181,7 +1181,7 @@ I express [quote] I go-to the market[end quote].
 <title>&selma_o; LOhO</title><reference path="./chapter18.html">第18章</reference>
 <description>
 LI の&elidable;&terminator;。LI のなかで使われる&mathematical_expression;の<!--
--->&end;&indicate;。
+-->&end;&indicate;す。
 </description>
 <example><lojban>li vo lo'o li ci lo'o cu zmadu</lojban>
 <japanese>4 > 3</japanese></example>
@@ -1197,7 +1197,7 @@ $4 &gt; 3$
 <section>
 <title>&selma_o; LOhU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-&quotation;(&sumti;)の始まり&indicate;。
+&quotation;(&sumti;)の始まり&indicate;す。
 &quoted;&material;が&lojban;における&word;から成るものであれば、
 それが文章の形を成している&or_not;&grammatical;いことになる。
 LEhU &be_terminated_by;。
@@ -1218,7 +1218,7 @@ You said, "mi du do du ko'a".
 <section>
 <title>&selma_o; LU</title><reference path="./chapter19.html">第19章</reference>
 <description>
-&quotation;(&sumti;)の始まり&indicate;。<!--
+&quotation;(&sumti;)の始まり&indicate;す。<!--
 -->&quoted;&material;も&grammatical;い&lojban;の文章でなければ、<!--
 -->&grammatical;くない。LIhU &be_terminated_by;。
 <example><lojban>mi cusku lu mi klama le zarci li'u</lojban>
@@ -1236,7 +1236,7 @@ I express [quote] I go-to the market [end quote].
 <section>
 <title>&selma_o; LUhU</title><reference path="./chapter6.html">第6章</reference>
 <description>
-LAhE や NAhE+BO の&elidable;&terminator;。&qualified;&sumti;の&end;&indicate;。
+LAhE や NAhE+BO の&elidable;&terminator;。&qualified;&sumti;の&end;&indicate;す。
 </description>
 <example><lojban>mi viska la'e lu barda gerku li'u lu'u</lojban>
 <japanese>私は「大きい犬」(語ではなくこの題名の本または映画など)を見る。</japanese></example>
@@ -1311,7 +1311,7 @@ That's a Ford car.
 <section>
 <title>&selma_o; MEhU</title><reference path="./chapter5.html">第5章</reference>
 <description>
-ME の&elidable;&terminator;。&tanru_unit;へと変換された&sumti;の&end;&indicate;。
+ME の&elidable;&terminator;。&tanru_unit;へと変換された&sumti;の&end;&indicate;す。
 </description>
 <example><lojban>ta me mi me'u zdani</lojban>
 <japanese>あれは私的な家だ。</japanese></example>
@@ -1365,7 +1365,7 @@ the-number two rats plus two rabbits equals the-number four animals
 <section>
 <title>&selma_o; MOhI</title><reference path="./chapter10.html">第10章</reference>
 <description>
-空間における動き&indicate;&tense;&flag;。動きの方向は&following; FAhA
+空間における動き&indicate;す&tense;&flag;。動きの方向は&following; FAhA
 &cmavo;によって&specify1;。
 </description>
 <example><lojban>le verba mo'i ri'u cadzu le bisli</lojban>
@@ -1470,7 +1470,7 @@ Length x Width x Depth = Volume
 <title>&selma_o; NIhO</title><reference path="./chapter19.html">第19章</reference>
 <description>
 新しい段落&mark;。<!--
--->また、その段落が前の内容や新しい内容を&contain;かどうか&indicate;。
+-->また、その段落が前の内容や新しい内容を&contain;かどうか&indicate;す。
 </description>
 
 <en>
@@ -1899,7 +1899,7 @@ TUhE の&logical;&terminator;。複数の&sentence;の&group_n1;の&end;&mark;�
 <section>
 <title>&selma_o; UI</title><reference path="./chapter13.html">第13章</reference>
 <description>
-話者の感情的な状態、知識の出所、&discourse;における局面&indicate;&particle;。
+話者の感情的な状態、知識の出所、&discourse;における局面&indicate;す&particle;。
 </description>
 <example><lojban>.ui la djan. klama</lojban>
 <japanese>やった、ジョンが来る。</japanese></example>
@@ -1916,7 +1916,7 @@ Hurrah! John is coming!
 
 <title>&selma_o; VA</title><reference path="./chapter10.html">第10章</reference>
 <description>
-空間的な距離&indicate;&tense;(近い、遠い、どちらでもない)。
+空間的な距離&indicate;す&tense;(近い、遠い、どちらでもない)。
 </description>
 <example><lojban>le nanmu va batci le gerku</lojban>
 <japanese>向こうで男が犬をかんでいる。</japanese></example>
@@ -1968,7 +1968,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 <section>
 
 <title>&selma_o; VEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>空間における&interval;(長、中、短)&indicate;&tense;。</description>
+<description>空間における&interval;(長、中、短)&indicate;す&tense;。</description>
 <en>A tense indicating the size of an interval in space (long, medium, or short)</en>
 </section>
 
@@ -1993,7 +1993,7 @@ $(n + 1)(n + 1) = n^2 + 2n + 1$
 
 <title>&selma_o; VIhA</title><reference path="./chapter10.html">第10章</reference>
 <description>
-空間における次元(線上、面上、空間上、時空上の&interval;)&indicate;&tense;。
+空間における次元(線上、面上、空間上、時空上の&interval;)&indicate;す&tense;。
 </description>
 <example><lojban>le verba ve'a vi'a cadzu le bisli</lojban>
 <japanese>中くらいの範囲で、氷の上をその子は歩く。</japanese></example>
@@ -2118,7 +2118,7 @@ That is an X-ray camera.
 
 <section>
 <title>&selma_o; ZEhA</title><reference path="./chapter10.html">第10章</reference>
-<description>時の&interval;(長、中、短)&indicate;&tense;。</description>
+<description>時の&interval;(長、中、短)&indicate;す&tense;。</description>
 <example><lojban>mi puze'a citka</lojban>
 <japanese>私は短い時間食事をした。</japanese></example>
 
@@ -2132,7 +2132,7 @@ I ate for a little while.
 <section>
 <title>&selma_o; ZI</title><reference path="./chapter10.html">第10章</reference>
 <description>
-時の隔たり(遠い、中くらいの、近い過去または未来)&indicate;&tense;。
+時の隔たり(遠い、中くらいの、近い過去または未来)&indicate;す&tense;。
 </description>
 <example><lojban>mi puzi citka</lojban>
 <japanese>ついさっき食事をしたところだ。</japanese></example>
