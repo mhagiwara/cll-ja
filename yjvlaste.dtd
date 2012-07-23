@@ -29,6 +29,7 @@
 	<!ENTITY at_least_one "すくなくともひとつ">
 	<!ENTITY at_least_one2 "すくなくともひとり">
 	<!ENTITY attach "つけ">
+	<!ENTITY attacher "付着詞">
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
 	<!ENTITY attach_to3 "につけ">
@@ -206,11 +207,13 @@
 	<!ENTITY non_elidable "省略できない">
 	<!ENTITY non_restrictive "非限定">
 	<!ENTITY non_veridical "非真実">
+	<!ENTITY normally "ふつうは">
 	<!ENTITY number "数">
 	<!ENTITY numeric_cmavo "数字シマヴォ">
 	<!ENTITY numerical_expression "数式">
 	<!ENTITY often "しばしば">
 	<!ENTITY omit "省略">
+	<!ENTITY omit2 "削除">
 	<!ENTITY one_or_more "ひとつ以上の">
 	<!ENTITY one_or_more2 "ひとり以上の">
 	<!ENTITY operand "被演算子">
@@ -266,6 +269,7 @@
 	<!ENTITY property "所有物">
 	<!ENTITY pro_sumti "代スムティ">
 	<!ENTITY provide "提供">
+	<!ENTITY pure_number "純粋な数">
 	<!ENTITY put_on_notice "注意をうながす">
 	<!ENTITY qualified "被限定">
 	<!ENTITY qualifier "限定詞">

@@ -16,23 +16,15 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 16% くらい翻訳</note>
+<note># 17% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
-<note># とりあえずの訳であり、全体の訳ができたら、全面的に訳を直す予定</note>
-<note># todo .3: 各節の見直し、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
+<note># とりあえずの訳である。全体の訳ができたので訳の修正中</note>
+<note># todo .3: 各節の見直し(1回目)、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
-<note># todo .3.8.1: &cmavo;リスト</note>
-<note># todo .3.8.2: 第1段落</note>
-<note># todo .3.8.3: 例文8.1</note>
-<note># todo .3.8.4: 第2段落</note>
-<note># todo .3.8.5: 例文8.2</note>
-<note># todo .3.8.6: 第3段落</note>
-<note># todo .3.8.7: 第4段落</note>
-<note># todo .3.8.8: 例文8.3</note>
 <note># todo .3.8.9: 第5段落</note>
 <note># todo .3.8.10: 例文8.4</note>
 <note># todo .3.8.11: 第6段落</note>
@@ -49,9 +41,7 @@
 <note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
 <note># todo .3.10: 10. &relative;&clause;のなかの&relative;&clause;</note>
 <note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
-<note># todo 2: 内容の理解を試る</note>
-<note># todo 3: 訳を正しくする</note>
-<note># todo 4: 訳をきれいにする</note>
+<note># todo 2: 2回目の訳の見直し</note>
 </prenotes>
 
 <section>
@@ -2377,8 +2367,6 @@ to affect the possessor sumti, not the possessive. For example:
 -->もうすこし近いニュアンスの訳語を探す必要がある。<!--
 -->または意訳によってニュアンスを表現すること</note>
 
-<!-- here#1 -->
-
 <example><ex_no>7.6</ex_no>
 <lojban>le mi noi sipna vau karce cu na klama</lojban>
 <japanese>寝ている私の車が行かない。</japanese>
@@ -2438,22 +2426,29 @@ in this case, though, it is a syllable shorter than the equally valid alternativ
 	--><en>Relative clauses and complex sumti</en>: ``vu'o"</title>
 <cmavo_list>
 <cmavo_item><cmavo>vu'o</cmavo><selmaho>VUhO</selmaho><caption>
-	<ja>hoge</ja>
+	<ja>&relative;&clause;&attacher;</ja>
 	<en>relative clause attacher</en></caption></cmavo_item>
 </cmavo_list>
 
 <section_contents>
 
+<note># note: attacher を「&attacher;」と訳した。<!--
+-->joiner の「&joiner;」もそうだが今のところコンセンサスの取れた訳ではない</note>
+
 <paragraph>
-普通、&relative;&clause;は単純な&sumti;か&sumti;の一部に&attach;られる。<!--
--->つまり、&pro_sumti;、名前、&description;、純粋な数、&quotation;である。<!--
--->単純な数に&attach;られる例は
+&normally;&relative;&clause;は単純な&sumti;か&sumti;の一部に&attach;られる。<!--
+-->つまり、&pro_sumti;、名前、&description;、&pure_number;、&quotation;である。<!--
+-->&pure_number;に&relative;&clause;を&attach;た例文は
 <en>
 Normally, relative clauses attach only to simple sumti or parts of sumti:
 pro-sumti, names and descriptions, pure numbers, and quotations.
 An example of a relative clause attached to a pure number is:
 </en>
 </paragraph>
+
+<note># note: pure number とは何を指すか。<!--
+-->とりあえず「&pure_number;」と訳しはしたが。逆に pure でない number とは何か
+</note>
 
 <example><ex_no>8.1</ex_no>
 <lojban>li pai noi na'e frinu namcu</lojban>
@@ -2465,15 +2460,16 @@ The irrational number pi
 </example>
 
 <paragraph>
-また、&quotation;につけた&incidental;&relative;&clause;の例を示す。
+また、&quotation;に&incidental;&relative;&clause;をつけた例文を示す。
 <en>
 And here is an incidental relative clause attached to a quotation:
 </en>
 </paragraph>
 
 <example><ex_no>8.2</ex_no>
-<lojban>lu mi klama le zarci li'u noi mi cusku ke'a cu jufra</lojban>
-<japanese>「私は店に行く」とは私が言ったのだが、これは文である。</japanese>
+<lojban>lu mi klama le zarci li'u noi mi cusku ke'a
+cu jufra</lojban>
+<japanese>「私はその店に行く」とは私が言ったのだが、これは文である。</japanese>
 <en>
 [quote] I go to-the market [unquote] incidentally-which (I express IT) is-a-sentence.
 ``I'm going to the market", which I'd said, is a sentence.
@@ -2492,11 +2488,17 @@ All such relative clauses appear only after the simple sumti, never before it.
 </en>
 </paragraph>
 
+<note># note: which may serve to identify the author of the quatation or some other
+relevant, but subsidiary, fact about it をどう訳すべきか。<!--
+-->or some other relevant が何を意味するのか、等</note>
+<note># note: 「このような」はここで紹介された&description;以外のものに係る
+&relative;&clause;のことを指すと思われる</note>
+
 <paragraph>
-加えて、&selma_o; LAhE や NAhE+BO といった&sumti;&qualifier;<!--
--->(これらは<ln><name>第6章</name><address>./chapter6.html</address></ln><!--
--->で詳しく説明する)の&attach;られた&sumti;も&qualifier;の後ろ、<!--
--->&qualified;&sumti;の前に&relative;&clause;を持つことができる。<!--
+さらに、&selma_o; LAhE や NAhE+BO といった&sumti;&qualifier;<!--
+-->(<ln><name>第6章</name><address>./chapter6.html</address></ln><!--
+-->で詳述)の&attach;られた&sumti;にも&qualifier;と<!--
+-->&qualified;&sumti;のあいだに&relative;&clause;をつけることができる。<!--
 -->以下のように、
 <en>
 In addition, sumti with attached sumti qualifiers of selma'o LAhE or NAhE+BO
@@ -2506,6 +2508,12 @@ can have a relative clause appearing after the qualifier and before the
 qualified sumti, as in:
 </en>
 </paragraph>
+
+<note># note: 情報はやや減るが、after ... and before ... を<!--
+-->「... と ... のあいだ」と訳してみた</note>
+<note># note: which are explained in detail in Chapter 6
+を「第6章で詳述」と訳したが、いまいちかも。「第6章参照」くらいがいいかも</note>
+<note># note: as in を「以下のように」と訳した</note>
 
 <example><ex_no>8.3</ex_no>
 <lojban>la'e poi tolcitno vau lu le xunre cmaxirma
@@ -2519,8 +2527,8 @@ An old ``The Red Pony" is in the far room.
 </example>
 
 <paragraph>
-<ln><name>例文 8.3</name><address>#ex8.3</address></ln>はすこし複雑なので、<!--
--->つまんでバラバラにしなければならないかもしれない。<!--
+<ln><name>例文 8.3</name><address>#ex8.3</address></ln>はすこし複雑なので<!--
+-->ばらす必要があるかもしれない。<!--
 -->&quotation; "lu le xunre cumaxirma li'u" は単語列「赤い小馬」を意味する。<!--
 -->もし文頭の "la'e" を&omit;したら<!--
 --><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は<!--
@@ -2553,6 +2561,8 @@ clause.
 same as:
 </en>
 </paragraph>
+
+<!-- here#1 -->
 
 <example><ex_no>8.4</ex_no>
 <lojban>la'e lu le xunre cumaxirma li'u lu'u poi
