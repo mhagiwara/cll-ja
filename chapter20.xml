@@ -2010,10 +2010,10 @@ In a medium-sized area, the child walks on the ice.
 <section>
 <title>&selma_o; VUhO</title><reference path="./chapter8.html">第8章</reference>
 <description>
-&relative;&clause;や&relative;&phrase;が、&sumti;の最も左側の部分ではなく、<!--
+&relative;&clause;や&relative;&phrase;が、&sumti;の最も右側の部分ではなく、<!--
 -->(複合的であるかもしれない)&sumti;全体に&attach_to4;ようにする。</description>
 <example>
-<lojban>la frank. ce la djordi. vu'o noi gidva cu zvati le kumfa</lojban>
+<lojban>la frank. ce la djordj. vu'o noi gidva cu zvati le kumfa</lojban>
 <japanese>フランクとジョージは、彼らはガイドであるのだが、部屋にいる。</japanese>
 </example>
 
@@ -2024,7 +2024,8 @@ the sumti.
 Frank [in-set-with] George, which are-guides, are-in the room.
 Frank and George, who are guides, are in the room.
 </en>
-<note># 訳注: left most portion of the sumti が何を指すのか</note>
+<note># 訳注: 原文では leftmost portion となっていたが rightmost portion
+の誤りと考えられる</note>
 </section>
 
 <section>
