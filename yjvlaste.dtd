@@ -281,7 +281,7 @@
 	<!ENTITY really "実際に">
 	<!ENTITY refer "示">
 	<!ENTITY refer2 "指">
-	<!ENTITY referent "指示">
+	<!ENTITY referent "指すもの">
 	<!ENTITY regular "普通の">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">
@@ -316,6 +316,7 @@
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY strategy "方法">
 	<!ENTITY string "列">
+	<!ENTITY string_of_words "単語列">
 	<!ENTITY style "表現">
 	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">

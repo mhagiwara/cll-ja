@@ -25,7 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
-<note># todo .3.8.9: 第5段落</note>
 <note># todo .3.8.10: 例文8.4</note>
 <note># todo .3.8.11: 第6段落</note>
 <note># todo .3.8.12: 第7段落</note>
@@ -2529,18 +2528,18 @@ An old ``The Red Pony" is in the far room.
 <paragraph>
 <ln><name>例文 8.3</name><address>#ex8.3</address></ln>はすこし複雑なので<!--
 -->ばらす必要があるかもしれない。<!--
--->&quotation; "lu le xunre cumaxirma li'u" は単語列「赤い小馬」を意味する。<!--
--->もし文頭の "la'e" を&omit;したら<!--
+-->&quotation; "lu le xunre cumaxirma li'u"
+は&string_of_words;「赤い小馬」を意味する。<!--
 --><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は<!--
--->ある単語列が&speaker;から見て遠くの部屋にあることを&claim;する。<!--
--->しかし、明らかに単語列は部屋のなかにあるなんてありえない。<!--
--->"la'e" の効果は&sumti;が語そのものを&refer;すのではなく、<!--
--->その語が&referent;するもの、つまりジョーン・スタインベックの小説<!--
--->(&presumably;&lojban;語訳)を&refer;す<!--
--->ように&modify2;することだ。<!--
--->特定の「赤い小馬」のコピーが&restrictive;&relative;&clause;によって<!--
+-->文頭の "la'e" を&omit2;すると<!--
+-->ある&string_of_words;が遠くの部屋にあるという意味になってしまう。<!--
+-->しかし、&string_of_words;が部屋のなかにあるなんてありえない。<!--
+-->"la'e" があることで、この&sumti;は単語列そのものではなく、<!--
+-->その単語列が&referent;、つまりジョーン・スタインベックの小説<!--
+-->(&presumably;&lojban;語訳)を&refer;すことになる。<!--
+-->その「赤い小馬」のうちのある一冊が&restrictive;&relative;&clause;によって<!--
 -->特定される。<!--
---><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は以下と正確に<!--
+--><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は以下とまったく<!--
 -->同じ意味だ。
 <en>
 <ln><name>Example 8.3</name><address>#ex8.3</address></ln> is a bit complex,
@@ -2561,6 +2560,24 @@ clause.
 same as:
 </en>
 </paragraph>
+
+<note># note: a room distant from the speaker
+とあるが単に「遠くの部屋」と訳した</note>
+<note># note: a certain string of words
+を「ある&string_of_words;」と訳した</note>
+<note># note: obviously ... can't ... を「... なんてありえない」と訳した</note>
+<note># note: claim は「&claim;する」という訳でも良いとは思うが、<!--
+-->もうすこし、こなれた訳はできないだろうか -&gt;
+ここではより軽く「という意味になる」と訳してみた</note>
+<note># note: la'e at the beginning of the sentence の beginning
+は訳出しないことにした</note>
+<note># note: effect を「効果」と訳したがもっとこなれた訳はないだろうか</note>
+<note># note: modify the sumti の modify は訳出しないことにした</note>
+<note># note: copy を意味する適当な日本語が思いつかない</note>
+<note># note: the particular copy of で「のうちのある一冊」と訳した</note>
+<note># note: identify を「特定する」と訳したがやや固い</note>
+<note># note: means exactly the same as を「正確に同じ意味だ」と訳すか、<!--
+-->「まったく同じ意味だ」と訳すかで迷ったがとりあえず後者にしておいた</note>
 
 <!-- here#1 -->
 
