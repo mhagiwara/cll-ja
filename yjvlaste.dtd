@@ -33,7 +33,7 @@
 	<!ENTITY attach_to1 "に付加された">
 	<!ENTITY attach_to2 "につける">
 	<!ENTITY attach_to3 "につけ">
-	<!ENTITY attach_to4 "係る">
+	<!ENTITY attach_to4 "係">
 	<!ENTITY be_followed "に後置">
 	<!ENTITY be_interpreted "解釈される">
 	<!ENTITY be_prefix "に後置して">

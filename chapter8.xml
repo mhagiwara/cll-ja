@@ -25,8 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
-<note># todo .3.8.10: 例文8.4</note>
-<note># todo .3.8.11: 第6段落</note>
 <note># todo .3.8.12: 第7段落</note>
 <note># todo .3.8.13: 例文8.5</note>
 <note># todo .3.8.14: 第8段落</note>
@@ -2579,8 +2577,6 @@ same as:
 <note># note: means exactly the same as を「正確に同じ意味だ」と訳すか、<!--
 -->「まったく同じ意味だ」と訳すかで迷ったがとりあえず後者にしておいた</note>
 
-<!-- here#1 -->
-
 <example><ex_no>8.4</ex_no>
 <lojban>la'e lu le xunre cumaxirma li'u lu'u poi
 to'ercitno cu zvati le vu kumfa</lojban>
@@ -2592,10 +2588,10 @@ the [far distance] room.
 </example>
 
 <paragraph>
-そして、ふたつの文は形式上の variants と考えられる。<!--
--->"lu'u" &terminator;が必要であることに注意。<!--
--->これのおかげで、&relative;&clause;が&quotation;自体に&attach_to4;ことはない。<!--
--->古い&quotation;を&refer;すことを望みはしない。
+これらふたつの文は文体が違うだけだと考えられる。<!--
+-->"lu'u" &terminator;が必要であることに注意しよう。<!--
+-->これがないと、&relative;&clause;が&quotation;自体に&attach_to4;ってしまう。<!--
+-->&quotation;が古いと言いたいわけではない。
 <en>
 and the two sentences can be considered stylistic variants.
 Note the required ``lu'u" terminator,
@@ -2603,6 +2599,11 @@ which prevents the relative clause from attaching to the quotation itself:
 we do not wish to refer to an old quotation!
 </en>
 </paragraph>
+
+<note># note: the two sentence can be considered stylistic variants
+は意味はわかるのだが日本語に訳しにくい。<!--
+-->ふたつの文が形のうえでの違いでありスタイルの違いにすぎないということだ</note>
+<note># note: 上の訳はより流暢な日本語に意訳する必要がある</note>
 
 <paragraph>
 しかし、時には、もっと複雑な&sumti;の全体に&apply3;るようにすることが大切になる<!--
@@ -2617,6 +2618,8 @@ one which involves logical or non-logical connection
 For example,
 </en>
 </paragraph>
+
+<!-- here#1 -->
 
 <example><ex_no>8.5</ex_no>
 <lojban>la frank. .e la djordj. noi nanmu cu klama le zdani</lojban>
