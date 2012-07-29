@@ -20,6 +20,7 @@
 	<!ENTITY apply1 "適用">
 	<!ENTITY apply2 "示">
 	<!ENTITY apply3 "係">
+	<!ENTITY apply4 "修飾">
 	<!ENTITY appropriate "適切">
 	<!ENTITY as_a_result "だから">
 	<!ENTITY assignment "代入">
@@ -49,6 +50,7 @@
 	<!ENTITY bridi_tail "ブリディ末端">
 	<!ENTITY brivla "ブリブラ">
 	<!ENTITY claim "主張">
+	<!ENTITY claim2 "説明">
 	<!ENTITY clause "節">
 	<!ENTITY clearly "明らかに">
 	<!ENTITY closely "強く">

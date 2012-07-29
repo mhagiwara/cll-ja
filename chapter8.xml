@@ -25,9 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
-<note># todo .3.8.12: 第7段落</note>
-<note># todo .3.8.13: 例文8.5</note>
-<note># todo .3.8.14: 第8段落</note>
 <note># todo .3.8.15: 第9段落</note>
 <note># todo .3.8.16: 例文8.6</note>
 <note># todo .3.8.17: 第10段落</note>
@@ -2606,10 +2603,11 @@ we do not wish to refer to an old quotation!
 <note># note: 上の訳はより流暢な日本語に意訳する必要がある</note>
 
 <paragraph>
-しかし、時には、もっと複雑な&sumti;の全体に&apply3;るようにすることが大切になる<!--
--->こともある。&logical;または&non_logical;&connection;に&involve;まれた&sumti;<!--
--->(<ln><name>Chapter 14</name><address>./chapter14.html</address></ln><!--
--->で説明する)である。例えば、
+ここで、&relative;&clause;が複雑な&sumti;の全体を<!--
+-->&apply4;する必要がある場合について考えてみよう。<!--
+-->&logical;または&non_logical;&connection;を&involve2;む&sumti;<!--
+-->である(<ln><name>Chapter 14</name><address>./chapter14.html</address></ln><!--
+-->参照)。以下の例を見てみよう。
 <en>
 Sometimes, however, it is important to make a relative clause apply to
 the whole of a more complex sumti,
@@ -2619,7 +2617,15 @@ For example,
 </en>
 </paragraph>
 
-<!-- here#1 -->
+<note># note: however はこの場合、日本語の「しかし」と訳すのは適切ではない<!--
+-->ように思う。「今までは単純なスムティについて話してきたが」というニュアンス<!--
+-->があるのだろうが、ここでは「一方」という意味で訳しておいたほうが良いかも。<!--
+-->とりあえずは「ここで、...について考えてみよう」と訳しておいたが</note>
+<note># note: it is important to make a relative clause apply to the whole of
+a more complex sumti,
+の意味はだいたい「&sumti;全体にかかるということが意味の違いに大きく関わる」<!--
+-->といったニュアンスだと思うが、適切な日本語が見つからないため、<!--
+-->ニュアンスの違いはあるものの「が必要となることがある」と訳した。</note>
 
 <example><ex_no>8.5</ex_no>
 <lojban>la frank. .e la djordj. noi nanmu cu klama le zdani</lojban>
@@ -2632,11 +2638,10 @@ Frank and George, who is a man, go to the house.
 
 <paragraph>
 <ln><name>例文 8.5</name><address>#ex8.5</address></ln>の<!--
--->&incidental;的な&claim;はフランクとジョージの両方が男であることを<!--
--->言っていない。ただジョージが男であると言っているだけだ。<!--
--->何故なら、&incidental;&relative;&clause;は&immediately_preceding;<!--
--->単純な&sumti; "la djordj" にだけ&attach;られて<!--
--->いるからだ。
+-->&incidental;的な&claim2;ではフランクとジョージの両方が男であることを<!--
+-->表せない。ジョージが男であるというだけの意味になる。<!--
+-->&incidental;&relative;&clause;が&immediately_preceding;<!--
+-->単純な&sumti; "la djordj" にだけ&attach_to4;るからだ。
 <en>
 The incidental claim in <ln><name>Example 8.5</name><address>#ex8.5</address></ln>
 is not that Frank and George are men, but only that George is a man,
@@ -2662,6 +2667,8 @@ preceding sumti,
 including however many logical or non-logical connectives there may be.
 </en>
 </paragraph>
+
+<!-- here#1 -->
 
 <example><ex_no>8.6</ex_no>
 <lojban>la frank. .e la djordj. vu'o noi nanmu cu klama le zdani</lojban>
