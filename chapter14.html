@@ -713,6 +713,229 @@ jek と同様、guhek は何もないタンルのまとめあげよりも結び�
 としてしまいたくなりそうである。しかし、例12.14 が意味するのは、男でありかつ同時に女であもある一つの何かを見たという意味である。“nanmu je ninmu”は「オトコオンナ」、つまり、“nanmu”でありかつ “ninmu”であるというおそらく存在しない生物である。
 <hr />
 
+<h3>13. 真偽疑問文と接続疑問文</h3>
+
+<p>これまでは平叙文のみを扱ってきたが、ロジバンでは、自然言語と同様、疑問文を扱う必要がある。質問をする言い方はいくつもあるが、量や時制、感情などを尋ねる言い方は他の章にゆずる。</p>
+<p>最も単純な形は、「...というのは真か」という形のもので、これは「真偽疑問文」と呼ばれ、日本語では以下のようになる。</p>
+<pre>
+<a id="e1" name="e1">13.1)</a>  ファイドが犬であるというのは真ですか。
+       ファイドは犬ですか。
+</pre>
+真偽疑問文は、「...というのは真か」（英語：Is it true that ...）というのを文の最後につけると作れる。日本語では、実際には、「か」を文末に付けるだけで、より慣例的な疑問を表す言い方ができる。ロジバンでは、このしくみは、シマヴォ “xu” （セルマホ UI）を文頭につけることである：
+
+<pre>
+<a id="e2" name="e2">13.2)</a>  xu la faidon. gerku
+       というのは真か ファイド 犬である
+</pre>
+例13.1 と 13.2 の意味は同じである。
+<p>真偽疑問文は、真ならば「はい」、偽であれば「いいえ」でそれぞれ答えられる。ロジバンで「はい」を言う標準的な言い方は“go'i”、 「いいえ」を言うのは“nago'i”である。(理由は7章を参照) 例13.2 への可能な返答には、以下のものがある。</p>
+<pre>
+<a id="e3" name="e3">13.3)</a>  go'i
+       ファイドは犬だ。
+</pre>
+and
+<pre>
+<a id="e4" name="e4">13.4)</a>  nago'i
+       ファイドは犬ではない。
+</pre>
+<p>英語の文には、見た目が真偽疑問文に似たものがある。例えば、</p>
+<pre>
+<a id="e5" name="e5">13.5)</a>  Is Fido a dog or a cat?
+</pre>
+表層的には、例13.5 は、以下の平叙文を持つ真偽疑問文のように見える：
+<pre>
+<a id="e6" name="e6">13.6)</a>  Fido is a dog or a cat.
+</pre>
+例13.6を真偽疑問文の“xu”を使って翻訳すると、以下のようになる。
+<pre>
+<a id="e7" name="e7">13.7)</a>  xu la faidon. gerku gi'onai mlatu
+       というのは真か ファイド 犬である もしくは 猫である (しかし両方ではない)?
+</pre>
+ファイドが本当に犬もしくは猫であるなら、正しい返答は “go'i” である。もしファイドが魚ならば、正しい返答は “nago'i”となろう。
+<p>しかし、これは例13.5 を発話した人が聞きたいことではない。例13.5の真に意味することは、話者は、内在する2つのブリディのどちらかの真偽値を知りたいということである（どちらか片方だけが真であるという仮定のもとで。）</p>
+<p>ロジバンには、英語で使われているのとは異なが、このような質問を作るためのエレガントな仕組みがある。ロジバンでは、ブリディの真偽値を聞く代わりに、それらを接続している真偽関数そのものを聞く。これは、各論理接続セルマホに対して、１つずつ特別な質問シマヴォが割り当てられている：</p>
+<pre>
+    ge'i    GA         前置接続疑問
+    gi'i    GIhA       ブリディ末端接続疑問
+    gu'i    GUhA       タンル前置接続疑問
+    je'i    JA         タンル接続疑問
+    ji      A          スムティ接続疑問
+</pre>
+(このリストでは、論理接続シマヴォの規則性から残念なことに外れてしまっている。音節を2つ持つセルマホの GIhA and GUhA では、真偽関数では使われない “-i”で終わるシマヴォになっているが、“gi” と “.i” は使えないため、違うシマヴォを選ばざるを得ない。)
+<p>例13.5 を正しく翻訳するには、gihek の疑問詞を使うことになる：</p>
+<pre>
+<a id="e8" name="e8">13.8)</a>  la .alis gerku gi'i mlatu
+       アリス 犬である [真偽関数?] 猫である？
+</pre>
+これに対する有りえる返答は、
+<pre>
+<a id="e9" name="e9">13.9)</a> nagi'e
+       アリスは犬ではなく、猫である。
+
+<a id="e10" name="e10">13.10)</a> gi'enai
+       アリスは犬であり、猫ではない。
+
+<a id="e11" name="e11">13.11)</a> nagi'enai
+       アリスは犬ではなく、猫でもない。
+
+<a id="e12" name="e12">13.12)</a> nagi'o
+       gi'onai
+       アリスは犬であるか、もしくは猫であるが、両方ではない。(どちらかとは言っていない)
+</pre>
+例13.12 は正しいが、協力的ではない。
+<p>いつものように、ロジバンの質問文は、疑問詞によって示された空欄を埋める形で答えることができる。ここで、空欄は論理接続詞であり、単に論理接続詞を発話するだけでも文法的である。</p>
+<p>アリスが犬でもあり猫でもあるという “gi'e” は現実世界では不可能であるが、以下のような例：</p>
+<pre>
+<a id="e13" name="e13">13.13)</a> do djica tu'a loi ckafi
+            ji loi tcati
+       あなた 欲しい ～について何か ～のまとまり コーヒー
+            [真偽関数？] ～のまとまり お茶
+       コーヒーか紅茶はいかがですか。
+</pre>
+ここで “.e” と答えた場合、つまり、両方欲しいと言うのは完全に有りえることである（が、あまり礼儀正しくはないかもしれない）
+<p>前置疑問詞の “ge'i” と “gu'i” も他と同様に使えるが、曖昧性があるため前置疑問詞だけを答えとして単体で答えることはできない。前置で接続されたブリディが始まるように聞こえてしまうのである。そのため、例13.14は例13.13の前置バージョンであるが、</p>
+<pre>
+<a id="e14" name="e14">13.14)</a> do djica tu'a
+            ge'i loi ckafi
+            gi loi tcati
+       あなた 欲しい ～について何か
+            [真偽関数?] ～のまとまり コーヒー
+            [もしくは] ～のまとまり お茶
+</pre>
+答えは後置のかたちを使わなければならない。
+<p>自然言語の中には、中国語のように、ロジバンのような形の接続疑問文を使うものがある。以下の中国語の文</p>
+<pre>
+<a id="e15" name="e15">13.15)</a> 你走还是跑 (ni<sup>3</sup> zou<sup>3</sup> hai<sup>2</sup>shi pao<sup>3</sup>)
+       あなた 歩く [もしくは？] 走る？
+</pre>
+は、 “あなたは歩きますか、それとも走りますか”であり、ロジバンの以下の文とちょうど対応している：
+<pre>
+<a id="e16" name="e16">13.16)</a> do cadzu gi'i bajra
+       あなた 歩く [もしくは？] 走る？
+</pre>
+しかし、中国語でも答えるのに論理接続詞を使うわけではないため、ここでの類似性は表面的なものである。
+<p>真偽疑問文は、ブリディ接続に対しても使える。この文の形は完全に文法的であり、答えが「はい」ならば真、「いいえ」ならば偽として解釈される。同様に命令文 (「あなた」を意味するが、文を命令形にする特別な代スムティ “ko”を使った場合)は、その命令に従ったのであれば真、そうでなければ偽となる。アブラハム・リンカーンの依頼は、以下のようになる</p>
+<pre>
+<a id="e17" name="e17">13.17)</a> ganai ti ckafi gi ko bevri loi tcati mi
+       .ije ganai ti tcati gi ko bevri loi ckafi mi
+       もし これ コーヒーである ならば [あなた!] 運ぶ ～のまとまり 紅茶 私に
+       そして もし これ 紅茶である ならば [あなた!] 運ぶ ～のまとまり コーヒー 私に
+       これがコーヒーなら、紅茶を持って来ておくれ。ただし、これが紅茶なら、コーヒーを。
+</pre>
+（※訳注：この言葉は、リンカーンがあまりにも薄くてまずい、コーヒーだか紅茶だか分からないものを出された時に言った言葉であるそうだ。）
+
+論理的にいえば、「ただし」“but”は、“and”と同じであり、違いは前の文との違和感、相違のようなものである。ロジバンでは、この違いを、談話シマヴォ“ku'i” (セルマホ UI, 13章で解説)を、論理接続詞 “.ije” に追加することにより表現する。
+
+<hr />
+<h3>14. 非論理接続</h3>
+<p>1節で、“and”（そして）、や、“もし...なら...” が必ずしもロジバンの論理接続を表現するわけではないことを説明した。特に、以下の “and” （と）を考えてみよう：</p>
+<pre>
+<a id="e1" name="e1">14.1)</a>  John and Alice carried the piano.（ジョンとアリスがピアノを運んだ）
+</pre>
+ピアノの性質を考えると、これはおそらくジョンが片方を持ち、アリスがもう片方を持って運んだということであり、以下とは違うことになる：
+<pre>
+<a id="e2" name="e2">14.2)</a>  John carried the piano, and Alice carried the piano.（ジョンはピアノを運んだ。アリスもピアノを運んだ。）
+</pre>
+これは、彼らがそれぞれピアノを運んだということになる。ロジバンでは、この特定の「群」という言語現象を扱うことができる。ジョンとアリスが一緒に群「ジョン＆アリス」を成し、別々にではなく、その群がピアノを運んだということになる。シマヴォ“joi” (セルマホ JOI) が、複数の構成要素を群にまとめる役割を果たす。
+<pre>
+<a id="e3" name="e3">14.3)</a>  la djan. joi la .alis. cu bevri le pipno
+    ジョン [群] アリス 運ぶ その ピアノ
+</pre>
+<p>例14.3 は、二人が協力して運んだことを意味している。もしかしたら、ジョンが運搬を、アリスがその監督をしたのかもしれない。このような可能性は、群の性質はその構成要素の性質であるという性質に起因している。これは、明らかに矛盾を引き起こす可能性がある。もしジョンが小さくアリスが大きければ、「ジョン＆アリス」小さくかつ大きいということになる。群については6章でも議論されている。</p>
+
+<p>文法的には、“joi” は、ek と同様に2つのスムティの間か、jek と同様に2つのタンル要素の間に使うことができる。この柔軟性のせいで、時々終端詞を省略できないという代償を払わなければならない。</p>
+<pre>
+<a id="e4" name="e4">14.4)</a>  le nanmu ku joi le ninmu [ku] cu klama le zarci
+       その男 [群] その 女性 行く その 市場へ
+</pre>
+<p>シマヴォ “ku” は “le”の省略可能な終端詞であり、ほとんどの場合で省略可能であるが、この場合はそれができない。もし最初の “ku” を省略すると、構文解析ルールが “le nanmu joi” を最初に受け取り、他のタンル要素が次に来ると予測してしまう。2つ目の “le” はタンルの要素になり得ないため、構文解析エラーが起こる。論理接続詞では、ek はスムティ、jek はタンル要素が来ることを明確に区別するため、このような問題は起こらない。</p>
+<p>Single or compound cmavo involving members of selma'o JOI are called joiks, by analogy with the names for logical connectives. It is not grammatical to use joiks to connect bridi-tails.</p>
+<p>In tanru, “joi” has the connotation “mixed with”, as in the following example:</p>
+<pre>
+<a id="e5" name="e5">14.5)</a>  ti blanu joi xunre bolci
+       This is-a-(blue mixed-with red) ball.
+       This is a blue and red ball.
+</pre>
+Here the ball is neither wholly blue nor wholly red, but partly blue and partly red. Its blue/redness is a mass property. (Just how blue something has to be to count as “wholly blue” is an unsettled question, though. A “blanu zdani” may be so even though not every part of it is blue.)
+<p>There are several other cmavo in selma'o JOI which can be used in the same grammatical constructions. Not all of them are well-defined as yet in all contexts. All have clear definitions as sumti connectives; those definitions are shown in the following table:</p>
+<pre>
+    A joi B     the mass with components A and B
+    A ce B      the set with elements A and B
+    A ce'o B    the sequence with elements A and B in order
+    A sece'o B  the sequence with elements B and A in order
+    A jo'u B    A and B considered jointly
+    A fa'u B    A and B respectively
+    A sefa'u B  B and A respectively
+    A jo'e B    the union of sets A and B
+    A ku'a B    the intersection of sets A and B
+    A pi'u B    the cross product of sets A and B
+    A sepi'u B  the cross product of sets B and A
+</pre>
+<p>The cmavo “se” is grammatical before any JOI cmavo, but only useful with those that have inherent order. Here are some examples of joiks:</p>
+<pre>
+<a id="e6" name="e6">14.6)</a>  mi cuxna la .alis. la frank. ce la .alis. ce la djeimyz.
+       I choose Alice from Frank and-member Alice and-member James.
+       I choose Alice from among Frank, Alice, and James.
+</pre>
+The x3 place of “cuxna” is a set from which the choice is being made. A set is an abstract object which is determined by specifying its members. Unlike those of a mass, the properties of a set are unrelated to its members’ properties: the set of all rats is large (since many rats exist), but the rats themselves are small. This chapter does not attempt to explain set theory (the mathematical study of sets) in detail: explaining propositional logic is quite enough for one chapter!
+<p>In <a href="../14/#e6">Example 14.6</a> we specify that set by listing the members with “ce” joining them.</p>
+<pre>
+<a id="e7" name="e7">14.7)</a>  ti liste mi ce'o do ce'o la djan.
+       This is-a-list-of me and-sequence you and-sequence John.
+       This is a list of you, me, and John.
+</pre>
+The x2 place of “liste” is a sequence of the things which are mentioned in the list. (It is worth pointing out that “lo liste” means a physical object such as a grocery list: a purely abstract list is “lo porsi”, a sequence.) Here the three sumti connected by “ce'o” are in a definite order, not just lumped together in a set or a mass.
+<p>So “joi”, “ce”, and “ce'o” are parallel, in that the sumti connected are taken to be individuals, and the result is something else: a mass, a set, or a sequence respectively. The cmavo “jo'u” serves as a fourth element in this pattern: the sumti connected are individuals, and the result is still individuals — but inseparably so. The normal Lojban way of saying that James and George are brothers is:</p>
+<pre>
+<a id="e8" name="e8">14.8)</a>  la djeimyz. bruna la djordj.
+       James is-the-brother-of George.
+</pre>
+possibly adding a discursive element meaning “and vice versa”. However, “James and George are brothers” cannot be correctly translated as:
+<pre>
+<a id="e9" name="e9">14.9)</a>  la djeimyz. .e la djordj. bruna
+       James and George is-a-brother.
+</pre>
+since that expands to two bridi and means that James is a brother and so is George, but not necessarily of each other. If the “.e” is changed to “jo'u”, however, the meaning of <a href="../14/#e8">Example 14.8</a> is preserved:
+<pre>
+<a id="e10" name="e10">14.10)</a> la djeimyz. jo'u la djordj. cu remei bruna
+       James in-common-with George are-a-twosome type-of-brothers.
+</pre>
+The tanru “remei bruna” is not strictly necessary in this sentence, but is used to make clear that we are not saying that James and George are both brothers of some third person not specified. Alternatively, we could turn the tanru around: the x1 place of “remei” is a mass with two components, leading to:
+<pre>
+<a id="e11" name="e11">14.11)</a> la djeimyz. joi la djordj. cu bruna remei
+       James massed-with George are-a-brother type-of-twosome.
+</pre>
+where “joi” is used to create the necessary mass.
+<p>Likewise, “fa'u” can be used to put two individuals together where order matters. Typically, there will be another “fa'u” somewhere else in the same bridi:</p>
+<pre>
+<a id="e12" name="e12">14.12)</a> la djeimyz. fa'u la djordj. prami la meris. fa'u la martas.
+       James jointly-in-order-with George loves Mary jointly-in-order-with Martha.
+       James and George love Mary and Martha, respectively.
+</pre>
+Here the information carried by the English adverb “respectively”, namely that James loves Mary and George loves Martha, is divided between the two occurrences of “fa'u”. If both uses of “fa'u” were to be changed to “.e”, we would get:
+<pre>
+<a id="e13" name="e13">14.13)</a> la djeimyz. .e la djordj. prami la meris. .e la martas.
+       James and George love Mary and Martha.
+</pre>
+which can be transformed to four bridi:
+<pre>
+<a id="e14" name="e14">14.14)</a> la djeimyz. prami la meris. .ije la djordj. prami la meris.
+            .ije la djeimyz. prami la martas. .ije la djordj. prami la martas.
+       James loves Mary, and George loves Mary,
+            and James loves Martha, and George loves Martha.
+</pre>
+which represents quite a different state of affairs from <a href="../14/#e12">Example 14.12</a>. The meaning of <a href="../14/#e12">Example 14.12</a> can also be conveyed by a termset:
+<pre>
+<a id="e15" name="e15">14.15)</a> la djeimyz. ce'e la meris. pe'e .e la djordj. ce'e la martas. prami
+    James [plus] Mary [joint] and George [plus] Martha loves.
+</pre>
+at the expense of re-ordering the list of names so as to make the pairs explicit. This option is not available when one of the lists is only described rather than enumerated:
+<pre>
+<a id="e16" name="e16">14.16)</a> la djeimyz. fa'u la djordj. prami re mensi
+    James and-respectively George love two sisters.
+</pre>
+which conveys that James loves one sister and George the other, though we are not able to tell which of the sisters is which.
+<hr />
 
 <div class="nav">
 <div class="nav-prev">
