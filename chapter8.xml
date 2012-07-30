@@ -25,13 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
-<note># todo .3.8.15: 第9段落</note>
-<note># todo .3.8.16: 例文8.6</note>
-<note># todo .3.8.17: 第10段落</note>
-<note># todo .3.8.18: 第11段落</note>
-<note># todo .3.8.19: 例文8.7</note>
-<note># todo .3.8.20: 例文8.8</note>
-<note># todo .3.8.21: 第12段落</note>
 <note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
 <note># todo .3.10: 10. &relative;&clause;のなかの&relative;&clause;</note>
 <note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
@@ -2652,11 +2645,12 @@ the immedeately preceding simple sumti.
 
 <paragraph>
 <ln><name>例文 8.5</name><address>#ex8.5</address></ln>で&logically;&connected;<!--
--->&sumti;の両方の部分に&relative;&clause;を&attach;るには、<!--
--->新しく紹介する&cmavo;である(&selma_o; VUhO に属する) "vu'o" が必要だ。<!--
--->これは&sumti;と&relative;&clause;の間に位置し、<!--
--->たとえたくさんの&logical;または&non_logical;&connective2;を含んでいたとしても、<!--
--->&relative;&clause;の影響の範囲を&preceding;&sumti;全体へと広げる。
+-->&sumti;の両方に&relative;&clause;が&attach_to4;るようにするには、<!--
+-->新しく紹介する&cmavo;である(&selma_o; VUhO に属する) "vu'o" を使う。<!--
+-->これは&sumti;と&relative;&clause;の&between;に置かれ、<!--
+-->たとえその&sumti;がたくさんの&logical;または&non_logical;&connective2;を<!--
+-->含んでいたとしても、<!--
+-->&relative;&clause;の影響の範囲を&preceding;&sumti;全体へと広げる働きを持つ。
 <en>
 To make a relative clause attach to both parts of the logically connected sumti
 in <ln><name>Example 8.5</name><address>#ex8.5</address></ln>,
@@ -2668,11 +2662,12 @@ including however many logical or non-logical connectives there may be.
 </en>
 </paragraph>
 
-<!-- here#1 -->
+<note># note: 上訳はこなれていない、より意訳的に訳する必要がある</note>
 
 <example><ex_no>8.6</ex_no>
-<lojban>la frank. .e la djordj. vu'o noi nanmu cu klama le zdani</lojban>
-<japanese>フランクとジョージは、彼らは男だが、家へ行く。</japanese>
+<lojban>la frank. .e la djordj. vu'o noi nanmu cu
+klama le zdani</lojban>
+<japanese>フランクとジョージ、彼らは男だが、は家へ行く。</japanese>
 <en>
 Frank and George incidentally-who are-men go to-the house.
 Frank and George, who are men, go to the house.
@@ -2680,9 +2675,10 @@ Frank and George, who are men, go to the house.
 </example>
 
 <paragraph>
-ここで "vu'o" が存在することによって&relative;&clause; "noi nanmu" は<!--
--->&logically;&connected;&sumti; "la frank. .e la djordj." 全体に広げられる。<!--
--->つまり、意訳に見るようにフランクとジョージの両方が男であると&claim;されている。
+この例文では "vu'o" があることによって&relative;&clause; "noi nanmu" は<!--
+-->&logically;&connected;&sumti; "la frank. .e la djordj."
+全体に係るようになる。<!--
+-->つまり、意訳に見るようにフランクとジョージの両方が男であることを表している。
 <en>
 The presence of ``vu'o" here means that the relative clause ``noi nanmu"
 extends to the entire logically connected sumti ``la frank. .e la djordj.";
@@ -2690,6 +2686,8 @@ in other words, both Frank and George are claimed to be men,
 as the colloquial translation shows.
 </en>
 </paragraph>
+
+<delete>
 
 <paragraph>
 数の違いを利用し "who is" の代わりに "who are" を使うことで、<!--
@@ -2715,6 +2713,8 @@ if ``nanmu" (meaning ``is-a-man") were replaced with ``pu bajra" (``ran"),
 English would have to make the distinction some other way:
 </en>
 </paragraph>
+
+<!-- here#1 -->
 
 <example><ex_no>8.7</ex_no>
 <lojban>la frank. .e la djordj. noi pu bajra
@@ -2744,6 +2744,8 @@ In spoken English, tone of voice would serve;
 in written English, one or both sentences would need rewriting.
 </en>
 </paragraph>
+
+</delete>
 
 </section_contents>
 </section>
