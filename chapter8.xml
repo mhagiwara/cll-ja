@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 17% くらい翻訳</note>
+<note># 18% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳である。全体の訳ができたので訳の修正中</note>
@@ -25,7 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
-<note># todo .3.9: 9. &vocative_phrase;のなかの&relative;&phrase;</note>
 <note># todo .3.10: 10. &relative;&clause;のなかの&relative;&clause;</note>
 <note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
 <note># todo 2: 2回目の訳の見直し</note>
@@ -2714,8 +2713,6 @@ English would have to make the distinction some other way:
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <example><ex_no>8.7</ex_no>
 <lojban>la frank. .e la djordj. noi pu bajra
 cu klama le zdani</lojban>
@@ -2757,14 +2754,13 @@ in written English, one or both sentences would need rewriting.
 <section_contents>
 
 <paragraph>
-&vocative_phrase;はより詳細には<!--
---><ln><name>第6章</name><address>./chapter6.html</address></ln>で<!--
--->説明した。<!--
--->簡単に言うと、文や談話が向けられている人を示す、<!--
--->つまり意図している&listener;を決める方法である。<!--
--->それらには3つの大まかな形があるが、どれも&selma_o; COI または DOI <!--
--->(これらは&vocative_word;と呼ばれ、ひとつまたは複数あって良い)で始まり、<!--
--->名前、&selbri;、または&sumti;が続く。3つ例文を挙げる。
+詳しくは<ln><name>第6章</name><address>./chapter6.html</address></ln>で<!--
+-->説明するが、<!--
+-->呼応句は文や談話が誰に対して話されているか、<!--
+-->誰を&listener;とするかを決めるために使われる。<!--
+-->おおまかにわけて3つの形があるが、どれも&selma_o; COI または DOI <!--
+-->(これらは&vocative_word;と呼ばれ、ひとつでも複数でもいい)で始まり、<!--
+-->名前、&selbri;、または&sumti;が続く。以下に3つの例文を挙げる。
 <en>
 Vocative phrases are explained in more detail in
 <ln><name>Chapter 6</name><address>./chapter6.html</address></ln>.
@@ -2780,7 +2776,7 @@ Here are three examples:
 
 <example><ex_no>9.1</ex_no>
 <lojban>coi. frank.</lojban>
-<japanese>今日は、フランク。</japanese>
+<japanese>こんにちは、フランク。</japanese>
 <en>
 Hello, Frank.
 </en>
@@ -2804,15 +2800,16 @@ Welcome, Frank and George!
 
 <paragraph>
 <ln><name>例文 9.2</name><address>#ex9.2</address></ln><!--
--->では必ずしも実際には馬ではないかもしれないものに別れを告げていること<!--
+-->で別れを告げているものが実際には馬ではないかもしれないということ<!--
 -->に注意してほしい。<!--
--->単に&speaker;が馬だと思っているものか、さらに言えば「馬」という名前の<!--
--->何か(例えば人)でも良い。<!--
--->ある意味では、<ln><name>例文 9.2</name><address>#ex9.2</address></ln>には<!--
--->"co'o le xirma" と "co'o la xirma" との間での曖昧さがあるということだ。<!--
--->これは比較的安全な意味論的な曖昧さである。<!--
--->何故なら名前にはより一般的な曖昧さがあるからだ。<!--
--->つまり、「ジョージ」はたくさんいるジョージの間での区別はしていないということだ。
+-->&speaker;が馬だと思っているだけのものかもしれないし、<!--
+-->もっと言えば「馬」という名前の何か(たとえば人)かもしれない。<!--
+-->つまり、<ln><name>例文 9.2</name><address>#ex9.2</address></ln>には<!--
+-->"co'o le xirma" と "co'o la xirma" との&between;での曖昧さがあるということだ。<!--
+-->これは比較的問題のない意味論的な曖昧さである。<!--
+-->なぜなら名前というもの全般に曖昧さがあるからだ。<!--
+-->たとえば「ジョージ」と言った場合、<!--
+-->たくさんいるジョージのそれぞれを区別することはできないだろう。
 <en>
 Note that <ln><name>Example 9.2</name><address>#ex9.2</address></ln>
 says farewell to something which doesn't really have to be a horse,
@@ -2827,26 +2824,36 @@ between the possible Georges.
 </en>
 </paragraph>
 
+<note># note: in a sense を「つまり」と訳してみた。<!--
+-->本当は「ある意味」という意味なのかもしれないが「ある意味」が何を意味するのか、<!--
+-->よく考えてみるとよくわからないところがある。<!--
+-->何らかの譲歩なのだろうけど</note>
+<note># note: in general を「というもの全般に」と訳したが訳が固い。<!--
+-->訳出しなくてもいいかも</note>
+
 <paragraph>
-<ln><name>例文 9.1</name><address>#ex9.1</address></ln>と似た例文として、
-<en>Similarly, <ln><name>Example 9.1</name><address>#ex9.1</address></ln></en>
+同様に<!--
+--><ln><name>例文 9.1</name><address>#ex9.1</address></ln>は以下の例文の<!--
+-->省略形と考えることができる。
+<en>Similarly, <ln><name>Example 9.1</name><address>#ex9.1</address></ln>
+can be thought of as an abbreviation of:</en>
 </paragraph>
 
 <example><ex_no>9.4</ex_no>
 <lojban>coi la frank.</lojban>
-<japanese>今日は、フランク(という名前の人)。</japanese>
+<japanese>こんにちは、フランク(という名前の人)。</japanese>
 <en>
 Hello, the-one-named ``Frank".
 </en>
 </example>
 
 <paragraph>
-文法的には、&vocative;&phrase;は&free;&modifier2;の一種であり、<!--
--->&lojban;の文章の多くの場所に現れることができるが、<!--
--->たいていは完全な構造の最初か最後に置かれか、<!--
--->または、<ln><name>例文 9.1</name><address>#ex9.1</address></ln>から<!--
+文法的には、&vocative_phrase;は&free;&modifier2;のひとつであり、<!--
+-->&lojban;の文章のいろいろな場所に置くことができるが、<!--
+-->たいていは完全な構造の最初か最後に置かれる。<!--
+-->あるいは、<ln><name>例文 9.1</name><address>#ex9.1</address></ln>から<!--
 --><ln><name>例文 9.3</name><address>#ex9.3</address></ln>までのように<!--
--->それ自体で文となるか、だ。
+-->それだけで文となる。
 <en>
 Syntactically, vocative phrases are a kind of free modifier,
 and can appear in many places in Lojban text,
@@ -2857,12 +2864,17 @@ as sentences by themselves.
 </en>
 </paragraph>
 
+<note># note: some complete construct を「完全な構造」と訳したが、<!--
+-->何を指すのかはよくわからない。<!--
+-->some とついていることだし、何となく曖昧な意味で意っているのかもしれない</note>
+
 <paragraph>
-見てわかるように、&vocative_phrase;の形は&sumti;の形に似ていて、<!--
--->多分あなたの期待通りであるだろうが、<!--
--->&vocative_phrase;は色々な位置に&relative;&clause;を置くことができる。<!--
+&vocative_phrase;は形が&sumti;に似ているのがわかるだろう。<!--
+多分あなたの期待通りであるだろうが、
+-->&vocative_phrase;は&sumti;と同じようにいろいろな場所に<!--
+-->&relative;&clause;を置くことができる。<!--
 -->(&vocative_word;に続く)単純な名前であるような&vocative_phrase;のなかでは<!--
--->あらゆる&relative;&clause;がその名前の直後に来られる。
+-->&relative;&clause;はその名前の直後に置く必要がある。
 <en>
 As can be seen, the form of vocative phrases is similar to that of sumti,
 and as you might expect, vocative phrases allow relative clauses in various places.
@@ -2871,9 +2883,14 @@ any relative clauses must come just after the names:
 </en>
 </paragraph>
 
+<note># note: as can be seen を「...のがわかるだろう」と訳してみた</note>
+<note># note: as you might expect は「おわかりのように」といった意味だろう。<!--
+-->ここでは訳出しない</note>
+<note># note: any relative clauses must come ... の any は訳出しなかった</note>
+
 <example><ex_no>9.5</ex_no>
 <lojban>coi. frank. poi xunre se bende</lojban>
-<japanese>今日は、赤チームのフランク。</japanese>
+<japanese>こんにちは、赤チームのフランク。</japanese>
 <en>
 Hello, Frank who is-a-red team-member
 Hello, Frank from the Red Team!
@@ -2882,9 +2899,9 @@ Hello, Frank from the Red Team!
 
 <paragraph>
 <ln><name>例文 9.5</name><address>#en9.5</address></ln>では、<!--
--->&restrictive;&relative;&clause;が(もしかしたら緑チームの)<!--
--->&speaker;が挨拶しているこのフランクがそれとは区別される必要のある<!--
--->別のフランクが存在することを&suggest;している。
+-->&restrictive;&relative;&clause;が<!--
+-->&speaker;が挨拶しているフランクとは区別しなければならない<!--
+-->(たとえば緑チーム所属の)別のフランクがいることを&suggest2;している。
 <en>
 The restrictive relative clause in
 <ln><name>Example 9.5</name><address>#en9.5</address></ln>
@@ -2894,10 +2911,12 @@ the one the speaker is greeting, must be distinguished.
 </en>
 </paragraph>
 
+<!-- here#1 -->
+
 <paragraph>
 &selbri;を含む&vocative_phrase;は<!--
--->&relative;&clause;を前にも後にも置くことができ、両者で意味は変わらない。<!--
--->以下に例文を示す。
+-->&relative;&clause;をまえにもあとにも置くことができ、<!--
+-->どちらでも同じ意味になる。以下に例文を示す。
 <en>
 A vocative phrase containing a selbri can have relative clauses either
 before or after the selbri;
@@ -2925,15 +2944,17 @@ Goodbye, horse such-that (I am-at-it).
 
 <paragraph>
 <ln><name>例文 9.6</name><address>#ex9.6</address></ln>と<!--
---><ln><name>例文 9.7</name><address>#ex9.7</address></ln>とは<!--
--->同じことを意味している。<!--
--->実のところ、&relative;&clause;は両方の場所に現れても良い。
+--><ln><name>例文 9.7</name><address>#ex9.7</address></ln>の<!--
+-->意味は同じである。<!--
+-->さらに、&relative;&clause;はまえとうしろの両方に置くことができる。
 <en>
 <ln><name>Example 9.6</name><address>#ex9.6</address></ln> and
 <ln><name>Example 9.7</name><address>#ex9.7</address></ln> mean the same thing.
 In fact, relative clauses can appear in both places.
 </en>
 </paragraph>
+
+<note># note: in fact をとりあえずは「さらに」と訳しておいた</note>
 
 </section_contents>
 </section>
