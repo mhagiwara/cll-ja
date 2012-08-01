@@ -16,16 +16,22 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 18% くらい翻訳</note>
+<note># 19% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># とりあえずの訳である。全体の訳ができたので訳の修正中</note>
 <note># todo .3: 各節の見直し(1回目)、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
 -->まだ直訳的でも良い</note>
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
-<note># todo .3.8: 8. &relative;&clause;と複雑な&sumti;: "vu'o"</note>
 <!-- here#1 -->
 <note># todo .3.10: 10. &relative;&clause;のなかの&relative;&clause;</note>
+<note># todo .3.10.2: 例文10.1</note>
+<note># todo .3.10.3: 第2段落</note>
+<note># todo .3.10.4: 例文10.2</note>
+<note># todo .3.10.5: 第3段落</note>
+<note># todo .3.10.6: 第4段落</note>
+<note># todo .3.10.7: 例文10.3</note>
+<note># todo .3.10.8: 第5段落</note>
 <note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
 <note># todo 2: 2回目の訳の見直し</note>
 </prenotes>
@@ -2911,8 +2917,6 @@ the one the speaker is greeting, must be distinguished.
 </en>
 </paragraph>
 
-<!-- here#1 -->
-
 <paragraph>
 &selbri;を含む&vocative_phrase;は<!--
 -->&relative;&clause;をまえにもあとにも置くことができ、<!--
@@ -2942,6 +2946,9 @@ Goodbye, horse such-that (I am-at-it).
 </en>
 </example>
 
+<note># note: 例文9.6, 9.7 の訳は直す必要がある。<!--
+-->「私が乗っている馬」として良いだろうか</note>
+
 <paragraph>
 <ln><name>例文 9.6</name><address>#ex9.6</address></ln>と<!--
 --><ln><name>例文 9.7</name><address>#ex9.7</address></ln>の<!--
@@ -2965,9 +2972,9 @@ In fact, relative clauses can appear in both places.
 <section_contents>
 
 <paragraph>
-たいていにおいて、以下は容易で単純だ。<!--
--->&relative;&clause;の&bridi;の一部である&sumti;は<!--
--->それ自身&relative;&clause;に&modify2;されてもよい。
+&relative;&clause;の&bridi;のなかの&sumti;を<!--
+-->別の&relative;&clause;で&modify2;することができるのだが、<!--
+-->だいたいにおいて問題はないだろう。
 <en>
 For the most part, these are straightforward and uncomplicated:
 a sumti that is part of a relative clause bridi may itself be modified by
@@ -2982,6 +2989,8 @@ a relative clause:
 The person who is-in the room which is-blue is-slow.
 </en>
 </example>
+
+<!-- here#1 -->
 
 <paragraph>
 しかし、&relative;&clause;のなかの&relative;&clause;のなかで
