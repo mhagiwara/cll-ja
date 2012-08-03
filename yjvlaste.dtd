@@ -53,7 +53,7 @@
 	<!ENTITY claim "主張">
 	<!ENTITY claim2 "説明">
 	<!ENTITY clause "節">
-	<!ENTITY clearly "明らかに">
+	<!ENTITY clearly "明らか">
 	<!ENTITY closely "強く">
 	<!ENTITY cmavo "シマヴォ">
 	<!ENTITY common "一般的">
@@ -130,6 +130,7 @@
 	<!ENTITY group_v "まとめる">
 	<!ENTITY grouping "グループ化">
 	<!ENTITY helpful "役に立">
+	<!ENTITY helpful2 "役には立">
 	<!ENTITY identification "同一">
 	<!ENTITY identify "決め">
 	<!ENTITY immediately_follow "が直後に続">
@@ -149,7 +150,7 @@
 	<!ENTITY information "情報">
 	<!ENTITY inner_quantifier "内部数量詞">
 	<!ENTITY inner_sumti "内部のスムティ">
-	<!ENTITY in_principle "原則として">
+	<!ENTITY in_principle "原則にしたがえば">
 	<!ENTITY insert "挿入">
 	<!ENTITY insertion "挿入">
 	<!ENTITY interpretation "解釈">
@@ -159,6 +160,7 @@
 	<!ENTITY intrinsic "固有">
 	<!ENTITY introducer "導入詞">
 	<!ENTITY introduce "導">
+	<!ENTITY introduce2 "はじ">
 	<!ENTITY involve "まきこ">
 	<!ENTITY involve2 "含">
 	<!ENTITY involve3 "表す関係の対象になる">
@@ -266,6 +268,7 @@
 	<!ENTITY prenex "冠頭">
 	<!ENTITY prepose "前置">
 	<!ENTITY presumably "たぶん">
+	<!ENTITY presumably2 "おそらく">
 	<!ENTITY previous "先行する">
 	<!ENTITY probably "たぶん">
 	<!ENTITY pro_bridi "代ブリディ">
@@ -284,6 +287,7 @@
 	<!ENTITY really "実際に">
 	<!ENTITY refer "示">
 	<!ENTITY refer2 "指">
+	<!ENTITY refer3 "表">
 	<!ENTITY referent "指すもの">
 	<!ENTITY regular "普通の">
 	<!ENTITY relative "関係">

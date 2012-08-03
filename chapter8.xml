@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 20% くらい翻訳</note>
+<note># 21% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
@@ -30,12 +30,13 @@
 <note># note: (...は第...章で詳しく説明する)を(...については第...章参照)とする</note>
 </prenotes>
 
+<!-- section#1 -->
 <section>
 <title>何を&point;しているの<en>What are you pointing at?</en></title>
 <cmavo_list>
 <cmavo_item><cmavo>poi</cmavo><selmaho>NOI</selmaho>
 	<caption>
-	<ja>&relative;&clause;&introducer;</ja>
+	<ja>&restrictive;&relative;&clause;&introducer;</ja>
 	<en>restrictive relative clause introducer</en></caption></cmavo_item>
 <cmavo_item><cmavo>ke'a</cmavo><selmaho>GOhA</selmaho>
 	<caption>
@@ -360,33 +361,33 @@ chapter in order to make them read more smoothly.
 </section_contents>
 </section>
 
+<!-- section#2 -->
 <section>
 <title>&incidental;&relative;&clause;<en>incidental relative clauses</en></title>
 <cmavo_list>
 <cmavo_item><cmavo>noi</cmavo><selmaho>NOI</selmaho><caption>
-	<ja>&relative;&clause;&introducer;</ja>
+	<ja>&incidental;&relative;&clause;&introducer;</ja>
 	<en>relative clause introducer</en></caption></cmavo_item>
 </cmavo_list>
 <section_contents>
 
 <paragraph>
 &relative;&clause;には基本的なふたつの種類がある。
-"poi" に&introduce;かれる&restrictive;&relative;&clause;と
-"noi" に&introduce;かれる<delete><!--
+poi で&introduce2;まる&restrictive;&relative;&clause;と
+noi で&introduce2;まる<delete><!--
 -->(単純に&non_restrictive;と呼ばれることもある)</delete><!--
 -->&incidental;<!--
 -->&relative;&clause;である。<!--
 --><delete>&restrictive;&relative;&clause;と&incidental;&relative;&clause;<!--
 -->の&between;にある&difference;は、</delete><!--
--->このふたつには、<!--
--->&restrictive;&relative;&clause;が&sumti;が&refer;すものを決める<!--
--->のに必要な情報を&provide;するのに対して、<!--
--->&incidental;&relative;&clause;は&listener;の&helpful;つが<!--
--->&sumti;が&refer;すものを決めるのに必要ではない<!--
--->&additional;&information;を&provide;するという&difference;がある。<!--
+-->&restrictive;&relative;&clause;は&sumti;が&refer2;すものを決める<!--
+-->ために必要な情報を&provide;する。それに対して、<!--
+-->&incidental;&relative;&clause;は&listener;の&helpful2;つが<!--
+-->&sumti;が&refer2;すものを決めるためには必要ではない<!--
+-->&additional;&information;を&provide;する。<!--
 --><ln><name>第1節</name><address>#section1</address></ln><!--
 -->の例文はすべて&restrictive;&relative;&clause;であり、<!--
--->&relative;&clause;の情報は&refer;すものを決めるのに必要である。
+-->&relative;&clause;の情報は&refer2;すものを決めるために必要不可欠である。
 <en>
 There are two basic kinds of relative clauses:
 restrictive relative clauses introduced by ``poi",
@@ -407,13 +408,12 @@ identification.
 </en>
 </paragraph>
 
-<note># 訳注: 「付随関係節」と言うよりも、日本人としては、<!--
+<note># note: 「付随関係節」よりも、<!--
 -->英語文法の学習の際にたたきこまれた「非限定用法」という言葉があるので、<!--
--->「非限定関係節」のほうがわかりやすいだろうと思われる。</note>
-<note># 訳注: よって、「非限定関係節」を採用した。</note>
+-->「非限定関係節」のほうがわかりやすいだろうと思われる</note>
 
 <paragraph>
-&following2;例文を&consider;てみよう。
+&following2;例文について&consider;てみよう。
 <en>Consider the following examples:</en>
 </paragraph>
 
@@ -437,17 +437,17 @@ The dog, which is blue, is large.
 
 <paragraph>
 <ln><name>例文 2.1</name><address>#ex2.1</address></ln>では
-"poi blanu" で&convey;される&information;は問題となる犬を決めるのに必要だ。<!--
--->これによって、&refer;される可能性のある犬を、<!--
--->犬一般から青い犬に&restrict;する。<!--
--->だから、"poi" &relative;&clause;は&restrictive;&relative;&clause;<!--
+poi blanu で&convey;される&information;はどの犬を話題にするのかを決めるのに必要だ。<!--
+-->この&relative;&clause;があることで、候補となる犬が<!--
+-->すべての犬から青い犬に&restrict;される。<!--
+-->だから poi &relative;&clause;は&restrictive;&relative;&clause;<!--
 -->と呼ばれる。<!--
--->一方、<ln><name>例文 2.2</name><address>#ex2.2</address></ln>では<!--
--->&refer;される犬は&presumably;すでに&clearly;決まっていて、<!--
--->&relative;&clause; "noi blanu" は単にその犬についての&additional;<!--
+-->それに対して、<ln><name>例文 2.2</name><address>#ex2.2</address></ln>では<!--
+-->&presumably2;どの犬を話題とするのかはすでに&clearly;であり、<!--
+-->&relative;&clause; noi blanu はその犬についての&additional;<!--
 -->&information;を&provide;するだけだ<!--
--->(&in_fact;その犬が&clearly;決まっていなかったとしても、<!--
--->ここでの&relative;&clause;はそれをよりはっきりと&identify;る役には立たない)。
+-->(たとえ&in_fact;どの犬を話題にするのかが&clearly;ではなかったとしても、<!--
+-->ここでの&relative;&clause;はそれをより明確にすることはできない)。
 <en>
 In <ln><name>Example 2.1</name><address>#ex2.1</address></ln>,
 the information
@@ -463,12 +463,6 @@ it.
 does not help identify it further.)
 </en>
 </paragraph>
-
-<note># 訳注: "identify it further"
-は意味はわかるが日本語としてきれいに訳すのが難しい。</note>
-<note># 訳注: そもそも "identify" を訳すときに、正確さを求めれば「同定」と<!--
--->なるのだろうが、固すぎる気もする。「決める」と訳しておくのがとりあえずは<!--
--->ベストかと思われる。</note>
 
 <paragraph>
 <delete>
@@ -503,7 +497,7 @@ or intonation to make the distinction.
 </paragraph>
 
 <paragraph>
-以下に&incidental;&relative;&clause;の例をさらに挙げる。
+さらにいくつかの&incidental;&relative;&clause;の例文を以下に示す。
 <en>Here are more examples of incidental relative clauses:</en>
 </paragraph>
 
@@ -517,9 +511,9 @@ I, a judge, am present.
 </example>
 
 <paragraph>
-この例文では、"mi" はすでに十分に&restrict;されている。<!--
--->私が審判であるという&additional;&information;は<!--
--->&solely;&listener;の知識を増やすためだけに&provide;されている。
+この例文では mi はすでに特定されている。<!--
+-->私が審判であるというつけたしは<!--
+-->&listener;により多くの情報を与えるためだけに&provide;されている。
 <en>
 In this example, ``mi" is already sufficiently restricted,
 and the additional information that I am a judge is being provided solely for
@@ -527,12 +521,9 @@ the listener's edification.
 </en>
 </paragraph>
 
-<note># 訳注: "edification" は「教化」「啓蒙」という意味のようだが、<!--
--->ここでは「知識を増やす」と訳しておいた。</note>
-
 <example><ex_no>2.4</ex_no>
 <lojban>xu do viska le mi karce noi bladi</lojban>
-<japanese>私の車が見えますか。白い車です。</japanese>
+<japanese>私の車、それは白い車ですが、が見えますか。</japanese>
 <en>
 [True?] You see my car incidentally-which is-white.
 Do you see my car, which is white?
@@ -542,12 +533,12 @@ Do you see my car, which is white?
 <paragraph>
 <ln><name>例文 2.4</name><address>#ex2.4</address></ln>では、<!--
 -->&speaker;は&presumably;一台しか車を持っていなくて、<!--
--->&incidental;的な情報として、それが白いことを伝えたのだろう<!--
--->(あるいは、"le karce" は&plural;でもよいので、<!--
--->彼または彼女は複数の車を持っているかもしれない。<!--
--->その場合、&incidental;的な情報はそれらのそれぞれが白いということになる)。<!--
+-->&incidental;的な情報としてそれが白いことを伝えたのだろう<!--
+-->(あるいは le karce は&plural;でもよいので、<!--
+-->その人は複数の車を持っていてもいい。<!--
+-->その場合、&incidental;的な情報はそれらすべてが白いという意味になる)。<!--
 -->&restrictive;&relative;&clause;を使った<!--
---><ln><name>例文 2.5</name><address>#ex2.5</address></ln>と比べてみよ。
+--><ln><name>例文 2.5</name><address>#ex2.5</address></ln>と比較してみよう。
 <en>
 In <ln><name>Example 2.4</name><address>#ex2.4</address></ln>,
 the speaker is presumed to have only one car,
@@ -562,7 +553,7 @@ a restrictive relative clause:
 
 <example><ex_no>2.5</ex_no>
 <lojban>xu do viska le mi karce poi blabi</lojban>
-<japanese>私の白い車が見えますか。</japanese>
+<japanese>私の白いほうの車が見えますか。</japanese>
 <en>
 [True?] You see my white car.
 Do you see my white car?
@@ -571,7 +562,7 @@ Do you see my white car?
 
 <paragraph>
 ここでは、&speaker;は&probably;何台か車を持っているのだろう。<!--
--->そして、&sumti; "le mi karce" の&refer;すものを<!--
+-->そして、&sumti; le mi karce の&refer2;すものを<!--
 -->(そして結果として&listener;の注意を)<!--
 -->白い車だけに&restrict;している。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln><!--
@@ -601,12 +592,12 @@ Do you see my car, the white one?
 <paragraph>
 このように、&description;に&attach;られた&restrictive;&relative;&clause;<!--
 -->は&often;&tanru;を含む&description;と同じ意味を表せる。<!--
--->しかし、"blabi karce" は&all;の&tanru;と同様、&somewhat;&vague;だ。<!--
--->&in_principle;、それは白いものを運ぶ車を&refer;すかもしれないし、<!--
--->白-性と車-性を含むもっと複雑な&concept;を表すかもしれない。<!--
+-->しかし blabi karce はほかの&tanru;と同じように&somewhat;&vague;だ。<!--
+-->&tanru;の&in_principle;、それは白いものを運ぶ車を&refer2;してもいいし、<!--
+-->白-性と車-性を含むもっと複雑な&concept;を表してもいい。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln>の&restrictive;<!--
--->&relative;&clause;は白い車だけを&refer;し、<!--
--->もっと複雑または拡張された&concept;を&refer;すことはない。
+-->&relative;&clause;は白い車だけを&refer2;し、<!--
+-->もっと複雑な拡張された&concept;を&refer3;すことはない。
 <en>
 So a restrictive relative clause attached to a description can often
 mean the same as a description involving a tanru.
