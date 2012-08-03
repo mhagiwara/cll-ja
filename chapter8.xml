@@ -16,20 +16,13 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 19% くらい翻訳</note>
+<note># 20% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
-<note># とりあえずの訳である。全体の訳ができたので訳の修正中</note>
-<note># todo .3: 各節の見直し(1回目)、まずは訳の正しさを確認、ある程度意訳しても良いし<!--
--->まだ直訳的でも良い</note>
-<note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
+<note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
 <!-- here#1 -->
-<note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
-<note># todo .3.11.2: KOhA</note>
-<note># todo .3.11.3: ZIhE</note>
-<note># todo .3.11.4: VUhO</note>
-<note># todo .3.11.5: その他</note>
 <note># todo 2: 2回目の訳の見直し</note>
+<note># note: 今回の見直しでは段落レベルで意味を取って意訳していくことにする</note>
 <note># note: ひとつ、ふたつ、みっつ、と平仮名で書くか、1つ、2つ、3つと書くか、<!--
 -->決めて統一すること</note>
 <note># note: 英語や&lojban;を書くときに "" でくくるかくくらないか決めて<!--
@@ -1223,7 +1216,7 @@ although the syntax is the same.)
 </section>
 
 <section>
-<title>複数の&relative;&clause;<en>Multiple relative clauses</en>: ``zi'e"</title>
+<title>複数の&relative;&clause;<en>Multiple relative clauses</en>: zi'e</title>
 <cmavo_list>
 <cmavo_item><cmavo>zi'e</cmavo><selmaho>ZIhE</selmaho><caption>
 	<ja>&relative;&clause;&joiner;</ja>
@@ -1419,7 +1412,7 @@ I'll eat my beans that are on my plate, the ones you gave me.
 
 <section>
 <title>&non_veridical;&relative;&clause;
-	<en>Non-veridical relative clauses</en>: ``voi"</title>
+	<en>Non-veridical relative clauses</en>: voi</title>
 
 <cmavo_list>
 <cmavo_item><cmavo>voi</cmavo><selmaho>NOI</selmaho><caption>
@@ -2415,7 +2408,7 @@ in this case, though, it is a syllable shorter than the equally valid alternativ
 
 <section>
 <title>&relative;&clause;と複雑な&sumti;<!--
-	--><en>Relative clauses and complex sumti</en>: ``vu'o"</title>
+	--><en>Relative clauses and complex sumti</en>: vu'o</title>
 <cmavo_list>
 <cmavo_item><cmavo>vu'o</cmavo><selmaho>VUhO</selmaho><caption>
 	<ja>&relative;&clause;&attacher;</ja>

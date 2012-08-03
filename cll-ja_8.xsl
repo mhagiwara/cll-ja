@@ -47,6 +47,11 @@
 	<xsl:value-of select="image" /></xsl:attribute></img></div>
 <xsl:apply-templates select="prenotes" />
 <h2><xsl:apply-templates select="/chapter/title"/></h2>
+<h3>0. 目次</h3>
+<ol><xsl:for-each select="section">
+	<li><a><xsl:attribute name="href">#section<xsl:number/></xsl:attribute>
+		<xsl:apply-templates select="title"/></a></li>
+</xsl:for-each></ol>
 <p><xsl:apply-templates select="preface" /></p>
 <xsl:apply-templates select="section" />
 <xsl:apply-templates select="postnote" />
