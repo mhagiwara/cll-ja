@@ -15,6 +15,7 @@ argument tag	項タグ
 aspect	相制
 assert	表明
 assign	割り当てる
+associator	連結詞	# 提案: 第8章の vu'o に対して
 attitudinal	心態詞
 attitudinal indicator	心態詞
 bridi	ブリディ

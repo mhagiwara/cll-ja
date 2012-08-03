@@ -27,6 +27,7 @@
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
 	<!ENTITY association "関係">
+	<!ENTITY associator "連結詞">
 	<!ENTITY at_least_one "すくなくともひとつ">
 	<!ENTITY at_least_one2 "すくなくともひとり">
 	<!ENTITY attach "つけ">
@@ -161,7 +162,7 @@
 	<!ENTITY involve "まきこ">
 	<!ENTITY involve2 "含">
 	<!ENTITY involve3 "表す関係の対象になる">
-	<!ENTITY join "まとめる">
+	<!ENTITY join "まとめ">
 	<!ENTITY joiner "結合詞">
 	<!ENTITY joint "結合">
 	<!ENTITY juror "審査員">

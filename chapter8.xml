@@ -3160,21 +3160,20 @@ and ``ko'e" (explained in Chapter 6).
 <note># note: pro-sumti for relativized sumti をどう訳すか</note>
 
 <paragraph>
-&relative;&clause;を&join;もの(&selma_o; ZIhE):
+&relative;&clause;&joiner;(&selma_o; ZIhE):
 <en>Relative clause joiner (selma'o ZIhE)</en>
 </paragraph>
 
 <cmavo_table>
 <cmavo_table_item><cmavo>zi'e</cmavo><caption>
-	<ja>ひとつの&sumti;に&apply3;る&relative;&clause;を&join;</ja>
+	<ja>&relative;&clause;を&join;てひとつの&sumti;に&apply3;るようにする</ja>
 	<en>joins relative clauses applying to a single sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
-<note># note: relative clause joiner</note>
 <note># note: joins relative clauses applying to a single sumti</note>
 
 <paragraph>
-&relative;&clause; associator(&selma_o; VUhO)
+&relative;&clause;&associator;(&selma_o; VUhO)
 <en>Relative clause associator (selma'o VUhO)</en>
 </paragraph>
 
@@ -3184,7 +3183,6 @@ and ``ko'e" (explained in Chapter 6).
 	<en>causes relative clauses to apply to all of a complex sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
-<note># note: relative clause associator</note>
 <note># note: causes relative clauses to apply to all of a complex sumti</note>
 
 <paragraph>

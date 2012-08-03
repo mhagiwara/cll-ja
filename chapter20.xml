@@ -194,7 +194,7 @@ The-number 3 [priority] times 4 plus 5 equals the-number 17.
 <section>
 <title>&selma_o; BIhI</title><reference path="./chapter14.html">第14章</reference>
 <description>
-&sumti;または&tanru_unit;(あるいはそれ以外の何か)を&join;ことで&interval;を表す。
+&sumti;または&tanru_unit;(あるいはそれ以外の何か)を&join;ることで&interval;を表す。
 GAhO &see;。
 </description>
 <example>
@@ -215,7 +215,7 @@ I am standing between Dresden and Frankfurt.
 	<reference path="./chapter15.html">第15章</reference>
 	<reference path="./chapter18.html">第18章</reference>
 <description>
-&tanru_unit;を&closely;&bind2;&join;。<!--
+&tanru_unit;を&closely;&bind2;&join;る。<!--
 -->&logically_or_non_logically;&connected;&phrase;や&sentence;&etc;を<!--
 -->&bind1;のに使える。結合において BO は常に優先され、また&right_grouping;である。
 </description>
@@ -367,7 +367,7 @@ The green thingy is large. The red thingy is small.
 	<reference path="./chapter14.html">第14章</reference>
 	<reference path="./chapter16.html">第16章</reference>
 <description>
-複数の&term;を&termset;に&join;。<!--
+複数の&term;を&termset;に&join;る。<!--
 -->&termset;はそれぞれの&term;を&associate;、&logical_connective2;のために、<!--
 -->また&quantifier;&scope;をまとめ、<!--
 -->または特別な&tense;の構造を作るために使われる。
@@ -1586,7 +1586,7 @@ Digits and related quantifiers (some, all, many, etc.). I am-married-to two wome
 <title>&selma_o; PEhE</title><reference path="./chapter14.html">第14章</reference>
 <description>
 &logical_connective1;または&non_logical_connective;&precede2;、<!--
--->2つの&termset;を&join;。&termset;はそれぞれの&term;を&associate;、<!--
+-->2つの&termset;を&join;る。&termset;はそれぞれの&term;を&associate;、<!--
 -->&logical_connective2;のために、また&quantifier;&scope;をまとめ、<!--
 -->または特別な&tense;の構造を作るために使われる(CEhE を見よ)。
 </description>
@@ -2103,7 +2103,7 @@ I'm on the verge of fighting.
 
 <title>&selma_o; ZEI</title><reference path="./chapter4.html">第4章</reference>
 <description>
-&morphological;&glue_word;。両側にある語を&lujvo;と同じ意味で&join;。
+&morphological;&glue_word;。両側にある語を&lujvo;と同じ意味で&join;る。
 </description>
 <example><lojban>ta xy. zei kantu kacma</lojban>
 <japanese>あれはX線カメラだ。</japanese></example>
@@ -2148,7 +2148,7 @@ I ate a little while ago.
 <section>
 <title>&selma_o; ZIhE</title><reference path="./chapter8.html">第8章</reference>
 <description>
-同じ&sumti;に係る&relative;&phrase;や&relative;&clause;を&join;。
+同じ&sumti;に係る&relative;&phrase;や&relative;&clause;を&join;る。
 英訳の際には「and」と訳されることが多いが、&logical_connective2;とは見なされない。
 </description>
 <example><lojban>mi ponse pa gerku ku poi blabi zi'e noi mi prami ke'a</lojban>
