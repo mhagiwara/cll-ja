@@ -103,7 +103,8 @@
 <pre><xsl:attribute name="id">ex<xsl:value-of select="ex_no" /><!--
 --></xsl:attribute><xsl:value-of select="ex_no" />) <xsl:value-of select="lojban"/>
 <xsl:value-of select="english"/>
-(<xsl:value-of select="japanese"/>)</pre>
+<xsl:text disable-output-escaping="yes">&#10;&#32;&#32;&#32;&#32;&#32;</xsl:text>
+<xsl:value-of select="japanese"/></pre>
 </xsl:template>
 
 <xsl:template match="japanese">

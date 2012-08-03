@@ -70,7 +70,7 @@
 	<!ENTITY connective2 "接続">
 	<!ENTITY consider "考え">
 	<!ENTITY constructing "複合的な">
-	<!ENTITY construction "構造">
+	<!ENTITY construction "構文">
 	<!ENTITY contain "含む">
 	<!ENTITY contour "事象線">
 	<!ENTITY contrast "対照">
@@ -314,8 +314,8 @@
 	<!ENTITY specify1 "示す">
 	<!ENTITY specify2 "を決める">
 	<!ENTITY specified "指定された">
-	<!ENTITY stand_for "表">
-	<!ENTITY state "述べ">
+	<!ENTITY stand_for "指">
+	<!ENTITY state "説明">
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY strategy "方法">
 	<!ENTITY string "列">
