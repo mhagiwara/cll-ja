@@ -25,8 +25,6 @@
 <note>---------- 英語話者向けの説明の大部分は削除してしまおう</note>
 <!-- here#1 -->
 <note># todo .3.11: 11. &relative;&clause;の&cmavo;の索引</note>
-<note># todo .3.11.1: NOI</note>
-<note># todo .3.11.2: GOI</note>
 <note># todo .3.11.2: KOhA</note>
 <note># todo .3.11.3: ZIhE</note>
 <note># todo .3.11.4: VUhO</note>
@@ -3091,7 +3089,6 @@ and ``ko'e" (explained in Chapter 6).
 
 <note># note: assignable を「代入可能な」と訳したが「代入用の」と訳したほうが<!--
 -->こなれているかもしれない</note>
-<!-- here#1 -->
 
 </section_contents>
 </section>
@@ -3147,6 +3144,8 @@ and ``ko'e" (explained in Chapter 6).
 	<en>incidental identification</en></caption></cmavo_table_item>
 </cmavo_table>
 
+<!-- here#1 -->
+
 <paragraph>
 &relative;&pro_sumti;(&selma_o; KOhA):
 <en>Relativizing pro-sumti (selma'o KOhA):</en>
@@ -3157,6 +3156,8 @@ and ``ko'e" (explained in Chapter 6).
 	<ja>&relative;&sumti;の&pro_sumti;</ja>
 	<en>pro-sumti for relativized sumti</en></caption></cmavo_table_item>
 </cmavo_table>
+
+<note># note: pro-sumti for relativized sumti をどう訳すか</note>
 
 <paragraph>
 &relative;&clause;を&join;もの(&selma_o; ZIhE):
@@ -3169,8 +3170,11 @@ and ``ko'e" (explained in Chapter 6).
 	<en>joins relative clauses applying to a single sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
+<note># note: relative clause joiner</note>
+<note># note: joins relative clauses applying to a single sumti</note>
+
 <paragraph>
-&relative;&clause;結合子(&selma_o; VUhO)
+&relative;&clause; associator(&selma_o; VUhO)
 <en>Relative clause associator (selma'o VUhO)</en>
 </paragraph>
 
@@ -3180,8 +3184,11 @@ and ``ko'e" (explained in Chapter 6).
 	<en>causes relative clauses to apply to all of a complex sumti</en></caption></cmavo_table_item>
 </cmavo_table>
 
+<note># note: relative clause associator</note>
+<note># note: causes relative clauses to apply to all of a complex sumti</note>
+
 <paragraph>
-&elidable;&terminator;(それぞれそれ自身の&selma_o;)
+&elidable;&terminator;(それぞれの&selma_o;)
 <en>Elidable terminators (each its own selma'o)</en>
 </paragraph>
 
@@ -3201,6 +3208,7 @@ and ``ko'e" (explained in Chapter 6).
 <note># possetion と ownership との訳し分けが難しい。</note>
 <note># 7.6 の例文の説明のところで , however. という部分があるが意味がわからない。
 </note>
+<note># note: joiner と associator をどう訳しわけるか</note>
 </postnote>
 
 </chapter>
