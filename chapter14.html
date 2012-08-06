@@ -849,93 +849,196 @@ and
        その男 [群] その 女性 行く その 市場へ
 </pre>
 <p>シマヴォ “ku” は “le”の省略可能な終端詞であり、ほとんどの場合で省略可能であるが、この場合はそれができない。もし最初の “ku” を省略すると、構文解析ルールが “le nanmu joi” を最初に受け取り、他のタンル要素が次に来ると予測してしまう。2つ目の “le” はタンルの要素になり得ないため、構文解析エラーが起こる。論理接続詞では、ek はスムティ、jek はタンル要素が来ることを明確に区別するため、このような問題は起こらない。</p>
-<p>Single or compound cmavo involving members of selma'o JOI are called joiks, by analogy with the names for logical connectives. It is not grammatical to use joiks to connect bridi-tails.</p>
-<p>In tanru, “joi” has the connotation “mixed with”, as in the following example:</p>
+<p>セルマホ JOI の単一のシマヴォもしくは複合シマヴォは joik と呼ばれている。joik を使ってブリディ末端を接続するのは文法的ではない。</p>
+<p>タンルでは、“joi” は “～と混ざって”という意味を持つ：</p>
 <pre>
 <a id="e5" name="e5">14.5)</a>  ti blanu joi xunre bolci
-       This is-a-(blue mixed-with red) ball.
-       This is a blue and red ball.
+       これ ～である(青 ～と混ざって 赤) ボール
+       これは、赤と青の混ざった色のボールだ。
 </pre>
-Here the ball is neither wholly blue nor wholly red, but partly blue and partly red. Its blue/redness is a mass property. (Just how blue something has to be to count as “wholly blue” is an unsettled question, though. A “blanu zdani” may be so even though not every part of it is blue.)
-<p>There are several other cmavo in selma'o JOI which can be used in the same grammatical constructions. Not all of them are well-defined as yet in all contexts. All have clear definitions as sumti connectives; those definitions are shown in the following table:</p>
+ここで、ボールは完全に青や赤ではなく、部分的に青でありかつ部分的に赤である。(ただ、何か青いものが「完全に青」というのはどういうことか、という疑問は解決していない。例えば「青い家」は、一部が青でも“blanu zdani”と言えるかもしれない。)
+<p>他にも、同じような文法構造において使えるセルマホ JOI に属するシマヴォがある。あらゆる文脈においてきちんと定義されているわけではない。スムティ接続詞としては明確な定義がある：</p>
 <pre>
-    A joi B     the mass with components A and B
-    A ce B      the set with elements A and B
-    A ce'o B    the sequence with elements A and B in order
-    A sece'o B  the sequence with elements B and A in order
-    A jo'u B    A and B considered jointly
-    A fa'u B    A and B respectively
-    A sefa'u B  B and A respectively
-    A jo'e B    the union of sets A and B
-    A ku'a B    the intersection of sets A and B
-    A pi'u B    the cross product of sets A and B
-    A sepi'u B  the cross product of sets B and A
+    A joi B     A と B を構成要素に持つ群
+    A ce B      A と B を要素とする集合
+    A ce'o B    A と B を、この順で要素とする順列
+    A sece'o B  B と A を、この順で要素とする順列
+    A jo'u B    A と B を一緒に見なして
+    A fa'u B    A と B それぞれ
+    A sefa'u B  B と A それぞれ
+    A jo'e B    集合 A と B の和集合
+    A ku'a B    集合 A と B の積集合
+    A pi'u B    集合 A と B の外積
+    A sepi'u B  集合 B と A の外積
 </pre>
-<p>The cmavo “se” is grammatical before any JOI cmavo, but only useful with those that have inherent order. Here are some examples of joiks:</p>
+<p>シマヴォ “se” は、どの JOI につけても文法的であるが、順序を持つものに対してでないと意味がない。以下は joik の例である:</p>
 <pre>
 <a id="e6" name="e6">14.6)</a>  mi cuxna la .alis. la frank. ce la .alis. ce la djeimyz.
-       I choose Alice from Frank and-member Alice and-member James.
-       I choose Alice from among Frank, Alice, and James.
+       私 選ぶ アリス フランク [と要素] アリス [と要素] ジェームズから
+       私は、フランク、アリス、ジェームズからアリスを選ぶ。
 </pre>
-The x3 place of “cuxna” is a set from which the choice is being made. A set is an abstract object which is determined by specifying its members. Unlike those of a mass, the properties of a set are unrelated to its members’ properties: the set of all rats is large (since many rats exist), but the rats themselves are small. This chapter does not attempt to explain set theory (the mathematical study of sets) in detail: explaining propositional logic is quite enough for one chapter!
-<p>In <a href="../14/#e6">Example 14.6</a> we specify that set by listing the members with “ce” joining them.</p>
+“cuxna” の x3 は、選択元の集合である。集合(set) は、その要素を指定することで決定される抽象的なものであり、群とは違い、集合の性質はその要素の性質とは無関係である。この章では、集合論については説明しない。
+
+<p>例14.6 では、要素を列挙し、それらを“ce”でつなぐことで、その集合を規定した。</p>
 <pre>
 <a id="e7" name="e7">14.7)</a>  ti liste mi ce'o do ce'o la djan.
-       This is-a-list-of me and-sequence you and-sequence John.
-       This is a list of you, me, and John.
+       これ リストである 私 [と順列] あなた [と順列] ジョン
+       これは、あなた、私、ジョンのリストである。
 </pre>
-The x2 place of “liste” is a sequence of the things which are mentioned in the list. (It is worth pointing out that “lo liste” means a physical object such as a grocery list: a purely abstract list is “lo porsi”, a sequence.) Here the three sumti connected by “ce'o” are in a definite order, not just lumped together in a set or a mass.
-<p>So “joi”, “ce”, and “ce'o” are parallel, in that the sumti connected are taken to be individuals, and the result is something else: a mass, a set, or a sequence respectively. The cmavo “jo'u” serves as a fourth element in this pattern: the sumti connected are individuals, and the result is still individuals — but inseparably so. The normal Lojban way of saying that James and George are brothers is:</p>
+ “liste” の x2 は、リストで述べられている順列である。(ちなみに、“lo liste” はおつかいメモのような物理的な物体で、純粋に抽象的なリストは、順列を表す “lo porsi”である。) ここでは、“ce'o” でつなげられた3つのスムティは、集合や群のように単にまとめられているのではなく、明確な順序を持っている。
+
+<p>よって、“joi” “ce” “ce'o” は、個体のスムティを繋げ、その結果は何か別のもの（それぞれ群、集合、順列）になるという点で対応している。 “jo'u” は、このパターンに沿う4つめの要素である。繋げるスムティは個体であり、結果もなお個体である。ただし、不可分の個体である。ジェームズとジョージが兄弟であると言うのに、通常のロジバンでは、</p>
 <pre>
 <a id="e8" name="e8">14.8)</a>  la djeimyz. bruna la djordj.
-       James is-the-brother-of George.
+       ジェームズ 兄弟である ジョージの
 </pre>
-possibly adding a discursive element meaning “and vice versa”. However, “James and George are brothers” cannot be correctly translated as:
+となる（「逆もまた真なり」を意味する談話系（※訳注 soi）を挿入してもよい。しかし、“ジェームズとジョージは、お互いに兄弟である”というのは、
 <pre>
 <a id="e9" name="e9">14.9)</a>  la djeimyz. .e la djordj. bruna
-       James and George is-a-brother.
+       ジェームズ と ジョージは 兄弟である
 </pre>
-since that expands to two bridi and means that James is a brother and so is George, but not necessarily of each other. If the “.e” is changed to “jo'u”, however, the meaning of <a href="../14/#e8">Example 14.8</a> is preserved:
+としては正しく翻訳できない。なぜなら、これを2つのブリディに分解すると、ジェームズは（誰かの）兄弟であり、ジョージもそうであるが、お互い兄弟どうしとは限らないからである。しかし、“.e” を “jo'u”に変えると、例 14.8 の意味は保たれる。
 <pre>
 <a id="e10" name="e10">14.10)</a> la djeimyz. jo'u la djordj. cu remei bruna
-       James in-common-with George are-a-twosome type-of-brothers.
+       ジェームズ [一緒に見なして] ジョージ 2人の 兄弟
 </pre>
-The tanru “remei bruna” is not strictly necessary in this sentence, but is used to make clear that we are not saying that James and George are both brothers of some third person not specified. Alternatively, we could turn the tanru around: the x1 place of “remei” is a mass with two components, leading to:
+“remei bruna” というタンルは厳密には必要ではないが、ジェームズとジョー
+ジは、ここでは言及していないある他の3人目の兄弟ではないということを明確
+にしている。もしくは、タンルを反転させてもよい。“remei”の x1 の場所は2つの要素を持った群であるので、
+
 <pre>
 <a id="e11" name="e11">14.11)</a> la djeimyz. joi la djordj. cu bruna remei
-       James massed-with George are-a-brother type-of-twosome.
+       ジェームズ [群] ジョージ 兄弟 [的な] 2人のもの
 </pre>
-where “joi” is used to create the necessary mass.
-<p>Likewise, “fa'u” can be used to put two individuals together where order matters. Typically, there will be another “fa'u” somewhere else in the same bridi:</p>
+とできる。ここでは、 “joi” は、群を作るために必要である。
+<p>同様に、“fa'u” は、順序が重要な時に、2つの個体をまとめるのに使う。通常、同じブリディ中のどこかにもう1個の “fa'u” がある。</p>
 <pre>
 <a id="e12" name="e12">14.12)</a> la djeimyz. fa'u la djordj. prami la meris. fa'u la martas.
-       James jointly-in-order-with George loves Mary jointly-in-order-with Martha.
-       James and George love Mary and Martha, respectively.
+       ジェームズ [一緒に、順に見なして] ジョージ 愛する メアリー [一緒に、順に見なして] マーサ
+       ジェームズとジョージは、それぞれ、 メアリーとマーサを愛している。
 </pre>
-Here the information carried by the English adverb “respectively”, namely that James loves Mary and George loves Martha, is divided between the two occurrences of “fa'u”. If both uses of “fa'u” were to be changed to “.e”, we would get:
+ここで、「それぞれ」という副詞（と句読点）の表現している情報（ジェームズがメアリーを愛し、ジョージがマーサを愛している）は、2回出現する“fa'u”が担っている。もしこの “fa'u” を “.e” に変えると、
 <pre>
 <a id="e13" name="e13">14.13)</a> la djeimyz. .e la djordj. prami la meris. .e la martas.
-       James and George love Mary and Martha.
+       ジェームズ と ジョージ 愛する メアー と マーサ
 </pre>
-which can be transformed to four bridi:
+となり、これは、以下の4つのブリディになる：
 <pre>
 <a id="e14" name="e14">14.14)</a> la djeimyz. prami la meris. .ije la djordj. prami la meris.
             .ije la djeimyz. prami la martas. .ije la djordj. prami la martas.
-       James loves Mary, and George loves Mary,
-            and James loves Martha, and George loves Martha.
+       ジェームズ 愛する メアリー そして ジョージ 愛する メアリー
+            そして ジェームズ 愛する マーサ, そして ジョージ 愛する マーサ
 </pre>
-which represents quite a different state of affairs from <a href="../14/#e12">Example 14.12</a>. The meaning of <a href="../14/#e12">Example 14.12</a> can also be conveyed by a termset:
+これは、例14.12 とはだいぶ異なった状態である。例14.12 の意味は、名辞組を用いて、
 <pre>
 <a id="e15" name="e15">14.15)</a> la djeimyz. ce'e la meris. pe'e .e la djordj. ce'e la martas. prami
-    James [plus] Mary [joint] and George [plus] Martha loves.
+    ジェームズ [プラス] メアリー [結合] そして ジョージ [プラス] マーサ 愛する
 </pre>
-at the expense of re-ordering the list of names so as to make the pairs explicit. This option is not available when one of the lists is only described rather than enumerated:
+とも言える（順番を入れ替えペアを明確にしなければならないが）。これは、片方のリストが列挙されていないときには使えない：
 <pre>
 <a id="e16" name="e16">14.16)</a> la djeimyz. fa'u la djordj. prami re mensi
-    James and-respectively George love two sisters.
+    ジェームズ [一緒に、順に見なして] ジョージ 愛する 2人の 姉妹を
 </pre>
-which conveys that James loves one sister and George the other, though we are not able to tell which of the sisters is which.
+これは、ジェームズが姉妹のうち一人を、ジョージがもう一人を愛する（ただし、どっちがどっちかは分からない）という意味になる。
 <hr />
+
+<h3>15. More about non-logical connectives</h3>
+<p>The final three JOI cmavo, “jo'e”, “ku'a”, and “pi'u”, are probably only useful when talking explicitly about sets. They represent three standard set operators usually called “union”, “intersection”, and “cross product” (also known as “Cartesian product”). The union of two sets is a set containing all the members that are in either set; the intersection of two sets is a set containing all the members that are in both sets. The cross product of two sets is the set of all possible ordered pairs, where each ordered pair contains a single element from the first set followed by a single element from the second. This may seem very abstract; hopefully, the following examples will help:</p>
+<pre>
+<a id="e1" name="e1">15.1)</a>  lo'i ricfu ku jo'e lo'i dotco cu barda
+       The-set-of rich-things union the-set-of German-things is large.
+
+<a id="e2" name="e2">15.2)</a>  lo'i ricfu ku ku'a lo'i dotco cu cmalu
+       The set-of rich-things intersection the-set-of German-things is small.
+</pre>
+There is a parallelism between logic and set theory that makes <a href="../15/#e1">Example 15.1</a> and <a href="../15/#e2">Example 15.2</a> equivalent respectively to:
+<pre>
+<a id="e3" name="e3">15.3)</a>  lo'i ricfu ja dotco cu barda
+       The-set-of rich-or-German-things is large.
+</pre>
+and
+<pre>
+<a id="e4" name="e4">15.4)</a>  lo'i ricfu je dotco cu cmalu
+       The-set-of rich-and-German-things is small.
+</pre>
+<p>The following example uses “se remei”, which is a set (not a mass) of two elements:</p>
+<pre>
+<a id="e5" name="e5">15.5)</a>  la djeimyz. ce[bo] la djordj. pi'u la meris. cebo la martas.
+            cu prami se remei
+       James and-set George cross-product Mary and-set Martha
+            are-lover type-of-pairs.
+</pre>
+means that each of the pairs James/Mary, George/Mary, James/Martha, and George/Martha love each other. Therefore it is similar in meaning to <a href="../14/#e13">Example 14.13</a>; however, that example speaks only of the men loving the women, not vice versa.
+<p>Joiks may be combined with “bo” or with “ke” in the same way as eks and jeks; this allows grouping of non-logical connections between sumti and tanru units, in complete parallelism with logical connections:</p>
+<pre>
+<a id="e6" name="e6">15.6)</a>  mi joibo do ce la djan. joibo la djein.
+            cu gunma se remei
+       (I massed-with you) and (John massed-with Jane)
+            are-a-mass type-of-two-set
+</pre>
+asserts that there is a set of two items each of which is a mass.
+<p>Non-logical connection is permitted at the joint of a termset; this is useful for associating more than one sumti or tagged sumti with each side of the non-logical connection. The place structure of “casnu” is:</p>
+<pre>
+      casnu: the mass x1 discusses/talks about x2
+</pre>
+so the x1 place must be occupied by a mass (for reasons not explained here); however, different components of the mass may discuss in different languages. To associate each participant with his or her language, we can say:
+<pre>
+<a id="e7" name="e7">15.7)</a>  mi ce'e bau la lojban.
+            pe'e joi do ce'e bau la gliban. nu'u casnu
+       ( I [plus] in-language Lojban
+            massed-with you [plus] in-language English ) discuss.
+</pre>
+<p>Like all non-logical connectives, the usage shown in <a href="../15/#e7">Example 15.7</a> cannot be mechanically converted into a non-logical connective placed at another location in the bridi. The forethought equivalent of <a href="../15/#e7">Example 15.7</a> is:</p>
+<pre>
+<a id="e8" name="e8">15.8)</a>  nu'i joigi mi bau la lojban gi do bau la gliban. nu'u casnu
+</pre>
+<p>Non-logical forethought termsets are also useful when the things to be non-logically connected are sumti preceded with tense or modal (BAI) tags:</p>
+<pre>
+<a id="e9" name="e9">15.9)</a>  la djan. fa'u la frank. cusku nu'i bau la lojban.
+            nu'u fa'u bai tu'a la djordj. [nu'u]
+       John respectively-with Frank express [start termset] in-language Lojban
+            [joint] respectively-with under-compulsion-by George.
+       John and Frank speak in Lojban and under George’s compulsion, respectively.
+</pre>
+<a href="../15/#e9">Example 15.9</a> associates speaking in Lojban with John, and speaking under George’s compulsion with Frank. We do not know what language Frank uses, or whether John speaks under anyone’s compulsion.
+<p>Joiks may be prefixed with “.i” to produce ijoiks, which serve to non-logically connect sentences. The ijoik “.ice'o” indicates that the event of the second bridi follows that of the first bridi in some way other than a time relationship (which is handled with a tense):</p>
+<pre>
+<a id="e10" name="e10">15.10)</a> mi ba gasnu la'edi'e
+            .i tu'e kanji lo ni cteki
+            .ice'o lumci le karce
+            .ice'o dzukansa le gerku tu'u
+       I [future] do the-referent-of-the-following:
+            ( Compute the quantity of taxes.
+            And-then wash the car.
+            And-then walkingly-accompany the dog. )
+       List of things to do:
+            Figure taxes.
+            Wash car.
+            Walk dog.
+</pre>
+<a href="../15/#e10">Example 15.10</a> represents a list of things to be done in priority order. The order is important, hence the need for a sequence connective, but does not necessarily represent a time order (the dog may end up getting walked first). Note the use of “tu'e” and “tu'u” as general brackets around the whole list. This is related to, but distinct from, their use in <a href="../8/">Section 8</a>, because there is no logical connective between the introductory phrase “mi ba gasnu la'edi'e” and the rest. The brackets effectively show how large an utterance the word “di'e”, which means “the following utterance”, refers to.
+<p>Similarly, “.ijoi” is used to connect sentences that represent the components of a joint event such as a joint cause: the Lojban equivalent of “Fran hit her head and fell out of the boat, so that she drowned” would join the events “Fran hit her head” and “Fran fell out of the boat” with “.ijoi”.</p>
+<p>The following “nai”, if present, does not negate either of the things to be connected, but instead specifies that some other connection (logical or non-logical) is applicable: it is a scalar negation:</p>
+<pre>
+<a id="e11" name="e11">15.11)</a> mi jo'unai do cu remei
+    I in-common-with [not!] you are-a-twosome
+</pre>
+The result of “mi jo'u do” would be two individuals, not a mass, therefore “jo'u” is not applicable; “joi” would be the correct connective.
+<p>There is no joik question cmavo as such; however, joiks and ijoiks may be uttered in isolation in response to a logical connective question, as in the following exchange:</p>
+<pre>
+<a id="e12" name="e12">15.12)</a> do djica tu'a
+            loi ckafi ji loi tcati
+       You desire something-about
+            a-mass-of coffee [what connective?] a-mass-of tea?
+       Do you want coffee or tea?
+
+<a id="e13" name="e13">15.13)</a> joi
+       Mixed-mass-and.
+       Both as a mass (i.e, mixed together).
+</pre>
+Ugh. (Or in Lojban: .a'unaisairo'o.)
+<hr />
+
 
 <div class="nav">
 <div class="nav-prev">
