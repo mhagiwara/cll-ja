@@ -28,6 +28,8 @@
 <note># note: 英語や&lojban;を書くときに "" でくくるかくくらないか決めて<!--
 -->統一すること -&gt; "" でくくらないことにする</note>
 <note># note: (...は第...章で詳しく説明する)を(...については第...章参照)とする</note>
+<note># note: the link between the chair and the speaker is of the loosest kind.
+のうまい訳が見つからない</note>
 </prenotes>
 
 <!-- section#1 -->
@@ -615,6 +617,7 @@ not to any more complex or extended concept.
 </section_contents>
 </section>
 
+<!-- section#3 -->
 <section>
 <title>&relative;&phrase;<en>Relative phrases</en></title>
 
@@ -645,11 +648,11 @@ not to any more complex or extended concept.
 <section_contents>
 
 <paragraph>
-&lojban;でしばしば必要となる&relative;&clause;の<!--
--->(それぞれの&selbri;を持つ)定型的な形があり、それらは<!--
--->&relative;&phrase;と呼ばれる&shortcut;によって&express;することができる。<!--
--->&relative;&phrase;は&selma_o; GOI に属する&cmavo;に&introduce;かれ、<!--
--->&single;&sumti;が&following; GOI &cmavo;から成る。
+&lojban;にはよく使われる<!--
+-->(&selbri;を共有する)定型的な&relative;&clause;があり、<!--
+-->&relative;&phrase;という&shortcut;で&express2;すことができる。<!--
+-->&relative;&phrase;は&selma_o; GOI に属する&cmavo;<!--
+-->とそれに続く&single;&sumti;から構成される。
 <en>
 There are types of relative clauses (those which have a certain selbri)
 which are frequently wanted in Lojban,
@@ -659,11 +662,8 @@ and consist of a GOI cmavo followed by a single sumti.
 </en>
 </paragraph>
 
-<note># 訳注: "be frequently wanted" を「しばしば必要となる」と訳した</note>
-<note># 訳注: 上の訳は次の見直しで、よりわかりやすく意訳する必要がある</note>
-
 <paragraph>
-"pe" の例文と、&relative;&clause;を使った同じ意味の例文を示す。
+pe の例文と&relative;&clause;を使った同じ意味の例文を示す。
 <en>
 Here is an example of ``pe", plus an equivalent sentence using a relative clause:
 </en>
@@ -688,8 +688,8 @@ The chair such-that (IT is-associated-with me) is-blue.
 
 <paragraph>
 <ln><name>例文 3.1</name><address>#ex3.1</address></ln>と<!--
---><ln><name>例文 3.2</name><address>#ex3.2</address></ln>において、<!--
--->椅子と&speaker;のつながりは最も弱い類のものである。
+--><ln><name>例文 3.2</name><address>#ex3.2</address></ln>では<!--
+-->椅子と&speaker;の関係は弱い種類のものである。
 <en>
 In <ln><name>Example 3.1</name><address>#ex3.1</address></ln> and
 <ln><name>Example 3.2</name><address>#ex3.2</address></ln>,
@@ -697,18 +697,18 @@ the link between the chair and the speaker is of the loosest kind.
 </en>
 </paragraph>
 
-<note># 訳注: "the link ... is of the loosest kind"
-を「つながりは最も弱い類のものである」と訳したが、<!--
--->日本語としてあまりきれいではないと思う。次回の見直しの際によく考えること</note>
+<note># note: 関係というものの種類がその強さによって<!--
+-->いくつかのグループに分けられて、<!--
+-->そのなかで最も弱いグループを pe が表しているということ</note>
 
 <paragraph>
-"po" の例文を示す。
+po の例文を示す。
 <en>Here is an example of ``po":</en>
 </paragraph>
 
 <example><ex_no>3.3</ex_no>
 <lojban>le stizu po mi cu xunre</lojban>
-<japanese>その私と特別な関係のある椅子は赤い。</japanese>
+<japanese>その私と特別な関係にある椅子は赤い。</japanese>
 <en>
 The chair specific-to me is red.
 </en>
@@ -716,7 +716,7 @@ The chair specific-to me is red.
 
 <example><ex_no>3.4</ex_no>
 <lojban>le stizu poi ke'a se steci srana mi cu xunre</lojban>
-<japanese>その私と特別な関係のある椅子は赤い。</japanese>
+<japanese>その私と特別な関係にある椅子は赤い。</japanese>
 <en>
 The chair such-that (IT is-specifically associated-with me)
 </en>
@@ -727,14 +727,14 @@ The chair such-that (IT is-specifically associated-with me)
 --><ln><name>例文 3.4</name><address>#ex3.4</address></ln>では<!--
 --><ln><name>例文 3.1</name><address>#ex3.1</address></ln>、<!--
 --><ln><name>例文 3.2</name><address>#ex3.2</address></ln>と比較して、<!--
--->椅子はより&permanently;&speaker;と&connect;している。<!--
+-->椅子はより&permanently;&speaker;に&connect3;ている。<!--
 --><ln><name>例文 3.1</name><address>#ex3.1</address></ln>と<!--
 --><ln><name>例文 3.3</name><address>#ex3.3</address></ln><!--
--->の&between;の、&plausible;な(しかし、それだけではない)&contrast;としては、<!--
--->"pe mi" が(&speaker;が所有していようといまいと)今現在&speaker;が<!--
--->座っている椅子に使うのが&appropriate;なのに対して、"po mi" が<!--
--->(&speaker;が現在使用しているかどうかに関わらず)&speaker;が所有する椅子に<!--
--->使うのが&appropriate;であるということだろう。
+-->の意味の違いはたとえば以下のようなものである。<!--
+-->ただし、これらは解釈の一例でありほかの解釈もありうる。<!--
+-->つまり、pe mi は(&speaker;が所有していてもいなくても)今現在&speaker;が<!--
+-->座っている椅子を示し、po mi は<!--
+-->(&speaker;が現在座っていてもいなくても)&speaker;が所有する椅子を示す。
 <en>
 <ln><name>Example 3.3</name><address>#ex3.3</address></ln> and
 <ln><name>Example 3.4</name><address>#ex3.4</address></ln> contrast with
@@ -749,13 +749,14 @@ would be appropriate for a chair the speaker is currently sitting of
 by the speaker (whether or not he or she was currently occupying it).
 </en>
 </paragraph>
-<note># 訳注: 上の訳はすこしましになったが、さらに流暢な日本語に意訳すること</note>
+<note># note: 上の訳はだいぶましになったが、さらに流暢な日本語に意訳すること</note>
 
 <paragraph>
-&as_a_result;、法的にしろ何にしろ必ずしも&possession;<!--
--->&imply;わけではないが、
-"po" によって表されるふたつの&sumti;の&between;の関係は普通「所有」と呼ばれる。<!--
--->中心的な&concept;は特別(&lojban;では "steci")であるということだ。
+&as_a_result2;、<!--
+-->po でつながれたふたつの&sumti;の関係はたいてい「所有」と呼ばれる。<!--
+-->しかし、po が意味するのは法的な&ownership2;やその他の意味での&ownership2;だけ<!--
+-->ではない。<!--
+-->中心的な&concept;は特別(&lojban;では steci)であるということだ。
 <en>
 As a result, the relationship expressed between two sumti by ``po" is
 usually called ``possession",
@@ -763,10 +764,15 @@ although it does not necessarily imply ownership, legal or otherwise.
 The central concept is that of specificity(``steci" in Lojban).
 </en>
 </paragraph>
-<note># 訳注: 同上</note>
+<note># note: although は本来ならば譲歩であり「...にも関わらず」<!--
+-->という意味であるが、より流暢な日本語とするために、「しかし、...」と訳した</note>
+<note># note: the relationship expressed between two sumti by "po" は本来ならば<!--
+-->「po で表されるふたつのスムティのあいだの関係」となるのだが<!--
+-->意味をとってより流暢な「po でつながれたふたつのスムティの関係」と訳した</note>
+<note># note: だいぶ良くなったが</note>
 
 <paragraph>
-"po'e" の例文と "po" の別の例文を示す。
+po'e の例文と po のもうひとつの例文を示す。
 <en>Here is an example of ``po'e", as well as another example of ``po":</en>
 </paragraph>
 

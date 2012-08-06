@@ -23,6 +23,7 @@
 	<!ENTITY apply4 "修飾">
 	<!ENTITY appropriate "適切">
 	<!ENTITY as_a_result "だから">
+	<!ENTITY as_a_result2 "このように">
 	<!ENTITY assignment "代入">
 	<!ENTITY associate "関係づけ">
 	<!ENTITY associated "">
@@ -64,6 +65,7 @@
 	<!ENTITY concept "意味">
 	<!ENTITY connect "関連">
 	<!ENTITY connect2 "つな">
+	<!ENTITY connect3 "むすびつけられ">
 	<!ENTITY connected "接続された">
 	<!ENTITY connection "接続">
 	<!ENTITY connective "接続詞">
@@ -106,6 +108,7 @@
 	<!ENTITY explicit "明示的な">
 	<!ENTITY explicitly "明示的に">
 	<!ENTITY express "表現">
+	<!ENTITY express2 "表">
 	<!ENTITY extrinsic "外来">
 	<!ENTITY fact "事実">
 	<!ENTITY false "誤り">
@@ -137,6 +140,7 @@
 	<!ENTITY immediately_follow2 "直後に続">
 	<!ENTITY immediately_preceding "直前にある">
 	<!ENTITY imply "という意味を含む">
+	<!ENTITY imply2 "を表す">
 	<!ENTITY inalienable "不可譲">
 	<!ENTITY incidental "非限定">
 	<!ENTITY incidental2 "つけたし">
@@ -233,6 +237,7 @@
 	<!ENTITY outer_quantifier "外部数量詞">
 	<!ENTITY override "を上書きする">
 	<!ENTITY ownership "本来の意味での所有">
+	<!ENTITY ownership2 "所有">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
 	<!ENTITY perfectly_all_right "まったく問題ない">
@@ -309,7 +314,7 @@
 	<!ENTITY signal_n "シグナル">
 	<!ENTITY signal_v "を示す">
 	<!ENTITY significance "意味">
-	<!ENTITY single "単一の">
+	<!ENTITY single "ひとつの">
 	<!ENTITY singular "単数">
 	<!ENTITY solely "ただ">
 	<!ENTITY somewhat "いくらか">
