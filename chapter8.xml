@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 21% くらい翻訳</note>
+<note># 22% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
@@ -808,12 +808,12 @@ The bottole specific-to me is-broken
 -->ふたつの種類の所有を対比している。<!--
 -->そのふたつとは&intrinsic;と&extrinsic;である。<!--
 -->&inalienable;と&alienable;とも呼ばれる。<!--
--->何かが&intrinsic;(あるいは&inalienable;)に&possess;されていると言えるのは<!--
+-->何かが&intrinsic;(&inalienable;)に&possess;されていると言えるのは<!--
 -->&possession2;が&possessor;の一部であり、<!--
 -->&possessor;を変化させずにそれを変えることができないときである。<!--
---><ln><name>例文 3.5</name><address>#3.5</address></ln>を見てみると、<!--
+--><ln><name>例文 3.5</name><address>#3.5</address></ln>を見てみよう。<!--
 -->人々は通常腕を&intrinsic;に&possess;しているとされる。<!--
--->たとえ、もし腕が切り落とされてもその腕はその人のものである<!--
+-->たとえ、腕が切り落とされたとしてもその腕はその人のものである<!--
 -->(ただし、もし腕が移植されたとしたら、それは新しい使用者に&intrinsic;に<!--
 -->&possess;されていることになる。つまり、&intrinsic;な&possess;とは程度の<!--
 -->問題なのだ)。
@@ -872,10 +872,10 @@ The arm of-body me is broken
 </example>
 
 <paragraph>
-このように言えるのは、&gismu; "brika" が腕が属する体を表す x2
+このように言えるのは、&gismu; brika が腕が属する体を表す x2
 の場所を持つからだ。<!--
 -->このように、たいていにおいて、&intrinsic;&possession;は
-"po'e" を使わないで、&possessor;を&description;&selbri;の適当な場所に<!--
+po'e を使わないで、&possessor;を&description;&selbri;の適当な場所に<!--
 -->置くことで表せる。
 <en>
 reflecting the fact that the gismu ``birka" has an x2 place representing
@@ -887,7 +887,7 @@ description selbri.
 </paragraph>
 
 <paragraph>
-"po'u" の例文を示す。
+po'u の例文を示す。
 <en>Here is an example of ``po'u":</en>
 </paragraph>
 
@@ -908,20 +908,24 @@ The dog which = my friend kisses me.
 </example>
 
 <paragraph>
-&cmavo; "po'u" は所有ではなく同一を意味する<!--
--->("po'u" は "poi du" を意味するのでその関係を&suggest;す形が選ばれた)。
+&cmavo; po'u は所有ではなく同一を意味する<!--
+-->(po'u は poi du を意味するのでその関係を&suggest;す形が選ばれた)。
 <en>
 The cmavo ``po'u" does not represent possession at all, but rather identity.
 (Note that it means ``poi du" and its form was chosen to suggest the relationship.)
 </en>
 </paragraph>
 
+<note># note: note that it meas "poi du" and its form was chosen to suggest
+the relationship を「... は ... を意味するのでその関係を&suggest;す形が選ばれた」<!--
+-->としたが、もうすこしさりげない言いかたに直したい</note>
+
 <paragraph>
-<ln><name>例文 3.9</name><address>#ex3.9</address></ln>では<!--
--->"po'u" を使って、"le gerku" と "le mi pendo"
-が同じもの&represent;していることを示している。<!--
---><ln><name>例文 3.9</name><address>#ex3.9</address></ln>と以下の&difference;<!--
--->について見てみよう。
+<ln><name>例文 3.9</name><address>#ex3.9</address></ln>では
+po'u が使われていることで le gerku と le mi pendo
+が同じものを&represent2;していることがわかる。<!--
+--><ln><name>例文 3.9</name><address>#ex3.9</address></ln>と以下の例文との<!--
+-->ちがいを見てみよう。
 <en>
 In <ln><name>Example 3.9</name><address>#ex3.9</address></ln>
 the use of ``po'u"
@@ -940,10 +944,10 @@ My friend which-is the dog kisses me.
 </example>
 
 <paragraph>
-事実としては同じであるが状況に対する&listener;の知識は異なる。<!--
+これらは事実としては同じであるが状況に対する&listener;の知識はちがうかもしれない。<!--
 --><ln><name>例文 3.9</name><address>#ex3.9</address></ln>では、<!--
--->&listener;はたぶん "le gerku" がどの犬を指すのかわからないのだろう。<!--
--->それで、&speaker;は彼の友達であるような特定の犬としてはっきりさせるために、<!--
+-->&listener;はたぶん le gerku がどの犬を指すのかわからないのだろう。<!--
+-->それで、&speaker;は彼の友達であるような特定の犬としてはっきりさせるために<!--
 -->&relative;&phrase;をつける。
 <en>
 The facts of the case are the same, but the listener's knowledge about
@@ -955,12 +959,18 @@ dog which is the speaker's friend.
 </en>
 </paragraph>
 
+<note># note: but the listener's knowledge about the situation may not be
+を「状況に対する&listener;の知識はちがうかもしれない」と訳したが、<!--
+-->「その場における&listener;の知識についてはちがいがある」と訳すか、<!--
+-->もっと良い訳があるように思う。そもそも knowledge を知識と訳すのが固すぎる<!--
+-->気がするが他に良い訳が見当たらない</note>
+
 <paragraph>
 <ln><name>例文 3.11</name><address>#ex3.11</address></ln>では、<!--
--->&listener;は&speaker;の友達のうちの誰を指しているのかがわからないのだろう。<!--
--->だから、それが犬であるような友達であるとして特定している<!--
+-->&listener;は&speaker;がどの友達を指しているのかがわからないのだろう。<!--
+-->だから、その友達が犬であると特定している<!--
 -->(どの犬であるかは明らかとされる)。<!--
--->同じ対照の別の例を示す。
+-->同じ対照の例文を示す。
 <en>
 <ln><name>Example 3.11</name><address>#ex3.11</address></ln>, however,
 assumes that the listener does not know which of the speaker's friends is
@@ -971,7 +981,7 @@ Here is another example of the same contrast:
 </en>
 </paragraph>
 
-<note># 訳注: "which dog is taken to be obvious" の意味がはっきりしない。<!--
+<note># note: "which dog is taken to be obvious" の意味がはっきりしない。<!--
 -->「その犬は明らかとされる」「どの犬であるかは明らかとされる」等の訳を試みた。<!--
 -->ニュアンス的には「"that is the dog" によって指される犬は一意に決まる」と<!--
 -->いったところだろうか</note>
@@ -993,15 +1003,21 @@ New York the city (not the state or some other New York)
 </example>
 
 <paragraph>
-GOI に属する&cmavo;にはすべて&possessor;と&possessed;を入れ換えられるという<!--
--->法則がある。<!--
--->それによって変な印象を受けることがある。
+GOI に属する&cmavo;には&possessor;と&possessed;を入れ換えられるという<!--
+-->原則があるため、<!--
+-->おかしな感じがする文を作ることができる。
 <en>
 The principle that the possessor and the possessed may change
 places applies to all the GOI cmavo,
 and allows for the possibility of odd effects:
 </en>
 </paragraph>
+<note># 訳注: pe や po が意味するのは関係があるということであって、<!--
+-->それが所有と解釈される場合が多いというだけである。<!--
+-->つまり、もともとは所有の意味は含まれて<!--
+-->いない。「関係がある」というだけの関係なので両辺は入れ換え可能となる。<!--
+-->しかし、英語の of や日本語の「の」として解釈した場合にはすこし変な感じがする<!--
+-->ということだろう。</note>
 
 <example><ex_no>3.14</ex_no>
 <lojban>le kabri pe le mi pendo cu cmalu</lojban>
@@ -1014,7 +1030,7 @@ My friend's cup is small
 
 <example><ex_no>3.15</ex_no>
 <lojban>le mi pendo pe le kabri cu cmalu</lojban>
-<japanese>そのコップとともにいる私の友達は小さい。</japanese>
+<japanese>そのコップの私の友達は小さい。</japanese>
 <en>
 My friend associated-with the cup is small.
 My friend, the one with the cup, is small.
@@ -1023,16 +1039,16 @@ My friend, the one with the cup, is small.
 
 <paragraph>
 <ln><name>例文 3.14</name><address>#ex3.14</address></ln><!--
--->は私の友達という文脈のなかで、<!--
--->彼または彼女のコップが小さいと言うときに使える。<!--
+-->は「私の友達」がすでに話に出ていて、<!--
+-->その人のコップが小さいと言うときに使える。<!--
 -->それに対して、<ln><name>例文 3.15</name><address>#ex3.15</address></ln><!--
--->は、まず第一に特定のコップという文脈があり、<!--
--->そのうえで他の私の友達から区別される<!--
+-->は、なんらかの「コップ」がさきに話に出ていて、<!--
+-->そのうえでほかの友達から区別して<!--
 -->「そのコップの私の友達」のことを話すときに使える。<!--
--->コップが人間を「所有」しているように表される。<!--
--->英語ではこの関係を所有としては表現できない。<!--
+-->この表現だとコップが人間を「所有」しているみたいに見える。<!--
+-->日本語ではこの関係を所有としては表現できない。<!--
 -->「そのコップの私の友達」は意味をなさないように見える。<!--
--->しかし&lojban;ではそう言うことに何の問題もない。
+-->しかし&lojban;では問題なくそう言える。
 <en>
 <ln><name>Example 3.14</name><address>#ex3.14</address></ln> is useful in a context
 which is about my friend, and states that his or her cup is small,
@@ -1046,6 +1062,18 @@ English can't even express this relationship with a possessive ---
 but Lojban has no trouble doing so.
 </en>
 </paragraph>
+
+<note># note: in a context which is about my friend をどう訳すか。<!--
+-->「私の友達という文脈」だと固い。<!--
+-->「私の友達のことを話しているときに」等が良いか<!--
+-->あるいはもっと意訳して「私の友達が既出のときに」等も考えられる</note>
+<note># note: is useful in a context which ... の useful をどう訳すか。<!--
+-->「と言うときに使える」という訳だと日本語らしくない気がする。<!--
+-->文脈も含めて、もっと良い意訳を考えること(次の見直しに回す)</note>
+<note># note: 原文では英語の my friend of the cup について<!--
+-->コップが人間を所有しているみたいで変だと言っている。<!--
+-->日本語の「の」だとコップの所有者を表すのに「そのコップの人」と言えなくもない。<!--
+-->英語独自の話題としてここらへんを削ってもいいかもしれない</note>
 
 <paragraph>
 最後に、&cmavo; "ne" と "no'u" があり、それぞれ "pe" と "pe'u" に対して、<!--
