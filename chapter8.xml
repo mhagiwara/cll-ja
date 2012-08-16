@@ -1076,9 +1076,9 @@ but Lojban has no trouble doing so.
 -->英語独自の話題としてここらへんを削ってもいいかもしれない</note>
 
 <paragraph>
-最後に、&cmavo; "ne" と "no'u" があり、それぞれ "pe" と "pe'u" に対して、<!--
--->"poi" に対する "noi" に該当するものである。<!--
--->それらは&incidental;な&information;を&provide;する。
+最後に、&cmavo; ne と no'u があり、それぞれ pe と pe'u に対して、<!--
+-->poi に対する noi に該当するものである。<!--
+-->つまり、&incidental;的な&information;を&provide;する。
 <en>
 Finally, the cmavo ``ne" and ``no'u" stand to ``pe" and ``po'u",
 respectively, as ``noi" does to ``poi" --- they provide incidental information:
@@ -1096,8 +1096,8 @@ The white dog, which is mine, bites you.
 
 <paragraph>
 <ln><name>例文 3.16</name><address>#ex3.16</address></ln><!--
--->では、白い犬はすでに完全に決まっている<!--
--->(つまり、&listener;はどの犬が彼または彼女をかんだかを知っているのだろう)。<!--
+-->では、どの白い犬かは最初からわかっている<!--
+-->(どの犬が自分をかんだかはだいたいわかるだろう)。<!--
 -->その犬があなたのものだということは主&bridi;の内容への<!--
 -->&incidental2;でしかない。
 <en>
@@ -1108,9 +1108,14 @@ The fact that it is yous is merely incidental to the main bridi claim.
 </en>
 </paragraph>
 
+<note># note: after all, presumably ... を「当然 ... はずだ」と訳した。<!--
+-->ちょっとニュアンスが違うが、感じとしては、<!--
+-->「何だかんだいっても、結局のところどの犬が自分をかんだのかはだいたいわかるよね」<!--
+-->といった感じだ思う。</note>
+
 <paragraph>
-"po'u" と "no'u" の区別にはすこし微妙なところがある。<!--
--->何人かの人のいる部屋を考えよう。そのなかの1人がジムという名前だ。<!--
+po'u と no'u の区別にはすこし微妙なところがある。<!--
+-->人が何人かいる部屋を考えよう。そのなかの1人がジムという名前だ。<!--
 -->もし君が彼らの名前を知らなければこう言える。
 <en>
 Distinguishing between ``po'u" and ``no'u" can be a little tricky.
@@ -1129,7 +1134,7 @@ The man, Jim, is a poet.
 </example>
 
 <paragraph>
-ここでは、私はそこにいる人のうちの1人が詩人であり、&incidentally;<!--
+ここで、私はそこにいる人のうちの1人が詩人であり、&incidentally;<!--
 -->その人の名前がジムであると言っている。<!--
 -->もし君が彼らの名前を知っているならば、
 <en>
@@ -1149,9 +1154,9 @@ The man, the one named Jim, is a poet.
 </example>
 
 <paragraph>
-が適切だ。<!--
--->ここでは私が&mean;そうとしている人を&pick_out;るために、<!--
--->私が話している人がジムであるという&fact;を使っている。
+と私は言うだろう。<!--
+-->ここではその人の名前がジムであるということによって、<!--
+-->話題としている人を特定している。
 <en>
 is appropriate.
 Now I am using the fact that the man I am speaking of is Jim in order to pick out
@@ -1213,17 +1218,17 @@ or another's hands into his pockets, the fact can be specified.
 </delete>
 
 <paragraph>
-最後に、&cmavo; GOI の&elidable;&terminator;は&selma_o; GEhU に属する "ge'u"
+最後に、&cmavo; GOI の&elidable;&terminator;は&selma_o; GEhU に属する ge'u
 だが、必要とされることはまずない。<!--
 -->しかし、&logical;&connective;が&relative;&phrase;に&modify2;された&sumti;の<!--
 -->&immediately_follow2;く場合、その&logical;&connective;が<!--
 -->&relative;&phrase;の&sumti;ではなく<!--
 -->&modify2;された&sumti;に&affect;ようにするために<!--
--->明示的な "ge'u" が必要となる。<!--
+-->明示的な ge'u が必要となる<!--
 -->(&selma_o; GOI の名前のもととなった&cmavo;はどうなったか。<!--
 -->これは<ln><name>第7章</name><address>./chapter7</address></ln><!--
 -->で議論される。他の種類の&relative;&phrase;と文法的には同じでも、<!--
--->意味論的には別種だからだ)
+-->意味論的には別種だからだ)。
 <en>
 Finally, the elidable terminator for GOI cmavo is ``ge'u" of selma'o GEhU;
 it is almost never required.
