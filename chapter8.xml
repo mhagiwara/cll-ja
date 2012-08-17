@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 22% くらい翻訳</note>
+<note># 23% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
@@ -1243,7 +1243,7 @@ although the syntax is the same.)
 </en>
 </paragraph>
 
-<note># 訳注: 最後の()内は&cmavo; "goi" が意味論的には&relative;&phrase;ではない<!--
+<note># note: 最後の()内は&cmavo; goi が意味論的には&relative;&phrase;ではない<!--
 -->ということを言っている。よりわかりやすく意訳する必要がある</note>
 
 </section_contents>
@@ -1260,11 +1260,11 @@ although the syntax is the same.)
 <section_contents>
 
 <paragraph>
-&more_than_one;&relative;&clause;をひとつの&sumti;につけることが&neccessary;か<!--
+&more_than_one;の&relative;&clause;をひとつの&sumti;につけることが&neccessary;か<!--
 -->または&useful;ことがある。&lojban;では<!--
--->これは(&selma_o; ZIhE に属する)&cmavo; "zi'e" によって可能となる。<!--
--->"zi'e" は&one_or_more;&relative;&clause;をひとつの&unit;にまとめることで、<!--
--->同じひとつの&sumti;にかかるようにする。たとえば、
+-->そのために&selma_o; ZIhE に属する&cmavo; zi'e を使う。<!--
+-->zi'e は&more_than_one;の&relative;&clause;をひとまとまりにすることで、<!--
+-->おなじひとつの&sumti;にかかるようにする。たとえば、
 <en>
 Sometimes it is neccessary or useful to attach more than
 one relative clause to a sumti.
@@ -1274,11 +1274,11 @@ thus making them apply to the same sumti. For example:
 </en>
 </paragraph>
 
-<note># 訳注: "one or more"ということで「&one_or_more;」と訳したが、<!--
--->ひとつの&relative;&clause;をまとめるというのはこの場合おかしいので、<!--
--->本文ならば "one or more" ではなく "more than one" が正しいと思われる。</note>
-<note># 訳注: 上記について考えて場合によっては "more than one" として、<!--
--->「&more_than_one;」と訳そうと思う。</note>
+<note># 訳注: one or more ということで「&one_or_more;」であるが、<!--
+-->ひとつの&relative;&clause;をまとめるというのはおかしいので、<!--
+-->one or more ではなく more than one が正しいと思われる。<!--
+-->よって more than one であると考えて「&more_than_one;の」と訳した</note>
+<note># note: necessary or useful を「&neccessary;かまたは&useful;」と訳したが</note>
 
 <example><ex_no>4.1</ex_no>
 <lojban>le gerku poi blabi zi'e poi batci le nanmu
@@ -1290,10 +1290,12 @@ The dog which is white and which bites the man goes.
 </example>
 
 <paragraph>
-普通、"zi'e" は英語では "and" と訳するが、"zi'e" は実際には&logical;&connective;<!--
--->ではなく、ほとんどの本当の&logical;&connective;<!--
+zi'e は英語ではよく and と訳されるが、本当の&logical;&connective;<!--
+-->ではない。&logical;&connective;<!--
 -->(<ln><name>第14章</name><address>./chapter14.html</address></ln><!--
--->で説明する)とは違い、文同士の&logical;&connection;に換えられない。
+-->参照)<!--
+-->のほとんどが文同士の&logical;&connection;に換えられるが、<!--
+-->zi'e では換えられない。
 <en>
 The most usual translation of ``zi'e" in English is ``and", but ``zi'e" is
 not really a logical connective:
@@ -1304,13 +1306,9 @@ it cannot be converted into a logical connection between sentences.
 </en>
 </paragraph>
 
-<note># 訳注: zi'e には "and" の意味がなかったとしても、<!--
--->両方が成り立つことを意味するわけで、結果的に "and" と同じ意味になるのでは<!--
--->ないだろうか</note>
-
 <paragraph>
-"zi'e" によって&different;種類の&relative;&clause;を&connect2;ぐ<!--
--->ことには何の問題もない。
+種類の&different2;&relative;&clause;同士を zi'e で&connect2;ぐ<!--
+-->ことができる。
 <en>
 It is perfectly correct to use ``zi'e" to connect relative clauses of different
 kinds:
@@ -1329,12 +1327,12 @@ The dog that is white, which my friend owns, is going.
 
 <paragraph>
 <ln><name>例文 4.2</name><address>#ex4.2</address></ln>では、<!--
--->&restrictive;&clause; "poi blabi" が&refer;す犬を決めるが、<!--
--->&incidental;&clause; "noi le mi pendo cu ponse" は&incidental;的な<!--
--->情報である。<!--
--->&listener;は "poi blabi" だけでどの犬かわかるということになる。<!--
--->もちろん、&incidental;&clause;が先に来ても<!--
--->(強調の違いはあるかもしれないが)意味は変わらない。
+-->&restrictive;&clause; poi blabi は問題となる犬を決めるが、<!--
+-->&incidental;&clause; noi le mi pendo cu ponse は&incidental2;<!--
+-->である。<!--
+-->&listener;は poi blabi だけでどの犬かわかるということになる。<!--
+-->もちろん、&incidental;&clause;を先にしても<!--
+-->、強調については変わるにしても、意味は変わらない。
 <en>
 In <ln><name>Example 4.2</name><address>#ex4.2</address></ln>,
 the restrictive clause ``poi blabi" specifies which dog is referred to,
@@ -1346,9 +1344,12 @@ incidental clause appears first.
 </en>
 </paragraph>
 
+<note># note: though not necessarily the emphasis
+を「強調については変わるにしても」と訳したが</note>
+
 <paragraph>
-&relative;&phrase;同士または、&relative;&phrase;と&relative;&clause;を
-"zi'e" でつなぐこともできる。
+&relative;&phrase;同士または、&relative;&phrase;と&relative;&clause;も
+zi'e でつなぐことができる。
 <en>
 It is also possible to connect relative phrases with ``zi'e", or a
 relative phrase with a relative clause:
@@ -1366,13 +1367,12 @@ My blue bottle is broken.
 
 <paragraph>
 ちなみに、<ln><name>例文 4.3</name><address>#ex4.3</address></ln>の<!--
--->意訳が「私の瓶、それは青いのだが、が壊れた。」であったならば、<!--
--->&lojban;のほうは "poi" ではなく "noi" が正しいことになる。<!--
--->なぜならその場合の意訳では(瓶を特定するのに)瓶が青いことを知る必要は<!--
--->ないからだ。<!--
--->前にも書いたように、<ln><name>例文 4.3</name><address>#ex4.3</address></ln><!--
--->は私が&probably;&more_than_one;瓶を持っていて、<!--
--->問題の瓶は青いものとして&pick_out;られる必要があることを&suggest;す。
+-->意訳が「私の瓶、それは青いのだが、が壊れる。」であったならば、<!--
+-->&lojban;のほうでは poi ではなく noi を使う。<!--
+-->この場合、瓶が青いということは瓶を決めるのに必要ないからだ。<!--
+--><ln><name>例文 4.3</name><address>#ex4.3</address></ln><!--
+-->は&probably;&more_than_one;ある瓶のなかから、<!--
+-->話題となる青い瓶を&pick_out2;必要があるということだ。
 <en>
 Note that if the colloquial translation of
 <ln><name>Example 4.3</name><address>#ex4.3</address></ln>
@@ -1398,14 +1398,14 @@ I will sit in my chair (really yours), the red one.
 </example>
 
 <paragraph>
-<ln><name>例文 4.4</name><address>#ex4.4</address></ln>では、<!--
+<ln><name>例文 4.4</name><address>#ex4.4</address></ln>は、<!--
 -->ふたつより多くの&relative;&phrase;または&clause;が
-"zi'e" でつなげられることが示されている。<!--
+zi'e でつなげられることを示している。<!--
 -->この例文はほとんど意訳できない。<!--
--->なぜなら、日本語で表せない対比が、<!--
--->椅子を&temporarily;私と関係づける "pe mi" と<!--
--->椅子をより&permanently;あなたに関係づける "po do" との&between;にあるからだ<!--
--->(&perhaps;、私はあなたの家の招待客なのかもしれない。<!--
+-->椅子を&temporarily;私と関係づける pe mi と<!--
+-->椅子をより&permanently;あなたに関係づける po do とを<!--
+-->日本語では区別できないからだ<!--
+-->(&perhaps;、私はあなたの家に招待されたのかもしれない。<!--
 -->それならばその椅子は&naturally;あなたの&property;ということになる)。
 <en>
 <ln><name>Example 4.4</name><address>#ex4.4</address></ln>
@@ -1420,9 +1420,9 @@ your property.)
 </paragraph>
 
 <paragraph>
-もうひとつの例文を示す。<!--
--->そこでは、ひとつの&relative;&phrase;とふたつの&relative;&clause;とが、
-そして&restrictive;と&non_restrictive;とがまとめられている。
+もうひとつ例文を示す。<!--
+-->ひとつの&relative;&phrase;とふたつの&relative;&clause;とが、<!--
+-->そして&restrictive;と&non_restrictive;とがまとめられている。
 <en>
 Here is another example, mixing a relative phrase and two relative clauses,
 a restrictive one and a non-restrictive one:
@@ -1432,7 +1432,7 @@ a restrictive one and a non-restrictive one:
 <example><ex_no>4.5</ex_no>
 <lojban>mi ba citka le dembi pe mi zi'e poi cpana
 le mi palta zi'e noi do dunda ke'a mi</lojban>
-<japanese>私は皿の上の私の豆を食べるだろう。それはあなたがくれたもの
+<japanese>私は皿の上の私の豆を食べるだろう、それはあなたがくれたもの
 だ。</japanese>
 <en>
 I [future] eat the beans associated-with me and which are-upon my plate

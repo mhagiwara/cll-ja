@@ -87,6 +87,7 @@
 	<!ENTITY descriptor2 "描写">
 	<!ENTITY difference "違い">
 	<!ENTITY different "違う">
+	<!ENTITY different2 "ちがう">
 	<!ENTITY dimensioned_unit "次元化された単位">
 	<!ENTITY direction "方向">
 	<!ENTITY discourse "談話">
@@ -204,7 +205,7 @@
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY modify "を修飾">
 	<!ENTITY modify2 "修飾">
-	<!ENTITY more_than_one "複数の">
+	<!ENTITY more_than_one "複数">
 	<!ENTITY morphological "形態学的な">
 	<!ENTITY much "だいたい">
 	<!ENTITY naturally "必然的に">
@@ -247,6 +248,7 @@
 	<!ENTITY personal "人称">
 	<!ENTITY phrase "句">
 	<!ENTITY pick_out "とりあげ">
+	<!ENTITY pick_out2 "選び出す">
 	<!ENTITY place "場所">
 	<!ENTITY placement "配置">
 	<!ENTITY place_structure "場所構造">
