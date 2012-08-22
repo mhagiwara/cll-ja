@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 23% くらい翻訳</note>
+<note># 24% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
@@ -30,6 +30,8 @@
 <note># note: (...は第...章で詳しく説明する)を(...については第...章参照)とする</note>
 <note># note: the link between the chair and the speaker is of the loosest kind.
 のうまい訳が見つからない</note>
+<note># note: 「違い」よりも「ちがい」のほうがよいかもしれない</note>
+<note># note: 「同じ」よりも「おなじ」のほうがよいかもしれない</note>
 </prenotes>
 
 <!-- section#1 -->
@@ -131,7 +133,7 @@ however, first we will discuss the cmavo ``poi" which also belongs to selma'o NO
 
 <paragraph>
 poi と ku'o の&between;には、<!--
--->ほかの&bridi;と同じ構文をもつ&full2;な&bridi;がはいる。<!--
+-->ほかの&bridi;とおなじ構文をもつ&full2;な&bridi;がはいる。<!--
 -->&relative;&clause;の&bridi;のなかでは&selma_o; KOhA に属する&pro_sumti;
 ke'a が使える。<!--
 -->ke'a は&relative;&clause;が&attach;られた&sumti;<!--
@@ -247,7 +249,7 @@ within a relative clause.
 </paragraph>
 
 <paragraph>
-ほかの&sumti;と同じく ke'a も&omit;できる。<!--
+ほかの&sumti;とおなじく ke'a も&omit;できる。<!--
 -->省略されているときはたいてい ke'a が x1 の場所にあるものと考えることができる。
 <en>
 Like any sumti, ``ke'a" can be omitted.
@@ -266,7 +268,7 @@ This-thing which is-a-nose is-big.
 
 <paragraph>
 はほぼ確実に<ln><name>例文 1.3</name><address>#ex1.3</address></ln>と<!--
--->同じ意味だ。<!--
+-->おなじ意味だ。<!--
 -->ke'a はその場所が&listener;にとって明らかであれば
 x1 以外の場所にあっても&omit;できる。
 <en>
@@ -287,7 +289,7 @@ That-distant-thing which the cat drags is-a-rat
 </example>
 
 <paragraph>
-は<ln><name>例文 1.5</name><address>#ex1.5</address></ln>と同じ意味だ。<!--
+は<ln><name>例文 1.5</name><address>#ex1.5</address></ln>とおなじ意味だ。<!--
 -->まえに&state;したように ku'o は&elidable;&terminator;で、<!--
 -->たいていは実際に&elidable2;である。<!--
 -->この章の残りの部分を通して ku'o は本当に必要なとき以外は省略する。<!--
@@ -570,7 +572,7 @@ Do you see my white car?
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln><!--
 -->は&relative;&clause;を使っていない<!--
 --><ln><name>例文 2.6</name><address>#ex2.6</address></ln>と<!--
--->&much;同じ意味である。
+-->&much;おなじ意味である。
 <en>
 Here the speaker probably has several cars,
 and is restricting the referent
@@ -593,8 +595,8 @@ Do you see my car, the white one?
 
 <paragraph>
 このように、&description;に&attach;られた&restrictive;&relative;&clause;<!--
--->は&often;&tanru;を含む&description;と同じ意味を表せる。<!--
--->しかし blabi karce はほかの&tanru;と同じように&somewhat;&vague;だ。<!--
+-->は&often;&tanru;を含む&description;とおなじ意味を表せる。<!--
+-->しかし blabi karce はほかの&tanru;とおなじように&somewhat;&vague;だ。<!--
 -->&tanru;の&in_principle;、それは白いものを運ぶ車を&refer2;してもいいし、<!--
 -->白-性と車-性を含むもっと複雑な&concept;を表してもいい。<!--
 --><ln><name>例文 2.5</name><address>#ex2.5</address></ln>の&restrictive;<!--
@@ -663,7 +665,7 @@ and consist of a GOI cmavo followed by a single sumti.
 </paragraph>
 
 <paragraph>
-pe の例文と&relative;&clause;を使った同じ意味の例文を示す。
+pe の例文と&relative;&clause;を使ったおなじ意味の例文を示す。
 <en>
 Here is an example of ``pe", plus an equivalent sentence using a relative clause:
 </en>
@@ -923,7 +925,7 @@ the relationship を「... は ... を意味するのでその関係を&suggest;
 <paragraph>
 <ln><name>例文 3.9</name><address>#ex3.9</address></ln>では
 po'u が使われていることで le gerku と le mi pendo
-が同じものを&represent2;していることがわかる。<!--
+がおなじものを&represent2;していることがわかる。<!--
 --><ln><name>例文 3.9</name><address>#ex3.9</address></ln>と以下の例文との<!--
 -->ちがいを見てみよう。
 <en>
@@ -944,7 +946,7 @@ My friend which-is the dog kisses me.
 </example>
 
 <paragraph>
-これらは事実としては同じであるが状況に対する&listener;の知識はちがうかもしれない。<!--
+これらは事実としてはおなじであるが状況に対する&listener;の知識はちがうかもしれない。<!--
 --><ln><name>例文 3.9</name><address>#ex3.9</address></ln>では、<!--
 -->&listener;はたぶん le gerku がどの犬を指すのかわからないのだろう。<!--
 -->それで、&speaker;は彼の友達であるような特定の犬としてはっきりさせるために<!--
@@ -970,7 +972,7 @@ dog which is the speaker's friend.
 -->&listener;は&speaker;がどの友達を指しているのかがわからないのだろう。<!--
 -->だから、その友達が犬であると特定している<!--
 -->(どの犬であるかは明らかとされる)。<!--
--->同じ対照の例文を示す。
+-->おなじ対照の例文を示す。
 <en>
 <ln><name>Example 3.11</name><address>#ex3.11</address></ln>, however,
 assumes that the listener does not know which of the speaker's friends is
@@ -1227,7 +1229,7 @@ or another's hands into his pockets, the fact can be specified.
 -->明示的な ge'u が必要となる<!--
 -->(&selma_o; GOI の名前のもととなった&cmavo;はどうなったか。<!--
 -->これは<ln><name>第7章</name><address>./chapter7</address></ln><!--
--->で議論される。他の種類の&relative;&phrase;と文法的には同じでも、<!--
+-->で議論される。他の種類の&relative;&phrase;と文法的にはおなじでも、<!--
 -->意味論的には別種だからだ)。
 <en>
 Finally, the elidable terminator for GOI cmavo is ``ge'u" of selma'o GEhU;
@@ -1457,15 +1459,15 @@ I'll eat my beans that are on my plate, the ones you gave me.
 <section_contents>
 
 <paragraph>
-&selma_o; NOI には3種類目の&relative;&clause;を&introduce;くもうひとつの&member;
-"voi" がある。<!--
--->"voi" に&introduce;かれる&relative;&clause;は "poi"
-に&introduce;かれるもの同様に&restrictive;的である。<!--
--->しかし、"poi" &relative;&clause;と "voi"
-&relative;&clause;の&between;には&fundamental;&difference;がある。"poi"
-&relative;&clause;は "lo" や "loi" &in_the_same_sense;<!--
+&selma_o; NOI には三種類目の&relative;&clause;を&introduce;くもうひとつの&cmavo;
+voi がある。<!--
+-->voi に&introduce;かれる&relative;&clause;は poi
+に&introduce;かれるものとおなじく&restrictive;的である。<!--
+-->しかし、poi &relative;&clause;と voi
+&relative;&clause;には&fundamental;&difference;がある。poi
+&relative;&clause;は lo や loi &in_the_same_sense;<!--
 -->真実として発言されている。<!--
--->その&bridi;は実際に事実であるとして解釈する必要がある。例えば、
+-->その&bridi;は実際に事実として解釈しなければならない。たとえば、
 <en>
 There is another member of selma'o NOI which serves to introduce a third kind
 of relative clause: ``voi".
@@ -1480,11 +1482,14 @@ For example:
 </en>
 </paragraph>
 
-<note># 訳注: "A `poi' relative clause is said to be veridical,"
-をどう訳すべきだろうか。ここでは "is said" を普通に受動態とし、<!--
--->"to be veridical" を「真実であるように」と解釈した。<!--
--->"be said to be" を熟語として解釈すると意味が通らないように感じた。<!--
+<note># note: 「三種類目」というのがどうにも美しくないのだが、<!--
+-->しかし third kind of はそう訳すしかないかな</note>
+<note># note: A `poi' relative clause is said to be veridical,
+をどう訳すべきだろうか。ここでは is said を普通に受動態とし、<!--
+-->to be veridical を「真実であるように」と解釈した。<!--
+-->be said to be を熟語として解釈すると意味が通らないように感じた。<!--
 -->再検討の必要あり</note>
+<note># note: actually be true を「実際に事実であるとして」と訳したがくどいかも</note>
 
 <example><ex_no>5.1</ex_no>
 <lojban>le gerku poi blabi cu klama</lojban>
@@ -1496,9 +1501,9 @@ The dog which is-white goes.
 
 <paragraph>
 犬が白いのは&actually;&true;でなければならず、<!--
--->そうでなければこの文はまちがいを伝えていることになる。<!--
+-->そうでなければこの文はまちがいとなる。<!--
 -->白い犬と茶色い犬とがいるときに&speaker;が茶色い犬を&refer;すのに
-"le gerku poi blabi" を使ったら、&listener;は正しく理解することが<!--
+le gerku poi blabi を使ったら、&listener;は正しく理解することが<!--
 -->できないだろう。しかし、
 <en>
 it must actually be true that the dog is white,
@@ -1510,8 +1515,12 @@ However,
 </en>
 </paragraph>
 
-<note># 訳注: "miscommunication" のニュアンスを訳文に出すのが難しい。<!--
+<note># note: miscommunication のニュアンスを訳文に出すのが難しい。<!--
 -->「誤まった伝達」や「うまく伝わらない」といった感じなのだろうと思うが</note>
+<note># note: 「誤解をまねく」という表現はややニュアンスがずれるがこなれてはいる</note>
+<note># note: 「誤解されるだろう」あたりが調度いいか</note>
+<note># note: しかし「誤解」という言葉には「言っていることは正しいが」という<!--
+-->ニュアンスがあるのでやはり意味的にぴったりこない</note>
 
 <example><ex_no>5.2</ex_no>
 <lojban>le gerku voi blabi cu klama</lojban>
@@ -1526,7 +1535,7 @@ the dog which-I-describe-as white goes
 -->かもしれないということに&listener;の&put_on_notice;。<!--
 -->&speaker;だけがその表現で何を意味しているのかを<!--
 -->正確に言うことができる。<!--
--->このように、"voi" は "le" のように&speaker;の意図によって意味が決まる。
+-->このように、voi は le のように&speaker;の意図によって意味が決まる。
 <en>
 puts the listener on notice that the dog in question may not actually
 meet objective standards (whatever they are) for being white:
@@ -1559,15 +1568,15 @@ This-thing which-I-describe-as a-man is-a-woman.
 </example>
 
 <paragraph>
-&essentially;同じことを意味する(<!--
+&essentially;おなじことを意味する(ただし、<!--
 --><ln><name>例文 5.5</name><address>#ex5.5</address></ln><!--
--->が "ti" による&pointing;を&involve2;むのに対して、<!--
+-->は ti による&pointing;を&involve2;むが、<!--
 --><ln><name>例文 5.4</name><address>#ex5.4</address></ln><!--
--->は&involve2;まないということ以外は)。<!--
+-->は&involve2;まない)。<!--
 -->どちらにも矛盾はない。<!--
 -->(&listener;を混乱させるかもしれないが)<!--
 -->たとえ&actually;は女であったとしても、その人を<!--
--->男として&describe;ことには&perfectly_all_right;。
+-->男として&describe;ことに&perfectly_all_right;。
 <en>
 mean essentially the same thing (except that
 <ln><name>Example 5.5</name><address>#ex5.5</address></ln>
@@ -1669,7 +1678,7 @@ and ``vau" is the terminator of the whole bridi.
 -->どこに&relative;&clause;が置かれるかは&style;や強調の問題でしかない。<!--
 -->&therefore;、&following2;例文は&all;<!--
 --><ln><name>例文 6.1</name><address>#ex6.1</address></ln>と<!--
--->同じ意味である。
+-->おなじ意味である。
 <en>
 When a simple descriptor using ``le", like ``le gerku", has a relative
 clause attached, it is purely a matter of style and emphasis where the
@@ -1863,7 +1872,7 @@ everything which the underlying selbri applies to.
 <paragraph>
 <ln><name>例文 6.5</name><address>#ex6.5</address></ln>はどうか。<!--
 -->慣例により<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
--->と同じ意味を表し、"ku" は要らないがそのかわり&typically; "ku'o"
+-->とおなじ意味を表し、"ku" は要らないがそのかわり&typically; "ku'o"
 を必要とする。<!--
 -->&relative;&clause;は&inner_quantifier;よりまえに来ることに<!--
 -->注意しよう。
@@ -2078,12 +2087,12 @@ namely the one(s) who are afraid of their horses.
 </en>
 </paragraph>
 
-<note>訳注: namely は「すなわち」ということで、おそらくその前後で同じもの<!--
+<note>訳注: namely は「すなわち」ということで、おそらくその前後でおなじもの<!--
 -->を指しているということを明示しているのだろうと思う</note>
 
 <paragraph>
-最後に、(さらに "re lo ro karce" と同じであるような) "re lo karce"
-とほぼ同じである "re karce" のような&indefinite;&sumti;も<!--
+最後に、(さらに "re lo ro karce" とおなじであるような) "re lo karce"
+とほぼおなじである "re karce" のような&indefinite;&sumti;も<!--
 -->&relative;&clause;を持つことができる。<!--
 -->これらは"ku" の外側の類として解釈される。例文を挙げる。
 <en>
@@ -2124,7 +2133,7 @@ Use an explicit ``lo" instead.
 <note># 訳注: re lo karce poi xekri ku と re lo kauce ku poi xekri との<!--
 -->意味の違い。前者では黒い車のうちの2台であり、<!--
 -->後者は車のうちの2台を取り出す際に黒いという条件がつくということか。<!--
--->結果としては同じことであると考えて良いのか、それとも何らかの意味の差異は<!--
+-->結果としてはおなじことであると考えて良いのか、それとも何らかの意味の差異は<!--
 -->残るのか</note>
 
 </section_contents>
@@ -2175,7 +2184,7 @@ the (associated-with me) car is-red.
 </example>
 
 <paragraph>
-は正確に同じ意味だ。<!--
+は正確におなじ意味だ。<!--
 -->さらに、ここでは&quantifier;についてとくに考慮する必要がないので、
 <en>
 means exactly the samething.
@@ -2195,7 +2204,7 @@ The car associated-with me is-red
 </example>
 
 <paragraph>
-もまた同じ意味である。<!--
+もまたおなじ意味である。<!--
 --><ln><name>例文 7.1</name><address>#ex7.1</address></ln>にあるような<!--
 -->&sumti;を「&possessive;&sumti;」と呼ぶ。<!--
 -->もちろん、これは&really;は&ownership;という意味での<!--
@@ -2203,7 +2212,7 @@ The car associated-with me is-red
 -->弱い関係&indicate;すだけである。<!--
 -->つまり、たとえただ一晩それを借りただけでも "le mi karce" と言える<!--
 -->(日本語では、「私の車」は普通 "le karce po mi" を意味する。<!--
--->しかし、「バスの私の席」は同じ意味での&possession;ではない。<!--
+-->しかし、「バスの私の席」はおなじ意味での&possession;ではない。<!--
 -->&lojban;では単純に弱いほうの意味を標準とする)。<!--
 --><ln><name>例文 7.1</name><address>#ex7.1</address></ln>の&inner_sumti;は<!--
 -->以上より「&possessor2;&sumti;」と呼ばれる。
@@ -2560,7 +2569,7 @@ An old ``The Red Pony" is in the far room.
 -->その「赤い小馬」のうちのある一冊が&restrictive;&relative;&clause;によって<!--
 -->特定される。<!--
 --><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は以下とまったく<!--
--->同じ意味だ。
+-->おなじ意味だ。
 <en>
 <ln><name>Example 8.3</name><address>#ex8.3</address></ln> is a bit complex,
 and may need some picking apart.
@@ -2596,8 +2605,8 @@ same as:
 <note># note: copy を意味する適当な日本語が思いつかない</note>
 <note># note: the particular copy of で「のうちのある一冊」と訳した</note>
 <note># note: identify を「特定する」と訳したがやや固い</note>
-<note># note: means exactly the same as を「正確に同じ意味だ」と訳すか、<!--
--->「まったく同じ意味だ」と訳すかで迷ったがとりあえず後者にしておいた</note>
+<note># note: means exactly the same as を「正確におなじ意味だ」と訳すか、<!--
+-->「まったくおなじ意味だ」と訳すかで迷ったがとりあえず後者にしておいた</note>
 
 <example><ex_no>8.4</ex_no>
 <lojban>la'e lu le xunre cumaxirma li'u lu'u poi
@@ -2904,7 +2913,7 @@ as sentences by themselves.
 <paragraph>
 &vocative_phrase;は形が&sumti;に似ているのがわかるだろう。<!--
 多分あなたの期待通りであるだろうが、
--->&vocative_phrase;は&sumti;と同じようにいろいろな場所に<!--
+-->&vocative_phrase;は&sumti;とおなじようにいろいろな場所に<!--
 -->&relative;&clause;を置くことができる。<!--
 -->(&vocative_word;に続く)単純な名前であるような&vocative_phrase;のなかでは<!--
 -->&relative;&clause;はその名前の直後に置く必要がある。
@@ -2947,7 +2956,7 @@ the one the speaker is greeting, must be distinguished.
 <paragraph>
 &selbri;を含む&vocative_phrase;は<!--
 -->&relative;&clause;をまえにもあとにも置くことができ、<!--
--->どちらでも同じ意味になる。以下に例文を示す。
+-->どちらでもおなじ意味になる。以下に例文を示す。
 <en>
 A vocative phrase containing a selbri can have relative clauses either
 before or after the selbri;
@@ -2979,7 +2988,7 @@ Goodbye, horse such-that (I am-at-it).
 <paragraph>
 <ln><name>例文 9.6</name><address>#ex9.6</address></ln>と<!--
 --><ln><name>例文 9.7</name><address>#ex9.7</address></ln>の<!--
--->意味は同じである。<!--
+-->意味はおなじである。<!--
 -->さらに、&relative;&clause;はまえとうしろの両方に置くことができる。
 <en>
 <ln><name>Example 9.6</name><address>#ex9.6</address></ln> and
@@ -3056,7 +3065,7 @@ The person who is in the room which he build is slow.
 <paragraph>
 ここで、ke'axire つまり「それ-2」はもっとも内側から数えて2番目の&relative;&clause;が&attach;られた<!--
 -->&sumti;である。<!--
--->&therefore;、"ke'axipa" (それ-1)は "ke'a" と同じ意味である。
+-->&therefore;、"ke'axipa" (それ-1)は "ke'a" とおなじ意味である。
 <en>
 Here, the meaning of ``IT-sub-2" is that sumti attached to the second relative
 clause,
