@@ -85,8 +85,9 @@
 	<!ENTITY description "描写">
 	<!ENTITY descriptor "描写型の冠詞">
 	<!ENTITY descriptor2 "描写">
-	<!ENTITY difference "違い">
+	<!ENTITY difference "ちがい">
 	<!ENTITY different "違う">
+	<!ENTITY different2 "ちがう">
 	<!ENTITY dimensioned_unit "次元化された単位">
 	<!ENTITY direction "方向">
 	<!ENTITY discourse "談話">
@@ -159,7 +160,7 @@
 	<!ENTITY insertion "挿入">
 	<!ENTITY interpretation "解釈">
 	<!ENTITY interval "範囲">
-	<!ENTITY in_the_same_sense "と同じ意味で">
+	<!ENTITY in_the_same_sense "とおなじ意味で">
 	<!ENTITY intonation "抑揚">
 	<!ENTITY intrinsic "固有">
 	<!ENTITY introducer "導入詞">
@@ -204,7 +205,7 @@
 	<!ENTITY modifier2 "修飾句">
 	<!ENTITY modify "を修飾">
 	<!ENTITY modify2 "修飾">
-	<!ENTITY more_than_one "複数の">
+	<!ENTITY more_than_one "複数">
 	<!ENTITY morphological "形態学的な">
 	<!ENTITY much "だいたい">
 	<!ENTITY naturally "必然的に">
@@ -240,13 +241,14 @@
 	<!ENTITY ownership2 "所有">
 	<!ENTITY particle "小辞">
 	<!ENTITY pause "停止">
-	<!ENTITY perfectly_all_right "まったく問題ない">
+	<!ENTITY perfectly_all_right "まったく問題はない">
 	<!ENTITY perhaps "もしかすると">
 	<!ENTITY permanent "持続的な">
 	<!ENTITY permanently "持続的に">
 	<!ENTITY personal "人称">
 	<!ENTITY phrase "句">
 	<!ENTITY pick_out "とりあげ">
+	<!ENTITY pick_out2 "選び出す">
 	<!ENTITY place "場所">
 	<!ENTITY placement "配置">
 	<!ENTITY place_structure "場所構造">
@@ -254,7 +256,7 @@
 	<!ENTITY plural "複数">
 	<!ENTITY point "指">
 	<!ENTITY point2 "位置">
-	<!ENTITY pointing "指し示し">
+	<!ENTITY pointing "指示">
 	<!ENTITY position "位置">
 	<!ENTITY possess "所有">
 	<!ENTITY possessed "所有物">
