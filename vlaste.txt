@@ -57,6 +57,7 @@ ellipsize	省略
 ellipsis	省略
 ellipsis of sumti	スムティの省略
 elliptical	省略的
+endpoint	端点
 epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
@@ -85,7 +86,7 @@ indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほう�
 indirect question	間接疑問
 inner quantifier	内部数量詞	# 提案
 internal bridi negation	内部ブリディ否定
-interval   範囲
+interval   範囲		# 数学の場合「区間」のほうが適切か
 introducer	導入詞	# 提案
 James Cooke Brown	ジェームズ・クック・ブラウン
 joiner	結合詞	# 提案: 第8章第4節の zi'e の名前として
@@ -187,6 +188,7 @@ selbri	セルブリ
 selma'o	セルマホ
 semantic primitives	意味素
 sentence	文
+sequence	並び # 提案
 shift	変意 #  提案
 shift word	変意詞 #  提案
 signal	シグナル	# 提案
