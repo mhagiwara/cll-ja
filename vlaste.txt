@@ -81,6 +81,7 @@ incidental relative phrase	付随関係句
 #       わかりやすいと思われる。意訳の部分では、
 #       non-restrictive と読みかえて、「非限定」と訳すのはどうだろうか。
 indefinite	不定の
+indefinite sumti	# 求む提案。「不定スムティ」かな。しかし何が不定なのかわからない
 indicate	を示す	# 提案
 indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほうがわかりやすいかも
 indirect question	間接疑問

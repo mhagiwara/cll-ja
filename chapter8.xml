@@ -2026,15 +2026,15 @@ That one or more people will be going.
 <paragraph>
 <ln><name>例文 6.8</name><address>#ex6.8</address></ln>では、<!--
 -->&relative;&clause;は&outer_quantifier;が&apply3;ったあとにその&sumti;を<!--
--->&describe2;する。つまり、&one_or_more2;人、その人たちは白いのだが、<!--
+-->&describe3;する。つまり、&one_or_more2;人、その人たちは白いのだが、<!--
 -->が行っている。<!--
 -->しかし、<ln><name>例文 6.9</name><address>#ex6.9</address></ln>では、<!--
 -->&relative;&clause;は&actually3;&outer_quantifier;が&apply3;るまえに<!--
--->その&sumti;を&describe2;する。<!--
--->つまり、その意味は「まずすべての人を&take;る。<!--
--->ところで、彼らは&all2;白いのだが」となる。<!--
--->しかし、&all;の人間が白いわけではないので、<!--
--->この&incidental;的な&claim;は&false;となる。
+-->その&sumti;を&describe3;する。<!--
+-->「まずすべての人を&take;る。<!--
+-->ところで、彼らは&all2;白いのだが」ということになる。<!--
+-->&all;の人間が白いわけではないので、<!--
+-->この関係節の内容は&false;となる。
 <en>
 In <ln><name>Example 6.8</name><address>#ex6.8</address></ln>,
 the relative clause described the sumti once the outer quantifier was applied:
@@ -2078,10 +2078,10 @@ But  not all people are white, so the incidental claim being made here is false.
 </delete>
 
 <paragraph>
-安全な&strategy;は、&therefore;、"noi" &relative;&clause;を
-"lo" &descriptor2;に&attach;るときにはいつも "ku"
-を使うということである。<!--
--->そうしないと多く&claim;しすぎることとなるかもしれない。
+&therefore2;、noi &relative;&clause;を
+lo による&descriptor2;に&attach;るときにはいつも ku
+を使うことにしたほうが安全である。<!--
+-->そうしないと言いすぎることになるかもしれない。
 <en>
 The safe strategy, therefore, is to always use ``ku" when attaching a ``noi"
 relative clause to a ``lo" descriptor.
@@ -2095,12 +2095,11 @@ Otherwise we may end up claiming far too much.
 -->もっとちゃんとした日本語に意訳すること</note>
 
 <paragraph>
-&descriptor;が "la" のとき、<!--
--->つまり&following;&selbri;が名前として使われるということだが、<!--
--->そのときには、&relative;&clause;の位置は違う&significance;を持つ。<!--
--->"ku" のなかにある&relative;&clause;は、&selbri;のまえでもあとでも、<!--
--->名前の一部に含まれる。<!--
--->"ku" の外にある&relative;&clause;はそうではない。&therefore;、
+la に続く&selbri;は名前として使われるので、<!--
+-->&relative;&clause;の位置のちがいによる影響も変わってくる。<!--
+-->ku のなかにある&relative;&clause;は&selbri;のまえでもあとでも<!--
+-->名前の一部となるが、<!--
+-->ku の外にある&relative;&clause;はそうではない。&therefore;、
 <en>
 When the descriptor is ``la", indicating that what follows is a selbri used
 for naming,
@@ -2122,8 +2121,8 @@ I see Man Afraid Of His Horse.
 </example>
 
 <paragraph>
-&speaker;はその名前を持った人を見ているのであり、<!--
--->その人は必ずしも馬を恐れてはいない。しかし、
+では、&speaker;はその名前の人を見ているのであり、<!--
+-->その人は馬を恐れているとは限らない。しかし、
 <en>
 says that the speaker sees a person with a particular name,
 who does not necessarily fear any horses, whereas
@@ -2140,21 +2139,22 @@ I see the person named ``Man" who is afraid of his horse.
 </example>
 
 <paragraph>
-は「男」という名前で自分の馬を恐れている人(または人達)を見るということを&refer;す。
+は「男」という名前で自分の馬を恐れている人(たち)を見るということを&refer;す。
 <en>
 refers to one (or more) of those named ``Man",
 namely the one(s) who are afraid of their horses.
 </en>
 </paragraph>
 
-<note>訳注: namely は「すなわち」ということで、おそらくその前後でおなじもの<!--
+<note>note: namely は「すなわち」ということで、おそらくその前後でおなじもの<!--
 -->を指しているということを明示しているのだろうと思う</note>
 
 <paragraph>
-最後に、(さらに "re lo ro karce" とおなじであるような) "re lo karce"
-とほぼおなじである "re karce" のような&indefinite;&sumti;も<!--
--->&relative;&clause;を持つことができる。<!--
--->これらは"ku" の外側の類として解釈される。例文を挙げる。
+最後に、re lo karce
+(つまり re lo ro karce)とほぼおなじ意味の
+re karce のようないわゆる&indefinite2;&sumti;にも<!--
+-->&relative;&clause;をつけられる。<!--
+-->この場合、ku の外側の位置として解釈される。例文を挙げる。
 <en>
 Finally, so-called indefinite sumti like ``re karce",
 which means almost the same as ``re lo karce"
@@ -2165,6 +2165,17 @@ Here is an example:
 </en>
 </paragraph>
 
+<note># note: indefinite sumti の意味合いがわからない。<!--
+-->&quantifier; + &sumti; の構造をそう呼ぶのだと思うが、<!--
+-->何が「不定」なのかがよくわからない。<!--
+-->とりあえず今のところは「不定&sumti;」と訳しておく</note>
+<note># note: means almost the same as "re lo karce" とあるが、<!--
+-->どうして almost なのだろうか。意味の違いがあるのだろうか</note>
+<note># note: これが ku の外側として解釈されるというのは統一感がない気がする。<!--
+-->理論的な統一感よりも使いやすさを優先したということか。<!--
+-->この場合のスムティには ku がつけられないからということなのかもしれない。<!--
+-->xorlo 以降ではまた解釈が変わっているかもしれない</note>
+
 <example><ex_no>6.12</ex_no>
 <lojban>mi ponse re karce [ku] poi xekri</lojban>
 <japanese>私はふたつの黒い車を持っている。</japanese>
@@ -2174,12 +2185,12 @@ I possess two cars which-are black.
 </example>
 
 <paragraph>
-&restrictive;&relative;&clause;は存在するすべての車にではなく、<!--
--->&main;&bridi;に関連づけられたふたつの車にだけかかる。<!--
--->&relative;&clause;を&indefinite;&sumti;の内部に<!--
--->(つまり&explicitly;表された&terminator; "ku" の前に)<!--
--->置こうとするのは&ungrammatical;。<!--
--->代わりに、&explicit; "lo" を使う。
+&restrictive;&relative;&clause;はすべての車にではなく、<!--
+-->&main;&bridi;に関係するふたつの車にだけ係る。<!--
+-->&relative;&clause;を&indefinite2;&sumti;の内部<!--
+-->(つまり&explicit;&terminator; ku の前)に<!--
+-->置くのは&ungrammatical;。<!--
+-->代わりに&explicit; lo を使う。
 <en>
 The restrictive relative clause only affects the two cars being affected by
 the main bridi,
@@ -2190,11 +2201,17 @@ Use an explicit ``lo" instead.
 </en>
 </paragraph>
 
-<note># 訳注: re lo karce poi xekri ku と re lo kauce ku poi xekri との<!--
+<note># note: re lo karce poi xekri ku と re lo kauce ku poi xekri との<!--
 -->意味の違い。前者では黒い車のうちの2台であり、<!--
 -->後者は車のうちの2台を取り出す際に黒いという条件がつくということか。<!--
 -->結果としてはおなじことであると考えて良いのか、それとも何らかの意味の差異は<!--
 -->残るのか</note>
+<note># note: 上記 note について。前者は黒い車がいくつかあるうちの2台であり、<!--
+-->後者は車がいくつかあるうちの黒い2台となる。<!--
+-->ただ、その場合に選ばれた2台以外に黒い車があっても良いのかどうかは、<!--
+-->よくわからない。noi ならもちろん問題ない。<!--
+-->黒い車として限定して、そのなかから2台を選ぶということを考えて良いのだろうか
+</note>
 
 </section_contents>
 </section>

@@ -82,6 +82,7 @@
 	<!ENTITY definition "定義">
 	<!ENTITY describe "描写する">
 	<!ENTITY describe2 "説明">
+	<!ENTITY describe3 "修飾">
 	<!ENTITY description "描写">
 	<!ENTITY descriptor "描写型の冠詞">
 	<!ENTITY descriptor2 "描写">
@@ -148,6 +149,7 @@
 	<!ENTITY incidentally "つけたしとして">
 	<!ENTITY include "含">
 	<!ENTITY indefinite "不定の">
+	<!ENTITY indefinite2 "不定">
 	<!ENTITY indicate "を示">
 	<!ENTITY indicate2 "示唆">
 	<!ENTITY indicator "心態詞">
@@ -356,6 +358,7 @@
 	<!ENTITY termset "名辞組">
 	<!ENTITY text "文章">
 	<!ENTITY therefore "だから">
+	<!ENTITY therefore2 "このように">
 	<!ENTITY thus "だから">
 	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY true "事実">
