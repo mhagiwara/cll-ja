@@ -168,7 +168,7 @@
 	<!ENTITY introduce2 "はじ">
 	<!ENTITY involve "まきこ">
 	<!ENTITY involve2 "含">
-	<!ENTITY involve3 "表す関係の対象になる">
+	<!ENTITY involve3 "対象になる">
 	<!ENTITY join "まとめ">
 	<!ENTITY joiner "結合詞">
 	<!ENTITY joint "結合">
@@ -360,7 +360,7 @@
 	<!ENTITY tone_of_voice "声の調子">
 	<!ENTITY true "事実">
 	<!ENTITY typically "通常は">
-	<!ENTITY underlying "&sumti;の基礎となっている">
+	<!ENTITY underlying "&sumti;を構成する">
 	<!ENTITY ungrammatical "文法的に正しくない">
 	<!ENTITY unit "単位">
 	<!ENTITY used_after "に後置して">

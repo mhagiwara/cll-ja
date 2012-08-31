@@ -34,6 +34,8 @@
 <note># note: 「同じ」よりも「おなじ」のほうがよいかもしれない</note>
 <note># note: attached や modified 等あるが、<!--
 -->「被修飾スムティ」で統一してしまおうかな</note>
+<note># note: 「表す」と「示す」の使いわけがいまいち曖昧なところがある。<!--
+-->統一するか明確な基準で訳し分けるべきだろう</note>
 </prenotes>
 
 <!-- section#1 -->
@@ -1689,8 +1691,8 @@ The dog which is white is going.
 </example>
 
 <paragraph>
-ここで、"ku'o" は "poi" と対になる&terminator;であり、<!--
--->"ku" は "le"、そして "vau" は&bridi;全体の&terminator;である。
+ここで、ku'o は poi と対になる&terminator;であり、<!--
+-->ku は le、そして vau は&bridi;全体の&terminator;である。
 <en>
 Here ``ku'o" is the terminator paired with ``poi" and ``ku" with ``le",
 and ``vau" is the terminator of the whole bridi.
@@ -1698,8 +1700,8 @@ and ``vau" is the terminator of the whole bridi.
 </paragraph>
 
 <paragraph>
-&relative;&clause;が "le gerku" のような "le"
-を使った単純な&descriptor2;に&attach;られるとき、<!--
+&relative;&clause;が le gerku などの le
+による単純な&descriptor2;を修飾する場合、<!--
 -->どこに&relative;&clause;が置かれるかは&style;や強調の問題でしかない。<!--
 -->&therefore;、&following2;例文は&all;<!--
 --><ln><name>例文 6.1</name><address>#ex6.1</address></ln>と<!--
@@ -1731,19 +1733,19 @@ The (dog) which is-white goes.
 
 <paragraph>
 <ln><name>例文 6.1</name><address>#ex6.1</address></ln>は<!--
--->&relative;&clause;が必ず&attach;られる名詞句のあとに置かれる<!--
--->英語のような言語の<!--
--->&speaker2;にとってもっとも自然に感じられるだろう。<!--
--->一方、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>は<!--
--->&relative;&clause;を最初に置く<!--
+-->&relative;&clause;が修飾される名詞句のあとに置かれる<!--
+-->英語などの言語の<!--
+-->&speaker2;にとって自然に感じられる。<!--
+-->それに対して、<ln><name>例文 6.2</name><address>#ex6.2</address></ln>は<!--
+-->&relative;&clause;を修飾される名詞句のまえに置く<!--
 -->フィンランド語や中国語の&speaker2;<!--
--->にとってより自然に感じられるかもしれない。<!--
+-->にとってより自然に感じられるだろう。<!--
 --><ln><name>例文 6.2</name><address>#ex6.2</address></ln>では、<!--
--->&elidable;&terminator; "ku'o" を明示する必要があることに注意しよう。<!--
--->そうしないと、&relative;&clause;の&selbri;("blabi")は&description;の<!--
--->&selbri;("gerku")とくっついてしまい、文法的に正しくない文になってしまう。<!--
---><ln><name>例文 6.3</name><address>#ex6.3</address></ln>に示した<!--
--->形の存在意義はすぐに明らかになるだろう。
+-->&elidable;&terminator; ku'o を明示する必要があることに注意しよう。<!--
+-->そうしないと、&relative;&clause;の&selbri;(blabi)は&description;の<!--
+-->&selbri;(gerku)とくっついてしまい、文法的に正しくない文になってしまう。<!--
+--><ln><name>例文 6.3</name><address>#ex6.3</address></ln><!--
+-->の形についてはあとで説明する。
 <en>
 <ln><name>Example 6.1</name><address>#ex6.1</address></ln> will seem
 most natural to speakers of language like English,
@@ -1762,20 +1764,27 @@ will be apparent shortly.
 </en>
 </paragraph>
 
-<note># 訳注: "The purpose of the form appearing in Example 6.3 will be apparent
+<note># note: "The purpose of the form appearing in Example 6.3 will be apparent
 shortly." の意味は「例文6.3で使われている形式の使い道はあとで示す」<!--
 -->といったところだが、英語のニュアンスを残しながら、<!--
 -->流暢な日本語に直すのが難しい。より意訳的な訳に直すときに適切な日本語を<!--
--->模索すること</note>
+-->模索すること。<!--
+-->いずれにしても、例文6.1、6.2 と来て、6.3 についてはあとに回すよ、<!--
+-->といった意味なので、さらりと訳してしまったほうが良いかもしれないと思い、単に<!--
+-->「例文6.3についてはこのあと説明する」とだけ訳した。
+</note>
+<note># note: Note ... は、... の部分がつけたしであるといったニュアンスで<!--
+-->使われているように思う。それを訳文で表現するのが難しい</note>
 
 <paragraph>
-<ln><name>第6章</name><address>./chapter6.html</address></ln>で詳述するように、<!--
--->ふたつの別の数(&inner_quantifier;と&outer_quantifier;として知られる)が<!--
--->&description;には&attach;られる。<!--
+詳しくは<!--
+--><ln><name>第6章</name><address>./chapter6.html</address></ln>で説明するが、<!--
+-->&description;は&inner_quantifier;と&outer_quantifier;で<!--
+-->修飾することができる。<!--
 -->&inner_quantifier;は&descriptor2;が<!--
 -->いくつのものを&refer2;すのかを決めるもので、<!--
--->&descriptor;と&description;&selbri;のあいだに置かれる。<!--
--->&outer_quantifier;は&descriptor;のまえに置かれて、<!--
+-->&descriptor;と&description;&selbri;のあいだに置く。<!--
+-->&outer_quantifier;は&descriptor;のまえに置き、<!--
 -->&descriptor2;によって&refer2;されるもののうちのいくつがその&bridi;の<!--
 -->&involve3;のかを示す。<!--
 -->&following2;例文では、
@@ -1792,11 +1801,21 @@ In the following example,
 </en>
 </paragraph>
 
-<note># 訳注: 英文中にしばしば出てくる "particular" はいちいち日本語に訳す必要<!--
+<note># note: attach を「つける」と訳すとやや舌足らずな感じがするので、<!--
+-->より意味を明確にして「修飾する」と訳した</note>
+<note># note: are involved in this particular bridi を<!--
+-->「ブリディの表す関係の対象になる」と訳したが、<!--
+-->「ブリディ」という語のなかにすでに「関係」という概念が含まれているので、<!--
+-->「ブリディの対象になる」と簡略化できる。<!--
+-->ただし、簡潔さとわかりやすさのトレードオフになるので、<!--
+-->どちらが良いかは一概には言えないが今回は簡潔さを取る</note>
+<note># note: 上記について。「ブリディ」という語が関係という意味を含む<!--
+-->といった話は訳注としてのせれば良い</note>
+<note># note: 英文中にしばしば出てくる particular はいちいち日本語に訳す必要<!--
 -->はないと思うがしかし、それの表すニュアンスはできるだけ伝えたい。<!--
 -->「それぞれの」とか「まさにその」とか「他でもないその」とか、<!--
 -->そんな感じで「その」を強調し、個々のものである感じを強調する感じか</note>
-<note># 訳注: involve をここでは「&involve3;」と訳してみた</note>
+<note># note: involve をここでは「&involve3;」と訳してみた</note>
 
 <example><ex_no>6.4</ex_no>
 <lojban>re le mu prenu cu klama le zarci</lojban>
@@ -1808,13 +1827,13 @@ Two of the five people [that I have in mind] are going to the market.
 </example>
 
 <paragraph>
-"mu" が&inner_quantifier;で、"re" が&outer_quantifier;である。<!--
--->ここで、&sumti; "re le mu prenu" に&relative;&clause;を&attach;ると<!--
--->どういう意味になるだろうか。<!--
--->たとえば、ここでは&relative;&clause;を "poi ninmu"
-(「女性である」という意味)とする。<!--
--->すると、まえに&discuss;した&relative;&clause;を&attach;られる3つの<!--
--->&point2;が&significance;を持つようになる。
+mu が&inner_quantifier;で re が&outer_quantifier;である。<!--
+-->この例文で&sumti; re le mu prenu に&relative;&clause;を&attach;ると<!--
+-->どうなるだろうか。<!--
+-->例として&relative;&clause; poi ninmu
+(女性である)をつけてみよう。<!--
+-->この場合には&relative;&clause;が3つの&point2;のうちのどこに置かれるかで<!--
+-->意味が変わってくる。
 <en>
 ``mu" is the inner quantifier and ``re" is the outer quantifier.
 Now what is meant by attaching a relative clause to the sumti ``re le mu prenu"?
@@ -1823,7 +1842,10 @@ Now the three possible attachment points discussed previously take on significan
 </en>
 </paragraph>
 
-<note># 訳注: 最後の文は「3つの位置のどこに&relative;&clause;が入るかが<!--
+<note># note: ここでは attach をそのまま「つける」と訳す</note>
+<note># note: what is meant は「どういう意味になるだろうか」だが、<!--
+-->くどいので「どうなるだろうか」とする</note>
+<note># note: 最後の文は「3つの位置のどこに&relative;&clause;が入るかが<!--
 -->重要になる」と訳したほうが良いかもしれない。あとで検討すること</note>
 <note># 訳注: さらに意訳を進めて「3つの位置のどこに&relative;&clause;が入るかに<!--
 -->よって意味が決まる」や「...によって意味が変わる」としたほうがわかりやすい<!--
@@ -1864,14 +1886,14 @@ Two women out of the five persons go to the market.
 -->は5人&all;が女性であることを&mean;す。<!--
 -->&whereas;、<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
 -->は店に行った2人が女性であることを&mean;す。<!--
--->どっちがどっちかをどのように覚えようか。<!--
+-->どっちがどっちかをどう覚えたらいいだろうか。<!--
 --><ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
--->のように、<!--
--->&relative;&clause;が明示された "ku" のあとに来るとき、その&sumti;は全体として<!--
--->&relative;&clause;に&modify;される。<!--
--->"ku" がないかまたは明示的な "ku" の前に&relative;&clause;が来るとき、<!--
--->&relative;&clause;は&underlying;&selbri;が&apply2;すものすべてに<!--
--->&apply1;されると理解される。
+-->のように<!--
+-->&relative;&clause;が ku のあとにあるとき、&sumti;は全体として<!--
+-->&relative;&clause;に&modify2;される。<!--
+-->ku がないかまたは ku のまえに&relative;&clause;があるとき、<!--
+-->&relative;&clause;は&underlying;&selbri;が指すものすべてを<!--
+-->修飾する。
 <en>
 As the parentheses show, <ln><name>Example 6.6</name><address>#ex6.6</address></ln>
 means that all five of the persons are women,
@@ -1888,9 +1910,9 @@ everything which the underlying selbri applies to.
 </en>
 </paragraph>
 
-<note># 訳注: explicit "ku" を「明示的な "ku"」と訳したが、<!--
+<note># note: explicit "ku" を「明示的な ku」と訳したが、<!--
 -->explicit はもっと軽く訳するか、または訳出しなくてもよいかもしれない</note>
-<note># 訳注: underlying をどう訳すか。&sumti;の基盤になっている&selbri;といった<!--
+<note># note: underlying をどう訳すか。&sumti;の基盤になっている&selbri;といった<!--
 -->ニュアンスだろうと思われるが</note>
 <note># 訳注: 最後の一文はもっとわかりやすく意訳する必要がある</note>
 
