@@ -36,6 +36,9 @@
 -->「被修飾スムティ」で統一してしまおうかな</note>
 <note># note: 「表す」と「示す」の使いわけがいまいち曖昧なところがある。<!--
 -->統一するか明確な基準で訳し分けるべきだろう</note>
+<note># note: 「第...章で説明するように」や「第...章で説明したように」だと<!--
+-->章の番号により別々の表現を使わざるを得ない感じがある。<!--
+-->ので、「第...章にあるように」を使うのはどうか</note>
 </prenotes>
 
 <!-- section#1 -->
@@ -736,7 +739,7 @@ The chair such-that (IT is-specifically associated-with me)
 -->椅子はより&permanently;&speaker;に&connect3;ている。<!--
 --><ln><name>例文 3.1</name><address>#ex3.1</address></ln>と<!--
 --><ln><name>例文 3.3</name><address>#ex3.3</address></ln><!--
--->の意味の違いはたとえば以下のようなものである。<!--
+-->の意味のちがいはたとえば以下のようなものである。<!--
 -->ただし、これらは解釈の一例でありほかの解釈もありうる。<!--
 -->つまり、pe mi は(&speaker;が所有していてもいなくても)今現在&speaker;が<!--
 -->座っている椅子を示し、po mi は<!--
@@ -1917,11 +1920,11 @@ everything which the underlying selbri applies to.
 <note># 訳注: 最後の一文はもっとわかりやすく意訳する必要がある</note>
 
 <paragraph>
-<ln><name>例文 6.5</name><address>#ex6.5</address></ln>はどうか。<!--
--->慣例により<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
--->とおなじ意味を表し、"ku" は要らないがそのかわり&typically; "ku'o"
-を必要とする。<!--
--->&relative;&clause;は&inner_quantifier;よりまえに来ることに<!--
+<ln><name>例文 6.5</name><address>#ex6.5</address></ln>はどうだろう。<!--
+-->これは慣用として<ln><name>例文 6.7</name><address>#ex6.7</address></ln><!--
+-->とおなじ意味を表す。この場合、ku は省略できるが&typically2; ku'o
+が必要となる。<!--
+-->&relative;&clause;が&inner_quantifier;よりまえにあることに<!--
 -->注意しよう。
 <en>
 What about <ln><name>Example 6.5</name><address>#ex6.5</address></ln>?
@@ -1932,20 +1935,23 @@ Note that the relative clause comes before the inner quantifier.
 </en>
 </paragraph>
 
-<note># 訳注: これは、"poi ..." が前にかかるのだから、"re le" を修飾している<!--
+<note># 訳注: これは、poi ... が前にかかるのだから、"re le" を修飾している<!--
 -->と考えると覚えやすいかもしれない</note>
+
+<note># note: 「慣例により」は固いが、by convention のいい訳が他に見つからない。<!--
+-->「慣用として」のほうがややましかもしれない。けど、やはり固いな</note>
 
 <paragraph>
 <ln><name>第6章</name><address>./chapter6.html</address></ln><!--
--->で説明したように、<!--
--->"le" が&descriptor;として使われていて<!--
--->その&sumti;に&explicit;&outer_quantifier;がないとき、<!--
--->その&sumti;の&outer_quantifier;は "ro"
-(「&all;」という意味)であると解釈される。<!--
--->&thus;、"le gerku" は「私が犬として示すもののうちのすべて」、<!--
--->もしかするとひとつのうちのすべて、を意味するとされる。<!--
--->この場合には&relative;&clause;が "ku" のあとでもまえでもかわらない。<!--
--->しかし、&descriptor;が "lo" であるときその違いは重要となる。
+-->にあるように、<!--
+-->le による描写において<!--
+-->&outer_quantifier;が明示されていないとき、<!--
+-->その&sumti;の&outer_quantifier;は ro
+(&all;)であるとして解釈される。<!--
+-->&thus;、le gerku は「私が犬として示すもののうちのすべて」<!--
+-->(場合によっては「ひとつのうちのすべて」)を意味する。<!--
+-->この場合には&relative;&clause;が ku のあとでもまえでもかわらない。<!--
+-->しかし、lo による描写ではそのちがいは大きい。
 <en>
 When ``le" is the descriptor being used, and the sumti has
 no explicit outer quantifier,
@@ -1960,7 +1966,11 @@ However, if the descriptor is ``lo", the difference is quite important:
 </en>
 </paragraph>
 
-<note># 訳注: "all one of them" は文脈から、「ひとつのうちのすべて」と訳した。<!--
+<note># note: ここらへんの話題は xorlo 前後で変化していると思われる。<!--
+-->たしか暗黙の数量詞というものは考えなくなったのではなかったか。<!--
+-->訳が一応完成した段階できちんと調べて訳注にすること</note>
+
+<note># note: "all one of them" は文脈から、「ひとつのうちのすべて」と訳した。<!--
 -->ひとつしかないもののうちのすべて、つまり「ひとつのうちのひとつ」と<!--
 -->考えたが確信がない</note>
 
@@ -1986,13 +1996,13 @@ Some of the people, who by the way are white, go to the market.
 <ln><name>例文 6.8</name><address>#ex6.8</address></ln>と<!--
 --><ln><name>例文 6.9</name><address>#ex6.9</address></ln>はどちらも<!--
 -->&one_or_more2;人が店に行くと言っている。<!--
--->しかし、それらの&incidental;的な&claim;には大きな違いがある。<!--
--->まず、"lo prenu noi blabi" はどういう意味だろうか。<!--
--->&default;&inner_quantifier;は "ro" (つまり「&all;」)であり、<!--
--->&default;&outer_quantifier;は "su'o" (つまり「&at_least_one;」)である。<!--
--->&therefore;、まずは&all;の人をとりあげて、<!--
--->そしてそこから&at_least_one2;を選ばなければならない。<!--
--->というわけで、&one_or_more2;人が行くことになる。
+-->しかし、それらの関係節の内容には大きな違いがある。<!--
+-->lo prenu noi blabi の意味を考えてみよう。<!--
+-->&default;&inner_quantifier;は ro (&all;)であり、<!--
+-->&outer_quantifier;は su'o (&at_least_one;)である。<!--
+-->まずは&all;の人をとりあげて、<!--
+-->そしてそこから&at_least_one2;が選ばれる。<!--
+-->ブリディ全体の意味としては&one_or_more2;人が行くということになる。
 <en>
 Both <ln><name>Examples 6.8</name><address>#ex6.8</address></ln>
 and <ln><name>6.9</name><address>#ex6.9</address></ln> tell us that one
@@ -2007,7 +2017,10 @@ That one or more people will be going.
 </en>
 </paragraph>
 
-<note># 訳注: (meaning ...) を(つまり ...)と訳したが meaning は訳出しなくても<!--
+<note># note: claim のいい訳が見つからない。「主張」と訳しているが、<!--
+-->もっとこなれた訳はないだろうか。「非限定関係節の内容には」と訳そうか。<!--
+-->あるいは「関係節の内容には」と訳すか</note>
+<note># note: (meaning ...) を(つまり ...)と訳したが meaning は訳出しなくても<!--
 -->いいかもしれない。より意訳的に訳する段階で消すことにする</note>
 
 <paragraph>
@@ -2018,8 +2031,8 @@ That one or more people will be going.
 -->しかし、<ln><name>例文 6.9</name><address>#ex6.9</address></ln>では、<!--
 -->&relative;&clause;は&actually3;&outer_quantifier;が&apply3;るまえに<!--
 -->その&sumti;を&describe2;する。<!--
--->つまり、その意味は「まずすべての人を&take;る ---
-ところで、彼らは&all2;白いのだが」となる。<!--
+-->つまり、その意味は「まずすべての人を&take;る。<!--
+-->ところで、彼らは&all2;白いのだが」となる。<!--
 -->しかし、&all;の人間が白いわけではないので、<!--
 -->この&incidental;的な&claim;は&false;となる。
 <en>
