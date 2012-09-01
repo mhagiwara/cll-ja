@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 25% くらい翻訳</note>
+<note># 26% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
@@ -2417,13 +2417,19 @@ The man's car is blue.
 </example>
 
 <paragraph>
-&possessor2;&sumti;の&end;の&explicit; "ku" に注意しよう。<!--
--->それがないと、&possessor2;&sumti;は&main;&description;&sumti;<!--
+&possessor2;&sumti;の&end;の&explicit; ku に注意しよう。<!--
+-->それがないと、&possessor2;&sumti;は外側の&description;&sumti;<!--
 -->の&selbri;とくっついてしまう。<!--
--->この "ku" が必要なので、もっともよく使われる種類の&possessor2;&sumti;は<!--
--->&pro_sumti;、特に&personal;&pro_sumti;であり、<!--
--->それらは&elidable;&terminator;を必要としない。<!--
--->&description;はより普通には&relative;&phrase;に&attach;て使われる。
+-->ku が必要なため、&description;は&possessor2;&sumti;としてはあまり<!--
+-->使われず、普通の関係句として使われることが多い。<!--
+-->&possessor2;&sumti;としてよく使われるのは&terminator;を必要としない<!--
+-->&pro_sumti;であり、なかでも&personal;&pro_sumti;が使われることが多い。<!--
+
+この ku が必要なので、もっともよく使われる種類の&possessor2;&sumti;は
+&pro_sumti;、特に&personal;&pro_sumti;であり、
+それらは&elidable;&terminator;を必要としない。
+&description;はより普通には&relative;&phrase;に&attach;て使われる。
+-->
 <en>
 Note the explicit ``ku" at the end of the possessor sumti,
 which prevents the selbri of the possessor sumti from merging
@@ -2440,7 +2446,7 @@ Descriptions are more likely to be attached with relative phrases.
 -->訳注は読者のための追加の情報とする</note>
 
 <paragraph>
-また、&possessor2;&sumti;のなかで数を使っている例文を示す。
+&possessor2;&sumti;として数を使う例を示す。
 <en>And here is a number used as a possessor sumti:</en>
 </paragraph>
 
@@ -2455,7 +2461,7 @@ Juror number 5
 
 <paragraph>
 これは「5番目の&juror;」とはすこしちがう。<!--
--->これは単にある&juror;と数5とが何らかの弱い関係にあることを<!--
+-->この場合、&juror;と数5とが何らかの弱い関係にあること<!--
 -->&indicate;しているにすぎない。
 <en>
 which is not quite the same as ``the fifth juror";
@@ -2468,10 +2474,12 @@ the particular juror and the number 5.
 -->すくなくとも、&lojban;の jdice は「決める人」であり、もっと意味が広い</note>
 
 <paragraph>
-&possessive;&sumti;には&regular;&relative;&clause;を&attach;ることができる。<!--
--->&following2;特別ルールだけに注意すればいいだろう。<!--
--->&possessor2;&sumti;の&immediately_follow2;く&relative;&clause;<!--
--->は&possession3;&sumti;ではなく&possessor2;&sumti;に&affect;。たとえば、
+&possessive;&sumti;には&relative;&clause;を&attach;ることができる。<!--
+-->ここでは、<!--
+-->&possessor2;&sumti;のすぐうしろの&relative;&clause;<!--
+-->が外側の&sumti;にではなく&possessor2;&sumti;に&affect;ことだけ<!--
+-->知っていれば十分だ。<!--
+-->たとえば、
 <en>
 A possessive sumti may also have regular relative clauses attached to it.
 This would need no comment if it were not for the following special rule:
@@ -2497,10 +2505,10 @@ The of-me incidentally-which (is-sleeping) car isn't going.
 -->&possessive;&sumti;をつけるときには気をつけなければならないということだ</note>
 
 <paragraph>
-は私の車は行かないという意味であり、&incidental;的な&claim; "noi sipna" は<!--
+は私の車は行かないという意味であるが、noi sipna は<!--
 -->私の車にではなく私に&apply3;る。<!--
--->もしも(それが何を意味するにせよ)車が寝ていると言いたければ、<!--
--->以下のようにする必要がある。
+-->もしも、(意味はよくわからないが)車が寝ていると言いたければ、<!--
+-->以下のようにしなければならない。
 <en>
 means that my car isn't going; the incidental claim of ``noi sipna" applies to me,
 not my car, however.
@@ -2521,12 +2529,14 @@ The of-me car which sleeps isn't going.
 </example>
 
 <paragraph>
-<ln><name>例文 7.6</name><address>#ex7.6</address></ln><!--
--->は&relative;&clause;の&end;に "ku'o" ではなく "vau" を使っているが、<!--
--->この&terminator;は&every;の単純な&bridi;を終わらせるが、<!--
--->ほとんど常に&elidable2;である。<!--
--->しかし、この場合には同様に&valid;&alternative;である "ku'o" よりも<!--
--->&syllable;が短い(ためこっちを使ってみた)。
+ちなみに、<!--
+--><ln><name>例文 7.6</name><address>#ex7.6</address></ln><!--
+-->では&relative;&clause;の&end;に<!--
+--> vau を使った。<!--
+-->vau は単純な&bridi;の&terminator;で、だいたいにおいて省略可能である。<!--
+たいていにおいて&elidable2;である。
+-->ここでは ku'o も使えるが、vau のほうが<!--
+-->&syllable;が短い。
 <en>
 Note that <ln><name>Example 7.6</name><address>#ex7.6</address></ln> uses
 ``vau" rather than ``ku'o" at the end of the relative clause:
