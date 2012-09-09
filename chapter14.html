@@ -1139,7 +1139,7 @@ joigik は、ブリディ、スムティ、ブリディ末端を（名辞組の�
 前置版では、残念ながら、GAhO のシマヴォは端点から離れているが、同じルールが適用される。つまり、最初の GAhO が、最初の端点に対応する。
 <hr />
 
-<h3>17. mesko 内の論理・非論理接続</h3>
+<h3>17. メクソ内の論理・非論理接続</h3>
 <p>ロジバンには、“2 + 2”などの数式（ロジバンでメクソと呼ばれる）を表現するための別の文法がある（１８章で説明）。メクソの基礎構成要素は、“2”のような被演算子と、“+”のような演算子である。これらは、両方とも、論理・非論理的に接続できる。</p>
 
 <p>被演算子は、スムティのように、後置 ek もしくは前置 gek で接続できる。演算子は、タンル構成要素のように、後置 jek もしくは 前置 guhek で接続できる。（ただし、“bo” をともなった jek や joik は演算子には適用できない。）この類似性はたまたまではない。</p>
@@ -1189,204 +1189,205 @@ joigik は、ブリディ、スムティ、ブリディ末端を（名辞組の�
 例17.6 の “boi”は（訳注：数字や文字を終端する）は、“xi” は何かくっつくものが必要であるため、省略可能ではないことに注意しよう。
 <hr />
 
-<h3>18. Tenses, modals, and logical connection</h3>
-<p>The tense and modal systems of Lojban interact with the logical connective system. No one chapter can explain all of these simultaneously, so each chapter must present its own view of the area of interaction with emphasis on its own concepts and terminology. In the examples of this chapter, the many tenses of various selma'o as well as the modals of selma'o BAI are represented by the simple time cmavo “pu”, “ca”, and “ba” (of selma'o PU) representing the past, the present, and the future respectively. Preceding a selbri, these cmavo state the time when the bridi was, is, or will be true (analogous to English verb tenses); preceding a sumti, they state that the event of the main bridi is before, simultaneous with, or after the event given by the sumti (which is generally a “le nu” abstraction; see <a href="../../11/1/">Chapter 11</a>).</p>
-<p>The two types of interaction between tenses and logical connectives are logically connected tenses and tensed logical connections. The former are fairly simple. Jeks may be used between tense cmavo to specify two connected bridi that differ only in tense:</p>
+<h3>18. 間制・法制と論理接続</h3>
+<p>間制・法制と論理接続は相互作用がある。１章で全てを説明するのは難しいため、各章でそれぞれ焦点をあてて説明している。本章では、色々なセルマホを持つ間制や、BAIのセルマホを持つ法制を全て“pu”, “ca”, “ba” （過去、現在、未来の時間を表す）で置き換えて説明している。セルブリの前につけると、英語の動詞時制のように、ブリディの時間を述べ、スムティの前につけると、ブリディ本体の事象が、そのスムティの事象（通常は“le nu”の抽象化）よりも前、同時、後であることを表す。</p>
+<p>間制と論理接続間の相互作用には、論理接続された間制と、間制つき論理接続がある。前者は簡単で、 jek を使って間制シマヴォをつなげ、2つのブリディの間制のみが異なっているということを表す：</p>
+
 <pre>
 <a id="e1" name="e1">18.1)</a>  la .artr. pu nolraitru
             .ije la .artr. ba nolraitru
-       Arthur [past] is-a-noblest-governor.
-            And Arthur [future] is-a-noblest-governor.
-       Arthur was a king, and Arthur will be a king.
+       アーサー [過去] 最も偉い統治者
+            かつ アーサー [未来] 最も偉い統治者
+       アーサーは王であったし、将来も王である
 </pre>
-can be reduced to:
+は、以下のように簡約できる：
 <pre>
 <a id="e2" name="e2">18.2)</a>  la .artr. pu je ba nolraitru
-       Arthur [past] and [future] is-a-noblest-governor.
-       Arthur was and will be king.
+       アーサー [過去] かつ [未来] 最も偉い統治者
+       アーサーは、過去も将来も王である。
 </pre>
-<a href="../18/#e1">Example 18.1</a> and <a href="../18/#e2">Example 18.2</a> are equivalent in meaning; neither says anything about whether Arthur is king now.
-<p>Non-logical connection with joiks is also possible between tenses:</p>
+例 18.1 と 18.2 の意味は等価であり、どちらも現在、王であるかどうかは言っていない。
+<p>間制間の非論理接続も可能である：</p>
 <pre>
 <a id="e3" name="e3">18.3)</a>  mi pu bi'o ba vasxu
-       I [past] from ... to [future] breathe.
-       I breathe from a past time until a future time.
+       私 [過去] ～から ～へ [未来] 呼吸する
+       私は、昔から将来まで呼吸をする。
 </pre>
-<p>The full tense system makes more interesting tense intervals expressible, such as “from a medium time ago until a long time from now”.</p>
-<p>No forethought connections between tenses are permitted by the grammar, nor is there any way to override the default left-grouping rule; these limitations are imposed to keep the tense grammar simpler. Whatever can be said with tenses or modals can be said with subordinate bridi stating the time, place, or mode explicitly, so it is reasonable to try to remove at least some complications.</p>
-<p>Tensed logical connections are both more complex and more important than logical connections between tenses. Consider the English sentence:</p>
+<p>間制システムを駆使すると、「ちょっと前から、ずっと先まで」などのような面白い表現ができる。</p>
+<p>ただし、間制の前置接続は無く、デフォルトの左結合則を上書きできない。これによって文法が簡単になる。間制や法制で言えることは全て従属ブリディで時間・場所・法を明確にして言えるので、複雑にならないようにするというのは納得が行く。</p>
+<p>間制付き論理接続はより複雑かつ重要である。以下の文：</p>
 <pre>
-<a id="e4" name="e4">18.4)</a>  I went to the market, and I bought food.
+<a id="e4" name="e4">18.4)</a>  私は市場へ言って、食べ物を買った。
 </pre>
-The verbatim translation of <a href="../18/#e4">Example 18.4</a>, namely:
+を直訳すると、
 <pre>
 <a id="e5" name="e5">18.5)</a>  mi pu klama le zarci .ije mi pu tervecnu lo cidja
-       I [past] go-to the market. And I [past] buy items-of food.
+       私 [過去] 行く その 市場。 そして 私 [過去] 買う (不特定) 食べ物
 </pre>
-fails to fully represent a feature of the English, namely that the buying came after the going. (It also fails to represent that the buying was a consequence of the going, which can be expressed by a modal that is discussed in <a href="../../9/1/">Chapter 9</a>.) However, the tense information — that the event of my going to the market preceded the event of my buying food — can be added to the logical connective as follows. The “.ije” is replaced by “.ijebo”, and the tense cmavo “ba” is inserted between “.ije” and “bo”:
+となるが、これでは、買ったことが行ったことの後に起こったことや、行った結果、買ったということを完全には表現できていない。しかし、“.ije” を “.ijebo” で置き換え、“ba” を挿入すると、市場へ行ったことが買ったことの前に起こったという間制情報を追加できる：
 <pre>
 <a id="e6" name="e6">18.6)</a>  mi pu klama le zarci .ijebabo mi pu tervecnu lo cidja
-       I [past] go-to the market. And [later] I [past] buy items-of food.
+       私 [過去] 行く その 市場。 そして [その後] 私 [過去] 買う (不特定) 食べ物
 </pre>
-Here the “pu” cmavo in the two bridi-tails express the time of both actions with respect to the speaker: in the past. The “ba” relates the two items to one another: the second item is later than the first item. The grammar does not permit omitting the “bo”; if it were omitted, the “ba” and the second “pu” would run together to form a compound tense “bapu” applying to the second bridi-tail only.
-<p>Adding tense or modal information to a logical connective is permitted only in the following situations:</p>
-<p>Between an ek (or joik) and “bo”, as in:</p>
+ここで、２つの“pu”は話者に対して両方の事象が過去に起こったことを表す。一方、“ba”は、2つめの事象が1つめの事象より後に来ることを表す。ここで、“bo”を省略してしまうと、“ba”と“pu”がくっついて、2つめのブリディ末端だけにかかる複合間制 “bapu”ができてしまう。
+<p>論理結合に間制や法制を追加するのは、以下のような場合だけ許可されている：</p>
+<p>ek や joik と “bo”の間。例：</p>
 <pre>
 <a id="e7" name="e7">18.7)</a>  la .djan .ecabo la .alis. klama le zarci
-       John and [simultaneous] Alice go-to the market.
-       John and Alice go to the market simultaneously.
+       ジョン かつ [同時] アリス 行く その 市場
+       ジョンとアリスは、同時に市場へ行った。
 </pre>
-<p>Between an ek (or joik) and “ke”, as in:</p>
+<p>ek や joik と “ke”の間。例：</p>
 <pre>
 <a id="e8" name="e8">18.8)</a>  mi dzukla le zarci .epuke le zdani .a le ckule [ke'e]
-       I walk-to the market and [earlier] ( the house or the school ).
-       I walk to the market and, before that, to the house or the school.
+       私 歩いて行く その 市場 そして [前] ( その 家 もしくは その 学校 ).
+       私は市場へ歩いていったが、その前に、家か学校まで歩いていった。
 </pre>
-<p>Between a gihek and “bo”, as in:</p>
+<p> gihek と “bo” の間。例：</p>
 <pre>
 <a id="e9" name="e9">18.9)</a>  mi dunda le cukta gi'ebabo lebna lo rupnu vau do
-        I give the book and [later] take some currency-units from/to you.
-       I give you the book and then take some dollars (pounds, yen) from you.
+       私 与える その 本 そして [後] 受け取る いくつか 通貨単位 あなたから/あなたへ
+       私はあたなに本を渡し、あなたからいくらかお金を受け取る。
 </pre>
-<p>Between a gihek and “ke”, as in:</p>
+<p> gihek と “ke”の間。例：</p>
 <pre>
 <a id="e10" name="e10">18.10)</a> mi dzukla le zarci gi'ecake cusku zo'e la djan. [ke'e]
-       I walk-to the market and [simultaneous] express something to-John.
-       I walk to the market and at the same time talk to John.
+       私 歩いて行く その 市場 そして [同時] 表現する 何か ジョンに
+       私は市場へ歩いて行き、同時にジョンに話す。
 </pre>
-<p>Between an ijek (or ijoik) and “bo”, as in:</p>
+<p> ijek や ijoik と “bo” の間。例：</p>
 <pre>
 <a id="e11" name="e11">18.11)</a> mi viska pa nanmu .ijebabo mi viska pa ninmu
-       I see a man. And [later] I see a woman.
-       I see a man, and then I see a woman.
+       私 見る 一人 男性 そして [後] 私 見る 一人 女性
+       私は一人の男性を見て、そして、一人の女性を見る。
 </pre>
-<p>Between an ijek (or ijoik) and “tu'e”, as in:</p>
+<p>ijek や ijoik と、“tu'e” の間。例：</p>
 <pre>
 <a id="e12" name="e12">18.12)</a> mi viska pa nanmu .ijebatu'e mi viska pa ninmu [tu'u]
-       I see a man. And [later] I see a woman.
-       I see a man, and then I see a woman.
+       私 見る 一人 男性。そして [後] 私 見る 一人 女性
+       私は一人の男性を見て、そして、一人の女性を見る。 
 </pre>
-<p>And finally, between a jek (or joik) and “bo”, as in:</p>
+<p>jek や joik と “bo” の間。例：</p>
 <pre>
 <a id="e13" name="e13">18.13)</a> mi mikce jebabo ricfu
-       I-am-a doctor and [later] rich
-       I am a doctor and future rich person.
+       私 医者である そして [後] お金持ち
+       私は医者であり、将来お金持ちになる人である。
 </pre>
-<p>As can be seen from <a href="../18/#e11">Example 18.11</a> and <a href="../18/#e12">Example 18.12</a>, the choice between “bo” and “ke” (or “tu'e”) is arbitrary when there are only two things to be connected. If there were no tense information to include, of course neither would be required; it is only the rule that tense information must always be sandwiched between the logical connective and a following “bo”, “ke”, or “tu'e” that requires the use of one of these grouping cmavo in <a href="../18/#e7">Example 18.7</a> and <a href="../18/#e9">Examples 18.9</a> through <a href="../18/#e13">18.13</a>.</p>
-<p>Non-logical connectives with “bo” and “ke” can include tense information in exactly the same way as logical connectives. Forethought connectives, however (except as noted below) are unable to do so, as are termsets or tense connectives. Mathematical operands and operators can also include tense information in their logical connectives as a result of their close parallelism with sumti and tanru components respectively:</p>
+<p>例18.11 と 18.12 から分かるように、繋がるものが二つしかない場合は、“bo” か “ke” (もしくは “tu'e”)の選択は任意である。間制は、続く“bo”, “ke”, “tu'e” の間に挟まなければならないが、もちろん、間制情報が無い場合、どちらも付ける必要はない（例 18.7, 18.8, 18.13）</p>
+<p>“bo” や“ke” を伴う非論理接続は、論理接続と全く同様に、間制情報を含めることができる。ただし、以下で述べた場合を除き、前置接続や、名辞組や間制接続はそれができない。数学被演算子や演算子も、スムティやタンル要素と類似しているため、時制を含めることができる：</p>
 <pre>
 <a id="e14" name="e14">18.14)</a> vei ci .ebabo vo [ve'o] tadni cu zvati le kumfa
-       ( 3 and [future] 4 ) students are-at the room.
-       Three and, later, four students were in the room.
+       ( 3 と [未来] 4 ) 学生 ～にいる その 部屋
+       学生が3人、そしてその後4人、部屋にいる。
 </pre>
-is a simple example. There is a special grammatical rule for use when a tense applies to both of the selbri in a forethought bridi-tail connection: the entire forethought construction can just be preceded by a tense. For example:
+前置ブリディ末端接続の両方に間制を適用する場合、その接続構造単体の前に間制を付けられる。例えば：
 <pre>
 <a id="e15" name="e15">18.15)</a> mi pu ge klama le zarci gi tervecnu lo cidja
-       I [past] both go-to the market and buy some food
-       I went to the market and bought some food.
+       私 [過去] かつ 行く その 市場 そして かう いくつか 食べ物
+       私は市場へ行って、食べ物を買った。
 </pre>
-<a href="../18/#e15">Example 18.15</a> is similar to <a href="../18/#e5">Example 18.5</a>. There is no time relationship specified between the going and the buying; both are simply set in the past.
+例18.15 は 例18.5 と似ている。「行った」と「買った」は、両方とも単に過去というだけで、そのの間の関係は指定されていない。
 <hr />
 
-<h3>19. Abstractor connection and connection within abstractions</h3>
-<p>Last and (as a matter of fact) least: a logical connective is allowed between abstraction markers of selma'o NU. As usual, the connection can be expanded to a bridi connection between two bridi which differ only in abstraction marker. Jeks are the appropriate connective. <a href="../19/#e1">Example 19.1</a> and <a href="../19/#e2">Example 19.2</a> are equivalent in meaning:</p>
+<h3>19. 抽象詞接続と、抽象化内での接続</h3>
+<p>最後に、あまり重要ではないのだが、jek を用いてセルマホ NU の抽象化の間での論理接続もできる。通常と同じく、抽象化マーカーだけが異なる2つのブリディに展開される。以下の2つの意味は等価である。</p>
 <pre>
 <a id="e1" name="e1">19.1)</a>  le ka la frank. ciska cu xlali .ije le ni la frank. ciska cu xlali
-       The quality-of Frank’s writing is bad, and the quantity of Frank’s writing is bad.
+       その 質 フランク 書く 悪い、 そして その 量 フランク 書く 悪い。
 
 <a id="e2" name="e2">19.2)</a>  le ka je ni la frank. ciska cu xlali
-       The quality and quantity of Frank’s writing is bad.
+       その 質 と 量 フランク 書く 悪い。
 </pre>
-As with tenses and modals, there is no forethought and no way to override the left-grouping rule.
-<p>Logical connectives and abstraction are related in another way as well, though. Since an abstraction contains a bridi, the bridi may have a logical connection inside it. Is it legitimate to split the outer bridi into two, joined by the logical connection? Absolutely not. For example:</p>
+間制、法制と同様、前置形式や、左結合ルールを上書きすることはできない。
+<p>論理接続と抽象化の関係は他にもある。抽象化はブリディを含むため、ブリディに論理接続が入っている場合もある。その場合、外側のブリディを２つに分け、論理接続で繋いでしまっては等価にならない場合がある。例えば：</p>
 <pre>
 <a id="e3" name="e3">19.3)</a>  mi jinvi le du'u loi jmive cu zvati gi'onai na zvati vau la .iupiter.
-       I opine the fact-that a-mass-of living-things (is-at or-else isn’t-at) Jupiter.
-       I believe there either is or isn’t life on Jupiter.
+       私 信じる その 事実 ～の群 生物 (居る もしくは 以内) 木星
+       私は、木星には居るか居ないかのどちらかであることを信じる。
 </pre>
-is true, since the embedded sentence is a tautology, but:
+は、埋め込まれた文がトートロジーなので正しいが、
 <pre>
 <a id="e4" name="e4">19.4)</a>  mi jinvi le du'u loi jmive cu zvati la .iupiter.
             .ijonai mi jinvi le du'u loi jmive cu zvati la .iupiter.
-       I opine the fact-that a-mass-of living-things is-at Jupiter
-            or-else I opine the fact-that a-mass-of living-things isn’t-at Jupiter
+       私 信じる その 事実 ～の群 生物 居る 土星
+            もしくは 私 真実 その 事実 ～の群 生物 居ない 土星
 </pre>
-is false, since I have no evidence one way or the other (“jinvi” requires some sort of evidence, real or fancied, unlike “krici”).
+は偽である。なぜなら、どちらについても、それが正しいという証拠が無いからである（“jinvi”は、“krici”と違って、何らかの証拠を必要とする）
 <hr />
 
-<h3>20. Constructs and appropriate connectives</h3>
-<p>The following table specifies, for each kind of construct that can be logically or non-logically connected in Lojban, what kind of connective is required for both afterthought and (when possible) forethought modes. An asterisk (*) indicates that tensed connection is permitted.</p>
-<p>A dash indicates that connection of the specified type is not possible.</p>
+<h3>20. 適切な接続を作る</h3>
+<p>以下のテーブルは、ロジバンで論理的・非論理的に接続できる構造で、どのような接続詞が必要かを、後置、そして可能な場合は前置の場合に対して示したものである。アスタリスク(*)は、間制接続が可能なことを表している。</p>
+<p>ダッシュ(-)は、その種の接続が可能ではないことを示している。</p>
 <table class="conn">
 <tr>
-<th>construct</th>
-<th>afterthought<br />
-logical</th>
-<th>forethought<br />
-logical</th>
-<th>afterthought<br />
-non-logical</th>
-<th>forethought<br />
-non-logical</th>
+<th>構成</th>
+<th>後置<br />
+論理接続</th>
+<th>前置<br />
+論理接続</th>
+<th>後置<br />
+非論理接続</th>
+<th>前置<br />
+非論理接続</th>
 </tr>
 <tr>
-<td>bridi</td>
+<td>ブリディ</td>
 <td>ijek*</td>
 <td>gek</td>
 <td>ijoik*</td>
 <td>joigik</td>
 </tr>
 <tr>
-<td>sumti</td>
+<td>スムティ</td>
 <td>ek*</td>
 <td>gek</td>
 <td>joik*</td>
 <td>joigik</td>
 </tr>
 <tr>
-<td>bridi-tails</td>
+<td>ブリディ末端</td>
 <td>gihek*</td>
 <td>gek</td>
 <td>—</td>
 <td>joigik</td>
 </tr>
 <tr>
-<td>termsets</td>
+<td>名辞組</td>
 <td>ek*</td>
 <td>gek</td>
 <td>joik*</td>
 <td>joigik</td>
 </tr>
 <tr>
-<td>tanru parts</td>
+<td>タンル要素</td>
 <td>jek</td>
 <td>guhek</td>
 <td>joik*</td>
 <td>—</td>
 </tr>
 <tr>
-<td>operands</td>
+<td>非演算子</td>
 <td>ek*</td>
 <td>gek</td>
 <td>joik*</td>
 <td>joigik</td>
 </tr>
 <tr>
-<td>operators</td>
+<td>演算子</td>
 <td>jek</td>
 <td>guhek</td>
 <td>joik</td>
 <td>—</td>
 </tr>
 <tr>
-<td>tenses/modals</td>
+<td>間制/法制</td>
 <td>jek</td>
 <td>—</td>
 <td>joik</td>
 <td>—</td>
 </tr>
 <tr>
-<td>abstractors</td>
+<td>抽象詞</td>
 <td>jek</td>
 <td>—</td>
 <td>joik</td>
@@ -1395,11 +1396,11 @@ non-logical</th>
 </table>
 <hr />
 
-<h3>21. Truth functions and corresponding logical connectives</h3>
-<p>The following table specifies, for each truth function, the most-often used cmavo or compound cmavo which expresses it for each of the six types of logical connective. (Other compound cmavo are often possible: for example, “se.a” means the same as “a”, and could be used instead.)</p>
+<h3>21. 真偽関数と対応する論理接続詞</h3>
+<p>以下のテーブルは、各真偽関数に対して、6種類の論理接続を表すのに最もよく使われるシマヴォ・複合シマヴォを挙げている。(他の複合シマヴォも可能な場合がある：例えば、“se.a”は “a” と同じ意味なので、代わりに使える。)</p>
 <table class="conn">
 <tr>
-<th>truth</th>
+<th>真偽値</th>
 <th>ek</th>
 <th>jek</th>
 <th>gihek</th>
@@ -1519,44 +1520,44 @@ non-logical</th>
 <td>gu'enai–ginai</td>
 </tr>
 </table>
-Note: Ijeks are exactly the same as the corresponding jeks, except for the prefixed “.i”.
+注意: ijek は、“.i” が前に付くこと以外、対応する jek と全く同じである。
 <hr />
 
-<h3>22. Rules for making logical and non-logical connectives</h3>
-<p>The full set of rules for inserting “na”, “se”, and “nai” into any connective is:</p>
-<p>Afterthought logical connectives (eks, jeks, giheks, ijeks):</p>
+<h3>22. 論理接続・非論理接続を作るルール</h3>
+<p> “na”, “se”,“nai”を接続要素に挿入する方法の全体を以下にまとめた。</p>
+<p>後置論理接続 (ek, jek, gihek, ijek):</p>
 <ul>
-<li>Negate first construct:<br />
-Place “na” before the connective cmavo (but after the “.i” of an ijek).</li>
-<li>Negate second construct:<br />
-Place “nai” after the connective cmavo.</li>
-<li>Exchange constructs:<br />
-Place “se” before the connective cmavo (after “na” if any).</li>
+<li>一つ目の要素を否定する：<br />
+“na” を接続シマヴォの前に置く(但し ijek の場合は “.i” の後)。</li>
+<li>二つ目の要素を否定する：<br />
+“nai”を接続シマヴォの後に置く</li>
+<li>要素を交換する：<br />
+“se” を接続シマヴォの前に置く (“na”があればその後に)。</li>
 </ul>
-Forethought logical connectives (geks, guheks):
+前置論理接続 (gek, guhek):
 <ul>
-<li>Negate first construct:<br />
-Place “nai” after the connective cmavo.</li>
-<li>Negate second construct:<br />
-Place “nai” after the “gi”.</li>
-<li>Exchange constructs:<br />
-Place “se” before the connective cmavo.</li>
+<li>一つ目の要素を否定する：<br />
+“nai”を接続シマヴォの後に置く</li>
+<li>二つ目の要素を否定する：<br />
+“nai”を“gi”の後に置く</li>
+<li>要素を交換する：<br />
+“se” を接続シマヴォの前に置く。
 </ul>
-Non-logical connectives (joiks, joigiks):
+非論理接続 (joik, joigik):
 <ul>
-<li>Negate connection:<br />
-Place “nai” after the connective cmavo (but before the “gi” of a joigik).</li>
-<li>Exchange constructs:<br />
-Place “se” before the connective cmavo.</li>
+<li>接続を否定する：<br />
+“nai” を接続シマヴォの後に置く (ただしjoigik の “gi”の前)。</li>
+<li>要素を交換する：<br />
+“se” を接続シマヴォの前に置く。
 </ul>
 <hr />
-
+<!--
 <h3>23. Locations of other tables</h3>
 <p><a href="../1/">Section 1</a>: a table explaining the meaning of each truth function in English.</p>
 <p><a href="../2/">Section 2</a>: a table relating the truth functions to the four basic vowels.</p>
 <p><a href="../13/">Section 13</a>: a table of the connective question cmavo.</p>
 <p><a href="../14/">Section 14</a>: a table of the meanings of JOI cmavo when used to connect sumti.</p>
-<hr />
+<hr /> -->
 
 
 <div class="nav">
