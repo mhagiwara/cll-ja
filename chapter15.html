@@ -109,8 +109,16 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
        私は店に行かない。 
 </pre>
 <p>ロジバンの内部ブリディ否定 (internal bridi negation) 「na」は、自然言語における否定と違って、常にブリディ全体に係り、常に矛盾否定である。 つまりこの否定文は、元のブリディ全体の言明と矛盾する（両立しない）。 </p>
-<div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの。 <a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">内部否定と外部否定の説明（フランス語）</a>
-
+<div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの。<br />
+「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。<br />
+「xは現在のフランス国王である」を、述語論理の記号で書くと、以下のようになる（「現在のフランス国王は禿げている」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。<br />
+<table border="0" cellpadding="5">
+<tr><td>肯定文</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>偽</td></tr>
+<tr><td>内部否定</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td><td>偽</td></tr>
+<tr><td>外部否定</td><td>￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>no da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>真</td></tr>
+</table>
+このうち、内部否定の形を、量化型スムティ変数を使わずに表したものが、後述の<a href="#e2.6">例2.6</a>である。<br />
+<a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">参考：否定についての説明（フランス語）</a>
 </div>
 <p><span class="notci"># 日本語の「ない」の意味は曖昧なので、</span>ブリディ否定「na」は「偽」と訳す方が正確だ。 他の例をいくつか挙げよう。 </p>
 <pre>
@@ -392,7 +400,9 @@ or
 <a id="e4.18" name="e4.18">4.18)</a>  lo ca nolraitru be le fasygu'e cu na krecau
        「現在のフランス国王は禿だ」は偽である。 
 </pre>
-注：以上の文で「lo」が使われているのは、否定が真理条件に関係しているからだ。 叙述を担う文の中で、真理条件について意味のある話をするためには、その叙述が指示対象に実際に当てはまることが明らかである必要がある。 「lo」の代わりに「le」を使うと、現在のフランス国王が存在しなくても、話し手と聞き手が何かを「現在のフランス国王」として叙述することに同意していれば、文が真になり得る。 （「le」の説明については<a href="chapter6.html">第6章</a>を参照。 ）
+注：以上の文で「lo」が使われているのは、否定が真理条件に関係しているからだ。 描写を担う文の中で、真理条件について意味のある話をするためには、その描写が指示対象に実際に当てはまることが明らかである必要がある。 「lo」の代わりに「le」を使うと、現在のフランス国王が存在しなくても、話し手と聞き手が何かを「現在のフランス国王」として描写することに同意していれば、文が真になり得る。 （「le」の説明については<a href="chapter6.html">第6章</a>を参照。 ）
+<div class="notci"># <a href="http://www.lojban.org/tiki/How+to+use+xorlo">xorlo 案</a>によると、ロジバン設計委員会 (baupla fuzykamni, BPFK) は、存在論や形而上学については何も決めないことにしている。この方針に従い、<a href="http://www.lojban.org/tiki/BPFK+Section%3A+gadri">最新の解釈</a>では、 lo と le の区別は、描写が「実際に」当てはまるかどうかに依存しない。描写に le を冠したものは、「心に思い描いている特定の個物」を指し、描写に lo を冠したものは、それ以外の個物を指す。描写されるものの存在を表現するには、量化を使うことができる（<a href="chapter16.html">第16章</a>で解説）。
+</div>
 
 <a id="15.5" name="15.5"></a><h3>5. セルブリ否定の中で段階を表す</h3>
 <p>段階否定を表す際に、1つの表明の中で扱われる段階、範囲、基準系（<span class="notci"># <a href="http://en.wikipedia.org/wiki/Linguistic_frame_of_reference">Wikipedia: Linguistic frame of reference</a></span>）、議論領域を示すことができる。 <a href="#15.4">第4節</a>で述べたように、デフォルトでは納得できる選択肢の集合である。 従って、もし</p>
