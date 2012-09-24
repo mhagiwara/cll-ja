@@ -31,7 +31,7 @@ CLL 第15章 問題「ない」～ロジバンの否定表現
 <p>否定の文法的表現は、ロジバンの言明を論理的たらしめるための決定的な部分だ。 否定の問題は、簡単に言えば、「ない」という単語の完全な定義を見つけ出すことだ。 さらに、ロジバンの曖昧性の無い文法では、文法上の作用が異なる「ない」は、異なる単語、異なる文法構造でなければならない。 </p>
 <p>論理的な言語では暗黙裡に、論理的表明 (<a href="http://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%88#.E7.9B.B4.E8.A6.B3.E7.9A.84.E3.81.AA.E6.84.8F.E5.91.B3">Logical Assertions</a>) が要求されている。 
 したがって、論理的表明を表す道具が、ロジバンの論理接続やその他の構造の中に組み込まれている。 </p>
-<div class="notci"># 「論理的表明」は、統語上は、前件が空な推件式 (sequent) である。標準的な意味論では、論理的表明は「ある命題が恒に真である」と表明する文であると解釈される。<br />
+<div class="notci"># 「論理的表明」は、統語上は、前件が空な推件式 (sequent) である。標準的な意味論では、論理的表明は「ある命題が恒に真である」と表明する文であると解釈される。恒に真であるような「ある命題」とは、つまり<a href="http://ja.wikipedia.org/wiki/%E6%81%92%E7%9C%9F%E5%BC%8F">恒真式</a>だ。<br />
 例)<br />
 「すべての人は死ぬ。ソクラテスは人だ。ゆえにソクラテスは死ぬ。」という推論は、「すべての人は死ぬ。」「ソクラテスは人だ。」という2つの命題を前件とし、「ソクラテスは死ぬ。」を後件とする推件式として表現できる。<br />
 ∀x∈人 | 死(x), ソクラテス∈人 ⊢ 死(ソクラテス)<br />
@@ -115,11 +115,20 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
 「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。<br />
 「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。<br />
 <table border="0" cellpadding="5">
-<tr><td>肯定文</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>偽</td></tr>
-<tr><td>内部否定</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td><td>偽</td></tr>
-<tr><td>外部否定</td><td>￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>no da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>真</td></tr>
+<tr><td>1.</td><td>肯定文</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>偽</td></tr>
+<tr><td>2.</td><td>内部否定</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td><td>偽</td></tr>
+<tr><td>3.</td><td>外部否定</td><td>￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>no da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>真</td></tr>
 </table>
-このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。<br />
+このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より広がらざるを得ない。結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定に等しくなっている。
+<table border="0" cellpadding="5">
+<tr><td>本来の内部否定の形:</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td></tr>
+<tr><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca fasygu'e nolraitru gi'e na krecau</td></tr>
+<tr><td>量化を消すと、存在についての言明が消える:</td><td>ko'a ca fasygu'e nolraitru gi'e na krecau</td></tr>
+<tr><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca fasygu'e nolraitru na krecau</td></tr>
+<tr><td></td><td></td></tr>
+</table>
+この手順によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は「ko'a krecau」だけではなく「ko'a ca fasygu'e nolraitru」を含めた文全体を否定することになる。
+<br />
 <a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">参考：否定についての説明（フランス語）</a>
 </div>
 <p><span class="notci"># 日本語の「ない」の意味は曖昧なので、</span>ブリディ否定「na」は「偽」と訳す方が正確だ。 他の例をいくつか挙げよう。 </p>
