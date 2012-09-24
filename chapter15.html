@@ -111,15 +111,21 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
        私は店に行かない。 
 </pre>
 <p>ロジバンの内部ブリディ否定 (internal bridi negation) 「na」は、自然言語における否定と違って、常にブリディ全体に係り、常に矛盾否定である。 つまりこの否定文は、元のブリディ全体の言明と矛盾する（両立しない）。 </p>
-<div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの。<br />
-「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。<br />
-「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。<br />
-<table border="0" cellpadding="5">
-<tr><td>肯定文</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>偽</td></tr>
-<tr><td>内部否定</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td><td>偽</td></tr>
-<tr><td>外部否定</td><td>￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>no da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>真</td></tr>
+<div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの。 <br />
+「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。 どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。 そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。 <br />
+「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。 これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。 <br />
+<table border="0">
+<tr><td rowspan="2">肯定文</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">da ro de zo'u da ca fasygu'e nolraitru .ije ganai de ca fasygu'e nolraitru gi de du da .ije da krecau</font></td><td rowspan="2">偽</td></tr>
+<tr> <td><font size="-1"> = pa da zo'u da ca fasygu'e nolraitru gi'e krecau</font></td></tr>
+<tr height="10"><td colspan="3"></td></tr>
+<tr><td rowspan="2">内部否定</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td><font size="-1">da ro de zo'u da ca fasygu'e nolraitru .ije ganai de ca fasygu'e nolraitru gi de du da .ije da na krecau</font></td><td rowspan="2">偽</td></tr>
+<tr><td><font size="-1">= pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</font></td></tr>
+<tr height="10"><td colspan="3"></td></tr>
+<tr><td rowspan="2">外部否定</td><td rowspan="2">￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">naku da ro de zo'u da ca fasygu'e nolraitru .ije ganai de ca fasygu'e nolraitru gi de du da .ije da krecau</font></td><td rowspan="2">真</td></tr>
+<tr><td><font size="-1">= no da zo'u da ca fasygu'e nolraitru gi'e krecau</font></td></tr>
+<tr height="10"><td colspan="3"></td></tr>
 </table>
-このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より広がらざるを得ない。
+このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。 ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より広がらざるを得ない。 
 <table border="0" cellpadding="5">
 <tr><td>(1)</td><td>本来の内部否定の形:</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td></tr>
 <tr><td>(2)</td><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca fasygu'e nolraitru gi'e na krecau</td></tr>
@@ -127,7 +133,7 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
 <tr><td>(4)</td><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca fasygu'e nolraitru na krecau</td></tr>
 <tr><td></td><td></td></tr>
 </table>
-この (4) によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は (3) の「ko'a krecau」だけではなく「ko'a ca fasygu'e nolraitru」を含めた文全体を否定することになる。結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定の真理値に等しくなっている。
+この (4) によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は (3) の「ko'a krecau」だけではなく「ko'a ca fasygu'e nolraitru」を含めた文全体を否定することになる。 結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定の真理値に等しくなっている。
 <br />
 <a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">参考：否定についての説明（フランス語）</a>
 </div>
@@ -149,7 +155,9 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
             na klama le nu dansu
        ダンスに行かないことについて、私は嬉しくない。 
 </pre>
-<div class="notci"># le nu dansu という事象を klama の到着地点 x2 とすることは、いくらか違和感を与えるかもしれない。しかし、事象を地点とする用法を弁護することは可能だ。例えば、時空に場の量子論を適用し、時空上の点が場という事象であり、それらの事象を接続した多様体が時空であると考えれば、事象を地点とする用法は間違いとは言えない。もっとも、この用法をマクロな事象にまで適用して良いかどうかは、哲学的な観点に依存する。
+<div class="notci"># le nu dansu という事象を klama の到着地点 x2 とすることは、いくらか違和感を与えるかもしれない。 しかし、事象を地点とする用法を弁護することは可能だ。 例えば、時空に場の量子論を適用し、時空上の点が場という事象であり、それらの事象を接続した多様体が時空であると考えれば、事象を地点とする用法は間違いとは言えない。 もっとも、この用法をマクロな事象にまで適用して良いかどうかは、哲学的な観点に依存する。<br />
+NU 類で地点を表すことは可能か？ NU 類には時点の抽象 mu'e があるが、地点の抽象が無い。 しかし、汎用の NU 類である su'u を使えば、この抽象節は地点の抽象も含むと考えられる：<br />
+klama le su'u dansu
 </div>
 この例では、 nu で抽象されたブリディの中でも内部否定が使われている。 ブリディ否定はスムティ内の描写についても使われる。 例えば
 <pre>
@@ -218,6 +226,8 @@ le karce cu spofu .iseki'ubo mi na klama le zarci
 <a id="e2.18" name="e2.18">2.18)</a>  私が軍に徴兵されないことは、上院議員であるおじの助けによる。 
 </pre>
 <p>ブリディ否定をルジヴォに組み込みたくなることもあるかもしれない。 そのため、「na」には「-nar-」というラフシが用意されている。 しかしこのラフシを使う前に、<a href="#15.3">第3節</a>で述べられている段階否定ではなくて、本当にブリディの矛盾否定をしたいのかどうか、再考して欲しい。 タンルやルジヴォで良く使われるのは段階否定の方だ。 </p>
+<div class="notci"># na ku を量化表現とともに使うことによって、 na の係る範囲を制限することも可能だ。 詳細は<a href="chapter16.html#16.9">第16章の9から12節</a>を参照。
+</div>
 
 <a id="15.3" name="15.3"></a><h3>3. 段階否定</h3>
 <p>他の種類の否定を見てみよう。 </p>
