@@ -115,19 +115,19 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
 「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。<br />
 「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。<br />
 <table border="0" cellpadding="5">
-<tr><td>1.</td><td>肯定文</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>偽</td></tr>
-<tr><td>2.</td><td>内部否定</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td><td>偽</td></tr>
-<tr><td>3.</td><td>外部否定</td><td>￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>no da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>真</td></tr>
+<tr><td>肯定文</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>偽</td></tr>
+<tr><td>内部否定</td><td>∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td><td>偽</td></tr>
+<tr><td>外部否定</td><td>￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>no da zo'u da ca fasygu'e nolraitru gi'e krecau</td><td>真</td></tr>
 </table>
-このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より広がらざるを得ない。結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定に等しくなっている。
+このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より広がらざるを得ない。
 <table border="0" cellpadding="5">
-<tr><td>本来の内部否定の形:</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td></tr>
-<tr><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca fasygu'e nolraitru gi'e na krecau</td></tr>
-<tr><td>量化を消すと、存在についての言明が消える:</td><td>ko'a ca fasygu'e nolraitru gi'e na krecau</td></tr>
-<tr><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca fasygu'e nolraitru na krecau</td></tr>
+<tr><td>(1)</td><td>本来の内部否定の形:</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td></tr>
+<tr><td>(2)</td><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca fasygu'e nolraitru gi'e na krecau</td></tr>
+<tr><td>(3)</td><td>量化を消すと、存在についての言明が消える:</td><td>ko'a ca fasygu'e nolraitru gi'e na krecau</td></tr>
+<tr><td>(4)</td><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca fasygu'e nolraitru na krecau</td></tr>
 <tr><td></td><td></td></tr>
 </table>
-この手順によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は「ko'a krecau」だけではなく「ko'a ca fasygu'e nolraitru」を含めた文全体を否定することになる。
+この (4) によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は (3) の「ko'a krecau」だけではなく「ko'a ca fasygu'e nolraitru」を含めた文全体を否定することになる。結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定の真理値に等しくなっている。
 <br />
 <a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">参考：否定についての説明（フランス語）</a>
 </div>
