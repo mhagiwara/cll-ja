@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="580.21918"
-   height="187.59918"
+   width="636.24908"
+   height="212.41388"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0074671"
-     inkscape:cx="200.01041"
-     inkscape:cy="87.226856"
+     inkscape:cx="208.94371"
+     inkscape:cy="95.167557"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,14 +70,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-174.98959,-92.893513)">
+     transform="translate(-166.05629,-76.019516)">
     <rect
        style="fill:#ffffff;stroke:none"
        id="rect3040"
-       width="604.48627"
-       height="204.47318"
+       width="636.24908"
+       height="212.41388"
        x="166.05629"
-       y="83.96022" />
+       y="76.019516" />
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -390,35 +390,35 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="584.98956"
+       x="591.93768"
        y="230.49269"
        id="text3027-6-0-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3029-8-5-8"
-         x="584.98956"
+         x="591.93768"
          y="230.49269">na</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="554.98956"
+       x="562.9303"
        y="230.49269"
        id="text3031-0"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3033-6"
-         x="554.98956"
+         x="562.9303"
          y="230.49269">na</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="617.94312"
-       y="230.42532"
+       x="622.90607"
+       y="229.43274"
        id="text3879-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3881-8"
-         x="617.94312"
-         y="230.42532">go'i にはならない。</tspan></text>
+         x="622.90607"
+         y="229.43274">broda にはならない。</tspan></text>
   </g>
 </svg>

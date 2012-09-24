@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="744.44116"
+   height="1050.1583"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0074671"
-     inkscape:cx="447.5599"
-     inkscape:cy="752.84679"
+     inkscape:cx="446.56731"
+     inkscape:cy="1532.0101"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,11 @@
      inkscape:window-x="0"
      inkscape:window-y="43"
      inkscape:window-maximized="0"
-     inkscape:snap-nodes="true" />
+     inkscape:snap-nodes="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,7 +55,15 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-0.99258822,-2.2037985)">
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect3022"
+       width="744.44116"
+       height="1050.1583"
+       x="0.99258822"
+       y="2.2037985" />
     <path
        sodipodi:type="arc"
        style="fill:none;stroke:#000000"
@@ -60,7 +72,7 @@
        sodipodi:cy="272.36218"
        sodipodi:rx="131.42857"
        sodipodi:ry="125.71429"
-       d="m 405.71428,272.36218 a 131.42857,125.71429 0 1 1 -262.85715,0 131.42857,125.71429 0 1 1 262.85715,0 z"
+       d="m 405.71428,272.36218 c 0,69.43009 -58.84258,125.71429 -131.42857,125.71429 -72.586,0 -131.42858,-56.2842 -131.42858,-125.71429 0,-69.43008 58.84258,-125.71428 131.42858,-125.71428 72.58599,0 131.42857,56.2842 131.42857,125.71428 z"
        transform="translate(-6.0609153,-63.63961)" />
     <path
        sodipodi:type="arc"
@@ -70,7 +82,7 @@
        sodipodi:cy="273.79074"
        sodipodi:rx="144.28572"
        sodipodi:ry="132.85715"
-       d="m 597.14287,273.79074 a 144.28572,132.85715 0 1 1 -288.57144,0 144.28572,132.85715 0 1 1 288.57144,0 z"
+       d="m 597.14287,273.79074 c 0,73.37498 -64.59892,132.85715 -144.28572,132.85715 -79.68681,0 -144.28572,-59.48217 -144.28572,-132.85715 0,-73.37498 64.59891,-132.85715 144.28572,-132.85715 79.6868,0 144.28572,59.48217 144.28572,132.85715 z"
        transform="translate(-6.0609153,-63.63961)" />
     <rect
        style="fill:none;stroke:#000000"
@@ -127,7 +139,7 @@
        sodipodi:cy="736.64789"
        sodipodi:rx="95.714287"
        sodipodi:ry="95.714287"
-       d="m 391.42858,736.64789 a 95.714287,95.714287 0 1 1 -191.42857,0 95.714287,95.714287 0 1 1 191.42857,0 z"
+       d="m 391.42858,736.64789 c 0,52.86154 -42.85274,95.71428 -95.71429,95.71428 -52.86154,0 -95.71428,-42.85274 -95.71428,-95.71428 0,-52.86154 42.85274,-95.71429 95.71428,-95.71429 52.86155,0 95.71429,42.85275 95.71429,95.71429 z"
        transform="translate(-13.131984,-59.599001)" />
     <path
        sodipodi:type="arc"
@@ -137,7 +149,7 @@
        sodipodi:cy="749.50507"
        sodipodi:rx="121.42857"
        sodipodi:ry="108.57143"
-       d="m 568.57143,749.50507 a 121.42857,108.57143 0 1 1 -242.85715,0 121.42857,108.57143 0 1 1 242.85715,0 z"
+       d="m 568.57143,749.50507 c 0,59.96234 -54.36543,108.57142 -121.42858,108.57142 -67.06315,0 -121.42857,-48.60908 -121.42857,-108.57142 0,-59.96235 54.36542,-108.57143 121.42857,-108.57143 67.06315,0 121.42858,48.60908 121.42858,108.57143 z"
        transform="translate(-13.131984,-59.599001)" />
     <path
        sodipodi:type="arc"
@@ -147,7 +159,7 @@
        sodipodi:cy="852.36218"
        sodipodi:rx="112.85714"
        sodipodi:ry="97.14286"
-       d="m 465.71429,852.36218 a 112.85714,97.14286 0 1 1 -225.71428,0 112.85714,97.14286 0 1 1 225.71428,0 z"
+       d="m 465.71429,852.36218 c 0,53.65052 -50.52787,97.14286 -112.85714,97.14286 -62.32928,0 -112.85714,-43.49234 -112.85714,-97.14286 0,-53.65052 50.52786,-97.14286 112.85714,-97.14286 62.32927,0 112.85714,43.49234 112.85714,97.14286 z"
        transform="translate(-13.131984,-59.599001)" />
     <text
        xml:space="preserve"
@@ -157,7 +169,9 @@
        id="text3029"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3031" /></text>
+         id="tspan3031"
+         x="291.42856"
+         y="912.36218" /></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -182,7 +196,7 @@
          y="561.42804" /></text>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="105.05584"
        y="512.94073"
        id="text3027"
@@ -193,7 +207,7 @@
          y="512.94073">na'e(dotco jo ricfu) je na'e(nanmu)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="290.92392"
        y="934.17432"
        id="text3033"
