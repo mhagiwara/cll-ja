@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="445.28571"
-   height="445.28571"
+   width="471"
+   height="456.71429"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
@@ -58,23 +58,23 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="bg"
-     transform="translate(16.214286,14.826991)">
+     transform="translate(16.214286,26.255563)">
     <rect
-       style="fill:#ffffff;stroke:#ffffff"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.04158294"
        id="rect2995"
-       width="444.28571"
-       height="444.28571"
-       x="-15.714286"
-       y="-14.326991" />
+       width="469.9584"
+       height="455.6727"
+       x="-15.693495"
+       y="-25.734772" />
   </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-172.14231,-113.79078)">
+     transform="translate(-172.14231,-102.36221)">
     <path
        sodipodi:type="arc"
-       style="fill:#ff8080;stroke:#ff8080"
+       style="fill:#ff8080;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2985"
        sodipodi:cx="400"
        sodipodi:cy="350.93362"
@@ -98,15 +98,15 @@
        sodipodi:open="true" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="188.57144"
-       y="145.21933"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="198.57144"
+       y="136.6479"
        id="text2989"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2991"
-         x="188.57144"
-         y="145.21933">納得できるタンル構成要素の選択肢の集合</tspan></text>
+         x="198.57144"
+         y="136.6479">納得できるタンル構成要素の選択肢の集合</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -129,5 +129,16 @@
          id="tspan2999"
          x="427.14285"
          y="418.07648">broda</tspan></text>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 57.142857,33.857134 C 44.285714,73.857134 80,96.714277 80,96.714277"
+       id="path3764"
+       inkscape:connector-curvature="0"
+       transform="translate(172.14231,113.79078)" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 228.75672,202.39631 c 41.90501,24.01404 15.23818,-16.70541 15.23818,-16.70541 l 0,1.04409"
+       id="path3766"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
