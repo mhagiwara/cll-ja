@@ -1283,7 +1283,7 @@ thus making them apply to the same sumti. For example:
 </en>
 </paragraph>
 
-<note># 訳注: one or more ということで「&one_or_more;」であるが、<!--
+<note># note: one or more ということで「&one_or_more;」であるが、<!--
 -->ひとつの&relative;&clause;をまとめるというのはおかしいので、<!--
 -->one or more ではなく more than one が正しいと思われる。<!--
 -->よって more than one であると考えて「&more_than_one;の」と訳した</note>
@@ -1850,7 +1850,7 @@ Now the three possible attachment points discussed previously take on significan
 -->くどいので「どうなるだろうか」とする</note>
 <note># note: 最後の文は「3つの位置のどこに&relative;&clause;が入るかが<!--
 -->重要になる」と訳したほうが良いかもしれない。あとで検討すること</note>
-<note># 訳注: さらに意訳を進めて「3つの位置のどこに&relative;&clause;が入るかに<!--
+<note># note: さらに意訳を進めて「3つの位置のどこに&relative;&clause;が入るかに<!--
 -->よって意味が決まる」や「...によって意味が変わる」としたほうがわかりやすい<!--
 -->かもしれない</note>
 
@@ -1917,7 +1917,7 @@ everything which the underlying selbri applies to.
 -->explicit はもっと軽く訳するか、または訳出しなくてもよいかもしれない</note>
 <note># note: underlying をどう訳すか。&sumti;の基盤になっている&selbri;といった<!--
 -->ニュアンスだろうと思われるが</note>
-<note># 訳注: 最後の一文はもっとわかりやすく意訳する必要がある</note>
+<note># note: 最後の一文はもっとわかりやすく意訳する必要がある</note>
 
 <paragraph>
 <ln><name>例文 6.5</name><address>#ex6.5</address></ln>はどうだろう。<!--
@@ -2048,17 +2048,17 @@ But  not all people are white, so the incidental claim being made here is false.
 </en>
 </paragraph>
 
-<note># 訳注: once を「したあとに」と訳した。本来は「するとすぐに」等の意味</note>
-<note># 訳注: この段落にも訳出しづらい actually が出てきた。<!--
+<note># note: once を「したあとに」と訳した。本来は「するとすぐに」等の意味</note>
+<note># note: この段落にも訳出しづらい actually が出てきた。<!--
 -->英語において actually というものは軽い強調や、ほとんどリズムを整える程度の<!--
 -->意味しか持たないように思える。ここでのニュアンスとしては<!--
 -->「意味的におかしいのでそうは思わないだろうけど、<!--
 -->実はこの&relative;&clause;は人間全体にかかるのだ」<!--
 -->といったところだろうか</note>
-<note># 訳注: being made here を「この」と訳した</note>
-<note># 訳注: 最後の文はより意訳的に訳する際にもっとこなれた日本語にすること</note>
+<note># note: being made here を「この」と訳した</note>
+<note># note: 最後の文はより意訳的に訳する際にもっとこなれた日本語にすること</note>
 <delete>
-<note># 訳注: 日本語の「白い」には「白人である」という意味はない。<!--
+<note># note: 日本語の「白い」には「白人である」という意味はない。<!--
 -->しかし英語で "He is white." と言った場合には「彼は白人である。」という<!--
 -->意味を持つ。&lojban;で le prenu cu blabi と言った場合、<!--
 -->おそらく日本語で言うところの「その人は白い」を意味するのだろう。<!--
@@ -2070,11 +2070,11 @@ But  not all people are white, so the incidental claim being made here is false.
 -->le prenu cu blabi を「その人は白人である」の意味で使うのは、<!--
 -->英語の "white" にひきずられた誤った類推であり、<!--
 -->論理的にまちがっていると思う</note>
-<note># 訳注: gismu の意味の広がりを考慮したとしても、<!--
+<note># note: gismu の意味の広がりを考慮したとしても、<!--
 -->「白い」という概念と「白色人種である」という概念は離れすぎているように思う。<!--
 -->たとえば「顔色が悪い」という意味は blabi に含み得ると思われるが、<!--
 -->「白人である」は意味の飛び地になってしまうだろう</note>
-<note># 訳注: 上記訳注の正しさについては別に考察する必要がある</note>
+<note># note: 上記訳注の正しさについては別に考察する必要がある</note>
 </delete>
 
 <paragraph>
@@ -2089,7 +2089,7 @@ Otherwise we may end up claiming far too much.
 </en>
 </paragraph>
 
-<note># 訳注: end up claiming far too much 「はるかに多く主張しすぎる」<!--
+<note># note: end up claiming far too much 「はるかに多く主張しすぎる」<!--
 -->つまり、あるもののいくつかのものについて言おうとしているのに、<!--
 -->そのもののすべてについて言っていることになってしまうということ。<!--
 -->もっとちゃんとした日本語に意訳すること</note>
@@ -3200,7 +3200,7 @@ is-slow.
 </en>
 </example>
 
-<note># 訳注: 底本では le prenu poi ke'a goi ko'a zo'u ko'a zvati
+<note># note: 底本では le prenu poi ke'a goi ko'a zo'u ko'a zvati
 le kumfa poi ke'a goi ko'e zo'u ko'a zbasu ke'a cu masno だが、<!--
 -->これだと趣旨がおかしくなるので、<!--
 -->"ke'a" -> "ko'e" とした。最新版でも修正されていない</note>
