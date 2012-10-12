@@ -16,7 +16,7 @@
 <image>./images/chapter8.gif</image>
 
 <prenotes>
-<note># 26% くらい翻訳</note>
+<note># 27% くらい翻訳</note>
 <note># 現在のところ下書きの訳である</note>
 <note># 誤りや不明瞭な箇所多々あると思われる</note>
 <note># 訳の見直しの一回目が終わったので訳の見直しの二回目に入る</note>
@@ -2566,7 +2566,7 @@ in this case, though, it is a syllable shorter than the equally valid alternativ
 <paragraph>
 &normally;&relative;&clause;は単純な&sumti;か&sumti;の一部に&attach;られる。<!--
 -->つまり、&pro_sumti;、名前、&description;、&pure_number;、&quotation;である。<!--
--->&pure_number;に&relative;&clause;を&attach;た例文は
+-->&pure_number;に&relative;&clause;を&attach;た例文を示す。
 <en>
 Normally, relative clauses attach only to simple sumti or parts of sumti:
 pro-sumti, names and descriptions, pure numbers, and quotations.
@@ -2605,10 +2605,9 @@ cu jufra</lojban>
 </example>
 
 <paragraph>
-これは&quotation;の発話者を特定するかまたはその他の関係する事実、<!--
--->副次的なものだが、を提供する。<!--
--->このような&relative;&clause;は単純な&sumti;の後ろにだけ現われ、<!--
--->前に現れることはない。
+これは&quotation;の発話者やそれ以外の関連する補足的な事実を示すのに役立つ。<!--
+-->このような&relative;&clause;は単純な&sumti;のうしろにしか置けず、<!--
+-->まえに置くことはできない。
 <en>
 which may serve to identify the author of the quotation or some other relevant,
 but subsidiary, fact about it.
@@ -2616,11 +2615,18 @@ All such relative clauses appear only after the simple sumti, never before it.
 </en>
 </paragraph>
 
-<note># note: which may serve to identify the author of the quatation or some other
-relevant, but subsidiary, fact about it をどう訳すべきか。<!--
--->or some other relevant が何を意味するのか、等</note>
-<note># note: 「このような」はここで紹介された&description;以外のものに係る
-&relative;&clause;のことを指すと思われる</note>
+<note># note: 「それ以外の関連する補足的な事実」とは何か。<!--
+-->また、よりシンプルな日本語に直せないだろうか</note>
+<note># note: 「補足的」とは、つまり主ブリディとして表されていないということか</note>
+<note># note: 「このような」はこの節で紹介された「純粋な数と引用に係る<!--
+-->&relative;&clause;」のことを指すと思われる。あとで訳注としてまとめること</note>
+<note># note: 「このような」はもしかすると「引用に係る<!--
+-->&relative;&clause;」のことだけを指す可能性もある</note>
+<note># note: 「前、後ろ」ではなく「まえ、うしろ」としたほうが<!--
+-->可読性が高いように思う。</note>
+<note># note: 「置」くが二度続けて出てくるのが美しくない気がするが、<!--
+-->今のところこのままにしておく。<!--
+-->「まえに置くことはできない」の部分は消してもいいかもしれない。</note>
 
 <paragraph>
 さらに、&selma_o; LAhE や NAhE+BO といった&sumti;&qualifier;<!--
