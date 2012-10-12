@@ -115,25 +115,25 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
 「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。 どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。 そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。 <br />
 「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。 これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。 <br />
 <table border="0">
-<tr><td rowspan="2">肯定文</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">da ro de zo'u da ca fasygu'e nolraitru .ije ganai de ca fasygu'e nolraitru gi de du da .ije da krecau</font></td><td rowspan="2">偽</td></tr>
-<tr> <td><font size="-1"> = pa da zo'u da ca fasygu'e nolraitru gi'e krecau</font></td></tr>
+<tr><td rowspan="2">肯定文</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">da ro de zo'u da ca nolraitru be le fasygu'e .ije ganai de ca nolraitru be le fasygu'e gi de du da .ije da krecau</font></td><td rowspan="2">偽</td></tr>
+<tr> <td><font size="-1"> = pa da zo'u da ca nolraitru be le fasygu'e gi'e krecau</font></td></tr>
 <tr height="10"><td colspan="3"></td></tr>
-<tr><td rowspan="2">内部否定</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td><font size="-1">da ro de zo'u da ca fasygu'e nolraitru .ije ganai de ca fasygu'e nolraitru gi de du da .ije da na krecau</font></td><td rowspan="2">偽</td></tr>
-<tr><td><font size="-1">= pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</font></td></tr>
+<tr><td rowspan="2">内部否定</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td><font size="-1">da ro de zo'u da ca nolraitru be le fasygu'e .ije ganai de ca nolraitru be le fasygu'e gi de du da .ije da na krecau</font></td><td rowspan="2">偽</td></tr>
+<tr><td><font size="-1">= pa da zo'u da ca nolraitru be le fasygu'e gi'e na krecau</font></td></tr>
 <tr height="10"><td colspan="3"></td></tr>
-<tr><td rowspan="2">外部否定</td><td rowspan="2">￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">naku da ro de zo'u da ca fasygu'e nolraitru .ije ganai de ca fasygu'e nolraitru gi de du da .ije da krecau</font></td><td rowspan="2">真</td></tr>
-<tr><td><font size="-1">= no da zo'u da ca fasygu'e nolraitru gi'e krecau</font></td></tr>
-<tr height="10"><td colspan="3"></td></tr>
+<tr><td rowspan="2">外部否定</td><td rowspan="2">￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">naku da ro de zo'u da ca nolraitru be le fasygu'e .ije ganai de ca nolraitru be le fasygu'e gi de du da .ije da krecau</font></td><td rowspan="2">真</td></tr>
+<tr><td><font size="-1">= no da zo'u da ca nolraitru be le fasygu'e gi'e krecau</font></td></tr>
+<tr height="10"><td colspan="4"></td></tr>
 </table>
 このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。 ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より拡がらざるを得ない。 
 <table border="0" cellpadding="5">
-<tr><td>(1)</td><td>本来の内部否定の形:</td><td>pa da zo'u da ca fasygu'e nolraitru gi'e na krecau</td></tr>
-<tr><td>(2)</td><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca fasygu'e nolraitru gi'e na krecau</td></tr>
-<tr><td>(3)</td><td>量化を消すと、存在についての言明が消える:</td><td>ko'a ca fasygu'e nolraitru gi'e na krecau</td></tr>
-<tr><td>(4)</td><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca fasygu'e nolraitru na krecau</td></tr>
+<tr><td>(1)</td><td>本来の内部否定の形:</td><td>pa da zo'u da ca nolraitru be le fasygu'e gi'e na krecau</td></tr>
+<tr><td>(2)</td><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca nolraitru be le fasygu'e gi'e na krecau</td></tr>
+<tr><td>(3)</td><td>量化を消すと、存在についての言明が消える:</td><td>ko'a ca nolraitru be le fasygu'e gi'e na krecau</td></tr>
+<tr><td>(4)</td><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca nolraitru be le fasygu'e na krecau</td></tr>
 <tr><td></td><td></td></tr>
 </table>
-この (4) によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は (3) の「ko'a krecau」だけではなく「ko'a ca fasygu'e nolraitru」を含めた文全体を否定することになる。 結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定の真理値に等しくなっている。
+この (4) によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は (3) の「ko'a krecau」だけではなく「ko'a ca nolraitru be le fasygu'e」を含めた文全体を否定することになる。 結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定の真理値に等しくなっている。
 <br />
 「内部否定」は、量化記号の内側にあるからこそ「内部」否定と呼ばれるのだから、そもそも、量化表現を伴わない否定について、「内部否定」「外部否定」という表現をするのは奇妙だ。しかし、<a href="chapter16.html">第16章</a>で詳述されるように、量化表現を伴うブリディ本体を否定するときには na 、量化表現の方を否定するときには naku が使われ、これらはそれぞれ述語論理の「内部否定」と「外部否定」に相当する。 na によるブリディ否定を「内部ブリディ否定」と呼ぶ慣習は、この na と naku の区別を、量化を伴わない否定にまで（つい）持ち込んだものと思われる。<br />
 <a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">参考：否定についての説明（フランス語）</a>
@@ -333,7 +333,7 @@ or
        私は店に偽・行く。 
 </pre>
 しかし実際にはこれらの表現の間に相似性は無い。 「na」を使った否定は関係が真であることを否定するが、「na'e」を使ったセルブリの否定は、この文中のスムティの間に、ここに述べられた関係以外の関係が成り立つことを表明している。 
-「na'e」に割り当てられた文法によって、段階否定を、文中で係る範囲 (scope) ・段階 (scale) ・段階上の範囲 (range within the scale) に関して、曖昧性なく表現することができる。 段階の性質を説明する前に、「na'e」の係る範囲がどのように定義されているかを説明しよう。 
+「na'e」に割り当てられた文法によって、段階否定を、文中で係る範囲 (scope: <span class="notci"># 文のどこからどこまでの部分を否定しているか</span>) ・段階 (scale: <span class="notci"># 文中の、否定される語の部分に代入される語として、納得のいく "plausible" 選択肢の集合</span>) ・段階上の範囲 (range within the scale: <span class="notci"># 段階の部分集合</span>) に関して、曖昧性なく表現することができる。 段階の性質を説明する前に、「na'e」の係る範囲がどのように定義されているかを説明しよう。 
 <p>タンルの中では、タンルを構成する個別の要素を否定したいとことがあり得る。 つまり、セルブリより狭い範囲に係る否定が必要だ。 この用途でも「na'e」を使うことができる。 肯定文</p>
 <pre>
 <a id="e4.4" name="e4.4">4.4)</a>   mi cadzu klama le zarci
@@ -352,6 +352,10 @@ or
 <p>ロジバンのタンルの否定における「段階」というのは、実際には「集合」であり、これはそのタンルの中で、否定されている部分に置き換えても納得できるものの集合である。 （ここで「納得できる (plausiblility) 」というのは、質問「mo」に対する回答が納得のいく形でなければならないと言う場合の意味と同じように解釈する。 置き換えの結果、場所の個数が正しく、スムティの値がその PS に適切であるというだけではなく、文脈上も適切、あるいは相応しいものでなければならない。 ）
 <div class="notci"># 段階否定は、「納得できる選択肢の集合」のうち、否定される部分が指すものの集合の補集合を表す。 <br />
 # <img align="top" width="300" src="./nahe.svg" /> <br />
+ <br />
+<a href="#e4.5">例4.5</a>では、 na'e cadzu である集合の中に、 bajra や karce などは入るが、 sidbo や namcu などは入らないと考える話し手が多いだろう。 <br />
+<a href="#e4.6">例4.6</a>では、 na'e klama である集合の中に、 viska や skicu などが入りそうだ。 <br />
+<a href="#15.5">第5節</a>では、もっと精確に「納得できる」集合を指定する方法を説明している。<br />
  <br />
 </div>
 このような極小の条件によって、話し手はわざと漠然とした表現をしながらも、意味のある情報を交換することができる。 話し手がセルブリ否定（<span class="notci"># 段階否定 na'e</span>）を使う場合、ある関係を否定しながらも、別の関係が成立することを極小の形で表明している。 </p>
@@ -386,6 +390,9 @@ or
 </pre>
 <a href="#e4.10">例4.10</a>は、否定の係る範囲が<a href="#e4.11">例4.11</a>より狭い。 つまり、<a href="#e4.10">例4.10</a>で x1 (mi) について否定されているのは、文の中の<a href="#e4.11">例4.11</a>より少ない部分だ。 
 <p>論理的な係り範囲は、ロジバンの言明に曖昧性が無いようにするための重要な因子だから、「na'e」の相対的優先度を演算子として示そう。 「ke」と「ke'e」によるグループ化は、もちろん係り範囲が明白だ。 「na'e」は、それが付くブリヴラに強く結合する。 タンル内の「bo」による結合は、「na'e」による結合より弱い。 タンル内の反転演算子「co」の係る範囲は、タンル構成因子の中で最も広い範囲に係る。 </p>
+<div class="notci"># タンル内の結合の強さを弱い順に並べると、以下のようになる。<br />
+co &lt; 無 &lt; je/joi &lt; bo &lt; na'e
+</div>
 <p>要するに、「na'e」と「na'eke」は、ブリディ否定よりも狭い範囲に係り、セルブリの全体か一部に作用する否定の型を決める。 「na'e」による否定では、ある特定の部分の真を依然として表明し、別の言明の単なる否定ではない。 </p>
 <p>タンルをルジヴォにするとき「na'e」を表すラフシ「nal-」が英語の「non-」とまったく同様の形をしているということに気付くと、この類似性は衝撃的だ。 否定文をルジヴォにすると、例えば以下のようになる。 </p>
 <pre>
@@ -394,7 +401,7 @@ or
        na'e sutra cadzu klama は nalsu'adzukla
        nake sutra cadzu ke'e klama は nalsu'adzuke'ekla
 </pre>
-<div class="notci"># 最後の文は nake sutra cadzu ke'e klama ではなく na'eke sutra cadzu ke'e klama のはずだ。  na のラフシは nar である。 
+<div class="notci"># 最後の文は nake sutra cadzu ke'e klama ではなく na'eke sutra cadzu ke'e klama のはずだ。 もし na だったら、 tanru の一部分だけに係るようにはできないので、この部分に ke - ke'e を付ける意味が無い。また、 na のラフシは nar である。 
 </div>
 注：「-kem-」は「ke」のラフシだが、最後のルジヴォでは不要なものとして消去されている。 「ke'e」はそれ自体ラフシで、これがルジヴォに入ると、「nal-」の後に本来「ke」があるということを意味する。 なぜなら、 ke'e は何らかのグループ範囲を閉じるものであり、このルジヴォで表されるタンルの中では、「ke」が否定の直後にくる場合にのみ、「ke'e」を使う意味があるからだ。 
 <p>ルジヴォの中の「nal-」は「非」と訳すのが最も明解だろう。 ロジバンを自然言語に翻訳するときは、否定の係る範囲が分かるようにしなければならない。 </p>
@@ -475,6 +482,9 @@ or
 <a id="e5.8" name="e5.8">5.8)</a>   le stizu cu to'e xunre be ci'u loka skari
        椅子は、色という性質を段階の範囲として、赤の対義だ。 
 </pre>
+<div class="notci"> #
+ただし、このように段階の範囲を be ci'u loka skari と指定しても、 to'e xunre の意味は確定しない。色相環における to'e xunre は crino であるが、電磁波の可視光域の波長における to'e xunre は zirpu 、<a href="http://en.wikipedia.org/wiki/Cardinal_directions#Cardinal_directions_in_world_cultures">色と方位との対応がある文化</a>における to'e xunre は、赤と反対の方位に対応する色となる。これらの段階を区別するには、さらに詳しく範囲指定する必要がある。
+</div>
 同様に、段階の中間はシマヴォ「no'e」で表現でき、文法上の振る舞いは「na'e」に等しい。 「na'e」「no'e」「to'e」の例をいくつか比べよう。 
 <pre>
 <a id="e5.9" name="e5.9">5.9)</a>   ta melbi
@@ -500,6 +510,9 @@ or
 <a id="e6.1" name="e6.1">6.1)</a>   no lo ca nolraitru be le fasygu'e cu krecau
        0人の現在のフランス国王は禿だ。 
 </pre>
+<div class="notci"># 
+これは<a href="http://mhagiwara.github.com/cll-ja/chapter15.html#e2.4">第2節の注</a>に書いた外部否定から量化変数を除いた形である。
+</div>
 <a href="#e6.1">例6.1</a>は真だ。 なぜなら、この文は、現在のフランス国王について、それが何人いようとも、その中に禿は一人もいないということを言明しているだけであって、これは明らかに真であるからだ。 実際、禿の現在のフランス国王はいないのだから。 
 <p>同じ文で「na'ebo」否定を使った例を見よう。 </p>
 <pre>
@@ -514,6 +527,11 @@ or
 </pre>
 （ボストンとパースはだいたい地球の反対側に位置する。 合衆国内だけという文脈だったら、ボストンの対義と言えばサンフランシスコだろう。 ）
 良い例がなかなか見つからないのは、描写スムティに「to'ebo」を付けるのが、その描写のセルブリに「to'e」を付けるのと、普通は同じだからだ。 
+<div class="notci"># <br />
+to'ebo lo berti cu du lo to'e berti lo snanu<br />
+.i<br />
+to'ebo lo stuna cu du lo to'e stuna lo stici
+</div>
 <p>どちらの形のスムティ否定も、ブリディ否定や段階セルブリ否定に変換することはできない。 スムティの否定はロジバン会話で使われるだろう。 
 ロジバンではこれらの否定を論理的に変換できないようにしたことによって、自然言語がこれに対応する変換をしようとするときに起こる論理的エラーを避けることが期待される。 </p>
 
@@ -521,7 +539,8 @@ or
 <p>否定をすることができる構造は他にもいくつかあり、それらはすべて個々の単語の否定に基づく。 このような否定には、接尾辞のように連結する否定「nai」を使う。 「nai」は、否定される語にくっつけて書かれることが多い。 しかし、これは普通の独立したシマヴォであり、セルマホ NAI に属する唯一のシマヴォだ。 </p>
 <p>これらの否定の形は単純であり、否定される個々の構造の分析を踏まえて議論し解釈するべきものだ。 だからここではあまり深入りしない。 </p>
 <p>「nai」は以下のようなところで使われる。 </p>
-<p>「nai」は間制と法制の後に付くと（<a href="chapter10.html">第10章</a>を参照）、普通はそのタグ付きブリディの矛盾否定を表す。 例えば間制「pu」に「nai」を付けた「punai」は「過去ではない」「以前ではない」という意味になり、他の時点については、明示的に述べない限り、何も言っていない。 従って</p>
+<p>「nai」は間制と法制の後に付くと（<a href="chapter10.html">第10章</a>を参照：<span class="notci"># 間制と法制の後に付く nai は、他の間制・法制が入った場合にブリディが真になるかどうかについては、何も言っていないので、段階否定ではない。
+ただし、間隔を表すセルマホ TAhE, ROI, ZAhO に nai が付くと、段階否定になる（後述）。</span>）、普通はそのタグ付きブリディの矛盾否定を表す。 例えば間制「pu」に「nai」を付けた「punai」は「過去ではない」「以前ではない」という意味になり、他の時点については、明示的に述べない限り、何も言っていない。 従って</p>
 <pre>
 <a id="e7.1" name="e7.1">7.1)</a>   mi na pu klama le zarci
        私は店に行かなかった。 
@@ -543,11 +562,11 @@ or
 <p>セルマホ COI に属する、呼びかけを表すシマヴォは、指標の一種で、特に聞き手を指定する指標である。 段階の枠組を考慮すれば、意味論的には、セルマホ COI の約半数の語を使わずに済ますことができる。 例えば「co'o」の代わりに「coinai」と言っても同じ意味だ。 しかし一般的には、この表現は使われない。 </p>
 <p>COI シマヴォは、プロトコル的な場面で使われるものが多い。 これらのプロトコルは、例えば雑音の入りやすい無線通信による会話で使われる。 プロトコル的な単語の否定は、通信状態が期待と正反対の状態にあることを伝えたい場合に使われる。 したがって、プロトコル的な呼びかけのうち、「nai」に依存するのは「je'enai」だけである。 これは「了解していない」という意味だ。 </p>
 <p>態度を表す指標は、雑音の多い場面では重要視されない傾向があるが、これと違ってプロトコル的な呼びかけはそういう場面で重要になる。 雑音の多い場面でプロトコルの聞き手が「nai」とだけ言ったら、話し手は相手が了解していないと推定して、伝達を繰り返したり別の方法で応答したりして対応できる。 <a href="chapter13.html">第13章</a>ではこの話題についてもっと詳しく議論している。 </p>
-<div class="notci"># 
+<div class="notci"># <br />
 A: je'e pei <br />
 B: ...nai...
 </div>
-<p>セルマホ NU の抽象詞は間制と法制の型を踏襲する。  NU を否定抽象にすることができ、特に論理接続でつながっている複合抽象とともに使われる。 「su'ujeninai」は「「su'u jenai ni」と同じ意味だ。 ちょうど、間制において「punai je ca」が「pu naje ca」と同じ意味になるのと同様だ。 論理接続された抽象詞を使うことが多いかどうかは不明だ。 <a href="chapter13.html">第13章</a>を参照。 </p>
+<p>セルマホ NU の抽象詞は間制と法制の型を踏襲する。  NU を否定抽象にすることができ、特に論理接続でつながっている複合抽象とともに使われる。 「su'ujeninai」は「「su'u jenai ni」と同じ意味だ（<span class="notci"># 「不特定抽象であるが、数量抽象ではない」</span>）。 ちょうど、間制において「punai je ca」が「pu naje ca」と同じ意味になるのと同様だ。 論理接続された抽象詞を使うことが多いかどうかは不明だ。 <a href="chapter13.html">第13章</a>を参照。 </p>
 <p>セルマホ JOI や BIhI の非論理接続に「nai」が付くと、段階否定になる。 これは、そのブリディが特定の非論理接続において偽となるが、このブリディが真となるような別の非論理接続が存在するということを表す。 非論理接続は<a href="chapter14.html">第14章</a>で議論されている。 </p>
 
 <a id="15.8" name="15.8"></a><h3>8. 真偽質問</h3>
@@ -588,7 +607,7 @@ B: ...nai...
        「今後ジョンがパリとローマに行く」は偽です。 
 </pre>
 <a href="#15.3">第3節</a>で述べたように、<a href="#e8.5">例8.5</a>と<a href="#e8.7">例8.7</a>のような文は意味論的に同一だが、微妙な意味の区別は将来見つかるかもしれない。 
-<p>段階否定「na'e」で回答することもできる。 この場合、間制の直後に「na'eke」を置くのと等しい。 </p>
+<p>段階否定「na'e」で回答することもできる。 この場合、間制の直後（<span class="notci"># というより、「セルブリの直前」という方が適切だろう。間制はいつでもセルブリの直前にあるわけではないので。</span>）に「na'eke」を置くのと等しい。 </p>
 <pre>
 <a id="e8.8" name="e8.8">8.8)</a>   na'e go'i
        そうではない。 
@@ -605,7 +624,7 @@ B: ...nai...
 <p>明示的な肯定形は、セルマホ NA (ja'a) にもセルマホ NAhE (je'a) にもある。 どちらの肯定も、文法上の位置は、これらに対応する否定が置かれる位置と同じだ。 これらを使うと、否定疑問に対する肯定的な回答や、迷いの無い文を表明することができる。 <a href="#15.8">第8節</a>と同じ文脈で、肯定を使う例を考えると、以下のようになる。 </p>
 <div class="notci"># na と go'i の関係をまとめると、こういう図になる。<br />
 # <img align="top" height="200" src="./nagohi.svg" /> <br />
-先行する broda に na が複数ついている場合は、上記の規則を適用する前に、偶数個の na を消す必要があるはずだ。そうしなければ、 na na broda .i na go'i を考えたとき、 na の1つを go'i に付く na が上書きするから、 na go'i が broda の肯定を表すことになってしまい、 broda .i na go'i の場合との整合性がとれない。<br />
+先行する broda に na が複数付いている場合は、上記の規則を適用する前に、偶数個の na を消す必要があるはずだ。そうしなければ、 na na broda .i na go'i を考えたとき、 na の1つを go'i に付く na が上書きするから、 na go'i が broda の肯定を表すことになってしまい、 broda .i na go'i の場合との整合性がとれない。<br />
 </div>
 <pre>
 <a id="e9.1" name="e9.1">9.1)</a>   xu na go'i
@@ -691,7 +710,7 @@ B: ...nai...
        B: 「来るない」は単語ではない。 
        （文法違反、文法的に誤った用法）
 
-<a id="e10.13" name="e10.13">10.13)</a> 私は妻を叩くのをやえmていないが、やめた。 
+<a id="e10.13" name="e10.13">10.13)</a> 私は妻を叩くのをやえmたのではなく、やめた。 
        （綴りや発音の間違い）
 
 <a id="e10.14" name="e10.14">10.14)</a> それは単なる羊ではなく、黒い羊だ。 
