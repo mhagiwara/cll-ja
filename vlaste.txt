@@ -58,6 +58,7 @@ ellipsis	省略
 ellipsis of sumti	スムティの省略
 elliptical	省略的
 endpoint	端点
+entry point	開始点
 epistemology	認識論
 evidential	明察系 # 検討中
 event	出来事
@@ -98,6 +99,7 @@ lerfu	レルフ
 lerfu string	レルフ列
 lerfu word	レルフ詞
 letteral	字詞
+lexer	字句解析子
 Lexer Lexeme	字句解析語彙素
 lexing  字句解析
 logical	論理的
@@ -133,8 +135,10 @@ non-logical connection	非論理接続	# 提案
 non-logical connective	非論理接続詞	# 提案
 non-restrictive	非限定	# 提案
 non-veridical	非真実	# 提案
+null	ヌル
 numeral string	数詞列
 numeric cmavo	数字シマヴォ	# 提案
+observational	観察系
 observative	観察文
 operand	被演算子	# 提案
 operator	演算子	# 提案
@@ -173,6 +177,7 @@ quantification	量化
 quantificational	量化型
 quantified	量化された
 quantifier	数量詞
+quantify	被演算子化（第21章 NIhE/MOhE の説明に限る）
 quotation	引用	# 提案: 意味としては「文字列化」や「文字化」のほうが良いか
 quote	引用する	# 提案: 上記参照
 rafsi	ラフシ
@@ -218,6 +223,7 @@ tense	間制
 terminator	終端詞
 term	名辞
 termset	名辞組
+text	文
 token	トークン
 tri-valued logic	3値論理
 truth value	真偽値
