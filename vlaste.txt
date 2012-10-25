@@ -99,8 +99,10 @@ lerfu	レルフ
 lerfu string	レルフ列
 lerfu word	レルフ詞
 letteral	字詞
-lexer	字句解析子
+lexer	字句解析器, 字句解析子（lexer token の略として出現する場合）
 Lexer Lexeme	字句解析語彙素
+lexer rule	字句解析規則
+lexer token	字句解析トークン
 lexing  字句解析
 logical	論理的
 logical assertion 論理的表明
@@ -222,6 +224,7 @@ temporal tense	時間制
 tense	間制
 terminator	終端詞
 term	名辞
+terminal	定義語
 termset	名辞組
 text	文
 token	トークン

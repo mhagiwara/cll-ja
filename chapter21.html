@@ -64,7 +64,7 @@ grammar.300 */
 <p>g. 単語「su」（セルマホ SU に属する）が確認された場合は、これ自体と、直前の文章全部を、以下のセルマホのどれかに属する単語のトークンが見つかるまで遡り、これらのトークンも含めて消去する： NIhO, LU, TUhE, TO。しかし、話し手が同定されている場合は、 SU が消去する範囲は、その話し手の談話の最初からとなる。ただし、 SU が話し手の談話の最初に現れた場合は全談話の消去になる。つまり、その話し手が既に su 以外の発言をしている場合、会話全体を消去するためには su を2回続けて言う必要がある。</p>
 <h4>手順 3 - 終了</h4>
 <p>文章に FAhO が含まれている場合、 FAhO を文章の終了として扱い、これの後に続くものは全て無視する。</p>
-<h4>手順 4 - 文法に依存しないトークンの吸収Absorption of Grammar-Free Tokens</h4>
+<h4>手順 4 - 文法に依存しないトークンの吸収</h4>
 <p>新規に構文解析器に通す際に (In a new pass)、以下のような吸収 (absorption) を実行する（「吸収」とは、次の手順に進むために、文法からそのトークンを取り除き、構文解析完了後、任意で再挿入し、吸収するトークンと共にグループ化することを意味する。）</p>
 <p>a. 「何か - (ZEI - 何か) ...」（ZEI は何個でも良い）という形のトークンの列は、セルマホ BRIVLA の単一のトークンに融合される。</p>
 <p>b. セルマホ BAhE のトークンは全て、直後のトークンに吸収される。 BAhE のトークンが文章の最後に現れる場合は単独のままにしておく（これはエラーである）。</p>
@@ -73,13 +73,13 @@ grammar.300 */
 <p>e. セルマホ DAhO, FUhO, FUhE, UI, Y, CAI に属するものは全て直前のトークンに吸収される。これらヌル文法トークンは全て、文法上のどの単語の直後に来ても構わない。これらのトークンはその単語の文法上の機能と干渉しないし、文章中の他のトークンの文法上の解釈に、何ら影響を及ぼさない。文章の最初にこれらの(心態）指標が来る場合は、明示的に文法が扱う。</p>
 <h4>手順 5 - 字句解析語彙素 (Lexer Lexemes) の挿入</h4>
 <p>ロジバン自体は LALR1 で書かれていない。後続のトークンによって文法上の機能が決まる単語がある。その結果、 YACC 文法の構文解析は2つの手順に分かれる。第1の手順では、定義された文法に従う、あるトークン列が、以下のいずれかとして同定される。</p>
-<p>a. 単一の特定の「字句解析トークン」と置き換えられ、手順 6 に進む。</p>
+<p>a. 単一の特定の「字句解析トークン (lexer token)」と置き換えられ、手順 6 に進む。</p>
 <p>b. 字句解析トークンがそのトークン列の直前に挿入され、これによってトークン列が一意的に同定される。</p>
-<p>本書に含まれる YACC 文法は、これらの a, b のうち、どちらが使われる場合でも、手順 6 のパーサの YACC生成が簡単になるように書かれている。字句解析トークンのラベルが付くトークン列は、末尾が 900 から 1099 までの数でラベル付けされた規則の中に見出される。これらの規則は、挿入された字句解析トークンによって定義され、その結果、この言語が、手順1から4が実行された後のオプション b の下で LALR1 であることが証明される。逆に、オプション a が使われた場合、これらの規則はコメント・アウトされ、末尾が 800 から 900 までの数でラベル付けされた規則が、定義するトークン列を<em>無視して</em>、字句解析トークンだけを参照する。どちらのオプションとも両立するように、トークンの集合の中で、字句解析トークンの集合が2つ定義される。</p>
+<p>本書に含まれる YACC 文法は、これらの a, b のうち、どちらが使われる場合でも、手順 6 のパーサの YACC生成が簡単になるように書かれている。字句解析トークンによってラベル付けされたトークン列は、 900 から 1099 までの数でラベル付けされた規則定義語 (rule terminals) の中に見出される。これらの規則は、挿入された字句解析トークンによって定義され、その結果、この言語が、手順1から4が実行された後のオプション b の下で LALR1 であることが証明される。逆に、オプション a が使われた場合、これらの規則はコメント・アウトされ、 800 から 900 までの数でラベル付けされた規則定義語が、トークンを定義する文字列<em>無しの</em>、字句解析トークンだけを参照する。これらのオプションが両立するように、トークンの集合の中で、字句解析トークンの集合が2つ定義される。</p>
 <p>この手順の中で、トークン列は、適切な字句解析トークンでラベル付けされなければならない。字句解析トークンを挿入する順番は<em>重要だ</em>。なぜなら、字句解析トークンでラベル付けできる短いトークン列が、長いトークン列の中にあるかもしれないからだ。この場合、もし字句解析トークンが短いトークン列の前に挿入されたり、短いトークン列の代わりに置かれたりすれば、長いトークン列を同定することができない。</p>
 <p>オプション a. が選ばれた場合、以下の順番で挿入すれば、正しく動作する（ただし可能な順番はこれ以外にもある）： A, C, D, B, U, E, H, I, J, K, M, N, G, O, V, W, F, P, R, T, S, Y, L, Q. この順番によって、最も長い規則が最初に処理されるようになる。例えば PA+MAI は、 MAI が後についているので PA とは見なされない。</p>
 <h4>手順 6 - YACC 構文解析</h4>
-<p>以上の手順を経て、 YACC はロジバンの文章の構文解析をすることができる。構文解析の際、オプション 5a を使う場合は末尾が 1 から 899 までの数でラベル付けされた規則に従い、オプション 5b を使う場合は末尾が 1 から 1099 までの数でラベル付けされた規則に従う。オプション 5a を使った場合は 900 番を越える番号の規則をコメントアウトする。それから、700番台の字句解析トークンをコメントアウトし、900番を越える番号の字句解析トークンを復帰させる。</p>
+<p>以上の手順を経て、 YACC はロジバンの文章の構文解析をすることができる。構文解析の際、オプション 5a を使う場合は 1 から 899 までの数でラベル付けされた規則定義語に従い、オプション 5b を使う場合は 1 から 1099 までの数でラベル付けされた規則定義語に従う。オプション 5a を使った場合は 900 番を越える番号の規則をコメントアウトする。それから、700番台の字句解析トークンをコメントアウトし、900番を越える番号の字句解析トークンを復帰させる。</p>
 <p>*/</p>
 <pre>
 %token <a id="y501" name="y501">A_501</a>            /* ek類（論理接続）; 基本後置型論理接続詞 */
@@ -217,8 +217,8 @@ grammar.300 */
 
 
 /* 以下のトークンは実際の字句解析トークンだ。
- _900 番台のトークンは、文法全体の文脈で、字句解析規則の制限付きテストができるようにするために複製されたものだ。
-これらは実際のパーサで使われ、 900 番台の規則はその字句解析子の中にある。 */
+ _900 番台のトークンは、文法全体の文脈で、字句解析規則 (lexer rules) の制限付きテストができるようにするために複製されたものだ。
+これらは実際のパーサで使われ、 900 番台の規則はその字句解析器の中にある。 */
 
 %token lexer_<a id="y701" name="y701">A_701</a>      /* MAI 発話順序に付くフラグ */
 %token lexer_<a id="y702" name="y702">B_702</a>      /* EK_BO, EK_KE 以外の EK に付くフラグ */
@@ -230,7 +230,7 @@ grammar.300 */
 %token lexer_<a id="y708" name="y708">H_708</a>      /* GUhEK に付くフラグ */
 %token lexer_<a id="y709" name="y709">I_709</a>      /* NAhE_BO に付くフラグ */
 %token lexer_<a id="y710" name="y710">J_710</a>      /* NA_KU に付くフラグ */
-%token lexer_<a id="y711" name="y711">K_711</a>      /* I_BO に付くフラグ （オプション。 JOIK/JEK 字句解析子タグ */
+%token lexer_<a id="y711" name="y711">K_711</a>      /* I_BO に付くフラグ （オプション。 JOIK/JEK 字句解析子タグ）  */
 %token lexer_<a id="y712" name="y712">L_712</a>      /* PA に付くフラグ、 MAI を除く。（MAI なら字句解析子 A） */
 %token lexer_<a id="y713" name="y713">M_713</a>      /* GIhEK_BO に付くフラグ */
 %token lexer_<a id="y714" name="y714">N_714</a>      /* GIhEK_KE に付くフラグ */
@@ -270,7 +270,7 @@ grammar.300 */
 /* %token lexer_U_1005   /* :  lexer_U_721  JEK_root_926  BO_508 */
 /* %token lexer_V_1010   /* :  lexer_V_722  JOIK_root_931  BO_508 */
 /* %token lexer_W_1015   /* :  lexer_W_723  JOIK_root_931  KE_551 */
-/* %token lexer_X_1020   /* null */
+/* %token lexer_X_1020   /* ヌル */
 /* %token lexer_Y_1025   /* :  lexer_Y_725  number_root_961  MOI_663 */
 
 
@@ -288,7 +288,7 @@ grammar.300 */
 
 <a id="y1" name="y1">text_A_1</a>                :  <a href="#y422">JOIK_JEK_422</a>  <a href="#y2">text_B_2</a>
                         /* 不完全な JOIK_JEK で、 先行する I が無いもの */
-                        /* 比較せよ： <a href="#y10">paragraph_10</a>の注 */
+                        /* 参照： <a href="#y10">paragraph_10</a>の注 */
                         |  <a href="#y2">text_B_2</a>
                         ;
 
@@ -730,8 +730,8 @@ grammar.300 */
                         ;
 
 
-/* _400 シリーズの構成はほとんど特定の記号列で、それらの記号列のいくつかは字句解析子に使われることもある。
-字句解析子は、_400番より小さい番号の付いたものを参照してはいけない。
+/* _400 シリーズの構成はほとんど特定の記号列で、それらの記号列のいくつかは字句解析器に使われることもある。
+字句解析器は、_400番より小さい番号の付いた定義語を参照してはいけない。
 なぜなら、それらは、セルマホの非・決定論的な記号列に基づいて構成された文法を持つからだ。
 400番より大きい番号にも、いくつかそういうものがあるから、注意すべきだ。
 特に <a href="#y32">free_modifier_32</a> を参照するトークンが、まさにそういうものだ。  */
@@ -749,7 +749,7 @@ grammar.300 */
 
 <a id="y405" name="y405">cmene_A_405</a>             :  <a href="#y518">CMENE_518</a>  /* 休止 */
                         |  <a href="#y405">cmene_A_405</a>  <a href="#y518">CMENE_518</a>  /* 休止 */
-/* 複合 CMENE は形態から特定される（字句解析子によって） -- 子音 &amp; 休止 によって分離される。 */
+/* 複合 CMENE は形態から特定される（字句解析器によって） -- 子音 &amp; 休止 によって分離される。 */
                         ;
 
 
@@ -856,7 +856,7 @@ grammar.300 */
                         |  <a href="#y571">LU_571</a>  <a href="#y0">text_0</a>  <a href="#y448">LIhU_gap_448</a>
                         ;
 
-/* The quoted material in the following three terminals must be identified by
+/* The quoted material in the following three 定義語terminals must be identified by
    the lexer, but no additional lexer processing is needed. */
 
 <a id="y434" name="y434">ZOI_quote_434</a>           :  <a href="#y627">ZOI_627</a>  <a href="#y698">any_word_698</a>
@@ -1423,7 +1423,7 @@ grammar.300 */
 
 <a id="y970" name="y970">lexer_O_970</a>             :  <a href="#y715">lexer_O_715</a>  <a href="#y972">simple_tense_modal_972</a>
                         ;
-/* the following rule is a lexer version of non-terminal_815 for compounding
+/* the following rule is a lexer version of non-定義語terminal_815 for compounding
    PU/法制s; it disallows the lexer picking out FIhO clauses, which would
    require it to have knowledge of the main parser grammar */
 
@@ -1634,9 +1634,9 @@ grammar.300 */
 <a id="y1050" name="y1050">space_int_props_A_1050</a>  : <a href="#y530">FEhE_530</a>  <a href="#y1051">interval_property_1051</a>
                         ;
 
-/* This terminal gives an interval size in space-time (VEhA), and possibly a
+/* This 定義語terminal gives an interval size in space-time (VEhA), and possibly a
    dimensionality of the interval.  The dimensionality may also be used
-   with the interval size left unspecified.  When this terminal is used for the
+   with the interval size left unspecified.  When this 定義語terminal is used for the
    spacetime origin, then barring any overriding VIhA, a VIhA here defines
    the dimensionality of the space-time being discussed.                 */
 
@@ -1653,7 +1653,7 @@ grammar.300 */
 
 /* extensional/intensional interval parameters */
 /* These may be appended to any defined interval, or may stand in place of
-   either time or space tenses.  If no other tense is present, this terminal
+   either time or space tenses.  If no other tense is present, this 定義語terminal
    stands for the time-space interval parameter with an unspecified interval.*/
 
    /* roroi = always and everywhere */
@@ -2526,7 +2526,7 @@ Lojban Machine Grammar, EBNF Version, Final Baseline
 which means that the grammatical construct “name” is defined by “bnf-expression”. The number cross-references this grammar with the rule numbers in the YACC grammar. The names are the same as those in the YACC grammar, except that subrules are labeled with A, B, C, ... in the YACC grammar and with 1, 2, 3, ... in this grammar. In addition, rule 971 is “simple_tag” in the YACC grammar but “stag” in this grammar, because of its frequent appearance.
 <ol>
 <li>Names in lower case are grammatical constructs.</li>
-<li>Names in UPPER CASE are selma'o (lexeme) names, and are terminals.</li>
+<li>Names in UPPER CASE are selma'o (lexeme) names, and are 定義語terminals.</li>
 <li>Concatenation is expressed by juxtaposition with no 演算子or symbol.</li>
 <li>| represents alternation (choice).</li>
 <li>[] represents an optional element.</li>
