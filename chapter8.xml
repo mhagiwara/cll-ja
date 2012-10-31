@@ -39,6 +39,8 @@
 <note># note: 「第...章で説明するように」や「第...章で説明したように」だと<!--
 -->章の番号により別々の表現を使わざるを得ない感じがある。<!--
 -->ので、「第...章にあるように」を使うのはどうか</note>
+<note># note: 「以下に例を示す」と「以下に例文を示す」とがあるが<!--
+-->どちらかに統一しよう。前者のほうがすっきりしていて良いように思う</note>
 </prenotes>
 
 <!-- section#1 -->
@@ -2605,8 +2607,7 @@ cu jufra</lojban>
 
 <paragraph>
 これは&quotation;の発話者やそれ以外の関連する補足的な事実を示すのに役立つ。<!--
--->このような&relative;&clause;は単純な&sumti;のうしろにしか置けず、<!--
--->まえに置くことはできない。
+-->このような&relative;&clause;は単純な&sumti;のうしろにしか置けない。
 <en>
 which may serve to identify the author of the quotation or some other relevant,
 but subsidiary, fact about it.
@@ -2614,6 +2615,8 @@ All such relative clauses appear only after the simple sumti, never before it.
 </en>
 </paragraph>
 
+<note># note: author of the quotation を「引用の発話者」としたが、<!--
+-->より良い訳はないか。「話者」「言い手」「書き手」等も考えられるが。</note>
 <note># note: 「それ以外の関連する補足的な事実」とは何か。<!--
 -->また、よりシンプルな日本語に直せないだろうか</note>
 <note># note: 「補足的」とは、つまり主ブリディとして表されていないということか</note>
@@ -2623,16 +2626,21 @@ All such relative clauses appear only after the simple sumti, never before it.
 -->&relative;&clause;」のことだけを指す可能性もある</note>
 <note># note: 「前、後ろ」ではなく「まえ、うしろ」としたほうが<!--
 -->可読性が高いように思う。</note>
+<delete>
 <note># note: 「置」くが二度続けて出てくるのが美しくない気がするが、<!--
 -->今のところこのままにしておく。<!--
 -->「まえに置くことはできない」の部分は消してもいいかもしれない。</note>
+</delete>
+<note># note: , never before it 「まえに置くことはできない」の部分は訳出しない<!--
+-->ことにした
+</note>
 
 <paragraph>
 さらに、&selma_o; LAhE や NAhE+BO といった&sumti;&qualifier;<!--
 -->(<ln><name>第6章</name><address>./chapter6.html</address></ln><!--
--->で詳述)の&attach;られた&sumti;にも&qualifier;と<!--
+-->参照)の&attach;られた&sumti;にも&qualifier;と<!--
 -->&qualified;&sumti;のあいだに&relative;&clause;をつけることができる。<!--
--->以下のように、
+-->以下に例を示す。
 <en>
 In addition, sumti with attached sumti qualifiers of selma'o LAhE or NAhE+BO
 (which are explained in detail in
@@ -2642,11 +2650,16 @@ qualified sumti, as in:
 </en>
 </paragraph>
 
+<note># note: qulifier を「&qualifier;」、qualified を「&qualified;」と訳した。<!--
+-->しかし、LAhE や NAhE+BO を何詞と呼ぶべきかという問題や、<!--
+-->qualifier と modifier の使い分けについて考える必要がある</note>
 <note># note: 情報はやや減るが、after ... and before ... を<!--
 -->「... と ... のあいだ」と訳してみた</note>
+<delete>
 <note># note: which are explained in detail in Chapter 6
 を「第6章で詳述」と訳したが、いまいちかも。「第6章参照」くらいがいいかも</note>
-<note># note: as in を「以下のように」と訳した</note>
+</delete>
+<note># note: as in を「以下に例を示す」とした</note>
 
 <example><ex_no>8.3</ex_no>
 <lojban>la'e poi tolcitno vau lu le xunre cmaxirma
@@ -2660,25 +2673,25 @@ An old ``The Red Pony" is in the far room.
 </example>
 
 <paragraph>
-<ln><name>例文 8.3</name><address>#ex8.3</address></ln>はすこし複雑なので<!--
--->ばらす必要があるかもしれない。<!--
--->&quotation; "lu le xunre cumaxirma li'u"
-は&string_of_words;「赤い小馬」を意味する。<!--
---><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は<!--
--->文頭の "la'e" を&omit2;すると<!--
--->ある&string_of_words;が遠くの部屋にあるという意味になってしまう。<!--
--->しかし、&string_of_words;が部屋のなかにあるなんてありえない。<!--
--->"la'e" があることで、この&sumti;は単語列そのものではなく、<!--
--->その単語列が&referent;、つまりジョーン・スタインベックの小説<!--
--->(&presumably;&lojban;語訳)を&refer;すことになる。<!--
--->その「赤い小馬」のうちのある一冊が&restrictive;&relative;&clause;によって<!--
+<ln><name>例文 8.3</name><address>#ex8.3</address></ln>はちょっと複雑なので、<!--
+-->すこし細かく見ていこう。<!--
+-->"lu le xunre cmaxirma li'u" <!--
+-->は「赤い小馬」という&string_of_words;を指す。<!--
+--><ln><name>例文 8.3</name><address>#ex8.3</address></ln>で
+la'e がないと<!--
+-->&string_of_words2;が遠くの部屋にあるという意味になってしまう。<!--
+-->しかし、&string_of_words2;が部屋のなかにあるなんてありえない。<!--
+-->la'e があるので、この&sumti;は&string_of_words;そのものではなく、<!--
+-->その&string_of_words;が&referent2;、つまりジョーン・スタインベックの小説<!--
+-->(&presumably;&lojban;語訳)を&refer2;すことになる。<!--
+-->その「赤い小馬」のうちの一冊が&restrictive;&relative;&clause;によって<!--
 -->特定される。<!--
 --><ln><name>例文 8.3</name><address>#ex8.3</address></ln>は以下とまったく<!--
 -->おなじ意味だ。
 <en>
 <ln><name>Example 8.3</name><address>#ex8.3</address></ln> is a bit complex,
 and may need some picking apart.
-The quotation ``lu le xunre cumaxirma li'u" means the string of words
+The quotation ``lu le xunre cmaxirma li'u" means the string of words
 ``The Red Pony".
 If the ``la'e" at the beginning of the sentence were omitted,
 <ln><name>Example 8.3</name><address>#ex8.3</address></ln> would claim that
@@ -2695,6 +2708,23 @@ same as:
 </en>
 </paragraph>
 
+<note># note: need some picking apart を「ばらす必要がある」と訳した。<!--
+-->「分解する」とかそういった意味だが、よりくどく意訳するならば、<!--
+-->「細かく分けて、ひとつひとつ、説明する必要がある」等になると思われる。<!--
+-->あるいは「ばらばらにして見ていこう」あたりがすっきりしてきれいな訳かも。<!--
+-->または some を「すこし」と訳して「すこし細かく見ていこう」が<!--
+-->日本語として自然かもしれない。ただ bit を「すこし」と訳したので重なってしまう。<!--
+-->bit を「やや」と訳せば良いかもしれない。<!--
+-->bit を「ちょっと」と訳すのは、もともと bit を副詞的に使うのが<!--
+-->口語的な表現であることを考えても適している気がする。<!--
+-->「ちょっと」と「すこし」の重なりもやや気になるがとりあえずこれでいこう
+</note>
+<note># note: 日本語の意味とは関係なく quotation の訳として「引用」を使おうか。<!--
+-->quotation の意味を正確に表現できる日本語が見当たらない。<!--
+-->むしろここでは訳出せずに単に「""」でくくられていることで引用であること示そうか</note>
+<note># note: 「単語列『赤い小馬』を意味する」はやや気に入らないな。<!--
+-->「『赤い小馬』という単語の並びを示す」あたりがいいか。<!--
+-->「示す」よりも「指す」のほうがいいか。</note>
 <note># note: a room distant from the speaker
 とあるが単に「遠くの部屋」と訳した</note>
 <note># note: a certain string of words
@@ -2705,6 +2735,7 @@ same as:
 ここではより軽く「という意味になる」と訳してみた</note>
 <note># note: la'e at the beginning of the sentence の beginning
 は訳出しないことにした</note>
+<note># note: referent を「指し示すもの」と訳したがもっといい訳はないか</note>
 <note># note: effect を「効果」と訳したがもっとこなれた訳はないだろうか</note>
 <note># note: modify the sumti の modify は訳出しないことにした</note>
 <note># note: copy を意味する適当な日本語が思いつかない</note>
@@ -2714,7 +2745,7 @@ same as:
 -->「まったくおなじ意味だ」と訳すかで迷ったがとりあえず後者にしておいた</note>
 
 <example><ex_no>8.4</ex_no>
-<lojban>la'e lu le xunre cumaxirma li'u lu'u poi
+<lojban>la'e lu le xunre cmaxirma li'u lu'u poi
 to'ercitno cu zvati le vu kumfa</lojban>
 <japanese>古い「赤い小馬」があそこの部屋にある。</japanese>
 <en>

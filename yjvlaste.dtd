@@ -300,6 +300,7 @@
 	<!ENTITY refer2 "指">
 	<!ENTITY refer3 "表">
 	<!ENTITY referent "指すもの">
+	<!ENTITY referent2 "指し示すもの">
 	<!ENTITY regular "普通の">
 	<!ENTITY relative "関係">
 	<!ENTITY relativize "関係づけ">
@@ -335,7 +336,8 @@
 	<!ENTITY sticky "貼り付き">
 	<!ENTITY strategy "方法">
 	<!ENTITY string "列">
-	<!ENTITY string_of_words "単語列">
+	<!ENTITY string_of_words "単語の並び">
+	<!ENTITY string_of_words2 "並んだ単語">
 	<!ENTITY style "表現">
 	<!ENTITY sub_bridi "サブブリディ">
 	<!ENTITY substitute_for "の代わりになる">
