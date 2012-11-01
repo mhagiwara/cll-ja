@@ -35,12 +35,14 @@
 <note># note: attached や modified 等あるが、<!--
 -->「被修飾スムティ」で統一してしまおうかな</note>
 <note># note: 「表す」と「示す」の使いわけがいまいち曖昧なところがある。<!--
--->統一するか明確な基準で訳し分けるべきだろう</note>
+-->統一するか明確な基準で訳し分けるべきだろう。「指す」も。</note>
 <note># note: 「第...章で説明するように」や「第...章で説明したように」だと<!--
 -->章の番号により別々の表現を使わざるを得ない感じがある。<!--
 -->ので、「第...章にあるように」を使うのはどうか</note>
 <note># note: 「以下に例を示す」と「以下に例文を示す」とがあるが<!--
 -->どちらかに統一しよう。前者のほうがすっきりしていて良いように思う</note>
+<note># note: note that ... を「... に注意しよう」と訳すか、<!--
+-->「... に気をつけよう」と訳すか</note>
 </prenotes>
 
 <!-- section#1 -->
@@ -2755,10 +2757,10 @@ the [far distance] room.
 </example>
 
 <paragraph>
-これらふたつの文は文体が違うだけだと考えられる。<!--
--->"lu'u" &terminator;が必要であることに注意しよう。<!--
+ふたつの文の違いは文体だけと言える。<!--
+-->lu'u &terminator;が必要であることに気をつけよう。<!--
 -->これがないと、&relative;&clause;が&quotation;自体に&attach_to4;ってしまう。<!--
--->&quotation;が古いと言いたいわけではない。
+-->&quotation;が古いと言いたいわけではないのだ。
 <en>
 and the two sentences can be considered stylistic variants.
 Note the required ``lu'u" terminator,
@@ -2777,7 +2779,7 @@ we do not wish to refer to an old quotation!
 -->&apply4;する必要がある場合について考えてみよう。<!--
 -->&logical;または&non_logical;&connection;を&involve2;む&sumti;<!--
 -->である(<ln><name>Chapter 14</name><address>./chapter14.html</address></ln><!--
--->参照)。以下の例を見てみよう。
+-->参照)。次の例を見てみよう。
 <en>
 Sometimes, however, it is important to make a relative clause apply to
 the whole of a more complex sumti,
@@ -2807,11 +2809,11 @@ Frank and George, who is a man, go to the house.
 </example>
 
 <paragraph>
-<ln><name>例文 8.5</name><address>#ex8.5</address></ln>の<!--
--->&incidental;的な&claim2;ではフランクとジョージの両方が男であることを<!--
--->表せない。ジョージが男であるというだけの意味になる。<!--
--->&incidental;&relative;&clause;が&immediately_preceding;<!--
--->単純な&sumti; "la djordj" にだけ&attach_to4;るからだ。
+<ln><name>例文 8.5</name><address>#ex8.5</address></ln><!--
+-->はフランクとジョージの両方が男であるという意味にはならず、<!--
+-->ジョージが男であるというだけの意味となる。<!--
+-->&incidental;&relative;&clause;が&immediately_preceding2;<!--
+-->単純な&sumti; la djordj にだけ&attach_to4;るからだ。
 <en>
 The incidental claim in <ln><name>Example 8.5</name><address>#ex8.5</address></ln>
 is not that Frank and George are men, but only that George is a man,
@@ -2820,14 +2822,25 @@ the immedeately preceding simple sumti.
 </en>
 </paragraph>
 
+<note># note: incidental claim を「非限定的な説明」としたが、<!--
+-->訳としては不正確だが、「非限定関係節」やあるいは単に「関係節」と訳して<!--
+-->も良いように思う。特に incidental と言う意味はここではあまりない気がする。<!--
+-->というよりむしろ incidental claim 自体を訳出しなくても良い気がする</note>
+<note># note: but only that George is a man
+を「ジョージだけが男であるという意味である」とすれば日本語としてスムーズだが、<!--
+-->意味が不正確となる</note>
+<note># note: simple sumti は「単純な&sumti;」と訳したが ...。<!--
+-->simple sumti に何らかのより厳密な定義があるならば、<!--
+-->専門用語として訳したほうがいいと思われる</note>
+
 <paragraph>
-<ln><name>例文 8.5</name><address>#ex8.5</address></ln>で&logically;&connected;<!--
+<ln><name>例文 8.5</name><address>#ex8.5</address></ln>で、&logically_connected;<!--
 -->&sumti;の両方に&relative;&clause;が&attach_to4;るようにするには、<!--
--->新しく紹介する&cmavo;である(&selma_o; VUhO に属する) "vu'o" を使う。<!--
--->これは&sumti;と&relative;&clause;の&between;に置かれ、<!--
--->たとえその&sumti;がたくさんの&logical;または&non_logical;&connective2;を<!--
--->含んでいたとしても、<!--
--->&relative;&clause;の影響の範囲を&preceding;&sumti;全体へと広げる働きを持つ。
+-->&selma_o; VUhO に属する&cmavo; vu'o を使う。<!--
+-->vu'o は&sumti;と&relative;&clause;の&between;に置かれ、<!--
+-->&relative;&clause;が<!--
+-->&logical;または&non_logical;&connective2;を<!--
+-->含む&sumti;全体に係るようにする。
 <en>
 To make a relative clause attach to both parts of the logically connected sumti
 in <ln><name>Example 8.5</name><address>#ex8.5</address></ln>,
@@ -2840,6 +2853,19 @@ including however many logical or non-logical connectives there may be.
 </paragraph>
 
 <note># note: 上訳はこなれていない、より意訳的に訳する必要がある</note>
+<note># note: a new cmavo を「新しく紹介する&cmavo;」としたが ...。<!--
+-->「ここで導入する」とか、「別の」とか、「これまで出てきていない」とか。<!--
+-->文の流れをさえぎるほど必要な情報ではないと思われるので訳出しないことにする</note>
+<note># note: また (of selma'o VUhO) の () は訳出しないことにする</note>
+<note># note: however many logical or non-logical connectives there may be を<!--
+-->どう訳すか。「多くの接続を含んでいたとしても」という意味だと思うが</note>
+<note># note: 「影響の範囲を先行する&sumti;全体へと広げる」はすこし固い。<!--
+-->つまるところ、関係節が係る範囲が接続された&sumti;全体となるということだ</note>
+<note># note: including however many logical or non-logical connectives there may
+be は、「どれだけの数の論理的または非論理的接続が含まれていても」と<!--
+-->いうことであり、「2つ以上の接続が含まれていても良い」ということを強調<!--
+-->していると思われるが、訳出しないことにした</note>
+
 
 <example><ex_no>8.6</ex_no>
 <lojban>la frank. .e la djordj. vu'o noi nanmu cu
@@ -2852,10 +2878,10 @@ Frank and George, who are men, go to the house.
 </example>
 
 <paragraph>
-この例文では "vu'o" があることによって&relative;&clause; "noi nanmu" は<!--
--->&logically;&connected;&sumti; "la frank. .e la djordj."
-全体に係るようになる。<!--
--->つまり、意訳に見るようにフランクとジョージの両方が男であることを表している。
+うえの例文では vu'o があるので&relative;&clause; noi nanmu は<!--
+-->&logically_connected;&sumti; la frank. .e la djordj.
+全体に係る。<!--
+-->訳のようにフランクとジョージの両方が男であることを表している。
 <en>
 The presence of ``vu'o" here means that the relative clause ``noi nanmu"
 extends to the entire logically connected sumti ``la frank. .e la djordj.";

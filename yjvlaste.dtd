@@ -141,6 +141,7 @@
 	<!ENTITY immediately_follow "が直後に続">
 	<!ENTITY immediately_follow2 "直後に続">
 	<!ENTITY immediately_preceding "直前にある">
+	<!ENTITY immediately_preceding2 "直前の">
 	<!ENTITY imply "という意味を含む">
 	<!ENTITY imply2 "を表す">
 	<!ENTITY inalienable "不可譲">
@@ -185,6 +186,7 @@
 	<!ENTITY logical_connective1 "論理接続詞">
 	<!ENTITY logical_connective2 "論理的な接続">
 	<!ENTITY logically "論理的に">
+	<!ENTITY logically_connected "論理接続された">
 	<!ENTITY logically_or_non_logically "論理的または非論理的に">
 	<!ENTITY lojban "ロジバン">
 	<!ENTITY lujvo "ルジヴォ">
