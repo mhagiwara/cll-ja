@@ -111,31 +111,56 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
        私は店に行かない。 
 </pre>
 <p>ロジバンの内部ブリディ否定 (internal bridi negation) 「na」は、自然言語における否定と違って、常にブリディ全体に係り、常に矛盾否定である。 つまりこの否定文は、元のブリディ全体の言明と矛盾する（両立しない）。 </p>
-<div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの。 <br />
+<div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの<b>ではない</b>。 <a href="chapter16.html#16.9">第16章第9節</a>の記述に基づけば、ロジバンの内部ブリディ否定は、述語論理における<b>最も外側の外部否定</b>に等しい真理値を持つ。 <br />
 「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。 どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。 そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。 <br />
 「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。 これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。 <br />
-<table border="0">
-<tr><td rowspan="2">肯定文</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">da ro de zo'u da ca nolraitru be le fasygu'e .ije ganai de ca nolraitru be le fasygu'e gi de du da .ije da krecau</font></td><td rowspan="2">偽</td></tr>
-<tr> <td><font size="-1"> = pa da zo'u da ca nolraitru be le fasygu'e gi'e krecau</font></td></tr>
+<table border="0" style="font-size: small">
+<tr><td rowspan="2">肯定文</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>da ro de zo'u ge ge da ca nolraitru be le fasygu'e gi ganai de ca nolraitru be le fasygu'e gi de du da gi da krecau</td><td rowspan="2">偽</td></tr>
+<tr> <td> = pa da zo'u ge da ca nolraitru be le fasygu'e gi da krecau</td></tr>
 <tr height="10"><td colspan="3"></td></tr>
-<tr><td rowspan="2">内部否定</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td><font size="-1">da ro de zo'u da ca nolraitru be le fasygu'e .ije ganai de ca nolraitru be le fasygu'e gi de du da .ije da na krecau</font></td><td rowspan="2">偽</td></tr>
-<tr><td><font size="-1">= pa da zo'u da ca nolraitru be le fasygu'e gi'e na krecau</font></td></tr>
+<tr><td rowspan="2">内部否定</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x))</td><td>da ro de zo'u ge ge da ca nolraitru be le fasygu'e gi ganai de ca nolraitru be le fasygu'e gi de du da gi naku zo'u da krecau</td><td rowspan="2">偽</td></tr>
+<tr><td>= pa da zo'u ge da ca nolraitru be le fasygu'e gi naku zo'u da krecau</td></tr>
 <tr height="10"><td colspan="3"></td></tr>
-<tr><td rowspan="2">外部否定</td><td rowspan="2">￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td><font size="-1">naku da ro de zo'u da ca nolraitru be le fasygu'e .ije ganai de ca nolraitru be le fasygu'e gi de du da .ije da krecau</font></td><td rowspan="2">真</td></tr>
-<tr><td><font size="-1">= no da zo'u da ca nolraitru be le fasygu'e gi'e krecau</font></td></tr>
+<tr><td rowspan="2">外部否定</td><td rowspan="2">￢∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>naku da ro de zo'u ge ge da ca nolraitru be le fasygu'e gi ganai de ca nolraitru be le fasygu'e gi de du da gi da krecau</td><td rowspan="2">真</td></tr>
+<tr><td>= no da zo'u ge da ca nolraitru be le fasygu'e gi da krecau</td></tr>
 <tr height="10"><td colspan="4"></td></tr>
 </table>
-このうち、内部否定の形から、量化型スムティ変数を除いた文が、後述の<a href="#e2.6">例2.6</a>である。 ただし、描写型スムティを導入する際に、否定の係る範囲が、本来の内部否定より拡がらざるを得ない。 
-<table border="0" cellpadding="5">
-<tr><td>(1)</td><td>本来の内部否定の形:</td><td>pa da zo'u da ca nolraitru be le fasygu'e gi'e na krecau</td></tr>
-<tr><td>(2)</td><td>zo'u を除いても同じ意味（<a href="chapter16.html#16.5">第16章第5節</a>）:</td><td>pa da ca nolraitru be le fasygu'e gi'e na krecau</td></tr>
-<tr><td>(3)</td><td>量化を消すと、存在についての言明が消える:</td><td>ko'a ca nolraitru be le fasygu'e gi'e na krecau</td></tr>
-<tr><td>(4)</td><td>前提を表すセルブリを、描写型スムティに書き換え:</td><td>lo ca nolraitru be le fasygu'e na krecau</td></tr>
-<tr><td></td><td></td></tr>
-</table>
-この (4) によって gi'e が除かれるので、<a href="#e2.6">例2.6</a>の na は (3) の「ko'a krecau」だけではなく「ko'a ca nolraitru be le fasygu'e」を含めた文全体を否定することになる。 結果的に、<a href="#e2.6">例2.6</a>の真理値は、量化表現の外部否定の真理値に等しくなっている。
+後述の<a href="#e2.6">例2.6</a> <br />
+<blockquote> lo ca nolraitru be le fasygu'e cu na krecau </blockquote>
+の内部ブリディ否定 na は、述語論理におけるこれらの否定と、どういう関係にあるだろうか？ 
+この文を、量化型スムティ変数を使って書き換えてみよう。 
+<a href="chapter6.html#6.7">第6章第7節</a>で説明された、デフォルトの外部数量詞をテルブリに適用すれば、
+<blockquote> su'o lo ca nolraitru be le fasygu'e cu na krecau </blockquote>
+<a href="chapter16.html#16.7">第16章第7節</a>に従って、量化型スムティ変数を導入すると、 
+<blockquote> su'o da poi ca nolraitru be le fasygu'e cu na krecau </blockquote>
+<a href="chapter16.html#16.5">第16章第5節</a>に従って、冠頭を省略しない形に書き換えると、 
+<blockquote> su'o da poi ca nolraitru be le fasygu'e zo'u da na krecau </blockquote>
+<a href="chapter16.html#16.9">第16章第9節</a>に従えば、内部ブリディ否定 na は、外部ブリディ否定 naku を冠頭の左端に置いたものに等しいので、 
+<blockquote> naku su'o da poi ca nolraitru be le fasygu'e zo'u da krecau </blockquote>
+また、同節に書かれているように、 naku su'o da は no da に等しいので、 
+<blockquote> no da poi ca nolraitru be le fasygu'e zo'u da krecau </blockquote>
+冠頭の poi 節を冠頭外に移動して、ブリディ da krecau と論理接続しても、同じ意味だ。 
+<blockquote> no da zo'u ge da ca nolraitru be le fasygu'e gi da krecau </blockquote>
+これは上記の述語論理の「外部否定」の形に等しい。 <br />
+このように、<b>ロジバンの「内部ブリディ否定 na」は、述語論理の最も左に付く「外部否定」に等しく、述語論理の「内部否定」とは異なる</b>ことに、注意しなければならない。
+おそらく、「内部ブリディ否定」という表現は、ブリディの内部に置かれることから名付けられたもので、述語論理の用語とは直接関係ない。
 <br />
-「内部否定」は、量化記号の内側にあるからこそ「内部」否定と呼ばれるのだから、そもそも、量化表現を伴わない否定について、「内部否定」「外部否定」という表現をするのは奇妙だ。しかし、<a href="chapter16.html">第16章</a>で詳述されるように、量化表現を伴うブリディ本体を否定するときには na 、量化表現の方を否定するときには naku が使われ、これらはそれぞれ述語論理の「内部否定」と「外部否定」に相当する。 na によるブリディ否定を「内部ブリディ否定」と呼ぶ慣習は、この na と naku の区別を、量化を伴わない否定にまで（つい）持ち込んだものと思われる。<br />
+それでは、述語論理の「内部否定」は、ロジバンでどう表されるのか？
+<b>冠頭内で最も右に、ロジバンの外部ブリディ否定 naku を置いたものが、述語論理の「内部否定」に等しい。</b>
+例えば上に示した述語論理の内部否定
+<blockquote> ∃x(王(x)∧∀y(王(y)⇒y=x)∧￢禿(x)) </blockquote>
+のロジバン表現を見てみよう。構造を見やすくするために、論理接続表現を ( ) で区切り、インデント付きで表示すると
+<blockquote> da ro de zo'u 
+              <div style="text-indent:1em"> (ge </div>
+                <div style="text-indent:2em"> (ge da ca nolraitru be le fasygu'e) </div>
+                <div style="text-indent:2em"> (gi </div>
+                   <div style="text-indent:3em"> (ganai de ca nolraitru be le fasygu'e) </div>
+                   <div style="text-indent:3em"> (gi de du da)) </div>
+              <div style="text-indent:1em"> (gi naku zo'u da krecau))</div> </blockquote>
+冠頭をブリディと区切るシマヴォ zo'u が2回使われているが、2回目の zo'u は論理接続の中にあるので、これに続くブリディにおいても、1回目の zo'u で区切られている冠頭が有効である。
+従って、全体として、冠頭内での出現順序は da, rode, naku という順序になっていることが見て取れる。
+つまり、この naku は冠頭内で最も右に置かれている。
+<br />
 <a href="http://fr.wikipedia.org/wiki/N%C3%A9gation_(linguistique)#La_calvitie_du_roi_de_France">参考：否定についての説明（フランス語）</a>
 </div>
 <p><span class="notci"># 日本語の「ない」の意味は曖昧なので、</span>ブリディ否定「na」は「偽」と訳す方が正確だ。 他の例をいくつか挙げよう。 </p>
