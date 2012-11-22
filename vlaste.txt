@@ -236,4 +236,5 @@ unspecified value	不特定項 # （zo'e の意味）
 utterance	発話
 utterance ordinal	発話順序
 vague  漠然とした
+variable	変項; 変数（mekso 内で現れる場合）
 vocative phrase	呼応句	# 提案

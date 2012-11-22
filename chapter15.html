@@ -113,7 +113,7 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
 <p>ロジバンの内部ブリディ否定 (internal bridi negation) 「na」は、自然言語における否定と違って、常にブリディ全体に係り、常に矛盾否定である。 つまりこの否定文は、元のブリディ全体の言明と矛盾する（両立しない）。 </p>
 <div class="notci"># 内部ブリディ否定 (internal bridi negation) ：内部否定 (internal negation) をブリディに適用したもの<b>ではない</b>。 <a href="chapter16.html#16.9">第16章第9節</a>の記述に基づけば、ロジバンの内部ブリディ否定は、述語論理における<b>最も外側の外部否定</b>に等しい真理値を持つ。 <br />
 「現在のフランス国王は禿げている」という命題と、その否定「現在のフランス国王は禿げていない」という命題の真理値を考える。 どちらかを偽とすれば、排中律により、もう一方は真となるはずだが、「現在のフランス国王」が存在しない場合、どちらも真とは言えないように見える。 そこで、「現在のフランス国王は禿げている」という文の真理値を決めるために、命題自体の否定（内部否定）のほかに、「『現在のフランス国王』が存在する」という前提の否定（外部否定）を導入する。 <br />
-「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。 これらの記号列は、ロジバンでは量化型スムティ変数 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。 <br />
+「現在のフランス国王は禿げている」を、述語論理の記号で書くと、以下のようになる（「xは現在のフランス国王である」を「王(x)」、「xは禿げている」を「禿(x)」と表している）。 これらの記号列は、ロジバンでは量化型変項 da（<a href="chapter16.html">第16章</a>で解説）を使って正確に表現できる。 <br />
 <table border="0" style="font-size: small">
 <tr><td rowspan="2">肯定文</td><td rowspan="2">∃x(王(x)∧∀y(王(y)⇒y=x)∧禿(x))</td><td>da ro de zo'u ge ge da ca nolraitru be le fasygu'e gi ganai de ca nolraitru be le fasygu'e gi de du da gi da krecau</td><td rowspan="2">偽</td></tr>
 <tr> <td> = pa da zo'u ge da ca nolraitru be le fasygu'e gi da krecau</td></tr>
@@ -128,10 +128,10 @@ A<sub>1</sub>,...,A<sub>n</sub>⊢B<sub>1</sub>,...,B<sub>n</sub><br />
 後述の<a href="#e2.6">例2.6</a> <br />
 <blockquote> lo ca nolraitru be le fasygu'e cu na krecau </blockquote>
 の内部ブリディ否定 na は、述語論理におけるこれらの否定と、どういう関係にあるだろうか？ 
-この文を、量化型スムティ変数を使って書き換えてみよう。 
+この文を、量化型変項を使って書き換えてみよう。 
 <a href="chapter6.html#6.7">第6章第7節</a>で説明された、デフォルトの外部数量詞をテルブリに適用すれば、
 <blockquote> su'o lo ca nolraitru be le fasygu'e cu na krecau </blockquote>
-<a href="chapter16.html#16.7">第16章第7節</a>に従って、量化型スムティ変数を導入すると、 
+<a href="chapter16.html#16.7">第16章第7節</a>に従って、量化型変項を導入すると、 
 <blockquote> su'o da poi ca nolraitru be le fasygu'e cu na krecau </blockquote>
 <a href="chapter16.html#16.5">第16章第5節</a>に従って、冠頭を省略しない形に書き換えると、 
 <blockquote> su'o da poi ca nolraitru be le fasygu'e zo'u da na krecau </blockquote>
@@ -536,7 +536,7 @@ co &lt; 無 &lt; je/joi &lt; bo &lt; na'e
        0人の現在のフランス国王は禿だ。 
 </pre>
 <div class="notci"># 
-これは<a href="http://mhagiwara.github.com/cll-ja/chapter15.html#e2.4">第2節の注</a>に書いた外部否定から量化変数を除いた形である。
+これは<a href="http://mhagiwara.github.com/cll-ja/chapter15.html#e2.4">第2節の注</a>に書いた外部否定から量化型変項を除いた形である。
 </div>
 <a href="#e6.1">例6.1</a>は真だ。 なぜなら、この文は、現在のフランス国王について、それが何人いようとも、その中に禿は一人もいないということを言明しているだけであって、これは明らかに真であるからだ。 実際、禿の現在のフランス国王はいないのだから。 
 <p>同じ文で「na'ebo」否定を使った例を見よう。 </p>
