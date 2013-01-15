@@ -1,3 +1,5 @@
+# 最新版は http://ponjbogri.github.com/cll-ja/farvi.txt
+
 左端の数字の意味
 0: 担当者未定
 1: 準備中（担当者は決まっているが未公開）

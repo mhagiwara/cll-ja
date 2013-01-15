@@ -1,3 +1,5 @@
+# 最新版は http://ponjbogri.github.com/cll-ja/vlaste.txt
+
 abstract description	抽象的描写
 abstract sumti	抽象スムティ
 abstraction	抽象化
