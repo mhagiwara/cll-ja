@@ -1,0 +1,240 @@
+abstract description	抽象的描写
+abstract sumti	抽象スムティ
+abstraction	抽象化
+abstraction selbri	抽象化セルブリ
+abstractor	抽象詞
+achievement	到達点
+activity	活動
+afterthought	後置
+agent	動作主
+ambiguous  曖昧な
+amount	量
+anaphora	照応
+argument	項
+argument tag	項タグ
+aspect	相制
+assert	表明
+assign	割り当てる
+associator	連結詞	# 提案: 第8章の vu'o に対して
+attitudinal	心態詞
+attitudinal indicator	心態詞
+bridi	ブリディ
+bridi cmavo	代ブリディ	# 提案
+bridi negation	ブリディ否定
+bridi-schema	ブリディ構成
+bridi-tail	ブリディ末端
+brivla	ブリヴラ
+cataphora	後方照応
+claim	言明
+cmavo	シマヴォ
+cmene	シメネ
+comment	評言	# 提案
+complex	複合
+compound	合成
+compound cmavo	複合シマヴォ
+compound lerfu word	複合レルフ詞
+connection	接続
+connective	接続詞
+contradictory negation	矛盾否定
+conversational protocol		# 求む提案: 第20章では「会語の手順」と訳したが
+conversion	転換 # （SE 類の機能）
+convert	転換 # （SE 類の機能）
+declaration	宣言
+declare	述べる
+dependent place	依存する場所
+described	記述された # （LE 類の意味）
+description sumti	描写スムティ
+description selbri	描写セルブリ
+description	描写
+descriptor	描写	# 提案: 第8章では「描写」と訳したほうが良さそうな "descriptor" がある
+descriptor	描写型の冠詞
+dimensioned unit		# 求む提案: 第20章では「単位つきの量」としたが
+direct question	直接疑問
+discourse	談話	# universe of discourse と mathematical discourse 以外
+discursive	談話系
+elidable	省略可能な
+ellipsize	省略
+ellipsis	省略
+ellipsis of sumti	スムティの省略
+elliptical	省略的
+endpoint	端点
+entry point	開始点
+epistemology	認識論
+evidential	明察系 # 検討中
+event	出来事
+event contour	事象線 # 検討中
+filter	フィルタ
+filtering	フィルタリング
+flag	フラグ	# 暫定
+following	以下の/後続する	# 提案
+followed by	が後続する/を後置して	# 提案
+followed with	が後続する/を後置して	# 提案
+forethought	前置
+free modifier	自由修飾語/自由修飾句	# 提案
+fu'ivla	フヒヴラ
+gismu	ギスム
+gloss	逐語訳
+gloss word	見出し語
+implicit-abstraction lujvo	暗黙抽象ルジヴォ
+incidental relative clause	非限定関係節	# 提案
+incidental relative phrase	付随関係句
+# 提案: 英語教育を受けた日本人にとっては、「付随」より「非限定」のほうが
+#       わかりやすいと思われる。意訳の部分では、
+#       non-restrictive と読みかえて、「非限定」と訳すのはどうだろうか。
+indefinite	不定の
+indefinite sumti	# 求む提案。「不定スムティ」かな。しかし何が不定なのかわからない
+indicate	を示す	# 提案
+indicator	指標	# 提案: 心態詞の省略形、心態詞と訳したほうがわかりやすいかも
+indirect question	間接疑問
+inner quantifier	内部数量詞	# 提案
+internal bridi negation	内部ブリディ否定
+interval   範囲		# 数学の場合「区間」のほうが適切か
+introducer	導入詞	# 提案
+James Cooke Brown	ジェームズ・クック・ブラウン
+joiner	結合詞	# 提案: 第8章第4節の zi'e の名前として
+label	ラベル／ラベル付け
+language-coded processing	言語符号化処理
+left-grouping rule	左結合則
+lerfu	レルフ
+lerfu string	レルフ列
+lerfu word	レルフ詞
+letteral	字詞
+lexer	字句解析器, 字句解析子（lexer token の略として出現する場合）
+Lexer Lexeme	字句解析語彙素
+lexer rule	字句解析規則
+lexer token	字句解析トークン
+lexing  字句解析
+logical	論理的
+logical assertion 論理的表明
+logical connection	論理接続
+logical connective	論理接続詞
+logical entailment	論理的前提
+Loglan Project	ログラン・プロジェクト
+Lojban	ロジバン
+Lojbanist	ロジバン話者
+Logical Assertions	論理的表明
+lujvo	ルジヴォ
+mark	を示す	# 提案
+marker	マーカー
+metalinguistic		メタ言語の	# 提案
+material conditional	論理包含
+mathematical	数学の/数学的	# 提案
+mathematical discourse  数学的論説
+mathematical expression	数式	# 提案
+mathematical operand	数学被演算子	# 提案
+mathematical operation	数学演算	# 提案
+mathematical operator	数学演算子	# 提案
+mixed and	群化の「と」  # 提案
+modal	法制
+modal place 法制場所
+modifier	限定詞	# 提案: 修飾語/修飾句
+multi-step process	多手順過程	# 一般的には「多段階過程」と訳されるが、本書では scale に「段階」という訳語を与えているので、混同を避けるため
+name	固有名  # 提案
+natural language negation	自然言語否定
+nonce word	臨時語	# 提案
+non-logical	非論理的
+non-logical connection	非論理接続	# 提案
+non-logical connective	非論理接続詞	# 提案
+non-restrictive	非限定	# 提案
+non-veridical	非真実	# 提案
+null	ヌル
+numeral string	数詞列
+numeric cmavo	数字シマヴォ	# 提案
+observational	観察系
+observative	観察文
+operand	被演算子	# 提案
+operator	演算子	# 提案
+optional	任意の	# 提案
+outer quantifier	外部数量詞	# 提案
+parse	構文解析
+parser	構文解析器／パーサ
+particle	小辞	# 提案: 他の案として「小詞」等
+pause	休止 # 検討中
+place	場所
+place-holder	穴埋め語
+place structure	場所構造 # あるいは PS?
+plausible	納得できる（回答の選択肢として）
+point event	瞬間的出来事
+positive assertion  肯定文
+polar negation	対義否定
+polar opposite	正反対
+pragmatic	語用論上の
+precedence	優先順位 #演算子のpreceding	先行する	# 提案
+predicate	述語
+predication	断言
+prefix	接頭辞
+prefix	前置する	# 提案
+prenex	冠頭	# 提案
+previous	先行する	# 提案
+pro-bridi	代ブリディ
+pro-sumti	代スムティ
+process	過程
+property	性質
+proposition	命題
+propositional attitude	命題的態度
+quality	質
+qualifier	限定詞	# 提案: modifier との訳し分けが必要に思う
+quantity	量
+quantification	量化
+quantificational	量化型
+quantified	量化された
+quantifier	数量詞
+quantify	被演算子化（第21章 NIhE/MOhE の説明に限る）
+quotation	引用	# 提案: 意味としては「文字列化」や「文字化」のほうが良いか
+quote	引用する	# 提案: 上記参照
+rafsi	ラフシ
+range within the scale	段階上の範囲
+relationship	関係
+resolve	分解
+restrictive relative clause	限定関係節
+restrictive relative phrase	限定関係句
+root word	根語
+scale	段階
+scalar negation	段階否定
+scope	（文中で）係る範囲	# 「掛かる」を「係る」に修正
+selbri	セルブリ
+selma'o	セルマホ
+semantic primitives	意味素
+sentence	文
+sequence	並び # 提案
+shift	変意 #  提案
+shift word	変意詞 #  提案
+signal	シグナル	# 提案
+something-unspecified	不特定の何か
+spatial tense	空間制
+speech	発言
+state	状態
+step	手順
+stickiness	貼り付き # （ki の意味）
+sticky	貼り付く # （ki の意味）
+suffix	接尾辞
+suffix	後置する	# 提案
+sumti	スムティ
+sumti cmavo	代スムティ	# 提案
+sumti place	スムティの場所
+sumti raising	スムティ昇格
+sumti tcita	法制スムティ
+syllable break	音節区切り
+symbol	記号	# 提案
+tag	タグ
+tanru	タンル
+tanru unit	タンルの構成単位	# 提案
+topic	主題	# 提案
+temporal tense	時間制
+tense	間制
+terminator	終端詞
+term	名辞
+terminal	定義語
+termset	名辞組
+text	文
+token	トークン
+tri-valued logic	3値論理
+truth value	真偽値
+truth function	真偽関数
+universe of discourse 議論領域
+unspecified value	不特定項 # （zo'e の意味）
+utterance	発話
+utterance ordinal	発話順序
+vague  漠然とした
+variable	変項
+vocative phrase	呼応句	# 提案
